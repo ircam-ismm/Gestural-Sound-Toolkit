@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,37 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.3267, 0.3267, 0.3267, 0.367221 ],
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"id" : "obj-47",
+					"maxclass" : "number",
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 822.806487595428507, 222.0, 66.285708427429199, 21.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 542.806487595428507, 759.0, 109.285708427429199, 22.0 ],
+					"text" : "route bufferindex"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "imubu inlet",
 					"id" : "obj-2",
@@ -118,8 +149,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -634,10 +665,16 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 15,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
+					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_circlefilled" : 1,
 					"cursor_circleheight" : 3.0,
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_followmouse" : 0,
+					"cursor_nearest" : 0,
+					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
 					"cursor_position" : -1.0,
 					"cursor_shape" : "bar",
@@ -1164,7 +1201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 689.806487595428507, 95.952378511428833, 70.0, 21.0 ],
+					"patching_rect" : [ 704.842257534851115, 89.952378511428833, 70.0, 21.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1210,9 +1247,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 987.970197733139116, 534.095995267798685, 110.833313000000203, 92.333372758136647 ],
+					"patching_rect" : [ 987.970197733139116, 534.095995267798685, 111.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.785718679428101, 78.071416125999463, 60.059040560786613, 99.6651175345512 ],
+					"presentation_rect" : [ 2.785718679428101, 78.071416125999463, 60.0, 100.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 3
@@ -1243,8 +1280,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1683,7 +1720,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 714.788637037214357, 124.452378511428833, 83.035701116428356, 19.0 ],
+					"patching_rect" : [ 733.788637037214357, 124.452378511428833, 83.035701116428356, 19.0 ],
 					"text" : "reset to label 1",
 					"textcolor" : [ 0.0381, 0.27339, 0.458347, 1.0 ]
 				}
@@ -1715,7 +1752,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 689.806487595428507, 124.452378511428833, 23.0, 21.0 ],
+					"patching_rect" : [ 704.842257534851115, 121.952378511428833, 23.0, 21.0 ],
 					"text" : "1"
 				}
 
@@ -2107,6 +2144,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"midpoints" : [ 552.306487595428507, 804.0, 524.413633381713908, 804.0, 524.413633381713908, 198.0, 551.806487595428507, 198.0 ],
+					"order" : 1,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -2178,6 +2232,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
@@ -2234,7 +2295,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"order" : 0,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
+					"order" : 1,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -2593,14 +2663,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "mubu.gmr.maxhelp",
 				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../../Max 8/Packages/MuBu For Max/help",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBu For Max/help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.setlabels.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../../Max 8/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBu For Max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

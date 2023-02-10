@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -57.0, 79.0, 1703.0, 897.0 ],
+		"rect" : [ 34.0, 79.0, 1703.0, 897.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,9 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 481.806487595428507, 792.0, 100.0, 22.0 ],
+					"text" : "route bufferindex"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "imubu inlet",
 					"id" : "obj-9",
-					"index" : 9,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -62,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 230.730510561141955, 469.000003291858661, 107.0, 156.0 ],
+					"patching_rect" : [ 230.730510561141955, 469.000003291858661, 109.0, 156.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -118,8 +130,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -612,7 +624,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 351.520779167999251, 469.000003291858661, 107.0, 156.0 ],
+					"patching_rect" : [ 351.520779167999251, 469.000003291858661, 109.0, 156.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -646,7 +658,7 @@
 				"box" : 				{
 					"comment" : "Likeliest label [Int]",
 					"id" : "obj-42",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -658,7 +670,7 @@
 				"box" : 				{
 					"comment" : "mubu.xmm first inlet",
 					"id" : "obj-37",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -671,7 +683,7 @@
 				"box" : 				{
 					"comment" : "regularization [float] (absolute and relative)",
 					"id" : "obj-32",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -684,7 +696,7 @@
 				"box" : 				{
 					"comment" : "label maximum number [Int]",
 					"id" : "obj-30",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -697,7 +709,7 @@
 				"box" : 				{
 					"comment" : "label [Int]",
 					"id" : "obj-27",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -710,7 +722,7 @@
 				"box" : 				{
 					"comment" : "automatic increment [1/0]",
 					"id" : "obj-17",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -723,7 +735,7 @@
 				"box" : 				{
 					"comment" : "record [1/0]",
 					"id" : "obj-16",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -736,7 +748,7 @@
 				"box" : 				{
 					"comment" : "ouput [list]",
 					"id" : "obj-15",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -749,7 +761,7 @@
 				"box" : 				{
 					"comment" : "input [list]",
 					"id" : "obj-39",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -771,10 +783,16 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 15,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
+					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_circlefilled" : 1,
 					"cursor_circleheight" : 3.0,
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_followmouse" : 0,
+					"cursor_nearest" : 0,
+					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
 					"cursor_position" : -1.0,
 					"cursor_shape" : "bar",
@@ -845,7 +863,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-78",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1150,7 +1168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 632.806487595428507, 126.952378511428833, 70.0, 21.0 ],
+					"patching_rect" : [ 650.806487595428507, 126.952378511428833, 70.0, 21.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1196,9 +1214,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 930.970197733139116, 565.095995267798685, 110.833313000000203, 92.333372758136647 ],
+					"patching_rect" : [ 930.970197733139116, 565.095995267798685, 111.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.785718679428101, 78.071416125999463, 60.059040560786613, 99.6651175345512 ],
+					"presentation_rect" : [ 2.785718679428101, 78.071416125999463, 60.0, 100.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 3
@@ -1229,8 +1247,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1669,7 +1687,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 657.788637037214357, 155.452378511428833, 83.035701116428356, 19.0 ],
+					"patching_rect" : [ 675.788637037214357, 152.952378511428833, 83.035701116428356, 19.0 ],
 					"text" : "reset to label 1",
 					"textcolor" : [ 0.0381, 0.27339, 0.458347, 1.0 ]
 				}
@@ -1701,7 +1719,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 632.806487595428507, 155.452378511428833, 23.0, 21.0 ],
+					"patching_rect" : [ 650.806487595428507, 152.952378511428833, 23.0, 21.0 ],
 					"text" : "1"
 				}
 
@@ -2071,7 +2089,7 @@
 				"box" : 				{
 					"comment" : "likelihood [List]",
 					"id" : "obj-43",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2131,6 +2149,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"midpoints" : [ 491.306487595428507, 825.0, 476.413633381713908, 825.0, 476.413633381713908, 229.0, 494.806487595428507, 229.0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 3 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -2147,6 +2182,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -2208,7 +2250,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"order" : 0,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
+					"order" : 1,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -2588,7 +2639,53 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "mubu.xmm.maxhelp",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBu For Max/help",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mubu.setlabels.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBu For Max/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "helpstarter.js",
+				"bootpath" : "C74:/help/resources",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mubu.xmm.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

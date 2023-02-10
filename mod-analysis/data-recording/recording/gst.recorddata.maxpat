@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 108.0, 140.0, 1406.0, 876.0 ],
+		"rect" : [ 167.0, 79.0, 1479.0, 876.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -124,7 +124,7 @@
 				"box" : 				{
 					"comment" : "messages to imubu",
 					"id" : "obj-22",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -137,7 +137,7 @@
 				"box" : 				{
 					"comment" : "play [1/0]",
 					"id" : "obj-5",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -150,7 +150,7 @@
 				"box" : 				{
 					"comment" : "record [1/0]",
 					"id" : "obj-3",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -259,7 +259,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1135.0, 46.5, 45.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.499999999999886, 115.0, 80.0, 21.0 ],
+					"presentation_rect" : [ 406.499999999999886, 115.0, 93.500000000000114, 21.0 ],
 					"text" : "writealltracks"
 				}
 
@@ -349,19 +349,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 187.0, 50.0, 22.0 ],
 					"text" : "loop $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-73",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1200.0, 52.5, 28.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 483.499999999999886, 116.0, 28.0, 20.0 ],
-					"text" : ".txt "
 				}
 
 			}
@@ -510,7 +497,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -522,7 +509,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-38",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -575,7 +562,7 @@
 				"box" : 				{
 					"comment" : "signal 3 [float float float]",
 					"id" : "obj-23",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -588,7 +575,7 @@
 				"box" : 				{
 					"comment" : "signal 2 [float float float]",
 					"id" : "obj-21",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -601,7 +588,7 @@
 				"box" : 				{
 					"comment" : "signal 1 [float float float]",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -614,7 +601,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -791,7 +778,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track #0-data 3 sig3 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1\" @predef yes"
+					"text" : "mubu.track #0-data 3 sig3 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1, interface multiwave\" @predef yes"
 				}
 
 			}
@@ -811,7 +798,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track #0-data 2 sig2 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 0, autobounds 1\" @predef yes"
+					"text" : "mubu.track #0-data 2 sig2 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 0, autobounds 1, interface multiwave\" @predef yes"
 				}
 
 			}
@@ -831,7 +818,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track #0-data 1 sig1 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 255 0 0, autobounds 1\" @predef yes"
+					"text" : "mubu.track #0-data 1 sig1 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 255 0 0, autobounds 1, interface multiwave\" @predef yes"
 				}
 
 			}
@@ -864,6 +851,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 15,
 					"bufferchooser_visible" : 0,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefilled" : 1,
@@ -1366,6 +1354,28 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"stripecolor" : [ 0.149019607843137, 0.145098039215686, 0.145098039215686, 1.0 ]
 	}
 
