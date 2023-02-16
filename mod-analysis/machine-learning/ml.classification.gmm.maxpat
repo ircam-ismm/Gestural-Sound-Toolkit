@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 248.0, 79.0, 1319.0, 897.0 ],
+		"rect" : [ 277.0, 432.0, 1319.0, 897.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -73,7 +73,7 @@
 				"box" : 				{
 					"comment" : "imubu inlet",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -86,7 +86,7 @@
 				"box" : 				{
 					"comment" : "mubu.hhmm first inlet",
 					"id" : "obj-37",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -99,7 +99,7 @@
 				"box" : 				{
 					"comment" : "regularization [float] (absolute and relative)",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -112,7 +112,7 @@
 				"box" : 				{
 					"comment" : "label maximum number [Int]",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -125,7 +125,7 @@
 				"box" : 				{
 					"comment" : "label [Int]",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -138,7 +138,7 @@
 				"box" : 				{
 					"comment" : "automatic increment [1/0]",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -151,7 +151,7 @@
 				"box" : 				{
 					"comment" : "record [1/0]",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -564,7 +564,7 @@
 				"box" : 				{
 					"comment" : "Likeliest label",
 					"id" : "obj-78",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -634,7 +634,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1034,10 +1034,10 @@
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 167.0, 23.0, 22.0 ],
-									"text" : "t 1"
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"patching_rect" : [ 50.0, 167.0, 39.0, 22.0 ],
+									"text" : "t 1 b"
 								}
 
 							}
@@ -1197,6 +1197,13 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-2", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-76", 0 ],
 									"source" : [ "obj-2", 0 ]
 								}
@@ -1305,13 +1312,6 @@
 									"destination" : [ "obj-1", 0 ],
 									"midpoints" : [ 175.5, 210.964293999999995, 379.499969000000021, 210.964293999999995 ],
 									"source" : [ "obj-82", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 1 ],
-									"source" : [ "obj-82", 0 ]
 								}
 
 							}
@@ -1877,7 +1877,7 @@
 					"background" : 1,
 					"comment" : "likelihood [List]",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2382,53 +2382,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "mubu.gmm.maxhelp",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/MuBu For Max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.gmm.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pipo.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
