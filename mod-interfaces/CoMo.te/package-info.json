@@ -1,0 +1,41 @@
+{
+	"name" : "comote",
+	"displayname" : "",
+	"version" : "1.0",
+	"author" : "ISMM Team @ Ircam",
+	"authors" : [  ],
+	"description" : "Enable for the automatic setting of the CoMo.te smartphone application that stream motion sensors data",
+	"tags" : [ "sensor","gesture" ],
+	"website" : "https://ismm-apps.ircam.fr/comote",
+	"extends" : "",
+	"extensible" : 0,
+	"max_version_min" : "7.0",
+	"max_version_max" : "none",
+	"os" : 	{
+		"macintosh" : 		{
+			"min_version" : "10.11.x",
+			"platform" : [ "x64", "aarch64" ]
+		}
+,
+		"windows" : 		{
+			"min_version" : "7",
+			"platform" : [ "x64" ]
+		}
+
+	}
+,
+	"homepatcher" : "CoMo.te.maxpat",
+	"filelist" : 	{
+		"examples" : [],
+		"externals" : [],
+		"patchers" : ["comote.connect.maxpat"],
+		"help" : [ "comote.connect.maxhelp" ],
+		"interfaces" : [],
+		"jsextensions" : [],
+		"media" : [],
+		"docs" : [ "_c74_common.css", "_c74_common.xml", "_c74_common.xsl", "_c74_compat.html", "_c74_contents.xml", "_c74_platform.xsl", "_c74_ref.xsl", "_c74_ref_common.xsl", "_c74_vig.xsl", "_c74_vig_common.xsl", "sw.shared-state.maxref" ],
+		"extras" : [ "CoMo.te.maxpat" ]
+	}
+,
+	"c74install" : 0,
+}

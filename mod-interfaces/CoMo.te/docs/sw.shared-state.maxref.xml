@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="comote-connect">
+
+	<digest>
+		Create QRCodes for simple connection with the CoMo.te applications.
+	</digest>
+	
+	<description>
+	</description>
+	
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Benjamin Matuszewski</metadata>
+		<metadata name="tag">OSC</metadata>
+		<metadata name="tag">WebSockets</metadata>
+		<metadata name="tag">CoMo.te</metadata>
+		<metadata name="tag">IRCAM</metadata>
+	</metadatalist>
+	
+	<!--INLETS-->
+	<inletlist>
+		<!-- <inlet id="0" type="dictionary">
+			<digest>Create QRCodes for simple connection with the CoMo.te applications.</digest>
+		</inlet> -->
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<!-- <outlet id="0" type="dictionary">
+			<digest>Dictionary: monitor schema's updates.</digest>
+		</outlet>
+		<outlet id="1" type="dictionary">
+			<digest>Dictionary: monitor schema's values.</digest>
+		</outlet>
+		<outlet id="2" type="dictionary">
+			<digest>Dictionary: soundworks' schema definition.</digest>
+		</outlet> -->
+	</outletlist>
+	
+	<!--ARGUMENTS-->
+	<objarglist>
+		<!-- <objarg name="schemaName" optional="0" type="symbol">
+            <digest>Soundworks' schema's name to communicate.</digest>
+        </objarg> -->
+	</objarglist>
+	
+	<!--MESSAGES-->
+	<methodlist>
+		<!-- <method name="bang">
+			<digest>
+				Ask for the state's current values
+			</digest>
+			<description>
+				Bang to ask for the state's current values. Output from the first outlet will be a dictionary.
+			</description>
+		</method>
+		<method name="dictionary">
+			<arglist />
+			<digest>
+				Function depends on inlet
+			</digest>
+			<description>
+				Control soundworks shared states
+			</description>
+		</method>
+		<method name="schema">
+			<arglist />
+			<digest>
+				Ask for the schema of soundworks' states
+			</digest>
+			<description>
+				Ask for the formal definition of the parameters of soundworks' state.
+			</description>
+		</method> -->
+	</methodlist>
+
+	<!--ATTRIBUTES-->
+
+    <attributelist>
+
+      <!--   <attribute name='ip' get='0' set='1' type='symbol' size='1' >
+            <digest>IP Address of soundworks' server</digest>
+            <description>IP Address of soundworks' server. Default is localhost</description>
+        </attribute>
+ -->
+    </attributelist>
+	
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="udpreceive"/>
+	</seealsolist>
+	
+</c74object>

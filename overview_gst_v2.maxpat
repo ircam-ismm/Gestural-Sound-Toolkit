@@ -48,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 601.89019775390625, 24.0, 247.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : " https://forum.ircam.fr/projects/detail/mubu/"
 				}
 
@@ -100,7 +99,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1319.0, 410.0, 65.0, 22.0 ],
-					"text" : "0.107939"
+					"text" : "0.109386"
 				}
 
 			}
@@ -556,11 +555,11 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "drawing.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 121.137199401855469, 77.975730895996094, 160.725601196289062, 133.56695556640625 ],
+					"patching_rect" : [ 120.5, 77.975730895996094, 164.862800598144531, 132.56695556640625 ],
 					"viewvisibility" : 1
 				}
 
@@ -1004,13 +1003,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -1467,13 +1459,6 @@
 				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
 				"patcherrelativepath" : "./mod-interfaces/CoMo.te/patchers",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote.connect.maxhelp",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "./mod-interfaces/CoMo.te/patchers",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

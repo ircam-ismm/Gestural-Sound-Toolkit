@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.6, 0.678431, 0.756863, 0.0 ],
+					"bgmode" : 2,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "in.comote.maxpat",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"offset" : [ -7.0, -5.0 ],
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 393.625, 19.975739000000004, 163.0, 132.56695556640625 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontsize" : 18.0,
 					"id" : "obj-4",
@@ -48,7 +70,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.79486083984375, 169.5, 142.0, 71.0 ],
-					"presentation_linecount" : 3,
 					"text" : "space bar to start/stop recording"
 				}
 
@@ -236,6 +257,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-40",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "gst.synth.FM.maxpat",
 					"numinlets" : 6,
@@ -270,6 +292,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "drawing.maxpat",
 					"numinlets" : 3,
@@ -291,6 +314,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-26",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sid.output.maxpat",
 					"numinlets" : 2,
@@ -311,6 +335,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "sp.orientation.maxpat",
 					"numinlets" : 2,
@@ -332,6 +357,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-41",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "in.riotbitalino.maxpat",
 					"numinlets" : 4,
@@ -352,6 +378,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ml.regression.gmr.maxpat",
 					"numinlets" : 9,
@@ -437,6 +464,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -496,7 +537,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 1 ],
+					"order" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -525,7 +575,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 486.5, 567.0, 620.5, 567.0 ],
 					"order" : 0,
 					"source" : [ "obj-8", 2 ]
 				}
@@ -550,6 +599,9 @@
  ],
 		"parameters" : 		{
 			"obj-26::obj-2" : [ "live.gain~[5]", "live.gain~[4]", 0 ],
+			"obj-2::obj-55" : [ "live.text", "live.text", 0 ],
+			"obj-2::obj-56" : [ "live.text[1]", "live.text", 0 ],
+			"obj-2::obj-60" : [ "live.text[3]", "live.text[3]", 0 ],
 			"obj-40::obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
@@ -560,22 +612,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ml.regression.gmr.maxpat",
-				"bootpath" : "~/Work/Development/Gestural-Sound-Toolkit-v2/mod-analysis/machine-learning",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-analysis/machine-learning",
 				"patcherrelativepath" : "../mod-analysis/machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.gmr.maxhelp",
-				"bootpath" : "~/Work/Development/MaxMSP/MuBu-1.9.15/help",
-				"patcherrelativepath" : "../../MaxMSP/MuBu-1.9.15/help",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Work/Development/MaxMSP/MuBu-1.9.15/patchers",
-				"patcherrelativepath" : "../../MaxMSP/MuBu-1.9.15/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -587,44 +639,97 @@
 			}
 , 			{
 				"name" : "in.riotbitalino.maxpat",
-				"bootpath" : "~/Work/Development/Gestural-Sound-Toolkit-v2/mod-interfaces/riot",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/riot",
 				"patcherrelativepath" : "../mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Work/Development/Gestural-Sound-Toolkit-v2/mod-interfaces/riot",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/riot",
 				"patcherrelativepath" : "../mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.orientation.maxpat",
-				"bootpath" : "~/Work/Development/Gestural-Sound-Toolkit-v2/mod-analysis/signal-processing",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-analysis/signal-processing",
 				"patcherrelativepath" : "../mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sid.output.maxpat",
-				"bootpath" : "~/Work/Development/Gestural-Sound-Toolkit-v2/mod-synthesis",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-synthesis",
 				"patcherrelativepath" : "../mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawing.maxpat",
-				"bootpath" : "~/Work/Development/Gestural-Sound-Toolkit-v2/mod-interfaces/lcd",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/lcd",
 				"patcherrelativepath" : "../mod-interfaces/lcd",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.synth.FM.maxpat",
-				"bootpath" : "~/Work/Development/Gestural-Sound-Toolkit-v2/mod-synthesis",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-synthesis",
 				"patcherrelativepath" : "../mod-synthesis",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FM.png",
+				"bootpath" : "~/Documents/Talks/AImove/Max patches-soundsynthesis",
+				"patcherrelativepath" : "../../../Documents/Talks/AImove/Max patches-soundsynthesis",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "in.comote.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te",
+				"patcherrelativepath" : "../mod-interfaces/CoMo.te",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comote.connect.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
+				"patcherrelativepath" : "../mod-interfaces/CoMo.te/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "server.js",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
+				"patcherrelativepath" : "../mod-interfaces/CoMo.te/patchers",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "n4m.monitor.maxpat",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "resize_n4m_monitor_patcher.js",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fit_jweb_to_bounds.js",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "resize.js",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
+				"patcherrelativepath" : "../mod-interfaces/CoMo.te/patchers",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
