@@ -489,7 +489,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"order" : 1,
+					"order" : 4,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -497,7 +497,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"order" : 4,
+					"order" : 3,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -512,7 +512,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -520,7 +520,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -528,7 +528,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -768,6 +768,13 @@
 				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
 				"patcherrelativepath" : "../mod-interfaces/CoMo.te/patchers",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comote-screenshot-3.png",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/extras",
+				"patcherrelativepath" : "../mod-interfaces/CoMo.te/extras",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
