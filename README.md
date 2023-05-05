@@ -9,10 +9,13 @@ Clone the repo:
 ```
 git clone --depth=1 https://github.com/ircam-ismm/Gestural-Sound-Toolkit.git 
 ```
+or download the [zip](https://github.com/ircam-ismm/Gestural-Sound-Toolkit/archive/refs/heads/master.zip)
+
+Gestural Sound Toolkit V2 is a Max package that must be  copied in the Max Package folder
 
 The toolkit makes use of the MuBu lib developed by the ISMM team at IRCAM. 
 
-This a Max/MSP library that is free avaaialble as Max Package (in the Package manager), or freely available at the Forum Ircam
+This a Max/MSP library that is free avaialble as Max Package (in the Package manager), or freely available at the Forum Ircam
 
 [https://forum.ircam.fr/projects/detail/mubu/](https://forum.ircam.fr/projects/detail/mubu/) 
 (necessary to register to the IRCAM forum [spam-free])
