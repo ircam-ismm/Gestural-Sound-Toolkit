@@ -1,0 +1,42 @@
+{
+	"name" : "Gestural-Sound-Toolkit-V2",
+	"displayname" : "",
+	"version" : "2.1",
+	"author" : "",
+	"authors" : ["Baptiste Caramiaux", "Alessandro Altavilla", "Frederic Bevilacqua"],
+	"description" : "Toolkit in Max/MSP for gesture-to-sound scenario prototyping",
+	"tags" : [ "machine learning", "gesture recognition", "visualization", "gesture", "filtering", "mapping", "data"],
+	"website" : "https://ircam-ismm.github.io/max-msp/mubu.html",
+	"extends" : "",
+	"extensible" : 0,
+	"max_version_min" : "7.0",
+	"max_version_max" : "none",
+	"os" : 	{
+		"macintosh" : 		{
+			"min_version" : "10.11.x",
+			"platform" : [ "x64", "aarch64" ]
+		}
+,
+		"windows" : 		{
+			"min_version" : "7",
+			"platform" : [ "x64" ]
+		}
+
+	}
+,
+	"homepatcher" : "overview_gst_v2.maxpat",
+	"filelist" : 	{
+		"examples" : [],
+		"externals" : [],
+		"patchers" : [],
+		"help" : [],
+		"interfaces" : [],
+		"jsextensions" : [],
+		"media" : [],
+		"docs" : [],
+		"extras" : [ "overview_gst_v2.maxpat" ]
+	}
+,
+	"c74install" : 1,
+	"installdate" : 
+}

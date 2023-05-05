@@ -1,0 +1,1 @@
+These externals might not run on recent OSX and processors; there are provided as legacy and might be removed in futre
