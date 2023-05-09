@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 157.0, 87.0, 1337.0, 937.0 ],
+		"rect" : [ 157.0, 79.0, 919.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -252,7 +252,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 725.0, 637.0, 99.0, 20.0 ],
+					"patching_rect" : [ 788.0, 637.0, 99.0, 20.0 ],
 					"text" : "scale -1. 1. 0. 4."
 				}
 
@@ -278,7 +278,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 611.0, 597.0, 133.0, 20.0 ],
+					"patching_rect" : [ 611.0, 597.0, 196.0, 20.0 ],
 					"text" : "unpack f f"
 				}
 
@@ -295,7 +295,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gst.synth.FM.maxpat",
+					"name" : "synth.FM.maxpat",
 					"numinlets" : 6,
 					"numoutlets" : 4,
 					"offset" : [ -6.0, -7.0 ],
@@ -375,9 +375,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "sp.orientation.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 194.0, 165.40447998046875, 133.731216430664062, 116.319091796875 ],
 					"viewvisibility" : 1
 				}
@@ -479,6 +479,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 3 ],
+					"midpoints" : [ 620.5, 666.078292846679688, 753.576916503906205, 666.078292846679688 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -486,6 +487,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 4 ],
+					"midpoints" : [ 797.5, 662.078292846679688, 797.935888671874977, 662.078292846679688 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -587,16 +589,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 1 ],
-					"order" : 0,
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -669,75 +662,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ml.regression.gmr.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../mod-analysis/machine-learning",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.gmr.maxhelp",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "in.riotbitalino.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/riot",
-				"patcherrelativepath" : "../mod-interfaces/riot",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/riot",
-				"patcherrelativepath" : "../mod-interfaces/riot",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.orientation.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sid.output.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-synthesis",
-				"patcherrelativepath" : "../mod-synthesis",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "drawing.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/lcd",
-				"patcherrelativepath" : "../mod-interfaces/lcd",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gst.synth.FM.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-synthesis",
-				"patcherrelativepath" : "../mod-synthesis",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "FM.png",
 				"bootpath" : "~/Documents/Talks/AImove/Max patches-soundsynthesis",
 				"patcherrelativepath" : "../../../Documents/Talks/AImove/Max patches-soundsynthesis",
@@ -745,36 +669,24 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "in.comote.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : "../mod-interfaces/CoMo.te",
-				"type" : "JSON",
+				"name" : "comote-screenshot-3.png",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/CoMo.te/extras",
+				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te/extras",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote.connect.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "../mod-interfaces/CoMo.te/patchers",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/CoMo.te/patchers",
+				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "server.js",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "../mod-interfaces/CoMo.te/patchers",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"name" : "drawing.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/lcd",
+				"patcherrelativepath" : "../patchers/mod-interfaces/lcd",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -784,17 +696,45 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "resize.js",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "../mod-interfaces/CoMo.te/patchers",
+				"name" : "helpstarter.js",
+				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/extras",
-				"patcherrelativepath" : "../mod-interfaces/CoMo.te/extras",
-				"type" : "PNG",
+				"name" : "imubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "in.comote.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/CoMo.te",
+				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "in.riotbitalino.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ml.regression.gmr.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-analysis/machine-learning",
+				"patcherrelativepath" : "../patchers/mod-analysis/machine-learning",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mubu.gmm.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.gmr.maxhelp",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -806,24 +746,77 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.mxo",
+				"name" : "mubu.record.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.gmm.mxo",
+				"name" : "mubu.setlabels.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.mxo",
+				"name" : "n4m.monitor.maxpat",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pipo.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "resize.js",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/CoMo.te/patchers",
+				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te/patchers",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "orientation.mxo",
-				"type" : "iLaX"
+				"name" : "resize_n4m_monitor_patcher.js",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "riotbitalino.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "server.js",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/CoMo.te/patchers",
+				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te/patchers",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sid.output.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.orientation.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "synth.FM.maxpat",
+				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0
