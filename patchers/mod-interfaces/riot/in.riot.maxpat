@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 119.0, 140.0, 812.0, 518.0 ],
+		"rect" : [ 200.0, 261.0, 812.0, 518.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,31 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"bgcolor" : [ 0.873164772987366, 0.873311161994934, 0.873123645782471, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.873164772987366, 0.873311161994934, 0.873123645782471, 1.0 ],
-					"bgfillcolor_color1" : [ 0.873173475265503, 0.873310685157776, 0.873123586177826, 1.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Helvetica Neue Light",
-					"id" : "obj-140",
-					"items" : [ "RIoT-Bitalino", ",", "RIoT-Ircam" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 529.314681999999948, 15.5, 100.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.849976003170013, 5.0, 90.0, 23.0 ],
-					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -298,11 +273,11 @@
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 10,
-					"outlettype" : [ "", "", "", "", "", "int", "int", "", "float", "" ],
-					"patching_rect" : [ 295.0, 62.265625, 251.888888888888914, 22.0 ],
-					"text" : "riotbitalino"
+					"numinlets" : 4,
+					"numoutlets" : 9,
+					"outlettype" : [ "", "", "", "", "", "int", "", "float", "" ],
+					"patching_rect" : [ 295.0, 62.265625, 194.0, 22.0 ],
+					"text" : "riot"
 				}
 
 			}
@@ -327,6 +302,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 295.0, 105.265625, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.309804, 0.313726, 0.317647, 0.0 ],
+					"fontname" : "Helvetica Neue Light",
+					"fontsize" : 12.0,
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 6.849976003170013, 6.5, 75.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.849976003170013, 5.5, 77.0, 21.0 ],
+					"text" : "RIoT"
 				}
 
 			}
@@ -374,13 +365,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-25", 4 ],
-					"source" : [ "obj-140", 0 ]
 				}
 
 			}
@@ -458,9 +442,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : ".",
+				"name" : "riot.maxpat",
+				"bootpath" : "~/Documents/max_patches/riot-new",
+				"patcherrelativepath" : "../../../../../Documents/max_patches/riot-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}

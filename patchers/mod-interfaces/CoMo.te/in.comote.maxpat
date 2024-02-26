@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -67,7 +67,7 @@
 				"box" : 				{
 					"comment" : "button B",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -79,7 +79,7 @@
 				"box" : 				{
 					"comment" : "button 1",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -111,7 +111,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -362,7 +362,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1051,7 +1051,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1085,18 +1085,8 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 256.0, 63.0, 100.0, 22.0 ]
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-7",
 									"maxclass" : "newobj",
@@ -1107,7 +1097,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1839,7 +1829,7 @@
 				"box" : 				{
 					"comment" : "on/off [1/0]",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1897,15 +1887,15 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 164.0, 98.0, 398.0, 522.0 ],
+						"rect" : [ 159.0, 79.0, 796.0, 787.0 ],
 						"bglocked" : 0,
-						"openinpresentation" : 0,
+						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1923,7 +1913,7 @@
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
-						"enablevscroll" : 1,
+						"enablevscroll" : 0,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
@@ -1931,7 +1921,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -1961,7 +1950,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 303.0, 40.265625, 40.0, 22.0 ],
+									"patching_rect" : [ 307.0, 36.265625, 40.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 307.0, 45.265625, 40.0, 22.0 ],
 									"text" : "reset",
 									"textcolor" : [ 0.384313725490196, 0.384313725490196, 0.384313725490196, 1.0 ]
 								}
@@ -2053,7 +2044,7 @@
 				"box" : 				{
 					"comment" : "requested sampling period",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2066,7 +2057,7 @@
 				"box" : 				{
 					"comment" : "remote ip address",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2079,7 +2070,7 @@
 				"box" : 				{
 					"comment" : "port",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2092,7 +2083,7 @@
 				"box" : 				{
 					"comment" : "Id number",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2176,7 +2167,7 @@
 				"box" : 				{
 					"comment" : "gyroscope [g1 g2 g3]",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2188,7 +2179,7 @@
 				"box" : 				{
 					"comment" : "accelerometer [a1 a2 a3]",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2589,71 +2580,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-55" : [ "live.text", "live.text", 0 ],
-			"obj-56" : [ "live.text[1]", "live.text", 0 ],
-			"obj-60" : [ "live.text[3]", "live.text[3]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/extras",
-				"patcherrelativepath" : "./extras",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote.connect.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "./patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize.js",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "./patchers",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "server.js",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "./patchers",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

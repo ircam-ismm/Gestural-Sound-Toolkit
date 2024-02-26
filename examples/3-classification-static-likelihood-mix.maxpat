@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 47.0, 80.0, 1491.0, 937.0 ],
+		"rect" : [ 95.0, 79.0, 1491.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -824,6 +824,10 @@
 			"parameter_overrides" : 			{
 				"obj-12::obj-18::obj-88" : 				{
 					"parameter_longname" : "live.toggle[9]"
+				}
+,
+				"obj-12::obj-22" : 				{
+					"parameter_longname" : "live.gain~"
 				}
 ,
 				"obj-25::obj-18::obj-92" : 				{

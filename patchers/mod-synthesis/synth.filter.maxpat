@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 698.0, 154.0, 948.0, 625.0 ],
+		"rect" : [ 363.0, 98.0, 948.0, 625.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -241,7 +241,7 @@
 				"box" : 				{
 					"comment" : "volume [float]",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -324,7 +324,7 @@
 				"box" : 				{
 					"comment" : "Audio output",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -352,7 +352,7 @@
 				"box" : 				{
 					"comment" : "frequency [float]",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -365,7 +365,7 @@
 				"box" : 				{
 					"comment" : "Audio input",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -440,6 +440,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 61.0, 272.5, 81.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 81.25, 129.657409999999999, 38.0 ],
@@ -629,18 +630,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
