@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -81,9 +81,9 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 496.0, 407.638611000000083, 186.0, 22.0 ],
+					"patching_rect" : [ 496.0, 407.638611000000083, 191.0, 22.0 ],
 					"style" : "newobjYellow-1",
-					"text" : "poly~ FM-synth-const 1"
+					"text" : "poly~ FM-synth-const 1 @target 0"
 				}
 
 			}
@@ -151,6 +151,7 @@
 				"box" : 				{
 					"addpoints" : [ 4.587156179183106, 0.0, 0, 21.052632401303498, 0.666666666666667, 0, 35.135135135135137, 1.0, 0, 86.842108655376904, 1.0, 0, 139.473689658635692, 0.928571428571429, 0, 189.473691611731482, 0.738095238095238, 0, 244.73684210526315, 0.595238095238095, 0, 302.631590768737851, 0.404761904761905, 0, 365.789487972648203, 0.285714285714286, 0, 405.263157894736821, 0.214285714285714, 0, 444.736842105263179, 0.166666666666667, 0, 477.537310653521615, 0.0, 0 ],
 					"bgcolor" : [ 0.796078431372549, 0.784313725490196, 0.784313725490196, 1.0 ],
+					"classic_curve" : 1,
 					"domain" : 500.0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
@@ -344,6 +345,7 @@
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -390,7 +392,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 31.013644999999997, 39.168316000000004, 30.0, 30.0 ]
 				}
 
@@ -668,9 +670,9 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.771323999999993, 407.638611000000083, 360.959065000000066, 22.0 ],
+					"patching_rect" : [ 30.771323999999993, 407.638611000000083, 236.0, 22.0 ],
 					"style" : "newobjYellow-1",
-					"text" : "poly~ FM-synth-adsr 8 @steal 1"
+					"text" : "poly~ FM-synth-adsr 8 @steal 1 @target 0"
 				}
 
 			}
