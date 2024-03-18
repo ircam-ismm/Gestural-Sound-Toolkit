@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 91.0, 100.0, 1424.0, 924.0 ],
+		"rect" : [ 91.0, 100.0, 1603.0, 924.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.0, 85.0, 163.731216430664062, 132.56695556640625 ],
+					"patching_rect" : [ 640.0, 93.0, 163.731216430664062, 132.56695556640625 ],
 					"viewvisibility" : 1
 				}
 
@@ -110,7 +110,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1319.0, 410.0, 65.0, 22.0 ],
-					"text" : "0.109378"
+					"text" : "0.108716"
 				}
 
 			}
@@ -143,10 +143,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "in.comote.maxpat",
-					"numinlets" : 5,
-					"numoutlets" : 4,
+					"numinlets" : 6,
+					"numoutlets" : 5,
 					"offset" : [ -7.0, -5.0 ],
-					"outlettype" : [ "", "", "", "" ],
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 460.0, 89.0, 163.0, 132.56695556640625 ],
 					"viewvisibility" : 1
 				}
@@ -288,7 +288,7 @@
 					"numoutlets" : 3,
 					"offset" : [ -2.0, -4.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 827.0, 85.0, 505.79486083984375, 132.56695556640625 ],
+					"patching_rect" : [ 831.0, 89.0, 505.79486083984375, 132.56695556640625 ],
 					"viewvisibility" : 1
 				}
 
@@ -640,7 +640,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.0, 5.0, 389.0, 37.0 ],
-					"text" : "Gestural Sound Toolkit V2(beta)"
+					"text" : "Gestural Sound Toolkit V2 (beta)"
 				}
 
 			}
@@ -959,15 +959,25 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 469.5, 247.849651336669922, 1170.145622253417969, 247.849651336669922 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-12", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 505.5, 237.56695556640625, 631.5, 237.56695556640625, 631.5, 74.0, 649.5, 74.0 ],
+					"order" : 2,
+					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 1 ],
-					"midpoints" : [ 517.5, 228.849651336669922, 996.140007019042969, 228.849651336669922 ],
+					"midpoints" : [ 505.5, 237.849651336669922, 996.140007019042969, 237.849651336669922 ],
+					"order" : 0,
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -975,8 +985,34 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 469.5, 247.849651336669922, 881.408790588378906, 247.849651336669922 ],
+					"midpoints" : [ 469.5, 248.849651336669922, 881.408790588378906, 248.849651336669922 ],
 					"order" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 2 ],
+					"midpoints" : [ 541.5, 228.56695556640625, 809.358972167968773, 228.56695556640625, 809.358972167968773, 57.0, 1035.217944335937545, 57.0 ],
+					"source" : [ "obj-12", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 1 ],
+					"midpoints" : [ 505.5, 238.56695556640625, 816.67948608398433, 238.56695556640625, 816.67948608398433, 66.0, 937.858972167968773, 66.0 ],
+					"order" : 1,
+					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"midpoints" : [ 469.5, 247.56695556640625, 823.865608215332031, 247.56695556640625, 823.865608215332031, 74.0, 840.5, 74.0 ],
+					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1202,17 +1238,31 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te/extras",
-				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te/extras",
-				"type" : "PNG",
+				"name" : "comote-connect-resize.js",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
+				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "comote.connect.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te/patchers",
+				"name" : "comote-connect-server.cjs",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
+				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comote-connect.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
+				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comote-screenshot-3.png",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
+				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
@@ -1233,12 +1283,6 @@
 				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/data-recording",
 				"patcherrelativepath" : "../patchers/mod-analysis/data-recording",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1288,22 +1332,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mubu.gmm.maxhelp",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mubu.gmm.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.gmr.maxhelp",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.gmr.mxo",
@@ -1312,13 +1342,6 @@
 , 			{
 				"name" : "mubu.granular~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.hhmm.maxhelp",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.hhmm.mxo",
@@ -1341,22 +1364,8 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.xmm.maxhelp",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.xmm.mxo",
@@ -1373,13 +1382,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "resize.js",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te/patchers",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "resize_n4m_monitor_patcher.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
@@ -1390,13 +1392,6 @@
 				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "server.js",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te/patchers",
-				"patcherrelativepath" : "../patchers/mod-interfaces/CoMo.te/patchers",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

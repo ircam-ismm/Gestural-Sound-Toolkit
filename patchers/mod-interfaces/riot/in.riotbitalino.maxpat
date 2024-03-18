@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -153,7 +153,7 @@
 			}
 , 			{
 				"box" : 				{
-					"candicane2" : [ 0.341176, 0.027451, 0.023529, 1.0 ],
+					"candicane2" : [ 1.0, 0.435294117647059, 0.427450980392157, 1.0 ],
 					"candicane3" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"candycane" : 7,
 					"id" : "obj-7",
@@ -242,7 +242,7 @@
 			}
 , 			{
 				"box" : 				{
-					"candicane2" : [ 0.019608, 0.254902, 0.035294, 1.0 ],
+					"candicane2" : [ 0.658823529411765, 0.925490196078431, 0.67843137254902, 1.0 ],
 					"candicane3" : [ 0.0, 0.533333, 0.168627, 1.0 ],
 					"candycane" : 7,
 					"id" : "obj-22",
@@ -459,7 +459,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/patchers/mod-interfaces/riot",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

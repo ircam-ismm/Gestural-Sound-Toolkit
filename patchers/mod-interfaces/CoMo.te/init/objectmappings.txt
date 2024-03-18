@@ -1,2 +1,0 @@
-max objectfile comote.connect comote.connect;
-max definesubstitution comote.connect bpatcher @name comote.connect.maxpat;
