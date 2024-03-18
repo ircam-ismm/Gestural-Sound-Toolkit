@@ -102,7 +102,7 @@
 				"box" : 				{
 					"comment" : "sensors format",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -162,7 +162,7 @@
 				"box" : 				{
 					"comment" : "gyroscope [g1 g2 g3]",
 					"id" : "obj-54",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -178,7 +178,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 910.0, 201.0, 83.0, 22.0 ],
-					"text" : "route period"
+					"text" : "route interval"
 				}
 
 			}
@@ -607,7 +607,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-17",
@@ -1105,7 +1104,7 @@
 				"box" : 				{
 					"comment" : "button B",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1117,7 +1116,7 @@
 				"box" : 				{
 					"comment" : "button 1",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1347,7 +1346,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 676.0, 322.0, 825.0, 477.0 ],
+						"rect" : [ 294.0, 404.0, 825.0, 477.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1707,7 +1706,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 471.5, 37.0, 92.0, 21.0 ],
-									"text" : "loadmess set 10"
+									"text" : "loadmess 10"
 								}
 
 							}
@@ -1918,7 +1917,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 428.0, 144.45385034929177, 95.000000000000057, 22.0 ],
-									"text" : "prepend period"
+									"text" : "prepend interval"
 								}
 
 							}
@@ -2231,7 +2230,7 @@
 				"box" : 				{
 					"comment" : "on/off [1/0]",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2449,7 +2448,7 @@
 				"box" : 				{
 					"comment" : "requested sampling period",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2462,7 +2461,7 @@
 				"box" : 				{
 					"comment" : "remote ip address",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2475,7 +2474,7 @@
 				"box" : 				{
 					"comment" : "port",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2488,7 +2487,7 @@
 				"box" : 				{
 					"comment" : "Id number",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2572,7 +2571,7 @@
 				"box" : 				{
 					"comment" : "gyroscope [g1 g2 g3]",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2584,7 +2583,7 @@
 				"box" : 				{
 					"comment" : "accelerometer [a1 a2 a3]",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3095,71 +3094,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-55" : [ "live.text", "live.text", 0 ],
-			"obj-56" : [ "live.text[1]", "live.text", 0 ],
-			"obj-60" : [ "live.text[3]", "live.text[3]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "comote-connect-resize.js",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote-connect-server.cjs",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote-connect.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

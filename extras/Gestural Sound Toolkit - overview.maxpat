@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 91.0, 100.0, 1603.0, 924.0 ],
+		"rect" : [ 75.0, 100.0, 1603.0, 924.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -110,7 +110,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1319.0, 410.0, 65.0, 22.0 ],
-					"text" : "0.108716"
+					"text" : "0.102193"
 				}
 
 			}
@@ -549,7 +549,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 852.89019775390625, 667.156585693359375, 240.794860999999997, 145.891739000000001 ],
+					"patching_rect" : [ 854.79486083984375, 666.999999945800823, 240.794860999999997, 145.891739000000001 ],
 					"viewvisibility" : 1
 				}
 
@@ -986,7 +986,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"midpoints" : [ 469.5, 248.849651336669922, 881.408790588378906, 248.849651336669922 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1012,7 +1012,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"midpoints" : [ 469.5, 247.56695556640625, 823.865608215332031, 247.56695556640625, 823.865608215332031, 74.0, 840.5, 74.0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1071,6 +1071,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-3", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"order" : 1,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 2 ],
+					"order" : 0,
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -1286,6 +1302,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "helpstarter.js",
+				"bootpath" : "C74:/help/resources",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "imubu.mxo",
 				"type" : "iLaX"
 			}
@@ -1332,8 +1354,22 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mubu.gmm.maxhelp",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mubu.gmm.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.gmr.maxhelp",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.gmr.mxo",
@@ -1342,6 +1378,13 @@
 , 			{
 				"name" : "mubu.granular~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.hhmm.maxhelp",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.hhmm.mxo",
@@ -1364,8 +1407,22 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "mubu.setlabels.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.xmm.maxhelp",
+				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.xmm.mxo",

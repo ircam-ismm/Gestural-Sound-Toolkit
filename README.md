@@ -1,7 +1,7 @@
 # Gestural Sound Toolkit V2
 
 Toolkit in Max/MSP for gesture-to-sound scenario prototyping. 
-
+[General documentation and article](https://ircam-ismm.github.io/max-msp/gst.html)
 
 ## Install
 
