@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 223.0, 79.0, 839.0, 937.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 134.0, 146.0, 839.0, 937.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
@@ -99,42 +73,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 2,
-							"revision" : 1,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -143,7 +91,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 70.0, 24.0, 24.0 ]
+									"patching_rect" : [ 50.0, 70.0, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -244,15 +193,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-140"
 					}
 ,
 					"patching_rect" : [ 431.30572509765625, 103.542694999999981, 68.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p resample"
@@ -491,6 +438,7 @@
 
 			}
  ],
+		"originid" : "pat-138",
 		"parameters" : 		{
 			"obj-26::obj-2" : [ "live.gain~[5]", "live.gain~[4]", 0 ],
 			"obj-60::obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
@@ -502,23 +450,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ml.regression.gmr.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../mod-analysis/machine-learning",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.gmr.maxhelp",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MuBu For Max/patchers",
+				"name" : "gst.recorddata.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-analysis/data-recording/recording",
+				"patcherrelativepath" : "../../../Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-analysis/data-recording/recording",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -529,44 +463,31 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "imubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "in.riotbitalino.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/riot",
-				"patcherrelativepath" : "../mod-interfaces/riot",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-interfaces/riot",
-				"patcherrelativepath" : "../mod-interfaces/riot",
+				"name" : "ml.regression.gmr.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-analysis/machine-learning",
+				"patcherrelativepath" : "../../../Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-analysis/machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.orientation.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "mubu.gmm.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "synth.filter.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-synthesis",
-				"patcherrelativepath" : "../mod-synthesis",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gst.recorddata.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-analysis/data-recording/recording",
-				"patcherrelativepath" : "../mod-analysis/data-recording/recording",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sid.output.maxpat",
-				"bootpath" : "~/github/Gestural-Sound-Toolkit-V2/mod-synthesis",
-				"patcherrelativepath" : "../mod-synthesis",
+				"name" : "mubu.gmr.maxhelp",
+				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
+				"patcherrelativepath" : "../../../Max 9/Packages/MuBu For Max/help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -579,19 +500,22 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.mxo",
+				"name" : "mubu.play.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.gmm.mxo",
+				"name" : "mubu.record.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.setlabels.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../Max 9/Packages/MuBu For Max/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "mubu.mxo",
+				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -599,8 +523,32 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "riotbitalino.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sid.output.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-synthesis",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.orientation.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "synth.filter.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/MuBuExamples/examples/Gestural-Sound-Toolkit/mod-synthesis",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0
