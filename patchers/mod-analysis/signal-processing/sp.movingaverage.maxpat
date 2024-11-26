@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 79.0, 632.0, 672.0 ],
-		"bglocked" : 0,
+		"rect" : [ 134.0, 172.0, 632.0, 672.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"attr" : "mvavrg.size",
@@ -48,6 +23,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 63.5, 247.0, 131.0, 21.0 ],
 					"text_width" : 92.0
 				}
@@ -92,42 +68,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 450.0, 79.0, 805.0, 519.0 ],
-						"bglocked" : 0,
+						"rect" : [ 134.0, 172.0, 805.0, 519.0 ],
 						"openinpresentation" : 1,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
@@ -455,17 +406,15 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-1930"
 					}
 ,
 					"patching_rect" : [ 733.0, 63.0, 74.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 89.0, 5.0, 45.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p more",
@@ -530,7 +479,7 @@
 				"box" : 				{
 					"comment" : "List of 3 parameters: Cutoff Frequency / Min value for display / Max value for Display",
 					"id" : "obj-9",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -597,8 +546,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.819608, 0.819608, 0.819608, 1.0 ],
-					"color" : [ 0.855643, 0.855643, 0.855643, 1.0 ],
 					"fontname" : "Helvetica Light",
 					"fontsize" : 11.0,
 					"id" : "obj-60",
@@ -608,42 +555,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 722.0, 79.0, 653.0, 438.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -713,19 +634,16 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"originid" : "pat-1932"
 					}
 ,
 					"patching_rect" : [ 217.5, 16.0, 44.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
-					"text" : "p help",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "p help"
 				}
 
 			}
@@ -771,7 +689,7 @@
 					"patching_rect" : [ 225.0, 370.0, 125.0, 85.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 26.0, 128.0, 85.0 ],
-					"setminmax" : [ 0.0, 0.050000000745058 ],
+					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 5,
 					"size" : 2,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -782,7 +700,7 @@
 				"box" : 				{
 					"comment" : "Smoothed data (list of 3 elements)",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -794,7 +712,7 @@
 				"box" : 				{
 					"comment" : "List of 3 elements (accelerations along the 3 axis x, y, z)",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -921,7 +839,14 @@
 				}
 
 			}
- ]
+ ],
+		"originid" : "pat-1928",
+		"dependency_cache" : [ 			{
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

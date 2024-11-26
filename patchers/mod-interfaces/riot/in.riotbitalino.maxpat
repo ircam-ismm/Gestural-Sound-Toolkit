@@ -2,52 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 119.0, 140.0, 812.0, 518.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.873164772987366, 0.873311161994934, 0.873123645782471, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.873164772987366, 0.873311161994934, 0.873123645782471, 1.0 ],
-					"bgfillcolor_color1" : [ 0.873173475265503, 0.873310685157776, 0.873123586177826, 1.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
 					"fontname" : "Helvetica Neue Light",
 					"id" : "obj-140",
 					"items" : [ "RIoT-Bitalino", ",", "RIoT-Ircam" ],
@@ -58,8 +25,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 529.314681999999948, 15.5, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.849976003170013, 5.0, 90.0, 23.0 ],
-					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ]
+					"presentation_rect" : [ 6.849976003170013, 5.0, 90.0, 23.0 ]
 				}
 
 			}
@@ -77,7 +43,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.97456, 0.963051, 1.0, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
@@ -87,8 +52,7 @@
 					"patching_rect" : [ 77.849976003170013, 8.5, 51.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 98.849976003170013, 8.0, 29.287002749999999, 18.0 ],
-					"text" : "Port",
-					"textcolor" : [ 0.572548985481262, 0.615685999393463, 0.658824026584625, 1.0 ]
+					"text" : "Port"
 				}
 
 			}
@@ -166,8 +130,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 118.674073003170008, 62.45385034929177, 45.0, 67.0 ],
 					"setstyle" : 1,
-					"size" : 3,
-					"slidercolor" : [ 0.92549, 0.749089, 0.670906, 1.0 ]
+					"size" : 3
 				}
 
 			}
@@ -256,8 +219,7 @@
 					"presentation_rect" : [ 65.136978753170013, 62.45385034929177, 50.0, 67.0 ],
 					"setminmax" : [ -3.0, 3.0 ],
 					"setstyle" : 1,
-					"size" : 3,
-					"slidercolor" : [ 0.620823, 0.74902, 0.578497, 1.0 ]
+					"size" : 3
 				}
 
 			}
@@ -332,7 +294,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.933333, 0.933333, 0.933333, 1.0 ],
 					"id" : "obj-113",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -343,8 +304,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 6.849976003170013, 27.0, 167.0, 109.0 ],
 					"setminmax" : [ 0.0, 1.100000023841858 ],
-					"setstyle" : 3,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"setstyle" : 3
 				}
 
 			}
@@ -457,9 +417,10 @@
 
 			}
  ],
+		"originid" : "pat-1076",
 		"dependency_cache" : [ 			{
 				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/riot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

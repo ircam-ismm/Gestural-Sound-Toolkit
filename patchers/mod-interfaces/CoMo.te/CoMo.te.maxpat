@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 11.0, 100.0, 1612.0, 931.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 34.0, 100.0, 1630.0, 925.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-27",
@@ -162,7 +136,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-90",
@@ -176,7 +149,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
 					"fontname" : "Arial Bold",
 					"fontsize" : 16.0,
 					"id" : "obj-88",
@@ -190,7 +162,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8731849193573, 0.873295426368713, 0.87312525510788, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
 					"id" : "obj-3",
@@ -561,7 +532,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8731849193573, 0.873295426368713, 0.87312525510788, 1.0 ],
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -573,7 +543,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8731849193573, 0.873295426368713, 0.87312525510788, 1.0 ],
 					"id" : "obj-63",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -682,7 +651,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-51",
@@ -881,14 +849,13 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8731849193573, 0.873295426368713, 0.87312525510788, 1.0 ],
 					"fontsize" : 36.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.0, 11.0, 173.0, 47.0 ],
-					"text" : "CoMo.te"
+					"text" : "CoMo.te "
 				}
 
 			}
@@ -1141,7 +1108,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1058.833333333333485, 485.325925925925958, 32.0, 32.0 ]
+					"patching_rect" : [ 1058.833333333333485, 485.325925925925958, 32.0, 32.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1153,7 +1121,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1250.166666666666742, 485.325925925925958, 31.0, 31.0 ]
+					"patching_rect" : [ 1250.166666666666742, 485.325925925925958, 31.0, 31.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1637,30 +1606,24 @@
 
 			}
  ],
+		"originid" : "pat-1675",
 		"dependency_cache" : [ 			{
 				"name" : "comote-connect-resize.js",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote-connect-server.cjs",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
@@ -1684,8 +1647,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"clearcolor" : [ 1.0, 0.996078431372549, 0.996078431372549, 1.0 ]
+		"autosave" : 0
 	}
 
 }
