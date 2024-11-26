@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1575.0, 1077.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 119.0, 100.0, 1575.0, 983.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"autofit" : 1,
@@ -165,7 +139,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-90",
@@ -179,7 +152,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
 					"fontname" : "Arial Bold",
 					"fontsize" : 16.0,
 					"id" : "obj-88",
@@ -193,7 +165,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8731849193573, 0.873295426368713, 0.87312525510788, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
 					"id" : "obj-3",
@@ -576,7 +547,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8731849193573, 0.873295426368713, 0.87312525510788, 1.0 ],
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -588,7 +558,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8731849193573, 0.873295426368713, 0.87312525510788, 1.0 ],
 					"id" : "obj-63",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -697,7 +666,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-51",
@@ -897,7 +865,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.8731849193573, 0.873295426368713, 0.87312525510788, 1.0 ],
 					"fontsize" : 36.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
@@ -995,7 +962,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 228.5, 193.325925925925958, 318.0, 415.0 ],
+					"patching_rect" : [ 228.5, 193.325925925925958, 318.0, 370.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1157,7 +1124,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1058.833333333333485, 485.325925925925958, 32.0, 32.0 ]
+					"patching_rect" : [ 1058.833333333333485, 485.325925925925958, 32.0, 32.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1169,7 +1137,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1250.166666666666742, 485.325925925925958, 31.0, 31.0 ]
+					"patching_rect" : [ 1250.166666666666742, 485.325925925925958, 31.0, 31.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1660,17 +1629,24 @@
 
 			}
  ],
+		"originid" : "pat-1058",
 		"dependency_cache" : [ 			{
+				"name" : "comote-screenshot-3.png",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "comote.connect.maxpat",
-				"bootpath" : "~/github/comote-helpers/max/CoMo.te/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/CoMo.te/patchers",
+				"patcherrelativepath" : "../../../Max 9/Packages/CoMo.te/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "server.js",
-				"bootpath" : "~/github/comote-helpers/max/CoMo.te/patchers",
-				"patcherrelativepath" : "../patchers",
+				"name" : "fit_jweb_to_bounds.js",
+				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -1681,36 +1657,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "resize.js",
+				"bootpath" : "~/Documents/Max 9/Packages/CoMo.te/patchers",
+				"patcherrelativepath" : "../../../Max 9/Packages/CoMo.te/patchers",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "resize_n4m_monitor_patcher.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"name" : "server.js",
+				"bootpath" : "~/Documents/Max 9/Packages/CoMo.te/patchers",
+				"patcherrelativepath" : "../../../Max 9/Packages/CoMo.te/patchers",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize.js",
-				"bootpath" : "~/github/comote-helpers/max/CoMo.te/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "como-vox2.png",
-				"bootpath" : "~/github/comote-helpers/max/CoMo.te/extras",
-				"patcherrelativepath" : "../extras",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/github/comote-helpers/max/CoMo.te/extras",
-				"patcherrelativepath" : "../extras",
-				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
