@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 516.0, 140.0, 1015.0, 674.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
@@ -46,7 +21,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 296.0, 260.0, 24.0, 24.0 ]
+					"patching_rect" : [ 296.0, 260.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -94,7 +70,7 @@
 				"box" : 				{
 					"comment" : "Audio output",
 					"id" : "obj-28",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -132,6 +108,7 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -145,7 +122,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.254901960784314, 0.274509803921569, 0.325490196078431, 0.0 ],
 					"fontname" : "Helvetica Light",
 					"fontsize" : 10.0,
 					"id" : "obj-4",
@@ -153,8 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 604.0, 275.0, 85.0, 16.0 ],
-					"text" : "volume",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "volume"
 				}
 
 			}
@@ -201,8 +176,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 18.5, 45.5, 49.0, 33.0 ],
-					"text" : "Sound\nFolder",
-					"textcolor" : [ 0.839223027229309, 0.446615993976593, 0.0, 0.46000000834465 ]
+					"text" : "Sound\nFolder"
 				}
 
 			}
@@ -210,7 +184,7 @@
 				"box" : 				{
 					"comment" : "Audio output",
 					"id" : "obj-14",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -234,7 +208,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.254901960784314, 0.274509803921569, 0.325490196078431, 0.0 ],
 					"fontname" : "Helvetica Light",
 					"fontsize" : 10.0,
 					"id" : "obj-13",
@@ -244,18 +217,15 @@
 					"patching_rect" : [ 336.0, 153.0, 85.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 109.0, 40.0, 16.0 ],
-					"text" : "Speed",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "Speed"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.686274509803922, 0.67843137254902, 0.67843137254902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-166",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -265,15 +235,12 @@
 					"patching_rect" : [ 323.0, 129.0, 46.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 47.0, 108.0, 35.0, 19.0 ],
-					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.733333333333333, 0.733333333333333, 0.733333333333333, 0.749019607843137 ],
 					"fontname" : "Helvetica Light",
 					"fontsize" : 12.0,
 					"id" : "obj-61",
@@ -291,7 +258,7 @@
 				"box" : 				{
 					"comment" : "Volume",
 					"id" : "obj-23",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -304,7 +271,7 @@
 				"box" : 				{
 					"comment" : "Speed for scratching",
 					"id" : "obj-16",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -317,7 +284,7 @@
 				"box" : 				{
 					"comment" : "Sound index to play (starts from 1)",
 					"id" : "obj-7",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -330,7 +297,7 @@
 				"box" : 				{
 					"comment" : "Start/Stop sound",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -351,42 +318,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 1,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 753.0, 154.0, 941.0, 710.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -923,15 +864,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-30"
 					}
 ,
 					"patching_rect" : [ 43.5, 395.0, 299.5, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p synthesis"
@@ -1121,6 +1060,32 @@
 
 			}
  ],
+		"originid" : "pat-26",
+		"parameters" : 		{
+			"obj-18::obj-88" : [ "live.toggle[20]", "live.toggle", 0 ],
+			"obj-18::obj-92" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-22" : [ "live.gain~", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "synth.ctrl.soundpool.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "gst.comment",
 				"default" : 				{
