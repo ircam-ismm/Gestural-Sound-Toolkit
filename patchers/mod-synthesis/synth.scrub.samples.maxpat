@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -14,6 +14,22 @@
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Helvetica Light",
+					"fontsize" : 10.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 458.5, 129.425781000000029, 85.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 69.0, 106.0, 85.0, 16.0 ],
+					"text" : "progression",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-11",
 					"linecount" : 2,
@@ -26,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -34,7 +50,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 971.0, 480.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -286,7 +301,7 @@
 
 							}
  ],
-						"originid" : "pat-2338"
+						"originid" : "pat-640"
 					}
 ,
 					"patching_rect" : [ 100.166666666666657, 252.0, 81.666666666666657, 35.0 ],
@@ -302,7 +317,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -524,21 +539,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 9.0,
-					"id" : "obj-12",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 461.0, 129.425781000000029, 78.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 92.5, 109.0, 56.0, 19.0 ],
-					"text" : "progression"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"contdata" : 1,
 					"id" : "obj-10",
 					"maxclass" : "multislider",
@@ -592,7 +592,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -676,7 +676,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -876,6 +876,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-4",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1126,7 +1127,7 @@
 
 											}
  ],
-										"originid" : "pat-2344"
+										"originid" : "pat-646"
 									}
 ,
 									"patching_rect" : [ 665.5, 439.5, 108.0, 22.0 ],
@@ -1249,7 +1250,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2203,7 +2204,7 @@
 
 											}
  ],
-										"originid" : "pat-2346"
+										"originid" : "pat-648"
 									}
 ,
 									"patching_rect" : [ 895.0, 107.5, 190.0, 29.0 ],
@@ -2228,7 +2229,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2577,7 +2578,7 @@
 
 											}
  ],
-										"originid" : "pat-2348"
+										"originid" : "pat-650"
 									}
 ,
 									"patching_rect" : [ 895.0, 141.5, 190.0, 29.0 ],
@@ -2602,7 +2603,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5142,7 +5143,7 @@
 
 											}
  ],
-										"originid" : "pat-2350"
+										"originid" : "pat-652"
 									}
 ,
 									"patching_rect" : [ 895.0, 73.5, 190.0, 29.0 ],
@@ -5167,7 +5168,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6310,7 +6311,7 @@
 
 											}
  ],
-										"originid" : "pat-2352"
+										"originid" : "pat-654"
 									}
 ,
 									"patching_rect" : [ 895.0, 41.5, 190.0, 29.0 ],
@@ -6718,7 +6719,7 @@
 
 							}
  ],
-						"originid" : "pat-2342"
+						"originid" : "pat-644"
 					}
 ,
 					"patching_rect" : [ 37.5, 347.0, 388.0, 22.0 ],
@@ -7025,7 +7026,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -7052,7 +7053,7 @@
 				"box" : 				{
 					"comment" : "Volume",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7065,7 +7066,7 @@
 				"box" : 				{
 					"comment" : "Progression (0-1)",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7091,7 +7092,7 @@
 				"box" : 				{
 					"comment" : "Sound index (starts from 1)",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7104,7 +7105,7 @@
 				"box" : 				{
 					"comment" : "Start/Stop Sound",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7421,44 +7422,7 @@
 
 			}
  ],
-		"originid" : "pat-2336",
-		"parameters" : 		{
-			"obj-15::obj-88" : [ "live.toggle[20]", "live.toggle", 0 ],
-			"obj-15::obj-92" : [ "live.toggle[17]", "live.toggle", 0 ],
-			"obj-2" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "imubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.granular~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "synth.ctrl.soundpool.maxpat",
-				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-638"
 	}
 
 }

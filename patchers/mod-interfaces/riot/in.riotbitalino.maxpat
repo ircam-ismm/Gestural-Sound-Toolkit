@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 119.0, 140.0, 812.0, 518.0 ],
+		"rect" : [ 440.0, 142.0, 812.0, 518.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -292,22 +292,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-113",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ -2.5, 33.0, 172.0, 104.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.849976003170013, 27.0, 167.0, 109.0 ],
-					"setminmax" : [ 0.0, 1.100000023841858 ],
-					"setstyle" : 3
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -417,10 +401,10 @@
 
 			}
  ],
-		"originid" : "pat-1076",
+		"originid" : "pat-380",
 		"dependency_cache" : [ 			{
 				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/riot",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

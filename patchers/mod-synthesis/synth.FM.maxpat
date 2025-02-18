@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 373.0, 226.0, 1296.0, 798.0 ],
+		"rect" : [ 398.0, 192.0, 1296.0, 798.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"style" : "gst.title",
@@ -388,14 +388,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Helvetica Neue",
-					"fontsize" : 11.0,
+					"fontsize" : 12.0,
 					"id" : "obj-70",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.744033999999999, 10.0, 155.0, 19.0 ],
+					"patching_rect" : [ 12.744033999999999, 10.0, 168.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 6.0, 250.0, 19.0 ],
+					"presentation_rect" : [ 8.0, 8.0, 271.0, 20.0 ],
 					"text" : "Simple FM Synthesis"
 				}
 
@@ -946,7 +946,7 @@
 
 			}
  ],
-		"originid" : "pat-36",
+		"originid" : "pat-426",
 		"parameters" : 		{
 			"obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
@@ -963,14 +963,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "FM-synth-adsr.maxpat",
-				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FM-synth-const.maxpat",
-				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
