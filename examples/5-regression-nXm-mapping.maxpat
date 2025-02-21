@@ -14,6 +14,97 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1210.0, 528.0, 94.0, 22.0 ],
+					"text" : "scale -1. 1. 1 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1085.79486083984375, 528.0, 97.0, 22.0 ],
+					"text" : "scale -1. 1. 1. 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgmode" : 2,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-15",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "sid.output.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 959.0, 806.0, 182.97576904296875, 86.099037170410156 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 959.0, 528.0, 114.0, 22.0 ],
+					"text" : "scale -1. 1. 40. 500."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
+					"patching_rect" : [ 959.0, 480.0, 272.5897216796875, 22.0 ],
+					"text" : "unpack f f f"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.823529, 0.823529, 0.823529, 0.0 ],
+					"bgmode" : 2,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-40",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "synth.FM.maxpat",
+					"numinlets" : 6,
+					"numoutlets" : 4,
+					"offset" : [ -6.0, -7.0 ],
+					"outlettype" : [ "signal", "", "", "" ],
+					"patching_rect" : [ 959.0, 620.0, 240.79486083984375, 145.891738891601562 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -427,6 +518,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-11", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -436,6 +548,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 2 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 3 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 4 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -475,6 +608,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -558,6 +698,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"order" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 1,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
 					"source" : [ "obj-41", 1 ]
 				}
@@ -572,8 +728,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
 					"midpoints" : [ 694.5, 480.2734375, 208.5, 480.2734375 ],
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -608,11 +773,13 @@
 
 			}
  ],
-		"originid" : "pat-4670",
+		"originid" : "pat-7627",
 		"parameters" : 		{
+			"obj-15::obj-2" : [ "live.gain~[5]", "live.gain~[4]", 0 ],
 			"obj-2::obj-55" : [ "live.text", "live.text", 0 ],
 			"obj-2::obj-56" : [ "live.text[1]", "live.text", 0 ],
 			"obj-2::obj-60" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-40::obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -641,6 +808,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "FM-synth-adsr.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FM-synth-const.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "comote-connect-resize.js",
 				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
@@ -767,9 +948,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "sid.output.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sp.orientation.maxpat",
 				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "synth.FM.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}

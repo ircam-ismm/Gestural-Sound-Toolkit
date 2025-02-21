@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 392.0, 187.0, 512.0, 561.0 ],
+		"rect" : [ 1099.0, 100.0, 512.0, 561.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -212,6 +212,7 @@
 						"rect" : [ 1013.0, 140.0, 611.0, 524.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -500,10 +501,10 @@
 
 							}
  ],
-						"originid" : "pat-3298"
+						"originid" : "pat-6305"
 					}
 ,
-					"patching_rect" : [ 340.0, 93.5, 85.0, 19.0 ],
+					"patching_rect" : [ 321.5, 94.0, 85.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 6.0, 47.0, 19.0 ],
 					"saved_object_attributes" : 					{
@@ -605,7 +606,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-3300"
+						"originid" : "pat-6307"
 					}
 ,
 					"patching_rect" : [ 115.5, 19.5, 44.0, 19.0 ],
@@ -709,14 +710,14 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "orientation.regularisation",
+					"attr" : "orientation.timingmode",
 					"id" : "obj-8",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 75.0, 197.0, 208.0, 22.0 ]
+					"patching_rect" : [ 74.920470999999992, 203.0, 208.0, 22.0 ]
 				}
 
 			}
@@ -855,7 +856,7 @@
 
 			}
  ],
-		"originid" : "pat-3296"
+		"originid" : "pat-6303"
 	}
 
 }

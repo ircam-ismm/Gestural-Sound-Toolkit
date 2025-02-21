@@ -17,7 +17,7 @@
 				"box" : 				{
 					"comment" : "riot type",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -93,7 +93,7 @@
 				"box" : 				{
 					"comment" : "sampling period [ms]",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -105,7 +105,7 @@
 				"box" : 				{
 					"comment" : "magnetometer [m1 m2 m3]",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -143,7 +143,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 118.674073003170008, 62.45385034929177, 45.0, 67.0 ],
 					"setstyle" : 1,
-					"size" : 3
+					"size" : 3,
+					"slidercolor" : [ 0.90294361114502, 0.69563353061676, 0.608093023300171, 1.0 ]
 				}
 
 			}
@@ -151,7 +152,7 @@
 				"box" : 				{
 					"comment" : "on/off [1/0]",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -164,7 +165,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -177,7 +178,7 @@
 				"box" : 				{
 					"comment" : "port",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -190,7 +191,7 @@
 				"box" : 				{
 					"comment" : "Id number",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -232,7 +233,8 @@
 					"presentation_rect" : [ 65.136978753170013, 62.45385034929177, 50.0, 67.0 ],
 					"setminmax" : [ -3.0, 3.0 ],
 					"setstyle" : 1,
-					"size" : 3
+					"size" : 3,
+					"slidercolor" : [ 0.552731156349182, 0.704448342323303, 0.50989842414856, 1.0 ]
 				}
 
 			}
@@ -285,7 +287,7 @@
 				"box" : 				{
 					"comment" : "gyroscope [g1 g2 g3]",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -297,7 +299,7 @@
 				"box" : 				{
 					"comment" : "accelerometer [a1 a2 a3]",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -421,16 +423,7 @@
 
 			}
  ],
-		"originid" : "pat-1404",
-		"dependency_cache" : [ 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-8222"
 	}
 
 }

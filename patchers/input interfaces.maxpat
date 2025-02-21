@@ -33,7 +33,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 346.0, 753.0, 138.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "-1.109677 -0.018182"
 				}
 
@@ -1115,7 +1114,7 @@
 
 											}
  ],
-										"originid" : "pat-13653"
+										"originid" : "pat-8172"
 									}
 ,
 									"patching_rect" : [ 357.149999999999864, 249.017564273284961, 461.5, 21.0 ],
@@ -1395,7 +1394,7 @@
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ 0.0, 5330.0 ],
+									"domain_bounds" : [ 0.0, 1.0 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -1529,7 +1528,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 248.0, 458.868419885635376, 125.0, 119.0 ],
+									"patching_rect" : [ 248.0, 458.868419885635376, 131.0, 119.0 ],
 									"saved_object_attributes" : 									{
 										"verbose" : 1
 									}
@@ -1571,7 +1570,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 63.0, 458.868419885635376, 176.0, 22.0 ],
+									"patching_rect" : [ 63.0, 458.868419885635376, 189.0, 22.0 ],
 									"text" : "mubu.record #0-data track1"
 								}
 
@@ -1583,7 +1582,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1091.483357333333515, 546.657894134521484, 103.0, 22.0 ],
+									"patching_rect" : [ 1091.483357333333515, 546.657894134521484, 116.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"externalfiles" : 1,
@@ -2089,7 +2088,7 @@
 
 							}
  ],
-						"originid" : "pat-13651"
+						"originid" : "pat-8170"
 					}
 ,
 					"patching_rect" : [ 1024.0, 473.0, 557.0, 302.0 ],
@@ -2303,7 +2302,7 @@
 
 							}
  ],
-						"originid" : "pat-13655"
+						"originid" : "pat-8174"
 					}
 ,
 					"patching_rect" : [ 24.5, 381.0, 172.0, 22.0 ],
@@ -2498,12 +2497,27 @@
 
 			}
  ],
-		"originid" : "pat-13628",
+		"originid" : "pat-8089",
 		"parameters" : 		{
 			"obj-12::obj-55" : [ "live.text", "live.text", 0 ],
 			"obj-12::obj-56" : [ "live.text[1]", "live.text", 0 ],
 			"obj-12::obj-60" : [ "live.text[3]", "live.text[3]", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-12::obj-55" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
+				"obj-12::obj-56" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-12::obj-60" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
 
 			}
 ,

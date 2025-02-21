@@ -797,7 +797,7 @@
 
 			}
  ],
-		"originid" : "pat-14613",
+		"originid" : "pat-7069",
 		"parameters" : 		{
 			"obj-12::obj-55" : [ "live.text", "live.text", 0 ],
 			"obj-12::obj-56" : [ "live.text[1]", "live.text", 0 ],
@@ -815,6 +815,18 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-12::obj-55" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
+				"obj-12::obj-56" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-12::obj-60" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-25::obj-13" : 				{
 					"parameter_longname" : "live.toggle[18]"
 				}
