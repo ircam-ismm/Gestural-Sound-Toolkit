@@ -33,7 +33,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 116.0, 400.0, 56.0, 22.0 ],
+					"patching_rect" : [ 116.0, 400.0, 55.0, 22.0 ],
 					"text" : "del 2000"
 				}
 
@@ -203,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, -148.0, 90.0, 22.0 ],
+					"patching_rect" : [ 196.0, -148.0, 90.0, 22.0 ],
 					"text" : "loadmess start"
 				}
 
@@ -862,7 +862,7 @@
 
 			}
  ],
-		"originid" : "pat-1894"
+		"originid" : "pat-7248"
 	}
 
 }
