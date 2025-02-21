@@ -2,37 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-			"major" : 8,
-			"minor" : 6,
-=======
 			"major" : 9,
 			"minor" : 0,
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-		"rect" : [ 107.0, 264.0, 1503.0, 755.0 ],
-		"bglocked" : 0,
-=======
 		"rect" : [ 574.0, 199.0, 916.0, 756.0 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"id" : "obj-35",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1212.0, 304.325925925925958, 150.0, 20.0 ],
-					"text" : "for back compatibility"
-=======
 					"comment" : "button B",
 					"id" : "obj-37",
 					"index" : 6,
@@ -64,67 +46,29 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1203.0, 301.0, 153.0, 22.0 ],
 					"text" : "sprintf /comote/%s/heading"
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 811.0, 302.0, 150.0, 20.0 ],
-					"text" : "for back compatibility"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-12",
-=======
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"patching_rect" : [ 863.0, 491.0, 100.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1380.75, 328.325925925925958, 193.0, 22.0 ],
-=======
 					"patching_rect" : [ 989.0, 301.0, 191.0, 22.0 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"text" : "sprintf /comote/%s/control/buttonB"
 				}
 
 			}
 , 			{
 				"box" : 				{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"id" : "obj-1",
-=======
 					"id" : "obj-16",
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"patching_rect" : [ 986.250000000000114, 328.325925925925958, 193.0, 22.0 ],
-=======
 					"patching_rect" : [ 789.0, 301.0, 191.0, 22.0 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"text" : "sprintf /comote/%s/control/buttonA"
 				}
 
@@ -193,7 +137,7 @@
 				"box" : 				{
 					"comment" : "sensors format",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -253,7 +197,7 @@
 				"box" : 				{
 					"comment" : "gyroscope [g1 g2 g3]",
 					"id" : "obj-54",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -348,13 +292,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-							"major" : 8,
-							"minor" : 6,
-=======
 							"major" : 9,
 							"minor" : 0,
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -640,13 +579,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-							"major" : 8,
-							"minor" : 6,
-=======
 							"major" : 9,
 							"minor" : 0,
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1211,7 +1145,7 @@
 				"box" : 				{
 					"comment" : "button B",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1223,7 +1157,7 @@
 				"box" : 				{
 					"comment" : "button 1",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1283,11 +1217,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"patching_rect" : [ 1166.166669666667531, 414.0, 82.133333333333326, 31.0 ],
-=======
 					"patching_rect" : [ 887.64285714285711, 409.5, 82.133333333333326, 31.0 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 95.0, 27.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1320,11 +1250,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"patching_rect" : [ 789.0, 414.0, 83.0, 31.0 ],
-=======
 					"patching_rect" : [ 764.35714285714289, 409.5, 83.0, 31.0 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 62.0, 27.0, 33.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1376,11 +1302,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"patching_rect" : [ 1183.5, 328.325925925925958, 152.0, 22.0 ],
-=======
 					"patching_rect" : [ 989.0, 328.0, 152.0, 22.0 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"text" : "sprintf /comote/%s/buttonB"
 				}
 
@@ -1439,19 +1361,11 @@
 					"color" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 					"id" : "obj-41",
 					"maxclass" : "newobj",
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"numinlets" : 7,
-					"numoutlets" : 7,
-					"outlettype" : [ "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 394.5, 367.325925925925958, 1202.500000000000227, 22.0 ],
-					"text" : "route /comote/0/devicemotion /comote/0/magnetometer /comote/0/buttonA /comote/0/control/buttonA /comote/0/buttonB /comote/0/control/buttonB"
-=======
 					"numinlets" : 8,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 394.5, 367.325925925925958, 882.0, 22.0 ],
 					"text" : "route /comote/0/devicemotion /comote/0/magnetometer comote/0/buttonA /comote/0/control/buttonA /comote/0/buttonB /comote/0/control/buttonB /comote/0/heading"
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 				}
 
 			}
@@ -1466,13 +1380,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-							"major" : 8,
-							"minor" : 6,
-=======
 							"major" : 9,
 							"minor" : 0,
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1575,13 +1484,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-											"major" : 8,
-											"minor" : 6,
-=======
 											"major" : 9,
 											"minor" : 0,
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -2310,7 +2214,7 @@
 				"box" : 				{
 					"comment" : "on/off [1/0]",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2367,13 +2271,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-							"major" : 8,
-							"minor" : 6,
-=======
 							"major" : 9,
 							"minor" : 0,
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2552,7 +2451,7 @@
 				"box" : 				{
 					"comment" : "requested sampling period",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2565,7 +2464,7 @@
 				"box" : 				{
 					"comment" : "remote ip address",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2578,7 +2477,7 @@
 				"box" : 				{
 					"comment" : "port",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2591,7 +2490,7 @@
 				"box" : 				{
 					"comment" : "Id number",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2675,7 +2574,7 @@
 				"box" : 				{
 					"comment" : "gyroscope [g1 g2 g3]",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2687,7 +2586,7 @@
 				"box" : 				{
 					"comment" : "accelerometer [a1 a2 a3]",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2713,13 +2612,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 3 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 2 ],
 					"source" : [ "obj-10", 0 ]
@@ -2880,13 +2772,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 5 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -2985,9 +2870,6 @@
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"destination" : [ "obj-1", 0 ],
-=======
 					"destination" : [ "obj-16", 0 ],
 					"order" : 4,
 					"source" : [ "obj-42", 0 ]
@@ -2997,7 +2879,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"order" : 2,
 					"source" : [ "obj-42", 0 ]
 				}
@@ -3005,26 +2886,16 @@
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
-=======
 					"destination" : [ "obj-32", 0 ],
 					"order" : 6,
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"source" : [ "obj-42", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"destination" : [ "obj-32", 0 ],
-					"order" : 5,
-=======
 					"destination" : [ "obj-35", 0 ],
 					"order" : 0,
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -3048,22 +2919,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"order" : 4,
-=======
 					"order" : 5,
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"source" : [ "obj-42", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"destination" : [ "obj-41", 4 ],
-=======
 					"destination" : [ "obj-41", 5 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -3155,11 +3018,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"midpoints" : [ 798.5, 445.795775462962979, 1131.333333333333485, 445.795775462962979 ],
-=======
 					"midpoints" : [ 773.85714285714289, 445.795775462962979, 1131.333333333333485, 445.795775462962979 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -3167,11 +3026,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-					"midpoints" : [ 1175.666669666667531, 560.0, 1175.666669666667531, 560.0 ],
-=======
 					"midpoints" : [ 897.14285714285711, 437.795775462962979, 1175.666669666667531, 437.795775462962979 ],
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -3298,74 +3153,7 @@
 
 			}
  ],
-<<<<<<< HEAD:patchers/mod-interfaces/CoMo.te/in.comote.maxpat
-		"parameters" : 		{
-			"obj-55" : [ "live.text", "live.text", 0 ],
-			"obj-56" : [ "live.text[1]", "live.text", 0 ],
-			"obj-60" : [ "live.text[3]", "live.text[3]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "comote-connect-resize.js",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote-connect-server.cjs",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote-connect.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
-=======
 		"originid" : "pat-8182"
->>>>>>> with-mubuscroll:patchers/mod-interfaces/comote/in.comote.maxpat
 	}
 
 }
