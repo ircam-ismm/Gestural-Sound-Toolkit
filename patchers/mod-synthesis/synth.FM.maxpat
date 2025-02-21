@@ -2,42 +2,18 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 373.0, 226.0, 1296.0, 798.0 ],
-		"bglocked" : 0,
+		"rect" : [ 398.0, 192.0, 1296.0, 798.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
 		"style" : "gst.title",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-3",
@@ -82,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 496.0, 407.638611000000083, 191.0, 22.0 ],
-					"style" : "newobjYellow-1",
 					"text" : "poly~ FM-synth-const 1 @target 0"
 				}
 
@@ -127,16 +102,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.454902, 0.462745, 0.482353, 1.0 ],
-					"bgcolor2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_color1" : [ 0.454902, 0.462745, 0.482353, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "gradient",
-					"gradient" : 1,
 					"id" : "obj-31",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -150,13 +115,11 @@
 , 			{
 				"box" : 				{
 					"addpoints" : [ 4.587156179183106, 0.0, 0, 21.052632401303498, 0.666666666666667, 0, 35.135135135135137, 1.0, 0, 86.842108655376904, 1.0, 0, 139.473689658635692, 0.928571428571429, 0, 189.473691611731482, 0.738095238095238, 0, 244.73684210526315, 0.595238095238095, 0, 302.631590768737851, 0.404761904761905, 0, 365.789487972648203, 0.285714285714286, 0, 405.263157894736821, 0.214285714285714, 0, 444.736842105263179, 0.166666666666667, 0, 477.537310653521615, 0.0, 0 ],
-					"bgcolor" : [ 0.796078431372549, 0.784313725490196, 0.784313725490196, 1.0 ],
 					"classic_curve" : 1,
 					"domain" : 500.0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-33",
-					"linecolor" : [ 0.999999284744263, 0.999974429607391, 0.999991297721863, 1.0 ],
 					"maxclass" : "function",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -164,8 +127,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 921.0, 311.0, 202.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 91.5, 197.0, 56.0 ],
-					"style" : "newobjYellow-1"
+					"presentation_rect" : [ 9.0, 91.5, 197.0, 56.0 ]
 				}
 
 			}
@@ -208,7 +170,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.254901960784314, 0.274509803921569, 0.325490196078431, 0.0 ],
 					"fontname" : "Helvetica Light",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
@@ -216,8 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 823.5, 11.5, 52.0, 16.0 ],
-					"text" : "volume",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "volume"
 				}
 
 			}
@@ -237,7 +197,7 @@
 				"box" : 				{
 					"comment" : "Mod. Index",
 					"id" : "obj-17",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -249,7 +209,7 @@
 				"box" : 				{
 					"comment" : "Harmonicity",
 					"id" : "obj-16",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -261,7 +221,7 @@
 				"box" : 				{
 					"comment" : "Carrier Freq.",
 					"id" : "obj-14",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -288,7 +248,7 @@
 				"box" : 				{
 					"comment" : "Carrier Frequency (in Midi)",
 					"id" : "obj-7",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -311,8 +271,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.581952750682831, 0.60413932800293, 0.598141610622406, 1.0 ],
-					"checkedcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ],
 					"id" : "obj-88",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -322,7 +280,7 @@
 					"patching_rect" : [ 496.0, 28.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.720139000000017, 69.5, 21.142856776714325, 21.142856776714325 ],
-					"uncheckedcolor" : [ 0.709803921568627, 0.741176470588235, 0.733333333333333, 1.0 ],
+					"svg" : "",
 					"varname" : "live.toggle"
 				}
 
@@ -346,6 +304,7 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -361,7 +320,7 @@
 				"box" : 				{
 					"comment" : "audio",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -388,19 +347,17 @@
 				"box" : 				{
 					"comment" : "Trigger ADSR",
 					"id" : "obj-44",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 31.013644999999997, 39.168316000000004, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-					"blinkcolor" : [ 0.945098039215686, 0.047058823529412, 0.07843137254902, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -430,17 +387,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
 					"fontname" : "Helvetica Neue",
-					"fontsize" : 11.0,
+					"fontsize" : 12.0,
 					"id" : "obj-70",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.744033999999999, 10.0, 155.0, 19.0 ],
+					"patching_rect" : [ 12.744033999999999, 10.0, 168.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 6.0, 249.184311000000037, 19.0 ],
-					"style" : "gst.title",
+					"presentation_rect" : [ 8.0, 8.0, 271.0, 20.0 ],
 					"text" : "Simple FM Synthesis"
 				}
 
@@ -449,7 +404,7 @@
 				"box" : 				{
 					"comment" : "Volume",
 					"id" : "obj-62",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -498,7 +453,7 @@
 				"box" : 				{
 					"comment" : "Modulation Index",
 					"id" : "obj-58",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -533,7 +488,7 @@
 				"box" : 				{
 					"comment" : "Harmonicity",
 					"id" : "obj-50",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -546,7 +501,7 @@
 				"box" : 				{
 					"comment" : "Carrier Frequency (in Hz)",
 					"id" : "obj-49",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -569,7 +524,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.67352032661438, 0.673605561256409, 0.673474311828613, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"format" : 6,
@@ -582,9 +536,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 326.477813999999967, 248.242569000000003, 62.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 142.846428000000003, 40.668316000000004, 50.720137999999992, 21.0 ],
-					"style" : "white",
-					"textcolor" : [ 0.964705882352941, 0.952941176470588, 0.952941176470588, 1.0 ],
+					"presentation_rect" : [ 142.846428000000003, 40.668316000000004, 51.0, 21.0 ],
 					"triscale" : 0.9
 				}
 
@@ -621,7 +573,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.67352032661438, 0.673605561256409, 0.673474311828613, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"format" : 6,
@@ -635,15 +586,12 @@
 					"patching_rect" : [ 242.744033999999999, 248.242569000000003, 62.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.860068999999982, 40.668316000000004, 50.0, 21.0 ],
-					"style" : "white",
-					"textcolor" : [ 0.964705882352941, 0.952941176470588, 0.952941176470588, 1.0 ],
 					"triscale" : 0.9
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.67352032661438, 0.673605561256409, 0.673474311828613, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"format" : 6,
@@ -656,9 +604,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 144.757678999999996, 248.242569000000003, 63.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.860068999999982, 40.668316000000004, 57.0, 21.0 ],
-					"style" : "white",
-					"textcolor" : [ 0.964705882352941, 0.952941176470588, 0.952941176470588, 1.0 ],
+					"presentation_rect" : [ 8.860068999999982, 40.668316000000004, 58.0, 21.0 ],
 					"triscale" : 0.9
 				}
 
@@ -671,7 +617,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.771323999999993, 407.638611000000083, 236.0, 22.0 ],
-					"style" : "newobjYellow-1",
 					"text" : "poly~ FM-synth-adsr 8 @steal 1 @target 0"
 				}
 
@@ -687,7 +632,6 @@
 					"patching_rect" : [ 189.757678999999996, 206.5, 59.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.860068999999982, 25.094063000000006, 59.0, 17.0 ],
-					"style" : "numberGold-1",
 					"text" : "Carrier Freq."
 				}
 
@@ -703,7 +647,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 975.0, 237.0, 62.0, 22.0 ],
-					"style" : "numberGold-1",
 					"triscale" : 0.9
 				}
 
@@ -1003,6 +946,37 @@
 
 			}
  ],
+		"originid" : "pat-426",
+		"parameters" : 		{
+			"obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "FM-synth-adsr.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FM-synth-const.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "gst.comment",
 				"default" : 				{
@@ -1049,8 +1023,7 @@
 				"parentstyle" : "chiba",
 				"multi" : 0
 			}
- ],
-		"bgcolor" : [ 0.8731849193573, 0.873295426368713, 0.87312525510788, 1.0 ]
+ ]
 	}
 
 }

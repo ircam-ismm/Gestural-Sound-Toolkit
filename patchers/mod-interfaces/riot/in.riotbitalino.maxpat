@@ -2,52 +2,32 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 119.0, 140.0, 812.0, 518.0 ],
-		"bglocked" : 0,
+		"rect" : [ 440.0, 142.0, 812.0, 518.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.873164772987366, 0.873311161994934, 0.873123645782471, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.873164772987366, 0.873311161994934, 0.873123645782471, 1.0 ],
-					"bgfillcolor_color1" : [ 0.873173475265503, 0.873310685157776, 0.873123586177826, 1.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
+					"comment" : "riot type",
+					"id" : "obj-2",
+					"index" : 5,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 528.0, 22.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Helvetica Neue Light",
 					"id" : "obj-140",
 					"items" : [ "RIoT-Bitalino", ",", "RIoT-Ircam" ],
@@ -56,10 +36,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 529.314681999999948, 15.5, 100.0, 23.0 ],
+					"patching_rect" : [ 528.0, 64.45385034929177, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.849976003170013, 5.0, 90.0, 23.0 ],
-					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ]
+					"presentation_rect" : [ 6.849976003170013, 5.0, 90.0, 23.0 ]
 				}
 
 			}
@@ -70,14 +49,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 6.5, 101.0, 22.0 ],
+					"patching_rect" : [ 175.849976003170013, 7.0, 101.0, 22.0 ],
 					"text" : "loadmess 8888"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.97456, 0.963051, 1.0, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
@@ -87,8 +65,7 @@
 					"patching_rect" : [ 77.849976003170013, 8.5, 51.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 98.849976003170013, 8.0, 29.287002749999999, 18.0 ],
-					"text" : "Port",
-					"textcolor" : [ 0.572548985481262, 0.615685999393463, 0.658824026584625, 1.0 ]
+					"text" : "Port"
 				}
 
 			}
@@ -116,11 +93,11 @@
 				"box" : 				{
 					"comment" : "sampling period [ms]",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 387.833333333333371, 105.265625, 25.0, 25.0 ]
+					"patching_rect" : [ 388.0, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -128,11 +105,11 @@
 				"box" : 				{
 					"comment" : "magnetometer [m1 m2 m3]",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.833333333333371, 105.265625, 25.0, 25.0 ]
+					"patching_rect" : [ 356.0, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -167,7 +144,7 @@
 					"presentation_rect" : [ 118.674073003170008, 62.45385034929177, 45.0, 67.0 ],
 					"setstyle" : 1,
 					"size" : 3,
-					"slidercolor" : [ 0.92549, 0.749089, 0.670906, 1.0 ]
+					"slidercolor" : [ 0.90294361114502, 0.69563353061676, 0.608093023300171, 1.0 ]
 				}
 
 			}
@@ -175,12 +152,12 @@
 				"box" : 				{
 					"comment" : "on/off [1/0]",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 469.666666666666686, 7.5, 30.0, 30.0 ]
+					"patching_rect" : [ 470.666666666666686, 22.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -188,12 +165,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 411.666666666666686, 7.5, 30.0, 30.0 ]
+					"patching_rect" : [ 412.666666666666686, 22.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -201,12 +178,12 @@
 				"box" : 				{
 					"comment" : "port",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.333333333333371, 7.5, 30.0, 30.0 ]
+					"patching_rect" : [ 354.666666666666686, 22.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -214,12 +191,12 @@
 				"box" : 				{
 					"comment" : "Id number",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.0, 7.5, 30.0, 30.0 ]
+					"patching_rect" : [ 296.666666666666686, 22.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -257,7 +234,7 @@
 					"setminmax" : [ -3.0, 3.0 ],
 					"setstyle" : 1,
 					"size" : 3,
-					"slidercolor" : [ 0.620823, 0.74902, 0.578497, 1.0 ]
+					"slidercolor" : [ 0.552731156349182, 0.704448342323303, 0.50989842414856, 1.0 ]
 				}
 
 			}
@@ -301,7 +278,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 10,
 					"outlettype" : [ "", "", "", "", "", "int", "int", "", "float", "" ],
-					"patching_rect" : [ 295.0, 62.265625, 251.888888888888914, 22.0 ],
+					"patching_rect" : [ 296.0, 97.45385034929177, 251.888888888888914, 22.0 ],
 					"text" : "riotbitalino"
 				}
 
@@ -310,11 +287,11 @@
 				"box" : 				{
 					"comment" : "gyroscope [g1 g2 g3]",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 325.566650390625, 105.265625, 25.0, 25.0 ]
+					"patching_rect" : [ 326.0, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -322,29 +299,11 @@
 				"box" : 				{
 					"comment" : "accelerometer [a1 a2 a3]",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 295.0, 105.265625, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.933333, 0.933333, 0.933333, 1.0 ],
-					"id" : "obj-113",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ -2.5, 33.0, 172.0, 104.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.849976003170013, 27.0, 167.0, 109.0 ],
-					"setminmax" : [ 0.0, 1.100000023841858 ],
-					"setstyle" : 3,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"patching_rect" : [ 296.0, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -388,6 +347,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-140", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -457,15 +423,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-8222"
 	}
 
 }

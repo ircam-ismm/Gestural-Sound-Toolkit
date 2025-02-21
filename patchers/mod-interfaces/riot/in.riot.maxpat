@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 200.0, 261.0, 812.0, 518.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -52,7 +27,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.97456, 0.963051, 1.0, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
@@ -62,17 +36,14 @@
 					"patching_rect" : [ 77.849976003170013, 8.5, 51.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 98.849976003170013, 8.0, 29.287002749999999, 18.0 ],
-					"text" : "Port",
-					"textcolor" : [ 0.572548985481262, 0.615685999393463, 0.658824026584625, 1.0 ]
+					"text" : "Port"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.231372549019608, 0.231372549019608, 0.231372549019608, 0.501960784313725 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-16",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -81,9 +52,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 127.849976003170013, 8.5, 46.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 127.849976003170013, 7.0, 39.0, 19.0 ],
-					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"tricolor" : [ 0.733333333333333, 0.737254901960784, 0.72156862745098, 1.0 ]
+					"presentation_rect" : [ 127.849976003170013, 7.0, 39.0, 19.0 ]
 				}
 
 			}
@@ -141,8 +110,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 118.674073003170008, 62.45385034929177, 45.0, 67.0 ],
 					"setstyle" : 1,
-					"size" : 3,
-					"slidercolor" : [ 0.92549, 0.749089, 0.670906, 1.0 ]
+					"size" : 3
 				}
 
 			}
@@ -231,8 +199,7 @@
 					"presentation_rect" : [ 65.136978753170013, 62.45385034929177, 50.0, 67.0 ],
 					"setminmax" : [ -3.0, 3.0 ],
 					"setstyle" : 1,
-					"size" : 3,
-					"slidercolor" : [ 0.620823, 0.74902, 0.578497, 1.0 ]
+					"size" : 3
 				}
 
 			}
@@ -275,7 +242,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 9,
-					"outlettype" : [ "", "", "", "", "", "int", "", "float", "" ],
+					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 295.0, 62.265625, 194.0, 22.0 ],
 					"text" : "riot"
 				}
@@ -307,7 +274,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.309804, 0.313726, 0.317647, 0.0 ],
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -323,7 +289,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.933333, 0.933333, 0.933333, 1.0 ],
 					"id" : "obj-113",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -334,8 +299,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 6.849976003170013, 27.0, 167.0, 109.0 ],
 					"setminmax" : [ 0.0, 1.100000023841858 ],
-					"setstyle" : 3,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"setstyle" : 3
 				}
 
 			}
@@ -441,14 +405,8 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "riot.maxpat",
-				"bootpath" : "~/Documents/max_patches/riot-new",
-				"patcherrelativepath" : "../../../../../Documents/max_patches/riot-new",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"originid" : "pat-1104",
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
