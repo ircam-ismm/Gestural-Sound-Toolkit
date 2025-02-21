@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -14,6 +14,30 @@
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 157.0, 348.0, 110.0, 33.0 ],
+					"text" : "hack waiting for autobounds bug fix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 200.0, 326.0, 84.0, 22.0 ],
+					"text" : "clip -180. 180."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -29,7 +53,7 @@
 				"box" : 				{
 					"comment" : "angle [deg]",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -41,7 +65,7 @@
 				"box" : 				{
 					"comment" : "angle [deg]",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -63,7 +87,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -454,7 +478,7 @@
 
 							}
  ],
-						"originid" : "pat-1976"
+						"originid" : "pat-3292"
 					}
 ,
 					"patching_rect" : [ 38.5, 154.0, 137.0, 22.0 ],
@@ -508,7 +532,7 @@
 				"box" : 				{
 					"comment" : "order rotation [int]",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -526,7 +550,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.5, 208.0, 91.0, 20.0 ],
+					"patching_rect" : [ 416.5, 208.0, 108.0, 20.0 ],
 					"text" : "r #0-lower-value"
 				}
 
@@ -540,7 +564,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 519.5, 208.0, 93.0, 20.0 ],
+					"patching_rect" : [ 519.5, 208.0, 110.0, 20.0 ],
 					"text" : "r #0-upper-value"
 				}
 
@@ -558,15 +582,16 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 677.0, 79.0, 235.0, 310.0 ],
+						"rect" : [ 134.0, 172.0, 244.0, 326.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -575,7 +600,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.5, 112.0, 90.0, 20.0 ],
+									"patching_rect" : [ 169.5, 112.0, 116.0, 20.0 ],
 									"text" : "s #0-samplingrate"
 								}
 
@@ -709,8 +734,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 7,
 									"presentation_rect" : [ 14.0, 178.0, 211.0, 85.0 ],
-									"text" : "It computes angles in deg.\n\ninput: \n     - orientation\n\noutput:\n     - [1]: anglles [list]",
-									"textcolor" : [ 0.501859, 0.501859, 0.501859, 1.0 ]
+									"text" : "It computes angles in deg.\n\ninput: \n     - orientation\n\noutput:\n     - [1]: anglles [list]"
 								}
 
 							}
@@ -753,8 +777,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 342.5, 144.0, 84.0, 20.0 ],
-									"text" : "s #0-lower-value"
+									"patching_rect" : [ 342.5, 144.0, 111.0, 20.0 ],
+									"text" : "s #0-upper-value"
 								}
 
 							}
@@ -766,8 +790,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 341.5, 75.0, 86.0, 20.0 ],
-									"text" : "s #0-upper-value"
+									"patching_rect" : [ 341.5, 75.0, 110.0, 20.0 ],
+									"text" : "s #0-lower-value"
 								}
 
 							}
@@ -915,7 +939,7 @@
 
 							}
  ],
-						"originid" : "pat-1978"
+						"originid" : "pat-3294"
 					}
 ,
 					"patching_rect" : [ 340.0, 93.5, 85.0, 19.0 ],
@@ -977,7 +1001,7 @@
 					"autobounds" : 0,
 					"autoupdate" : 120.0,
 					"bgcolor" : [ 0.933333333333333, 0.933333333333333, 0.933333333333333, 1.0 ],
-					"bounds" : [ 0.0, 1.0 ],
+					"bounds" : [ -180.0, 180.0 ],
 					"colormode" : "pattern",
 					"colorpattern" : [ "black", "steelblue", "blue" ],
 					"domainruler" : 0,
@@ -995,7 +1019,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 314.5, 324.0, 204.0, 132.0 ],
+					"patching_rect" : [ 200.0, 418.0, 204.0, 132.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 28.0, 129.0, 86.0 ],
 					"rangeruler" : 0,
@@ -1012,7 +1036,7 @@
 				"box" : 				{
 					"comment" : "angle [deg]",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1024,7 +1048,7 @@
 				"box" : 				{
 					"comment" : "orientation (list of 3 floats [-1, 1])",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1050,15 +1074,40 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-16", 1 ],
+					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
+					"destination" : [ "obj-17", 0 ],
+					"order" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 2 ],
+					"order" : 1,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"order" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1133,7 +1182,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1146,13 +1195,7 @@
 
 			}
  ],
-		"originid" : "pat-1974",
-		"dependency_cache" : [ 			{
-				"name" : "mubu.scroll.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-3290"
 	}
 
 }

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 73.0, 108.0, 1537.0, 932.0 ],
+		"rect" : [ 114.0, 100.0, 1537.0, 932.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
@@ -211,7 +211,7 @@
 
 							}
  ],
-						"originid" : "pat-16789"
+						"originid" : "pat-118"
 					}
 ,
 					"patching_rect" : [ 131.0, 130.0, 114.0, 22.0 ],
@@ -240,7 +240,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 73.0, 134.0, 1537.0, 906.0 ],
+						"rect" : [ 114.0, 126.0, 1537.0, 906.0 ],
 						"bglocked" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"showontab" : 1,
@@ -496,7 +496,7 @@
 
 											}
  ],
-										"originid" : "pat-16793"
+										"originid" : "pat-122"
 									}
 ,
 									"patching_rect" : [ 114.5, 673.0, 85.0, 22.0 ],
@@ -630,7 +630,7 @@
 
 											}
  ],
-										"originid" : "pat-16795"
+										"originid" : "pat-124"
 									}
 ,
 									"patching_rect" : [ 528.0, 786.0, 85.0, 22.0 ],
@@ -790,7 +790,7 @@
 
 											}
  ],
-										"originid" : "pat-16797"
+										"originid" : "pat-126"
 									}
 ,
 									"patching_rect" : [ 528.0, 574.0, 85.0, 22.0 ],
@@ -949,7 +949,7 @@
 
 											}
  ],
-										"originid" : "pat-16799"
+										"originid" : "pat-128"
 									}
 ,
 									"patching_rect" : [ 528.0, 372.0, 85.0, 22.0 ],
@@ -1108,7 +1108,7 @@
 
 											}
  ],
-										"originid" : "pat-16801"
+										"originid" : "pat-130"
 									}
 ,
 									"patching_rect" : [ 528.0, 166.0, 85.0, 22.0 ],
@@ -1661,7 +1661,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"midpoints" : [ 753.5, 228.446170806884766, 1156.5, 228.446170806884766 ],
-									"order" : 2,
+									"order" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -1697,7 +1697,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"midpoints" : [ 753.5, 218.534568786621094, 934.5, 218.534568786621094, 934.5, 66.467613220214844, 955.5, 66.467613220214844 ],
-									"order" : 0,
+									"order" : 2,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -1797,7 +1797,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"midpoints" : [ 955.5, 226.482696533203125, 1156.5, 226.482696533203125 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -1814,7 +1814,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"midpoints" : [ 955.5, 227.392852783203125, 753.5, 227.392852783203125 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -1898,7 +1898,7 @@
 
 							}
  ],
-						"originid" : "pat-16791"
+						"originid" : "pat-120"
 					}
 ,
 					"patching_rect" : [ 74.0, 29.0, 66.0, 22.0 ],
@@ -2000,7 +2000,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1366.5, 511.453369140625, 65.0, 22.0 ],
-									"text" : "0.110132"
+									"text" : "0.102694"
 								}
 
 							}
@@ -2645,7 +2645,7 @@
 											}
  ],
 										"lines" : [  ],
-										"originid" : "pat-17215"
+										"originid" : "pat-546"
 									}
 ,
 									"patching_rect" : [ 1321.639942568359402, 106.953369140625, 58.999065000000002, 22.0 ],
@@ -2819,7 +2819,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"midpoints" : [ 517.0, 350.303020477294922, 1218.0, 350.303020477294922 ],
-									"order" : 2,
+									"order" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -2872,7 +2872,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"midpoints" : [ 517.0, 350.02032470703125, 890.5, 350.02032470703125, 890.5, 185.453369140625, 911.79486083984375, 185.453369140625 ],
-									"order" : 0,
+									"order" : 2,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -2916,22 +2916,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
-									"order" : 3,
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"order" : 2,
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
 									"order" : 1,
 									"source" : [ "obj-21", 0 ]
 								}
@@ -2939,8 +2923,24 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"order" : 0,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"order" : 2,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"order" : 3,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -3056,7 +3056,7 @@
 
 							}
  ],
-						"originid" : "pat-16899"
+						"originid" : "pat-230"
 					}
 ,
 					"patching_rect" : [ 113.0, 96.0, 61.0, 22.0 ],
@@ -3170,7 +3170,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-17245"
+						"originid" : "pat-576"
 					}
 ,
 					"patching_rect" : [ 93.5, 60.0, 70.0, 22.0 ],
@@ -3184,7 +3184,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-16675",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-1::obj-1::obj-12::obj-55" : [ "live.text", "live.text", 0 ],
 			"obj-1::obj-1::obj-12::obj-56" : [ "live.text[1]", "live.text", 0 ],
@@ -3260,6 +3260,18 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-1::obj-12::obj-55" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
+				"obj-1::obj-1::obj-12::obj-56" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-1::obj-12::obj-60" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-1::obj-2::obj-12::obj-55" : 				{
 					"parameter_longname" : "live.text[31]"
 				}
