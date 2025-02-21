@@ -16,6 +16,18 @@
 		"devicewidth" : 319.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 236.0, 356.0, 138.0, 22.0 ],
+					"text" : "loadmess rendermode 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -457,8 +469,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -496,9 +506,25 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 191.042056024074554, 388.0, 329.915887951850891, 468.556074440479279 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 319.130841135978699, 440.607476592063904 ],
-					"rendermode" : 0,
-					"url" : "http://127.0.0.1:8888"
+					"presentation_rect" : [ 3.0, 14.696261703968048, 319.130841135978699, 440.607476592063904 ],
+					"rendermode" : 2,
+					"url" : "http://127.0.0.1:8898"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-33",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 179.0, 374.556074440479279, 354.0, 482.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -11.0, -6.0, 354.0, 482.0 ],
+					"proportion" : 0.5
 				}
 
 			}
@@ -581,6 +607,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -827,17 +860,17 @@
 
 			}
  ],
-		"originid" : "pat-483",
+		"originid" : "pat-1010",
 		"dependency_cache" : [ 			{
 				"name" : "comote-connect-resize.js",
-				"bootpath" : "~/Repositories/comote-koral",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect-server.js",
-				"bootpath" : "~/Repositories/comote-koral",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/CoMo.te",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -861,7 +894,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ]
 	}
 
 }

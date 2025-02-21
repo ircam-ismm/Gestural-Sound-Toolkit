@@ -15,6 +15,19 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "riot type",
+					"id" : "obj-2",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 528.0, 22.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Helvetica Neue Light",
 					"id" : "obj-140",
 					"items" : [ "RIoT-Bitalino", ",", "RIoT-Ircam" ],
@@ -23,7 +36,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 529.314681999999948, 15.5, 100.0, 23.0 ],
+					"patching_rect" : [ 528.0, 64.45385034929177, 100.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.849976003170013, 5.0, 90.0, 23.0 ]
 				}
@@ -36,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 6.5, 101.0, 22.0 ],
+					"patching_rect" : [ 175.849976003170013, 7.0, 101.0, 22.0 ],
 					"text" : "loadmess 8888"
 				}
 
@@ -84,7 +97,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 387.833333333333371, 105.265625, 25.0, 25.0 ]
+					"patching_rect" : [ 388.0, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -96,7 +109,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.833333333333371, 105.265625, 25.0, 25.0 ]
+					"patching_rect" : [ 356.0, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -143,7 +156,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 469.666666666666686, 7.5, 30.0, 30.0 ]
+					"patching_rect" : [ 470.666666666666686, 22.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -156,7 +169,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 411.666666666666686, 7.5, 30.0, 30.0 ]
+					"patching_rect" : [ 412.666666666666686, 22.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -169,7 +182,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.333333333333371, 7.5, 30.0, 30.0 ]
+					"patching_rect" : [ 354.666666666666686, 22.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -182,7 +195,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.0, 7.5, 30.0, 30.0 ]
+					"patching_rect" : [ 296.666666666666686, 22.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -263,7 +276,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 10,
 					"outlettype" : [ "", "", "", "", "", "int", "int", "", "float", "" ],
-					"patching_rect" : [ 295.0, 62.265625, 251.888888888888914, 22.0 ],
+					"patching_rect" : [ 296.0, 97.45385034929177, 251.888888888888914, 22.0 ],
 					"text" : "riotbitalino"
 				}
 
@@ -276,7 +289,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 325.566650390625, 105.265625, 25.0, 25.0 ]
+					"patching_rect" : [ 326.0, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -288,7 +301,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 295.0, 105.265625, 25.0, 25.0 ]
+					"patching_rect" : [ 296.0, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -332,6 +345,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-140", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -401,7 +421,7 @@
 
 			}
  ],
-		"originid" : "pat-380",
+		"originid" : "pat-1404",
 		"dependency_cache" : [ 			{
 				"name" : "riotbitalino.maxpat",
 				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",

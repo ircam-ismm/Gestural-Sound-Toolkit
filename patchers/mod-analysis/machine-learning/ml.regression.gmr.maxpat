@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -44,7 +44,7 @@
 				"box" : 				{
 					"comment" : "imubu inlet",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 9,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -122,7 +122,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -553,7 +553,7 @@
 
 							}
  ],
-						"originid" : "pat-2214"
+						"originid" : "pat-10440"
 					}
 ,
 					"patching_rect" : [ 112.0, 215.333287073863971, 301.020779167999308, 22.0 ],
@@ -626,7 +626,7 @@
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 1.0 ],
+					"domain_bounds" : [ 0.0, 40.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -660,7 +660,7 @@
 					"outputvalues" : 0,
 					"outputviewname" : 0,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 64.844759240214714, 78.071416125999463, 231.405240759785272, 99.6651175345512 ],
+					"patching_rect" : [ 543.437016775065786, 526.430877733247371, 231.405240759785272, 99.6651175345512 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.844759240214714, 78.071416125999463, 231.405240759785272, 99.6651175345512 ],
 					"rangeruler_grid" : 0,
@@ -719,7 +719,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 109.0, 486.500003291858661, 73.0, 45.0 ],
+					"patching_rect" : [ 109.0, 486.500003291858661, 74.0, 45.0 ],
 					"text" : "mubu.record #0-gmr 1 input "
 				}
 
@@ -728,7 +728,7 @@
 				"box" : 				{
 					"comment" : "Likeliest label [Int]",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -740,7 +740,7 @@
 				"box" : 				{
 					"comment" : "mubu.gmr first inlet",
 					"id" : "obj-37",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -753,7 +753,7 @@
 				"box" : 				{
 					"comment" : "regularization [float] (absolute and relative)",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -766,7 +766,7 @@
 				"box" : 				{
 					"comment" : "label maximum number [Int]",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -779,7 +779,7 @@
 				"box" : 				{
 					"comment" : "label [Int]",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -792,7 +792,7 @@
 				"box" : 				{
 					"comment" : "automatic increment [1/0]",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -805,11 +805,11 @@
 				"box" : 				{
 					"comment" : "record [1/0]",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 394.806487595428507, 35.5, 30.0, 30.0 ]
 				}
 
@@ -833,7 +833,7 @@
 				"box" : 				{
 					"comment" : "Outuput parameters [List]",
 					"id" : "obj-78",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -845,7 +845,7 @@
 				"box" : 				{
 					"comment" : "ouput [list]",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -913,7 +913,7 @@
 				"box" : 				{
 					"comment" : "input [list]",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1217,7 +1217,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1569,7 +1569,7 @@
 
 							}
  ],
-						"originid" : "pat-2240"
+						"originid" : "pat-10466"
 					}
 ,
 					"patching_rect" : [ 394.020779167999308, 180.0, 461.5, 21.0 ],
@@ -1977,7 +1977,7 @@
 					"background" : 1,
 					"comment" : "likelihood [List]",
 					"id" : "obj-39",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2079,7 +2079,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 1535.47019773313923, 510.416656810465838, 74.344759240214714, 510.416656810465838 ],
+					"midpoints" : [ 1535.47019773313923, 510.416656810465838, 552.937016775065786, 510.416656810465838 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -2252,7 +2252,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"order" : 5,
+					"order" : 1,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -2260,7 +2260,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -2268,7 +2268,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -2276,7 +2276,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -2292,7 +2292,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -2535,53 +2535,7 @@
 
 			}
  ],
-		"originid" : "pat-2212",
-		"dependency_cache" : [ 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "imubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.gmm.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.gmr.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../../../Max 9/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.gmr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.record.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../../../Max 9/Packages/MuBu For Max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.track.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-10438"
 	}
 
 }

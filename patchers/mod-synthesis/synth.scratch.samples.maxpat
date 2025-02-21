@@ -4,25 +4,37 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 516.0, 140.0, 1015.0, 674.0 ],
+		"rect" : [ 516.0, 140.0, 615.0, 674.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
+					"id" : "obj-27",
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 296.0, 260.0, 24.0, 24.0 ],
-					"svg" : ""
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 524.5, 535.0, 244.0, 22.0 ],
+					"text" : "readfolder C74:/media/msp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "folder",
+					"id" : "obj-2",
+					"index" : 5,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 626.0, 61.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -49,7 +61,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 230.5, 95.0, 67.0, 22.0 ],
+					"patching_rect" : [ 137.0, 90.0, 67.0, 22.0 ],
 					"text" : "change 0"
 				}
 
@@ -70,7 +82,7 @@
 				"box" : 				{
 					"comment" : "Audio output",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -104,7 +116,7 @@
 					"presentation_rect" : [ 193.5, 19.0, 48.0, 91.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.gain~",
+							"parameter_longname" : "live.gain~[11]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
@@ -184,7 +196,7 @@
 				"box" : 				{
 					"comment" : "Audio output",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -258,12 +270,12 @@
 				"box" : 				{
 					"comment" : "Volume",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 548.0, 55.0, 25.0, 25.0 ]
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 548.0, 61.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -271,7 +283,7 @@
 				"box" : 				{
 					"comment" : "Speed for scratching",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -284,12 +296,12 @@
 				"box" : 				{
 					"comment" : "Sound index to play (starts from 1)",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.5, 59.0, 25.0, 25.0 ]
+					"patching_rect" : [ 137.0, 54.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -297,7 +309,7 @@
 				"box" : 				{
 					"comment" : "Start/Stop sound",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -320,7 +332,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -865,7 +877,7 @@
 
 							}
  ],
-						"originid" : "pat-30"
+						"originid" : "pat-5854"
 					}
 ,
 					"patching_rect" : [ 43.5, 395.0, 299.5, 22.0 ],
@@ -889,7 +901,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "synth.ctrl.soundpool.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int", "", "" ],
@@ -931,7 +943,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 1 ],
+					"order" : 0,
+					"source" : [ "obj-18", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
+					"order" : 1,
 					"source" : [ "obj-18", 2 ]
 				}
 
@@ -939,7 +960,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 2 ],
-					"order" : 1,
 					"source" : [ "obj-18", 3 ]
 				}
 
@@ -960,9 +980,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"order" : 0,
-					"source" : [ "obj-18", 3 ]
+					"destination" : [ "obj-18", 2 ],
+					"midpoints" : [ 635.5, 188.55078125, 240.0, 188.55078125 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1060,32 +1080,7 @@
 
 			}
  ],
-		"originid" : "pat-26",
-		"parameters" : 		{
-			"obj-18::obj-88" : [ "live.toggle[20]", "live.toggle", 0 ],
-			"obj-18::obj-92" : [ "live.toggle[17]", "live.toggle", 0 ],
-			"obj-22" : [ "live.gain~", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "synth.ctrl.soundpool.maxpat",
-				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
+		"originid" : "pat-5850",
 		"styles" : [ 			{
 				"name" : "gst.comment",
 				"default" : 				{

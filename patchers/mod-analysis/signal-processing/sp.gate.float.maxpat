@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -121,7 +121,7 @@
 				"box" : 				{
 					"comment" : "gate control [float]",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -188,8 +188,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.670588, 0.729412, 0.803922, 0.0 ],
-					"color" : [ 0.855643, 0.855643, 0.855643, 1.0 ],
 					"fontname" : "Helvetica Light",
 					"fontsize" : 11.0,
 					"id" : "obj-8",
@@ -201,7 +199,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -668,18 +666,17 @@
 
 							}
  ],
-						"originid" : "pat-1954"
+						"originid" : "pat-3629"
 					}
 ,
 					"patching_rect" : [ 262.0, 21.0, 47.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 83.0, 4.5, 48.0, 19.0 ],
+					"presentation_rect" : [ 83.0, 10.0, 48.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
 ,
-					"text" : "p more",
-					"textcolor" : [ 0.494496, 0.494496, 0.494496, 1.0 ]
+					"text" : "p more"
 				}
 
 			}
@@ -726,7 +723,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 51.5, 21.0, 125.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 4.0, 118.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 10.0, 118.0, 20.0 ],
 					"text" : "Gate"
 				}
 
@@ -748,7 +745,7 @@
 				"box" : 				{
 					"comment" : "Integer 0/1 if gate closed/open",
 					"id" : "obj-65",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -825,7 +822,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -903,7 +900,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-1956"
+						"originid" : "pat-3631"
 					}
 ,
 					"patching_rect" : [ 212.0, 21.0, 44.0, 19.0 ],
@@ -919,7 +916,7 @@
 				"box" : 				{
 					"comment" : "gated list",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -931,7 +928,7 @@
 				"box" : 				{
 					"comment" : "input [list]",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -951,7 +948,7 @@
 					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
-					"first_cursor_value" : 0.4,
+					"first_cursor_value" : 0.1,
 					"first_cursor_visible" : 1,
 					"id" : "obj-101",
 					"inversed" : 0,
@@ -1142,28 +1139,7 @@
 
 			}
  ],
-		"originid" : "pat-1952",
-		"parameters" : 		{
-			"obj-13" : [ "live.toggle[18]", "live.toggle", 0 ],
-			"obj-8::obj-17" : [ "live.toggle[14]", "live.toggle[1]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mubu.scroll.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-3627"
 	}
 
 }
