@@ -171,7 +171,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 210.0, 266.0, 343.0, 351.0 ],
+						"rect" : [ 210.0, 266.0, 750.0, 351.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"visible" : 1,
@@ -195,12 +195,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-5",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.0, 158.0, 84.0, 42.0 ],
-									"text" : "s #0-lower-value"
+									"patching_rect" : [ 345.0, 159.0, 122.0, 20.0 ],
+									"text" : "s #0-upper-value"
 								}
 
 							}
@@ -209,12 +208,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-7",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.0, 80.0, 86.0, 42.0 ],
-									"text" : "s #0-upper-value"
+									"patching_rect" : [ 345.0, 81.0, 120.0, 20.0 ],
+									"text" : "s #0-lower-value"
 								}
 
 							}
@@ -325,8 +323,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 7,
 									"presentation_rect" : [ 4.0, 131.0, 212.0, 100.0 ],
-									"text" : "Compute the vector norm\n (normalized by the list lenght) \n\n@input: list of float values (e.g. 3d accelerometer data)\n\n@output: 1-d distance value",
-									"textcolor" : [ 0.501859, 0.501859, 0.501859, 1.0 ]
+									"text" : "Compute the vector norm\n (normalized by the list lenght) \n\n@input: list of float values (e.g. 3d accelerometer data)\n\n@output: 1-d distance value"
 								}
 
 							}
@@ -431,7 +428,7 @@
 
 							}
  ],
-						"originid" : "pat-2744"
+						"originid" : "pat-3250"
 					}
 ,
 					"patching_rect" : [ 114.0, 11.0, 47.0, 19.0 ],
@@ -675,7 +672,7 @@
 
 			}
  ],
-		"originid" : "pat-2742"
+		"originid" : "pat-3248"
 	}
 
 }
