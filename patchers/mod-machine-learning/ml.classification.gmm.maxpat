@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 172.0, 1319.0, 897.0 ],
+		"rect" : [ 134.0, 172.0, 579.0, 897.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -44,7 +44,7 @@
 				"box" : 				{
 					"comment" : "imubu inlet",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -57,7 +57,7 @@
 				"box" : 				{
 					"comment" : "mubu.hhmm first inlet",
 					"id" : "obj-37",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -70,7 +70,7 @@
 				"box" : 				{
 					"comment" : "regularization [float] (absolute and relative)",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -83,7 +83,7 @@
 				"box" : 				{
 					"comment" : "label maximum number [Int]",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -96,7 +96,7 @@
 				"box" : 				{
 					"comment" : "label [Int]",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -109,7 +109,7 @@
 				"box" : 				{
 					"comment" : "automatic increment [1/0]",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -122,7 +122,7 @@
 				"box" : 				{
 					"comment" : "record [1/0]",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -169,7 +169,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -461,7 +461,7 @@
 
 							}
  ],
-						"originid" : "pat-2134"
+						"originid" : "pat-4387"
 					}
 ,
 					"patching_rect" : [ 11.214291572570815, 255.333287073863971, 143.806487595428507, 35.0 ],
@@ -509,7 +509,7 @@
 				"box" : 				{
 					"comment" : "Likeliest label",
 					"id" : "obj-78",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -574,9 +574,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "input",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -880,7 +880,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1232,7 +1232,7 @@
 
 							}
  ],
-						"originid" : "pat-2162"
+						"originid" : "pat-4415"
 					}
 ,
 					"patching_rect" : [ 71.020779167999308, 210.0, 461.5, 21.0 ],
@@ -1749,7 +1749,7 @@
 					"background" : 1,
 					"comment" : "likelihood [List]",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2262,53 +2262,7 @@
 
 			}
  ],
-		"originid" : "pat-2132",
-		"dependency_cache" : [ 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "imubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.gmm.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../../../Max 9/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.gmm.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.record.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../../../Max 9/Packages/MuBu For Max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.track.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pipo.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-4385"
 	}
 
 }

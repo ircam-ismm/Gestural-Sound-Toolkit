@@ -177,7 +177,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-31",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -203,7 +202,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-43",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -316,7 +314,7 @@
 
 							}
  ],
-						"originid" : "pat-16625"
+						"originid" : "pat-4481"
 					}
 ,
 					"patching_rect" : [ 100.166666666666657, 252.0, 81.666666666666657, 35.0 ],
@@ -330,7 +328,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "audio 2",
 					"id" : "obj-47",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -891,7 +889,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-4",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -1142,7 +1140,7 @@
 
 											}
  ],
-										"originid" : "pat-16631"
+										"originid" : "pat-4487"
 									}
 ,
 									"patching_rect" : [ 665.5, 439.5, 108.0, 22.0 ],
@@ -2219,7 +2217,7 @@
 
 											}
  ],
-										"originid" : "pat-16633"
+										"originid" : "pat-4489"
 									}
 ,
 									"patching_rect" : [ 895.0, 107.5, 190.0, 29.0 ],
@@ -2593,7 +2591,7 @@
 
 											}
  ],
-										"originid" : "pat-16635"
+										"originid" : "pat-4491"
 									}
 ,
 									"patching_rect" : [ 895.0, 141.5, 190.0, 29.0 ],
@@ -5158,7 +5156,7 @@
 
 											}
  ],
-										"originid" : "pat-16637"
+										"originid" : "pat-4493"
 									}
 ,
 									"patching_rect" : [ 895.0, 73.5, 190.0, 29.0 ],
@@ -6326,7 +6324,7 @@
 
 											}
  ],
-										"originid" : "pat-16639"
+										"originid" : "pat-4495"
 									}
 ,
 									"patching_rect" : [ 895.0, 41.5, 190.0, 29.0 ],
@@ -6468,7 +6466,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-44",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -6736,7 +6733,7 @@
 
 							}
  ],
-						"originid" : "pat-16629"
+						"originid" : "pat-4485"
 					}
 ,
 					"patching_rect" : [ 37.5, 347.0, 388.0, 22.0 ],
@@ -7041,7 +7038,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "audio 1",
 					"id" : "obj-19",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -7447,7 +7444,7 @@
 
 			}
  ],
-		"originid" : "pat-16623"
+		"originid" : "pat-4479"
 	}
 
 }

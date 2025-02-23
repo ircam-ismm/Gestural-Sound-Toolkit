@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -15,14 +15,14 @@
 		"gridsize" : [ 5.0, 5.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "on/off",
+					"comment" : "\"riot type\"",
 					"id" : "obj-143",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1008.679290499999865, 15.0, 30.0, 30.0 ]
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 787.657470999999987, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -104,7 +104,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -627,7 +627,7 @@
 
 							}
  ],
-						"originid" : "pat-1835"
+						"originid" : "pat-1667"
 					}
 ,
 					"patching_rect" : [ 178.838012999999989, 462.0, 557.953735000000052, 22.0 ],
@@ -657,7 +657,7 @@
 				"box" : 				{
 					"comment" : "OSC period (ms)",
 					"id" : "obj-71",
-					"index" : 0,
+					"index" : 10,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -687,7 +687,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 783.324097000000052, 148.5, 72.296265000000005, 22.0 ],
+					"patching_rect" : [ 837.0, 149.0, 72.296265000000005, 22.0 ],
 					"text" : "999999999"
 				}
 
@@ -699,7 +699,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 783.324097000000052, 89.0, 93.0, 22.0 ],
+					"patching_rect" : [ 837.0, 89.0, 93.0, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -711,7 +711,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 783.324097000000052, 116.0, 71.0, 22.0 ],
+					"patching_rect" : [ 837.0, 116.0, 71.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -776,7 +776,7 @@
 				"box" : 				{
 					"comment" : "Button external",
 					"id" : "obj-107",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1181,7 +1181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 815.324097000000052, 59.0, 72.0, 22.0 ],
+					"patching_rect" : [ 869.0, 59.0, 72.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -1428,7 +1428,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 783.324097000000052, 59.0, 24.0, 24.0 ],
+					"patching_rect" : [ 837.0, 59.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 28.35186767578125, 23.5, 24.0, 24.0 ],
 					"svg" : ""
@@ -1443,7 +1443,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 815.324097000000052, 25.0, 148.0, 22.0 ],
+					"patching_rect" : [ 869.0, 25.0, 148.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 55.615745544433594, 23.5, 47.0, 22.0 ],
 					"text" : "on/off"
@@ -1454,12 +1454,12 @@
 				"box" : 				{
 					"comment" : "on/off",
 					"id" : "obj-48",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 783.324097000000052, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 837.0, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1475,7 +1475,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1581,7 +1581,7 @@
 
 							}
  ],
-						"originid" : "pat-1837"
+						"originid" : "pat-1669"
 					}
 ,
 					"patching_rect" : [ 398.407470999999987, 501.0, 48.0, 22.0 ],
@@ -1766,7 +1766,7 @@
 				"box" : 				{
 					"comment" : "Gyroscope data (3 dim)",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1802,7 +1802,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1998,7 +1998,7 @@
 
 							}
  ],
-						"originid" : "pat-1839"
+						"originid" : "pat-1671"
 					}
 ,
 					"patching_rect" : [ 161.398132000000004, 340.0, 476.990661999999986, 22.0 ],
@@ -2014,7 +2014,7 @@
 				"box" : 				{
 					"comment" : "resampling [ms]",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2118,7 +2118,7 @@
 				"box" : 				{
 					"comment" : "Anlog outputs (dim 2)",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2144,7 +2144,7 @@
 				"box" : 				{
 					"comment" : "Port",
 					"id" : "obj-45",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2157,7 +2157,7 @@
 				"box" : 				{
 					"comment" : "Device ID",
 					"id" : "obj-44",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2241,7 +2241,7 @@
 				"box" : 				{
 					"comment" : "Sampling period",
 					"id" : "obj-33",
-					"index" : 0,
+					"index" : 9,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2267,7 +2267,7 @@
 				"box" : 				{
 					"comment" : "Accelerometer data (3 dim)",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2279,7 +2279,7 @@
 				"box" : 				{
 					"comment" : "Magnetometer data (3 dim)",
 					"id" : "obj-29",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2291,7 +2291,7 @@
 				"box" : 				{
 					"comment" : "Quaternions",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2303,7 +2303,7 @@
 				"box" : 				{
 					"comment" : "Euler angles",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2315,7 +2315,7 @@
 				"box" : 				{
 					"comment" : "Button onboard",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2659,7 +2659,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 818.824097000000052, 144.5, 399.893462999999997, 144.5 ],
+					"midpoints" : [ 872.5, 144.5, 399.893462999999997, 144.5 ],
 					"source" : [ "obj-115", 1 ]
 				}
 
@@ -2674,7 +2674,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
-					"midpoints" : [ 866.824097000000052, 319.5, 170.898132000000004, 319.5 ],
+					"midpoints" : [ 920.5, 319.5, 170.898132000000004, 319.5 ],
 					"source" : [ "obj-116", 1 ]
 				}
 
@@ -2682,7 +2682,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 792.824097000000052, 191.75, 399.893462999999997, 191.75 ],
+					"midpoints" : [ 846.5, 191.75, 399.893462999999997, 191.75 ],
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -2802,7 +2802,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-140", 0 ],
-					"midpoints" : [ 1018.179290499999865, 373.25, 26.814682000000001, 373.25 ],
+					"midpoints" : [ 797.157470999999987, 373.25, 26.814682000000001, 373.25 ],
 					"source" : [ "obj-143", 0 ]
 				}
 
@@ -3305,9 +3305,7 @@
 
 			}
  ],
-		"originid" : "pat-1833",
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"originid" : "pat-1665"
 	}
 
 }

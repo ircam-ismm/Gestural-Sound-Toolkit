@@ -14,6 +14,34 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "live.slider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 1,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 354.0, 496.0, 102.0, 41.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_exponent" : 2.0,
+							"parameter_longname" : "regularization",
+							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "regularization",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"varname" : "regularization"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -110,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 458.5, 496.0, 77.0, 22.0 ],
+					"patching_rect" : [ 469.0, 496.0, 77.0, 22.0 ],
 					"text" : "loadmess 10"
 				}
 
@@ -151,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 247.75, 496.0, 100.0, 22.0 ],
+					"patching_rect" : [ 248.0, 510.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -282,7 +310,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 458.5, 528.0, 50.0, 22.0 ]
+					"patching_rect" : [ 469.0, 528.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -293,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 458.5, 556.0, 109.0, 22.0 ],
+					"patching_rect" : [ 469.0, 556.0, 109.0, 22.0 ],
 					"text" : "gaussians $1, train"
 				}
 
@@ -431,7 +459,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 177.0, 492.0, 41.0, 20.0 ],
+					"patching_rect" : [ 177.0, 506.0, 41.0, 20.0 ],
 					"text" : "zl reg"
 				}
 
@@ -496,7 +524,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 141.625, 529.0, 302.0, 181.0 ],
+					"patching_rect" : [ 142.0, 543.0, 302.0, 181.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -584,9 +612,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 2 ],
-					"midpoints" : [ 19.5, 292.987853766601575, 221.875, 292.987853766601575 ],
+					"midpoints" : [ 19.5, 292.987853766601575, 222.25, 292.987853766601575 ],
 					"order" : 1,
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 6 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -662,7 +697,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 3 ],
+					"destination" : [ "obj-41", 4 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -773,9 +808,10 @@
 
 			}
  ],
-		"originid" : "pat-7627",
+		"originid" : "pat-1572",
 		"parameters" : 		{
 			"obj-15::obj-2" : [ "live.gain~[5]", "live.gain~[4]", 0 ],
+			"obj-19" : [ "regularization", "regularization", 0 ],
 			"obj-2::obj-55" : [ "live.text", "live.text", 0 ],
 			"obj-2::obj-56" : [ "live.text[1]", "live.text", 0 ],
 			"obj-2::obj-60" : [ "live.text[3]", "live.text[3]", 0 ],
@@ -856,6 +892,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "gst.riotbitalino.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -881,8 +924,8 @@
 			}
 , 			{
 				"name" : "ml.regression.gmr.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../patchers/mod-analysis/machine-learning",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -938,13 +981,6 @@
 				"name" : "resize_n4m_monitor_patcher.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

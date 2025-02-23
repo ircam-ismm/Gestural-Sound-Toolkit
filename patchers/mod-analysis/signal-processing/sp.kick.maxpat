@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 159.0, 1139.0, 787.0 ],
+		"rect" : [ 685.0, 164.0, 1139.0, 787.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -172,7 +172,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[2]",
+							"parameter_longname" : "live.button",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -188,7 +188,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "List of 3 elements (accelerations along the 3 axis x, y, z)",
+					"comment" : "median size",
 					"id" : "obj-47",
 					"index" : 4,
 					"maxclass" : "inlet",
@@ -883,7 +883,7 @@
 
 							}
  ],
-						"originid" : "pat-1715"
+						"originid" : "pat-168"
 					}
 ,
 					"patching_rect" : [ 111.0, 39.5, 101.0, 21.0 ],
@@ -946,7 +946,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 113.0, 507.5, 64.0, 21.0 ],
-					"text" : "0.000001"
+					"text" : "0."
 				}
 
 			}
@@ -1324,7 +1324,7 @@
 
 							}
  ],
-						"originid" : "pat-1717"
+						"originid" : "pat-170"
 					}
 ,
 					"patching_rect" : [ 193.0, 422.0, 138.0, 21.0 ],
@@ -1539,7 +1539,7 @@
 					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
-					"first_cursor_value" : 0.416666666666667,
+					"first_cursor_value" : 0.932584269662921,
 					"first_cursor_visible" : 1,
 					"id" : "obj-101",
 					"inversed" : 0,
@@ -1984,7 +1984,7 @@
 
 			}
  ],
-		"originid" : "pat-1713"
+		"originid" : "pat-166"
 	}
 
 }

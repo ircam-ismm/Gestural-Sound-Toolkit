@@ -538,7 +538,7 @@
 
 							}
  ],
-						"originid" : "pat-160"
+						"originid" : "pat-4321"
 					}
 ,
 					"patching_rect" : [ 55.0, 270.333287073863971, 301.020779167999308, 22.0 ],
@@ -812,7 +812,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "output",
 					"id" : "obj-78",
 					"index" : 3,
 					"maxclass" : "outlet",
@@ -1534,7 +1534,7 @@
 
 							}
  ],
-						"originid" : "pat-192"
+						"originid" : "pat-4353"
 					}
 ,
 					"patching_rect" : [ 337.020779167999308, 211.0, 461.5, 21.0 ],
@@ -2528,7 +2528,7 @@
 
 			}
  ],
-		"originid" : "pat-158"
+		"originid" : "pat-4319"
 	}
 
 }

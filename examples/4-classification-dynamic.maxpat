@@ -14,6 +14,35 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "live.slider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 1,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 443.51123046875, 490.0, 102.0, 41.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_exponent" : 2.0,
+							"parameter_invisible" : 2,
+							"parameter_longname" : "regularization",
+							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "regularization",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"varname" : "regularization"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -635,6 +664,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 5 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -714,7 +750,7 @@
 
 			}
  ],
-		"originid" : "pat-15075",
+		"originid" : "pat-8945",
 		"parameters" : 		{
 			"obj-10::obj-55" : [ "live.text", "live.text", 0 ],
 			"obj-10::obj-56" : [ "live.text[1]", "live.text", 0 ],
@@ -722,12 +758,25 @@
 			"obj-12::obj-18::obj-88" : [ "live.toggle[9]", "live.toggle", 0 ],
 			"obj-12::obj-18::obj-92" : [ "live.toggle[8]", "live.toggle", 0 ],
 			"obj-12::obj-22" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-25" : [ "regularization", "regularization", 0 ],
 			"obj-26::obj-2" : [ "live.gain~[5]", "live.gain~[4]", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-10::obj-55" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
+				"obj-10::obj-56" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-10::obj-60" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-12::obj-18::obj-88" : 				{
 					"parameter_longname" : "live.toggle[9]"
 				}
@@ -787,6 +836,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "gst.riotbitalino.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
@@ -812,8 +868,8 @@
 			}
 , 			{
 				"name" : "ml.classification.hhmm.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../patchers/mod-analysis/machine-learning",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -865,13 +921,6 @@
 				"name" : "resize_n4m_monitor_patcher.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

@@ -16,7 +16,7 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "Audio input",
+					"comment" : "Audio input 2",
 					"id" : "obj-7",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -104,7 +104,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Audio input",
+					"comment" : "Audio input 1",
 					"id" : "obj-20",
 					"index" : 1,
 					"maxclass" : "inlet",
@@ -164,7 +164,7 @@
 
 			}
  ],
-		"originid" : "pat-13044"
+		"originid" : "pat-4499"
 	}
 
 }

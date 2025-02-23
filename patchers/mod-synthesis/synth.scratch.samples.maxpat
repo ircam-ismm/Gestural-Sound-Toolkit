@@ -80,7 +80,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Audio output",
+					"comment" : "Audio 2",
 					"id" : "obj-28",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -116,7 +116,7 @@
 					"presentation_rect" : [ 193.5, 19.0, 48.0, 91.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.gain~[11]",
+							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
@@ -194,7 +194,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Audio output",
+					"comment" : "Audio 1",
 					"id" : "obj-14",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -274,7 +274,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 548.0, 61.0, 25.0, 25.0 ]
 				}
 
@@ -877,7 +877,7 @@
 
 							}
  ],
-						"originid" : "pat-5854"
+						"originid" : "pat-4505"
 					}
 ,
 					"patching_rect" : [ 43.5, 395.0, 299.5, 22.0 ],
@@ -1080,7 +1080,7 @@
 
 			}
  ],
-		"originid" : "pat-5850",
+		"originid" : "pat-4501",
 		"styles" : [ 			{
 				"name" : "gst.comment",
 				"default" : 				{

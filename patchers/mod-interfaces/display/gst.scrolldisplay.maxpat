@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 520.0, 337.0, 708.0, 715.0 ],
+		"rect" : [ 520.0, 337.0, 607.0, 715.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -27,9 +27,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Sampling Rate (Hz)",
+					"comment" : "mubu.scroll inlet",
 					"id" : "obj-4",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -75,9 +75,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Sampling Rate (Hz)",
+					"comment" : "min",
 					"id" : "obj-26",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -88,9 +88,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Cutoff Frequency (Hz)",
+					"comment" : "max",
 					"id" : "obj-9",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -415,7 +415,7 @@
 
 							}
  ],
-						"originid" : "pat-6504"
+						"originid" : "pat-1891"
 					}
 ,
 					"patching_rect" : [ 341.0, 88.5, 74.0, 19.0 ],
@@ -486,7 +486,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-6506"
+						"originid" : "pat-1893"
 					}
 ,
 					"patching_rect" : [ 200.5, 38.5, 44.0, 19.0 ],
@@ -546,7 +546,7 @@
 				"box" : 				{
 					"comment" : "filtered data",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -558,7 +558,7 @@
 				"box" : 				{
 					"comment" : "input [list]",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -682,7 +682,13 @@
 
 			}
  ],
-		"originid" : "pat-6502"
+		"originid" : "pat-1889",
+		"dependency_cache" : [ 			{
+				"name" : "mubu.scroll.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

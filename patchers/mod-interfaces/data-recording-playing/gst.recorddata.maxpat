@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 193.0, 187.0, 858.0, 644.0 ],
+		"rect" : [ 193.0, 187.0, 1315.0, 644.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 2,
@@ -151,7 +151,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "messages to imubu",
+					"comment" : "imubu inlet",
 					"id" : "obj-22",
 					"index" : 6,
 					"maxclass" : "inlet",
@@ -459,15 +459,13 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 14.0, 230.0, 38.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 6.0, 30.0, 19.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "signal 3 [float float float]",
 					"id" : "obj-39",
 					"index" : 3,
 					"maxclass" : "outlet",
@@ -479,7 +477,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "signal 2 [float float float]",
 					"id" : "obj-38",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -572,7 +570,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "signal 1 [float float float]",
 					"id" : "obj-12",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -824,7 +822,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 2620.0,
+					"cursor_position" : 6020.0,
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
@@ -883,12 +881,12 @@
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
-					"tool" : "edit",
+					"tool" : "draw",
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
 					"toolbar_transposition" : 0,
-					"toolbar_visible" : 0,
+					"toolbar_visible" : 2,
 					"useplaceholders" : 1,
 					"verbose" : 1,
 					"windresize" : 0
@@ -1337,7 +1335,7 @@
 
 			}
  ],
-		"originid" : "pat-16841",
+		"originid" : "pat-6241",
 		"stripecolor" : [ 0.149019607843137, 0.145098039215686, 0.145098039215686, 1.0 ]
 	}
 

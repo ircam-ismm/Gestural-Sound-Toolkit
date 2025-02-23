@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 111.0, 100.0, 1510.0, 982.0 ],
+		"rect" : [ 113.0, 101.0, 1510.0, 982.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -350,7 +350,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 110.5, 65.975730895996094, 320.731216430664062, 243.180885314941406 ],
+					"patching_rect" : [ 110.5, 65.0, 320.731216430664062, 243.180885314941406 ],
 					"viewvisibility" : 1
 				}
 
@@ -532,7 +532,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, -5.0 ],
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 805.634391784667969, 464.0, 133.731216430664062, 116.319091796875 ],
+					"patching_rect" : [ 805.634391784667969, 460.0, 133.731216430664062, 116.319091796875 ],
 					"viewvisibility" : 1
 				}
 
@@ -717,15 +717,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 5 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-34", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 3 ],
-					"order" : 1,
+					"destination" : [ "obj-23", 4 ],
+					"order" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -797,7 +797,7 @@
 
 			}
  ],
-		"originid" : "pat-7069",
+		"originid" : "pat-1808",
 		"parameters" : 		{
 			"obj-12::obj-55" : [ "live.text", "live.text", 0 ],
 			"obj-12::obj-56" : [ "live.text[1]", "live.text", 0 ],
@@ -837,6 +837,10 @@
 ,
 				"obj-26::obj-2" : 				{
 					"parameter_longname" : "live.gain~[5]"
+				}
+,
+				"obj-31::obj-22" : 				{
+					"parameter_longname" : "live.gain~[11]"
 				}
 ,
 				"obj-3::obj-4" : 				{
@@ -908,6 +912,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "gst.riotbitalino.maxpat",
+				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "in.comote.maxpat",
 				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
@@ -939,13 +950,6 @@
 				"name" : "resize_n4m_monitor_patcher.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

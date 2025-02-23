@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 172.0, 1397.0, 900.0 ],
+		"rect" : [ 293.0, 226.0, 1000.0, 776.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -114,7 +114,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "current trial #",
 					"id" : "obj-5",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -206,7 +206,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "track #",
 					"id" : "obj-33",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -316,7 +316,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -324,7 +324,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 948.0, 196.0, 615.0, 627.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -786,7 +785,7 @@
 
 							}
  ],
-						"originid" : "pat-2298"
+						"originid" : "pat-4199"
 					}
 ,
 					"patching_rect" : [ 357.149999999999864, 249.017564273284961, 461.5, 21.0 ],
@@ -904,7 +903,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "mubu inlet / clear",
 					"id" : "obj-21",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1112,7 +1111,7 @@
 					"region_visible" : 1,
 					"resamplefiles" : 0,
 					"snaprate" : 1000.0,
-					"splitbars_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"splitbars_color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"splitbars_size" : 2,
 					"splitbars_visible" : 1,
 					"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -1195,12 +1194,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-30",
-					"linecount" : 9,
+					"linecount" : 8,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 248.0, 458.868419885635376, 122.0, 119.0 ],
+					"patching_rect" : [ 248.0, 458.868419885635376, 136.0, 107.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -1242,7 +1241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 63.0, 458.868419885635376, 160.0, 22.0 ],
+					"patching_rect" : [ 63.0, 458.868419885635376, 189.0, 22.0 ],
 					"text" : "mubu.record #0-data track1"
 				}
 
@@ -1254,7 +1253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1091.483357333333515, 546.657894134521484, 100.0, 22.0 ],
+					"patching_rect" : [ 1091.483357333333515, 546.657894134521484, 116.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -1272,7 +1271,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "data in",
 					"id" : "obj-113",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1285,7 +1284,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "track #",
 					"id" : "obj-120",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1298,7 +1297,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "record [1/0]",
 					"id" : "obj-121",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1311,7 +1310,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "max trials",
 					"id" : "obj-122",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1760,7 +1759,7 @@
 
 			}
  ],
-		"originid" : "pat-2296",
+		"originid" : "pat-4197",
 		"dependency_cache" : [ 			{
 				"name" : "imubu.mxo",
 				"type" : "iLaX"

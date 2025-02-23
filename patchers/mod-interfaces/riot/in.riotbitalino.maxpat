@@ -10,19 +10,19 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 440.0, 142.0, 812.0, 518.0 ],
+		"rect" : [ 320.0, 227.0, 812.0, 518.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "riot type",
 					"id" : "obj-2",
-					"index" : 5,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.0, 22.0, 30.0, 30.0 ]
+					"patching_rect" : [ 470.0, 19.45385034929177, 30.0, 30.0 ]
 				}
 
 			}
@@ -36,7 +36,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 528.0, 64.45385034929177, 100.0, 23.0 ],
+					"patching_rect" : [ 470.0, 62.45385034929177, 100.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.849976003170013, 5.0, 90.0, 23.0 ]
 				}
@@ -109,7 +109,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 356.0, 140.45385034929177, 25.0, 25.0 ]
+					"patching_rect" : [ 357.166666666666742, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -152,18 +152,18 @@
 				"box" : 				{
 					"comment" : "on/off [1/0]",
 					"id" : "obj-8",
-					"index" : 4,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.666666666666686, 22.0, 30.0, 30.0 ]
+					"patching_rect" : [ 528.0, 22.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "sampling period (resampling)",
 					"id" : "obj-10",
 					"index" : 3,
 					"maxclass" : "inlet",
@@ -278,8 +278,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 10,
 					"outlettype" : [ "", "", "", "", "", "int", "int", "", "float", "" ],
-					"patching_rect" : [ 296.0, 97.45385034929177, 251.888888888888914, 22.0 ],
-					"text" : "riotbitalino"
+					"patching_rect" : [ 296.0, 97.45385034929177, 251.0, 22.0 ],
+					"text" : "gst.riotbitalino"
 				}
 
 			}
@@ -291,7 +291,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 140.45385034929177, 25.0, 25.0 ]
+					"patching_rect" : [ 328.0, 140.45385034929177, 25.0, 25.0 ]
 				}
 
 			}
@@ -338,7 +338,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 4 ],
+					"destination" : [ "obj-25", 3 ],
 					"source" : [ "obj-140", 0 ]
 				}
 
@@ -417,13 +417,13 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 3 ],
+					"destination" : [ "obj-25", 4 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-8222"
+		"originid" : "pat-1653"
 	}
 
 }
