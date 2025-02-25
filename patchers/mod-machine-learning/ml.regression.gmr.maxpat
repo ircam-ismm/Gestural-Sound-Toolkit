@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 121.0, 172.0, 1573.0, 897.0 ],
+		"rect" : [ 121.0, 172.0, 1000.0, 897.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -66,7 +66,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 279.730510561141955, 486.500003291858661, 109.0, 156.0 ],
 					"saved_object_attributes" : 					{
-						"verbose" : 1
+						"verbose" : 0
 					}
 ,
 					"text" : "mubu.track #0-gmr 1 input @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 1\"  @predef yes"
@@ -553,7 +553,7 @@
 
 							}
  ],
-						"originid" : "pat-10440"
+						"originid" : "pat-10042"
 					}
 ,
 					"patching_rect" : [ 112.0, 215.333287073863971, 301.020779167999308, 22.0 ],
@@ -590,7 +590,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 400.520779167999251, 486.500003291858661, 109.0, 156.0 ],
 					"saved_object_attributes" : 					{
-						"verbose" : 1
+						"verbose" : 0
 					}
 ,
 					"text" : "mubu.track #0-gmr 2 output  @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 1\"  @predef yes"
@@ -626,7 +626,7 @@
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 40.0 ],
+					"domain_bounds" : [ 0.0, 1.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -660,7 +660,7 @@
 					"outputvalues" : 0,
 					"outputviewname" : 0,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 543.437016775065786, 526.430877733247371, 231.405240759785272, 99.6651175345512 ],
+					"patching_rect" : [ 542.306487595428507, 623.0, 231.405240759785272, 99.6651175345512 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.844759240214714, 78.071416125999463, 231.405240759785272, 99.6651175345512 ],
 					"rangeruler_grid" : 0,
@@ -687,7 +687,7 @@
 					"toolbar_transposition" : 0,
 					"toolbar_visible" : 0,
 					"useplaceholders" : 1,
-					"verbose" : 1,
+					"verbose" : 0,
 					"windresize" : 0
 				}
 
@@ -703,7 +703,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 189.951621898857127, 486.500003291858661, 74.569157269142181, 45.0 ],
+					"patching_rect" : [ 192.0, 480.999995602859485, 74.569157269142181, 45.0 ],
 					"text" : "mubu.record #0-gmr 2 output "
 				}
 
@@ -719,7 +719,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 109.0, 486.500003291858661, 74.0, 45.0 ],
+					"patching_rect" : [ 112.0, 480.999995602859485, 74.0, 45.0 ],
 					"text" : "mubu.record #0-gmr 1 input "
 				}
 
@@ -1019,7 +1019,7 @@
 						"resamplefiles" : 0,
 						"savegui" : 0,
 						"snaprate" : 1000.0,
-						"verbose" : 1
+						"verbose" : 0
 					}
 ,
 					"text" : "mubu #0-gmr data"
@@ -1569,7 +1569,7 @@
 
 							}
  ],
-						"originid" : "pat-10466"
+						"originid" : "pat-10068"
 					}
 ,
 					"patching_rect" : [ 394.020779167999308, 180.0, 461.5, 21.0 ],
@@ -2079,7 +2079,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 1535.47019773313923, 510.416656810465838, 552.937016775065786, 510.416656810465838 ],
+					"midpoints" : [ 1535.47019773313923, 510.416656810465838, 551.806487595428507, 510.416656810465838 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -2535,7 +2535,7 @@
 
 			}
  ],
-		"originid" : "pat-10438"
+		"originid" : "pat-10040"
 	}
 
 }
