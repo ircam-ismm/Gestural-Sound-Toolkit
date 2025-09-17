@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 830.0, 749.0, 1172.0, 888.0 ],
+		"rect" : [ 830.0, 518.0, 1172.0, 888.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -137,7 +137,7 @@
 				"box" : 				{
 					"comment" : "gain [float]",
 					"id" : "obj-60",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -150,7 +150,7 @@
 				"box" : 				{
 					"comment" : "integration feedback",
 					"id" : "obj-61",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -556,7 +556,7 @@
 				"box" : 				{
 					"comment" : "intensity z axis",
 					"id" : "obj-5",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -568,7 +568,7 @@
 				"box" : 				{
 					"comment" : "intensity y axis",
 					"id" : "obj-4",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -580,7 +580,7 @@
 				"box" : 				{
 					"comment" : "intensity x axis",
 					"id" : "obj-43",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -706,7 +706,7 @@
 				"box" : 				{
 					"comment" : "compressed and linear intensity",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -718,7 +718,7 @@
 				"box" : 				{
 					"comment" : "aaccelerometer data [list of 3 floats]",
 					"id" : "obj-91",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -740,7 +740,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1149,17 +1149,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-3336"
+ ]
 					}
 ,
 					"patching_rect" : [ 153.0, 52.0, 115.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 85.0, 4.0, 47.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p more"
 				}
 
@@ -1183,12 +1178,14 @@
 				"box" : 				{
 					"autobounds" : 0,
 					"autoupdate" : 120.0,
-					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
 					"bounds" : [ 0.0, 1.0 ],
 					"colormode" : "fgcolor",
 					"colorpattern" : [ "red", "green", "blue", "" ],
 					"domainruler" : 0,
-					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
 					"first_cursor_value" : 0.0,
@@ -1209,10 +1206,11 @@
 					"sampleperiod" : 10.0,
 					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"second_cursor_size" : 3,
-					"second_cursor_value" : -1.0,
+					"second_cursor_value" : 0.0,
 					"second_cursor_visible" : 0,
 					"shape" : "lines",
-					"varname" : "scroll"
+					"varname" : "scroll",
+					"windresize" : 0
 				}
 
 			}
@@ -1688,7 +1686,16 @@
 
 			}
  ],
-		"originid" : "pat-3334"
+		"dependency_cache" : [ 			{
+				"name" : "mubu.scroll.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 50.0, 100.0, 1644.0, 923.0 ],
+		"rect" : [ 479.0, 280.0, 1558.0, 804.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -20,8 +20,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 646.0, 747.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 570.0, 623.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -32,7 +31,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 753.0, 138.0, 22.0 ],
+					"patching_rect" : [ 227.0, 624.0, 138.0, 22.0 ],
 					"text" : "-1.109677 -0.018182"
 				}
 
@@ -45,8 +44,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 491.731216430664062, 389.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 491.731216430664062, 389.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -59,17 +57,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 346.0, 396.0, 116.0, 22.0 ],
 					"text" : "0.303226 -0.490909"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 24.5, 406.0, 48.0, 22.0 ],
-					"text" : "comote"
 				}
 
 			}
@@ -280,7 +267,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 346.0, 473.0, 320.0, 254.0 ],
+					"patching_rect" : [ 346.0, 473.0, 243.0, 138.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -333,7 +320,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -362,8 +349,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 339.149999999999864, 114.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 339.149999999999864, 114.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -599,8 +585,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 339.149999999999864, 183.452378511428833, 24.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.899999999999864, 31.0, 21.142856776714325, 21.142856776714325 ],
-									"svg" : ""
+									"presentation_rect" : [ 9.899999999999864, 31.0, 21.142856776714325, 21.142856776714325 ]
 								}
 
 							}
@@ -645,7 +630,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -808,8 +793,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 50.0, 223.0, 24.0, 24.0 ],
-													"svg" : ""
+													"patching_rect" : [ 50.0, 223.0, 24.0, 24.0 ]
 												}
 
 											}
@@ -1113,15 +1097,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-8172"
+ ]
 									}
 ,
 									"patching_rect" : [ 357.149999999999864, 249.017564273284961, 461.5, 21.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p incrementing automatically label number"
 								}
 
@@ -1166,8 +1145,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 503.935708427429063, 183.452378511428833, 24.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 61.107143223285675, 31.0, 21.142856776714325, 21.142856776714325 ],
-									"svg" : ""
+									"presentation_rect" : [ 61.107143223285675, 31.0, 21.142856776714325, 21.142856776714325 ]
 								}
 
 							}
@@ -1360,8 +1338,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 357.149999999999864, 332.5, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 357.149999999999864, 332.5, 24.0, 24.0 ]
 								}
 
 							}
@@ -1371,9 +1348,12 @@
 									"autobounds" : 0,
 									"autorefreshrate" : 0,
 									"autoupdate" : 120.0,
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bufferchooser_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bufferchooser_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+									"bgcolordefault" : 1,
+									"bufferchooser_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+									"bufferchooser_bgcolordefault" : 1,
+									"bufferchooser_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+									"bufferchooser_fgcolordefault" : 1,
 									"bufferchooser_position" : 1,
 									"bufferchooser_shape" : "buttons",
 									"bufferchooser_size" : 15,
@@ -1385,24 +1365,44 @@
 									"cursor_circleheight" : 3.0,
 									"cursor_circlewidth" : 3.0,
 									"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"cursor_crossheight" : -1.0,
+									"cursor_crosswidth" : -1.0,
 									"cursor_followmouse" : 0,
+									"cursor_label" : "",
+									"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"cursor_labelfontsize" : 12,
+									"cursor_labelposition" : 0,
+									"cursor_labelxoffset" : 0,
+									"cursor_labelyoffset" : 0,
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : -1.0,
+									"cursor_numextracursors" : 0,
+									"cursor_outputdata" : 0,
+									"cursor_position" : [ -1.0, 0.0 ],
 									"cursor_shape" : "bar",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
+									"cursor_symbol" : "circle",
+									"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"cursor_symbolfilled" : 1,
+									"cursor_symbolheight" : 3.0,
+									"cursor_symbolwidth" : 3.0,
 									"cursor_visible" : 1,
+									"dirtypatcher" : 1,
 									"domain_bounds" : [ 0.0, 1.0 ],
-									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"domainruler_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+									"domainruler_bgcolordefault" : 1,
+									"domainruler_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+									"domainruler_fgcolordefault" : 1,
 									"domainruler_grid" : 0,
 									"domainruler_position" : 0,
 									"domainruler_size" : 15,
 									"domainruler_unit" : 0,
 									"domainruler_visible" : 1,
-									"domainscrollbar_color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"domainscrollbar_color" : [ 0.235, 0.235, 0.235, 1.0 ],
+									"domainscrollbar_colordefault" : 1,
 									"domainscrollbar_size" : 10,
 									"domainscrollbar_visible" : 1,
 									"embed" : 0,
@@ -1435,7 +1435,6 @@
 									"rangeruler_size" : 30,
 									"rangeruler_visible" : 1,
 									"refreshrate" : 120.0,
-									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.800000011920929, 0.699999988079071, 0.699999988079071, 1.0 ],
 									"region_visible" : 1,
 									"resamplefiles" : 0,
@@ -1443,17 +1442,20 @@
 									"splitbars_color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"splitbars_size" : 2,
 									"splitbars_visible" : 1,
-									"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"tabs_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+									"tabs_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 									"tabs_position" : 0,
 									"tabs_size" : 20,
 									"tabs_visible" : 1,
+									"tabsbgcolordefault" : 1,
+									"tabsfgcolordefault" : 1,
 									"tool" : "edit",
-									"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"toolbar_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 									"toolbar_position" : 1,
 									"toolbar_size" : 30,
 									"toolbar_transposition" : 0,
 									"toolbar_visible" : 1,
+									"toolbarbgcolordefault" : 1,
 									"useplaceholders" : 1,
 									"verbose" : 1,
 									"windresize" : 0
@@ -1523,12 +1525,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
 									"id" : "obj-30",
-									"linecount" : 9,
+									"linecount" : 8,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 248.0, 458.868419885635376, 131.0, 119.0 ],
+									"patching_rect" : [ 248.0, 458.868419885635376, 134.0, 107.0 ],
 									"saved_object_attributes" : 									{
 										"verbose" : 1
 									}
@@ -1571,6 +1573,10 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 63.0, 458.868419885635376, 189.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"verbose" : 1
+									}
+,
 									"text" : "mubu.record #0-data track1"
 								}
 
@@ -1584,6 +1590,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1091.483357333333515, 546.657894134521484, 116.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"dirtypatcher" : 1,
 										"embed" : 0,
 										"externalfiles" : 1,
 										"parameter_enable" : 0,
@@ -2087,8 +2094,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-8170"
+ ]
 					}
 ,
 					"patching_rect" : [ 1024.0, 473.0, 557.0, 302.0 ],
@@ -2120,7 +2126,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2301,18 +2307,13 @@
 								}
 
 							}
- ],
-						"originid" : "pat-8174"
+ ]
 					}
 ,
 					"patching_rect" : [ 24.5, 381.0, 172.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 4.5, 233.0, 142.0, 35.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p about the comote application"
 				}
 
@@ -2497,7 +2498,6 @@
 
 			}
  ],
-		"originid" : "pat-8089",
 		"parameters" : 		{
 			"obj-12::obj-55" : [ "live.text", "live.text", 0 ],
 			"obj-12::obj-56" : [ "live.text[1]", "live.text", 0 ],
@@ -2525,44 +2525,37 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "CoMote.maxpat",
-				"bootpath" : "~/Repositories/comote-helpers/max/CoMote/extras",
-				"patcherrelativepath" : "../../comote-helpers/max/CoMote/extras",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "comote-connect-resize.js",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "./mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect-server.js",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "./mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "./mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "./mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawing.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
-				"patcherrelativepath" : "./mod-interfaces/lcd",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2574,8 +2567,8 @@
 			}
 , 			{
 				"name" : "gst.recorddata.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/data-recording-playing",
-				"patcherrelativepath" : "./mod-analysis/data-recording-playing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/data-recording-playing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/data-recording-playing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2585,15 +2578,15 @@
 			}
 , 			{
 				"name" : "in.comote.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "./mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "in.riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "./mod-interfaces/riot",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2631,36 +2624,22 @@
 			}
 , 			{
 				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "./mod-interfaces/riot",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "server.js",
-				"bootpath" : "~/Repositories/comote-helpers/max/CoMote/patchers/comote-connect",
-				"patcherrelativepath" : "../../comote-helpers/max/CoMote/patchers/comote-connect",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sp.display.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.scrolldisplay.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "./mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "webview-server.maxpat",
-				"bootpath" : "~/Repositories/comote-helpers/max/CoMote/patchers",
-				"patcherrelativepath" : "../../comote-helpers/max/CoMote/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}

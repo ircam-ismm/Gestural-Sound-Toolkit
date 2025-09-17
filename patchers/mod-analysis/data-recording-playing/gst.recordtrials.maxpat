@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -33,8 +33,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 339.149999999999864, 114.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 339.149999999999864, 114.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -270,8 +269,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 339.149999999999864, 183.452378511428833, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.899999999999864, 31.0, 21.142856776714325, 21.142856776714325 ],
-					"svg" : ""
+					"presentation_rect" : [ 9.899999999999864, 31.0, 21.142856776714325, 21.142856776714325 ]
 				}
 
 			}
@@ -316,7 +314,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -480,8 +478,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 223.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 50.0, 223.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -785,15 +782,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2298"
+ ]
 					}
 ,
 					"patching_rect" : [ 357.149999999999864, 249.017564273284961, 461.5, 21.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p incrementing automatically label number"
 				}
 
@@ -838,8 +830,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 503.935708427429063, 183.452378511428833, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.107143223285675, 31.0, 21.142856776714325, 21.142856776714325 ],
-					"svg" : ""
+					"presentation_rect" : [ 61.107143223285675, 31.0, 21.142856776714325, 21.142856776714325 ]
 				}
 
 			}
@@ -1032,8 +1023,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 357.149999999999864, 332.5, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 357.149999999999864, 332.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -1043,9 +1033,12 @@
 					"autobounds" : 0,
 					"autorefreshrate" : 0,
 					"autoupdate" : 120.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bufferchooser_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bufferchooser_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
+					"bufferchooser_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bufferchooser_bgcolordefault" : 1,
+					"bufferchooser_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"bufferchooser_fgcolordefault" : 1,
 					"bufferchooser_position" : 1,
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 15,
@@ -1057,24 +1050,44 @@
 					"cursor_circleheight" : 3.0,
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
+					"cursor_label" : "",
+					"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"cursor_labelfontsize" : 12,
+					"cursor_labelposition" : 0,
+					"cursor_labelxoffset" : 0,
+					"cursor_labelyoffset" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_numextracursors" : 0,
+					"cursor_outputdata" : 0,
+					"cursor_position" : [ -1.0, 0.0 ],
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 3.0,
+					"cursor_symbolwidth" : 3.0,
 					"cursor_visible" : 1,
+					"dirtypatcher" : 1,
 					"domain_bounds" : [ 0.0, 1.0 ],
-					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"domainruler_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"domainruler_bgcolordefault" : 1,
+					"domainruler_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"domainruler_fgcolordefault" : 1,
 					"domainruler_grid" : 0,
 					"domainruler_position" : 0,
 					"domainruler_size" : 15,
 					"domainruler_unit" : 0,
 					"domainruler_visible" : 1,
-					"domainscrollbar_color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"domainscrollbar_color" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"domainscrollbar_colordefault" : 1,
 					"domainscrollbar_size" : 10,
 					"domainscrollbar_visible" : 1,
 					"embed" : 0,
@@ -1107,7 +1120,6 @@
 					"rangeruler_size" : 30,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 120.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.800000011920929, 0.699999988079071, 0.699999988079071, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 0,
@@ -1115,17 +1127,20 @@
 					"splitbars_color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"splitbars_size" : 2,
 					"splitbars_visible" : 1,
-					"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tabs_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"tabs_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
+					"tabsbgcolordefault" : 1,
+					"tabsfgcolordefault" : 1,
 					"tool" : "edit",
-					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"toolbar_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
 					"toolbar_transposition" : 0,
 					"toolbar_visible" : 1,
+					"toolbarbgcolordefault" : 1,
 					"useplaceholders" : 1,
 					"verbose" : 1,
 					"windresize" : 0
@@ -1243,6 +1258,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 63.0, 458.868419885635376, 160.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"verbose" : 1
+					}
+,
 					"text" : "mubu.record #0-data track1"
 				}
 
@@ -1256,6 +1275,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1091.483357333333515, 546.657894134521484, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -1760,7 +1780,6 @@
 
 			}
  ],
-		"originid" : "pat-2296",
 		"dependency_cache" : [ 			{
 				"name" : "imubu.mxo",
 				"type" : "iLaX"
