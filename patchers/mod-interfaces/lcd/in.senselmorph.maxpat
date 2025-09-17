@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -32,8 +32,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 44.0, 179.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 44.0, 179.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -62,6 +61,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgtransparent" : 1,
 					"enablesprites" : 1,
 					"id" : "obj-56",
 					"maxclass" : "lcd",
@@ -100,7 +100,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -132,7 +132,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -410,15 +410,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-1588"
+ ]
 									}
 ,
 									"patching_rect" : [ 364.0, 99.0, 116.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p draw-lcd"
 								}
 
@@ -478,8 +473,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 160.0, 238.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 160.0, 238.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -495,7 +489,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -699,7 +693,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 2,
+															"revision" : 8,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1336,7 +1330,6 @@
 
 															}
  ],
-														"originid" : "pat-1592",
 														"styles" : [ 															{
 																"name" : "tap",
 																"default" : 																{
@@ -1350,10 +1343,6 @@
 													}
 ,
 													"patching_rect" : [ 94.503128000000004, 191.450003214576725, 139.993759000000011, 22.0 ],
-													"saved_object_attributes" : 													{
-														"globalpatchername" : ""
-													}
-,
 													"text" : "p finger-weg"
 												}
 
@@ -2161,7 +2150,6 @@
 
 											}
  ],
-										"originid" : "pat-1590",
 										"styles" : [ 											{
 												"name" : "tap",
 												"default" : 												{
@@ -2175,10 +2163,6 @@
 									}
 ,
 									"patching_rect" : [ 208.0, 40.0, 104.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p sensel-in"
 								}
 
@@ -2210,7 +2194,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2456,8 +2440,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 223.0, 157.0, 22.0, 22.0 ],
-													"svg" : ""
+													"patching_rect" : [ 223.0, 157.0, 22.0, 22.0 ]
 												}
 
 											}
@@ -2591,15 +2574,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-1594"
+ ]
 									}
 ,
 									"patching_rect" : [ 50.0, 100.0, 77.0, 20.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p capture_lcd"
 								}
 
@@ -2618,13 +2596,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 563.0, 602.0, 260.0, 231.0 ],
+										"default_fontsize" : 11.0,
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -2742,14 +2721,12 @@
 												}
 
 											}
- ],
-										"originid" : "pat-1596"
+ ]
 									}
 ,
 									"patching_rect" : [ 50.0, 189.5, 135.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 11.0,
-										"globalpatchername" : ""
+										"fontsize" : 11.0
 									}
 ,
 									"text" : "p resample"
@@ -2941,15 +2918,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-1586"
+ ]
 					}
 ,
 					"patching_rect" : [ 4.0, 150.5, 99.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p capture_resample"
 				}
 
@@ -3079,7 +3051,6 @@
 
 			}
  ],
-		"originid" : "pat-1584",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

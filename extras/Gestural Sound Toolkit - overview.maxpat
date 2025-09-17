@@ -4,28 +4,17 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 114.0, 100.0, 1537.0, 932.0 ],
+		"rect" : [ 522.0, 358.0, 1537.0, 932.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 164.0, 118.0, 22.0 ],
-					"text" : "1-motion-descriptors"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.695880000000001,
@@ -38,7 +27,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -210,15 +199,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-5016"
+ ]
 					}
 ,
-					"patching_rect" : [ 131.0, 130.0, 114.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
+					"patching_rect" : [ 128.0, 98.0, 114.0, 22.0 ],
 					"text" : "p information/credits"
 				}
 
@@ -234,13 +218,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 114.0, 126.0, 1537.0, 906.0 ],
+						"rect" : [ 522.0, 384.0, 1537.0, 906.0 ],
 						"bglocked" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"showontab" : 1,
@@ -265,8 +249,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 832.0, 660.5, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 832.0, 660.5, 24.0, 24.0 ]
 								}
 
 							}
@@ -397,7 +380,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -495,15 +478,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-5020"
+ ]
 									}
 ,
 									"patching_rect" : [ 114.5, 673.0, 85.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p load-maxpat"
 								}
 
@@ -531,7 +509,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -629,15 +607,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-5022"
+ ]
 									}
 ,
 									"patching_rect" : [ 508.0, 786.0, 85.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p load-maxpat"
 								}
 
@@ -692,7 +665,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -790,15 +763,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-5024"
+ ]
 									}
 ,
 									"patching_rect" : [ 508.0, 574.0, 85.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p load-maxpat"
 								}
 
@@ -852,7 +820,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -950,15 +918,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-5026"
+ ]
 									}
 ,
 									"patching_rect" : [ 508.0, 372.0, 85.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p load-maxpat"
 								}
 
@@ -1012,7 +975,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1110,15 +1073,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-5028"
+ ]
 									}
 ,
 									"patching_rect" : [ 508.0, 166.0, 85.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p load-maxpat"
 								}
 
@@ -1683,7 +1641,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"midpoints" : [ 753.5, 232.317264556884766, 753.5, 232.317264556884766 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -1701,7 +1659,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"midpoints" : [ 753.5, 218.534568786621094, 934.5, 218.534568786621094, 934.5, 66.467613220214844, 955.5, 66.467613220214844 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -1902,15 +1860,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-5018"
+ ]
 					}
 ,
 					"patching_rect" : [ 74.0, 29.0, 66.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p overview"
 				}
 
@@ -1926,14 +1879,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 1677.0, 1050.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.819608, 0.819608, 0.819608, 0.0 ],
@@ -2091,8 +2045,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1476.5, 511.453369140625, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 1476.5, 511.453369140625, 24.0, 24.0 ]
 								}
 
 							}
@@ -2609,7 +2562,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2649,15 +2602,10 @@
 
 											}
  ],
-										"lines" : [  ],
-										"originid" : "pat-5442"
+										"lines" : [  ]
 									}
 ,
 									"patching_rect" : [ 1321.639942568359402, 106.953369140625, 58.999065000000002, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p Credits"
 								}
 
@@ -2851,7 +2799,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"midpoints" : [ 517.0, 351.303020477294922, 928.908790588378906, 351.303020477294922 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -2877,7 +2825,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"midpoints" : [ 517.0, 350.02032470703125, 890.5, 350.02032470703125, 890.5, 185.453369140625, 911.79486083984375, 185.453369140625 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -3060,181 +3008,17 @@
 								}
 
 							}
- ],
-						"originid" : "pat-5126"
+ ]
 					}
 ,
-					"patching_rect" : [ 113.0, 96.0, 61.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
+					"patching_rect" : [ 110.0, 64.0, 61.0, 22.0 ],
 					"text" : "p intro2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 4,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1537.0, 906.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"showontab" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"fontsize" : 18.0,
-									"id" : "obj-34",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 104.0, 326.0, 27.0 ],
-									"text" : "Examples"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Helvetica Neue Medium",
-									"fontsize" : 25.41419792175293,
-									"id" : "obj-56",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 26.0, 326.0, 37.0 ],
-									"text" : "Gestural Sound Toolkit V2 "
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 307.0, 204.0, 22.0 ],
-									"text" : "5-regression-nXm-mapping.maxpat"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 267.0, 204.0, 22.0 ],
-									"text" : "4-classification-dynamic.maxpat"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 228.0, 204.0, 22.0 ],
-									"text" : "3-classification-static.maxpat"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 47.0, 190.0, 203.0, 22.0 ],
-									"text" : "2-triggering.maxpat"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 152.0, 204.0, 22.0 ],
-									"text" : "1-motion-descriptors.maxpat"
-								}
-
-							}
- ],
-						"lines" : [  ],
-						"originid" : "pat-5472"
-					}
-,
-					"patching_rect" : [ 93.5, 60.0, 70.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
-					"text" : "p examples"
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-4902",
 		"parameters" : 		{
-			"obj-1::obj-1::obj-12::obj-55" : [ "live.text[53]", "live.text", 0 ],
-			"obj-1::obj-1::obj-12::obj-56" : [ "live.text[52]", "live.text", 0 ],
-			"obj-1::obj-1::obj-12::obj-60" : [ "live.text[54]", "live.text[3]", 0 ],
-			"obj-1::obj-1::obj-26::obj-2" : [ "live.gain~[5]", "live.gain~[4]", 0 ],
-			"obj-1::obj-1::obj-60::obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-1::obj-2::obj-12::obj-55" : [ "live.text[56]", "live.text", 0 ],
-			"obj-1::obj-2::obj-12::obj-56" : [ "live.text[41]", "live.text", 0 ],
-			"obj-1::obj-2::obj-12::obj-60" : [ "live.text[55]", "live.text[3]", 0 ],
-			"obj-1::obj-2::obj-25::obj-13" : [ "live.toggle[18]", "live.toggle", 0 ],
-			"obj-1::obj-2::obj-25::obj-8::obj-17" : [ "live.toggle[14]", "live.toggle[1]", 0 ],
-			"obj-1::obj-2::obj-26::obj-2" : [ "live.gain~[28]", "live.gain~[4]", 0 ],
-			"obj-1::obj-2::obj-31::obj-18::obj-88" : [ "live.toggle[32]", "live.toggle", 0 ],
-			"obj-1::obj-2::obj-31::obj-18::obj-92" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-1::obj-2::obj-31::obj-22" : [ "live.gain~[17]", "live.gain~", 0 ],
-			"obj-1::obj-2::obj-3::obj-4" : [ "live.button[3]", "live.button", 0 ],
-			"obj-1::obj-2::obj-40::obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-1::obj-3::obj-10::obj-55" : [ "live.text[37]", "live.text", 0 ],
-			"obj-1::obj-3::obj-10::obj-56" : [ "live.text[36]", "live.text", 0 ],
-			"obj-1::obj-3::obj-10::obj-60" : [ "live.text[35]", "live.text[3]", 0 ],
-			"obj-1::obj-3::obj-12::obj-18::obj-88" : [ "live.toggle[24]", "live.toggle", 0 ],
-			"obj-1::obj-3::obj-12::obj-18::obj-92" : [ "live.toggle[25]", "live.toggle", 0 ],
-			"obj-1::obj-3::obj-12::obj-22" : [ "live.gain~[12]", "live.gain~", 0 ],
-			"obj-1::obj-3::obj-25::obj-18::obj-88" : [ "live.toggle[30]", "live.toggle", 0 ],
-			"obj-1::obj-3::obj-25::obj-18::obj-92" : [ "live.toggle[31]", "live.toggle", 0 ],
-			"obj-1::obj-3::obj-25::obj-22" : [ "live.gain~[26]", "live.gain~", 0 ],
-			"obj-1::obj-3::obj-26::obj-2" : [ "live.gain~[13]", "live.gain~[4]", 0 ],
-			"obj-1::obj-3::obj-2::obj-18::obj-88" : [ "live.toggle[29]", "live.toggle", 0 ],
-			"obj-1::obj-3::obj-2::obj-18::obj-92" : [ "live.toggle[28]", "live.toggle", 0 ],
-			"obj-1::obj-3::obj-2::obj-22" : [ "live.gain~[14]", "live.gain~", 0 ],
-			"obj-1::obj-3::obj-3::obj-18::obj-88" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-1::obj-3::obj-3::obj-18::obj-92" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-1::obj-3::obj-3::obj-22" : [ "live.gain~[15]", "live.gain~", 0 ],
-			"obj-1::obj-4::obj-10::obj-55" : [ "live.text[32]", "live.text", 0 ],
-			"obj-1::obj-4::obj-10::obj-56" : [ "live.text[33]", "live.text", 0 ],
-			"obj-1::obj-4::obj-10::obj-60" : [ "live.text[34]", "live.text[3]", 0 ],
-			"obj-1::obj-4::obj-12::obj-18::obj-88" : [ "live.toggle[27]", "live.toggle", 0 ],
-			"obj-1::obj-4::obj-12::obj-18::obj-92" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-1::obj-4::obj-12::obj-22" : [ "live.gain~[24]", "live.gain~", 0 ],
-			"obj-1::obj-4::obj-26::obj-2" : [ "live.gain~[25]", "live.gain~[4]", 0 ],
-			"obj-1::obj-5::obj-15::obj-2" : [ "live.gain~[29]", "live.gain~[4]", 0 ],
-			"obj-1::obj-5::obj-2::obj-55" : [ "live.text[59]", "live.text", 0 ],
-			"obj-1::obj-5::obj-2::obj-56" : [ "live.text[58]", "live.text", 0 ],
-			"obj-1::obj-5::obj-2::obj-60" : [ "live.text[57]", "live.text[3]", 0 ],
-			"obj-1::obj-5::obj-40::obj-2" : [ "live.gain~[18]", "live.gain~", 0 ],
 			"obj-2::obj-12::obj-55" : [ "live.text[2]", "live.text", 0 ],
 			"obj-2::obj-12::obj-56" : [ "live.text[4]", "live.text", 0 ],
 			"obj-2::obj-12::obj-60" : [ "live.text[5]", "live.text[3]", 0 ],
@@ -3257,172 +3041,11 @@
 			"obj-3::obj-15::obj-18::obj-92" : [ "live.toggle[22]", "live.toggle", 0 ],
 			"obj-3::obj-15::obj-22" : [ "live.gain~[11]", "live.gain~", 0 ],
 			"obj-3::obj-3::obj-4" : [ "live.button[2]", "live.button", 0 ],
-			"obj-4::obj-12::obj-55" : [ "live.text[40]", "live.text", 0 ],
-			"obj-4::obj-12::obj-56" : [ "live.text[39]", "live.text", 0 ],
-			"obj-4::obj-12::obj-60" : [ "live.text[51]", "live.text[3]", 0 ],
-			"obj-4::obj-26::obj-2" : [ "live.gain~[16]", "live.gain~[4]", 0 ],
-			"obj-4::obj-60::obj-2" : [ "live.gain~[27]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-1::obj-12::obj-55" : 				{
-					"parameter_longname" : "live.text[53]"
-				}
-,
-				"obj-1::obj-1::obj-12::obj-56" : 				{
-					"parameter_longname" : "live.text[52]"
-				}
-,
-				"obj-1::obj-1::obj-12::obj-60" : 				{
-					"parameter_longname" : "live.text[54]"
-				}
-,
-				"obj-1::obj-2::obj-12::obj-55" : 				{
-					"parameter_longname" : "live.text[56]"
-				}
-,
-				"obj-1::obj-2::obj-12::obj-56" : 				{
-					"parameter_longname" : "live.text[41]"
-				}
-,
-				"obj-1::obj-2::obj-12::obj-60" : 				{
-					"parameter_longname" : "live.text[55]"
-				}
-,
-				"obj-1::obj-2::obj-26::obj-2" : 				{
-					"parameter_longname" : "live.gain~[28]"
-				}
-,
-				"obj-1::obj-2::obj-31::obj-18::obj-88" : 				{
-					"parameter_longname" : "live.toggle[32]"
-				}
-,
-				"obj-1::obj-2::obj-31::obj-18::obj-92" : 				{
-					"parameter_longname" : "live.toggle[8]"
-				}
-,
-				"obj-1::obj-2::obj-31::obj-22" : 				{
-					"parameter_longname" : "live.gain~[17]"
-				}
-,
-				"obj-1::obj-2::obj-3::obj-4" : 				{
-					"parameter_longname" : "live.button[3]"
-				}
-,
-				"obj-1::obj-3::obj-10::obj-55" : 				{
-					"parameter_longname" : "live.text[37]"
-				}
-,
-				"obj-1::obj-3::obj-10::obj-56" : 				{
-					"parameter_longname" : "live.text[36]"
-				}
-,
-				"obj-1::obj-3::obj-10::obj-60" : 				{
-					"parameter_longname" : "live.text[35]"
-				}
-,
-				"obj-1::obj-3::obj-12::obj-18::obj-88" : 				{
-					"parameter_longname" : "live.toggle[24]"
-				}
-,
-				"obj-1::obj-3::obj-12::obj-18::obj-92" : 				{
-					"parameter_longname" : "live.toggle[25]"
-				}
-,
-				"obj-1::obj-3::obj-12::obj-22" : 				{
-					"parameter_longname" : "live.gain~[12]"
-				}
-,
-				"obj-1::obj-3::obj-25::obj-18::obj-88" : 				{
-					"parameter_longname" : "live.toggle[30]"
-				}
-,
-				"obj-1::obj-3::obj-25::obj-18::obj-92" : 				{
-					"parameter_longname" : "live.toggle[31]"
-				}
-,
-				"obj-1::obj-3::obj-25::obj-22" : 				{
-					"parameter_longname" : "live.gain~[26]"
-				}
-,
-				"obj-1::obj-3::obj-26::obj-2" : 				{
-					"parameter_longname" : "live.gain~[13]"
-				}
-,
-				"obj-1::obj-3::obj-2::obj-18::obj-88" : 				{
-					"parameter_longname" : "live.toggle[29]"
-				}
-,
-				"obj-1::obj-3::obj-2::obj-18::obj-92" : 				{
-					"parameter_longname" : "live.toggle[28]"
-				}
-,
-				"obj-1::obj-3::obj-2::obj-22" : 				{
-					"parameter_longname" : "live.gain~[14]"
-				}
-,
-				"obj-1::obj-3::obj-3::obj-18::obj-88" : 				{
-					"parameter_longname" : "live.toggle[7]"
-				}
-,
-				"obj-1::obj-3::obj-3::obj-18::obj-92" : 				{
-					"parameter_longname" : "live.toggle[6]"
-				}
-,
-				"obj-1::obj-3::obj-3::obj-22" : 				{
-					"parameter_longname" : "live.gain~[15]"
-				}
-,
-				"obj-1::obj-4::obj-10::obj-55" : 				{
-					"parameter_longname" : "live.text[32]"
-				}
-,
-				"obj-1::obj-4::obj-10::obj-56" : 				{
-					"parameter_longname" : "live.text[33]"
-				}
-,
-				"obj-1::obj-4::obj-10::obj-60" : 				{
-					"parameter_longname" : "live.text[34]"
-				}
-,
-				"obj-1::obj-4::obj-12::obj-18::obj-88" : 				{
-					"parameter_longname" : "live.toggle[27]"
-				}
-,
-				"obj-1::obj-4::obj-12::obj-18::obj-92" : 				{
-					"parameter_longname" : "live.toggle[15]"
-				}
-,
-				"obj-1::obj-4::obj-12::obj-22" : 				{
-					"parameter_longname" : "live.gain~[24]"
-				}
-,
-				"obj-1::obj-4::obj-26::obj-2" : 				{
-					"parameter_longname" : "live.gain~[25]"
-				}
-,
-				"obj-1::obj-5::obj-15::obj-2" : 				{
-					"parameter_longname" : "live.gain~[29]"
-				}
-,
-				"obj-1::obj-5::obj-2::obj-55" : 				{
-					"parameter_longname" : "live.text[59]"
-				}
-,
-				"obj-1::obj-5::obj-2::obj-56" : 				{
-					"parameter_longname" : "live.text[58]"
-				}
-,
-				"obj-1::obj-5::obj-2::obj-60" : 				{
-					"parameter_longname" : "live.text[57]"
-				}
-,
-				"obj-1::obj-5::obj-40::obj-2" : 				{
-					"parameter_longname" : "live.gain~[18]"
-				}
-,
 				"obj-2::obj-12::obj-55" : 				{
 					"parameter_longname" : "live.text[2]"
 				}
@@ -3510,26 +3133,6 @@
 				"obj-3::obj-3::obj-4" : 				{
 					"parameter_longname" : "live.button[2]"
 				}
-,
-				"obj-4::obj-12::obj-55" : 				{
-					"parameter_longname" : "live.text[40]"
-				}
-,
-				"obj-4::obj-12::obj-56" : 				{
-					"parameter_longname" : "live.text[39]"
-				}
-,
-				"obj-4::obj-12::obj-60" : 				{
-					"parameter_longname" : "live.text[51]"
-				}
-,
-				"obj-4::obj-26::obj-2" : 				{
-					"parameter_longname" : "live.gain~[16]"
-				}
-,
-				"obj-4::obj-60::obj-2" : 				{
-					"parameter_longname" : "live.gain~[27]"
-				}
 
 			}
 ,
@@ -3537,86 +3140,51 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "1-motion-descriptors.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/examples",
-				"patcherrelativepath" : "../examples",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "2-triggering.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/examples",
-				"patcherrelativepath" : "../examples",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "3-classification-static.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/examples",
-				"patcherrelativepath" : "../examples",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "4-classification-dynamic.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/examples",
-				"patcherrelativepath" : "../examples",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "5-regression-nXm-mapping.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/examples",
-				"patcherrelativepath" : "../examples",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "FM-synth-adsr.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FM-synth-const.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect-resize.js",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect-server.js",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawing.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
-				"patcherrelativepath" : "../patchers/mod-interfaces/lcd",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3628,15 +3196,9 @@
 			}
 , 			{
 				"name" : "gst.recorddata.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/data-recording-playing",
-				"patcherrelativepath" : "../patchers/mod-analysis/data-recording-playing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/data-recording-playing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/data-recording-playing",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -3645,50 +3207,43 @@
 			}
 , 			{
 				"name" : "in.comote.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "in.riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.classification.gmm.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../patchers/mod-analysis/machine-learning",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.classification.hhmm.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../patchers/mod-analysis/machine-learning",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.regression.gmr.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../patchers/mod-analysis/machine-learning",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.regression.xmm.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../patchers/mod-analysis/machine-learning",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.gmm.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/MuBu For Max/help",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3697,26 +3252,12 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.gmr.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mubu.gmr.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mubu.granular~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.hhmm.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.hhmm.mxo",
@@ -3739,22 +3280,8 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/MuBu For Max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.xmm.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.xmm.mxo",
@@ -3778,127 +3305,127 @@
 			}
 , 			{
 				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sid.output.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.acc.intensity.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.angles.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.bandpass.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.derivative.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.gate.float.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.highpass.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.kick.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.lowpass.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.norm.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.orientation.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.scrolldisplay.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.FM.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.ctrl.soundpool.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.filter.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.scratch.samples.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.scrub.samples.maxpat",
-				"bootpath" : "~/Repositories/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}

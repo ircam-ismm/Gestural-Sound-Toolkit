@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -90,8 +90,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 253.0, 100.0, 22.0 ],
-					"text" : "setminmax $1 $2"
+					"patching_rect" : [ 246.0, 253.0, 81.0, 22.0 ],
+					"text" : "bounds $1 $2"
 				}
 
 			}
@@ -108,7 +108,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -351,17 +351,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-1948"
+ ]
 					}
 ,
 					"patching_rect" : [ 499.0, 88.0, 74.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 85.0, 7.0, 47.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p more"
 				}
 
@@ -379,7 +374,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -422,15 +417,10 @@
 
 							}
  ],
-						"lines" : [  ],
-						"originid" : "pat-1950"
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 200.5, 38.5, 44.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p help"
 				}
 
@@ -480,21 +470,39 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.933333, 0.933333, 0.933333, 1.0 ],
-					"candycane" : 3,
+					"autobounds" : 0,
+					"autoupdate" : 120.0,
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
+					"bounds" : [ 0.0, 1.0 ],
+					"colormode" : "fgcolor",
+					"domainruler" : 0,
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
+					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"first_cursor_size" : 3,
+					"first_cursor_value" : 0.0,
+					"first_cursor_visible" : 0,
 					"id" : "obj-101",
-					"maxclass" : "multislider",
+					"inversed" : 0,
+					"layout" : "juxtaposed",
+					"length" : 256,
+					"matrix" : 0,
+					"maxclass" : "mubu.scroll",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 160.0, 303.0, 125.0, 85.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.0, 303.0, 125.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 26.0, 128.0, 85.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 5,
-					"size" : 3,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"presentation_rect" : [ 4.0, 26.0, 125.0, 84.0 ],
+					"rangeruler" : 0,
+					"sampleperiod" : 10.0,
+					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"second_cursor_size" : 3,
+					"second_cursor_value" : 0.0,
+					"second_cursor_visible" : 0,
+					"shape" : "lines",
+					"windresize" : 0
 				}
 
 			}
@@ -605,8 +613,11 @@
 
 			}
  ],
-		"originid" : "pat-1946",
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "mubu.scroll.mxo",
+				"type" : "iLaX"
+			}
+ ],
 		"autosave" : 0
 	}
 

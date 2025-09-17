@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -53,7 +53,7 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.920470999999992, 208.0, 161.0, 22.0 ],
@@ -129,7 +129,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -425,17 +425,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-1912"
+ ]
 					}
 ,
 					"patching_rect" : [ 340.0, 93.5, 85.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 6.0, 47.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p more"
 				}
 
@@ -453,7 +448,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -530,15 +525,10 @@
 
 							}
  ],
-						"lines" : [  ],
-						"originid" : "pat-1914"
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 115.5, 19.5, 44.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p help"
 				}
 
@@ -566,8 +556,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.5, 325.0, 100.0, 22.0 ],
-					"text" : "setminmax $1 $2"
+					"patching_rect" : [ 218.5, 325.0, 81.0, 22.0 ],
+					"text" : "bounds $1 $2"
 				}
 
 			}
@@ -616,21 +606,39 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.933333, 0.933333, 0.933333, 1.0 ],
-					"candycane" : 3,
+					"autobounds" : 0,
+					"autoupdate" : 120.0,
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
+					"bounds" : [ 0.0, 1.0 ],
+					"colormode" : "fgcolor",
+					"domainruler" : 0,
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
+					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"first_cursor_size" : 3,
+					"first_cursor_value" : 0.0,
+					"first_cursor_visible" : 0,
 					"id" : "obj-91",
-					"maxclass" : "multislider",
+					"inversed" : 0,
+					"layout" : "juxtaposed",
+					"length" : 256,
+					"matrix" : 0,
+					"maxclass" : "mubu.scroll",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 115.5, 381.0, 125.0, 85.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 115.5, 381.0, 125.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 27.0, 125.0, 85.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 5,
-					"size" : 3,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"presentation_rect" : [ 5.0, 27.0, 125.0, 84.0 ],
+					"rangeruler" : 0,
+					"sampleperiod" : 10.0,
+					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"second_cursor_size" : 3,
+					"second_cursor_value" : 0.0,
+					"second_cursor_visible" : 0,
+					"shape" : "lines",
+					"windresize" : 0
 				}
 
 			}
@@ -783,9 +791,8 @@
 
 			}
  ],
-		"originid" : "pat-1910",
 		"dependency_cache" : [ 			{
-				"name" : "orientation.mxo",
+				"name" : "mubu.scroll.mxo",
 				"type" : "iLaX"
 			}
  ],

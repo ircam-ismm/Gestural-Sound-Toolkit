@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -158,25 +158,45 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 212.0, 186.0, 46.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.0, 24.0, 46.0, 19.0 ]
+					"presentation_rect" : [ 82.0, 24.0, 46.0, 19.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.933333333333333, 0.933333333333333, 0.933333333333333, 0.0 ],
-					"contdata" : 1,
+					"autobounds" : 0,
+					"autoupdate" : 0.0,
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
+					"bounds" : [ 0.0, 1.0 ],
+					"colormode" : "fgcolor",
+					"domainruler" : 0,
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
+					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"first_cursor_size" : 3,
+					"first_cursor_value" : 0.0,
+					"first_cursor_visible" : 0,
 					"id" : "obj-18",
-					"maxclass" : "multislider",
+					"inversed" : 0,
+					"layout" : "juxtaposed",
+					"length" : 256,
+					"matrix" : 0,
+					"maxclass" : "mubu.scroll",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 508.0, 282.0, 125.0, 85.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 508.0, 268.0, 125.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 26.0, 132.0, 95.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"slidercolor" : [ 1.0, 0.003921568627451, 0.003921568627451, 1.0 ]
+					"presentation_rect" : [ 6.0, 21.0, 125.0, 84.0 ],
+					"rangeruler" : 0,
+					"sampleperiod" : 10.0,
+					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"second_cursor_size" : 3,
+					"second_cursor_value" : 0.0,
+					"second_cursor_visible" : 0,
+					"shape" : "lines",
+					"windresize" : 0
 				}
 
 			}
@@ -220,7 +240,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -437,7 +457,6 @@
 											"parameter_longname" : "live.toggle[14]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.toggle[1]",
 											"parameter_type" : 2
 										}
@@ -687,17 +706,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-1894"
+ ]
 					}
 ,
 					"patching_rect" : [ 262.0, 21.0, 47.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 4.5, 48.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p more"
 				}
 
@@ -724,7 +738,6 @@
 							"parameter_longname" : "live.toggle[18]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -758,8 +771,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 111.0, 365.0, 20.0, 20.0 ],
-					"svg" : ""
+					"patching_rect" : [ 111.0, 365.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -844,7 +856,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -921,34 +933,11 @@
 
 							}
  ],
-						"lines" : [  ],
-						"originid" : "pat-1896"
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 212.0, 21.0, 44.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p help"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.933333, 0.933333, 0.933333, 1.0 ],
-					"id" : "obj-113",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 507.5, 282.0, 125.0, 85.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.500000000000014, 27.0, 131.0, 93.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 5,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -987,8 +976,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-113", 0 ],
-					"midpoints" : [ 120.5, 270.0, 517.0, 270.0 ],
+					"destination" : [ "obj-21", 0 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -996,16 +984,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"order" : 1,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1069,16 +1049,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-113", 0 ],
-					"order" : 1,
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"order" : 0,
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -1151,7 +1122,6 @@
 
 			}
  ],
-		"originid" : "pat-1892",
 		"parameters" : 		{
 			"obj-13" : [ "live.toggle[18]", "live.toggle", 0 ],
 			"obj-8::obj-17" : [ "live.toggle[14]", "live.toggle[1]", 0 ],
@@ -1167,7 +1137,11 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "mubu.scroll.mxo",
+				"type" : "iLaX"
+			}
+ ],
 		"autosave" : 0
 	}
 

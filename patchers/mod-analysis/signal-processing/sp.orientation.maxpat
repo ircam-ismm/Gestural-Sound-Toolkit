@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -53,7 +53,7 @@
 				"box" : 				{
 					"comment" : "orientation (list of 3 float [-1 1])",
 					"id" : "obj-10",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -126,7 +126,7 @@
 				"box" : 				{
 					"comment" : "gyroscope data (list 3 float)",
 					"id" : "obj-15",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -203,7 +203,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -212,7 +212,6 @@
 						"rect" : [ 1013.0, 140.0, 611.0, 524.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -500,17 +499,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-6305"
+ ]
 					}
 ,
 					"patching_rect" : [ 321.5, 94.0, 85.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 6.0, 47.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p more"
 				}
 
@@ -528,7 +522,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -605,15 +599,10 @@
 
 							}
  ],
-						"lines" : [  ],
-						"originid" : "pat-6307"
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 115.5, 19.5, 44.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p help"
 				}
 
@@ -651,15 +640,17 @@
 				"box" : 				{
 					"autobounds" : 0,
 					"autoupdate" : 120.0,
-					"bgcolor" : [ 0.933333333333333, 0.933333333333333, 0.933333333333333, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
 					"bounds" : [ -1.0, 1.0 ],
 					"colormode" : "pattern",
 					"colorpattern" : [ "black", "steelblue", "blue" ],
 					"domainruler" : 0,
-					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
-					"first_cursor_value" : 0.5,
+					"first_cursor_value" : 0.0,
 					"first_cursor_visible" : 0,
 					"id" : "obj-91",
 					"inversed" : 0,
@@ -677,9 +668,10 @@
 					"sampleperiod" : 10.0,
 					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"second_cursor_size" : 3,
-					"second_cursor_value" : -1.0,
+					"second_cursor_value" : 0.0,
 					"second_cursor_visible" : 0,
-					"shape" : "lines"
+					"shape" : "lines",
+					"windresize" : 0
 				}
 
 			}
@@ -687,7 +679,7 @@
 				"box" : 				{
 					"comment" : "orientation (list of 3 float [-1 1])",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -699,7 +691,7 @@
 				"box" : 				{
 					"comment" : "accelerometer data (list 3 float)",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -856,7 +848,16 @@
 
 			}
  ],
-		"originid" : "pat-6303"
+		"dependency_cache" : [ 			{
+				"name" : "mubu.scroll.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
