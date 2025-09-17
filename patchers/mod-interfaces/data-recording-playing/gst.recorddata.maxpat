@@ -453,7 +453,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 14.0, 230.0, 38.0, 19.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 6.0, 30.0, 19.0 ]
 				}
