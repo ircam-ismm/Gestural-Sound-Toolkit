@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -42,14 +42,16 @@
 				"box" : 				{
 					"autobounds" : 0,
 					"autoupdate" : 120.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
 					"bounds" : [ -1.0, 1.0 ],
 					"colormode" : "rainbow",
 					"domainruler" : 0,
-					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
-					"first_cursor_value" : -1.0,
+					"first_cursor_value" : 0.0,
 					"first_cursor_visible" : 0,
 					"id" : "obj-3",
 					"inversed" : 0,
@@ -67,9 +69,10 @@
 					"sampleperiod" : 10.0,
 					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"second_cursor_size" : 3,
-					"second_cursor_value" : -1.0,
+					"second_cursor_value" : 0.0,
 					"second_cursor_visible" : 0,
-					"shape" : "lines"
+					"shape" : "lines",
+					"windresize" : 0
 				}
 
 			}
@@ -168,7 +171,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -177,7 +180,6 @@
 						"rect" : [ 1076.0, 619.0, 447.0, 347.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -421,10 +423,6 @@
 					"patching_rect" : [ 341.0, 88.5, 74.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 7.0, 47.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p more"
 				}
 
@@ -442,7 +440,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -490,10 +488,6 @@
 					}
 ,
 					"patching_rect" : [ 200.5, 38.5, 44.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p help"
 				}
 

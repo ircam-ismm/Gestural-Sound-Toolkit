@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -53,7 +53,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.892478346824646, 0.892478346824646, 0.892478346824646, 1.0 ],
 					"id" : "obj-57",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -62,8 +61,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 16.0, 448.0, 23.5, 23.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.000005811452866, 5.666666835546494, 16.333333820104599, 16.333333820104599 ],
-					"svg" : ""
+					"presentation_rect" : [ 195.000005811452866, 5.666666835546494, 16.333333820104599, 16.333333820104599 ]
 				}
 
 			}
@@ -153,7 +151,7 @@
 				"box" : 				{
 					"comment" : "imubu inlet",
 					"id" : "obj-22",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -166,7 +164,7 @@
 				"box" : 				{
 					"comment" : "play [1/0]",
 					"id" : "obj-5",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -179,7 +177,7 @@
 				"box" : 				{
 					"comment" : "record [1/0]",
 					"id" : "obj-3",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -312,8 +310,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 154.0, 186.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 154.0, 186.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -339,8 +336,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 14.0, 130.75, 37.5, 37.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 35.5, 20.0, 20.0 ],
-					"svg" : ""
+					"presentation_rect" : [ 408.0, 35.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -353,8 +349,7 @@
 					"patching_rect" : [ 16.0, 420.0, 74.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 135.0, 4.0, 60.0, 20.0 ],
-					"text" : "autoscale",
-					"textcolor" : [ 0.337254901960784, 0.337254901960784, 0.337254901960784, 1.0 ]
+					"text" : "autoscale"
 				}
 
 			}
@@ -448,7 +443,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.892478346824646, 0.892478346824646, 0.892478346824646, 1.0 ],
 					"fontsize" : 9.0,
 					"format" : 6,
 					"id" : "obj-50",
@@ -460,6 +454,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 14.0, 230.0, 38.0, 19.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 6.0, 30.0, 19.0 ]
 				}
 
 			}
@@ -467,7 +463,7 @@
 				"box" : 				{
 					"comment" : "signal 3 [float float float]",
 					"id" : "obj-39",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -479,7 +475,7 @@
 				"box" : 				{
 					"comment" : "signal 2 [float float float]",
 					"id" : "obj-38",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -524,8 +520,7 @@
 					"patching_rect" : [ 16.0, 5.0, 229.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 310.5, 3.0, 90.999999999999886, 21.0 ],
-					"text" : "Data recording",
-					"textcolor" : [ 0.337254901960784, 0.337254901960784, 0.337254901960784, 1.0 ]
+					"text" : "Data recording"
 				}
 
 			}
@@ -533,7 +528,7 @@
 				"box" : 				{
 					"comment" : "signal 3 [float float float]",
 					"id" : "obj-23",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -546,7 +541,7 @@
 				"box" : 				{
 					"comment" : "signal 2 [float float float]",
 					"id" : "obj-21",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -559,7 +554,7 @@
 				"box" : 				{
 					"comment" : "signal 1 [float float float]",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -572,7 +567,7 @@
 				"box" : 				{
 					"comment" : "signal 1 [float float float]",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -674,6 +669,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 431.0, 139.5, 121.0, 33.0 ],
+					"saved_object_attributes" : 					{
+						"verbose" : 1
+					}
+,
 					"text" : "mubu.record #0-data sig3"
 				}
 
@@ -689,6 +688,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 293.0, 139.5, 121.0, 33.0 ],
+					"saved_object_attributes" : 					{
+						"verbose" : 1
+					}
+,
 					"text" : "mubu.record #0-data sig2"
 				}
 
@@ -717,8 +720,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 16.0, 36.0, 37.5, 37.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 11.0, 20.0, 20.0 ],
-					"svg" : ""
+					"presentation_rect" : [ 408.0, 11.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -738,7 +740,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track #0-data 3 sig3 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 255, autobounds 1, interface multiwave\" @predef yes"
+					"text" : "mubu.track #0-data 3 sig3 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui \"interface multiwave, fgcolor green, autobounds 1\" @predef yes"
 				}
 
 			}
@@ -758,7 +760,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track #0-data 2 sig2 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 0 0 0, autobounds 1, interface multiwave\" @predef yes"
+					"text" : "mubu.track #0-data 2 sig2 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui \"interface multiwave, autobounds 1\" @predef yes"
 				}
 
 			}
@@ -778,7 +780,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track #0-data 1 sig1 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui markers @info gui \"fgcolor 255 0 0, autobounds 1, interface multiwave\" @predef yes"
+					"text" : "mubu.track #0-data 1 sig1 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui \"interface multiwave, fgcolor red, autobounds 1\" @predef yes"
 				}
 
 			}
@@ -794,6 +796,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 154.0, 139.75, 126.0, 33.0 ],
+					"saved_object_attributes" : 					{
+						"verbose" : 1
+					}
+,
 					"text" : "mubu.record #0-data sig1"
 				}
 
@@ -804,9 +810,12 @@
 					"autobounds" : 0,
 					"autorefreshrate" : 0,
 					"autoupdate" : 120.0,
-					"bgcolor" : [ 0.916564702987671, 0.916680812835693, 0.916501879692078, 1.0 ],
-					"bufferchooser_bgcolor" : [ 0.916564702987671, 0.916680812835693, 0.916501879692078, 1.0 ],
-					"bufferchooser_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
+					"bufferchooser_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bufferchooser_bgcolordefault" : 1,
+					"bufferchooser_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"bufferchooser_fgcolordefault" : 1,
 					"bufferchooser_position" : 1,
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 15,
@@ -818,24 +827,44 @@
 					"cursor_circleheight" : 3.0,
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
+					"cursor_label" : "",
+					"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"cursor_labelfontsize" : 12,
+					"cursor_labelposition" : 0,
+					"cursor_labelxoffset" : 0,
+					"cursor_labelyoffset" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
 					"cursor_position" : 6020.0,
+					"cursor_numextracursors" : 0,
+					"cursor_outputdata" : 0,
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 3.0,
+					"cursor_symbolwidth" : 3.0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 12170.0 ],
-					"domainruler_bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
-					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 0.0, 1.0 ],
+					"domainruler_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"domainruler_bgcolordefault" : 1,
+					"domainruler_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"domainruler_fgcolordefault" : 1,
 					"domainruler_grid" : 0,
 					"domainruler_position" : 1,
 					"domainruler_size" : 15,
 					"domainruler_unit" : 0,
 					"domainruler_visible" : 1,
-					"domainscrollbar_color" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"domainscrollbar_color" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"domainscrollbar_colordefault" : 1,
 					"domainscrollbar_size" : 10,
 					"domainscrollbar_visible" : 1,
 					"embed" : 0,
@@ -868,25 +897,27 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 120.0,
-					"region_bounds" : [ 0.0, 0.0 ],
-					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+					"region_color" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 0,
 					"snaprate" : 1000.0,
-					"splitbars_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"splitbars_color" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"splitbars_size" : 2,
 					"splitbars_visible" : 1,
-					"tabs_bgcolor" : [ 0.916564702987671, 0.916680812835693, 0.916501879692078, 1.0 ],
-					"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tabs_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"tabs_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
-					"tool" : "draw",
-					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"tabsbgcolordefault" : 1,
+					"tabsfgcolordefault" : 1,
+					"tool" : "edit",
+					"toolbar_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
 					"toolbar_transposition" : 0,
-					"toolbar_visible" : 2,
+					"toolbar_visible" : 0,
+					"toolbarbgcolordefault" : 1,
 					"useplaceholders" : 1,
 					"verbose" : 1,
 					"windresize" : 0
@@ -904,6 +935,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 930.0, 90.0, 111.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -1335,7 +1367,28 @@
 
 			}
  ],
-		"originid" : "pat-6241",
+		"dependency_cache" : [ 			{
+				"name" : "imubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.play.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.record.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.track.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"stripecolor" : [ 0.149019607843137, 0.145098039215686, 0.145098039215686, 1.0 ]
 	}
 

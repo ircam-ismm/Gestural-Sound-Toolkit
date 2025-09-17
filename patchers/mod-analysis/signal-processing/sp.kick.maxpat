@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -175,7 +175,6 @@
 							"parameter_longname" : "live.button",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
 						}
@@ -190,7 +189,7 @@
 				"box" : 				{
 					"comment" : "median size",
 					"id" : "obj-47",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -203,7 +202,7 @@
 				"box" : 				{
 					"comment" : "min time interval between two triggers [ms]",
 					"id" : "obj-45",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -257,7 +256,7 @@
 				"box" : 				{
 					"comment" : "threshold [float]",
 					"id" : "obj-28",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -336,7 +335,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -890,8 +889,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 5.0, 48.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "median size [int}",
-						"globalpatchername" : ""
+						"description" : "median size [int}"
 					}
 ,
 					"text" : "p more"
@@ -916,7 +914,7 @@
 				"box" : 				{
 					"comment" : "bang when pak is reached",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1059,7 +1057,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1328,10 +1326,6 @@
 					}
 ,
 					"patching_rect" : [ 193.0, 422.0, 138.0, 21.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p speedgate"
 				}
 
@@ -1495,7 +1489,7 @@
 				"box" : 				{
 					"comment" : "kick (1)",
 					"id" : "obj-25",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1507,7 +1501,7 @@
 				"box" : 				{
 					"comment" : "peak intensity (after kick)",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1519,11 +1513,11 @@
 				"box" : 				{
 					"comment" : "input float",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.5, 26.0, 25.0, 25.0 ]
 				}
 
@@ -1532,11 +1526,13 @@
 				"box" : 				{
 					"autobounds" : 0,
 					"autoupdate" : 120.0,
-					"bgcolor" : [ 0.933333333333333, 0.933333333333333, 0.933333333333333, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
 					"bounds" : [ 0.0, 1.0 ],
 					"colormode" : "fgcolor",
 					"domainruler" : 0,
-					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
 					"first_cursor_value" : 0.932584269662921,
@@ -1557,9 +1553,10 @@
 					"sampleperiod" : 10.0,
 					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"second_cursor_size" : 3,
-					"second_cursor_value" : -1.0,
+					"second_cursor_value" : 0.0,
 					"second_cursor_visible" : 0,
-					"shape" : "lines"
+					"shape" : "lines",
+					"windresize" : 0
 				}
 
 			}
@@ -1984,7 +1981,30 @@
 
 			}
  ],
-		"originid" : "pat-166"
+		"parameters" : 		{
+			"obj-4" : [ "live.button[2]", "live.button", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "mubu.scroll.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -145,7 +145,7 @@
 				"box" : 				{
 					"comment" : "gate control [float]",
 					"id" : "obj-22",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -223,7 +223,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -420,7 +420,6 @@
 											"parameter_longname" : "live.toggle[14]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.toggle[1]",
 											"parameter_type" : 2
 										}
@@ -670,17 +669,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-3110"
+ ]
 					}
 ,
 					"patching_rect" : [ 262.0, 21.0, 47.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 10.0, 48.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p more"
 				}
 
@@ -707,7 +701,6 @@
 							"parameter_longname" : "live.toggle[18]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -741,8 +734,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 111.0, 365.0, 20.0, 20.0 ],
-					"svg" : ""
+					"patching_rect" : [ 111.0, 365.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -750,7 +742,7 @@
 				"box" : 				{
 					"comment" : "Integer 0/1 if gate closed/open",
 					"id" : "obj-65",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -827,7 +819,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -904,15 +896,10 @@
 
 							}
  ],
-						"lines" : [  ],
-						"originid" : "pat-3112"
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 212.0, 21.0, 44.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p help"
 				}
 
@@ -921,7 +908,7 @@
 				"box" : 				{
 					"comment" : "gated list",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -933,7 +920,7 @@
 				"box" : 				{
 					"comment" : "input [list]",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -946,15 +933,17 @@
 				"box" : 				{
 					"autobounds" : 0,
 					"autoupdate" : 120.0,
-					"bgcolor" : [ 0.933333333333333, 0.933333333333333, 0.933333333333333, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
 					"bounds" : [ 0.0, 1.0 ],
 					"colormode" : "fgcolor",
 					"domainruler" : 0,
-					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
-					"first_cursor_value" : 0.1,
-					"first_cursor_visible" : 1,
+					"first_cursor_value" : 0.0,
+					"first_cursor_visible" : 0,
 					"id" : "obj-101",
 					"inversed" : 0,
 					"layout" : "juxtaposed",
@@ -971,9 +960,10 @@
 					"sampleperiod" : 10.0,
 					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"second_cursor_size" : 3,
-					"second_cursor_value" : -1.0,
+					"second_cursor_value" : 0.0,
 					"second_cursor_visible" : 0,
-					"shape" : "peaks"
+					"shape" : "peaks",
+					"windresize" : 0
 				}
 
 			}
@@ -1169,7 +1159,27 @@
 
 			}
  ],
-		"originid" : "pat-3108"
+		"parameters" : 		{
+			"obj-13" : [ "live.toggle[18]", "live.toggle", 0 ],
+			"obj-8::obj-17" : [ "live.toggle[14]", "live.toggle[1]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "mubu.scroll.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

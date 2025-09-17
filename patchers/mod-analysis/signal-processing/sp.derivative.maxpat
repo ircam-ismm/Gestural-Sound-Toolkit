@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -144,7 +144,7 @@
 				"box" : 				{
 					"comment" : "Sampling Rate (Hz)",
 					"id" : "obj-3",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -171,7 +171,7 @@
 				"box" : 				{
 					"comment" : "Delta.size",
 					"id" : "obj-10",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -265,7 +265,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -274,7 +274,6 @@
 						"rect" : [ 743.0, 424.0, 251.0, 347.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -768,17 +767,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2772"
+ ]
 					}
 ,
 					"patching_rect" : [ 182.0, 94.5, 85.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 6.0, 47.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p more"
 				}
 
@@ -796,7 +790,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -873,15 +867,10 @@
 
 							}
  ],
-						"lines" : [  ],
-						"originid" : "pat-2774"
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 115.5, 19.5, 44.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p help"
 				}
 
@@ -919,15 +908,17 @@
 				"box" : 				{
 					"autobounds" : 0,
 					"autoupdate" : 120.0,
-					"bgcolor" : [ 0.933333333333333, 0.933333333333333, 0.933333333333333, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
 					"bounds" : [ -1.0, 1.0 ],
 					"colormode" : "pattern",
 					"colorpattern" : [ "black", "steelblue" ],
 					"domainruler" : 0,
-					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
-					"first_cursor_value" : 0.607142857142857,
+					"first_cursor_value" : 0.0,
 					"first_cursor_visible" : 0,
 					"id" : "obj-91",
 					"inversed" : 0,
@@ -945,9 +936,10 @@
 					"sampleperiod" : 10.0,
 					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"second_cursor_size" : 3,
-					"second_cursor_value" : -1.0,
+					"second_cursor_value" : 0.0,
 					"second_cursor_visible" : 0,
-					"shape" : "lines"
+					"shape" : "lines",
+					"windresize" : 0
 				}
 
 			}
@@ -955,7 +947,7 @@
 				"box" : 				{
 					"comment" : "First derivative of the input data (along each axis) (list)",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -967,7 +959,7 @@
 				"box" : 				{
 					"comment" : "Input data (list)",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1139,7 +1131,16 @@
 
 			}
  ],
-		"originid" : "pat-2770"
+		"dependency_cache" : [ 			{
+				"name" : "mubu.scroll.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

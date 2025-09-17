@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -89,8 +89,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 295.0, 177.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 295.0, 177.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -131,7 +130,6 @@
 					"patching_rect" : [ 78.25, 174.5, 17.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 21.5, 17.0, 17.0 ],
-					"svg" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
 
@@ -295,7 +293,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.97456, 0.963051, 1.0, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-182",
@@ -306,14 +303,12 @@
 					"patching_rect" : [ 529.84997599999997, 338.25, 127.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.849976000000002, 21.5, 135.0, 18.0 ],
-					"text" : "Data acquisition (space bar)",
-					"textcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"text" : "Data acquisition (space bar)"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.933333, 0.933333, 0.933333, 1.0 ],
 					"id" : "obj-34",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -324,8 +319,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 19.5, 155.0, 110.0 ],
 					"setstyle" : 2,
-					"size" : 3,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"size" : 3
 				}
 
 			}
@@ -441,7 +435,6 @@
 
 			}
  ],
-		"originid" : "pat-1811",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

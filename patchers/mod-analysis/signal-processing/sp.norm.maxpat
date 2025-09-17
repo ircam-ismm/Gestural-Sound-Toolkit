@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -165,7 +165,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -174,7 +174,6 @@
 						"rect" : [ 210.0, 266.0, 750.0, 351.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -427,17 +426,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-3250"
+ ]
 					}
 ,
 					"patching_rect" : [ 114.0, 11.0, 47.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 4.0, 47.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p more"
 				}
 
@@ -461,15 +455,17 @@
 				"box" : 				{
 					"autobounds" : 0,
 					"autoupdate" : 120.0,
-					"bgcolor" : [ 0.933333333333333, 0.933333333333333, 0.933333333333333, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolordefault" : 1,
 					"bounds" : [ 0.0, 1.0 ],
 					"colormode" : "pattern",
 					"colorpattern" : [ "black", "steelblue" ],
 					"domainruler" : 0,
-					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"fgcolordefault" : 1,
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
-					"first_cursor_value" : 0.333333333333333,
+					"first_cursor_value" : 0.0,
 					"first_cursor_visible" : 0,
 					"id" : "obj-113",
 					"inversed" : 0,
@@ -487,9 +483,10 @@
 					"sampleperiod" : 10.0,
 					"second_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"second_cursor_size" : 3,
-					"second_cursor_value" : -1.0,
+					"second_cursor_value" : 0.0,
 					"second_cursor_visible" : 0,
-					"shape" : "lines"
+					"shape" : "lines",
+					"windresize" : 0
 				}
 
 			}
@@ -497,7 +494,7 @@
 				"box" : 				{
 					"comment" : "nom (normalized by the input length)",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -509,7 +506,7 @@
 				"box" : 				{
 					"comment" : "input [List]",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -672,7 +669,12 @@
 
 			}
  ],
-		"originid" : "pat-3248"
+		"dependency_cache" : [ 			{
+				"name" : "mubu.scroll.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
