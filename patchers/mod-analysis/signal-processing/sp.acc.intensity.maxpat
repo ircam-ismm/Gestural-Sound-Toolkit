@@ -10,10 +10,37 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 830.0, 518.0, 1172.0, 888.0 ],
+		"rect" : [ 953.0, 637.0, 627.0, 469.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontsize" : 10.0,
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 716.0, 11.0, 87.0, 33.0 ],
+					"text" : "mubu.scroll configuration"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "gain [float]",
+					"id" : "obj-17",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 683.0, 14.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-14",
 					"linecount" : 2,
@@ -749,6 +776,7 @@
 						"rect" : [ 1157.0, 141.0, 537.0, 511.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1210,7 +1238,7 @@
 					"second_cursor_visible" : 0,
 					"shape" : "lines",
 					"varname" : "scroll",
-					"windresize" : 1
+					"windresize" : 0
 				}
 
 			}
@@ -1281,6 +1309,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-181", 0 ],
 					"source" : [ "obj-164", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"hidden" : 1,
+					"midpoints" : [ 692.5, 536.1953125, 582.5, 536.1953125 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
