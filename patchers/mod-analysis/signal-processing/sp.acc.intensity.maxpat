@@ -1210,7 +1210,7 @@
 					"second_cursor_visible" : 0,
 					"shape" : "lines",
 					"varname" : "scroll",
-					"windresize" : 0
+					"windresize" : 1
 				}
 
 			}

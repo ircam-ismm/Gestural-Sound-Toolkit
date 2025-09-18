@@ -10,10 +10,35 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1099.0, 100.0, 512.0, 561.0 ],
+		"rect" : [ 1822.0, 184.0, 512.0, 561.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 294.0, 58.0, 127.0, 24.0 ],
+					"text" : "mubuscroll config"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "gyroscope data (list 3 float)",
+					"id" : "obj-9",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 253.0, 55.5, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"linecount" : 2,
@@ -844,6 +869,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"midpoints" : [ 262.5, 447.5, 124.420470999999992, 447.5 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

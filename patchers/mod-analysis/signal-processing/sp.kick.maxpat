@@ -172,7 +172,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button",
+							"parameter_longname" : "live.button[2]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.button",
@@ -881,8 +881,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-168"
+ ]
 					}
 ,
 					"patching_rect" : [ 111.0, 39.5, 101.0, 21.0 ],
@@ -1321,8 +1320,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-170"
+ ]
 					}
 ,
 					"patching_rect" : [ 193.0, 422.0, 138.0, 21.0 ],
@@ -1535,7 +1533,7 @@
 					"fgcolordefault" : 1,
 					"first_cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"first_cursor_size" : 3,
-					"first_cursor_value" : 0.932584269662921,
+					"first_cursor_value" : 0.1,
 					"first_cursor_visible" : 1,
 					"id" : "obj-101",
 					"inversed" : 0,
@@ -1556,7 +1554,7 @@
 					"second_cursor_value" : 0.0,
 					"second_cursor_visible" : 0,
 					"shape" : "lines",
-					"windresize" : 0
+					"windresize" : 1
 				}
 
 			}

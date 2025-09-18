@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 193.0, 187.0, 1315.0, 644.0 ],
+		"rect" : [ 948.0, 586.0, 929.0, 635.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 2,
@@ -22,7 +22,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 52.5, 139.5, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 438.0, 35.5, 50.0, 20.0 ],
+					"presentation_rect" : [ 126.0, 8.0, 50.0, 20.0 ],
 					"text" : "Play"
 				}
 
@@ -61,7 +61,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 16.0, 448.0, 23.5, 23.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.000005811452866, 5.666666835546494, 16.333333820104599, 16.333333820104599 ]
+					"presentation_rect" : [ 204.0, 38.0, 16.333333820104599, 16.333333820104599 ]
 				}
 
 			}
@@ -236,7 +236,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1071.0, 46.5, 45.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 68.0, 45.0, 21.0 ],
+					"presentation_rect" : [ 184.0, 8.0, 32.0, 21.0 ],
 					"text" : "clear"
 				}
 
@@ -253,7 +253,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1135.0, 46.5, 45.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.499999999999886, 115.0, 93.500000000000114, 21.0 ],
+					"presentation_rect" : [ 333.0, 7.0, 72.0, 21.0 ],
 					"text" : "writealltracks"
 				}
 
@@ -269,7 +269,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 999.0, 46.5, 45.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 91.0, 45.0, 21.0 ],
+					"presentation_rect" : [ 225.0, 7.0, 45.0, 21.0 ],
 					"text" : "readall"
 				}
 
@@ -285,7 +285,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 930.0, 46.5, 45.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 455.0, 91.0, 45.0, 21.0 ],
+					"presentation_rect" : [ 279.0, 7.0, 45.0, 21.0 ],
 					"text" : "writeall"
 				}
 
@@ -336,7 +336,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 14.0, 130.75, 37.5, 37.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 35.5, 20.0, 20.0 ]
+					"presentation_rect" : [ 98.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -348,7 +348,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 420.0, 74.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 4.0, 60.0, 20.0 ],
+					"presentation_rect" : [ 144.0, 36.0, 60.0, 20.0 ],
 					"text" : "autoscale"
 				}
 
@@ -361,7 +361,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 52.5, 48.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 438.0, 11.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 38.0, 8.0, 50.0, 20.0 ],
 					"text" : "Record"
 				}
 
@@ -453,9 +453,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 14.0, 230.0, 38.0, 19.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 6.0, 30.0, 19.0 ]
+					"presentation_rect" : [ 12.0, 38.0, 30.0, 19.0 ]
 				}
 
 			}
@@ -519,7 +518,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 5.0, 229.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 310.5, 3.0, 90.999999999999886, 21.0 ],
+					"presentation_rect" : [ 320.0, 35.0, 90.999999999999886, 21.0 ],
 					"text" : "Data recording"
 				}
 
@@ -720,7 +719,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 16.0, 36.0, 37.5, 37.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 11.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 10.0, 8.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -839,9 +838,9 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 6020.0,
 					"cursor_numextracursors" : 0,
 					"cursor_outputdata" : 0,
+					"cursor_position" : [ 0.0, 0.0 ],
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
@@ -890,9 +889,9 @@
 					"outputvalues" : 0,
 					"outputviewname" : 0,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 180.0, 345.0, 787.0, 285.0 ],
+					"patching_rect" : [ 180.0, 345.0, 789.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.5, 4.0, 401.999999999999886, 133.0 ],
+					"presentation_rect" : [ 8.0, 36.0, 404.0, 133.0 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
@@ -1389,6 +1388,13 @@
 			}
  ],
 		"autosave" : 0,
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-15", "obj-4", "obj-6", "obj-18", "obj-27", "obj-71", "obj-69", "obj-40" ]
+			}
+, 			{
+				"boxes" : [ "obj-30", "obj-10", "obj-70", "obj-57", "obj-50" ]
+			}
+ ],
 		"stripecolor" : [ 0.149019607843137, 0.145098039215686, 0.145098039215686, 1.0 ]
 	}
 
