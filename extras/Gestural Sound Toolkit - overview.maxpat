@@ -230,6 +230,19 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontsize" : 14.0,
+									"id" : "obj-41",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 151.0, 595.0, 47.0, 24.0 ],
+									"text" : "hhmm"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 14.0,
 									"id" : "obj-39",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -1771,7 +1784,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.kick.maxpat",
-									"numinlets" : 4,
+									"numinlets" : 5,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, -5.0 ],
 									"outlettype" : [ "", "int", "" ],
@@ -2185,6 +2198,14 @@
 									"destination" : [ "obj-49", 0 ],
 									"order" : 1,
 									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-41", 0 ]
 								}
 
 							}
