@@ -120,7 +120,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.kick.maxpat",
+					"name" : "gst.kick.maxpat",
 					"numinlets" : 5,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, -5.0 ],
@@ -142,11 +142,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.acc.intensity.maxpat",
-					"numinlets" : 4,
-					"numoutlets" : 4,
+					"name" : "gst.orientation.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "float", "float", "float" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 46.0, 393.0, 434.0, 205.0 ],
 					"viewvisibility" : 1
 				}
@@ -304,14 +304,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 3 ],
-					"hidden" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-19", 0 ]
@@ -323,14 +315,6 @@
 					"destination" : [ "obj-48", 5 ],
 					"hidden" : 1,
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 3 ],
-					"hidden" : 1,
-					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -397,6 +381,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "gst.kick.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.orientation.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gst.recorddata.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
 				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
@@ -430,20 +428,6 @@
 , 			{
 				"name" : "pipo.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sp.acc.intensity.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.kick.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ],
 		"autosave" : 0

@@ -196,7 +196,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.highpass.maxpat",
+					"name" : "gst.highpass.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -287,6 +287,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "gst.highpass.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gst.recorddata.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
 				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
@@ -320,13 +327,6 @@
 , 			{
 				"name" : "pipo.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sp.highpass.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ],
 		"autosave" : 0
