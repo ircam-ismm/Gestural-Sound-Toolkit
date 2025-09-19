@@ -10,10 +10,35 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1068.0, 501.0, 708.0, 715.0 ],
+		"rect" : [ 534.0, 126.0, 675.0, 771.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 263.0, 552.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "Sampling Rate (Hz)",
+					"id" : "obj-5",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 608.0, 38.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"linecount" : 2,
@@ -925,7 +950,7 @@
 					"autoupdate" : 120.0,
 					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"bgcolordefault" : 1,
-					"bounds" : [ 0.0, 1.0 ],
+					"bounds" : [ -1.0, 1.0 ],
 					"colormode" : "pattern",
 					"colorpattern" : [ "black", "steelblue", "blue" ],
 					"domainruler" : 0,
@@ -944,7 +969,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.0, 577.0, 204.0, 132.0 ],
+					"patching_rect" : [ 177.0, 616.0, 204.0, 132.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 28.0, 129.0, 86.0 ],
 					"rangeruler" : 0,
@@ -1111,8 +1136,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-101", 0 ],
-					"midpoints" : [ 272.5, 566.5, 186.5, 566.5 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -1135,6 +1159,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"midpoints" : [ 617.5, 605.97265625, 186.5, 605.97265625 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"midpoints" : [ 272.5, 599.5, 186.5, 599.5 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
