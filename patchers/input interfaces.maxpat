@@ -215,7 +215,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.display.maxpat",
+					"name" : "gst.display.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -871,6 +871,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "gst.display.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gst.recorddata.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
 				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
@@ -946,13 +953,6 @@
 				"name" : "resize_n4m_monitor_patcher.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.display.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -89,8 +89,8 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.orientation.maxpat",
-					"numinlets" : 2,
+					"name" : "gst.orientation.maxpat",
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
@@ -134,7 +134,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "in.riotbitalino.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 4,
 					"offset" : [ -6.0, 0.0 ],
 					"outlettype" : [ "", "", "", "float" ],
@@ -198,7 +198,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "synth.scratch.samples.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
@@ -272,7 +272,6 @@
 
 			}
  ],
-		"originid" : "pat-1670",
 		"parameters" : 		{
 			"obj-12::obj-18::obj-88" : [ "live.toggle[9]", "live.toggle", 0 ],
 			"obj-12::obj-18::obj-92" : [ "live.toggle[8]", "live.toggle", 0 ],
@@ -298,15 +297,23 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "drawing.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/lcd",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/lcd",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
+				"name" : "gst.orientation.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.riotbitalino.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -315,22 +322,15 @@
 			}
 , 			{
 				"name" : "in.riotbitalino.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/riot",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.classification.gmm.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/machine-learning",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.gmm.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../../Max 9/Packages/MuBu For Max/help",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -351,13 +351,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../../Max 9/Packages/MuBu For Max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
 			}
@@ -366,37 +359,23 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/riot",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sid.output.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.orientation.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.ctrl.soundpool.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.scratch.samples.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}

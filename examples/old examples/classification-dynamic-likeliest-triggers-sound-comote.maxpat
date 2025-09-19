@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -60,8 +60,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 51.0, 204.975707533203149, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 51.0, 204.975707533203149, 24.0, 24.0 ]
 				}
 
 			}
@@ -137,8 +136,8 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.bandpass.maxpat",
-					"numinlets" : 3,
+					"name" : "gst.bandpass.maxpat",
+					"numinlets" : 4,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -159,8 +158,8 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.acc.intensity.maxpat",
-					"numinlets" : 3,
+					"name" : "gst.acc.intensity.maxpat",
+					"numinlets" : 4,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "float", "float", "float" ],
@@ -215,8 +214,8 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.orientation.maxpat",
-					"numinlets" : 2,
+					"name" : "gst.orientation.maxpat",
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
@@ -239,9 +238,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "in.comote.maxpat",
 					"numinlets" : 6,
-					"numoutlets" : 5,
+					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "", "" ],
+					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 284.0, 2.975738525390625, 163.0, 132.566956000000005 ],
 					"viewvisibility" : 1
 				}
@@ -281,7 +280,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "synth.scratch.samples.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
@@ -374,7 +373,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -382,7 +381,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -416,7 +415,6 @@
 
 			}
  ],
-		"originid" : "pat-1844",
 		"parameters" : 		{
 			"obj-12::obj-18::obj-88" : [ "live.toggle[9]", "live.toggle", 0 ],
 			"obj-12::obj-18::obj-92" : [ "live.toggle[8]", "live.toggle", 0 ],
@@ -437,6 +435,18 @@
 				"obj-12::obj-18::obj-92" : 				{
 					"parameter_longname" : "live.toggle[8]"
 				}
+,
+				"obj-41::obj-55" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
+				"obj-41::obj-56" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-41::obj-60" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
 
 			}
 ,
@@ -445,22 +455,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "comote-connect-resize.js",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "comote-connect-server.js",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-screenshot-3.png",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -471,9 +488,24 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
+				"name" : "gst.acc.intensity.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.bandpass.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.orientation.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -482,22 +514,15 @@
 			}
 , 			{
 				"name" : "in.comote.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-interfaces/CoMo.te",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.classification.hhmm.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/machine-learning",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.hhmm.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../../Max 9/Packages/MuBu For Max/help",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -516,13 +541,6 @@
 , 			{
 				"name" : "mubu.scroll.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../../Max 9/Packages/MuBu For Max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.track.mxo",
@@ -546,43 +564,22 @@
 			}
 , 			{
 				"name" : "sid.output.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.acc.intensity.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.bandpass.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.orientation.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.ctrl.soundpool.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.scratch.samples.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit-mubuscroll/patchers/mod-synthesis",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}

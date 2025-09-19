@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 728.0, 296.0, 1488.0, 924.0 ],
+		"rect" : [ 495.0, 333.0, 1488.0, 924.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
@@ -224,7 +224,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 728.0, 322.0, 1488.0, 898.0 ],
+						"rect" : [ 495.0, 359.0, 1488.0, 898.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
@@ -235,8 +235,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 237.0, 628.0, 40.0, 24.0 ],
-									"text" : "norm"
+									"patching_rect" : [ 289.5, 628.0, 63.0, 24.0 ],
+									"text" : "gst.norm"
 								}
 
 							}
@@ -248,8 +248,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 237.0, 595.0, 68.0, 24.0 ],
-									"text" : "derivative"
+									"patching_rect" : [ 264.5, 595.0, 91.0, 24.0 ],
+									"text" : "gst.derivative"
 								}
 
 							}
@@ -261,8 +261,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.5, 687.0, 69.0, 24.0 ],
-									"text" : "bandpass"
+									"patching_rect" : [ 177.5, 687.0, 92.0, 24.0 ],
+									"text" : "gst.bandpass"
 								}
 
 							}
@@ -274,8 +274,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 151.0, 657.0, 59.0, 24.0 ],
-									"text" : "lowpass"
+									"patching_rect" : [ 178.5, 657.0, 82.0, 24.0 ],
+									"text" : "gst.lowpass"
 								}
 
 							}
@@ -287,8 +287,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 151.0, 628.0, 65.0, 24.0 ],
-									"text" : "highpass"
+									"patching_rect" : [ 178.5, 628.0, 87.0, 24.0 ],
+									"text" : "gst.highpass"
 								}
 
 							}
@@ -300,7 +300,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 151.0, 595.0, 47.0, 24.0 ],
+									"patching_rect" : [ 178.5, 595.0, 47.0, 24.0 ],
 									"text" : "hhmm"
 								}
 
@@ -313,8 +313,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.0, 683.0, 33.0, 24.0 ],
-									"text" : "kick"
+									"patching_rect" : [ 54.0, 683.0, 55.0, 24.0 ],
+									"text" : "gst.kick"
 								}
 
 							}
@@ -326,8 +326,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 53.0, 654.0, 50.0, 24.0 ],
-									"text" : "angles"
+									"patching_rect" : [ 53.0, 654.0, 72.0, 24.0 ],
+									"text" : "gst.angles"
 								}
 
 							}
@@ -381,8 +381,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 53.0, 624.0, 60.0, 24.0 ],
-									"text" : "intensity"
+									"patching_rect" : [ 53.0, 624.0, 108.0, 24.0 ],
+									"text" : "gst.acc.intensity"
 								}
 
 							}
@@ -512,8 +512,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 53.0, 595.0, 74.0, 24.0 ],
-									"text" : "orientation"
+									"patching_rect" : [ 53.0, 595.0, 96.0, 24.0 ],
+									"text" : "gst.orientation"
 								}
 
 							}
@@ -1737,7 +1737,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.orientation.maxpat",
+									"name" : "gst.orientation.maxpat",
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -1848,7 +1848,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.kick.maxpat",
+									"name" : "gst.kick.maxpat",
 									"numinlets" : 5,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, -5.0 ],
@@ -1870,7 +1870,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.acc.intensity.maxpat",
+									"name" : "gst.acc.intensity.maxpat",
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
@@ -2079,7 +2079,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"midpoints" : [ 753.5, 232.317264556884766, 753.5, 232.317264556884766 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -2097,7 +2097,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"midpoints" : [ 753.5, 218.534568786621094, 934.5, 218.534568786621094, 934.5, 66.467613220214844, 955.5, 66.467613220214844 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -3874,6 +3874,27 @@
 				"name" : "fit_jweb_to_bounds.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.acc.intensity.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.kick.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.orientation.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

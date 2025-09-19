@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 667.0, 304.0, 1644.0, 923.0 ],
+		"rect" : [ 612.0, 382.0, 1644.0, 923.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
@@ -103,7 +103,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 667.0, 330.0, 1644.0, 897.0 ],
+						"rect" : [ 612.0, 408.0, 1644.0, 897.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
@@ -586,8 +586,8 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.orientation.maxpat",
-									"numinlets" : 2,
+									"name" : "gst.orientation.maxpat",
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
@@ -729,8 +729,8 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.kick.maxpat",
-									"numinlets" : 4,
+									"name" : "gst.kick.maxpat",
+									"numinlets" : 5,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, -5.0 ],
 									"outlettype" : [ "", "int", "" ],
@@ -751,8 +751,8 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.acc.intensity.maxpat",
-									"numinlets" : 3,
+									"name" : "gst.acc.intensity.maxpat",
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "float", "float", "float" ],
@@ -773,7 +773,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"midpoints" : [ 919.5, 252.536014556884766, 1292.5, 252.536014556884766 ],
-									"order" : 2,
+									"order" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -781,8 +781,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-31", 1 ],
-									"midpoints" : [ 948.299999999999955, 225.317264556884766, 1033.5, 225.317264556884766 ],
-									"order" : 0,
+									"midpoints" : [ 948.299999999999955, 225.317264556884766, 976.5, 225.317264556884766 ],
+									"order" : 1,
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -800,7 +800,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 1 ],
 									"midpoints" : [ 948.299999999999955, 226.034568786621094, 1092.17948608398433, 226.034568786621094, 1092.17948608398433, 66.467613220214844, 1218.858972167968659, 66.467613220214844 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -809,7 +809,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"midpoints" : [ 919.5, 235.034568786621094, 1100.5, 235.034568786621094, 1100.5, 70.467613220214844, 1121.5, 70.467613220214844 ],
-									"order" : 0,
+									"order" : 2,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -884,7 +884,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"midpoints" : [ 1121.5, 251.748321533203125, 1292.5, 251.748321533203125 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -892,7 +892,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-31", 1 ],
-									"midpoints" : [ 1364.897430419921875, 226.455352783203125, 1033.5, 226.455352783203125 ],
+									"midpoints" : [ 1364.897430419921875, 226.455352783203125, 976.5, 226.455352783203125 ],
 									"source" : [ "obj-48", 1 ]
 								}
 
@@ -901,7 +901,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"midpoints" : [ 1121.5, 252.338165283203125, 919.5, 252.338165283203125 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -946,10 +946,9 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.scrolldisplay.maxpat",
-									"numinlets" : 4,
-									"numoutlets" : 1,
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
 									"patching_rect" : [ 687.5, 195.453369140625, 163.731216430664062, 132.56695556640625 ],
 									"viewvisibility" : 1
 								}
@@ -1107,7 +1106,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.angles.maxpat",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "", "" ],
@@ -1329,7 +1328,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.orientation.maxpat",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
@@ -1373,7 +1372,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.bandpass.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -1708,7 +1707,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.lowpass.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -1730,7 +1729,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.highpass.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -1752,7 +1751,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.derivative.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -1774,7 +1773,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.kick.maxpat",
-									"numinlets" : 4,
+									"numinlets" : 5,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, -5.0 ],
 									"outlettype" : [ "", "int", "" ],
@@ -1796,7 +1795,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.acc.intensity.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "float", "float", "float" ],
@@ -1824,18 +1823,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"midpoints" : [ 545.799999999999955, 340.02032470703125, 679.0, 340.02032470703125, 679.0, 176.453369140625, 697.0, 176.453369140625 ],
-									"order" : 2,
-									"source" : [ "obj-12", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-31", 1 ],
-									"midpoints" : [ 545.799999999999955, 340.303020477294922, 1042.908790588378906, 340.303020477294922 ],
-									"order" : 0,
+									"midpoints" : [ 545.799999999999955, 340.303020477294922, 985.908790588378906, 340.303020477294922 ],
+									"order" : 1,
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -1861,7 +1851,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 1 ],
 									"midpoints" : [ 545.799999999999955, 341.02032470703125, 882.17948608398433, 341.02032470703125, 882.17948608398433, 181.453369140625, 1009.153833007812523, 181.453369140625 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -2078,10 +2068,9 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 228.0, 223.0, 1006.0, 777.0 ],
+						"rect" : [ 0.0, 26.0, 1644.0, 897.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"showontab" : 1,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.819608, 0.819608, 0.819608, 0.0 ],
@@ -2095,10 +2084,9 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.scrolldisplay.maxpat",
-									"numinlets" : 4,
-									"numoutlets" : 1,
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
 									"patching_rect" : [ 687.5, 195.453369140625, 163.731216430664062, 132.56695556640625 ],
 									"viewvisibility" : 1
 								}
@@ -2256,7 +2244,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.angles.maxpat",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "", "" ],
@@ -2478,7 +2466,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.orientation.maxpat",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
@@ -2522,7 +2510,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.bandpass.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -2857,7 +2845,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.lowpass.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -2879,7 +2867,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.highpass.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -2901,7 +2889,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.derivative.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -2923,7 +2911,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.kick.maxpat",
-									"numinlets" : 4,
+									"numinlets" : 5,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, -5.0 ],
 									"outlettype" : [ "", "int", "" ],
@@ -2945,7 +2933,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.acc.intensity.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "float", "float", "float" ],
@@ -2973,18 +2961,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"midpoints" : [ 545.799999999999955, 340.02032470703125, 679.0, 340.02032470703125, 679.0, 176.453369140625, 697.0, 176.453369140625 ],
-									"order" : 2,
-									"source" : [ "obj-12", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-31", 1 ],
-									"midpoints" : [ 545.799999999999955, 340.303020477294922, 1042.908790588378906, 340.303020477294922 ],
-									"order" : 0,
+									"midpoints" : [ 545.799999999999955, 340.303020477294922, 985.908790588378906, 340.303020477294922 ],
+									"order" : 1,
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -3010,7 +2989,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 1 ],
 									"midpoints" : [ 545.799999999999955, 341.02032470703125, 882.17948608398433, 341.02032470703125, 882.17948608398433, 181.453369140625, 1009.153833007812523, 181.453369140625 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -3262,6 +3241,18 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-1::obj-12::obj-55" : 				{
+					"parameter_longname" : "live.text"
+				}
+,
+				"obj-1::obj-12::obj-56" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-1::obj-12::obj-60" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
 				"obj-1::obj-15::obj-18::obj-88" : 				{
 					"parameter_longname" : "live.toggle[20]"
 				}
@@ -3470,16 +3461,38 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gst.recorddata.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/data-recording-playing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/data-recording-playing",
+				"name" : "gst.acc.intensity.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
+				"name" : "gst.kick.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.orientation.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.recorddata.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.riotbitalino.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -3502,36 +3515,29 @@
 			}
 , 			{
 				"name" : "ml.classification.gmm.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.classification.hhmm.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.regression.gmr.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.regression.xmm.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/machine-learning",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.gmm.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Max 9/Packages/MuBu For Max/help",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3540,26 +3546,12 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.gmr.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Max 9/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mubu.gmr.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mubu.granular~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.hhmm.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Max 9/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.hhmm.mxo",
@@ -3582,22 +3574,8 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.setlabels.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../Max 9/Packages/MuBu For Max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.xmm.maxhelp",
-				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/help",
-				"patcherrelativepath" : "../../../Max 9/Packages/MuBu For Max/help",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.xmm.mxo",
@@ -3617,13 +3595,6 @@
 				"name" : "resize_n4m_monitor_patcher.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "riotbitalino.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -3698,13 +3669,6 @@
 			}
 , 			{
 				"name" : "sp.orientation.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.scrolldisplay.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
