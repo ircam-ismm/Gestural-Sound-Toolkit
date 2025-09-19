@@ -116,8 +116,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 53.0, 162.0, 42.0 ],
-					"text" : "Highpass"
+					"patching_rect" : [ 99.0, 53.0, 186.0, 42.0 ],
+					"text" : "gst.highpass"
 				}
 
 			}
@@ -288,8 +288,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "gst.highpass.maxpat",
-				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}

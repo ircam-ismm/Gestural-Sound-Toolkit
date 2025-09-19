@@ -104,8 +104,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 53.0, 126.0, 42.0 ],
-					"text" : "Intensity"
+					"patching_rect" : [ 99.0, 53.0, 235.0, 42.0 ],
+					"text" : "gst.acc.intensity"
 				}
 
 			}
@@ -270,8 +270,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "gst.acc.intensity.maxpat",
-				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}

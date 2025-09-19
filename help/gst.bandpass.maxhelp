@@ -116,8 +116,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 53.0, 162.0, 42.0 ],
-					"text" : "Bandpass"
+					"patching_rect" : [ 99.0, 53.0, 197.0, 42.0 ],
+					"text" : "gst.bandpass"
 				}
 
 			}
@@ -288,8 +288,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "gst.bandpass.maxpat",
-				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}

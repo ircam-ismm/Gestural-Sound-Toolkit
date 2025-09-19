@@ -202,8 +202,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 43.0, 103.0, 42.0 ],
-					"text" : "Kick"
+					"patching_rect" : [ 101.0, 43.0, 116.0, 42.0 ],
+					"text" : "gst.kick"
 				}
 
 			}

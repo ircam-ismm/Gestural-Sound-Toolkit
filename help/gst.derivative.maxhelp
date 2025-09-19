@@ -104,8 +104,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 53.0, 162.0, 42.0 ],
-					"text" : "Derivative"
+					"patching_rect" : [ 99.0, 53.0, 195.0, 42.0 ],
+					"text" : "gst.derivative"
 				}
 
 			}
