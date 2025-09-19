@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 149.0, 141.0, 1488.0, 924.0 ],
+		"rect" : [ 237.0, 259.0, 1488.0, 924.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
@@ -224,10 +224,51 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 149.0, 167.0, 1488.0, 898.0 ],
+						"rect" : [ 237.0, 285.0, 1488.0, 898.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 14.0,
+									"id" : "obj-67",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 150.5, 687.0, 69.0, 24.0 ],
+									"presentation_linecount" : 2,
+									"text" : "bandpass"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 14.0,
+									"id" : "obj-66",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 151.0, 657.0, 59.0, 24.0 ],
+									"text" : "lowpass"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 14.0,
+									"id" : "obj-42",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 151.0, 628.0, 65.0, 24.0 ],
+									"presentation_linecount" : 2,
+									"text" : "highpass"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontsize" : 14.0,
 									"id" : "obj-41",
@@ -2211,6 +2252,14 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-77", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-43", 0 ]
@@ -2326,6 +2375,22 @@
 								"patchline" : 								{
 									"destination" : [ "obj-78", 0 ],
 									"hidden" : 1,
+									"source" : [ "obj-66", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-67", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"hidden" : 1,
 									"source" : [ "obj-75", 0 ]
 								}
 
@@ -2341,7 +2406,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"midpoints" : [ 1198.5, 417.5, 1289.8671875, 417.5, 1289.8671875, 255.0, 1310.5, 255.0 ],
+									"midpoints" : [ 1198.5, 410.2578125, 1289.8671875, 410.2578125, 1289.8671875, 259.46875, 1310.5, 259.46875 ],
 									"source" : [ "obj-9", 1 ]
 								}
 
@@ -2791,7 +2856,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.bandpass.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -3126,7 +3191,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.lowpass.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -3148,7 +3213,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.highpass.maxpat",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
@@ -3285,7 +3350,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
-									"order" : 2,
+									"order" : 0,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -3301,7 +3366,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"order" : 0,
+									"order" : 2,
 									"source" : [ "obj-21", 0 ]
 								}
 
