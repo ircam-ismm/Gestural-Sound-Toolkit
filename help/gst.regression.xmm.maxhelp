@@ -326,7 +326,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 275.728151559829712, 483.495139002799988, 225.0, 46.0 ],
+					"patching_rect" : [ 271.577664911746979, 492.291255414485931, 225.0, 46.0 ],
 					"text" : "select examples (min 2)"
 				}
 
@@ -484,7 +484,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.660193562507629, 257.281549870967865, 142.0, 71.0 ],
-					"presentation_linecount" : 3,
 					"text" : "space bar to start/stop recording"
 				}
 

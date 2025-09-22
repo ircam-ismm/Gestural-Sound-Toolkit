@@ -10,9 +10,26 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 521.0, 889.0 ],
+		"rect" : [ 100.0, 100.0, 511.0, 1022.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-9",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 49.0, 88.0, 361.0, 163.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 11,
+					"presentation_rect" : [ 14.0, 178.0, 248.0, 179.0 ],
+					"text" : "It computes the orienation, projection on the gravitation axis, combining the acceleraometer and gyroscope data, suing the complementory fileter\n\ninput: \n     - accelerometer data (list 3 float)\n     - gyroscope data (list 3 float)\n\noutput:\n     - [1]: orentation [list]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 9.0,
 					"hidden" : 1,
@@ -21,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 596.0, 162.0, 19.0 ],
+					"patching_rect" : [ 462.0, 751.0, 162.0, 19.0 ],
 					"text" : "loadmess readall gmm-overview.mubu"
 				}
 
@@ -42,7 +59,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, -3.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 41.0, 607.0, 429.0, 241.0 ],
+					"patching_rect" : [ 29.0, 762.0, 429.0, 241.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -64,7 +81,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 370.0, 434.0, 224.0 ],
+					"patching_rect" : [ 29.0, 525.0, 434.0, 224.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -78,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 663.0, 39.0, 17.0 ],
+					"patching_rect" : [ 462.0, 818.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -92,7 +109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 642.0, 121.0, 17.0 ],
+					"patching_rect" : [ 462.0, 797.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -106,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 621.0, 90.0, 17.0 ],
+					"patching_rect" : [ 462.0, 776.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -120,7 +137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 487.0, 403.0, 39.0, 17.0 ],
+					"patching_rect" : [ 475.0, 558.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -134,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 487.0, 382.0, 121.0, 17.0 ],
+					"patching_rect" : [ 475.0, 537.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -148,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 471.0, 361.0, 90.0, 17.0 ],
+					"patching_rect" : [ 459.0, 516.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -162,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.0, 165.0, 39.0, 17.0 ],
+					"patching_rect" : [ 484.0, 320.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -176,7 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.0, 144.0, 121.0, 17.0 ],
+					"patching_rect" : [ 484.0, 299.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -190,7 +207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 123.0, 90.0, 17.0 ],
+					"patching_rect" : [ 468.0, 278.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -230,7 +247,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 373.0, 103.0, 49.0, 17.0 ],
+					"patching_rect" : [ 361.0, 258.0, 49.0, 17.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -244,7 +261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.0, 101.0, 126.0, 17.0 ],
+					"patching_rect" : [ 431.0, 256.0, 126.0, 17.0 ],
 					"text" : "loadmess readall overview.mubu"
 				}
 
@@ -266,7 +283,7 @@
 					"numoutlets" : 3,
 					"offset" : [ -2.0, -4.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 41.0, 126.0, 434.0, 233.0 ],
+					"patching_rect" : [ 29.0, 281.0, 434.0, 233.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -392,8 +409,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "gst.orientation.maxpat",
-				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,9 +10,44 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 396.0, 139.0, 538.0, 737.0 ],
+		"rect" : [ 396.0, 139.0, 496.0, 869.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 75.0, 271.0, 305.0, 38.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 5.0, 282.0, 322.0, 38.0 ],
+					"text" : "Note: uses PiPo from ISMM team at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-9",
+					"linecount" : 9,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 66.0, 114.0, 265.0, 147.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 9,
+					"presentation_rect" : [ 5.0, 162.0, 289.0, 147.0 ],
+					"text" : "Lowpass filtering of incoming data\n\ninput: \n     - data values [list]\n     - cutoff frequency (cut out \n       frequencies higher  than this value)\n     - sampling rate\noutput:\n     - [1]: filtered data [list]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 8.0,
 					"hidden" : 1,
@@ -21,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 497.0, 39.0, 17.0 ],
+					"patching_rect" : [ 457.0, 665.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -35,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 476.0, 121.0, 17.0 ],
+					"patching_rect" : [ 457.0, 644.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -49,7 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 455.0, 90.0, 17.0 ],
+					"patching_rect" : [ 440.0, 623.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -63,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 202.0, 39.0, 17.0 ],
+					"patching_rect" : [ 479.0, 370.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -77,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 181.0, 121.0, 17.0 ],
+					"patching_rect" : [ 479.0, 349.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -91,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 160.0, 90.0, 17.0 ],
+					"patching_rect" : [ 462.0, 328.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -104,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 53.0, 175.0, 42.0 ],
+					"patching_rect" : [ 66.0, 55.0, 175.0, 42.0 ],
 					"text" : "gst.lowpass"
 				}
 
@@ -131,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 140.0, 49.0, 17.0 ],
+					"patching_rect" : [ 356.0, 308.0, 49.0, 17.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -145,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 138.0, 126.0, 17.0 ],
+					"patching_rect" : [ 426.0, 306.0, 126.0, 17.0 ],
 					"text" : "loadmess readall overview.mubu"
 				}
 
@@ -167,7 +202,7 @@
 					"numoutlets" : 3,
 					"offset" : [ -2.0, -4.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 52.0, 163.0, 434.0, 259.0 ],
+					"patching_rect" : [ 24.0, 331.0, 434.0, 259.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -189,7 +224,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 461.0, 434.0, 222.0 ],
+					"patching_rect" : [ 24.0, 629.0, 434.0, 222.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -238,7 +273,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 1 ],
-					"midpoints" : [ 269.0, 449.80078125, 199.833333333333343, 449.80078125 ],
+					"midpoints" : [ 241.0, 617.80078125, 171.833333333333343, 617.80078125 ],
 					"source" : [ "obj-48", 1 ]
 				}
 
@@ -246,7 +281,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 61.5, 451.5, 61.5, 451.5 ],
+					"midpoints" : [ 33.5, 619.5, 33.5, 619.5 ],
 					"source" : [ "obj-48", 0 ]
 				}
 

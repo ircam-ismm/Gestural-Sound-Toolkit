@@ -10,9 +10,38 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 456.0, 649.0, 547.0, 726.0 ],
+		"rect" : [ 204.0, 439.0, 534.0, 788.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 47.0, 774.0, 196.0, 22.0 ],
+					"text" : "-0. -0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-8",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 97.0, 470.0, 132.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 9,
+					"presentation_rect" : [ 14.0, 216.0, 264.0, 147.0 ],
+					"text" : "It computes the First Derivativs along each axis of the incoming data, e.g. velocities from position data. Useful to capture time changes in continuous data.\n\ninput: \n     - data values [list]\noutput:\n     - [1]: 1st derivatives [list]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 8.0,
 					"hidden" : 1,
@@ -21,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 478.0, 39.0, 17.0 ],
+					"patching_rect" : [ 486.0, 572.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -35,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 457.0, 121.0, 17.0 ],
+					"patching_rect" : [ 486.0, 551.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -49,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 467.0, 435.0, 90.0, 17.0 ],
+					"patching_rect" : [ 462.0, 529.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -63,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 202.0, 39.0, 17.0 ],
+					"patching_rect" : [ 502.0, 296.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -77,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 181.0, 121.0, 17.0 ],
+					"patching_rect" : [ 502.0, 275.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -91,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 160.0, 90.0, 17.0 ],
+					"patching_rect" : [ 485.0, 254.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -131,7 +160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 140.0, 49.0, 17.0 ],
+					"patching_rect" : [ 379.0, 234.0, 49.0, 17.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -145,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 138.0, 126.0, 17.0 ],
+					"patching_rect" : [ 449.0, 232.0, 126.0, 17.0 ],
 					"text" : "loadmess readall overview.mubu"
 				}
 
@@ -167,7 +196,7 @@
 					"numoutlets" : 3,
 					"offset" : [ -2.0, -4.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 52.0, 163.0, 434.0, 259.0 ],
+					"patching_rect" : [ 47.0, 257.0, 434.0, 259.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -189,7 +218,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 461.0, 434.0, 207.0 ],
+					"patching_rect" : [ 47.0, 555.0, 434.0, 207.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -224,6 +253,14 @@
 					"destination" : [ "obj-13", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"midpoints" : [ 56.5, 768.0, 233.5, 768.0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}

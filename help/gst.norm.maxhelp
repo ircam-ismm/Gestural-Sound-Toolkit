@@ -10,9 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 226.0, 154.0, 538.0, 907.0 ],
+		"rect" : [ 226.0, 154.0, 519.0, 939.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-15",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 55.0, 99.0, 357.0, 69.0 ],
+					"text" : "Compute the vector norm (normalized by the list lenght) \n\n@input: list of float values (e.g. 3d accelerometer data)\n@output: 1-d distance value"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 8.0,
 					"hidden" : 1,
@@ -21,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 515.0, 675.0, 39.0, 17.0 ],
+					"patching_rect" : [ 518.0, 706.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -35,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 515.0, 654.0, 121.0, 17.0 ],
+					"patching_rect" : [ 518.0, 685.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -49,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.0, 632.0, 90.0, 17.0 ],
+					"patching_rect" : [ 496.0, 663.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -71,7 +84,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 52.0, 651.0, 434.0, 238.0 ],
+					"patching_rect" : [ 55.0, 682.0, 434.0, 238.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -93,7 +106,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 428.0, 434.0, 214.0 ],
+					"patching_rect" : [ 55.0, 459.0, 434.0, 214.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -107,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 515.0, 453.0, 39.0, 17.0 ],
+					"patching_rect" : [ 518.0, 484.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -121,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 515.0, 432.0, 121.0, 17.0 ],
+					"patching_rect" : [ 518.0, 463.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -135,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.0, 410.0, 90.0, 17.0 ],
+					"patching_rect" : [ 496.0, 441.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -149,7 +162,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 202.0, 39.0, 17.0 ],
+					"patching_rect" : [ 510.0, 233.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -163,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 181.0, 121.0, 17.0 ],
+					"patching_rect" : [ 510.0, 212.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -177,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 160.0, 90.0, 17.0 ],
+					"patching_rect" : [ 493.0, 191.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -217,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 140.0, 49.0, 17.0 ],
+					"patching_rect" : [ 387.0, 171.0, 49.0, 17.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -231,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 138.0, 126.0, 17.0 ],
+					"patching_rect" : [ 457.0, 169.0, 126.0, 17.0 ],
 					"text" : "loadmess readall overview.mubu"
 				}
 
@@ -253,7 +266,7 @@
 					"numoutlets" : 3,
 					"offset" : [ -2.0, -4.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 52.0, 163.0, 434.0, 259.0 ],
+					"patching_rect" : [ 55.0, 194.0, 434.0, 259.0 ],
 					"viewvisibility" : 1
 				}
 

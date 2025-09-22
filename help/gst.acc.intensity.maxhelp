@@ -10,9 +10,26 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 603.0, 792.0 ],
+		"rect" : [ 100.0, 100.0, 507.0, 862.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-8",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 111.0, 331.0, 179.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 10,
+					"presentation_rect" : [ 5.0, 184.0, 247.0, 179.0 ],
+					"text" : "Compute an intensity, based on the raw acceleremeter data\nDerivate and integrate.\n\n@input: \n    -accelerometer [list]\n\n@output: \n    -  linear intensitu (high values)\n    - compressed intensity (low values)\n"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 8.0,
 					"hidden" : 1,
@@ -21,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 523.0, 39.0, 17.0 ],
+					"patching_rect" : [ 469.0, 647.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -35,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 502.0, 121.0, 17.0 ],
+					"patching_rect" : [ 469.0, 626.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -49,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 487.0, 481.0, 90.0, 17.0 ],
+					"patching_rect" : [ 452.0, 605.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -63,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 228.0, 39.0, 17.0 ],
+					"patching_rect" : [ 491.0, 352.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -77,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 207.0, 121.0, 17.0 ],
+					"patching_rect" : [ 491.0, 331.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -91,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 509.0, 186.0, 90.0, 17.0 ],
+					"patching_rect" : [ 474.0, 310.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -131,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 403.0, 166.0, 49.0, 17.0 ],
+					"patching_rect" : [ 368.0, 290.0, 49.0, 17.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -145,7 +162,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 164.0, 126.0, 17.0 ],
+					"patching_rect" : [ 438.0, 288.0, 126.0, 17.0 ],
 					"text" : "loadmess readall overview.mubu"
 				}
 
@@ -167,7 +184,7 @@
 					"numoutlets" : 3,
 					"offset" : [ -2.0, -4.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 71.0, 189.0, 434.0, 259.0 ],
+					"patching_rect" : [ 36.0, 313.0, 434.0, 259.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -189,7 +206,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "float", "float", "float" ],
-					"patching_rect" : [ 71.0, 502.0, 434.0, 216.0 ],
+					"patching_rect" : [ 36.0, 626.0, 434.0, 216.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -238,7 +255,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 80.5, 477.5, 80.5, 477.5 ],
+					"midpoints" : [ 45.5, 601.5, 45.5, 601.5 ],
 					"source" : [ "obj-48", 0 ]
 				}
 

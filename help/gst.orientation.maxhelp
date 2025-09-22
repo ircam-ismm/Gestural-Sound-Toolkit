@@ -10,9 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 771.0, 199.0, 603.0, 792.0 ],
+		"rect" : [ 100.0, 100.0, 526.0, 855.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-9",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 40.0, 100.0, 480.0, 116.0 ],
+					"text" : "It computes the orienation, projection on the gravitation axis, combining the acceleraometer and gyroscope data, suing the complementory fileter\ninput: \n     - accelerometer data (list 3 float)\n     - gyroscope data (list 3 float)\noutput:\n     - [1]: orentation [list]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 8.0,
 					"hidden" : 1,
@@ -21,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 523.0, 39.0, 17.0 ],
+					"patching_rect" : [ 477.0, 581.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -35,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 502.0, 121.0, 17.0 ],
+					"patching_rect" : [ 477.0, 560.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -49,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 487.0, 481.0, 90.0, 17.0 ],
+					"patching_rect" : [ 460.0, 539.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -63,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 228.0, 39.0, 17.0 ],
+					"patching_rect" : [ 499.0, 286.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -77,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 207.0, 121.0, 17.0 ],
+					"patching_rect" : [ 499.0, 265.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -91,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 509.0, 186.0, 90.0, 17.0 ],
+					"patching_rect" : [ 482.0, 244.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -104,8 +117,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 53.0, 209.0, 42.0 ],
-					"text" : "gst.orientation"
+					"patching_rect" : [ 99.0, 53.0, 162.0, 42.0 ],
+					"text" : "Orientation"
 				}
 
 			}
@@ -131,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 403.0, 166.0, 49.0, 17.0 ],
+					"patching_rect" : [ 376.0, 224.0, 49.0, 17.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -145,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 164.0, 126.0, 17.0 ],
+					"patching_rect" : [ 446.0, 222.0, 126.0, 17.0 ],
 					"text" : "loadmess readall overview.mubu"
 				}
 
@@ -167,7 +180,7 @@
 					"numoutlets" : 3,
 					"offset" : [ -2.0, -4.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 71.0, 189.0, 434.0, 259.0 ],
+					"patching_rect" : [ 44.0, 247.0, 434.0, 259.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -189,7 +202,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 82.0, 507.0, 417.0, 256.0 ],
+					"patching_rect" : [ 55.0, 565.0, 417.0, 256.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -238,7 +251,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 1 ],
-					"midpoints" : [ 288.0, 432.595977783203125, 290.5, 432.595977783203125 ],
+					"midpoints" : [ 261.0, 490.595977783203125, 263.5, 490.595977783203125 ],
 					"source" : [ "obj-48", 1 ]
 				}
 
@@ -246,7 +259,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 80.5, 445.783477783203125, 91.5, 445.783477783203125 ],
+					"midpoints" : [ 53.5, 503.783477783203125, 64.5, 503.783477783203125 ],
 					"source" : [ "obj-48", 0 ]
 				}
 

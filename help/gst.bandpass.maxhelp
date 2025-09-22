@@ -10,16 +10,51 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 226.0, 154.0, 547.0, 726.0 ],
+		"rect" : [ 226.0, 154.0, 498.0, 877.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-9",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 58.0, 237.0, 305.0, 38.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 5.0, 306.0, 322.0, 38.0 ],
+					"text" : "Note: uses PiPo from ISMM team at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-10",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 63.0, 99.0, 308.0, 132.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 8,
+					"presentation_rect" : [ 5.0, 186.0, 289.0, 132.0 ],
+					"text" : "Bandpass filtering of incoming data (biquad)\n\ninput: \n     - data values [list]\n     - bandpass frequency\n     - sampling rate\noutput:\n     - [1]: filtered data [list]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 430.0, 98.0, 22.0 ],
+					"patching_rect" : [ 40.0, 588.0, 98.0, 22.0 ],
 					"text" : "scale -2. 2. -1. 1."
 				}
 
@@ -33,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.0, 478.0, 39.0, 17.0 ],
+					"patching_rect" : [ 482.0, 636.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -47,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.0, 457.0, 121.0, 17.0 ],
+					"patching_rect" : [ 482.0, 615.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -61,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 472.0, 435.0, 90.0, 17.0 ],
+					"patching_rect" : [ 460.0, 593.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -75,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 202.0, 39.0, 17.0 ],
+					"patching_rect" : [ 495.0, 360.0, 39.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -89,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 181.0, 121.0, 17.0 ],
+					"patching_rect" : [ 495.0, 339.0, 121.0, 17.0 ],
 					"text" : "loadmess resizetowindowrect 4"
 				}
 
@@ -103,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 160.0, 90.0, 17.0 ],
+					"patching_rect" : [ 478.0, 318.0, 90.0, 17.0 ],
 					"text" : "loadmess windresize 1"
 				}
 
@@ -143,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 140.0, 49.0, 17.0 ],
+					"patching_rect" : [ 372.0, 298.0, 49.0, 17.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -157,7 +192,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 138.0, 126.0, 17.0 ],
+					"patching_rect" : [ 442.0, 296.0, 126.0, 17.0 ],
 					"text" : "loadmess readall overview.mubu"
 				}
 
@@ -179,7 +214,7 @@
 					"numoutlets" : 3,
 					"offset" : [ -2.0, -4.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 52.0, 163.0, 434.0, 259.0 ],
+					"patching_rect" : [ 40.0, 321.0, 434.0, 259.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -201,7 +236,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 461.0, 434.0, 230.0 ],
+					"patching_rect" : [ 40.0, 619.0, 434.0, 230.0 ],
 					"viewvisibility" : 1
 				}
 
