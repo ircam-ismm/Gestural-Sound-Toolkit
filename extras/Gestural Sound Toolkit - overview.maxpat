@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 495.0, 333.0, 1488.0, 924.0 ],
+		"rect" : [ 206.0, 159.0, 1488.0, 924.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
@@ -224,10 +224,23 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 495.0, 359.0, 1488.0, 898.0 ],
+						"rect" : [ 206.0, 185.0, 1488.0, 898.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 14.0,
+									"id" : "obj-80",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 289.5, 663.0, 58.0, 24.0 ],
+									"text" : "gst.gate"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontsize" : 14.0,
 									"id" : "obj-76",
@@ -1715,7 +1728,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ml.classification.hhmm.maxpat",
+									"name" : "gsl.classification.hhmm.maxpat",
 									"numinlets" : 8,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, -3.0 ],
@@ -2445,6 +2458,14 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-80", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"midpoints" : [ 1198.5, 410.2578125, 1289.8671875, 410.2578125, 1289.8671875, 259.46875, 1310.5, 259.46875 ],
 									"source" : [ "obj-9", 1 ]
@@ -2874,7 +2895,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "gst.norm.maxpat",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "float" ],
@@ -2918,7 +2939,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "gst.gate.float.maxpat",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"offset" : [ 1.0, -4.0 ],
 									"outlettype" : [ "", "" ],
@@ -3459,7 +3480,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 1 ],
-									"midpoints" : [ 1218.0, 536.453369140625, 1352.0, 536.453369140625, 1352.0, 376.453369140625, 1486.0, 376.453369140625 ],
+									"midpoints" : [ 1218.0, 536.453369140625, 1352.0, 536.453369140625, 1352.0, 376.453369140625, 1428.5, 376.453369140625 ],
 									"order" : 0,
 									"source" : [ "obj-41", 0 ]
 								}
@@ -3796,77 +3817,77 @@
 		"dependency_cache" : [ 			{
 				"name" : "1-motion-descriptors.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/examples",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/examples",
+				"patcherrelativepath" : "../examples",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-triggering.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/examples",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/examples",
+				"patcherrelativepath" : "../examples",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-classification-static.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/examples",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/examples",
+				"patcherrelativepath" : "../examples",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4-classification-dynamic.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/examples",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/examples",
+				"patcherrelativepath" : "../examples",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FM-synth-adsr.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FM-synth-const.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect-resize.js",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect-server.js",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-connect.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comote-screenshot-3.png",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawing.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/lcd",
+				"patcherrelativepath" : "../patchers/mod-interfaces/lcd",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3877,86 +3898,93 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "gsl.classification.hhmm.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../../../../projects/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gst.acc.intensity.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.angles.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.bandpass.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.derivative.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.gate.float.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.highpass.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.kick.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.lowpass.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.norm.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.orientation.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-analysis/signal-processing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.recorddata.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/data-recording-playing",
+				"patcherrelativepath" : "../patchers/mod-interfaces/data-recording-playing",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gst.riotbitalino.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3967,42 +3995,42 @@
 , 			{
 				"name" : "in.comote.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/comote",
+				"patcherrelativepath" : "../patchers/mod-interfaces/comote",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "in.riotbitalino.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"patcherrelativepath" : "../patchers/mod-interfaces/riot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.classification.gmm.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.classification.hhmm.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.regression.gmr.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ml.regression.xmm.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "../patchers/mod-machine-learning",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4065,105 +4093,49 @@
 , 			{
 				"name" : "sid.output.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.acc.intensity.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.angles.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.bandpass.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.derivative.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.highpass.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.lowpass.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.norm.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.orientation.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.FM.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.ctrl.soundpool.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.filter.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.scratch.samples.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.scrub.samples.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
-				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-synthesis",
+				"patcherrelativepath" : "../patchers/mod-synthesis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yellow-arrow-right-2.png",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
+				"patcherrelativepath" : "../../../../../Downloads",
 				"type" : "PNG",
 				"implicit" : 1
 			}
