@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 612.0, 382.0, 1644.0, 923.0 ],
+		"rect" : [ 667.0, 304.0, 1644.0, 923.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
@@ -103,7 +103,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 612.0, 408.0, 1644.0, 897.0 ],
+						"rect" : [ 667.0, 330.0, 1644.0, 897.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
@@ -773,7 +773,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"midpoints" : [ 919.5, 252.536014556884766, 1292.5, 252.536014556884766 ],
-									"order" : 0,
+									"order" : 2,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -809,7 +809,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"midpoints" : [ 919.5, 235.034568786621094, 1100.5, 235.034568786621094, 1100.5, 70.467613220214844, 1121.5, 70.467613220214844 ],
-									"order" : 2,
+									"order" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -884,7 +884,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"midpoints" : [ 1121.5, 251.748321533203125, 1292.5, 251.748321533203125 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -901,7 +901,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"midpoints" : [ 1121.5, 252.338165283203125, 919.5, 252.338165283203125 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -946,9 +946,10 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.scrolldisplay.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"numinlets" : 4,
+									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 687.5, 195.453369140625, 163.731216430664062, 132.56695556640625 ],
 									"viewvisibility" : 1
 								}
@@ -1350,7 +1351,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.norm.maxpat",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "float" ],
@@ -1394,7 +1395,7 @@
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "sp.gate.float.maxpat",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"offset" : [ 1.0, -4.0 ],
 									"outlettype" : [ "", "" ],
@@ -1988,7 +1989,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 1 ],
-									"midpoints" : [ 1218.0, 536.453369140625, 1352.0, 536.453369140625, 1352.0, 376.453369140625, 1486.0, 376.453369140625 ],
+									"midpoints" : [ 1218.0, 536.453369140625, 1352.0, 536.453369140625, 1352.0, 376.453369140625, 1428.5, 376.453369140625 ],
 									"order" : 0,
 									"source" : [ "obj-41", 0 ]
 								}
@@ -2083,10 +2084,11 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.scrolldisplay.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"name" : "gst.scrolldisplay.maxpat",
+									"numinlets" : 4,
+									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 687.5, 195.453369140625, 163.731216430664062, 132.56695556640625 ],
 									"viewvisibility" : 1
 								}
@@ -2243,7 +2245,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.angles.maxpat",
+									"name" : "gst.angles.maxpat",
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
@@ -2335,7 +2337,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ml.classification.hhmm.maxpat",
+									"name" : "gst.classification.hhmm.maxpat",
 									"numinlets" : 8,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, -3.0 ],
@@ -2391,7 +2393,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ml.regression.xmm.maxpat",
+									"name" : "gst.regression.xmm.maxpat",
 									"numinlets" : 9,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
@@ -2465,7 +2467,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.orientation.maxpat",
+									"name" : "gst.orientation.maxpat",
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -2487,8 +2489,8 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.norm.maxpat",
-									"numinlets" : 1,
+									"name" : "gst.norm.maxpat",
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "float" ],
@@ -2509,7 +2511,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.bandpass.maxpat",
+									"name" : "gst.bandpass.maxpat",
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
@@ -2531,8 +2533,8 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.gate.float.maxpat",
-									"numinlets" : 2,
+									"name" : "gst.gate.float.maxpat",
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"offset" : [ 1.0, -4.0 ],
 									"outlettype" : [ "", "" ],
@@ -2617,7 +2619,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ml.regression.gmr.maxpat",
+									"name" : "gst.regression.gmr.maxpat",
 									"numinlets" : 9,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, 1.0 ],
@@ -2638,7 +2640,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "ml.classification.gmm.maxpat",
+									"name" : "gst.classification.gmm.maxpat",
 									"numinlets" : 8,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, -3.0 ],
@@ -2844,7 +2846,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.lowpass.maxpat",
+									"name" : "gst.lowpass.maxpat",
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
@@ -2866,7 +2868,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.highpass.maxpat",
+									"name" : "gst.highpass.maxpat",
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
@@ -2888,7 +2890,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.derivative.maxpat",
+									"name" : "gst.derivative.maxpat",
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
@@ -2910,7 +2912,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.kick.maxpat",
+									"name" : "gst.kick.maxpat",
 									"numinlets" : 5,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, -5.0 ],
@@ -2932,7 +2934,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "sp.acc.intensity.maxpat",
+									"name" : "gst.acc.intensity.maxpat",
 									"numinlets" : 4,
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
@@ -2954,7 +2956,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"midpoints" : [ 517.0, 350.303020477294922, 1218.0, 350.303020477294922 ],
-									"order" : 2,
+									"order" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -2998,7 +3000,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"midpoints" : [ 517.0, 350.02032470703125, 890.5, 350.02032470703125, 890.5, 185.453369140625, 911.79486083984375, 185.453369140625 ],
-									"order" : 0,
+									"order" : 2,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -3042,22 +3044,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
-									"order" : 3,
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"order" : 2,
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
 									"order" : 1,
 									"source" : [ "obj-21", 0 ]
 								}
@@ -3065,8 +3051,24 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"order" : 0,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"order" : 2,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"order" : 3,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -3126,7 +3128,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 1 ],
-									"midpoints" : [ 1218.0, 536.453369140625, 1352.0, 536.453369140625, 1352.0, 376.453369140625, 1486.0, 376.453369140625 ],
+									"midpoints" : [ 1218.0, 536.453369140625, 1352.0, 536.453369140625, 1352.0, 376.453369140625, 1428.5, 376.453369140625 ],
 									"order" : 0,
 									"source" : [ "obj-41", 0 ]
 								}
@@ -3468,7 +3470,70 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "gst.angles.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.bandpass.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.classification.gmm.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "./mod-machine-learning",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.classification.hhmm.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "./mod-machine-learning",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.derivative.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.gate.float.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.highpass.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gst.kick.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.lowpass.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"patcherrelativepath" : "./mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.norm.maxpat",
 				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"patcherrelativepath" : "./mod-analysis/signal-processing",
 				"type" : "JSON",
@@ -3489,9 +3554,30 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "gst.regression.gmr.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "./mod-machine-learning",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.regression.xmm.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-machine-learning",
+				"patcherrelativepath" : "./mod-machine-learning",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gst.riotbitalino.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
 				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/riot",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gst.scrolldisplay.maxpat",
+				"bootpath" : "~/Documents/projects/Gestural-Sound-Toolkit/patchers/mod-interfaces/display",
+				"patcherrelativepath" : "./mod-interfaces/display",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3671,6 +3757,13 @@
 				"name" : "sp.orientation.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
 				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-analysis/signal-processing",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.scrolldisplay.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/display",
+				"patcherrelativepath" : "../../../Max 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/display",
 				"type" : "JSON",
 				"implicit" : 1
 			}
