@@ -560,12 +560,12 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 461.0, 305.0, 153.0, 22.0 ],
                                     "saved_object_attributes": {
-                                        "client_rect": [ 100, 178, 500, 678 ],
+                                        "client_rect": [ 4, 44, 358, 172 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
                                         "storage_rect": [ 583, 69, 1034, 197 ]
                                     },
-                                    "text": "pattrstorage @savemode 2",
+                                    "text": "pattrstorage @savemode 0",
                                     "varname": "u933006469[1]"
                                 }
                             },
@@ -580,7 +580,7 @@
                                     "restore": {
                                         "comp-exp": [ 0.5 ],
                                         "cut-frequency": [ 10.0 ],
-                                        "frame-rate": [ 100 ],
+                                        "frame-rate": [ 100.0 ],
                                         "gain": [ 1.0 ],
                                         "maxMonitor": [ 1.0 ],
                                         "minMonitor": [ -1.0 ]
@@ -946,10 +946,11 @@
                             },
                             {
                                 "box": {
+                                    "format": 6,
                                     "id": "obj-42",
-                                    "maxclass": "number",
-                                    "maximum": 1000,
-                                    "minimum": 0,
+                                    "maxclass": "flonum",
+                                    "maximum": 1000.0,
+                                    "minimum": 0.0,
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 65.0, 360.0, 866.0, 642.0 ],
+        "rect": [ 34.0, 87.0, 866.0, 642.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -494,6 +494,7 @@
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 465.2499998923339, 114.00000010156248, 133.73121643066406, 116.319091796875 ],
+                                    "varname": "gst.derivative",
                                     "viewvisibility": 1
                                 }
                             },
@@ -540,7 +541,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 65.0, 386.0, 866.0, 616.0 ],
+                        "rect": [ 34.0, 113.0, 866.0, 616.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -783,6 +784,7 @@
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 465.25, 114.0, 133.73121643066406, 116.319091796875 ],
+                                    "varname": "gst.derivative",
                                     "viewvisibility": 1
                                 }
                             },
@@ -895,14 +897,6 @@
             "obj-15::obj-25::obj-13": [ "live.toggle[2]", "live.toggle", 0 ],
             "obj-15::obj-25::obj-8::obj-17": [ "live.toggle[1]", "live.toggle[1]", 0 ],
             "obj-15::obj-3::obj-4": [ "live.button[3]", "live.button", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-15::obj-25::obj-13": {
                     "parameter_longname": "live.toggle[2]"

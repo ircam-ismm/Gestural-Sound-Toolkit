@@ -19,7 +19,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 153.0, 612.0, 261.0, 22.0 ],
+                    "patching_rect": [ 197.0, 605.0, 261.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 29.0, 231.0, 264.0, 22.0 ],
                     "text": "embeded <bpatcher> saves parameters."
@@ -67,7 +67,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 457.0, 665.0, 39.0, 17.0 ],
+                    "patching_rect": [ 469.5, 650.0, 39.0, 17.0 ],
                     "text": "deferlow"
                 }
             },
@@ -80,7 +80,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 457.0, 644.0, 121.0, 17.0 ],
+                    "patching_rect": [ 469.5, 629.0, 121.0, 17.0 ],
                     "text": "loadmess resizetowindowrect 4"
                 }
             },
@@ -93,7 +93,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 440.0, 623.0, 90.0, 17.0 ],
+                    "patching_rect": [ 444.0, 607.5, 90.0, 17.0 ],
                     "text": "loadmess windresize 1"
                 }
             },
@@ -364,10 +364,10 @@
                                                     "restore": {
                                                         "comp-exp": [ 0.5 ],
                                                         "cut-frequency": [ 10.0 ],
-                                                        "frame-rate": [ 100 ],
+                                                        "frame-rate": [ 100.0 ],
                                                         "gain": [ 1.0 ],
-                                                        "maxMonitor": [ 3.5 ],
-                                                        "minMonitor": [ -3.5 ]
+                                                        "maxMonitor": [ 2.5 ],
+                                                        "minMonitor": [ -2.5 ]
                                                     },
                                                     "text": "autopattr",
                                                     "varname": "u933006469"
@@ -407,10 +407,11 @@
                                                     "fontname": "Arial",
                                                     "fontsize": 10.0,
                                                     "id": "obj-24",
+                                                    "linecount": 2,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 734.0, 230.0, 94.0, 20.0 ],
+                                                    "patching_rect": [ 734.0, 230.0, 93.0, 20.0 ],
                                                     "text": "s #0-mubu-scroll"
                                                 }
                                             },
@@ -666,10 +667,11 @@
                                             {
                                                 "box": {
                                                     "id": "obj-157",
+                                                    "linecount": 2,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 176.0, 287.0, 85.0, 22.0 ],
+                                                    "patching_rect": [ 176.0, 287.0, 84.0, 22.0 ],
                                                     "text": "s #0-biquad"
                                                 }
                                             },
@@ -771,10 +773,11 @@
                                             },
                                             {
                                                 "box": {
+                                                    "format": 6,
                                                     "id": "obj-42",
-                                                    "maxclass": "number",
-                                                    "maximum": 1000,
-                                                    "minimum": 0,
+                                                    "maxclass": "flonum",
+                                                    "maximum": 1000.0,
+                                                    "minimum": 0.0,
                                                     "numinlets": 1,
                                                     "numoutlets": 2,
                                                     "outlettype": [ "", "bang" ],
@@ -1800,10 +1803,10 @@
                                     "autoupdate": 120.0,
                                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                                     "bgcolordefault": 0,
-                                    "bounds": [ -3.5, 3.5 ],
+                                    "bounds": [ -2.5, 2.5 ],
                                     "colormode": "fgcolor",
                                     "domainruler": 0,
-                                    "domainruler_size": 15,
+                                    "domainruler_size": 23,
                                     "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
                                     "fgcolordefault": 1,
                                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
@@ -1819,11 +1822,11 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 120.0, 522.0, 310.0, 10.0 ],
+                                    "patching_rect": [ 120.0, 522.0, 315.0, 10.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 2.0, 28.0, 428.0, 190.0 ],
-                                    "rangeruler": 0,
-                                    "rangeruler_size": 30,
+                                    "presentation_rect": [ 2.0, 28.0, 433.0, 192.0 ],
+                                    "rangeruler": 1,
+                                    "rangeruler_size": 1,
                                     "sampleperiod": 10.0,
                                     "second_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                                     "second_cursor_size": 3,
@@ -2032,7 +2035,7 @@
                         ],
                         "toolbaradditions": [ "s2n" ]
                     },
-                    "patching_rect": [ 24.0, 629.0, 434.0, 222.0 ],
+                    "patching_rect": [ 24.0, 629.0, 439.0, 224.0 ],
                     "varname": "gst.lowpass",
                     "viewvisibility": 1
                 }

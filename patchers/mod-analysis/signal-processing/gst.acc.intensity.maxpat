@@ -106,7 +106,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 240.0, 106.0, 449.0, 466.0 ],
+                        "rect": [ 239.0, 87.0, 563.0, 466.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -174,14 +174,14 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 607.0, 5.0, 73.0, 22.0 ],
+                                    "patching_rect": [ 607.0, 5.0, 153.0, 22.0 ],
                                     "saved_object_attributes": {
-                                        "client_rect": [ 100, 178, 500, 678 ],
+                                        "client_rect": [ 4, 44, 358, 172 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
                                         "storage_rect": [ 583, 69, 1034, 197 ]
                                     },
-                                    "text": "pattrstorage",
+                                    "text": "pattrstorage @savemode 0",
                                     "varname": "u933006469[1]"
                                 }
                             },
@@ -199,11 +199,13 @@
                                         "comp-exp": [ 0.5 ],
                                         "cut-frequency": [ 11.0 ],
                                         "derivative-window": [ 3 ],
-                                        "frame-rate": [ 100 ],
+                                        "frame-rate": [ 100.0 ],
                                         "gain": [ 1.0 ],
                                         "gate-on": [ 1 ],
                                         "gate-thresh": [ 0.1 ],
                                         "maverage-window": [ 1 ],
+                                        "maxMonitor": [ 1.0 ],
+                                        "minMonitor": [ 0.0 ],
                                         "mode": [ 0 ],
                                         "norm-mode": [ 1 ]
                                     },
@@ -455,7 +457,8 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 2195.0, 144.0, 45.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 13.0, 214.0, 45.0, 20.0 ]
+                                    "presentation_rect": [ 13.0, 214.0, 45.0, 20.0 ],
+                                    "varname": "maxMonitor"
                                 }
                             },
                             {
@@ -465,14 +468,14 @@
                                     "format": 6,
                                     "id": "obj-13",
                                     "maxclass": "flonum",
-                                    "minimum": 0.0,
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 0,
                                     "patching_rect": [ 2034.0, 144.0, 45.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 13.0, 236.0, 45.0, 20.0 ]
+                                    "presentation_rect": [ 13.0, 236.0, 45.0, 20.0 ],
+                                    "varname": "minMonitor"
                                 }
                             },
                             {
@@ -984,10 +987,11 @@
                             },
                             {
                                 "box": {
+                                    "format": 6,
                                     "id": "obj-42",
-                                    "maxclass": "number",
-                                    "maximum": 1000,
-                                    "minimum": 0,
+                                    "maxclass": "flonum",
+                                    "maximum": 1000.0,
+                                    "minimum": 0.0,
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
@@ -2158,7 +2162,7 @@
                     "autoupdate": 120.0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "bgcolordefault": 1,
-                    "bounds": [ -1.0, 1.0 ],
+                    "bounds": [ 0.0, 1.0 ],
                     "colormode": "fgcolor",
                     "colorpattern": [ "red", "green", "blue", "" ],
                     "domainruler": 0,
