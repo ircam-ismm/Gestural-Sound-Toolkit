@@ -47,11 +47,12 @@
                                     "lockedsize": 0,
                                     "maxclass": "bpatcher",
                                     "name": "gst.gate.float.maxpat",
-                                    "numinlets": 3,
+                                    "numinlets": 4,
                                     "numoutlets": 2,
                                     "offset": [ -1.0, -8.0 ],
                                     "outlettype": [ "", "" ],
                                     "patching_rect": [ 10.0, 73.0, 131.0, 118.0 ],
+                                    "varname": "gst.gate.float",
                                     "viewvisibility": 1
                                 }
                             },
@@ -73,6 +74,7 @@
                                     "offset": [ 0.0, -5.0 ],
                                     "outlettype": [ "", "int", "" ],
                                     "patching_rect": [ 167.0, 74.0, 133.73121643066406, 116.319091796875 ],
+                                    "varname": "gst.kick",
                                     "viewvisibility": 1
                                 }
                             },
@@ -142,6 +144,7 @@
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "", "", "" ],
                                     "patching_rect": [ 475.0, 114.0, 133.0, 117.0 ],
+                                    "varname": "gst.angles",
                                     "viewvisibility": 1
                                 }
                             },
@@ -163,6 +166,7 @@
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "", "" ],
                                     "patching_rect": [ 319.0, 114.0, 133.0, 116.319091796875 ],
+                                    "varname": "gst.orientation",
                                     "viewvisibility": 1
                                 }
                             },
@@ -386,7 +390,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 10.0, 73.0, 315.0, 21.0 ],
-                                    "text": "Pre-treatment section of incomong data from sensors"
+                                    "text": "Pre-treatment section of incoming data from sensors"
                                 }
                             },
                             {
@@ -585,6 +589,7 @@
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "", "", "" ],
                                     "patching_rect": [ 465.25, 304.6595458984375, 133.0, 117.0 ],
+                                    "varname": "gst.angles",
                                     "viewvisibility": 1
                                 }
                             },
@@ -654,6 +659,7 @@
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "", "" ],
                                     "patching_rect": [ 313.5, 305.0, 133.0, 116.319091796875 ],
+                                    "varname": "gst.orientation",
                                     "viewvisibility": 1
                                 }
                             },
@@ -714,11 +720,12 @@
                                     "lockedsize": 0,
                                     "maxclass": "bpatcher",
                                     "name": "gst.gate.float.maxpat",
-                                    "numinlets": 3,
+                                    "numinlets": 4,
                                     "numoutlets": 2,
                                     "offset": [ -1.0, -8.0 ],
                                     "outlettype": [ "", "" ],
                                     "patching_rect": [ 11.365608215332031, 485.0, 131.0, 118.0 ],
+                                    "varname": "gst.gate.float",
                                     "viewvisibility": 1
                                 }
                             },
@@ -806,6 +813,7 @@
                                     "offset": [ 0.0, -5.0 ],
                                     "outlettype": [ "", "int", "" ],
                                     "patching_rect": [ 161.75, 485.8404541015625, 133.73121643066406, 116.319091796875 ],
+                                    "varname": "gst.kick",
                                     "viewvisibility": 1
                                 }
                             },
