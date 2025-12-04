@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -80,6 +80,7 @@
             },
             {
                 "box": {
+                    "fontname": "Helvetica Neue Light",
                     "fontsize": 11.0,
                     "id": "obj-195",
                     "maxclass": "newobj",
@@ -90,7 +91,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -228,24 +229,6 @@
                                     "patching_rect": [ 212.0, 231.0, 69.0, 22.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 5.0, 29.0, 76.0, 22.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-15",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 336.0, 28.0, 153.0, 22.0 ],
-                                    "saved_object_attributes": {
-                                        "client_rect": [ 4, 44, 358, 172 ],
-                                        "parameter_enable": 0,
-                                        "parameter_mappable": 0,
-                                        "storage_rect": [ 583, 69, 1034, 197 ]
-                                    },
-                                    "text": "pattrstorage @savemode 0",
-                                    "varname": "u933006469[1]"
                                 }
                             },
                             {
@@ -421,7 +404,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n" ],
+                        "toolbaradditions": [ "s2n", "Modalys" ],
                         "saved_attribute_attributes": {
                             "editing_bgcolor": {
                                 "expression": "themecolor.theme_editing_bgcolor"
@@ -433,7 +416,7 @@
                     },
                     "patching_rect": [ 245.0, 46.5, 56.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 83.0, 3.0, 47.0, 21.0 ],
+                    "presentation_rect": [ 80.0, 1.5, 48.0, 21.0 ],
                     "saved_attribute_attributes": {
                         "editing_bgcolor": {
                             "expression": "themecolor.theme_editing_bgcolor"
@@ -506,15 +489,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
-                    "fontsize": 14.0,
+                    "fontname": "Helvetica Neue Light",
+                    "fontsize": 13.0,
                     "id": "obj-57",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 21.5, 11.0, 68.0, 20.0 ],
+                    "patching_rect": [ 21.5, 11.0, 64.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 3.0, 68.0, 20.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 40.0, 22.0 ],
                     "text": "Norm"
                 }
             },
@@ -546,7 +529,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 193.0, 375.0, 203.0, 104.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 28.0, 129.0, 86.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 128.0, 89.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -673,6 +656,6 @@
             }
         ],
         "autosave": 0,
-        "toolbaradditions": [ "s2n" ]
+        "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

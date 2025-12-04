@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -45,7 +45,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 9.0, 129.0, 24.0, 24.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 66.0, 4.5, 16.0, 16.0 ]
+                    "presentation_rect": [ 61.0, 4.0, 16.0, 16.0 ]
                 }
             },
             {
@@ -208,7 +208,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 381.0, 482.0, 204.0, 132.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 28.0, 129.0, 86.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 128.0, 89.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -281,15 +281,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Helvetica Neue Light",
                     "fontsize": 13.0,
                     "id": "obj-57",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 9.0, 8.0, 92.0, 19.0 ],
+                    "patching_rect": [ 9.0, 8.0, 89.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 3.0, 59.0, 19.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 57.0, 22.0 ],
                     "text": "1€ Filter"
                 }
             },
@@ -319,7 +319,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Helvetica Neue Light",
                     "fontsize": 11.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
@@ -330,7 +330,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -567,24 +567,6 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 1057.0, 232.5, 82.0, 20.0 ],
                                     "text": "s #0-mubu-scroll"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-12",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 440.0, 270.5, 153.0, 22.0 ],
-                                    "saved_object_attributes": {
-                                        "client_rect": [ 4, 44, 358, 172 ],
-                                        "parameter_enable": 0,
-                                        "parameter_mappable": 0,
-                                        "storage_rect": [ 583, 69, 1034, 197 ]
-                                    },
-                                    "text": "pattrstorage @savemode 0",
-                                    "varname": "u933006469[1]"
                                 }
                             },
                             {
@@ -1099,11 +1081,11 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n" ]
+                        "toolbaradditions": [ "s2n", "Modalys" ]
                     },
-                    "patching_rect": [ 247.0, 85.0, 515.0, 19.0 ],
+                    "patching_rect": [ 247.0, 85.0, 515.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 84.0, 3.0, 47.0, 19.0 ],
+                    "presentation_rect": [ 80.0, 1.5, 48.0, 21.0 ],
                     "text": "p more",
                     "varname": "more"
                 }
@@ -1142,7 +1124,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1565,6 +1547,6 @@
             }
         ],
         "autosave": 0,
-        "toolbaradditions": [ "s2n" ]
+        "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

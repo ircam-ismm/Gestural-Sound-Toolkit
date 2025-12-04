@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 87.0, 162.0, 158.0 ],
+        "rect": [ 34.0, 87.0, 140.0, 128.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -22,7 +22,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 487.0, 52.5, 87.0, 33.0 ],
-                    "presentation_linecount": 2,
                     "text": "mubu.scroll configuration"
                 }
             },
@@ -163,7 +162,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -570,7 +569,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Helvetica Neue Light",
                     "fontsize": 11.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
@@ -581,12 +580,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 265.0, 87.0, 215.0, 268.0 ],
+                        "rect": [ 243.0, 87.0, 215.0, 268.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -713,24 +712,6 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 63.0, 126.0, 100.0, 18.0 ],
                                     "text": "Min value for display"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-8",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 402.0, 241.5, 153.0, 22.0 ],
-                                    "saved_object_attributes": {
-                                        "client_rect": [ 4, 44, 358, 172 ],
-                                        "parameter_enable": 0,
-                                        "parameter_mappable": 0,
-                                        "storage_rect": [ 583, 69, 1034, 197 ]
-                                    },
-                                    "text": "pattrstorage @savemode 0",
-                                    "varname": "u933006469[1]"
                                 }
                             },
                             {
@@ -930,11 +911,11 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n" ]
+                        "toolbaradditions": [ "s2n", "Modalys" ]
                     },
-                    "patching_rect": [ 288.0, 91.0, 85.0, 19.0 ],
+                    "patching_rect": [ 288.0, 91.0, 85.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 83.0, 6.0, 47.0, 19.0 ],
+                    "presentation_rect": [ 81.0, 1.5, 47.0, 21.0 ],
                     "text": "p more",
                     "varname": "more"
                 }
@@ -967,15 +948,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
-                    "fontsize": 14.0,
+                    "fontname": "Helvetica Neue Light",
+                    "fontsize": 13.0,
                     "id": "obj-25",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, -10.0, 85.0, 20.0 ],
+                    "patching_rect": [ 8.0, -10.0, 77.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 5.0, 105.0, 20.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 46.0, 22.0 ],
                     "text": "Angles"
                 }
             },
@@ -1006,7 +987,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 359.0, 392.0, 138.0, 101.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 27.0, 133.0, 99.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 128.0, 89.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -1203,6 +1184,6 @@
             }
         ],
         "autosave": 0,
-        "toolbaradditions": [ "s2n" ]
+        "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

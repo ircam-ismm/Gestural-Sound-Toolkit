@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -24,7 +24,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -95,7 +95,7 @@
                             }
                         ],
                         "lines": [],
-                        "toolbaradditions": [ "s2n" ]
+                        "toolbaradditions": [ "s2n", "Modalys" ]
                     },
                     "patching_rect": [ 16.0, 159.0, 117.0, 22.0 ],
                     "saved_object_attributes": {
@@ -116,12 +116,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 866.0, 616.0 ],
+                        "rect": [ 34.0, 113.0, 866.0, 616.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -234,12 +234,12 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-63", 0 ],
-                                    "midpoints": [ 328.5, 240.69515991210938, 459.27809143066406, 240.69515991210938, 459.27809143066406, 113.37606811523438, 484.5, 113.37606811523438 ],
+                                    "midpoints": [ 328.5, 240.69515991210938, 459.27809143066406, 240.69515991210938, 459.27809143066406, 108.70419311523438, 484.5, 108.70419311523438 ],
                                     "source": [ "obj-31", 0 ]
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n" ]
+                        "toolbaradditions": [ "s2n", "Modalys" ]
                     },
                     "patching_rect": [ 16.0, 133.0, 191.0, 22.0 ],
                     "saved_object_attributes": {
@@ -286,7 +286,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -295,7 +295,7 @@
                         "showontab": 1,
                         "boxes": [],
                         "lines": [],
-                        "toolbaradditions": [ "s2n" ]
+                        "toolbaradditions": [ "s2n", "Modalys" ]
                     },
                     "patching_rect": [ 16.0, 211.0, 50.0, 22.0 ],
                     "text": "p ?",
@@ -313,7 +313,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -519,7 +519,7 @@
                             }
                         ],
                         "lines": [],
-                        "toolbaradditions": [ "s2n" ]
+                        "toolbaradditions": [ "s2n", "Modalys" ]
                     },
                     "patching_rect": [ 16.0, 107.0, 61.0, 22.0 ],
                     "saved_object_attributes": {
@@ -540,12 +540,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 113.0, 866.0, 616.0 ],
+                        "rect": [ 0.0, 26.0, 866.0, 616.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -864,7 +864,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n" ]
+                        "toolbaradditions": [ "s2n", "Modalys" ]
                     },
                     "patching_rect": [ 16.0, 82.0, 130.0, 22.0 ],
                     "saved_object_attributes": {
@@ -905,6 +905,14 @@
             "obj-15::obj-25::obj-13": [ "live.toggle[2]", "live.toggle", 0 ],
             "obj-15::obj-25::obj-8::obj-17": [ "live.toggle[1]", "live.toggle[1]", 0 ],
             "obj-15::obj-3::obj-4": [ "live.button[3]", "live.button", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-15::obj-25::obj-13": {
                     "parameter_longname": "live.toggle[2]"
@@ -919,6 +927,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n" ]
+        "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

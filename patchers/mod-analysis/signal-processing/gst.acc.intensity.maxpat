@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 87.0, 136.0, 122.0 ],
+        "rect": [ 241.0, 89.0, 131.0, 117.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -91,6 +91,7 @@
             },
             {
                 "box": {
+                    "fontname": "Helvetica Neue Light",
                     "fontsize": 11.0,
                     "id": "obj-195",
                     "maxclass": "newobj",
@@ -101,12 +102,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 239.0, 87.0, 563.0, 466.0 ],
+                        "rect": [ 247.0, 87.0, 449.0, 466.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -119,7 +120,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1.0, 475.0, 231.0, 27.0 ],
+                                    "patching_rect": [ 26.0, 544.0, 231.0, 27.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 2,
                                     "presentation_rect": [ 238.5, 428.0, 207.0, 27.0 ],
@@ -134,7 +135,7 @@
                                     "maxclass": "live.line",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 263.0, 272.0, 5.0, 100.0 ],
+                                    "patching_rect": [ 330.0, 415.0, 5.0, 100.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 225.0, 7.0, 13.0, 448.0 ],
                                     "saved_attribute_attributes": {
@@ -165,24 +166,6 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 2002.0, 248.0, 82.0, 20.0 ],
                                     "text": "s #0-mubu-scroll"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-16",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 607.0, 5.0, 153.0, 22.0 ],
-                                    "saved_object_attributes": {
-                                        "client_rect": [ 4, 44, 358, 172 ],
-                                        "parameter_enable": 0,
-                                        "parameter_mappable": 0,
-                                        "storage_rect": [ 583, 69, 1034, 197 ]
-                                    },
-                                    "text": "pattrstorage @savemode 0",
-                                    "varname": "u933006469[1]"
                                 }
                             },
                             {
@@ -1533,7 +1516,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n" ],
+                        "toolbaradditions": [ "s2n", "Modalys" ],
                         "saved_attribute_attributes": {
                             "editing_bgcolor": {
                                 "expression": "themecolor.theme_editing_bgcolor"
@@ -1545,7 +1528,7 @@
                     },
                     "patching_rect": [ 208.0, 210.0, 1730.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 85.0, 4.0, 47.0, 21.0 ],
+                    "presentation_rect": [ 80.0, 1.5, 48.0, 21.0 ],
                     "saved_attribute_attributes": {
                         "editing_bgcolor": {
                             "expression": "themecolor.theme_editing_bgcolor"
@@ -2144,15 +2127,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Helvetica Neue Light",
                     "fontsize": 13.0,
                     "id": "obj-57",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 15.0, 26.0, 92.0, 19.0 ],
+                    "patching_rect": [ 15.0, 26.0, 88.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 3.0, 3.0, 89.0, 19.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 80.0, 22.0 ],
                     "text": "Acc.Intensity"
                 }
             },
@@ -2184,7 +2167,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 711.0, 834.0, 194.0, 150.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 28.0, 128.0, 89.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 128.0, 89.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -2587,6 +2570,6 @@
             }
         ],
         "autosave": 0,
-        "toolbaradditions": [ "s2n" ]
+        "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -25,7 +25,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -492,6 +492,7 @@
             },
             {
                 "box": {
+                    "fontname": "Helvetica Neue Light",
                     "fontsize": 11.0,
                     "id": "obj-195",
                     "maxclass": "newobj",
@@ -502,7 +503,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -549,24 +550,6 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 775.0, 248.0, 82.0, 20.0 ],
                                     "text": "s #0-mubu-scroll"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-16",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 461.0, 305.0, 153.0, 22.0 ],
-                                    "saved_object_attributes": {
-                                        "client_rect": [ 4, 44, 358, 172 ],
-                                        "parameter_enable": 0,
-                                        "parameter_mappable": 0,
-                                        "storage_rect": [ 583, 69, 1034, 197 ]
-                                    },
-                                    "text": "pattrstorage @savemode 0",
-                                    "varname": "u933006469[1]"
                                 }
                             },
                             {
@@ -1244,7 +1227,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n" ],
+                        "toolbaradditions": [ "s2n", "Modalys" ],
                         "saved_attribute_attributes": {
                             "editing_bgcolor": {
                                 "expression": "themecolor.theme_editing_bgcolor"
@@ -1256,7 +1239,7 @@
                     },
                     "patching_rect": [ 339.0, 122.0, 635.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 84.0, 4.5, 47.0, 21.0 ],
+                    "presentation_rect": [ 80.0, 1.5, 48.0, 21.0 ],
                     "saved_attribute_attributes": {
                         "editing_bgcolor": {
                             "expression": "themecolor.theme_editing_bgcolor"
@@ -1459,7 +1442,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1540,15 +1523,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
-                    "fontsize": 14.0,
+                    "fontname": "Helvetica Neue Light",
+                    "fontsize": 13.0,
                     "id": "obj-24",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 49.0, 14.0, 72.0, 20.0 ],
+                    "patching_rect": [ 49.0, 14.0, 65.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 5.0, 72.0, 20.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 65.0, 22.0 ],
                     "text": "Bandpass"
                 }
             },
@@ -1580,7 +1563,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 120.0, 522.0, 204.0, 132.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 28.0, 129.0, 86.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 128.0, 89.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -1813,6 +1796,6 @@
             }
         ],
         "autosave": 0,
-        "toolbaradditions": [ "s2n" ]
+        "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

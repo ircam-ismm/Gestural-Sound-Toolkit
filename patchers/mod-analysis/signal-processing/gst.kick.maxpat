@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -169,7 +169,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 250.0, 641.0, 15.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 31.0, 15.0, 15.0 ],
+                    "presentation_rect": [ 1.0, 25.0, 15.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgoncolor": {
                             "expression": ""
@@ -262,7 +262,7 @@
             },
             {
                 "box": {
-                    "fontsize": 11.0,
+                    "fontsize": 9.0,
                     "format": 6,
                     "id": "obj-5",
                     "maxclass": "flonum",
@@ -271,9 +271,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 354.0, 288.0, 52.0, 21.0 ],
+                    "patching_rect": [ 354.0, 288.0, 48.0, 19.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 76.0, 31.0, 52.0, 21.0 ]
+                    "presentation_rect": [ 86.0, 27.0, 39.0, 19.0 ]
                 }
             },
             {
@@ -291,7 +291,7 @@
             },
             {
                 "box": {
-                    "fontname": "Arial",
+                    "fontname": "Helvetica Neue Light",
                     "fontsize": 11.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
@@ -302,7 +302,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -492,24 +492,6 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 64.0, 223.0, 100.0, 18.0 ],
                                     "text": "Min value for display"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-15",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 459.0, 307.0, 153.0, 22.0 ],
-                                    "saved_object_attributes": {
-                                        "client_rect": [ 4, 44, 358, 172 ],
-                                        "parameter_enable": 0,
-                                        "parameter_mappable": 0,
-                                        "storage_rect": [ 583, 69, 1034, 197 ]
-                                    },
-                                    "text": "pattrstorage @savemode 0",
-                                    "varname": "u933006469[1]"
                                 }
                             },
                             {
@@ -951,11 +933,11 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n" ]
+                        "toolbaradditions": [ "s2n", "Modalys" ]
                     },
                     "patching_rect": [ 111.0, 39.5, 410.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 83.0, 5.0, 48.0, 21.0 ],
+                    "presentation_rect": [ 80.0, 1.5, 48.0, 21.0 ],
                     "saved_object_attributes": {
                         "description": "median size [int}"
                     },
@@ -1113,7 +1095,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1461,7 +1443,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 24.5, 3.0, 98.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 4.0, 98.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 74.0, 22.0 ],
                     "text": "Kick (onset)"
                 }
             },
@@ -1551,7 +1533,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 728.0, 374.0, 288.0, 187.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 28.0, 129.0, 88.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 128.0, 89.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -1964,17 +1946,9 @@
         ],
         "parameters": {
             "obj-4": [ "live.button[2]", "live.button", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n" ]
+        "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }
