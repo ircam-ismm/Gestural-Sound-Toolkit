@@ -1,0 +1,61 @@
+{
+    "pattrstorage": {
+        "name": "gstOverview",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "gst.acc.intensity::more::clip-max": [ 1.0 ],
+                    "gst.acc.intensity::more::clip-on": [ 1 ],
+                    "gst.acc.intensity::more::comp-exp": [ 0.5 ],
+                    "gst.acc.intensity::more::cut-frequency": [ 11.0 ],
+                    "gst.acc.intensity::more::derivative-window": [ 3 ],
+                    "gst.acc.intensity::more::frame-rate": [ 100.0 ],
+                    "gst.acc.intensity::more::gain": [ 1.0 ],
+                    "gst.acc.intensity::more::gate-on": [ 1 ],
+                    "gst.acc.intensity::more::gate-thresh": [ 0.1 ],
+                    "gst.acc.intensity::more::maverage-window": [ 1 ],
+                    "gst.acc.intensity::more::maxMonitor": [ 1.0 ],
+                    "gst.acc.intensity::more::minMonitor": [ 0.0 ],
+                    "gst.acc.intensity::more::mode": [ 0 ],
+                    "gst.acc.intensity::more::norm-mode": [ 1 ],
+                    "gst.kick::more::maxMonitor": [ 1.0 ],
+                    "gst.kick::more::medianSize": [ 5.0 ],
+                    "gst.kick::more::minDuration": [ 200.0 ],
+                    "gst.kick::more::minMonitor": [ 0.0 ],
+                    "gst.kick::more::threshold": [ 0.1 ],
+                    "gst.orientation::more::gyroweight": [ 15 ],
+                    "gst.orientation::more::maxMonitor": [ 180.0 ],
+                    "gst.orientation::more::minMonitor": [ -180.0 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "gst.acc.intensity::more::clip-max": [ 1.0 ],
+                    "gst.acc.intensity::more::clip-on": [ 1 ],
+                    "gst.acc.intensity::more::comp-exp": [ 0.5 ],
+                    "gst.acc.intensity::more::cut-frequency": [ 11.0 ],
+                    "gst.acc.intensity::more::derivative-window": [ 3 ],
+                    "gst.acc.intensity::more::frame-rate": [ 100.0 ],
+                    "gst.acc.intensity::more::gain": [ 3.0 ],
+                    "gst.acc.intensity::more::gate-on": [ 1 ],
+                    "gst.acc.intensity::more::gate-thresh": [ 0.1 ],
+                    "gst.acc.intensity::more::maverage-window": [ 1 ],
+                    "gst.acc.intensity::more::maxMonitor": [ 1.0 ],
+                    "gst.acc.intensity::more::minMonitor": [ 0.0 ],
+                    "gst.acc.intensity::more::mode": [ 0 ],
+                    "gst.acc.intensity::more::norm-mode": [ 1 ],
+                    "gst.kick::more::maxMonitor": [ 1.0 ],
+                    "gst.kick::more::medianSize": [ 5.0 ],
+                    "gst.kick::more::minDuration": [ 200.0 ],
+                    "gst.kick::more::minMonitor": [ 0.0 ],
+                    "gst.kick::more::threshold": [ 0.84 ],
+                    "gst.orientation::more::gyroweight": [ 15 ],
+                    "gst.orientation::more::maxMonitor": [ 180.0 ],
+                    "gst.orientation::more::minMonitor": [ -180.0 ]
+                }
+            }
+        }
+    }
+}
