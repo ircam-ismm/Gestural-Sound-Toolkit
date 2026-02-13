@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -406,7 +406,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -573,8 +573,8 @@
                                     "patching_rect": [ 381.0, 182.0, 56.0, 22.0 ],
                                     "restore": {
                                         "gyroweight": [ 15 ],
-                                        "maxMonitor": [ 180.0 ],
-                                        "minMonitor": [ -180.0 ]
+                                        "maxMonitor": [ 1.0 ],
+                                        "minMonitor": [ -1.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u933006469"
@@ -812,7 +812,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -910,7 +910,7 @@
                     "autoupdate": 120.0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "bgcolordefault": 1,
-                    "bounds": [ -180.0, 180.0 ],
+                    "bounds": [ -1.0, 1.0 ],
                     "colormode": "pattern",
                     "colorpattern": [ "black", "steelblue", "blue" ],
                     "domainruler": 0,

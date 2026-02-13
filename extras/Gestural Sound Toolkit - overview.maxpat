@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -26,7 +26,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -203,7 +203,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -276,10 +276,10 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 26.0, 855.0, 312.0, 22.0 ],
                                     "saved_object_attributes": {
-                                        "client_rect": [ 0, 87, 354, 633 ],
+                                        "client_rect": [ 100, 178, 500, 678 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
-                                        "storage_rect": [ 0, 87, 554, 636 ]
+                                        "storage_rect": [ 583, 69, 1034, 197 ]
                                     },
                                     "text": "pattrstorage gstOverview @savemode 0 @outputmode 1",
                                     "varname": "gstOverview"
@@ -499,7 +499,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -713,7 +713,7 @@
                                     "numinlets": 7,
                                     "numoutlets": 5,
                                     "offset": [ -6.0, -7.0 ],
-                                    "outlettype": [ "signal", "signal", "", "", "" ],
+                                    "outlettype": [ "multichannelsignal", "", "", "", "" ],
                                     "patching_rect": [ 1180.0, 686.5, 258.0, 148.0 ],
                                     "viewvisibility": 1
                                 }
@@ -726,7 +726,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "float" ],
-                                    "patching_rect": [ 971.0, 655.0, 29.5, 19.0 ],
+                                    "patching_rect": [ 971.1446228027344, 657.5541305541992, 29.5, 19.0 ],
                                     "text": "* 0.3"
                                 }
                             },
@@ -738,7 +738,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "int" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 804.0, 653.0, 24.0, 24.0 ]
+                                    "patching_rect": [ 804.7984771728516, 655.5541305541992, 24.0, 24.0 ]
                                 }
                             },
                             {
@@ -859,7 +859,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -958,10 +958,10 @@
                                 "box": {
                                     "id": "obj-49",
                                     "maxclass": "newobj",
-                                    "numinlets": 2,
+                                    "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1067.0, 855.0, 55.0, 22.0 ],
-                                    "text": "dac~ 1 2"
+                                    "patching_rect": [ 1067.0, 851.0, 74.0, 22.0 ],
+                                    "text": "mc.dac~ 1 2"
                                 }
                             },
                             {
@@ -976,7 +976,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1119,7 +1119,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1261,7 +1261,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1403,7 +1403,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 2,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1541,7 +1541,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1026.0, 655.0, 120.0, 19.0 ],
+                                    "patching_rect": [ 1026.7984771728516, 657.5541305541992, 120.0, 19.0 ],
                                     "text": "loadmess C74:/media/msp"
                                 }
                             },
@@ -1767,10 +1767,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "synth.scratch.samples.maxpat",
                                     "numinlets": 5,
-                                    "numoutlets": 2,
+                                    "numoutlets": 1,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "signal", "signal" ],
-                                    "patching_rect": [ 804.0, 685.0, 240.79486083984375, 145.89173889160156 ],
+                                    "outlettype": [ "multichannelsignal" ],
+                                    "patching_rect": [ 804.7984771728516, 687.5541305541992, 240.79486083984375, 145.89173889160156 ],
                                     "viewvisibility": 1
                                 }
                             },
@@ -2066,7 +2066,7 @@
                                     "color": [ 0.229955330491066, 0.329126477241516, 0.658362507820129, 1.0 ],
                                     "destination": [ "obj-31", 0 ],
                                     "midpoints": [ 725.5, 224.31726455688477, 725.5, 224.31726455688477 ],
-                                    "order": 1,
+                                    "order": 0,
                                     "source": [ "obj-12", 0 ]
                                 }
                             },
@@ -2084,7 +2084,7 @@
                                     "color": [ 0.229955330491066, 0.329126477241516, 0.658362507820129, 1.0 ],
                                     "destination": [ "obj-48", 0 ],
                                     "midpoints": [ 725.5, 226.8861312866211, 906.5, 226.8861312866211, 906.5, 59.178550720214844, 927.5, 59.178550720214844 ],
-                                    "order": 0,
+                                    "order": 1,
                                     "source": [ "obj-12", 0 ]
                                 }
                             },
@@ -2098,12 +2098,6 @@
                                 "patchline": {
                                     "destination": [ "obj-15", 4 ],
                                     "source": [ "obj-14", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-49", 1 ],
-                                    "source": [ "obj-15", 1 ]
                                 }
                             },
                             {
@@ -2205,12 +2199,6 @@
                                     "destination": [ "obj-78", 0 ],
                                     "hidden": 1,
                                     "source": [ "obj-39", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-49", 1 ],
-                                    "source": [ "obj-40", 1 ]
                                 }
                             },
                             {
@@ -2324,7 +2312,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-62", 0 ],
-                                    "midpoints": [ 813.5, 680.25, 960.3332290649414, 680.25, 960.3332290649414, 648.9375, 980.5, 648.9375 ],
+                                    "midpoints": [ 814.2984771728516, 682.8041305541992, 961.131706237793, 682.8041305541992, 961.131706237793, 651.4916305541992, 980.6446228027344, 651.4916305541992 ],
                                     "order": 0,
                                     "source": [ "obj-61", 0 ]
                                 }
@@ -2446,19 +2434,11 @@
             "obj-3::obj-12::obj-55": [ "live.text[38]", "live.text", 0 ],
             "obj-3::obj-12::obj-56": [ "live.text[13]", "live.text", 0 ],
             "obj-3::obj-12::obj-60": [ "live.text[12]", "live.text[3]", 0 ],
-            "obj-3::obj-15::obj-18::obj-88": [ "live.toggle[38]", "live.toggle", 0 ],
-            "obj-3::obj-15::obj-18::obj-92": [ "live.toggle[37]", "live.toggle", 0 ],
-            "obj-3::obj-15::obj-22": [ "live.gain~[11]", "live.gain~", 0 ],
+            "obj-3::obj-15::obj-18::obj-88": [ "live.toggle[23]", "live.toggle", 0 ],
+            "obj-3::obj-15::obj-18::obj-92": [ "live.toggle[22]", "live.toggle", 0 ],
+            "obj-3::obj-15::obj-22": [ "synthScratch-out", "ScrOut", 0 ],
             "obj-3::obj-3::obj-4": [ "live.button[2]", "live.button", 0 ],
-            "obj-3::obj-40::obj-2": [ "live.gain~[19]", "Output", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-3::obj-40::obj-2": [ "live.gain~[19]", "FM-Out", 0 ],
             "parameter_overrides": {
                 "obj-3::obj-12::obj-55": {
                     "parameter_longname": "live.text[38]"
@@ -2468,15 +2448,6 @@
                 },
                 "obj-3::obj-12::obj-60": {
                     "parameter_longname": "live.text[12]"
-                },
-                "obj-3::obj-15::obj-18::obj-88": {
-                    "parameter_longname": "live.toggle[38]"
-                },
-                "obj-3::obj-15::obj-18::obj-92": {
-                    "parameter_longname": "live.toggle[37]"
-                },
-                "obj-3::obj-15::obj-22": {
-                    "parameter_longname": "live.gain~[11]"
                 },
                 "obj-3::obj-40::obj-2": {
                     "parameter_longname": "live.gain~[19]"

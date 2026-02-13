@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -19,8 +19,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 265.0, 510.0, 132.0, 38.0 ],
-                    "presentation_linecount": 2,
+                    "patching_rect": [ 265.0, 510.0, 133.0, 38.0 ],
                     "text": "gyscope data (list 3 float)"
                 }
             },
@@ -45,7 +44,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 40.0, 100.0, 480.0, 116.0 ],
-                    "text": "It computes the orienation, projection on the gravitation axis, combining the acceleraometer and gyroscope data, suing the complementory fileter\ninput: \n     - accelerometer data (list 3 float)\n     - gyroscope data (list 3 float)\noutput:\n     - [1]: orentation [list]"
+                    "text": "It computes the orienation, projection on the gravitation axis, combining the acceleraometer and gyroscope data, suing the complementory filter\ninput: \n     - accelerometer data (list 3 float)\n     - gyroscope data (list 3 float)\noutput:\n     - [1]: orentation [list]"
                 }
             },
             {
@@ -215,6 +214,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 44.0, 564.0, 434.0, 255.0 ],
+                    "varname": "gst.orientation",
                     "viewvisibility": 1
                 }
             }
@@ -290,6 +290,6 @@
             }
         ],
         "autosave": 0,
-        "toolbaradditions": [ "s2n" ]
+        "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }
