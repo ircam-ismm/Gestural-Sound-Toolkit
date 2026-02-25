@@ -83,7 +83,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
@@ -116,7 +116,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-21",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -173,7 +173,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-31",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -217,7 +217,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-38",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -270,8 +270,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1., 1., 1., 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-9",
                                     "maxclass": "comment",
@@ -357,7 +357,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-60",
                     "maxclass": "newobj",
@@ -378,7 +378,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "linecount": 6,
                                     "maxclass": "comment",
@@ -388,8 +388,7 @@
                                     "presentation": 1,
                                     "presentation_linecount": 6,
                                     "presentation_rect": [ 80.0, 101.0, 155.0, 74.0 ],
-                                    "text": "\ninput: \n     - data values [list]\n\noutput:\n     - unfiltered data [list]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "\ninput: \n     - data values [list]\n\noutput:\n     - unfiltered data [list]"
                                 }
                             },
                             {
@@ -403,8 +402,7 @@
                                     "patching_rect": [ 10.0, 6.0, 309.0, 22.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 65.0, 86.0, 203.0, 22.0 ],
-                                    "text": "simple display",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "simple display"
                                 }
                             }
                         ],
@@ -442,7 +440,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-24",
                     "maxclass": "comment",

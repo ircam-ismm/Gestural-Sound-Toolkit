@@ -36,7 +36,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-195",
                     "maxclass": "newobj",
@@ -58,7 +58,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-12",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -70,7 +70,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-7",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -83,7 +83,7 @@
                                 "box": {
                                     "fontface": 2,
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-5",
                                     "linecount": 2,
                                     "maxclass": "comment",
@@ -110,7 +110,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-24",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -186,7 +186,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-10",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -200,7 +200,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-6",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -214,7 +214,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -227,8 +227,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1., 1., 1., 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-9",
                                     "maxclass": "comment",
@@ -243,7 +243,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-4",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -257,7 +257,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-14",
                                     "maxclass": "flonum",
@@ -275,7 +275,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-13",
                                     "maxclass": "flonum",
@@ -292,7 +292,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-1",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -305,8 +305,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1., 1., 1., 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-8",
                                     "maxclass": "comment",
@@ -331,14 +331,13 @@
                                     "presentation": 1,
                                     "presentation_linecount": 11,
                                     "presentation_rect": [ 7.0, 212.0, 214.0, 154.0 ],
-                                    "text": "It computes the First Derivativs along each axis of the incoming data, e.g. velocities from position data. Useful to capture time changes in continuous data.\n\ninput: \n     - data values [list]\n\noutput:\n     - [1]: 1st derivatives [list]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "It computes the First Derivativs along each axis of the incoming data, e.g. velocities from position data. Useful to capture time changes in continuous data.\n\ninput: \n     - data values [list]\n\noutput:\n     - [1]: 1st derivatives [list]"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1., 1., 1., 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-11",
                                     "maxclass": "comment",
@@ -782,9 +781,9 @@
                     "autobounds": 0,
                     "autoupdate": 120.0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "bgcolordefault": 0,
+                    "bgcolordefault": 1,
                     "bounds": [ -1.0, 1.0 ],
-                    "colormode": "pattern",
+                    "colormode": "fgcolor",
                     "colorpattern": [ "black", "steelblue", "blue" ],
                     "domainruler": 0,
                     "domainruler_size": 15,
@@ -879,7 +878,7 @@
             {
                 "box": {
                     "fontname": "Arial",
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-18",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -927,7 +926,7 @@
             {
                 "box": {
                     "fontname": "Arial",
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-4",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -992,7 +991,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
@@ -1014,7 +1013,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-4",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1028,7 +1027,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1040,7 +1039,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-7",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1078,7 +1077,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-14",
                                     "maxclass": "flonum",
@@ -1094,7 +1093,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-13",
                                     "maxclass": "flonum",
@@ -1110,7 +1109,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-8",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1124,7 +1123,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-9",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1138,7 +1137,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-24",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1150,7 +1149,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-25",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1163,7 +1162,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-26",
                                     "maxclass": "flonum",
@@ -1191,7 +1190,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-11",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1205,7 +1204,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-17",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1217,7 +1216,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-20",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1230,7 +1229,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-21",
                                     "maxclass": "flonum",
@@ -1270,7 +1269,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-16",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1283,8 +1282,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1., 1., 1., 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-22",
                                     "maxclass": "comment",
@@ -1299,7 +1298,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-23",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1311,7 +1310,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-51",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1324,7 +1323,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-48",
                                     "maxclass": "number",
                                     "minimum": 1,
@@ -1341,7 +1340,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-5",
                                     "linecount": 9,
                                     "maxclass": "comment",
@@ -1357,8 +1356,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1., 1., 1., 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-1",
                                     "maxclass": "comment",
@@ -1372,8 +1371,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1., 1., 1., 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-6",
                                     "maxclass": "comment",
@@ -1474,7 +1473,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-6",
                     "maxclass": "newobj",
@@ -1495,7 +1494,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "linecount": 9,
                                     "maxclass": "comment",
@@ -1527,7 +1526,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-59",
                                     "linecount": 3,
                                     "maxclass": "comment",
@@ -1544,7 +1543,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-58",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1566,7 +1565,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-25",
                     "maxclass": "comment",

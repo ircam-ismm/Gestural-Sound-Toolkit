@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -172,7 +172,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -542,13 +542,13 @@
             {
                 "box": {
                     "fontname": "Arial",
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-24",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 156.5, 124.0, 88.0, 20.0 ],
+                    "patching_rect": [ 156.5, 124.0, 88.0, 21.0 ],
                     "text": "r #0-order"
                 }
             },
@@ -566,7 +566,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
@@ -577,12 +577,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 238.0, 87.0, 217.0, 277.0 ],
+                        "rect": [ 238.0, 87.0, 214.0, 273.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -599,12 +599,12 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-21",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 352.0, 203.0, 82.0, 20.0 ],
+                                    "patching_rect": [ 352.0, 203.0, 90.0, 21.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -656,14 +656,14 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-31",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 609.0, 103.0, 102.0, 18.0 ],
+                                    "patching_rect": [ 609.0, 103.0, 112.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 63.0, 101.0, 102.0, 18.0 ],
+                                    "presentation_rect": [ 63.0, 101.0, 112.0, 19.0 ],
                                     "text": "Max value for display"
                                 }
                             },
@@ -700,14 +700,14 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-38",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 448.0, 102.0, 100.0, 18.0 ],
+                                    "patching_rect": [ 448.0, 102.0, 109.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 63.0, 126.0, 100.0, 18.0 ],
+                                    "presentation_rect": [ 63.0, 126.0, 109.0, 19.0 ],
                                     "text": "Min value for display"
                                 }
                             },
@@ -743,41 +743,41 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-16",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 54.5, 75.0, 151.0, 18.0 ],
+                                    "patching_rect": [ 54.5, 75.0, 156.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 63.0, 28.0, 142.0, 18.0 ],
+                                    "presentation_rect": [ 56.0, 27.5, 156.0, 19.0 ],
                                     "text": "List order of the orientation list"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.5 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-22",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 29.5, 6.0, 131.0, 20.0 ],
+                                    "patching_rect": [ 29.5, 6.0, 131.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 4.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 3.0, 4.0, 209.0, 22.0 ],
                                     "text": "Angles"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-23",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2.5, 112.0, 100.0, 20.0 ],
+                                    "patching_rect": [ 2.5, 112.0, 100.0, 21.0 ],
                                     "text": "s #0-order"
                                 }
                             },
@@ -802,46 +802,46 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-5",
                                     "linecount": 7,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 5.0, 210.0, 310.0, 85.0 ],
+                                    "patching_rect": [ 5.0, 210.0, 310.0, 93.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 7,
-                                    "presentation_rect": [ 3.0, 175.0, 209.0, 85.0 ],
+                                    "presentation_rect": [ 3.0, 175.0, 209.0, 93.0 ],
                                     "text": "It computes angles in deg.\n\ninput: \n     - orientation\n\noutput:\n     - [1]: anglles [list]"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.5 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-1",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 5.0, 180.0, 120.0, 20.0 ],
+                                    "patching_rect": [ 5.0, 180.0, 120.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 155.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 3.0, 155.0, 209.0, 22.0 ],
                                     "text": "Help [Angles]"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.5 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-6",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2.5, 150.0, 120.0, 20.0 ],
+                                    "patching_rect": [ 2.5, 150.0, 120.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 73.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 3.0, 73.0, 209.0, 22.0 ],
                                     "text": "Monitoring"
                                 }
                             }
@@ -919,15 +919,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-25",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 11.0, 15.0, 77.0, 22.0 ],
+                    "patching_rect": [ 11.0, 15.0, 77.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 46.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 48.0, 21.0 ],
                     "text": "Angles"
                 }
             },
@@ -935,14 +935,14 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgcolordefault": 1,
                     "bounds": [ -180.0, 180.0 ],
-                    "colormode": "pattern",
+                    "colormode": "fgcolor",
                     "colorpattern": [ "black", "steelblue", "blue" ],
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,

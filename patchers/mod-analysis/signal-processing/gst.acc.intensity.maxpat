@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 241.0, 89.0, 131.0, 117.0 ],
+        "rect": [ 35.0, 106.0, 131.0, 117.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -91,7 +91,6 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
                     "fontsize": 11.0,
                     "id": "obj-195",
                     "maxclass": "newobj",
@@ -102,28 +101,27 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 247.0, 87.0, 449.0, 466.0 ],
+                        "rect": [ 334.0, 159.0, 486.0, 460.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
                                 "box": {
                                     "fontface": 2,
-                                    "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-5",
                                     "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 26.0, 544.0, 231.0, 27.0 ],
+                                    "patching_rect": [ 26.0, 544.0, 231.0, 31.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 2,
-                                    "presentation_rect": [ 238.5, 428.0, 207.0, 27.0 ],
+                                    "presentation_rect": [ 257.0, 424.0, 226.0, 31.0 ],
                                     "text": "Note: uses PiPo from ISMM team at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/"
                                 }
                             },
@@ -131,18 +129,12 @@
                                 "box": {
                                     "id": "obj-29",
                                     "justification": 1,
-                                    "linecolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
                                     "maxclass": "live.line",
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 330.0, 415.0, 5.0, 100.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 225.0, 7.0, 13.0, 448.0 ],
-                                    "saved_attribute_attributes": {
-                                        "linecolor": {
-                                            "expression": "themecolor.live_meter_bg"
-                                        }
-                                    }
+                                    "presentation_rect": [ 246.0, 7.0, 13.0, 448.0 ]
                                 }
                             },
                             {
@@ -158,13 +150,12 @@
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-24",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2002.0, 248.0, 82.0, 20.0 ],
+                                    "patching_rect": [ 2002.0, 248.0, 90.0, 21.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -243,193 +234,179 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
                                     "fontsize": 14.0,
                                     "id": "obj-26",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 964.0, -4.0, 239.0, 20.0 ],
+                                    "patching_rect": [ 964.0, -4.0, 239.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 237.0, 7.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 258.0, 7.0, 224.0, 22.0 ],
                                     "text": "advanced"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-25",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1932.0, 145.0, 79.0, 18.0 ],
+                                    "patching_rect": [ 1932.0, 145.0, 86.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 62.0, 153.0, 79.0, 18.0 ],
+                                    "presentation_rect": [ 62.0, 153.0, 86.0, 19.0 ],
                                     "text": "max clip (linear)"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-22",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1533.0, 145.0, 64.0, 18.0 ],
+                                    "patching_rect": [ 1533.0, 145.0, 64.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 327.0, 106.0, 64.0, 18.0 ],
+                                    "presentation_rect": [ 348.0, 106.0, 64.0, 19.0 ],
                                     "text": "norm mode"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-21",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1385.0, 145.0, 34.0, 18.0 ],
+                                    "patching_rect": [ 1385.0, 145.0, 36.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 318.0, 82.0, 34.0, 18.0 ],
+                                    "presentation_rect": [ 339.0, 82.0, 36.0, 19.0 ],
                                     "text": "mode"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-20",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1196.0, 146.0, 108.0, 18.0 ],
+                                    "patching_rect": [ 1196.0, 146.0, 118.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 297.0, 58.0, 108.0, 18.0 ],
+                                    "presentation_rect": [ 318.0, 58.0, 118.0, 19.0 ],
                                     "text": "derivative window size"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-17",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1016.0, 146.0, 90.0, 18.0 ],
+                                    "patching_rect": [ 1016.0, 146.0, 98.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 297.0, 35.0, 90.0, 18.0 ],
+                                    "presentation_rect": [ 318.0, 35.0, 98.0, 19.0 ],
                                     "text": "mean window size"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-15",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 825.0, 146.0, 106.0, 18.0 ],
+                                    "patching_rect": [ 825.0, 146.0, 116.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 62.0, 129.0, 106.0, 18.0 ],
+                                    "presentation_rect": [ 62.0, 129.0, 116.0, 19.0 ],
                                     "text": "gate threshold (linear)"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-12",
                                     "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 639.0, 146.0, 119.0, 29.0 ],
+                                    "patching_rect": [ 639.0, 146.0, 119.0, 31.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 62.0, 106.0, 166.0, 18.0 ],
+                                    "presentation_rect": [ 62.0, 106.0, 182.0, 19.0 ],
                                     "text": "compression (<1.) / expansion (>1.)"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-10",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 520.0, 145.0, 61.0, 18.0 ],
+                                    "patching_rect": [ 520.0, 145.0, 67.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 62.0, 82.0, 61.0, 18.0 ],
+                                    "presentation_rect": [ 62.0, 82.0, 67.0, 19.0 ],
                                     "text": "gain (linear)"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-6",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 353.0, 146.0, 79.0, 18.0 ],
+                                    "patching_rect": [ 353.0, 146.0, 87.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 62.0, 58.0, 79.0, 18.0 ],
+                                    "presentation_rect": [ 62.0, 58.0, 87.0, 19.0 ],
                                     "text": "cutoff frequency"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 247.0, 146.0, 54.0, 18.0 ],
+                                    "patching_rect": [ 247.0, 146.0, 59.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 62.0, 35.0, 54.0, 18.0 ],
+                                    "presentation_rect": [ 62.0, 35.0, 59.0, 19.0 ],
                                     "text": "frame rate"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
                                     "fontsize": 14.0,
                                     "id": "obj-9",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 96.0, -4.0, 239.0, 20.0 ],
+                                    "patching_rect": [ 96.0, -4.0, 239.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 7.0, 7.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 7.0, 7.0, 209.0, 22.0 ],
                                     "text": "accelerometer \"intensity\""
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-4",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2244.0, 144.0, 102.0, 18.0 ],
+                                    "patching_rect": [ 2244.0, 144.0, 112.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 93.0, 216.0, 105.0, 18.0 ],
+                                    "presentation_rect": [ 93.0, 212.0, 112.0, 19.0 ],
                                     "text": "Max value for display"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-14",
                                     "maxclass": "flonum",
@@ -438,16 +415,15 @@
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 2195.0, 144.0, 45.0, 20.0 ],
+                                    "patching_rect": [ 2195.0, 144.0, 45.0, 21.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 13.0, 214.0, 45.0, 20.0 ],
+                                    "presentation_rect": [ 13.0, 210.0, 45.0, 21.0 ],
                                     "varname": "maxMonitor"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-13",
                                     "maxclass": "flonum",
@@ -455,44 +431,41 @@
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 2034.0, 144.0, 45.0, 20.0 ],
+                                    "patching_rect": [ 2034.0, 144.0, 45.0, 21.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 13.0, 236.0, 45.0, 20.0 ],
+                                    "presentation_rect": [ 13.0, 232.0, 45.0, 21.0 ],
                                     "varname": "minMonitor"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-1",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2088.0, 145.0, 100.0, 18.0 ],
+                                    "patching_rect": [ 2088.0, 145.0, 109.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 93.0, 237.0, 105.0, 18.0 ],
+                                    "presentation_rect": [ 93.0, 233.0, 109.0, 19.0 ],
                                     "text": "Min value for display"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
                                     "fontsize": 14.0,
                                     "id": "obj-8",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 27.0, 341.0, 230.0, 20.0 ],
+                                    "patching_rect": [ 27.0, 341.0, 230.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 13.0, 268.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 7.0, 264.0, 210.0, 22.0 ],
                                     "text": "Help [accelerometer \"intensity\"]"
                                 }
                             },
                             {
                                 "box": {
-                                    "fontname": "Arial",
                                     "fontsize": 12.0,
                                     "id": "obj-3",
                                     "linecount": 12,
@@ -502,23 +475,26 @@
                                     "patching_rect": [ 27.0, 373.0, 284.0, 167.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 12,
-                                    "presentation_rect": [ 13.0, 288.0, 212.0, 167.0 ],
-                                    "text": "Compute an intensity, based on the raw acceleremeter data\nDerivate and integrate.\n\n@input: \n    -accelerometer [list]\n\n@output: \n    - intensity\n    - intensity X axis\n    - intensity Y axis\n    - intensity Z axis",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "presentation_rect": [ 7.0, 288.0, 210.0, 167.0 ],
+                                    "text": "Compute an intensity, based on the raw acceleremeter data\nDerivate and integrate.\n\n@input: \n    -accelerometer [list]\n\n@output: \n    - intensity\n    - intensity X axis\n    - intensity Y axis\n    - intensity Z axis"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
                                     "fontsize": 14.0,
                                     "id": "obj-11",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2032.0, 23.0, 77.0, 20.0 ],
+                                    "patching_rect": [ 2032.0, 23.0, 77.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 7.0, 183.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 7.0, 183.0, 210.0, 22.0 ],
+                                    "saved_attribute_attributes": {
+                                        "bubble_bgcolor": {
+                                            "expression": "themecolor.theme_bubble_bgcolor"
+                                        }
+                                    },
                                     "text": "Monitoring"
                                 }
                             },
@@ -700,7 +676,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 1742.0, 142.0, 24.0, 24.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 170.0, 154.0, 16.0, 16.0 ],
+                                    "presentation_rect": [ 179.0, 154.0, 16.0, 16.0 ],
                                     "varname": "clip-on"
                                 }
                             },
@@ -725,7 +701,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 1612.0, 142.0, 24.0, 24.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 170.0, 130.0, 16.0, 16.0 ],
+                                    "presentation_rect": [ 179.0, 130.0, 16.0, 16.0 ],
                                     "varname": "gate-on"
                                 }
                             },
@@ -751,7 +727,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 1451.0, 143.0, 80.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 245.0, 104.0, 80.0, 22.0 ],
+                                    "presentation_rect": [ 266.0, 104.0, 80.0, 22.0 ],
                                     "varname": "norm-mode"
                                 }
                             },
@@ -777,7 +753,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 1311.0, 143.0, 71.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 245.0, 80.0, 71.0, 22.0 ],
+                                    "presentation_rect": [ 266.0, 80.0, 71.0, 22.0 ],
                                     "varname": "mode"
                                 }
                             },
@@ -803,7 +779,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 1144.0, 144.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 245.0, 56.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 266.0, 56.0, 50.0, 22.0 ],
                                     "varname": "derivative-window"
                                 }
                             },
@@ -840,7 +816,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 964.0, 144.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 245.0, 33.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 266.0, 33.0, 50.0, 22.0 ],
                                     "varname": "maverage-window"
                                 }
                             },
@@ -2023,13 +1999,13 @@
             {
                 "box": {
                     "bubble": 1,
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-18",
                     "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 622.0, 56.0, 87.0, 33.0 ],
+                    "patching_rect": [ 622.0, 56.0, 89.0, 35.0 ],
                     "text": "mubu.scroll configuration"
                 }
             },
@@ -2127,15 +2103,14 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
                     "fontsize": 13.0,
                     "id": "obj-57",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 15.0, 26.0, 88.0, 22.0 ],
+                    "patching_rect": [ 15.0, 26.0, 88.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 80.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 82.0, 21.0 ],
                     "text": "Acc.Intensity"
                 }
             },
@@ -2143,14 +2118,14 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.065, 0.095, 0.115, 1.0 ],
                     "bgcolordefault": 1,
                     "bounds": [ 0.0, 1.0 ],
                     "colormode": "fgcolor",
                     "colorpattern": [ "red", "green", "blue", "" ],
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.8, 0.8, 0.8, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,

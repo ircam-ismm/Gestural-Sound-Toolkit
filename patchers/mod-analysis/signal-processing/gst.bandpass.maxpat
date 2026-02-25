@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -14,7 +14,7 @@
         "boxes": [
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
@@ -25,7 +25,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -147,7 +147,7 @@
                                 "box": {
                                     "fontface": 2,
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-16",
                                     "linecount": 2,
                                     "maxclass": "comment",
@@ -155,7 +155,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ -0.5, 269.0, 231.0, 27.0 ],
                                     "presentation": 1,
-                                    "presentation_linecount": 2,
+                                    "presentation_linecount": 3,
                                     "presentation_rect": [ 5.0, 282.0, 210.0, 27.0 ],
                                     "text": "Note: uses PiPo from ISMM team at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/"
                                 }
@@ -202,7 +202,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-21",
                                     "maxclass": "flonum",
@@ -241,8 +241,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-9",
                                     "maxclass": "comment",
@@ -272,8 +272,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-2",
                                     "maxclass": "comment",
@@ -301,8 +301,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-6",
                                     "maxclass": "comment",
@@ -342,7 +342,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-48",
                                     "maxclass": "flonum",
@@ -420,7 +420,7 @@
                         ],
                         "toolbaradditions": [ "s2n" ]
                     },
-                    "patching_rect": [ 1025.0, 123.0, 74.0, 19.0 ],
+                    "patching_rect": [ 1025.0, 123.0, 74.0, 21.0 ],
                     "text": "p more"
                 }
             },
@@ -492,7 +492,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-195",
                     "maxclass": "newobj",
@@ -503,30 +503,24 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 235.0, 88.0, 451.0, 324.0 ],
+                        "rect": [ 235.0, 88.0, 463.0, 323.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
                                 "box": {
                                     "id": "obj-29",
                                     "justification": 1,
-                                    "linecolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
                                     "maxclass": "live.line",
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 326.0, 341.0, 5.0, 100.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 225.0, 7.0, 13.0, 301.0 ],
-                                    "saved_attribute_attributes": {
-                                        "linecolor": {
-                                            "expression": "themecolor.live_meter_bg"
-                                        }
-                                    }
+                                    "presentation_rect": [ 220.0, 7.0, 13.0, 311.0 ]
                                 }
                             },
                             {
@@ -619,16 +613,16 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-26",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 468.0, 23.0, 239.0, 20.0 ],
+                                    "patching_rect": [ 468.0, 23.0, 239.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 237.0, 7.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 232.0, 7.0, 223.0, 22.0 ],
                                     "text": "more"
                                 }
                             },
@@ -657,7 +651,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 520.0, 145.0, 61.0, 18.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 289.0, 35.0, 61.0, 18.0 ],
+                                    "presentation_rect": [ 284.0, 35.0, 61.0, 18.0 ],
                                     "text": "gain (linear)"
                                 }
                             },
@@ -691,16 +685,16 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-9",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 45.5, 23.0, 239.0, 20.0 ],
+                                    "patching_rect": [ 45.5, 23.0, 239.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 7.0, 7.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 7.0, 7.0, 209.0, 22.0 ],
                                     "text": "Bandpass Filtering"
                                 }
                             },
@@ -764,16 +758,16 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-11",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 805.0, 23.0, 77.0, 20.0 ],
+                                    "patching_rect": [ 805.0, 23.0, 77.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 8.0, 111.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 8.0, 111.0, 210.0, 22.0 ],
                                     "text": "Monitoring"
                                 }
                             },
@@ -873,7 +867,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 468.0, 143.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 237.0, 33.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 232.0, 33.0, 50.0, 22.0 ],
                                     "varname": "gain"
                                 }
                             },
@@ -1020,16 +1014,16 @@
                                 "box": {
                                     "fontface": 2,
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-3",
                                     "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1.0, 475.0, 231.0, 27.0 ],
+                                    "patching_rect": [ 1.0, 475.0, 231.0, 31.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 2,
-                                    "presentation_rect": [ 239.0, 293.0, 207.0, 27.0 ],
+                                    "presentation_rect": [ 232.0, 287.0, 226.0, 31.0 ],
                                     "text": "Note: uses PiPo from ISMM team at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/"
                                 }
                             },
@@ -1051,16 +1045,16 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-7",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 3.0, 328.0, 120.0, 20.0 ],
+                                    "patching_rect": [ 3.0, 328.0, 120.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 8.0, 191.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 8.0, 191.0, 209.0, 22.0 ],
                                     "text": "Help [Bandpass]"
                                 }
                             }
@@ -1431,7 +1425,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-60",
                     "maxclass": "newobj",
@@ -1442,7 +1436,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1517,21 +1511,21 @@
                         "lines": [],
                         "toolbaradditions": [ "s2n" ]
                     },
-                    "patching_rect": [ 142.0, 15.0, 44.0, 19.0 ],
+                    "patching_rect": [ 142.0, 15.0, 44.0, 21.0 ],
                     "text": "p help"
                 }
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-24",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 49.0, 14.0, 65.0, 22.0 ],
+                    "patching_rect": [ 49.0, 14.0, 66.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 65.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 66.0, 21.0 ],
                     "text": "Bandpass"
                 }
             },
@@ -1539,14 +1533,14 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgcolordefault": 1,
                     "bounds": [ -1.0, 1.0 ],
-                    "colormode": "pattern",
+                    "colormode": "fgcolor",
                     "colorpattern": [ "black", "steelblue", "blue" ],
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,

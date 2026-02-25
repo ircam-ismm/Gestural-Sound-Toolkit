@@ -15,13 +15,13 @@
             {
                 "box": {
                     "fontname": "Arial",
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-23",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 124.0, 181.0, 76.0, 20.0 ],
+                    "patching_rect": [ 124.0, 181.0, 82.0, 21.0 ],
                     "text": "r #0-orientation"
                 }
             },
@@ -336,7 +336,7 @@
             },
             {
                 "box": {
-                    "comment": "orientation (list of 3 float [-1 1])",
+                    "comment": "orientation (list of 3 float [-180 180])",
                     "id": "obj-10",
                     "index": 0,
                     "maxclass": "outlet",
@@ -395,7 +395,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
@@ -411,7 +411,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 241.0, 87.0, 229.0, 316.0 ],
+                        "rect": [ 241.0, 87.0, 216.0, 304.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -451,12 +451,13 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-21",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 263.0, 183.0, 82.0, 20.0 ],
+                                    "patching_rect": [ 263.0, 183.0, 82.0, 33.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -508,14 +509,15 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-31",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 515.0, 105.0, 102.0, 18.0 ],
+                                    "patching_rect": [ 515.0, 105.0, 102.0, 31.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 61.0, 101.0, 102.0, 18.0 ],
+                                    "presentation_rect": [ 61.0, 81.0, 112.0, 19.0 ],
                                     "text": "Max value for display"
                                 }
                             },
@@ -530,7 +532,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 466.0, 105.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 2.0, 97.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 2.0, 77.0, 50.0, 22.0 ],
                                     "varname": "maxMonitor"
                                 }
                             },
@@ -545,21 +547,22 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 305.0, 105.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 2.0, 122.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 2.0, 102.0, 50.0, 22.0 ],
                                     "varname": "minMonitor"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-38",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 359.0, 106.0, 100.0, 18.0 ],
+                                    "patching_rect": [ 359.0, 106.0, 100.0, 31.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 61.0, 126.0, 100.0, 18.0 ],
+                                    "presentation_rect": [ 61.0, 106.0, 109.0, 19.0 ],
                                     "text": "Min value for display"
                                 }
                             },
@@ -606,41 +609,43 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-16",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 61.0, 75.0, 110.0, 18.0 ],
+                                    "patching_rect": [ 61.0, 75.0, 110.0, 31.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 51.0, 26.0, 157.0, 18.0 ],
+                                    "presentation_rect": [ 54.0, 27.5, 118.0, 19.0 ],
                                     "text": "Gyroweight (filter size)"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-22",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 50.5, 15.0, 131.0, 20.0 ],
+                                    "patching_rect": [ 50.5, 15.0, 131.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 2.0, 4.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 2.0, 4.0, 211.0, 22.0 ],
                                     "text": "Orientation"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-23",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2.5, 139.0, 77.0, 20.0 ],
+                                    "patching_rect": [ 2.5, 139.0, 77.0, 33.0 ],
                                     "text": "s #0-orientation"
                                 }
                             },
@@ -665,47 +670,46 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-5",
                                     "linecount": 10,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 5.0, 210.0, 310.0, 118.0 ],
+                                    "patching_rect": [ 5.0, 210.0, 310.0, 129.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 11,
-                                    "presentation_rect": [ 5.0, 175.0, 211.0, 129.0 ],
-                                    "text": "It computes the orienation, projection on the gravitation axis, combining the acceleraometer and gyroscope data, suing the complementory fileter\n\ninput: \n     - accelerometer data (list 3 float)\n     - gyroscope data (list 3 float)\n\noutput:\n     - [1]: orentation [list]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "presentation_rect": [ 2.0, 159.0, 211.0, 142.0 ],
+                                    "text": "It computes the orienation, projection on the gravitation axis, combining the acceleraometer and gyroscope data, suing the complementory fileter\n\ninput: \n     - accelerometer data (list 3 float)\n     - gyroscope data (list 3 float)\n\noutput:\n     - [1]: orentation [list]"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-1",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 5.0, 180.0, 120.0, 20.0 ],
+                                    "patching_rect": [ 5.0, 180.0, 120.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 155.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 2.0, 135.0, 211.0, 22.0 ],
                                     "text": "Help [Orientation]"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-6",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ -1.0, 335.0, 120.0, 20.0 ],
+                                    "patching_rect": [ -1.0, 335.0, 120.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 2.0, 73.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 2.0, 53.0, 211.0, 22.0 ],
                                     "text": "Monitoring"
                                 }
                             }
@@ -801,106 +805,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
-                    "fontsize": 11.0,
-                    "id": "obj-6",
-                    "maxclass": "newobj",
-                    "numinlets": 0,
-                    "numoutlets": 0,
-                    "patcher": {
-                        "fileversion": 1,
-                        "appversion": {
-                            "major": 9,
-                            "minor": 1,
-                            "revision": 2,
-                            "architecture": "x64",
-                            "modernui": 1
-                        },
-                        "classnamespace": "box",
-                        "rect": [ 722.0, 79.0, 342.0, 193.0 ],
-                        "boxes": [
-                            {
-                                "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
-                                    "id": "obj-2",
-                                    "linecount": 10,
-                                    "maxclass": "comment",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 10.0, 25.0, 310.0, 118.0 ],
-                                    "presentation": 1,
-                                    "presentation_linecount": 13,
-                                    "presentation_rect": [ 80.0, 101.0, 157.0, 152.0 ],
-                                    "text": "It computes the orienation, projection on the gravitation axis, combining the acceleraometer and gyroscope data, suing the complementory fileter\n\ninput: \n     - accelerometer data (list 3 float)\n     - gyroscope data (list 3 float)\n\noutput:\n     - [1]: orentation [list]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 14.0,
-                                    "id": "obj-1",
-                                    "maxclass": "comment",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 10.0, 6.0, 309.0, 22.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 65.0, 86.0, 203.0, 22.0 ],
-                                    "text": "Orientation",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
-                                    "id": "obj-59",
-                                    "linecount": 3,
-                                    "maxclass": "comment",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 507.0, 190.0, 146.0, 40.0 ],
-                                    "presentation": 1,
-                                    "presentation_linecount": 4,
-                                    "presentation_rect": [ 20.0, 53.0, 128.0, 51.0 ],
-                                    "text": "output: \n   - left: values [list] if open\n   - right: 0/1 close or open [int]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "fontname": "Arial",
-                                    "fontsize": 10.0,
-                                    "id": "obj-58",
-                                    "maxclass": "comment",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 507.0, 173.0, 153.0, 18.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 20.0, 41.0, 153.0, 18.0 ],
-                                    "text": "input: data values [list]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
-                                }
-                            }
-                        ],
-                        "lines": []
-                    },
-                    "patching_rect": [ 115.0, 9.0, 44.0, 19.0 ],
-                    "text": "p help"
-                }
-            },
-            {
-                "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-25",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 11.0, 5.0, 77.0, 22.0 ],
+                    "patching_rect": [ 11.0, 5.0, 77.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 69.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 72.0, 21.0 ],
                     "text": "Orientation"
                 }
             },
@@ -908,14 +821,14 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgcolordefault": 1,
                     "bounds": [ -1.0, 1.0 ],
-                    "colormode": "pattern",
+                    "colormode": "fgcolor",
                     "colorpattern": [ "black", "steelblue", "blue" ],
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,

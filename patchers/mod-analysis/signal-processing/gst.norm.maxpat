@@ -80,7 +80,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-195",
                     "maxclass": "newobj",
@@ -96,8 +96,9 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 236.0, 87.0, 219.0, 267.0 ],
+                        "rect": [ 236.0, 87.0, 238.0, 272.0 ],
                         "openinpresentation": 1,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -113,14 +114,14 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-4",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 254.0, 131.0, 102.0, 18.0 ],
+                                    "patching_rect": [ 254.0, 131.0, 112.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 85.0, 57.0, 105.0, 18.0 ],
+                                    "presentation_rect": [ 85.0, 61.0, 112.0, 19.0 ],
                                     "text": "Max value for display"
                                 }
                             },
@@ -135,7 +136,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 205.0, 131.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 55.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 5.0, 59.0, 50.0, 22.0 ],
                                     "varname": "maxMonitor"
                                 }
                             },
@@ -150,36 +151,36 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 44.0, 131.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 79.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 5.0, 83.0, 50.0, 22.0 ],
                                     "varname": "minMonitor"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-1",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 98.0, 132.0, 100.0, 18.0 ],
+                                    "patching_rect": [ 98.0, 132.0, 109.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 85.0, 81.0, 105.0, 18.0 ],
+                                    "presentation_rect": [ 85.0, 85.0, 109.0, 19.0 ],
                                     "text": "Min value for display"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-8",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 209.0, 272.0, 95.0, 20.0 ],
+                                    "patching_rect": [ 209.0, 272.0, 95.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 4.0, 111.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 4.0, 115.0, 226.0, 22.0 ],
                                     "text": "Help [Norm]"
                                 }
                             },
@@ -195,7 +196,7 @@
                                     "patching_rect": [ 205.0, 310.0, 284.0, 100.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 7,
-                                    "presentation_rect": [ 4.0, 131.0, 209.0, 100.0 ],
+                                    "presentation_rect": [ 4.0, 135.0, 225.5, 100.0 ],
                                     "text": "Compute the vector norm\n (normalized by the list lenght) \n\n@input: list of float values (e.g. 3d accelerometer data)\n\n@output: 1-d distance value"
                                 }
                             },
@@ -209,18 +210,17 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 279.5, 232.0, 135.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 84.0, 31.0, 130.0, 20.0 ],
+                                    "presentation_rect": [ 84.0, 35.0, 130.0, 20.0 ],
                                     "text": "norm"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.65098, 0.666667, 0.662745, 1.0 ],
+                                    "bgcolor": [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
                                     "fontname": "Arial",
                                     "fontsize": 12.0,
                                     "format": 6,
                                     "id": "obj-112",
-                                    "ignoreclick": 1,
                                     "maxclass": "flonum",
                                     "numinlets": 1,
                                     "numoutlets": 2,
@@ -228,7 +228,13 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 212.0, 231.0, 69.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 29.0, 76.0, 22.0 ]
+                                    "presentation_rect": [ 5.0, 33.0, 76.0, 22.0 ],
+                                    "saved_attribute_attributes": {
+                                        "bgcolor": {
+                                            "expression": "themecolor.theme_accentcolor"
+                                        }
+                                    },
+                                    "triangle": 0
                                 }
                             },
                             {
@@ -261,12 +267,12 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-24",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 12.0, 235.0, 82.0, 20.0 ],
+                                    "patching_rect": [ 12.0, 235.0, 90.0, 21.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -317,16 +323,16 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-11",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 42.0, 10.0, 77.0, 20.0 ],
+                                    "patching_rect": [ 42.0, 10.0, 77.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 4.0, 7.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 4.0, 7.0, 226.0, 22.0 ],
                                     "text": "Monitoring"
                                 }
                             },
@@ -334,16 +340,16 @@
                                 "box": {
                                     "fontface": 2,
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-3",
                                     "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 12.0, 426.0, 231.0, 27.0 ],
+                                    "patching_rect": [ 12.0, 426.0, 231.0, 31.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 2,
-                                    "presentation_rect": [ 6.5, 233.0, 207.0, 27.0 ],
+                                    "presentation_rect": [ 7.0, 237.0, 223.0, 31.0 ],
                                     "text": "Note: uses PiPo from ISMM team at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/"
                                 }
                             }
@@ -478,26 +484,26 @@
             {
                 "box": {
                     "fontname": "Arial",
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-9",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 52.0, 153.0, 54.0, 20.0 ],
+                    "patching_rect": [ 52.0, 153.0, 58.0, 21.0 ],
                     "text": "s #0-norm"
                 }
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-57",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 21.5, 11.0, 64.0, 22.0 ],
+                    "patching_rect": [ 21.5, 11.0, 64.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 40.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 40.0, 21.0 ],
                     "text": "Norm"
                 }
             },
@@ -505,14 +511,14 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgcolordefault": 1,
                     "bounds": [ 0.0, 1.0 ],
-                    "colormode": "pattern",
+                    "colormode": "fgcolor",
                     "colorpattern": [ "black", "steelblue" ],
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,

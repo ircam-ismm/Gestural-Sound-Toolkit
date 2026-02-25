@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 87.0, 138.0, 119.0 ],
+        "rect": [ 34.0, 106.0, 138.0, 119.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -184,14 +184,14 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgcolordefault": 1,
                     "bounds": [ -1.0, 1.0 ],
-                    "colormode": "pattern",
+                    "colormode": "fgcolor",
                     "colorpattern": [ "black", "steelblue", "blue" ],
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,
@@ -258,12 +258,12 @@
             {
                 "box": {
                     "bubble": 1,
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-18",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 420.0, 1.0, 137.0, 22.0 ],
+                    "patching_rect": [ 420.0, 1.0, 148.0, 23.0 ],
                     "text": "mubu.scroll configuration"
                 }
             },
@@ -281,15 +281,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-57",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 9.0, 8.0, 89.0, 22.0 ],
+                    "patching_rect": [ 9.0, 8.0, 89.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 57.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 57.0, 21.0 ],
                     "text": "1€ Filter"
                 }
             },
@@ -319,7 +319,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-5",
                     "maxclass": "newobj",
@@ -330,7 +330,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -341,7 +341,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-11",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -416,14 +416,13 @@
                                     "presentation": 1,
                                     "presentation_linecount": 10,
                                     "presentation_rect": [ 230.0, 26.0, 212.0, 141.0 ],
-                                    "text": "\"First beta is set to 0 and fcmin (mincutoff) to a reasonable middle-ground value such as 1 Hz. Then the body part is held steady or moved at a very low speed while fcmin is adjusted to remove jitter and preserve an acceptable lag during these slow movements (decreasing fcmin reduces jitter but increases lag, fcmin must be > 0).\"",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "\"First beta is set to 0 and fcmin (mincutoff) to a reasonable middle-ground value such as 1 Hz. Then the body part is held steady or moved at a very low speed while fcmin is adjusted to remove jitter and preserve an acceptable lag during these slow movements (decreasing fcmin reduces jitter but increases lag, fcmin must be > 0).\""
                                 }
                             },
                             {
                                 "box": {
                                     "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-45",
                                     "maxclass": "comment",
@@ -438,7 +437,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-5",
                                     "linecount": 11,
                                     "maxclass": "comment",
@@ -454,7 +453,7 @@
                             {
                                 "box": {
                                     "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-7",
                                     "maxclass": "comment",
@@ -470,7 +469,7 @@
                                 "box": {
                                     "id": "obj-44",
                                     "justification": 1,
-                                    "linecolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
+                                    "linecolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                                     "maxclass": "live.line",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -487,13 +486,14 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-36",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 816.0, 130.5, 92.0, 18.0 ],
                                     "presentation": 1,
+                                    "presentation_linecount": 2,
                                     "presentation_rect": [ 187.0, 5.0, 25.0, 18.0 ],
                                     "text": "byp"
                                 }
@@ -560,8 +560,9 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-24",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -637,7 +638,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-29",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -651,7 +652,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -665,7 +666,7 @@
                             {
                                 "box": {
                                     "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-30",
                                     "maxclass": "comment",
@@ -680,13 +681,15 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-31",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 1299.0, 128.5, 102.0, 18.0 ],
                                     "presentation": 1,
+                                    "presentation_linecount": 2,
                                     "presentation_rect": [ 60.0, 139.0, 105.0, 18.0 ],
                                     "text": "Max value for display"
                                 }
@@ -724,13 +727,15 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-34",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 1143.0, 129.5, 100.0, 18.0 ],
                                     "presentation": 1,
+                                    "presentation_linecount": 2,
                                     "presentation_rect": [ 60.0, 164.0, 105.0, 18.0 ],
                                     "text": "Min value for display"
                                 }
@@ -738,7 +743,7 @@
                             {
                                 "box": {
                                     "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-35",
                                     "maxclass": "comment",
@@ -889,7 +894,7 @@
                             {
                                 "box": {
                                     "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-8",
                                     "maxclass": "comment",
@@ -914,8 +919,7 @@
                                     "presentation": 1,
                                     "presentation_linecount": 9,
                                     "presentation_rect": [ 230.0, 225.0, 212.0, 127.0 ],
-                                    "text": "Casiez, G., Roussel, N. and Vogel, D. (2012). 1€ Filter: A Simple Speed-based Low-pass Filter for Noisy Input in Interactive Systems. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI '12). Austin, Texas (May 5-12, 2012). New York: ACM Press, pp. 2527-2530.",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "Casiez, G., Roussel, N. and Vogel, D. (2012). 1€ Filter: A Simple Speed-based Low-pass Filter for Noisy Input in Interactive Systems. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI '12). Austin, Texas (May 5-12, 2012). New York: ACM Press, pp. 2527-2530."
                                 }
                             }
                         ],
@@ -1124,7 +1128,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },

@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -116,13 +116,13 @@
             {
                 "box": {
                     "bubble": 1,
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-49",
                     "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 679.0, 47.0, 87.0, 33.0 ],
+                    "patching_rect": [ 679.0, 47.0, 89.0, 35.0 ],
                     "text": "mubu.scroll configuration"
                 }
             },
@@ -186,46 +186,47 @@
             {
                 "box": {
                     "fontname": "Arial",
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-21",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 132.0, 93.0, 105.0, 20.0 ],
+                    "patching_rect": [ 132.0, 93.0, 105.0, 21.0 ],
                     "text": "s #0-float-value"
                 }
             },
             {
                 "box": {
-                    "fontsize": 9.0,
+                    "fontsize": 11.0,
                     "format": 6,
                     "id": "obj-5",
                     "maxclass": "flonum",
+                    "minimum": 0.0,
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 212.0, 186.0, 46.0, 19.0 ],
+                    "patching_rect": [ 212.0, 186.0, 46.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 86.0, 27.0, 39.0, 19.0 ]
+                    "presentation_rect": [ 86.0, 27.0, 39.0, 21.0 ]
                 }
             },
             {
                 "box": {
                     "fontname": "Arial",
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-14",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 212.0, 154.0, 107.0, 20.0 ],
+                    "patching_rect": [ 212.0, 154.0, 107.0, 21.0 ],
                     "text": "r #0-gate-level"
                 }
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
@@ -236,12 +237,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 236.0, 87.0, 221.0, 345.0 ],
+                        "rect": [ 236.0, 87.0, 231.0, 357.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -256,7 +257,7 @@
                                         "live.toggle": [ 0.0 ],
                                         "maxMonitor": [ 1.0 ],
                                         "minMonitor": [ 0.0 ],
-                                        "threshold": [ 0.1 ]
+                                        "threshold": [ 0.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u933006469"
@@ -311,12 +312,12 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-21",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 362.0, 208.5, 146.0, 20.0 ],
+                                    "patching_rect": [ 362.0, 208.5, 146.0, 21.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -368,14 +369,14 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-31",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 605.0, 106.5, 102.0, 18.0 ],
+                                    "patching_rect": [ 605.0, 106.5, 112.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 66.0, 153.0, 102.0, 18.0 ],
+                                    "presentation_rect": [ 66.0, 153.0, 112.0, 19.0 ],
                                     "text": "Max value for display"
                                 }
                             },
@@ -412,64 +413,65 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-38",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 449.0, 107.5, 100.0, 18.0 ],
+                                    "patching_rect": [ 449.0, 107.5, 109.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 66.0, 178.0, 100.0, 18.0 ],
+                                    "presentation_rect": [ 66.0, 178.0, 109.0, 19.0 ],
                                     "text": "Min value for display"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-24",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 208.0, 47.0, 70.0, 18.0 ],
+                                    "patching_rect": [ 208.0, 47.0, 76.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 66.0, 81.0, 70.0, 18.0 ],
+                                    "presentation_rect": [ 66.0, 81.0, 76.0, 19.0 ],
                                     "text": "Green = open"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-23",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 221.0, 16.0, 80.0, 20.0 ],
+                                    "patching_rect": [ 221.0, 16.0, 80.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 59.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 5.0, 59.0, 224.0, 22.0 ],
                                     "text": "Gate status"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-18",
                                     "linecount": 8,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 26.5, 279.0, 478.0, 96.0 ],
+                                    "patching_rect": [ 26.5, 279.0, 526.0, 105.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 10,
-                                    "presentation_rect": [ 6.0, 221.0, 211.0, 118.0 ],
+                                    "presentation_rect": [ 6.0, 224.0, 223.0, 129.0 ],
                                     "text": "Open the gate if the level the left input is greater than a certain level (threshold) and close the gate if lower\ninput: \n     - data values [list]\n     - float to control the gate\n\noutput:\n     - [1]: values [list] if open\n     - [2]: 0/1 close or open [int]"
                                 }
                             },
                             {
                                 "box": {
+                                    "activebgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                                     "activebgoncolor": [ 0.115151, 0.706522, 5.4e-05, 1.0 ],
                                     "id": "obj-17",
                                     "maxclass": "live.toggle",
@@ -481,6 +483,9 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 7.0, 81.0, 18.0, 18.0 ],
                                     "saved_attribute_attributes": {
+                                        "activebgcolor": {
+                                            "expression": "themecolor.theme_textcolor"
+                                        },
                                         "activebgoncolor": {
                                             "expression": ""
                                         },
@@ -500,42 +505,42 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-15",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 26.5, 252.0, 121.0, 20.0 ],
+                                    "patching_rect": [ 26.5, 252.0, 121.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 6.0, 201.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 6.0, 204.0, 224.0, 22.0 ],
                                     "text": "Help [Gate - float]"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-8",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 78.0, 182.0, 149.0, 18.0 ],
+                                    "patching_rect": [ 78.0, 182.0, 163.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 66.0, 34.0, 149.0, 18.0 ],
+                                    "presentation_rect": [ 66.0, 34.0, 163.0, 19.0 ],
                                     "text": "Level (below the gate is closed)"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-9",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 27.0, 217.0, 128.0, 20.0 ],
+                                    "patching_rect": [ 27.0, 217.0, 128.0, 21.0 ],
                                     "text": "s #0-gate-level"
                                 }
                             },
@@ -558,77 +563,83 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-3",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 26.0, 156.0, 70.0, 20.0 ],
+                                    "patching_rect": [ 26.0, 156.0, 71.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 9.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 5.0, 9.0, 224.0, 22.0 ],
                                     "text": "Threshold"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-12",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 89.5, 70.0, 67.0, 18.0 ],
+                                    "patching_rect": [ 89.5, 70.0, 73.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 66.0, 127.0, 67.0, 18.0 ],
+                                    "presentation_rect": [ 66.0, 127.0, 73.0, 19.0 ],
                                     "text": "Control value"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-11",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 26.5, 18.0, 75.0, 20.0 ],
+                                    "patching_rect": [ 26.5, 18.0, 75.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 102.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 5.0, 102.0, 224.0, 22.0 ],
                                     "text": "Monitoring"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "maxclass": "newobj",
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 27.0, 44.0, 129.0, 20.0 ],
+                                    "patching_rect": [ 27.0, 44.0, 129.0, 21.0 ],
                                     "text": "r #0-float-value"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.6509803921568628, 0.6666666666666666, 0.6627450980392157, 1.0 ],
+                                    "bgcolor": [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
                                     "fontname": "Arial",
                                     "fontsize": 12.0,
                                     "format": 6,
                                     "id": "obj-112",
-                                    "ignoreclick": 1,
                                     "maxclass": "flonum",
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
                                     "parameter_enable": 0,
+                                    "parameter_mappable": 0,
                                     "patching_rect": [ 26.5, 70.0, 69.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 7.0, 125.0, 51.0, 22.0 ]
+                                    "presentation_rect": [ 7.0, 125.0, 51.0, 22.0 ],
+                                    "saved_attribute_attributes": {
+                                        "bgcolor": {
+                                            "expression": "themecolor.theme_accentcolor"
+                                        }
+                                    },
+                                    "triangle": 0
                                 }
                             }
                         ],
@@ -723,6 +734,7 @@
             },
             {
                 "box": {
+                    "activebgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "activebgoncolor": [ 0.115151, 0.706522, 5.4e-05, 1.0 ],
                     "id": "obj-13",
                     "maxclass": "live.toggle",
@@ -734,6 +746,9 @@
                     "presentation": 1,
                     "presentation_rect": [ 1.0, 25.0, 15.0, 15.0 ],
                     "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": "themecolor.theme_textcolor"
+                        },
                         "activebgoncolor": {
                             "expression": ""
                         },
@@ -751,15 +766,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-7",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 51.5, 21.0, 113.0, 22.0 ],
+                    "patching_rect": [ 51.5, 21.0, 113.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 35.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 37.0, 21.0 ],
                     "text": "Gate"
                 }
             },
@@ -839,7 +854,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-60",
                     "maxclass": "newobj",
@@ -850,7 +865,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -860,7 +875,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "linecount": 10,
                                     "maxclass": "comment",
@@ -870,8 +885,7 @@
                                     "presentation": 1,
                                     "presentation_linecount": 13,
                                     "presentation_rect": [ 80.0, 101.0, 155.0, 152.0 ],
-                                    "text": "Open the gate if the energy from the accelerometers is greater than a certain level (threshold) and close the gate when this energy is lower than the threshold.\n\ninput: \n     - data values [list]\n\noutput:\n     - [1]: values [list] if open\n     - [2]: 0/1 close or open [int]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "Open the gate if the energy from the accelerometers is greater than a certain level (threshold) and close the gate when this energy is lower than the threshold.\n\ninput: \n     - data values [list]\n\noutput:\n     - [1]: values [list] if open\n     - [2]: 0/1 close or open [int]"
                                 }
                             },
                             {
@@ -885,31 +899,29 @@
                                     "patching_rect": [ 10.0, 6.0, 309.0, 22.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 65.0, 86.0, 203.0, 22.0 ],
-                                    "text": "Gate based on energy",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "Gate based on energy"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-59",
-                                    "linecount": 3,
+                                    "linecount": 4,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 507.0, 190.0, 146.0, 40.0 ],
                                     "presentation": 1,
-                                    "presentation_linecount": 4,
+                                    "presentation_linecount": 5,
                                     "presentation_rect": [ 20.0, 53.0, 128.0, 51.0 ],
-                                    "text": "output: \n   - left: values [list] if open\n   - right: 0/1 close or open [int]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "output: \n   - left: values [list] if open\n   - right: 0/1 close or open [int]"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-58",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -917,15 +929,14 @@
                                     "patching_rect": [ 507.0, 173.0, 153.0, 18.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 20.0, 41.0, 153.0, 18.0 ],
-                                    "text": "input: data values [list]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "input: data values [list]"
                                 }
                             }
                         ],
                         "lines": [],
                         "toolbaradditions": [ "s2n" ]
                     },
-                    "patching_rect": [ 212.0, 21.0, 44.0, 19.0 ],
+                    "patching_rect": [ 212.0, 21.0, 44.0, 21.0 ],
                     "text": "p help"
                 }
             },
@@ -956,17 +967,17 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgcolordefault": 1,
                     "bounds": [ 0.0, 1.0 ],
                     "colormode": "fgcolor",
                     "domainruler": 0,
                     "domainruler_size": 10,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,
-                    "first_cursor_value": 0.1,
+                    "first_cursor_value": 0.0,
                     "first_cursor_visible": 1,
                     "id": "obj-101",
                     "inversed": 0,
@@ -1203,14 +1214,6 @@
         "parameters": {
             "obj-13": [ "live.toggle[18]", "live.toggle", 0 ],
             "obj-8::obj-17": [ "live.toggle[14]", "live.toggle[1]", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,

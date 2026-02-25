@@ -4,14 +4,13 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 34.0, 87.0, 136.0, 120.0 ],
         "openinpresentation": 1,
-        "default_fontname": "Helvetica Neue Light",
         "boxes": [
             {
                 "box": {
@@ -91,12 +90,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 236.0, 87.0, 468.0, 327.0 ],
+                        "rect": [ 236.0, 87.0, 454.0, 327.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -134,13 +133,13 @@
                                 "box": {
                                     "id": "obj-29",
                                     "justification": 1,
-                                    "linecolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
+                                    "linecolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
                                     "maxclass": "live.line",
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 326.0, 341.0, 5.0, 100.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 225.0, 7.0, 13.0, 301.0 ],
+                                    "presentation_rect": [ 213.0, 7.0, 13.0, 312.0 ],
                                     "saved_attribute_attributes": {
                                         "linecolor": {
                                             "expression": "themecolor.live_meter_bg"
@@ -162,12 +161,12 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-24",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 734.0, 230.0, 82.0, 20.0 ],
+                                    "patching_rect": [ 734.0, 230.0, 90.0, 21.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -218,102 +217,102 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-26",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 427.0, 5.0, 239.0, 20.0 ],
+                                    "patching_rect": [ 427.0, 5.0, 239.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 237.0, 7.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 227.0, 7.0, 223.0, 22.0 ],
                                     "text": "more"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-12",
                                     "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 598.0, 128.0, 65.0, 29.0 ],
+                                    "patching_rect": [ 598.0, 128.0, 65.0, 31.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 289.0, 59.0, 76.0, 18.0 ],
+                                    "presentation_rect": [ 282.0, 59.0, 82.0, 19.0 ],
                                     "text": "Q quality factor"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-10",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 479.0, 127.0, 61.0, 18.0 ],
+                                    "patching_rect": [ 479.0, 127.0, 67.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 289.0, 35.0, 61.0, 18.0 ],
+                                    "presentation_rect": [ 282.0, 35.0, 67.0, 19.0 ],
                                     "text": "gain (linear)"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-6",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 151.0, 128.0, 101.0, 18.0 ],
+                                    "patching_rect": [ 151.0, 128.0, 110.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 63.0, 35.0, 101.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 35.0, 110.0, 19.0 ],
                                     "text": "cutoff frequency (Hz)"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 321.0, 128.0, 92.0, 18.0 ],
+                                    "patching_rect": [ 321.0, 128.0, 100.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 63.0, 59.0, 92.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 59.0, 100.0, 19.0 ],
                                     "text": "Sampling rate (Hz)"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-9",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 5.0, 5.0, 239.0, 20.0 ],
+                                    "patching_rect": [ 5.0, 5.0, 239.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 7.0, 7.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 4.0, 7.0, 207.0, 22.0 ],
                                     "text": "Lowpass Filtering"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-4",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 976.0, 126.0, 102.0, 18.0 ],
+                                    "patching_rect": [ 976.0, 126.0, 112.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 94.0, 118.0, 105.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 118.0, 112.0, 19.0 ],
                                     "text": "Max value for display"
                                 }
                             },
@@ -328,7 +327,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 927.0, 126.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 14.0, 116.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 11.0, 116.0, 50.0, 22.0 ],
                                     "varname": "maxMonitor"
                                 }
                             },
@@ -343,36 +342,36 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 766.0, 126.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 13.5, 141.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 11.0, 141.0, 50.0, 22.0 ],
                                     "varname": "minMonitor"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-1",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 820.0, 127.0, 100.0, 18.0 ],
+                                    "patching_rect": [ 820.0, 127.0, 109.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 93.5, 143.0, 105.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 143.0, 109.0, 19.0 ],
                                     "text": "Min value for display"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-11",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 764.0, 5.0, 77.0, 20.0 ],
+                                    "patching_rect": [ 764.0, 5.0, 77.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 7.5, 88.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 5.0, 88.0, 206.0, 22.0 ],
                                     "text": "Monitoring"
                                 }
                             },
@@ -444,7 +443,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 546.0, 125.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 237.0, 57.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 227.0, 57.0, 50.0, 22.0 ],
                                     "varname": "comp-exp"
                                 }
                             },
@@ -472,7 +471,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 427.0, 125.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 237.0, 33.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 227.0, 33.0, 50.0, 22.0 ],
                                     "varname": "gain"
                                 }
                             },
@@ -500,7 +499,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 99.0, 126.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 11.0, 33.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 8.0, 33.0, 50.0, 22.0 ],
                                     "varname": "cut-frequency"
                                 }
                             },
@@ -539,7 +538,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 269.0, 126.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 11.0, 57.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 8.0, 57.0, 50.0, 22.0 ],
                                     "varname": "frame-rate"
                                 }
                             },
@@ -619,47 +618,47 @@
                                 "box": {
                                     "fontface": 2,
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-3",
                                     "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1.0, 475.0, 231.0, 27.0 ],
+                                    "patching_rect": [ 1.0, 475.0, 231.0, 31.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 2,
-                                    "presentation_rect": [ 239.0, 281.0, 207.0, 27.0 ],
+                                    "presentation_rect": [ 227.0, 288.0, 226.0, 31.0 ],
                                     "text": "Note: uses PiPo from ISMM team at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-5",
                                     "linecount": 10,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 3.0, 355.0, 310.0, 118.0 ],
+                                    "patching_rect": [ 3.0, 355.0, 310.0, 129.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 10,
-                                    "presentation_rect": [ 8.0, 190.0, 206.0, 118.0 ],
+                                    "presentation_rect": [ 5.0, 190.0, 206.0, 129.0 ],
                                     "text": "Lowpass filtering of incoming data\n\ninput: \n     - data values [list]\n     - cutoff frequency (cut out \n       frequencies higher  than this value)\n     - sampling rate\n\noutput:\n     - [1]: filtered data [list]"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-7",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 3.0, 328.0, 120.0, 20.0 ],
+                                    "patching_rect": [ 3.0, 328.0, 120.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 8.0, 170.0, 209.0, 20.0 ],
+                                    "presentation_rect": [ 5.0, 170.0, 206.0, 22.0 ],
                                     "text": "Help [Lowpass]"
                                 }
                             }
@@ -1037,7 +1036,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
@@ -1048,7 +1047,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1060,7 +1059,7 @@
                                 "box": {
                                     "fontface": 2,
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-16",
                                     "linecount": 2,
                                     "maxclass": "comment",
@@ -1068,7 +1067,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ -3.0, 302.0, 231.0, 27.0 ],
                                     "presentation": 1,
-                                    "presentation_linecount": 2,
+                                    "presentation_linecount": 3,
                                     "presentation_rect": [ 5.0, 282.0, 207.0, 27.0 ],
                                     "text": "Note: uses PiPo from ISMM team at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/"
                                 }
@@ -1076,8 +1075,9 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-11",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -1090,7 +1090,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-17",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1102,8 +1102,9 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-20",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -1115,7 +1116,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-21",
                                     "maxclass": "flonum",
@@ -1154,8 +1155,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-9",
                                     "maxclass": "comment",
@@ -1170,7 +1171,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-4",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1184,7 +1185,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-5",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1196,7 +1197,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-7",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1234,7 +1235,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-14",
                                     "maxclass": "flonum",
@@ -1250,7 +1251,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-13",
                                     "maxclass": "flonum",
@@ -1266,7 +1267,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-8",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1280,7 +1281,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-3",
                                     "linecount": 10,
                                     "maxclass": "comment",
@@ -1295,8 +1296,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-2",
                                     "maxclass": "comment",
@@ -1311,8 +1312,9 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-10",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -1324,8 +1326,8 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-6",
                                     "maxclass": "comment",
@@ -1340,7 +1342,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-1",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -1352,8 +1354,9 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-51",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -1365,7 +1368,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 9.0,
+                                    "fontsize": 11.0,
                                     "format": 6,
                                     "id": "obj-48",
                                     "maxclass": "flonum",
@@ -1443,13 +1446,13 @@
                         ],
                         "toolbaradditions": [ "s2n" ]
                     },
-                    "patching_rect": [ 1003.0, 123.0, 74.0, 19.0 ],
+                    "patching_rect": [ 1003.0, 123.0, 74.0, 21.0 ],
                     "text": "p more"
                 }
             },
             {
                 "box": {
-                    "fontname": "Helvetica Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-60",
                     "maxclass": "newobj",
@@ -1460,7 +1463,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1470,7 +1473,7 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "linecount": 10,
                                     "maxclass": "comment",
@@ -1480,8 +1483,7 @@
                                     "presentation": 1,
                                     "presentation_linecount": 12,
                                     "presentation_rect": [ 80.0, 101.0, 155.0, 141.0 ],
-                                    "text": "Lowpass filtering of incoming data\n\ninput: \n     - data values [list]\n     - cutoff frequency (cut out \n       frequencies higher  than this value)\n     - sampling rate\n\noutput:\n     - [1]: filtered data [list]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "Lowpass filtering of incoming data\n\ninput: \n     - data values [list]\n     - cutoff frequency (cut out \n       frequencies higher  than this value)\n     - sampling rate\n\noutput:\n     - [1]: filtered data [list]"
                                 }
                             },
                             {
@@ -1495,31 +1497,29 @@
                                     "patching_rect": [ 10.0, 6.0, 309.0, 22.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 65.0, 86.0, 203.0, 22.0 ],
-                                    "text": "Lowpass filtering",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "Lowpass filtering"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-59",
-                                    "linecount": 3,
+                                    "linecount": 4,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 507.0, 190.0, 146.0, 40.0 ],
                                     "presentation": 1,
-                                    "presentation_linecount": 4,
+                                    "presentation_linecount": 5,
                                     "presentation_rect": [ 20.0, 53.0, 128.0, 51.0 ],
-                                    "text": "output: \n   - left: values [list] if open\n   - right: 0/1 close or open [int]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "output: \n   - left: values [list] if open\n   - right: 0/1 close or open [int]"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-58",
                                     "maxclass": "comment",
                                     "numinlets": 1,
@@ -1527,28 +1527,27 @@
                                     "patching_rect": [ 507.0, 173.0, 153.0, 18.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 20.0, 41.0, 153.0, 18.0 ],
-                                    "text": "input: data values [list]",
-                                    "textcolor": [ 0.501859, 0.501859, 0.501859, 1.0 ]
+                                    "text": "input: data values [list]"
                                 }
                             }
                         ],
                         "lines": []
                     },
-                    "patching_rect": [ 142.0, 15.0, 44.0, 19.0 ],
+                    "patching_rect": [ 142.0, 15.0, 44.0, 21.0 ],
                     "text": "p help"
                 }
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-24",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 49.0, 14.0, 63.0, 22.0 ],
+                    "patching_rect": [ 49.0, 14.0, 63.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 63.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 63.0, 21.0 ],
                     "text": "Lowpass"
                 }
             },
@@ -1556,13 +1555,13 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "bgcolordefault": 0,
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
+                    "bgcolordefault": 1,
                     "bounds": [ -1.0, 1.0 ],
                     "colormode": "fgcolor",
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,
