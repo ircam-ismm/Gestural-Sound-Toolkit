@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -137,13 +137,13 @@
             {
                 "box": {
                     "bubble": 1,
-                    "fontsize": 10.0,
+                    "fontsize": 11.0,
                     "id": "obj-7",
                     "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 748.0, 1.5, 87.0, 33.0 ],
+                    "patching_rect": [ 748.0, 1.5, 89.0, 35.0 ],
                     "text": "mubu.scroll configuration"
                 }
             },
@@ -183,7 +183,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -500,7 +500,7 @@
             },
             {
                 "box": {
-                    "fontsize": 9.0,
+                    "fontsize": 11.0,
                     "format": 6,
                     "id": "obj-5",
                     "maxclass": "flonum",
@@ -509,9 +509,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 354.0, 288.0, 48.0, 19.0 ],
+                    "patching_rect": [ 354.0, 288.0, 48.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 86.0, 27.0, 39.0, 19.0 ]
+                    "presentation_rect": [ 86.0, 27.0, 39.0, 21.0 ]
                 }
             },
             {
@@ -529,7 +529,7 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-8",
                     "maxclass": "newobj",
@@ -540,12 +540,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 242.0, 87.0, 220.0, 245.0 ],
+                        "rect": [ 242.0, 87.0, 231.0, 271.0 ],
                         "openinpresentation": 1,
                         "description": "median size [int}",
                         "boxes": [
@@ -620,12 +620,12 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-21",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 408.0, 216.0, 82.0, 20.0 ],
+                                    "patching_rect": [ 408.0, 216.0, 90.0, 21.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -677,14 +677,14 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-31",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 660.0, 114.0, 102.0, 18.0 ],
+                                    "patching_rect": [ 660.0, 114.0, 112.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 64.0, 198.0, 102.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 216.0, 112.0, 19.0 ],
                                     "text": "Max value for display"
                                 }
                             },
@@ -699,7 +699,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 611.0, 114.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 194.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 5.0, 212.0, 50.0, 22.0 ],
                                     "varname": "maxMonitor"
                                 }
                             },
@@ -714,21 +714,21 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 450.0, 114.0, 50.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 219.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 5.0, 237.0, 50.0, 22.0 ],
                                     "varname": "minMonitor"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-38",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 504.0, 115.0, 100.0, 18.0 ],
+                                    "patching_rect": [ 504.0, 115.0, 109.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 64.0, 223.0, 100.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 241.0, 109.0, 19.0 ],
                                     "text": "Min value for display"
                                 }
                             },
@@ -753,16 +753,16 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-22",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 210.0, 183.0, 115.0, 20.0 ],
+                                    "patching_rect": [ 210.0, 183.0, 115.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 104.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 5.0, 113.0, 225.0, 22.0 ],
                                     "text": "Median size"
                                 }
                             },
@@ -781,39 +781,39 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-24",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 257.0, 240.0, 69.0, 18.0 ],
+                                    "patching_rect": [ 257.0, 240.0, 69.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 64.0, 128.0, 62.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 140.0, 67.0, 19.0 ],
                                     "text": "Median size"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-25",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 210.0, 308.0, 122.0, 20.0 ],
+                                    "patching_rect": [ 210.0, 308.0, 122.0, 21.0 ],
                                     "text": "s #0-median.size"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-26",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 237.0, 209.0, 81.0, 20.0 ],
+                                    "patching_rect": [ 237.0, 209.0, 81.0, 21.0 ],
                                     "text": "loadmess 5"
                                 }
                             },
@@ -830,22 +830,22 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 210.0, 240.0, 52.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 126.0, 52.0, 22.0 ],
+                                    "presentation_rect": [ 5.0, 138.0, 52.0, 22.0 ],
                                     "varname": "medianSize"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-20",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 29.0, 216.0, 115.0, 20.0 ],
+                                    "patching_rect": [ 29.0, 216.0, 115.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 57.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 5.0, 60.0, 225.0, 22.0 ],
                                     "text": "Gate duration"
                                 }
                             },
@@ -864,40 +864,40 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-5",
                                     "linecount": 3,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 76.5, 273.0, 92.0, 40.0 ],
+                                    "patching_rect": [ 76.5, 273.0, 92.0, 43.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 64.0, 81.0, 152.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 87.0, 166.0, 19.0 ],
                                     "text": "min duration between kicks (ms)"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-7",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 29.0, 308.0, 124.0, 20.0 ],
+                                    "patching_rect": [ 29.0, 308.0, 124.0, 21.0 ],
                                     "text": "s #0-gate-duration"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-16",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 56.0, 242.5, 81.0, 20.0 ],
+                                    "patching_rect": [ 56.0, 242.5, 81.0, 21.0 ],
                                     "text": "loadmess 200."
                                 }
                             },
@@ -914,7 +914,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 29.0, 273.0, 55.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 79.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 5.0, 85.0, 50.0, 22.0 ],
                                     "varname": "minDuration"
                                 }
                             },
@@ -933,26 +933,26 @@
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-8",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 78.0, 155.0, 151.0, 18.0 ],
+                                    "patching_rect": [ 78.0, 155.0, 163.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 64.0, 27.0, 151.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 32.0, 163.0, 19.0 ],
                                     "text": "Level (below the gate is closed)"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-9",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 27.0, 190.0, 132.0, 20.0 ],
+                                    "patching_rect": [ 27.0, 190.0, 132.0, 21.0 ],
                                     "text": "s #0-threshold-level"
                                 }
                             },
@@ -969,75 +969,74 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 26.5, 155.0, 58.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 25.0, 50.0, 22.0 ],
+                                    "presentation_rect": [ 5.0, 30.0, 50.0, 22.0 ],
                                     "varname": "threshold"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-3",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 26.5, 98.0, 120.0, 20.0 ],
+                                    "patching_rect": [ 26.5, 98.0, 120.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 5.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 5.0, 5.0, 225.0, 22.0 ],
                                     "text": "Threshold"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-12",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 89.5, 70.0, 69.0, 18.0 ],
+                                    "patching_rect": [ 89.5, 70.0, 73.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 64.0, 172.0, 67.0, 18.0 ],
+                                    "presentation_rect": [ 64.0, 190.0, 73.0, 19.0 ],
                                     "text": "Control value"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.683403, 0.543763, 0.321212, 0.11 ],
-                                    "fontname": "Helvetica Light",
+                                    "bgcolor": [ 1.0, 1.0, 1.0, 0.4 ],
+                                    "fontname": "Arial",
                                     "fontsize": 14.0,
                                     "id": "obj-11",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 26.5, 18.0, 77.0, 20.0 ],
+                                    "patching_rect": [ 26.5, 18.0, 77.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 150.0, 210.0, 20.0 ],
+                                    "presentation_rect": [ 5.0, 164.0, 225.0, 22.0 ],
                                     "text": "Monitoring"
                                 }
                             },
                             {
                                 "box": {
                                     "fontname": "Arial",
-                                    "fontsize": 10.0,
+                                    "fontsize": 11.0,
                                     "id": "obj-2",
                                     "maxclass": "newobj",
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 27.0, 43.0, 110.0, 20.0 ],
+                                    "patching_rect": [ 27.0, 43.0, 110.0, 21.0 ],
                                     "text": "r #0-float-value"
                                 }
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.6509803921568628, 0.6666666666666666, 0.6627450980392157, 1.0 ],
+                                    "bgcolor": [ 0.501961, 0.501961, 0.501961, 1.0 ],
                                     "fontname": "Arial",
                                     "fontsize": 12.0,
                                     "format": 6,
                                     "id": "obj-112",
-                                    "ignoreclick": 1,
                                     "maxclass": "flonum",
                                     "numinlets": 1,
                                     "numoutlets": 2,
@@ -1045,7 +1044,13 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 26.5, 70.0, 69.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 5.0, 170.0, 50.0, 22.0 ]
+                                    "presentation_rect": [ 5.0, 188.0, 50.0, 22.0 ],
+                                    "saved_attribute_attributes": {
+                                        "bgcolor": {
+                                            "expression": "themecolor.theme_accentcolor"
+                                        }
+                                    },
+                                    "triangle": 0
                                 }
                             }
                         ],
@@ -1363,15 +1368,15 @@
             },
             {
                 "box": {
-                    "fontname": "Helvetica Neue Light",
+                    "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-27",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 24.5, 3.0, 98.0, 22.0 ],
+                    "patching_rect": [ 24.5, 3.0, 98.0, 21.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 74.0, 22.0 ],
+                    "presentation_rect": [ 0.0, 1.0, 77.0, 21.0 ],
                     "text": "Kick (onset)"
                 }
             },
@@ -1854,14 +1859,6 @@
         ],
         "parameters": {
             "obj-4": [ "live.button[3]", "live.button", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
