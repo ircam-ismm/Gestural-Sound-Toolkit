@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 87.0, 135.0, 121.0 ],
+        "rect": [ 34.0, 106.0, 135.0, 121.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -334,7 +334,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n" ]
+                        "toolbaradditions": [ "s2n", "Modalys" ]
                     },
                     "patching_rect": [ 193.0, 453.0, 138.0, 22.0 ],
                     "text": "p debounce"
@@ -1032,7 +1032,7 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.501961, 0.501961, 0.501961, 1.0 ],
+                                    "bgcolor": [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
                                     "fontname": "Arial",
                                     "fontsize": 12.0,
                                     "format": 6,
@@ -1297,7 +1297,7 @@
                     "numinlets": 2,
                     "numoutlets": 3,
                     "outlettype": [ "float", "int", "int" ],
-                    "patching_rect": [ 75.0, 620.0, 130.0, 21.0 ],
+                    "patching_rect": [ 75.0, 620.0, 137.0, 21.0 ],
                     "text": "peak 0."
                 }
             },
@@ -1443,13 +1443,13 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgcolordefault": 1,
                     "bounds": [ 0.0, 1.0 ],
                     "colormode": "fgcolor",
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,
@@ -1544,7 +1544,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-23", 1 ],
-                    "midpoints": [ 56.5, 607.0, 195.5, 607.0 ],
+                    "midpoints": [ 56.5, 607.0, 202.5, 607.0 ],
                     "source": [ "obj-18", 1 ]
                 }
             },
@@ -1859,6 +1859,14 @@
         ],
         "parameters": {
             "obj-4": [ "live.button[3]", "live.button", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,

@@ -103,18 +103,6 @@
             },
             {
                 "box": {
-                    "attr": "bounds",
-                    "id": "obj-55",
-                    "maxclass": "attrui",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 745.0, 285.0, 185.0, 22.0 ]
-                }
-            },
-            {
-                "box": {
                     "bubble": 1,
                     "fontsize": 11.0,
                     "id": "obj-49",
@@ -1159,12 +1147,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-101", 0 ],
-                    "source": [ "obj-55", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-62", 0 ],
                     "source": [ "obj-59", 0 ]
                 }
@@ -1214,6 +1196,14 @@
         "parameters": {
             "obj-13": [ "live.toggle[18]", "live.toggle", 0 ],
             "obj-8::obj-17": [ "live.toggle[14]", "live.toggle[1]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
