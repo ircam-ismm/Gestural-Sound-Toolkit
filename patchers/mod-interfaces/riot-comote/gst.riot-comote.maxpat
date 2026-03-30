@@ -1933,7 +1933,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-108",
-					"items" : [ "none", ",", "qlim", ",", "qball", ",", "qmetro", ",", "metro", ",", "external" ],
+					"items" : [ "metro", ",", "external", ",", "none", ",", "qlim", ",", "qball", ",", "qmetro" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4168,7 +4168,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 326.0, 332.0, 1333.0, 938.0 ],
+						"rect" : [ 326.0, 101.0, 1333.0, 938.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"visible" : 1,
@@ -5948,7 +5948,6 @@
 										"classnamespace" : "box",
 										"rect" : [ 694.0, 200.0, 1000.0, 780.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-48",
@@ -8420,7 +8419,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-19",
-									"items" : [ "none", ",", "qlim", ",", "qball", ",", "qmetro", ",", "metro", ",", "external" ],
+									"items" : [ "metro", ",", "external", ",", "none", ",", "qlim", ",", "qball", ",", "qmetro" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8428,7 +8427,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 238.0, 202.0, 100.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 416.0, 25.5, 100.0, 22.0 ]
+									"presentation_rect" : [ 416.0, 25.5, 70.103088855743408, 22.0 ]
 								}
 
 							}
@@ -8455,7 +8454,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 42.0, 280.0, 375.0, 22.0 ],
-									"text" : "comote_riot_osc_receive @scheduler none @port 8888 @id 0"
+									"text" : "comote_riot_osc_receive"
 								}
 
 							}
