@@ -3413,8 +3413,6 @@
 													"saved_object_attributes" : 													{
 														"autostart" : 0,
 														"defer" : 0,
-														"node_bin_path" : "",
-														"npm_bin_path" : "",
 														"watch" : 0
 													}
 ,
@@ -4173,6 +4171,79 @@
 						"gridsize" : [ 15.0, 15.0 ],
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-136",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 695.0, 251.0, 76.0, 38.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 693.0, 254.739132285118103, 85.0, 22.0 ],
+									"text" : "Rel. altitude"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-119",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 783.5, 922.0, 37.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 740.5, 221.739132285118103, 43.0, 22.0 ],
+									"text" : "hPa"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-108",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 751.5, 898.0, 82.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 776.0, 947.0, 86.0, 22.0 ],
+									"text" : "Barometer "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-104",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 783.5, 872.0, 50.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 692.5, 221.739132285118103, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-47",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "float" ],
+									"patching_rect" : [ 784.0, 826.0, 75.0, 22.0 ],
+									"text" : "unpack f f"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-38",
 									"maxclass" : "newobj",
@@ -7683,23 +7754,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 788.5, 839.0, 47.0, 22.0 ],
+									"patching_rect" : [ 840.0, 850.0, 47.0, 22.0 ],
 									"text" : "qlim 50"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial Italic",
-									"fontsize" : 12.0,
-									"id" : "obj-136",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 796.5, 964.0, 42.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 704.7662353515625, 357.5, 49.0, 20.0 ],
-									"text" : " ?"
 								}
 
 							}
@@ -7709,10 +7765,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 756.5, 914.0, 33.0, 20.0 ],
+									"patching_rect" : [ 859.5, 920.0, 33.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 682.0, 345.0, 40.0, 20.0 ],
-									"text" : "?"
+									"presentation_rect" : [ 692.5, 340.739132285118103, 21.0, 20.0 ],
+									"text" : "-2"
 								}
 
 							}
@@ -7722,10 +7778,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 758.5, 851.0, 29.0, 20.0 ],
+									"patching_rect" : [ 861.5, 879.0, 29.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 685.0, 218.0, 40.0, 20.0 ],
-									"text" : "?"
+									"presentation_rect" : [ 692.5, 278.739132285118103, 21.0, 20.0 ],
+									"text" : "2"
 								}
 
 							}
@@ -7763,12 +7819,11 @@
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"parameter_mappable" : 0,
-									"patching_rect" : [ 787.5, 867.0, 20.0, 67.0 ],
+									"patching_rect" : [ 838.0, 874.0, 21.0, 60.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 700.0, 221.0, 32.0, 136.0 ],
-									"setminmax" : [ 900.0, 1100.0 ],
-									"setstyle" : 1,
-									"size" : 2
+									"presentation_rect" : [ 715.5, 278.739132285118103, 20.0, 78.0 ],
+									"setminmax" : [ -2.0, 2.0 ],
+									"setstyle" : 1
 								}
 
 							}
@@ -7780,9 +7835,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 787.5, 936.0, 87.0, 22.0 ],
+									"patching_rect" : [ 825.5, 945.0, 76.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 686.2662353515625, 196.739132285118103, 86.0, 22.0 ],
+									"presentation_rect" : [ 692.5, 197.10145092010498, 117.0, 22.0 ],
 									"text" : "Barometer"
 								}
 
@@ -8553,9 +8608,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 936.5, 868.0, 71.87499725818634, 38.0 ],
+									"patching_rect" : [ 946.0, 671.0, 71.87499725818634, 38.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 764.0, 289.739132285118103, 131.0, 22.0 ],
+									"presentation_rect" : [ 810.0, 289.739132285118103, 131.0, 22.0 ],
 									"text" : "Button B (external)"
 								}
 
@@ -8571,7 +8626,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 962.5, 724.0, 38.75, 38.75 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 764.0, 313.739132285118103, 38.75, 38.75 ]
+									"presentation_rect" : [ 810.0, 313.739132285118103, 38.75, 38.75 ]
 								}
 
 							}
@@ -8897,9 +8952,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 862.5, 867.0, 77.0, 38.0 ],
+									"patching_rect" : [ 862.375, 671.0, 77.0, 38.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 763.0, 196.739132285118103, 135.0, 22.0 ],
+									"presentation_rect" : [ 809.0, 196.739132285118103, 135.0, 22.0 ],
 									"text" : "Button A (on board)"
 								}
 
@@ -8915,7 +8970,7 @@
 									"parameter_mappable" : 0,
 									"patching_rect" : [ 881.5, 724.0, 38.75, 38.75 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 764.0, 225.0, 38.75, 38.75 ]
+									"presentation_rect" : [ 810.0, 224.739132285118103, 38.75, 38.75 ]
 								}
 
 							}
@@ -9633,7 +9688,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-135", 0 ],
+									"destination" : [ "obj-47", 0 ],
 									"source" : [ "obj-139", 0 ]
 								}
 
@@ -10347,6 +10402,20 @@
 									"destination" : [ "obj-4", 0 ],
 									"midpoints" : [ 217.5, 271.0078125, 51.5, 271.0078125 ],
 									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-104", 0 ],
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-135", 0 ],
+									"source" : [ "obj-47", 1 ]
 								}
 
 							}
