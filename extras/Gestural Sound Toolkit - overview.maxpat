@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 106.0, 1446.0, 924.0 ],
+        "rect": [ 34.0, 87.0, 1446.0, 924.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -208,7 +208,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 132.0, 1446.0, 898.0 ],
+                        "rect": [ 34.0, 113.0, 1446.0, 898.0 ],
                         "bglocked": 1,
                         "showontab": 1,
                         "boxes": [
@@ -1770,7 +1770,7 @@
                                     "numoutlets": 1,
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "multichannelsignal" ],
-                                    "patching_rect": [ 805.0036163330078, 679.0541305541992, 240.79486083984375, 145.89173889160156 ],
+                                    "patching_rect": [ 804.7984771728516, 687.5541305541992, 240.79486083984375, 145.89173889160156 ],
                                     "viewvisibility": 1
                                 }
                             },
@@ -2066,7 +2066,7 @@
                                     "color": [ 0.229955330491066, 0.329126477241516, 0.658362507820129, 1.0 ],
                                     "destination": [ "obj-31", 0 ],
                                     "midpoints": [ 725.5, 224.31726455688477, 725.5, 224.31726455688477 ],
-                                    "order": 1,
+                                    "order": 0,
                                     "source": [ "obj-12", 0 ]
                                 }
                             },
@@ -2084,7 +2084,7 @@
                                     "color": [ 0.229955330491066, 0.329126477241516, 0.658362507820129, 1.0 ],
                                     "destination": [ "obj-48", 0 ],
                                     "midpoints": [ 725.5, 226.8861312866211, 906.5, 226.8861312866211, 906.5, 59.178550720214844, 927.5, 59.178550720214844 ],
-                                    "order": 0,
+                                    "order": 1,
                                     "source": [ "obj-12", 0 ]
                                 }
                             },
@@ -2439,14 +2439,6 @@
             "obj-3::obj-15::obj-22": [ "synthScratch-out", "ScrOut", 0 ],
             "obj-3::obj-3::obj-4": [ "live.button[2]", "live.button", 0 ],
             "obj-3::obj-40::obj-2": [ "live.gain~[19]", "FM-Out", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-3::obj-12::obj-55": {
                     "parameter_longname": "live.text[38]"
