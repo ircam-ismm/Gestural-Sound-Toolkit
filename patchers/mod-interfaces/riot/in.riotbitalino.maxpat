@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 310.0, 96.0, 258.0, 140.0 ],
+        "rect": [ 310.0, 96.0, 1186.0, 680.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -130,7 +130,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 463.0, 181.0, 50.0, 21.0 ],
+                    "patching_rect": [ 506.9090909090909, 182.0, 50.0, 21.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 169.0, 28.0, 46.0, 21.0 ],
                     "saved_attribute_attributes": {
@@ -632,6 +632,14 @@
         ],
         "parameters": {
             "obj-9": [ "#0-id-clock", "#0-id-clock", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,

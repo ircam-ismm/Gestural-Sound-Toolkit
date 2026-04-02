@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 637.0, 96.0, 813.0, 388.0 ],
+        "rect": [ 637.0, 96.0, 1548.0, 489.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -166,7 +166,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1417,7 +1417,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1715,16 +1715,16 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 882.0, 473.0, 723.0, 586.0 ],
+                        "rect": [ 919.0, 581.0, 723.0, 586.0 ],
                         "boxes": [
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "bang monitor",
                                     "id": "obj-9",
                                     "index": 4,
                                     "maxclass": "outlet",
@@ -1909,7 +1909,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "0/1 ext./int. clock flag",
                                     "id": "obj-22",
                                     "index": 2,
                                     "maxclass": "outlet",
@@ -1953,7 +1953,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "on/off",
+                                    "comment": "id clock",
                                     "id": "obj-128",
                                     "index": 4,
                                     "maxclass": "inlet",
@@ -2057,7 +2057,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "int. on/off",
                                     "id": "obj-1",
                                     "index": 1,
                                     "maxclass": "inlet",
@@ -2095,7 +2095,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "incoming data",
                                     "id": "obj-52",
                                     "index": 2,
                                     "maxclass": "inlet",
@@ -2107,7 +2107,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "int. resampling period",
                                     "id": "obj-53",
                                     "index": 3,
                                     "maxclass": "inlet",
@@ -2130,7 +2130,7 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "current frame period",
                                     "id": "obj-64",
                                     "index": 3,
                                     "maxclass": "outlet",

@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 87.0, 446.0, 315.0 ],
+        "rect": [ 758.0, 288.0, 205.0, 124.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -51,22 +51,22 @@
                 "box": {
                     "id": "obj-21",
                     "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 97.5, 47.0, 188.0, 22.0 ],
-                    "text": "route bang frameperiod framerate"
+                    "numinlets": 5,
+                    "numoutlets": 5,
+                    "outlettype": [ "", "", "", "", "" ],
+                    "patching_rect": [ 97.5, 47.0, 215.0, 22.0 ],
+                    "text": "route bang frameperiod framerate start"
                 }
             },
             {
                 "box": {
                     "comment": "",
                     "id": "obj-15",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "int" ],
                     "patching_rect": [ 97.5, 7.0, 30.0, 30.0 ]
                 }
             },
@@ -99,10 +99,10 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 406.0, 448.5, 56.0, 22.0 ],
                     "restore": {
-                        "#0-FramePeriod": [ 10.0 ],
-                        "#0-FrameRate": [ 100.0 ],
-                        "#0-Mclock": [ 1 ],
-                        "#0-id-clock": [ 0 ]
+                        "1487-FramePeriod": [ 10.0 ],
+                        "1487-FrameRate": [ 100.0 ],
+                        "1487-Mclock": [ 1 ],
+                        "1487-id-clock": [ 0 ]
                     },
                     "text": "autopattr",
                     "varname": "u682008148"
@@ -286,9 +286,9 @@
                             "parameter_initial_enable": 1,
                             "parameter_invisible": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "#0-id-clock",
+                            "parameter_longname": "1487-id-clock",
                             "parameter_modmode": 4,
-                            "parameter_shortname": "#0-id-clock",
+                            "parameter_shortname": "1487-id-clock",
                             "parameter_type": 1
                         }
                     },
@@ -413,7 +413,7 @@
                             "parameter_initial": [ 1 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "#0-Mclock",
+                            "parameter_longname": "1487-Mclock",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Mclock",
@@ -457,7 +457,7 @@
                             "parameter_initial_enable": 1,
                             "parameter_invisible": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "#0-FramePeriod",
+                            "parameter_longname": "1487-FramePeriod",
                             "parameter_mmax": 1000.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "FramePeriod",
@@ -577,6 +577,12 @@
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
                     "source": [ "obj-21", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-21", 3 ]
                 }
             },
             {
@@ -732,22 +738,6 @@
                 }
             }
         ],
-        "parameters": {
-            "obj-11": [ "number", "number", 0 ],
-            "obj-31": [ "#0-id-clock", "#0-id-clock", 0 ],
-            "obj-4": [ "#0-FramePeriod", "FramePeriod", 0 ],
-            "obj-8": [ "#0-Mclock", "Mclock", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }
