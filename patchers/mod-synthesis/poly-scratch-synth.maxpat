@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1882.0, 293.0, 672.0, 509.0 ],
+        "rect": [ 34.0, 93.0, 672.0, 509.0 ],
         "boxes": [
             {
                 "box": {
@@ -164,10 +164,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 460.0, 42.0, 28.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "in 3"
                 }
             },
@@ -179,10 +175,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 313.0, 42.0, 28.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "in 2"
                 }
             },
@@ -249,6 +241,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 243.0, 471.0, 42.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out~ 2"
                 }
             },
@@ -259,6 +255,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 172.0, 471.0, 42.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out~ 1"
                 }
             },
@@ -270,6 +270,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 172.0, 6.0, 28.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "in 1"
                 }
             },
@@ -570,6 +574,7 @@
                 }
             }
         ],
+        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

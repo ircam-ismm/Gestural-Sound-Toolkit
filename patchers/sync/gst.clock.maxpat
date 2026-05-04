@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 3,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 444.0, 94.0, 88.0, 107.0 ],
+        "rect": [ 34.0, 93.0, 95.0, 102.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -25,7 +25,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 3,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -346,14 +346,14 @@
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "1774-clock-type",
+                            "parameter_longname": "clock-type",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "clock-type",
                             "parameter_type": 2
                         }
                     },
-                    "varname": "#0-clock-type"
+                    "varname": "clock-type"
                 }
             },
             {
@@ -373,10 +373,10 @@
                     "id": "obj-27",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "resync" ],
-                    "patching_rect": [ 325.0, 491.0, 51.0, 22.0 ],
-                    "text": "t resync"
+                    "numoutlets": 2,
+                    "outlettype": [ "resync", "bang" ],
+                    "patching_rect": [ 320.0, 447.0, 61.0, 22.0 ],
+                    "text": "t resync b"
                 }
             },
             {
@@ -406,7 +406,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-15",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -443,12 +443,12 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 517.0, 549.0, 56.0, 22.0 ],
                     "restore": {
-                        "1781-FramePeriod": [ 0.0 ],
-                        "1781-FrameRate": [ 0.0 ],
-                        "1781-Mclock": [ 1.0 ],
-                        "1781-clock-type": [ 0.0 ],
-                        "1781-id-clock": [ 0.0 ],
-                        "live.button[1]": [ 0.0 ]
+                        "FramePeriod": [ 10.0 ],
+                        "FrameRate": [ 100.0 ],
+                        "Mclock": [ 1.0 ],
+                        "clock-type": [ 0.0 ],
+                        "id-clock": [ 0.0 ],
+                        "resync": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u682008148"
@@ -459,10 +459,10 @@
                     "id": "obj-22",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "bang", "bang", "bang" ],
-                    "patching_rect": [ 208.0, 127.0, 42.0, 22.0 ],
-                    "text": "t b b b"
+                    "numoutlets": 2,
+                    "outlettype": [ "bang", "bang" ],
+                    "patching_rect": [ 208.0, 127.0, 32.0, 22.0 ],
+                    "text": "t b b"
                 }
             },
             {
@@ -475,20 +475,22 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 325.0, 463.0, 15.0, 15.0 ],
+                    "patching_rect": [ 320.0, 419.0, 15.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 66.5, 43.0, 15.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
-                            "parameter_longname": "live.button[8]",
+                            "parameter_invisible": 2,
+                            "parameter_linknames": 1,
+                            "parameter_longname": "resync",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "live.button",
+                            "parameter_shortname": "resync",
                             "parameter_type": 2
                         }
                     },
-                    "varname": "live.button[1]"
+                    "varname": "resync"
                 }
             },
             {
@@ -637,14 +639,16 @@
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "1774-id-clock",
+                            "parameter_invisible": 2,
+                            "parameter_linknames": 1,
+                            "parameter_longname": "id-clock",
                             "parameter_modmode": 3,
-                            "parameter_shortname": "live.numbox",
+                            "parameter_shortname": "id-clock",
                             "parameter_type": 0,
                             "parameter_unitstyle": 0
                         }
                     },
-                    "varname": "#0-id-clock"
+                    "varname": "id-clock"
                 }
             },
             {
@@ -710,7 +714,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_linknames": 1,
-                            "parameter_longname": "1774-FrameRate",
+                            "parameter_longname": "FrameRate",
                             "parameter_mmax": 20000.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "FrameRate",
@@ -718,7 +722,7 @@
                             "parameter_unitstyle": 3
                         }
                     },
-                    "varname": "#0-FrameRate"
+                    "varname": "FrameRate"
                 }
             },
             {
@@ -751,14 +755,15 @@
                             "parameter_enum": [ "off", "on" ],
                             "parameter_initial": [ 1.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "1774-Mclock",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "Mclock",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Mclock",
                             "parameter_type": 2
                         }
                     },
-                    "varname": "#0-Mclock"
+                    "varname": "Mclock"
                 }
             },
             {
@@ -779,7 +784,7 @@
                             "parameter_initial": [ 10.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "1774-FramePeriod",
+                            "parameter_longname": "FramePeriod",
                             "parameter_mmax": 1000.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "FramePeriod",
@@ -787,7 +792,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
-                    "varname": "#0-FramePeriod"
+                    "varname": "FramePeriod"
                 }
             },
             {
@@ -910,14 +915,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-11", 0 ],
-                    "source": [ "obj-22", 1 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-31", 0 ],
-                    "source": [ "obj-22", 2 ]
+                    "source": [ "obj-22", 1 ]
                 }
             },
             {
@@ -942,6 +941,12 @@
                 "patchline": {
                     "destination": [ "obj-20", 0 ],
                     "source": [ "obj-27", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-27", 1 ]
                 }
             },
             {
@@ -1143,6 +1148,24 @@
                 }
             }
         ],
+        "parameters": {
+            "obj-11": [ "FrameRate", "FrameRate", 0 ],
+            "obj-17": [ "resync", "resync", 0 ],
+            "obj-28": [ "clock-type", "clock-type", 0 ],
+            "obj-31": [ "id-clock", "id-clock", 0 ],
+            "obj-4": [ "FramePeriod", "FramePeriod", 0 ],
+            "obj-8": [ "Mclock", "Mclock", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }
