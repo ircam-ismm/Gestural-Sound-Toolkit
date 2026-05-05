@@ -389,7 +389,6 @@
                         "rect": [ 235.0, 93.0, 233.0, 272.0 ],
                         "openinpresentation": 1,
                         "description": "median size [int}",
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1672,7 +1671,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 898.0, 543.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 23.0, 137.0, 107.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 136.0, 107.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,

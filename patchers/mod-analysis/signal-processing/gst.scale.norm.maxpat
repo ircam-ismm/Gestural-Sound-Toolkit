@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 135.0, 115.0 ],
+        "rect": [ 34.0, 94.0, 135.0, 115.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -135,7 +135,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 1815.0, 194.0, 1150.0, 1060.0 ],
-                        "title": "gyro-scalenorm",
+                        "title": "B-scalenorm",
                         "boxes": [
                             {
                                 "box": {
@@ -312,8 +312,8 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 787.0, 122.94999999999999, 56.0, 22.0 ],
                                     "restore": {
-                                        "gyro-SclMax": [ 100.0 ],
-                                        "gyro-SclMin": [ -100.0 ]
+                                        "B-SclMax": [ 100.0 ],
+                                        "B-SclMin": [ -100.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u414003394"
@@ -1110,7 +1110,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "gyro-SclMax"
+                                    "varname": "B-SclMax"
                                 }
                             },
                             {
@@ -1133,7 +1133,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "gyro-SclMin"
+                                    "varname": "B-SclMin"
                                 }
                             },
                             {
@@ -1809,6 +1809,9 @@
             },
             {
                 "box": {
+                    "annotation": "A/B monitor",
+                    "annotation_name": "A/B monitor",
+                    "hint": "A/B monitor",
                     "id": "obj-31",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -1928,7 +1931,7 @@
             },
             {
                 "box": {
-                    "comment": "compressed and linear intensity",
+                    "comment": "normalized B",
                     "id": "obj-25",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1955,7 +1958,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 447.0, 201.0, 1150.0, 1060.0 ],
-                        "title": "acc-scalenorm",
+                        "title": "A-scalenorm",
                         "boxes": [
                             {
                                 "box": {
@@ -2132,8 +2135,8 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 787.0, 122.94999999999999, 56.0, 22.0 ],
                                     "restore": {
-                                        "acc-SclMax": [ 100.0 ],
-                                        "acc-SclMin": [ -100.0 ]
+                                        "A-SclMax": [ 100.0 ],
+                                        "A-SclMin": [ -100.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u414003394"
@@ -2930,7 +2933,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "acc-SclMax"
+                                    "varname": "A-SclMax"
                                 }
                             },
                             {
@@ -2953,7 +2956,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "acc-SclMin"
+                                    "varname": "A-SclMin"
                                 }
                             },
                             {
@@ -3529,7 +3532,7 @@
             },
             {
                 "box": {
-                    "comment": "gyroscope data [list of 3 floats]",
+                    "comment": "B data [list of 3 floats]",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",
@@ -4283,7 +4286,7 @@
             },
             {
                 "box": {
-                    "comment": "normalized accellerometer",
+                    "comment": "normalized A",
                     "id": "obj-1",
                     "index": 0,
                     "maxclass": "outlet",
@@ -4294,7 +4297,7 @@
             },
             {
                 "box": {
-                    "comment": "aaccelerometer data [list of 3 floats]",
+                    "comment": "A data [list of 3 floats]",
                     "id": "obj-91",
                     "index": 0,
                     "maxclass": "inlet",
@@ -4345,7 +4348,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 579.0, 709.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 35.0, 131.0, 80.0 ],
+                    "presentation_rect": [ 0.0, 35.0, 131.0, 76.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,

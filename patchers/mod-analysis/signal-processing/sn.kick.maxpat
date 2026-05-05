@@ -476,22 +476,29 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
-                    "checkedcolor": [ 0.0, 1.0, 0.372549019607843, 1.0 ],
+                    "activebgoncolor": [ 0.0, 0.854901960784314, 0.282352941176471, 1.0 ],
                     "id": "obj-4",
-                    "ignoreclick": 1,
-                    "maxclass": "toggle",
+                    "maxclass": "live.button",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "parameter_enable": 0,
-                    "parameter_mappable": 0,
-                    "patching_rect": [ 498.0, 772.0, 24.0, 24.0 ],
+                    "outlettype": [ "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 498.0, 772.0, 15.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1.0, 25.0, 12.0, 12.0 ],
-                    "size": 100.0,
-                    "thickness": 100.0,
-                    "uncheckedcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "presentation_rect": [ 1.0, 25.0, 15.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "activebgoncolor": {
+                            "expression": "themecolor.live_macro_assignment"
+                        },
+                        "valueof": {
+                            "parameter_enum": [ "off", "on" ],
+                            "parameter_longname": "live.button[1]",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "live.button[1]",
+                            "parameter_type": 2
+                        }
+                    },
                     "varname": "live.button"
                 }
             },
@@ -1512,7 +1519,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 522.0, 772.0, 88.0, 19.0 ],
+                    "patching_rect": [ 520.0, 777.0, 88.0, 19.0 ],
                     "text": "Bang when kick"
                 }
             },
@@ -1537,7 +1544,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 497.0, 820.0, 25.0, 25.0 ]
+                    "patching_rect": [ 498.0, 820.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -1588,9 +1595,9 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 963.0, 528.0, 10.0, 10.0 ],
+                    "patching_rect": [ 963.0, 528.0, 46.0, 58.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 23.0, 123.918452501297, 94.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 131.0, 94.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -1772,7 +1779,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-101", 0 ],
-                    "midpoints": [ 644.5, 449.0, 967.0, 449.0 ],
+                    "midpoints": [ 644.5, 449.0, 972.5, 449.0 ],
                     "source": [ "obj-32", 0 ]
                 }
             },
@@ -2014,6 +2021,7 @@
         ],
         "parameters": {
             "obj-17": [ "live.text[3]", "live.text", 0 ],
+            "obj-4": [ "live.button[1]", "live.button[1]", 0 ],
             "obj-8::obj-14": [ "threshold", "threshold", 0 ],
             "obj-8::obj-17": [ "minDuration", "threshold", 0 ],
             "obj-8::obj-27": [ "medianSize", "maveragewindow", 0 ],

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 1360.0, 590.0 ],
+        "rect": [ 134.0, 174.0, 1360.0, 590.0 ],
         "boxes": [
             {
                 "box": {
@@ -160,7 +160,7 @@
                     "numoutlets": 4,
                     "offset": [ -6.0, -7.0 ],
                     "outlettype": [ "multichannelsignal", "", "", "" ],
-                    "patching_rect": [ 649.0, 208.0, 258.0, 145.89173889160156 ],
+                    "patching_rect": [ 640.0, 208.0, 267.0, 145.89173889160156 ],
                     "varname": "synth.FM",
                     "viewvisibility": 1
                 }
@@ -312,7 +312,7 @@
             "obj-20::obj-2": [ "live.gain~[3]", "ogain", 0 ],
             "obj-20::obj-88": [ "start[1]", "start", 0 ],
             "obj-26::obj-2": [ "live.gain~[5]", "ogain", 0 ],
-            "obj-40::obj-2": [ "live.gain~[1]", "FM-Out", 0 ],
+            "obj-40::obj-2": [ "live.gain~[1]", "ogain", 0 ],
             "obj-40::obj-20": [ "harmonicity", "harmonicity", 0 ],
             "obj-40::obj-21": [ "carrier", "carrier", 0 ],
             "obj-40::obj-24": [ "duration", "duration", 0 ],
@@ -323,6 +323,14 @@
             "obj-60::obj-18": [ "minF", "minF", 0 ],
             "obj-60::obj-19": [ "maxF", "maxF", 0 ],
             "obj-60::obj-2": [ "live.gain~[2]", "ogain", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-15::obj-22": {
                     "parameter_longname": "live.gain~",

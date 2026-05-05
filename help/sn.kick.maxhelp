@@ -18,17 +18,17 @@
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "id": "obj-3",
+                    "id": "obj-6",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "gst.kick.maxpat",
+                    "name": "sn.kick.maxpat",
                     "numinlets": 5,
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "int", "" ],
-                    "patching_rect": [ 46.0, 637.0, 434.0, 239.0 ],
-                    "varname": "gst.kick",
+                    "patching_rect": [ 46.0, 638.0, 434.0, 237.0 ],
+                    "varname": "sn.kick",
                     "viewvisibility": 1
                 }
             },
@@ -152,7 +152,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 101.0, 43.0, 116.0, 42.0 ],
-                    "text": "gst.kick"
+                    "text": "sn.kick"
                 }
             },
             {
@@ -192,7 +192,7 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-3", 0 ],
+                    "destination": [ "obj-6", 0 ],
                     "source": [ "obj-11", 0 ]
                 }
             },
@@ -263,13 +263,6 @@
             "obj-17::obj-5::obj-37": [ "minMonitor", "minMonitor", 0 ],
             "obj-17::obj-5::obj-42": [ "frame-rate", "framerate", 0 ],
             "obj-17::obj-5::obj-48": [ "gyroweight", "maveragewindow", 0 ],
-            "obj-3::obj-17": [ "live.text[8]", "live.text", 0 ],
-            "obj-3::obj-4": [ "live.button[1]", "live.button[1]", 0 ],
-            "obj-3::obj-8::obj-14": [ "threshold", "threshold", 0 ],
-            "obj-3::obj-8::obj-17": [ "minDuration", "threshold", 0 ],
-            "obj-3::obj-8::obj-27": [ "medianSize", "maveragewindow", 0 ],
-            "obj-3::obj-8::obj-34": [ "maxMonitor[1]", "maxMonitor", 0 ],
-            "obj-3::obj-8::obj-37": [ "minMonitor[1]", "minMonitor", 0 ],
             "obj-48::obj-15": [ "live.text[4]", "live.text", 0 ],
             "obj-48::obj-16": [ "loop", "loop", 0 ],
             "obj-48::obj-18": [ "live.text[7]", "live.text", 0 ],
@@ -279,6 +272,13 @@
             "obj-48::obj-57": [ "live.toggle[2]", "autoscale", 0 ],
             "obj-48::obj-6": [ "live.text[6]", "live.text", 0 ],
             "obj-48::obj-71": [ "live.toggle[1]", "live.toggle", 0 ],
+            "obj-6::obj-17": [ "live.text[8]", "live.text", 0 ],
+            "obj-6::obj-4": [ "live.button[1]", "live.button[1]", 0 ],
+            "obj-6::obj-8::obj-14": [ "threshold", "threshold", 0 ],
+            "obj-6::obj-8::obj-17": [ "minDuration", "threshold", 0 ],
+            "obj-6::obj-8::obj-27": [ "medianSize", "maveragewindow", 0 ],
+            "obj-6::obj-8::obj-34": [ "maxMonitor[1]", "maxMonitor", 0 ],
+            "obj-6::obj-8::obj-37": [ "minMonitor[1]", "minMonitor", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -288,17 +288,17 @@
                 }
             },
             "parameter_overrides": {
-                "obj-3::obj-17": {
-                    "parameter_longname": "live.text[8]"
-                },
-                "obj-3::obj-8::obj-34": {
-                    "parameter_longname": "maxMonitor[1]"
-                },
-                "obj-3::obj-8::obj-37": {
-                    "parameter_longname": "minMonitor[1]"
-                },
                 "obj-48::obj-57": {
                     "parameter_longname": "live.toggle[2]"
+                },
+                "obj-6::obj-17": {
+                    "parameter_longname": "live.text[8]"
+                },
+                "obj-6::obj-8::obj-34": {
+                    "parameter_longname": "maxMonitor[1]"
+                },
+                "obj-6::obj-8::obj-37": {
+                    "parameter_longname": "minMonitor[1]"
                 }
             },
             "inherited_shortname": 1
