@@ -9,20 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 366.0, 783.0, 632.0, 371.0 ],
+        "rect": [ 34.0, 93.0, 193.0, 94.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "boxes": [
             {
                 "box": {
-                    "comment": "Audio input 2",
+                    "comment": "level in dB [-70 0] ",
                     "id": "obj-7",
                     "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 89.0, 33.5, 25.0, 25.0 ]
+                    "patching_rect": [ 90.0, 30.0, 25.0, 25.0 ]
                 }
             },
             {

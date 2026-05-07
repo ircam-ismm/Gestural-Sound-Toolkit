@@ -181,9 +181,9 @@
                     "maxclass": "bpatcher",
                     "name": "sn.1euro.maxpat",
                     "numinlets": 4,
-                    "numoutlets": 1,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "" ],
+                    "outlettype": [ "", "" ],
                     "patcher": {
                         "fileversion": 1,
                         "appversion": {
@@ -194,9 +194,42 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 95.0, 133.0, 119.0 ],
+                        "rect": [ 34.0, 93.0, 131.0, 118.0 ],
                         "openinpresentation": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "comment": "filtered data",
+                                    "id": "obj-19",
+                                    "index": 2,
+                                    "maxclass": "outlet",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 182.0, 537.0, 30.0, 30.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-16",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 255.0, 434.0, 55.0, 22.0 ],
+                                    "text": "zl.slice 3"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-15",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 291.0, 401.0, 37.0, 22.0 ],
+                                    "text": "zl.len"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-40",
@@ -453,11 +486,11 @@
                                     "autoupdate": 120.0,
                                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                                     "bgcolordefault": 1,
-                                    "bounds": [ -1.3300000429153442, 3.4000000953674316 ],
+                                    "bounds": [ -1.399999976158142, 3.4000000953674316 ],
                                     "colormode": "fgcolor",
                                     "colorpattern": [ "black", "steelblue", "blue" ],
                                     "domainruler": 0,
-                                    "domainruler_size": 32,
+                                    "domainruler_size": 20,
                                     "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
                                     "fgcolordefault": 1,
                                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
@@ -477,7 +510,7 @@
                                     "presentation": 1,
                                     "presentation_rect": [ 0.0, 23.0, 430.0, 225.0 ],
                                     "rangeruler": 1,
-                                    "rangeruler_size": 30,
+                                    "rangeruler_size": 1,
                                     "sampleperiod": 10.0,
                                     "second_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                                     "second_cursor_size": 3,
@@ -501,13 +534,13 @@
                             },
                             {
                                 "box": {
-                                    "comment": "",
+                                    "comment": "filtered data + sync",
                                     "id": "obj-7",
                                     "index": 1,
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 75.0, 439.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 135.0, 537.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -590,9 +623,20 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 236.0, 93.0, 457.0, 364.0 ],
+                                        "rect": [ 236.0, 102.0, 457.0, 364.0 ],
                                         "openinpresentation": 1,
                                         "boxes": [
+                                            {
+                                                "box": {
+                                                    "id": "obj-1",
+                                                    "maxclass": "newobj",
+                                                    "numinlets": 1,
+                                                    "numoutlets": 3,
+                                                    "outlettype": [ "", "int", "int" ],
+                                                    "patching_rect": [ 924.0, 151.5, 61.0, 22.0 ],
+                                                    "text": "change 0."
+                                                }
+                                            },
                                             {
                                                 "box": {
                                                     "fontname": "Arial",
@@ -614,7 +658,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
-                                                    "patching_rect": [ 924.0, 159.5, 77.0, 22.0 ],
+                                                    "patching_rect": [ 924.0, 175.0, 77.0, 22.0 ],
                                                     "text": "framerate $1"
                                                 }
                                             },
@@ -836,11 +880,10 @@
                                                     "fontname": "Arial",
                                                     "fontsize": 11.0,
                                                     "id": "obj-24",
-                                                    "linecount": 2,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 1057.0, 232.5, 94.0, 33.0 ],
+                                                    "patching_rect": [ 1057.0, 232.5, 102.0, 21.0 ],
                                                     "text": "s #0-mubu-scroll"
                                                 }
                                             },
@@ -853,12 +896,12 @@
                                                     "outlettype": [ "", "", "", "" ],
                                                     "patching_rect": [ 377.0, 270.5, 56.0, 22.0 ],
                                                     "restore": {
-                                                        "beta": [ 0.904093619210862 ],
+                                                        "beta": [ 0.6000000000000003 ],
                                                         "bypass": [ 0.0 ],
                                                         "fcmin": [ 1.0000000000000004 ],
                                                         "framerate": [ 100.0 ],
                                                         "maxMonitor": [ 3.4000000953674316 ],
-                                                        "minMonitor": [ -1.3300000429153442 ]
+                                                        "minMonitor": [ -1.399999976158142 ]
                                                     },
                                                     "text": "autopattr",
                                                     "varname": "u933006469"
@@ -1243,6 +1286,12 @@
                                         "lines": [
                                             {
                                                 "patchline": {
+                                                    "destination": [ "obj-13", 0 ],
+                                                    "source": [ "obj-1", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
                                                     "destination": [ "obj-157", 0 ],
                                                     "midpoints": [ 933.5, 203.75, 545.5, 203.75 ],
                                                     "source": [ "obj-13", 0 ]
@@ -1256,7 +1305,7 @@
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-13", 0 ],
+                                                    "destination": [ "obj-1", 0 ],
                                                     "source": [ "obj-15", 0 ]
                                                 }
                                             },
@@ -1416,7 +1465,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 135.0, 362.0, 241.0, 22.0 ],
+                                    "patching_rect": [ 154.0, 367.0, 241.0, 22.0 ],
                                     "text": "pack f f f"
                                 }
                             },
@@ -1427,7 +1476,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "float", "float", "float" ],
-                                    "patching_rect": [ 135.0, 306.0, 241.0, 22.0 ],
+                                    "patching_rect": [ 154.0, 304.0, 241.0, 22.0 ],
                                     "text": "unpack f f f"
                                 }
                             },
@@ -1448,7 +1497,7 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "dsp.gen",
-                                        "rect": [ 983.0, 266.0, 1039.0, 1129.0 ],
+                                        "rect": [ 983.0, 103.0, 987.0, 1129.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -1456,7 +1505,7 @@
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 902.5, 1090.0, 35.0, 22.0 ],
+                                                    "patching_rect": [ 902.0, 1096.0, 35.0, 22.0 ],
                                                     "text": "out 3"
                                                 }
                                             },
@@ -1494,7 +1543,7 @@
                                             },
                                             {
                                                 "box": {
-                                                    "code": "//smoothing factor calculation : alpha\r\n//samplerate = 1 / Te\r\nAlpha(f)\r\n{\r\n\twTe = twopi * f / samplerate;\r\n\treturn wTe / (1 + wTe);\r\n}\r\n\r\nHistory flag_2nd, dx_prev1, out_prev1, dx_prev2, out_prev2, dx_prev3, out_prev3;\r\nHistory out_prev11, out_prev12, out_prev13, out_prev21, out_prev22, out_prev23, out_prev31, out_prev32, out_prev33;\r\n\r\n//input variables declaration\r\nParam fcd(1., max=100, min=0.0);\r\nParam fcmin(1., max=100, min=0.0); //minimum Frequency of the Lowpass filter\r\nParam beta(1., max=100, min=0.0);  //speed\r\nParam framerate(100, min=0.0001);\r\nParam bypass(0, max=1, min=0);\r\n\r\nif(bypass) {\r\n    out_prev1 = in1;\r\n    out_prev2 = in2;\r\n    out_prev3 = in3;\r\n    }\r\nelse {\r\n    if(flag_2nd != 0) //next times\r\n        {\r\n\t    alpha = Alpha(fcd);\r\n\t    dx = (in1 - out_prev11) * samplerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev1;//filtered rate of change\r\n\t    dx_prev1 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc);\r\n\t    out_prev11 = alpha * in1 + (1. - alpha) * out_prev11;//filter input\r\n\t    out_prev12 = alpha * out_prev11 + (1. - alpha) * out_prev12;\r\n\t    out_prev13 = alpha * out_prev12 + (1. - alpha) * out_prev13;\r\n\t    out_prev1 = alpha * out_prev13 + (1. - alpha) * out_prev1;\r\n\t\r\n\t    dx = (in2 - out_prev21) * samplerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev2;//filtered rate of change\r\n\t    dx_prev2 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc);\r\n\t    out_prev21 = alpha * in2 + (1. - alpha) * out_prev21;//filter input\r\n\t    out_prev22 = alpha * out_prev21 + (1. - alpha) * out_prev22;\r\n\t    out_prev23 = alpha * out_prev22 + (1. - alpha) * out_prev23;\r\n\t    out_prev2 = alpha * out_prev23 + (1. - alpha) * out_prev2;\r\n\t\r\n\t    dx = (in3 - out_prev31) * samplerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev3;//filtered rate of change\r\n\t    dx_prev3 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc);\r\n\t    out_prev31 = alpha * in3 + (1. - alpha) * out_prev31;//filter input\r\n\t    out_prev32 = alpha * out_prev31 + (1. - alpha) * out_prev32;\r\n\t    out_prev33 = alpha * out_prev32 + (1. - alpha) * out_prev33;\r\n\t    out_prev3 = alpha * out_prev33 + (1. - alpha) * out_prev3;\r\n        }\r\n    else //the first time in the loop\r\n        {\r\n\t    flag_2nd = 1;\r\n//\t    dx_prev1 = 0.;\r\n\t    out_prev1 = in1;\r\n\t    out_prev11 = in1;\r\n//\t    dx_prev2 = 0.;\r\n\t    out_prev2 = in2;\r\n\t    out_prev21 = in2;\r\n//\t    dx_prev3 = 0.;\r\n\t    out_prev3 = in3;\r\n\t    out_prev31 = in3;\r\n        }\r\n    }\r\nout1 = out_prev1;\r\nout2 = out_prev2;\r\nout3 = out_prev3;",
+                                                    "code": "//smoothing factor calculation : alpha\r\n//samplerate = 1 / Te\r\nAlpha(f,framerate)\r\n{\r\n\twTe = twopi * f / framerate;\r\n\treturn wTe / (1 + wTe);\r\n}\r\n\r\nHistory flag_2nd, dx_prev1, out_prev1, dx_prev2, out_prev2, dx_prev3, out_prev3;\r\nHistory out_prev11, out_prev12, out_prev13, out_prev21, out_prev22, out_prev23, out_prev31, out_prev32, out_prev33;\r\n\r\n//input variables declaration\r\nParam fcd(1., max=100, min=0.0);\r\nParam fcmin(1., max=100, min=0.0); //minimum Frequency of the Lowpass filter\r\nParam beta(1., max=100, min=0.0);  //speed\r\nParam framerate(100, min=0.0001);\r\nParam bypass(0, max=1, min=0);\r\nif(bypass) {\r\n    out_prev1 = in1;\r\n    out_prev2 = in2;\r\n    out_prev3 = in3;\r\n    }\r\nelse {\r\n    if(flag_2nd != 0) //next times\r\n        {\r\n\t    alpha = Alpha(fcd,framerate);\r\n\t    dx = (in1 - out_prev11) * framerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev1;//filtered rate of change\r\n\t    dx_prev1 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc,framerate);\r\n\t    out_prev11 = alpha * in1 + (1. - alpha) * out_prev11;//filter input\r\n\t    out_prev12 = alpha * out_prev11 + (1. - alpha) * out_prev12;\r\n\t    out_prev13 = alpha * out_prev12 + (1. - alpha) * out_prev13;\r\n\t    out_prev1 = alpha * out_prev13 + (1. - alpha) * out_prev1;\r\n\t\r\n\t    dx = (in2 - out_prev21) * framerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev2;//filtered rate of change\r\n\t    dx_prev2 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc,framerate);\r\n\t    out_prev21 = alpha * in2 + (1. - alpha) * out_prev21;//filter input\r\n\t    out_prev22 = alpha * out_prev21 + (1. - alpha) * out_prev22;\r\n\t    out_prev23 = alpha * out_prev22 + (1. - alpha) * out_prev23;\r\n\t    out_prev2 = alpha * out_prev23 + (1. - alpha) * out_prev2;\r\n\t\r\n\t    dx = (in3 - out_prev31) * framerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev3;//filtered rate of change\r\n\t    dx_prev3 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc,framerate);\r\n\t    out_prev31 = alpha * in3 + (1. - alpha) * out_prev31;//filter input\r\n\t    out_prev32 = alpha * out_prev31 + (1. - alpha) * out_prev32;\r\n\t    out_prev33 = alpha * out_prev32 + (1. - alpha) * out_prev33;\r\n\t    out_prev3 = alpha * out_prev33 + (1. - alpha) * out_prev3;\r\n        }\r\n    else //the first time in the loop\r\n        {\r\n\t    flag_2nd = 1;\r\n//\t    dx_prev1 = 0.;\r\n\t    out_prev1 = in1;\r\n\t    out_prev11 = in1;\r\n//\t    dx_prev2 = 0.;\r\n\t    out_prev2 = in2;\r\n\t    out_prev21 = in2;\r\n//\t    dx_prev3 = 0.;\r\n\t    out_prev3 = in3;\r\n\t    out_prev31 = in3;\r\n        }\r\n    }\r\nout1 = out_prev1;\r\nout2 = out_prev2;\r\nout3 = out_prev3;",
                                                     "fontface": 0,
                                                     "fontname": "<Monospaced>",
                                                     "fontsize": 12.0,
@@ -1567,7 +1616,7 @@
                                             }
                                         ]
                                     },
-                                    "patching_rect": [ 135.0, 334.0, 241.0, 22.0 ],
+                                    "patching_rect": [ 154.0, 332.0, 241.0, 22.0 ],
                                     "text": "gen @title oneEuroFilter"
                                 }
                             },
@@ -1622,7 +1671,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 468.0, 243.0, 150.0, 22.0 ]
+                                    "patching_rect": [ 471.0, 243.0, 150.0, 22.0 ]
                                 }
                             }
                         ],
@@ -1635,21 +1684,29 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-15", 0 ],
+                                    "order": 0,
+                                    "source": [ "obj-10", 2 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-3", 0 ],
+                                    "order": 1,
                                     "source": [ "obj-10", 2 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-42", 0 ],
-                                    "order": 1,
+                                    "order": 0,
                                     "source": [ "obj-10", 1 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-9", 0 ],
-                                    "order": 0,
+                                    "order": 1,
                                     "source": [ "obj-10", 1 ]
                                 }
                             },
@@ -1685,8 +1742,35 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-16", 1 ],
+                                    "source": [ "obj-15", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-42", 0 ],
                                     "source": [ "obj-157", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-101", 0 ],
+                                    "order": 0,
+                                    "source": [ "obj-16", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-19", 0 ],
+                                    "order": 1,
+                                    "source": [ "obj-16", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-7", 0 ],
+                                    "order": 2,
+                                    "source": [ "obj-16", 0 ]
                                 }
                             },
                             {
@@ -1806,15 +1890,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-101", 0 ],
-                                    "order": 0,
-                                    "source": [ "obj-4", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-7", 0 ],
-                                    "order": 1,
+                                    "destination": [ "obj-16", 0 ],
                                     "source": [ "obj-4", 0 ]
                                 }
                             },
@@ -1984,6 +2060,9 @@
                 }
             },
             "parameter_overrides": {
+                "obj-31::obj-37": {
+                    "parameter_longname": "live.text[3]"
+                },
                 "obj-48::obj-40": {
                     "parameter_longname": "live.toggle[3]"
                 },

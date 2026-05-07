@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 100.0, 100.0, 515.0, 997.0 ],
+        "rect": [ 34.0, 93.0, 516.0, 1001.0 ],
         "boxes": [
             {
                 "box": {
@@ -126,7 +126,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 251.0, 962.0, 50.0, 22.0 ]
+                    "patching_rect": [ 354.0, 962.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -138,7 +138,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 43.0, 962.0, 50.0, 22.0 ]
+                    "patching_rect": [ 250.5, 962.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -155,9 +155,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.angles.maxpat",
                     "numinlets": 3,
-                    "numoutlets": 3,
+                    "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "", "" ],
+                    "outlettype": [ "", "", "", "", "" ],
                     "patching_rect": [ 43.0, 723.0, 434.0, 233.0 ],
                     "varname": "gst.angles",
                     "viewvisibility": 1
@@ -221,9 +221,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.orientation.maxpat",
                     "numinlets": 3,
-                    "numoutlets": 2,
+                    "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "" ],
+                    "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 43.0, 482.0, 434.0, 233.0 ],
                     "varname": "gst.orientation",
                     "viewvisibility": 1
@@ -294,19 +294,19 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
-                    "source": [ "obj-63", 0 ]
+                    "source": [ "obj-63", 2 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-18", 0 ],
-                    "source": [ "obj-63", 1 ]
+                    "source": [ "obj-63", 3 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
-                    "source": [ "obj-63", 2 ]
+                    "source": [ "obj-63", 4 ]
                 }
             }
         ],

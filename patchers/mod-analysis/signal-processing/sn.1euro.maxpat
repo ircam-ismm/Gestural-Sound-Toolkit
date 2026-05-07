@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 102.0, 133.0, 119.0 ],
+        "rect": [ 34.0, 93.0, 131.0, 118.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "comment": "filtered data",
+                    "id": "obj-19",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 182.0, 537.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-16",
@@ -75,7 +86,7 @@
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[3]",
+                            "parameter_longname": "live.text[59]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -186,7 +197,7 @@
                             "parameter_enum": [ "off", "on" ],
                             "parameter_invisible": 2,
                             "parameter_linknames": 1,
-                            "parameter_longname": "bypassui",
+                            "parameter_longname": "live.toggle",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "bypass",
@@ -247,7 +258,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 182.0, 210.0, 105.0, 22.0 ],
+                    "patching_rect": [ 182.0, 210.0, 119.0, 22.0 ],
                     "text": "r #0-oneEuroFilter"
                 }
             },
@@ -269,7 +280,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 291.0, 484.0, 95.0, 22.0 ],
+                    "patching_rect": [ 291.0, 484.0, 109.0, 22.0 ],
                     "text": "r #0-mubu-scroll"
                 }
             },
@@ -338,13 +349,13 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "filtered data + sync",
                     "id": "obj-7",
                     "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 75.0, 439.0, 30.0, 30.0 ]
+                    "patching_rect": [ 135.0, 537.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -684,11 +695,10 @@
                                     "fontname": "Arial",
                                     "fontsize": 11.0,
                                     "id": "obj-24",
-                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1057.0, 232.5, 82.0, 33.0 ],
+                                    "patching_rect": [ 1057.0, 232.5, 94.0, 33.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -927,7 +937,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 536.0, 218.0, 107.0, 22.0 ],
+                                    "patching_rect": [ 536.0, 218.0, 121.0, 22.0 ],
                                     "text": "s #0-oneEuroFilter"
                                 }
                             },
@@ -1270,7 +1280,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 135.0, 362.0, 241.0, 22.0 ],
+                    "patching_rect": [ 154.0, 367.0, 241.0, 22.0 ],
                     "text": "pack f f f"
                 }
             },
@@ -1281,7 +1291,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "float", "float", "float" ],
-                    "patching_rect": [ 135.0, 306.0, 241.0, 22.0 ],
+                    "patching_rect": [ 154.0, 304.0, 241.0, 22.0 ],
                     "text": "unpack f f f"
                 }
             },
@@ -1302,7 +1312,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "dsp.gen",
-                        "rect": [ 983.0, 103.0, 1039.0, 1129.0 ],
+                        "rect": [ 983.0, 103.0, 987.0, 1129.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -1310,7 +1320,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 902.5, 1090.0, 35.0, 22.0 ],
+                                    "patching_rect": [ 902.0, 1096.0, 35.0, 22.0 ],
                                     "text": "out 3"
                                 }
                             },
@@ -1348,7 +1358,7 @@
                             },
                             {
                                 "box": {
-                                    "code": "//smoothing factor calculation : alpha\r\n//samplerate = 1 / Te\r\nAlpha(f)\r\n{\r\n\twTe = twopi * f / samplerate;\r\n\treturn wTe / (1 + wTe);\r\n}\r\n\r\nHistory flag_2nd, dx_prev1, out_prev1, dx_prev2, out_prev2, dx_prev3, out_prev3;\r\nHistory out_prev11, out_prev12, out_prev13, out_prev21, out_prev22, out_prev23, out_prev31, out_prev32, out_prev33;\r\n\r\n//input variables declaration\r\nParam fcd(1., max=100, min=0.0);\r\nParam fcmin(1., max=100, min=0.0); //minimum Frequency of the Lowpass filter\r\nParam beta(1., max=100, min=0.0);  //speed\r\nParam framerate(100, min=0.0001);\r\nParam bypass(0, max=1, min=0);\r\n\r\nif(bypass) {\r\n    out_prev1 = in1;\r\n    out_prev2 = in2;\r\n    out_prev3 = in3;\r\n    }\r\nelse {\r\n    if(flag_2nd != 0) //next times\r\n        {\r\n\t    alpha = Alpha(fcd);\r\n\t    dx = (in1 - out_prev11) * samplerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev1;//filtered rate of change\r\n\t    dx_prev1 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc);\r\n\t    out_prev11 = alpha * in1 + (1. - alpha) * out_prev11;//filter input\r\n\t    out_prev12 = alpha * out_prev11 + (1. - alpha) * out_prev12;\r\n\t    out_prev13 = alpha * out_prev12 + (1. - alpha) * out_prev13;\r\n\t    out_prev1 = alpha * out_prev13 + (1. - alpha) * out_prev1;\r\n\t\r\n\t    dx = (in2 - out_prev21) * samplerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev2;//filtered rate of change\r\n\t    dx_prev2 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc);\r\n\t    out_prev21 = alpha * in2 + (1. - alpha) * out_prev21;//filter input\r\n\t    out_prev22 = alpha * out_prev21 + (1. - alpha) * out_prev22;\r\n\t    out_prev23 = alpha * out_prev22 + (1. - alpha) * out_prev23;\r\n\t    out_prev2 = alpha * out_prev23 + (1. - alpha) * out_prev2;\r\n\t\r\n\t    dx = (in3 - out_prev31) * samplerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev3;//filtered rate of change\r\n\t    dx_prev3 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc);\r\n\t    out_prev31 = alpha * in3 + (1. - alpha) * out_prev31;//filter input\r\n\t    out_prev32 = alpha * out_prev31 + (1. - alpha) * out_prev32;\r\n\t    out_prev33 = alpha * out_prev32 + (1. - alpha) * out_prev33;\r\n\t    out_prev3 = alpha * out_prev33 + (1. - alpha) * out_prev3;\r\n        }\r\n    else //the first time in the loop\r\n        {\r\n\t    flag_2nd = 1;\r\n//\t    dx_prev1 = 0.;\r\n\t    out_prev1 = in1;\r\n\t    out_prev11 = in1;\r\n//\t    dx_prev2 = 0.;\r\n\t    out_prev2 = in2;\r\n\t    out_prev21 = in2;\r\n//\t    dx_prev3 = 0.;\r\n\t    out_prev3 = in3;\r\n\t    out_prev31 = in3;\r\n        }\r\n    }\r\nout1 = out_prev1;\r\nout2 = out_prev2;\r\nout3 = out_prev3;",
+                                    "code": "//smoothing factor calculation : alpha\r\n//samplerate = 1 / Te\r\nAlpha(f,framerate)\r\n{\r\n\twTe = twopi * f / framerate;\r\n\treturn wTe / (1 + wTe);\r\n}\r\n\r\nHistory flag_2nd, dx_prev1, out_prev1, dx_prev2, out_prev2, dx_prev3, out_prev3;\r\nHistory out_prev11, out_prev12, out_prev13, out_prev21, out_prev22, out_prev23, out_prev31, out_prev32, out_prev33;\r\n\r\n//input variables declaration\r\nParam fcd(1., max=100, min=0.0);\r\nParam fcmin(1., max=100, min=0.0); //minimum Frequency of the Lowpass filter\r\nParam beta(1., max=100, min=0.0);  //speed\r\nParam framerate(100, min=0.0001);\r\nParam bypass(0, max=1, min=0);\r\nif(bypass) {\r\n    out_prev1 = in1;\r\n    out_prev2 = in2;\r\n    out_prev3 = in3;\r\n    }\r\nelse {\r\n    if(flag_2nd != 0) //next times\r\n        {\r\n\t    alpha = Alpha(fcd,framerate);\r\n\t    dx = (in1 - out_prev11) * framerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev1;//filtered rate of change\r\n\t    dx_prev1 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc,framerate);\r\n\t    out_prev11 = alpha * in1 + (1. - alpha) * out_prev11;//filter input\r\n\t    out_prev12 = alpha * out_prev11 + (1. - alpha) * out_prev12;\r\n\t    out_prev13 = alpha * out_prev12 + (1. - alpha) * out_prev13;\r\n\t    out_prev1 = alpha * out_prev13 + (1. - alpha) * out_prev1;\r\n\t\r\n\t    dx = (in2 - out_prev21) * framerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev2;//filtered rate of change\r\n\t    dx_prev2 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc,framerate);\r\n\t    out_prev21 = alpha * in2 + (1. - alpha) * out_prev21;//filter input\r\n\t    out_prev22 = alpha * out_prev21 + (1. - alpha) * out_prev22;\r\n\t    out_prev23 = alpha * out_prev22 + (1. - alpha) * out_prev23;\r\n\t    out_prev2 = alpha * out_prev23 + (1. - alpha) * out_prev2;\r\n\t\r\n\t    dx = (in3 - out_prev31) * framerate; //rate of change : derivative from input with output\r\n\t    edx = alpha * dx + (1. - alpha) * dx_prev3;//filtered rate of change\r\n\t    dx_prev3 = edx;\r\n\t    fc = fcmin + beta * abs(edx);//adaptative cut-off\r\n\t    alpha = Alpha(fc,framerate);\r\n\t    out_prev31 = alpha * in3 + (1. - alpha) * out_prev31;//filter input\r\n\t    out_prev32 = alpha * out_prev31 + (1. - alpha) * out_prev32;\r\n\t    out_prev33 = alpha * out_prev32 + (1. - alpha) * out_prev33;\r\n\t    out_prev3 = alpha * out_prev33 + (1. - alpha) * out_prev3;\r\n        }\r\n    else //the first time in the loop\r\n        {\r\n\t    flag_2nd = 1;\r\n//\t    dx_prev1 = 0.;\r\n\t    out_prev1 = in1;\r\n\t    out_prev11 = in1;\r\n//\t    dx_prev2 = 0.;\r\n\t    out_prev2 = in2;\r\n\t    out_prev21 = in2;\r\n//\t    dx_prev3 = 0.;\r\n\t    out_prev3 = in3;\r\n\t    out_prev31 = in3;\r\n        }\r\n    }\r\nout1 = out_prev1;\r\nout2 = out_prev2;\r\nout3 = out_prev3;",
                                     "fontface": 0,
                                     "fontname": "<Monospaced>",
                                     "fontsize": 12.0,
@@ -1421,7 +1431,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 135.0, 334.0, 241.0, 22.0 ],
+                    "patching_rect": [ 154.0, 332.0, 241.0, 22.0 ],
                     "text": "gen @title oneEuroFilter"
                 }
             },
@@ -1476,7 +1486,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 468.0, 243.0, 150.0, 22.0 ]
+                    "patching_rect": [ 471.0, 243.0, 150.0, 22.0 ]
                 }
             }
         ],
@@ -1504,14 +1514,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-42", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-10", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-10", 1 ]
                 }
             },
@@ -1566,8 +1576,15 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-7", 0 ],
+                    "destination": [ "obj-19", 0 ],
                     "order": 1,
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "order": 2,
                     "source": [ "obj-16", 0 ]
                 }
             },
@@ -1772,8 +1789,8 @@
             }
         ],
         "parameters": {
-            "obj-34": [ "bypassui", "bypass", 0 ],
-            "obj-37": [ "live.text[3]", "live.text", 0 ],
+            "obj-34": [ "live.toggle", "bypass", 0 ],
+            "obj-37": [ "live.text[59]", "live.text", 0 ],
             "obj-5::obj-15": [ "framerate", "framerate", 0 ],
             "obj-5::obj-32": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-5::obj-33": [ "minMonitor", "minMonitor", 0 ],

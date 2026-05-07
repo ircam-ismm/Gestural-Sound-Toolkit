@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 246.0, 148.0 ],
+        "rect": [ 34.0, 93.0, 246.0, 144.0 ],
         "openinpresentation": 1,
         "gridsize": [ 2.0, 2.0 ],
         "boxes": [
@@ -791,15 +791,15 @@
                 "box": {
                     "bgcolor": [ 0.2, 0.2, 0.2, 0.0 ],
                     "candycane": 7,
+                    "contdata": 1,
                     "id": "obj-10",
-                    "ignoreclick": 1,
                     "maxclass": "multislider",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "orientation": 0,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 406.5, 160.0, 75.0, 94.0 ],
+                    "patching_rect": [ 406.0, 159.0, 75.0, 94.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 5.747126787900925, 124.13793861865997, 236.0, 15.0 ],
                     "setminmax": [ 0.0, 1.0 ],

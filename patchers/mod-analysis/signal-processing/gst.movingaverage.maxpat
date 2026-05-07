@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 35.0, 96.0, 137.0, 114.0 ],
+        "rect": [ 34.0, 93.0, 136.0, 114.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "comment": "Smoothed data (list of 3 elements)",
+                    "id": "obj-4",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 329.5, 539.0, 25.0, 25.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-40",
@@ -810,7 +821,7 @@
             },
             {
                 "box": {
-                    "comment": "Smoothed data (list of 3 elements)",
+                    "comment": "Smoothed data (list of 3 elements) + sync",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
@@ -849,6 +860,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
+                    "order": 2,
+                    "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
                     "order": 1,
                     "source": [ "obj-10", 0 ]
                 }

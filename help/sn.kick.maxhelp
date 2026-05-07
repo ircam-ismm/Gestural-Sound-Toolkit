@@ -24,9 +24,9 @@
                     "maxclass": "bpatcher",
                     "name": "sn.kick.maxpat",
                     "numinlets": 5,
-                    "numoutlets": 3,
+                    "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "int", "" ],
+                    "outlettype": [ "float", "float", "int", "" ],
                     "patching_rect": [ 46.0, 638.0, 434.0, 237.0 ],
                     "varname": "sn.kick",
                     "viewvisibility": 1
@@ -115,10 +115,10 @@
                     "id": "obj-11",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "float", "float" ],
-                    "patching_rect": [ 46.0, 608.0, 76.0, 22.0 ],
-                    "text": "unpack f f"
+                    "numoutlets": 3,
+                    "outlettype": [ "float", "float", "float" ],
+                    "patching_rect": [ 46.0, 608.0, 67.0, 22.0 ],
+                    "text": "unpack f f f"
                 }
             },
             {
@@ -135,9 +135,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.orientation.maxpat",
                     "numinlets": 3,
-                    "numoutlets": 2,
+                    "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "" ],
+                    "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 46.0, 393.0, 434.0, 205.0 ],
                     "varname": "gst.orientation",
                     "viewvisibility": 1

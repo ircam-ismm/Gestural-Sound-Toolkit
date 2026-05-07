@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "First derivative of the input data (along each axis) (list)",
+                    "id": "obj-20",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 277.0, 557.0, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-19",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1254,7 +1265,7 @@
             },
             {
                 "box": {
-                    "comment": "First derivative of the input data (along each axis) (list)",
+                    "comment": "First derivative of the input data (along each axis) (list) + sync",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1347,6 +1358,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
+                    "order": 2,
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 0 ],
                     "order": 1,
                     "source": [ "obj-16", 0 ]
                 }

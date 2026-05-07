@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "filtered data",
+                    "id": "obj-4",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 219.0, 612.0, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-6",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -1330,7 +1341,7 @@
             },
             {
                 "box": {
-                    "comment": "filtered data",
+                    "comment": "filtered data + sync",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1381,6 +1392,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
+                    "order": 2,
+                    "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
                     "order": 1,
                     "source": [ "obj-10", 0 ]
                 }

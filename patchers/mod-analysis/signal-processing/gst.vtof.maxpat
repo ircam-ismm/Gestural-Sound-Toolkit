@@ -608,13 +608,14 @@
                     "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-57",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 21.5, 11.0, 64.0, 21.0 ],
+                    "patching_rect": [ 21.5, 11.0, 64.0, 36.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 1.0, 83.0, 21.0 ],
-                    "text": "vtof"
+                    "presentation_rect": [ 0.0, 1.0, 88.0, 21.0 ],
+                    "text": "Vector to float"
                 }
             },
             {

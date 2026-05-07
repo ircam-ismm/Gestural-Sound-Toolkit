@@ -14,6 +14,28 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "orientation (list of 3 float [-180 180])",
+                    "id": "obj-7",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 397.0, 389.0, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "orientation (list of 3 float [-1 1])",
+                    "id": "obj-24",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 358.0, 389.0, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-36",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -447,18 +469,7 @@
             },
             {
                 "box": {
-                    "id": "obj-7",
-                    "linecount": 2,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 351.9602355, 398.0, 110.0, 33.0 ],
-                    "text": "hack waiting for autobounds bug fix"
-                }
-            },
-            {
-                "box": {
-                    "comment": "orientation (list of 3 float [-180 180])",
+                    "comment": "orientation (list of 3 float [-180 180]) + sync",
                     "id": "obj-10",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1145,7 +1156,7 @@
             },
             {
                 "box": {
-                    "comment": "orientation (list of 3 float [-1 1])",
+                    "comment": "orientation (list of 3 float [-1 1]) + sync",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1224,7 +1235,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "order": 0,
+                    "source": [ "obj-19", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-2", 0 ],
+                    "order": 1,
                     "source": [ "obj-19", 0 ]
                 }
             },
@@ -1275,14 +1294,29 @@
             {
                 "patchline": {
                     "destination": [ "obj-10", 0 ],
+                    "order": 1,
                     "source": [ "obj-3", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
+                    "order": 2,
+                    "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-24", 0 ],
                     "order": 1,
                     "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "order": 0,
+                    "source": [ "obj-3", 1 ]
                 }
             },
             {

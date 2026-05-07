@@ -13,35 +13,6 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-11",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 109.0, 445.0, 77.0, 22.0 ],
-                    "text": "clientwindow"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-9",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 109.0, 478.0, 73.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "client_rect": [ 1526, 102, 2056, 1129 ],
-                        "parameter_enable": 0,
-                        "parameter_mappable": 0,
-                        "storage_rect": [ 583, 69, 1034, 197 ]
-                    },
-                    "text": "pattrstorage",
-                    "varname": "u957011828"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-1",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -158,9 +129,9 @@
                     "name": "synth.FM.maxpat",
                     "numinlets": 7,
                     "numoutlets": 4,
-                    "offset": [ -6.0, -7.0 ],
+                    "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "multichannelsignal", "", "", "" ],
-                    "patching_rect": [ 640.0, 208.0, 267.0, 145.89173889160156 ],
+                    "patching_rect": [ 644.0, 208.0, 263.0, 146.0 ],
                     "varname": "synth.FM",
                     "viewvisibility": 1
                 }
@@ -182,7 +153,7 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 956.0, 212.0, 246.0, 146.0 ],
+                    "patching_rect": [ 956.0, 208.0, 246.0, 146.0 ],
                     "varname": "synth.scrub.samples",
                     "viewvisibility": 1
                 }
@@ -259,12 +230,6 @@
                 "patchline": {
                     "destination": [ "obj-20", 4 ],
                     "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-9", 0 ],
-                    "source": [ "obj-11", 0 ]
                 }
             },
             {

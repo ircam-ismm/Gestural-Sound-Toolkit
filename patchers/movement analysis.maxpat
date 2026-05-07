@@ -4,15 +4,84 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 87.0, 883.0, 668.0 ],
+        "rect": [ 134.0, 165.0, 862.0, 894.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patcher": {
+                        "fileversion": 1,
+                        "appversion": {
+                            "major": 9,
+                            "minor": 1,
+                            "revision": 4,
+                            "architecture": "x64",
+                            "modernui": 1
+                        },
+                        "classnamespace": "box",
+                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
+                        "default_fontsize": 13.0,
+                        "gridsize": [ 5.0, 5.0 ],
+                        "showontab": 1,
+                        "boxes": [
+                            {
+                                "box": {
+                                    "bgmode": 0,
+                                    "border": 1,
+                                    "clickthrough": 0,
+                                    "enablehscroll": 0,
+                                    "enablevscroll": 0,
+                                    "id": "obj-8",
+                                    "lockeddragscroll": 0,
+                                    "lockedsize": 0,
+                                    "maxclass": "bpatcher",
+                                    "name": "gst.scale.norm.maxpat",
+                                    "numinlets": 5,
+                                    "numoutlets": 4,
+                                    "offset": [ 0.0, 0.0 ],
+                                    "outlettype": [ "", "", "", "" ],
+                                    "patching_rect": [ 18.0, 91.0, 161.0, 167.0 ],
+                                    "varname": "gst.scale.norm",
+                                    "viewvisibility": 1
+                                }
+                            },
+                            {
+                                "box": {
+                                    "border": 0,
+                                    "filename": "helpdetails.js",
+                                    "id": "obj-2",
+                                    "ignoreclick": 1,
+                                    "jsarguments": [ "Normalization" ],
+                                    "maxclass": "jsui",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "parameter_enable": 0,
+                                    "patching_rect": [ 18.0, 11.0, 437.0, 54.0 ]
+                                }
+                            }
+                        ],
+                        "lines": [],
+                        "toolbaradditions": [ "s2n", "Modalys" ]
+                    },
+                    "patching_rect": [ 16.0, 107.0, 92.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "fontsize": 13.0
+                    },
+                    "text": "p Normalization",
+                    "varname": "basic_tab[1]"
+                }
+            },
             {
                 "box": {
                     "id": "obj-15",
@@ -24,12 +93,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 883.0, 642.0 ],
+                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -48,9 +117,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.gate.float.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 2,
+                                    "numoutlets": 3,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "" ],
+                                    "outlettype": [ "", "", "int" ],
                                     "patching_rect": [ 10.0, 73.0, 130.0, 115.0 ],
                                     "varname": "gst.gate.float",
                                     "viewvisibility": 1
@@ -70,9 +139,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.kick.maxpat",
                                     "numinlets": 5,
-                                    "numoutlets": 3,
+                                    "numoutlets": 4,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "int", "" ],
+                                    "outlettype": [ "float", "float", "int", "" ],
                                     "patching_rect": [ 167.0, 74.0, 130.0, 115.0 ],
                                     "varname": "gst.kick",
                                     "viewvisibility": 1
@@ -97,7 +166,7 @@
                         "lines": [],
                         "toolbaradditions": [ "s2n", "Modalys" ]
                     },
-                    "patching_rect": [ 16.0, 159.0, 117.0, 22.0 ],
+                    "patching_rect": [ 16.0, 184.0, 117.0, 22.0 ],
                     "saved_object_attributes": {
                         "fontsize": 13.0
                     },
@@ -116,12 +185,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 883.0, 642.0 ],
+                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -154,7 +223,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 232.5, 240.0, 155.0, 50.0 ],
+                                    "patching_rect": [ 232.5, 240.0, 159.0, 50.0 ],
                                     "text": "Compute the vector norm (normalized by the list lenght) "
                                 }
                             },
@@ -213,9 +282,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.angles.maxpat",
                                     "numinlets": 3,
-                                    "numoutlets": 3,
+                                    "numoutlets": 5,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "", "" ],
+                                    "outlettype": [ "", "", "", "", "" ],
                                     "patching_rect": [ 710.0, 110.0, 130.0, 115.0 ],
                                     "varname": "gst.angles",
                                     "viewvisibility": 1
@@ -235,9 +304,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.orientation.maxpat",
                                     "numinlets": 3,
-                                    "numoutlets": 2,
+                                    "numoutlets": 4,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "" ],
+                                    "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 510.0, 110.0, 130.0, 115.0 ],
                                     "varname": "gst.orientation",
                                     "viewvisibility": 1
@@ -255,11 +324,11 @@
                                     "lockeddragscroll": 0,
                                     "lockedsize": 0,
                                     "maxclass": "bpatcher",
-                                    "name": "gst.norm.maxpat",
+                                    "name": "gst.vtof.maxpat",
                                     "numinlets": 2,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "", "" ],
                                     "patching_rect": [ 245.0, 110.0, 130.0, 115.0 ],
                                     "varname": "gst.norm",
                                     "viewvisibility": 1
@@ -279,9 +348,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.acc.intensity.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 4,
+                                    "numoutlets": 5,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "float", "float", "float", "float" ],
+                                    "outlettype": [ "float", "float", "float", "float", "float" ],
                                     "patching_rect": [ 10.0, 110.0, 130.0, 115.0 ],
                                     "varname": "gst.acc.intensity",
                                     "viewvisibility": 1
@@ -314,7 +383,7 @@
                         ],
                         "toolbaradditions": [ "s2n", "Modalys" ]
                     },
-                    "patching_rect": [ 16.0, 133.0, 191.0, 22.0 ],
+                    "patching_rect": [ 16.0, 158.0, 191.0, 22.0 ],
                     "saved_object_attributes": {
                         "fontsize": 13.0
                     },
@@ -359,12 +428,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 883.0, 642.0 ],
+                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
                         "showontab": 1,
                         "boxes": [],
                         "lines": [],
@@ -386,12 +455,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 883.0, 642.0 ],
+                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -479,9 +548,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "sn.1euro.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "", "" ],
                                     "patching_rect": [ 570.0, 110.0, 130.0, 115.0 ],
                                     "varname": "sn.1euro",
                                     "viewvisibility": 1
@@ -501,9 +570,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.bandpass.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "", "" ],
                                     "patching_rect": [ 290.0, 110.0, 130.0, 115.0 ],
                                     "varname": "gst.bandpass",
                                     "viewvisibility": 1
@@ -523,9 +592,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.lowpass.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "", "" ],
                                     "patching_rect": [ 10.0, 110.0, 130.0, 115.0 ],
                                     "varname": "gst.lowpass",
                                     "viewvisibility": 1
@@ -545,9 +614,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.highpass.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "", "" ],
                                     "patching_rect": [ 150.0, 110.0, 130.0, 115.0 ],
                                     "varname": "gst.highpass",
                                     "viewvisibility": 1
@@ -567,9 +636,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.derivative.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "", "" ],
                                     "patching_rect": [ 430.0, 110.0, 130.0, 115.0 ],
                                     "varname": "gst.derivative",
                                     "viewvisibility": 1
@@ -594,7 +663,7 @@
                         "lines": [],
                         "toolbaradditions": [ "s2n", "Modalys" ]
                     },
-                    "patching_rect": [ 16.0, 107.0, 61.0, 22.0 ],
+                    "patching_rect": [ 16.0, 132.0, 61.0, 22.0 ],
                     "saved_object_attributes": {
                         "fontsize": 13.0
                     },
@@ -613,16 +682,49 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 113.0, 883.0, 642.0 ],
+                        "rect": [ 134.0, 191.0, 862.0, 868.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "fontname": "Helvetica Neue Light",
+                                    "fontsize": 18.0,
+                                    "id": "obj-9",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 18.0, 85.0, 129.0, 28.0 ],
+                                    "text": "Normalization"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "bgmode": 0,
+                                    "border": 1,
+                                    "clickthrough": 0,
+                                    "enablehscroll": 0,
+                                    "enablevscroll": 0,
+                                    "id": "obj-8",
+                                    "lockeddragscroll": 0,
+                                    "lockedsize": 0,
+                                    "maxclass": "bpatcher",
+                                    "name": "gst.scale.norm.maxpat",
+                                    "numinlets": 5,
+                                    "numoutlets": 4,
+                                    "offset": [ 0.0, 0.0 ],
+                                    "outlettype": [ "", "", "", "" ],
+                                    "patching_rect": [ 18.0, 120.0, 161.0, 167.0 ],
+                                    "varname": "gst.scale.norm",
+                                    "viewvisibility": 1
+                                }
+                            },
                             {
                                 "box": {
                                     "bgmode": 0,
@@ -636,10 +738,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.gate.float.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 2,
+                                    "numoutlets": 3,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "" ],
-                                    "patching_rect": [ 10.0, 485.0, 130.0, 115.0 ],
+                                    "outlettype": [ "", "", "int" ],
+                                    "patching_rect": [ 18.0, 719.0, 130.0, 115.0 ],
                                     "varname": "gst.gate.float[1]",
                                     "viewvisibility": 1
                                 }
@@ -657,10 +759,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "sn.1euro.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 570.0, 110.0, 130.0, 115.0 ],
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 578.0, 344.0, 130.0, 115.0 ],
                                     "varname": "sn.1euro",
                                     "viewvisibility": 1
                                 }
@@ -679,10 +781,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.angles.maxpat",
                                     "numinlets": 3,
-                                    "numoutlets": 3,
+                                    "numoutlets": 5,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "", "" ],
-                                    "patching_rect": [ 440.0, 300.0, 130.0, 115.0 ],
+                                    "outlettype": [ "", "", "", "", "" ],
+                                    "patching_rect": [ 448.0, 534.0, 130.0, 115.0 ],
                                     "varname": "gst.angles",
                                     "viewvisibility": 1
                                 }
@@ -695,7 +797,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 150.0, 450.0, 129.0, 28.0 ],
+                                    "patching_rect": [ 158.0, 684.0, 129.0, 28.0 ],
                                     "text": "Trigger"
                                 }
                             },
@@ -707,7 +809,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 10.0, 450.0, 129.0, 28.0 ],
+                                    "patching_rect": [ 18.0, 684.0, 129.0, 28.0 ],
                                     "text": "Gate"
                                 }
                             },
@@ -719,7 +821,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 10.0, 265.0, 256.0, 28.0 ],
+                                    "patching_rect": [ 18.0, 499.0, 256.0, 28.0 ],
                                     "text": "Continuous Motion Descriptors"
                                 }
                             },
@@ -731,7 +833,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 10.0, 75.0, 73.0, 28.0 ],
+                                    "patching_rect": [ 18.0, 309.0, 73.0, 28.0 ],
                                     "text": "Filtering"
                                 }
                             },
@@ -749,10 +851,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.orientation.maxpat",
                                     "numinlets": 3,
-                                    "numoutlets": 2,
+                                    "numoutlets": 4,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "" ],
-                                    "patching_rect": [ 290.0, 300.0, 130.0, 115.0 ],
+                                    "outlettype": [ "", "", "", "" ],
+                                    "patching_rect": [ 298.0, 534.0, 130.0, 115.0 ],
                                     "varname": "gst.orientation",
                                     "viewvisibility": 1
                                 }
@@ -769,12 +871,12 @@
                                     "lockeddragscroll": 0,
                                     "lockedsize": 0,
                                     "maxclass": "bpatcher",
-                                    "name": "gst.norm.maxpat",
+                                    "name": "gst.vtof.maxpat",
                                     "numinlets": 2,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 150.0, 300.0, 130.0, 115.0 ],
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 158.0, 534.0, 130.0, 115.0 ],
                                     "varname": "gst.norm",
                                     "viewvisibility": 1
                                 }
@@ -793,10 +895,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.bandpass.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 430.0, 110.0, 130.0, 115.0 ],
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 438.0, 344.0, 130.0, 115.0 ],
                                     "varname": "gst.bandpass",
                                     "viewvisibility": 1
                                 }
@@ -815,10 +917,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.lowpass.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 10.0, 110.0, 130.0, 115.0 ],
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 18.0, 344.0, 130.0, 115.0 ],
                                     "varname": "gst.lowpass",
                                     "viewvisibility": 1
                                 }
@@ -837,10 +939,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.highpass.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 290.0, 110.0, 130.0, 115.0 ],
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 298.0, 344.0, 130.0, 115.0 ],
                                     "varname": "gst.highpass",
                                     "viewvisibility": 1
                                 }
@@ -859,10 +961,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.derivative.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 150.0, 110.0, 130.0, 115.0 ],
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 158.0, 344.0, 130.0, 115.0 ],
                                     "varname": "gst.derivative",
                                     "viewvisibility": 1
                                 }
@@ -881,10 +983,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.kick.maxpat",
                                     "numinlets": 5,
-                                    "numoutlets": 3,
+                                    "numoutlets": 4,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "int", "" ],
-                                    "patching_rect": [ 150.0, 485.0, 130.0, 115.0 ],
+                                    "outlettype": [ "float", "float", "int", "" ],
+                                    "patching_rect": [ 158.0, 719.0, 130.0, 115.0 ],
                                     "varname": "gst.kick",
                                     "viewvisibility": 1
                                 }
@@ -903,10 +1005,10 @@
                                     "maxclass": "bpatcher",
                                     "name": "gst.acc.intensity.maxpat",
                                     "numinlets": 4,
-                                    "numoutlets": 4,
+                                    "numoutlets": 5,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "float", "float", "float", "float" ],
-                                    "patching_rect": [ 10.0, 300.0, 130.0, 115.0 ],
+                                    "outlettype": [ "float", "float", "float", "float", "float" ],
+                                    "patching_rect": [ 18.0, 534.0, 130.0, 115.0 ],
                                     "varname": "gst.acc.intensity",
                                     "viewvisibility": 1
                                 }
@@ -931,7 +1033,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-63", 0 ],
-                                    "midpoints": [ 299.5, 422.3826599121094, 431.82106018066406, 422.3826599121094, 431.82106018066406, 290.0323181152344, 449.5, 290.0323181152344 ],
+                                    "midpoints": [ 307.5, 656.3826599121094, 439.82106018066406, 656.3826599121094, 439.82106018066406, 524.0323181152344, 457.5, 524.0323181152344 ],
                                     "source": [ "obj-31", 0 ]
                                 }
                             }
@@ -958,7 +1060,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 8.0, 8.0, 417.2240295410156, 57.599853515625 ]
+                    "patching_rect": [ 10.0, 10.0, 417.2240295410156, 57.599853515625 ]
                 }
             }
         ],
@@ -971,27 +1073,649 @@
             }
         ],
         "parameters": {
-            "obj-12::obj-3::obj-4": [ "live.button[2]", "live.button", 0 ],
-            "obj-12::obj-7::obj-13": [ "live.toggle[4]", "live.toggle", 0 ],
-            "obj-12::obj-7::obj-8::obj-17": [ "live.toggle[3]", "live.toggle[1]", 0 ],
-            "obj-15::obj-25::obj-13": [ "live.toggle[2]", "live.toggle", 0 ],
-            "obj-15::obj-25::obj-8::obj-17": [ "live.toggle[1]", "live.toggle[1]", 0 ],
-            "obj-15::obj-3::obj-4": [ "live.button[3]", "live.button", 0 ],
+            "obj-10::obj-27::obj-195::obj-125": [ "Q[1]", "Q", 0 ],
+            "obj-10::obj-27::obj-195::obj-13": [ "minMonitor[14]", "minMonitor", 0 ],
+            "obj-10::obj-27::obj-195::obj-14": [ "maxMonitor[14]", "maxMonitor", 0 ],
+            "obj-10::obj-27::obj-195::obj-42": [ "frame-rate[8]", "framerate", 0 ],
+            "obj-10::obj-27::obj-195::obj-82": [ "cut-frequency[5]", "fcut", 0 ],
+            "obj-10::obj-27::obj-195::obj-86": [ "gain[6]", "gain", 0 ],
+            "obj-10::obj-27::obj-37": [ "live.text[14]", "live.text", 0 ],
+            "obj-10::obj-4::obj-195::obj-13": [ "minMonitor[11]", "minMonitor", 0 ],
+            "obj-10::obj-4::obj-195::obj-14": [ "maxMonitor[11]", "maxMonitor", 0 ],
+            "obj-10::obj-4::obj-195::obj-42": [ "frame-rate[5]", "framerate", 0 ],
+            "obj-10::obj-4::obj-195::obj-82": [ "scalingFactor[1]", "framerate", 0 ],
+            "obj-10::obj-4::obj-195::obj-86": [ "deltaSize[1]", "maveragewindow", 0 ],
+            "obj-10::obj-4::obj-5": [ "live.text[11]", "live.text", 0 ],
+            "obj-10::obj-5::obj-195::obj-125": [ "comp-exp[2]", "Q", 0 ],
+            "obj-10::obj-5::obj-195::obj-13": [ "minMonitor[12]", "minMonitor", 0 ],
+            "obj-10::obj-5::obj-195::obj-14": [ "maxMonitor[12]", "maxMonitor", 0 ],
+            "obj-10::obj-5::obj-195::obj-42": [ "frame-rate[6]", "framerate", 0 ],
+            "obj-10::obj-5::obj-195::obj-82": [ "cut-frequency[3]", "fcut", 0 ],
+            "obj-10::obj-5::obj-195::obj-86": [ "gain[4]", "gain", 0 ],
+            "obj-10::obj-5::obj-37": [ "live.text[12]", "live.text", 0 ],
+            "obj-10::obj-6::obj-195::obj-125": [ "comp-exp[3]", "Q", 0 ],
+            "obj-10::obj-6::obj-195::obj-13": [ "minMonitor[13]", "minMonitor", 0 ],
+            "obj-10::obj-6::obj-195::obj-14": [ "maxMonitor[13]", "maxMonitor", 0 ],
+            "obj-10::obj-6::obj-195::obj-42": [ "frame-rate[7]", "framerate", 0 ],
+            "obj-10::obj-6::obj-195::obj-82": [ "cut-frequency[4]", "fcut", 0 ],
+            "obj-10::obj-6::obj-195::obj-86": [ "gain[5]", "gain", 0 ],
+            "obj-10::obj-6::obj-37": [ "live.text[13]", "live.text", 0 ],
+            "obj-10::obj-85::obj-34": [ "live.toggle[1]", "bypass", 0 ],
+            "obj-10::obj-85::obj-37": [ "live.text[29]", "live.text", 0 ],
+            "obj-10::obj-85::obj-5::obj-15": [ "framerate[2]", "framerate", 0 ],
+            "obj-10::obj-85::obj-5::obj-32": [ "maxMonitor[15]", "maxMonitor", 0 ],
+            "obj-10::obj-85::obj-5::obj-33": [ "minMonitor[15]", "minMonitor", 0 ],
+            "obj-10::obj-85::obj-5::obj-39": [ "bypass[1]", "bypass", 0 ],
+            "obj-10::obj-85::obj-5::obj-42": [ "fcmin[1]", "fcmin", 0 ],
+            "obj-10::obj-85::obj-5::obj-82": [ "beta[1]", "beta", 0 ],
+            "obj-12::obj-1::obj-195::obj-125": [ "compexp", "compexp", 0 ],
+            "obj-12::obj-1::obj-195::obj-13": [ "minMonitor", "minMonitor", 0 ],
+            "obj-12::obj-1::obj-195::obj-136": [ "live.menu[1]", "live.menu", 0 ],
+            "obj-12::obj-1::obj-195::obj-139": [ "live.menu", "live.menu", 0 ],
+            "obj-12::obj-1::obj-195::obj-14": [ "maxMonitor", "maxMonitor", 0 ],
+            "obj-12::obj-1::obj-195::obj-142": [ "derivativewindow", "maveragewindow", 0 ],
+            "obj-12::obj-1::obj-195::obj-146": [ "maveragewindow", "maveragewindow", 0 ],
+            "obj-12::obj-1::obj-195::obj-150": [ "gateonoff", "gateonoff", 0 ],
+            "obj-12::obj-1::obj-195::obj-151": [ "cliponoff", "cliponoff", 0 ],
+            "obj-12::obj-1::obj-195::obj-154": [ "clipmax", "gain", 0 ],
+            "obj-12::obj-1::obj-195::obj-31": [ "gatethresh", "gatethresh", 0 ],
+            "obj-12::obj-1::obj-195::obj-42": [ "framerate", "framerate", 0 ],
+            "obj-12::obj-1::obj-195::obj-82": [ "fcut", "fcut", 0 ],
+            "obj-12::obj-1::obj-195::obj-86": [ "gain", "gain", 0 ],
+            "obj-12::obj-1::obj-37": [ "live.text[3]", "live.text", 0 ],
+            "obj-12::obj-27::obj-195::obj-125": [ "Q", "Q", 0 ],
+            "obj-12::obj-27::obj-195::obj-13": [ "minMonitor[5]", "minMonitor", 0 ],
+            "obj-12::obj-27::obj-195::obj-14": [ "maxMonitor[5]", "maxMonitor", 0 ],
+            "obj-12::obj-27::obj-195::obj-42": [ "frame-rate[3]", "framerate", 0 ],
+            "obj-12::obj-27::obj-195::obj-82": [ "cut-frequency[2]", "fcut", 0 ],
+            "obj-12::obj-27::obj-195::obj-86": [ "gain[3]", "gain", 0 ],
+            "obj-12::obj-27::obj-37": [ "live.text[7]", "live.text", 0 ],
+            "obj-12::obj-30::obj-195::obj-13": [ "minMonitor[6]", "minMonitor", 0 ],
+            "obj-12::obj-30::obj-195::obj-14": [ "maxMonitor[6]", "maxMonitor", 0 ],
+            "obj-12::obj-30::obj-37": [ "live.text[27]", "live.text", 0 ],
+            "obj-12::obj-31::obj-11": [ "live.text[8]", "live.text", 0 ],
+            "obj-12::obj-31::obj-5::obj-34": [ "maxMonitor[7]", "maxMonitor", 0 ],
+            "obj-12::obj-31::obj-5::obj-37": [ "minMonitor[7]", "minMonitor", 0 ],
+            "obj-12::obj-31::obj-5::obj-42": [ "frame-rate[4]", "framerate", 0 ],
+            "obj-12::obj-31::obj-5::obj-48": [ "gyroweight", "maveragewindow", 0 ],
+            "obj-12::obj-3::obj-17": [ "live.text[4]", "live.text", 0 ],
+            "obj-12::obj-3::obj-4": [ "live.button[2]", "live.button[1]", 0 ],
+            "obj-12::obj-3::obj-8::obj-14": [ "threshold", "threshold", 0 ],
+            "obj-12::obj-3::obj-8::obj-17": [ "minDuration", "threshold", 0 ],
+            "obj-12::obj-3::obj-8::obj-27": [ "medianSize", "maveragewindow", 0 ],
+            "obj-12::obj-3::obj-8::obj-34": [ "maxMonitor[1]", "maxMonitor", 0 ],
+            "obj-12::obj-3::obj-8::obj-37": [ "minMonitor[1]", "minMonitor", 0 ],
+            "obj-12::obj-4::obj-195::obj-13": [ "minMonitor[2]", "minMonitor", 0 ],
+            "obj-12::obj-4::obj-195::obj-14": [ "maxMonitor[2]", "maxMonitor", 0 ],
+            "obj-12::obj-4::obj-195::obj-42": [ "frame-rate", "framerate", 0 ],
+            "obj-12::obj-4::obj-195::obj-82": [ "scalingFactor", "framerate", 0 ],
+            "obj-12::obj-4::obj-195::obj-86": [ "deltaSize", "maveragewindow", 0 ],
+            "obj-12::obj-4::obj-5": [ "live.text[28]", "live.text", 0 ],
+            "obj-12::obj-5::obj-195::obj-125": [ "comp-exp", "Q", 0 ],
+            "obj-12::obj-5::obj-195::obj-13": [ "minMonitor[3]", "minMonitor", 0 ],
+            "obj-12::obj-5::obj-195::obj-14": [ "maxMonitor[3]", "maxMonitor", 0 ],
+            "obj-12::obj-5::obj-195::obj-42": [ "frame-rate[1]", "framerate", 0 ],
+            "obj-12::obj-5::obj-195::obj-82": [ "cut-frequency", "fcut", 0 ],
+            "obj-12::obj-5::obj-195::obj-86": [ "gain[1]", "gain", 0 ],
+            "obj-12::obj-5::obj-37": [ "live.text[5]", "live.text", 0 ],
+            "obj-12::obj-63::obj-5::obj-34": [ "maxMonitor[8]", "maxMonitor", 0 ],
+            "obj-12::obj-63::obj-5::obj-37": [ "minMonitor[8]", "minMonitor", 0 ],
+            "obj-12::obj-63::obj-5::obj-48": [ "order", "order", 0 ],
+            "obj-12::obj-63::obj-7": [ "live.text[9]", "live.text", 0 ],
+            "obj-12::obj-6::obj-195::obj-125": [ "comp-exp[1]", "Q", 0 ],
+            "obj-12::obj-6::obj-195::obj-13": [ "minMonitor[4]", "minMonitor", 0 ],
+            "obj-12::obj-6::obj-195::obj-14": [ "maxMonitor[4]", "maxMonitor", 0 ],
+            "obj-12::obj-6::obj-195::obj-42": [ "frame-rate[2]", "framerate", 0 ],
+            "obj-12::obj-6::obj-195::obj-82": [ "cut-frequency[1]", "fcut", 0 ],
+            "obj-12::obj-6::obj-195::obj-86": [ "gain[2]", "gain", 0 ],
+            "obj-12::obj-6::obj-37": [ "live.text[6]", "live.text", 0 ],
+            "obj-12::obj-7::obj-6": [ "live.text[10]", "live.text", 0 ],
+            "obj-12::obj-7::obj-8::obj-14": [ "threshold[1]", "threshold", 0 ],
+            "obj-12::obj-7::obj-8::obj-34": [ "maxMonitor[10]", "maxMonitor", 0 ],
+            "obj-12::obj-7::obj-8::obj-37": [ "minMonitor[10]", "minMonitor", 0 ],
+            "obj-12::obj-85::obj-34": [ "live.toggle", "bypass", 0 ],
+            "obj-12::obj-85::obj-37": [ "live.text[59]", "live.text", 0 ],
+            "obj-12::obj-85::obj-5::obj-15": [ "framerate[1]", "framerate", 0 ],
+            "obj-12::obj-85::obj-5::obj-32": [ "maxMonitor[9]", "maxMonitor", 0 ],
+            "obj-12::obj-85::obj-5::obj-33": [ "minMonitor[9]", "minMonitor", 0 ],
+            "obj-12::obj-85::obj-5::obj-39": [ "bypass", "bypass", 0 ],
+            "obj-12::obj-85::obj-5::obj-42": [ "fcmin", "fcmin", 0 ],
+            "obj-12::obj-85::obj-5::obj-82": [ "beta", "beta", 0 ],
+            "obj-12::obj-8::obj-10::obj-32": [ "0-SclMin[3]", "SclMin-NB", 0 ],
+            "obj-12::obj-8::obj-10::obj-33": [ "0-SclMax[3]", "SclMax-NB", 0 ],
+            "obj-12::obj-8::obj-12::obj-32": [ "0-SclMin[2]", "SclMin-NB", 0 ],
+            "obj-12::obj-8::obj-12::obj-33": [ "0-SclMax[2]", "SclMax-NB", 0 ],
+            "obj-12::obj-8::obj-195::obj-13": [ "minMonitor[22]", "minMonitor", 0 ],
+            "obj-12::obj-8::obj-195::obj-14": [ "maxMonitor[22]", "maxMonitor", 0 ],
+            "obj-12::obj-8::obj-195::obj-39": [ "bypass[2]", "bypass", 0 ],
+            "obj-12::obj-8::obj-195::obj-50": [ "live.text[33]", "live.text", 0 ],
+            "obj-12::obj-8::obj-195::obj-59": [ "live.text[31]", "live.text", 0 ],
+            "obj-12::obj-8::obj-195::obj-62": [ "live.text[32]", "live.text", 0 ],
+            "obj-12::obj-8::obj-195::obj-68": [ "live.text[20]", "live.text", 0 ],
+            "obj-12::obj-8::obj-28": [ "live.text[39]", "live.text", 0 ],
+            "obj-12::obj-8::obj-29": [ "live.text[25]", "live.text", 0 ],
+            "obj-12::obj-8::obj-31": [ "live.text[26]", "live.text", 0 ],
+            "obj-12::obj-8::obj-33": [ "live.text[36]", "live.text", 0 ],
+            "obj-12::obj-8::obj-34": [ "live.toggle[2]", "bypass", 0 ],
+            "obj-12::obj-8::obj-37": [ "live.text[21]", "live.text", 0 ],
+            "obj-12::obj-8::obj-50": [ "live.text[37]", "live.text", 0 ],
+            "obj-12::obj-8::obj-59": [ "live.text[38]", "live.text", 0 ],
+            "obj-12::obj-8::obj-62": [ "live.text[34]", "live.text", 0 ],
+            "obj-12::obj-8::obj-68": [ "live.text[35]", "live.text", 0 ],
+            "obj-14::obj-1::obj-195::obj-125": [ "compexp[1]", "compexp", 0 ],
+            "obj-14::obj-1::obj-195::obj-13": [ "minMonitor[16]", "minMonitor", 0 ],
+            "obj-14::obj-1::obj-195::obj-136": [ "live.menu[3]", "live.menu", 0 ],
+            "obj-14::obj-1::obj-195::obj-139": [ "live.menu[2]", "live.menu", 0 ],
+            "obj-14::obj-1::obj-195::obj-14": [ "maxMonitor[16]", "maxMonitor", 0 ],
+            "obj-14::obj-1::obj-195::obj-142": [ "derivativewindow[1]", "maveragewindow", 0 ],
+            "obj-14::obj-1::obj-195::obj-146": [ "maveragewindow[1]", "maveragewindow", 0 ],
+            "obj-14::obj-1::obj-195::obj-150": [ "gateonoff[1]", "gateonoff", 0 ],
+            "obj-14::obj-1::obj-195::obj-151": [ "cliponoff[1]", "cliponoff", 0 ],
+            "obj-14::obj-1::obj-195::obj-154": [ "clipmax[1]", "gain", 0 ],
+            "obj-14::obj-1::obj-195::obj-31": [ "gatethresh[1]", "gatethresh", 0 ],
+            "obj-14::obj-1::obj-195::obj-42": [ "framerate[3]", "framerate", 0 ],
+            "obj-14::obj-1::obj-195::obj-82": [ "fcut[1]", "fcut", 0 ],
+            "obj-14::obj-1::obj-195::obj-86": [ "gain[7]", "gain", 0 ],
+            "obj-14::obj-1::obj-37": [ "live.text[15]", "live.text", 0 ],
+            "obj-14::obj-30::obj-195::obj-13": [ "minMonitor[17]", "minMonitor", 0 ],
+            "obj-14::obj-30::obj-195::obj-14": [ "maxMonitor[17]", "maxMonitor", 0 ],
+            "obj-14::obj-30::obj-37": [ "live.text[16]", "live.text", 0 ],
+            "obj-14::obj-31::obj-11": [ "live.text[17]", "live.text", 0 ],
+            "obj-14::obj-31::obj-5::obj-34": [ "maxMonitor[18]", "maxMonitor", 0 ],
+            "obj-14::obj-31::obj-5::obj-37": [ "minMonitor[18]", "minMonitor", 0 ],
+            "obj-14::obj-31::obj-5::obj-42": [ "frame-rate[9]", "framerate", 0 ],
+            "obj-14::obj-31::obj-5::obj-48": [ "gyroweight[1]", "maveragewindow", 0 ],
+            "obj-14::obj-63::obj-5::obj-34": [ "maxMonitor[19]", "maxMonitor", 0 ],
+            "obj-14::obj-63::obj-5::obj-37": [ "minMonitor[19]", "minMonitor", 0 ],
+            "obj-14::obj-63::obj-5::obj-48": [ "order[1]", "order", 0 ],
+            "obj-14::obj-63::obj-7": [ "live.text[18]", "live.text", 0 ],
+            "obj-15::obj-25::obj-6": [ "live.text[19]", "live.text", 0 ],
+            "obj-15::obj-25::obj-8::obj-14": [ "threshold[3]", "threshold", 0 ],
+            "obj-15::obj-25::obj-8::obj-34": [ "maxMonitor[21]", "maxMonitor", 0 ],
+            "obj-15::obj-25::obj-8::obj-37": [ "minMonitor[21]", "minMonitor", 0 ],
+            "obj-15::obj-3::obj-17": [ "live.text[30]", "live.text", 0 ],
+            "obj-15::obj-3::obj-4": [ "live.button[3]", "live.button[1]", 0 ],
+            "obj-15::obj-3::obj-8::obj-14": [ "threshold[2]", "threshold", 0 ],
+            "obj-15::obj-3::obj-8::obj-17": [ "minDuration[1]", "threshold", 0 ],
+            "obj-15::obj-3::obj-8::obj-27": [ "medianSize[1]", "maveragewindow", 0 ],
+            "obj-15::obj-3::obj-8::obj-34": [ "maxMonitor[20]", "maxMonitor", 0 ],
+            "obj-15::obj-3::obj-8::obj-37": [ "minMonitor[20]", "minMonitor", 0 ],
+            "obj-1::obj-8::obj-10::obj-32": [ "0-SclMin[5]", "SclMin-NB", 0 ],
+            "obj-1::obj-8::obj-10::obj-33": [ "0-SclMax[5]", "SclMax-NB", 0 ],
+            "obj-1::obj-8::obj-12::obj-32": [ "0-SclMin[4]", "SclMin-NB", 0 ],
+            "obj-1::obj-8::obj-12::obj-33": [ "0-SclMax[4]", "SclMax-NB", 0 ],
+            "obj-1::obj-8::obj-195::obj-13": [ "minMonitor[34]", "minMonitor", 0 ],
+            "obj-1::obj-8::obj-195::obj-14": [ "maxMonitor[34]", "maxMonitor", 0 ],
+            "obj-1::obj-8::obj-195::obj-39": [ "bypass[4]", "bypass", 0 ],
+            "obj-1::obj-8::obj-195::obj-50": [ "live.text[49]", "live.text", 0 ],
+            "obj-1::obj-8::obj-195::obj-59": [ "live.text[52]", "live.text", 0 ],
+            "obj-1::obj-8::obj-195::obj-62": [ "live.text[51]", "live.text", 0 ],
+            "obj-1::obj-8::obj-195::obj-68": [ "live.text[50]", "live.text", 0 ],
+            "obj-1::obj-8::obj-28": [ "live.text[55]", "live.text", 0 ],
+            "obj-1::obj-8::obj-29": [ "live.text[58]", "live.text", 0 ],
+            "obj-1::obj-8::obj-31": [ "live.text[61]", "live.text", 0 ],
+            "obj-1::obj-8::obj-33": [ "live.text[60]", "live.text", 0 ],
+            "obj-1::obj-8::obj-34": [ "live.toggle[4]", "bypass", 0 ],
+            "obj-1::obj-8::obj-37": [ "live.text[57]", "live.text", 0 ],
+            "obj-1::obj-8::obj-50": [ "live.text[54]", "live.text", 0 ],
+            "obj-1::obj-8::obj-59": [ "live.text[62]", "live.text", 0 ],
+            "obj-1::obj-8::obj-62": [ "live.text[53]", "live.text", 0 ],
+            "obj-1::obj-8::obj-68": [ "live.text[56]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
-                "obj-12::obj-7::obj-13": {
-                    "parameter_longname": "live.toggle[4]"
+                "obj-10::obj-27::obj-195::obj-125": {
+                    "parameter_longname": "Q[1]"
                 },
-                "obj-12::obj-7::obj-8::obj-17": {
-                    "parameter_longname": "live.toggle[3]"
+                "obj-10::obj-27::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[14]"
                 },
-                "obj-15::obj-25::obj-13": {
+                "obj-10::obj-27::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[14]"
+                },
+                "obj-10::obj-27::obj-195::obj-42": {
+                    "parameter_longname": "frame-rate[8]"
+                },
+                "obj-10::obj-27::obj-195::obj-82": {
+                    "parameter_longname": "cut-frequency[5]"
+                },
+                "obj-10::obj-27::obj-195::obj-86": {
+                    "parameter_longname": "gain[6]"
+                },
+                "obj-10::obj-27::obj-37": {
+                    "parameter_longname": "live.text[14]"
+                },
+                "obj-10::obj-4::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[11]"
+                },
+                "obj-10::obj-4::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[11]"
+                },
+                "obj-10::obj-4::obj-195::obj-42": {
+                    "parameter_longname": "frame-rate[5]"
+                },
+                "obj-10::obj-4::obj-195::obj-82": {
+                    "parameter_longname": "scalingFactor[1]"
+                },
+                "obj-10::obj-4::obj-195::obj-86": {
+                    "parameter_longname": "deltaSize[1]"
+                },
+                "obj-10::obj-4::obj-5": {
+                    "parameter_longname": "live.text[11]"
+                },
+                "obj-10::obj-5::obj-195::obj-125": {
+                    "parameter_longname": "comp-exp[2]"
+                },
+                "obj-10::obj-5::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[12]"
+                },
+                "obj-10::obj-5::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[12]"
+                },
+                "obj-10::obj-5::obj-195::obj-42": {
+                    "parameter_longname": "frame-rate[6]"
+                },
+                "obj-10::obj-5::obj-195::obj-82": {
+                    "parameter_longname": "cut-frequency[3]"
+                },
+                "obj-10::obj-5::obj-195::obj-86": {
+                    "parameter_longname": "gain[4]"
+                },
+                "obj-10::obj-5::obj-37": {
+                    "parameter_longname": "live.text[12]"
+                },
+                "obj-10::obj-6::obj-195::obj-125": {
+                    "parameter_longname": "comp-exp[3]"
+                },
+                "obj-10::obj-6::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[13]"
+                },
+                "obj-10::obj-6::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[13]"
+                },
+                "obj-10::obj-6::obj-195::obj-42": {
+                    "parameter_longname": "frame-rate[7]"
+                },
+                "obj-10::obj-6::obj-195::obj-82": {
+                    "parameter_longname": "cut-frequency[4]"
+                },
+                "obj-10::obj-6::obj-195::obj-86": {
+                    "parameter_longname": "gain[5]"
+                },
+                "obj-10::obj-6::obj-37": {
+                    "parameter_longname": "live.text[13]"
+                },
+                "obj-10::obj-85::obj-34": {
+                    "parameter_longname": "live.toggle[1]"
+                },
+                "obj-10::obj-85::obj-37": {
+                    "parameter_longname": "live.text[29]"
+                },
+                "obj-10::obj-85::obj-5::obj-15": {
+                    "parameter_longname": "framerate[2]"
+                },
+                "obj-10::obj-85::obj-5::obj-32": {
+                    "parameter_longname": "maxMonitor[15]"
+                },
+                "obj-10::obj-85::obj-5::obj-33": {
+                    "parameter_longname": "minMonitor[15]"
+                },
+                "obj-10::obj-85::obj-5::obj-39": {
+                    "parameter_longname": "bypass[1]"
+                },
+                "obj-10::obj-85::obj-5::obj-42": {
+                    "parameter_longname": "fcmin[1]"
+                },
+                "obj-10::obj-85::obj-5::obj-82": {
+                    "parameter_longname": "beta[1]"
+                },
+                "obj-12::obj-27::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[5]"
+                },
+                "obj-12::obj-27::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[5]"
+                },
+                "obj-12::obj-27::obj-195::obj-42": {
+                    "parameter_longname": "frame-rate[3]"
+                },
+                "obj-12::obj-27::obj-195::obj-82": {
+                    "parameter_longname": "cut-frequency[2]"
+                },
+                "obj-12::obj-27::obj-195::obj-86": {
+                    "parameter_longname": "gain[3]"
+                },
+                "obj-12::obj-27::obj-37": {
+                    "parameter_longname": "live.text[7]"
+                },
+                "obj-12::obj-30::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[6]"
+                },
+                "obj-12::obj-30::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[6]"
+                },
+                "obj-12::obj-31::obj-11": {
+                    "parameter_longname": "live.text[8]"
+                },
+                "obj-12::obj-31::obj-5::obj-34": {
+                    "parameter_longname": "maxMonitor[7]"
+                },
+                "obj-12::obj-31::obj-5::obj-37": {
+                    "parameter_longname": "minMonitor[7]"
+                },
+                "obj-12::obj-31::obj-5::obj-42": {
+                    "parameter_longname": "frame-rate[4]"
+                },
+                "obj-12::obj-3::obj-17": {
+                    "parameter_longname": "live.text[4]"
+                },
+                "obj-12::obj-3::obj-4": {
+                    "parameter_longname": "live.button[2]"
+                },
+                "obj-12::obj-3::obj-8::obj-34": {
+                    "parameter_longname": "maxMonitor[1]"
+                },
+                "obj-12::obj-3::obj-8::obj-37": {
+                    "parameter_longname": "minMonitor[1]"
+                },
+                "obj-12::obj-4::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[2]"
+                },
+                "obj-12::obj-4::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[2]"
+                },
+                "obj-12::obj-5::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[3]"
+                },
+                "obj-12::obj-5::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[3]"
+                },
+                "obj-12::obj-5::obj-195::obj-42": {
+                    "parameter_longname": "frame-rate[1]"
+                },
+                "obj-12::obj-5::obj-195::obj-86": {
+                    "parameter_longname": "gain[1]"
+                },
+                "obj-12::obj-5::obj-37": {
+                    "parameter_longname": "live.text[5]"
+                },
+                "obj-12::obj-63::obj-5::obj-34": {
+                    "parameter_longname": "maxMonitor[8]"
+                },
+                "obj-12::obj-63::obj-5::obj-37": {
+                    "parameter_longname": "minMonitor[8]"
+                },
+                "obj-12::obj-63::obj-7": {
+                    "parameter_longname": "live.text[9]"
+                },
+                "obj-12::obj-6::obj-195::obj-125": {
+                    "parameter_longname": "comp-exp[1]"
+                },
+                "obj-12::obj-6::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[4]"
+                },
+                "obj-12::obj-6::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[4]"
+                },
+                "obj-12::obj-6::obj-195::obj-42": {
+                    "parameter_longname": "frame-rate[2]"
+                },
+                "obj-12::obj-6::obj-195::obj-82": {
+                    "parameter_longname": "cut-frequency[1]"
+                },
+                "obj-12::obj-6::obj-195::obj-86": {
+                    "parameter_longname": "gain[2]"
+                },
+                "obj-12::obj-6::obj-37": {
+                    "parameter_longname": "live.text[6]"
+                },
+                "obj-12::obj-7::obj-6": {
+                    "parameter_longname": "live.text[10]"
+                },
+                "obj-12::obj-7::obj-8::obj-14": {
+                    "parameter_longname": "threshold[1]"
+                },
+                "obj-12::obj-7::obj-8::obj-34": {
+                    "parameter_longname": "maxMonitor[10]"
+                },
+                "obj-12::obj-7::obj-8::obj-37": {
+                    "parameter_longname": "minMonitor[10]"
+                },
+                "obj-12::obj-85::obj-5::obj-15": {
+                    "parameter_longname": "framerate[1]"
+                },
+                "obj-12::obj-85::obj-5::obj-32": {
+                    "parameter_longname": "maxMonitor[9]"
+                },
+                "obj-12::obj-85::obj-5::obj-33": {
+                    "parameter_longname": "minMonitor[9]"
+                },
+                "obj-12::obj-8::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[22]"
+                },
+                "obj-12::obj-8::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[22]"
+                },
+                "obj-12::obj-8::obj-195::obj-39": {
+                    "parameter_longname": "bypass[2]"
+                },
+                "obj-12::obj-8::obj-195::obj-50": {
+                    "parameter_longname": "live.text[33]"
+                },
+                "obj-12::obj-8::obj-195::obj-59": {
+                    "parameter_longname": "live.text[31]"
+                },
+                "obj-12::obj-8::obj-195::obj-62": {
+                    "parameter_longname": "live.text[32]"
+                },
+                "obj-12::obj-8::obj-195::obj-68": {
+                    "parameter_longname": "live.text[20]"
+                },
+                "obj-12::obj-8::obj-28": {
+                    "parameter_longname": "live.text[39]"
+                },
+                "obj-12::obj-8::obj-33": {
+                    "parameter_longname": "live.text[36]"
+                },
+                "obj-12::obj-8::obj-34": {
                     "parameter_longname": "live.toggle[2]"
                 },
-                "obj-15::obj-25::obj-8::obj-17": {
-                    "parameter_longname": "live.toggle[1]"
+                "obj-12::obj-8::obj-37": {
+                    "parameter_longname": "live.text[21]"
+                },
+                "obj-12::obj-8::obj-50": {
+                    "parameter_longname": "live.text[37]"
+                },
+                "obj-12::obj-8::obj-59": {
+                    "parameter_longname": "live.text[38]"
+                },
+                "obj-12::obj-8::obj-62": {
+                    "parameter_longname": "live.text[34]"
+                },
+                "obj-12::obj-8::obj-68": {
+                    "parameter_longname": "live.text[35]"
+                },
+                "obj-14::obj-1::obj-195::obj-125": {
+                    "parameter_longname": "compexp[1]"
+                },
+                "obj-14::obj-1::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[16]"
+                },
+                "obj-14::obj-1::obj-195::obj-136": {
+                    "parameter_longname": "live.menu[3]"
+                },
+                "obj-14::obj-1::obj-195::obj-139": {
+                    "parameter_longname": "live.menu[2]"
+                },
+                "obj-14::obj-1::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[16]"
+                },
+                "obj-14::obj-1::obj-195::obj-142": {
+                    "parameter_longname": "derivativewindow[1]"
+                },
+                "obj-14::obj-1::obj-195::obj-146": {
+                    "parameter_longname": "maveragewindow[1]"
+                },
+                "obj-14::obj-1::obj-195::obj-150": {
+                    "parameter_longname": "gateonoff[1]"
+                },
+                "obj-14::obj-1::obj-195::obj-151": {
+                    "parameter_longname": "cliponoff[1]"
+                },
+                "obj-14::obj-1::obj-195::obj-154": {
+                    "parameter_longname": "clipmax[1]"
+                },
+                "obj-14::obj-1::obj-195::obj-31": {
+                    "parameter_longname": "gatethresh[1]"
+                },
+                "obj-14::obj-1::obj-195::obj-42": {
+                    "parameter_longname": "framerate[3]"
+                },
+                "obj-14::obj-1::obj-195::obj-82": {
+                    "parameter_longname": "fcut[1]"
+                },
+                "obj-14::obj-1::obj-195::obj-86": {
+                    "parameter_longname": "gain[7]"
+                },
+                "obj-14::obj-1::obj-37": {
+                    "parameter_longname": "live.text[15]"
+                },
+                "obj-14::obj-30::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[17]"
+                },
+                "obj-14::obj-30::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[17]"
+                },
+                "obj-14::obj-30::obj-37": {
+                    "parameter_longname": "live.text[16]"
+                },
+                "obj-14::obj-31::obj-11": {
+                    "parameter_longname": "live.text[17]"
+                },
+                "obj-14::obj-31::obj-5::obj-34": {
+                    "parameter_longname": "maxMonitor[18]"
+                },
+                "obj-14::obj-31::obj-5::obj-37": {
+                    "parameter_longname": "minMonitor[18]"
+                },
+                "obj-14::obj-31::obj-5::obj-42": {
+                    "parameter_longname": "frame-rate[9]"
+                },
+                "obj-14::obj-31::obj-5::obj-48": {
+                    "parameter_longname": "gyroweight[1]"
+                },
+                "obj-14::obj-63::obj-5::obj-34": {
+                    "parameter_longname": "maxMonitor[19]"
+                },
+                "obj-14::obj-63::obj-5::obj-37": {
+                    "parameter_longname": "minMonitor[19]"
+                },
+                "obj-14::obj-63::obj-5::obj-48": {
+                    "parameter_longname": "order[1]"
+                },
+                "obj-14::obj-63::obj-7": {
+                    "parameter_longname": "live.text[18]"
+                },
+                "obj-15::obj-25::obj-6": {
+                    "parameter_longname": "live.text[19]"
+                },
+                "obj-15::obj-25::obj-8::obj-14": {
+                    "parameter_longname": "threshold[3]"
+                },
+                "obj-15::obj-25::obj-8::obj-34": {
+                    "parameter_longname": "maxMonitor[21]"
+                },
+                "obj-15::obj-25::obj-8::obj-37": {
+                    "parameter_longname": "minMonitor[21]"
+                },
+                "obj-15::obj-3::obj-17": {
+                    "parameter_longname": "live.text[30]"
                 },
                 "obj-15::obj-3::obj-4": {
                     "parameter_longname": "live.button[3]"
+                },
+                "obj-15::obj-3::obj-8::obj-14": {
+                    "parameter_longname": "threshold[2]"
+                },
+                "obj-15::obj-3::obj-8::obj-17": {
+                    "parameter_longname": "minDuration[1]"
+                },
+                "obj-15::obj-3::obj-8::obj-27": {
+                    "parameter_longname": "medianSize[1]"
+                },
+                "obj-15::obj-3::obj-8::obj-34": {
+                    "parameter_longname": "maxMonitor[20]"
+                },
+                "obj-15::obj-3::obj-8::obj-37": {
+                    "parameter_longname": "minMonitor[20]"
+                },
+                "obj-1::obj-8::obj-10::obj-32": {
+                    "parameter_longname": "0-SclMin[5]"
+                },
+                "obj-1::obj-8::obj-10::obj-33": {
+                    "parameter_longname": "0-SclMax[5]"
+                },
+                "obj-1::obj-8::obj-12::obj-32": {
+                    "parameter_longname": "0-SclMin[4]"
+                },
+                "obj-1::obj-8::obj-12::obj-33": {
+                    "parameter_longname": "0-SclMax[4]"
+                },
+                "obj-1::obj-8::obj-195::obj-13": {
+                    "parameter_longname": "minMonitor[34]"
+                },
+                "obj-1::obj-8::obj-195::obj-14": {
+                    "parameter_longname": "maxMonitor[34]"
+                },
+                "obj-1::obj-8::obj-195::obj-39": {
+                    "parameter_longname": "bypass[4]"
+                },
+                "obj-1::obj-8::obj-195::obj-50": {
+                    "parameter_longname": "live.text[49]"
+                },
+                "obj-1::obj-8::obj-195::obj-59": {
+                    "parameter_longname": "live.text[52]"
+                },
+                "obj-1::obj-8::obj-195::obj-62": {
+                    "parameter_longname": "live.text[51]"
+                },
+                "obj-1::obj-8::obj-195::obj-68": {
+                    "parameter_longname": "live.text[50]"
+                },
+                "obj-1::obj-8::obj-28": {
+                    "parameter_longname": "live.text[55]"
+                },
+                "obj-1::obj-8::obj-29": {
+                    "parameter_longname": "live.text[58]"
+                },
+                "obj-1::obj-8::obj-31": {
+                    "parameter_longname": "live.text[61]"
+                },
+                "obj-1::obj-8::obj-33": {
+                    "parameter_longname": "live.text[60]"
+                },
+                "obj-1::obj-8::obj-34": {
+                    "parameter_longname": "live.toggle[4]"
+                },
+                "obj-1::obj-8::obj-37": {
+                    "parameter_longname": "live.text[57]"
+                },
+                "obj-1::obj-8::obj-50": {
+                    "parameter_longname": "live.text[54]"
+                },
+                "obj-1::obj-8::obj-59": {
+                    "parameter_longname": "live.text[62]"
+                },
+                "obj-1::obj-8::obj-62": {
+                    "parameter_longname": "live.text[53]"
+                },
+                "obj-1::obj-8::obj-68": {
+                    "parameter_longname": "live.text[56]"
                 }
             },
             "inherited_shortname": 1

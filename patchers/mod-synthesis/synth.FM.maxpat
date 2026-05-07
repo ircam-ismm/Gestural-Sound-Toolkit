@@ -24,10 +24,10 @@
                     "patching_rect": [ 297.07, 68.03, 56.0, 22.0 ],
                     "restore": {
                         "ConstAmp": [ 0.0 ],
-                        "carrier": [ 40.00000000000001 ],
+                        "carrier": [ 40.000000000000014 ],
                         "duration": [ 500.0 ],
-                        "harmonicity": [ 2.0 ],
-                        "index": [ 2.0 ],
+                        "harmonicity": [ 2.002002002002002 ],
+                        "index": [ 2.002002002002002 ],
                         "ogain": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -36,14 +36,14 @@
             },
             {
                 "box": {
-                    "comment": "Pan(0.-1.)",
+                    "comment": "Pan(0.-1.) with constant amplitude mode",
                     "id": "obj-38",
                     "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 668.0, 88.0, 30.0, 30.0 ]
+                    "patching_rect": [ 692.0, 92.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -68,7 +68,8 @@
                     "patching_rect": [ 1043.0, 239.5, 42.0, 17.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 207.95847564935684, 110.0, 48.09688538312912, 17.0 ],
-                    "text": "duration"
+                    "text": "duration",
+                    "textjustification": 1
                 }
             },
             {
@@ -599,9 +600,10 @@
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
                             "parameter_longname": "index",
-                            "parameter_mmax": 5000.0,
+                            "parameter_mmax": 10.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "index",
+                            "parameter_steps": 1000,
                             "parameter_type": 0,
                             "parameter_unitstyle": 1
                         }
@@ -660,9 +662,10 @@
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
                             "parameter_longname": "harmonicity",
-                            "parameter_mmax": 5000.0,
+                            "parameter_mmax": 10.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "harmonicity",
+                            "parameter_steps": 1000,
                             "parameter_type": 0,
                             "parameter_unitstyle": 1
                         }
