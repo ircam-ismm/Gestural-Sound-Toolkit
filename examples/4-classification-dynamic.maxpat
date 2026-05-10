@@ -9,8 +9,30 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 100.0, 1253.0, 983.0 ],
+        "rect": [ 34.0, 100.0, 1253.0, 939.0 ],
         "boxes": [
+            {
+                "box": {
+                    "bgcolor": [ 0.6, 0.678431, 0.756863, 0.0 ],
+                    "bgmode": 2,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-10",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.riot-comote.maxpat",
+                    "numinlets": 4,
+                    "numoutlets": 5,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "", "", "", "", "" ],
+                    "patching_rect": [ 284.0, 61.0, 339.0, 144.0 ],
+                    "varname": "in.comote",
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "id": "obj-25",
@@ -105,28 +127,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 1079.064523100853, 20.430108428001404, 100.0, 22.0 ],
                     "text": "loadmess 2."
-                }
-            },
-            {
-                "box": {
-                    "bgcolor": [ 0.6, 0.678431, 0.756863, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-10",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "in.comote.maxpat",
-                    "numinlets": 6,
-                    "numoutlets": 6,
-                    "offset": [ -7.0, -5.0 ],
-                    "outlettype": [ "", "", "", "", "", "" ],
-                    "patching_rect": [ 454.1005859375, 63.433043999999995, 163.0, 132.56695556640625 ],
-                    "varname": "in.comote",
-                    "viewvisibility": 1
                 }
             },
             {
@@ -401,27 +401,6 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.6, 0.678431, 0.756863, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-41",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "in.riotbitalino.maxpat",
-                    "numinlets": 5,
-                    "numoutlets": 4,
-                    "offset": [ -6.0, 0.0 ],
-                    "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 284.0, 63.433043999999995, 163.0, 132.566956 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "bgcolor": [ 0.913725490196078, 0.913725490196078, 0.913725490196078, 0.0 ],
                     "bgmode": 2,
                     "border": 0,
@@ -492,14 +471,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-5", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-10", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-7", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-10", 0 ]
                 }
             },
@@ -632,33 +611,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-31", 1 ],
-                    "source": [ "obj-41", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-31", 0 ],
-                    "order": 2,
-                    "source": [ "obj-41", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-5", 0 ],
-                    "order": 1,
-                    "source": [ "obj-41", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-7", 0 ],
-                    "order": 0,
-                    "source": [ "obj-41", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-8", 2 ],
                     "source": [ "obj-5", 0 ]
                 }
@@ -689,14 +641,25 @@
             }
         ],
         "parameters": {
-            "obj-10::obj-33::obj-12": [ "port", "port", 0 ],
-            "obj-10::obj-33::obj-164": [ "format", "format", 0 ],
-            "obj-10::obj-33::obj-20": [ "host-ip", "host-ip", 0 ],
-            "obj-10::obj-33::obj-32": [ "id", "id", 0 ],
-            "obj-10::obj-33::obj-43": [ "sample-period[1]", "sample-period", 0 ],
-            "obj-10::obj-47": [ "live.text[12]", "live.text", 0 ],
-            "obj-10::obj-55": [ "live.text", "live.text", 0 ],
+            "obj-10::obj-108": [ "15159-clock-type", "clock type", 0 ],
+            "obj-10::obj-16": [ "15159-port", "port", 0 ],
+            "obj-10::obj-179": [ "15159-sens-type", "sensor type", 0 ],
+            "obj-10::obj-18::obj-105": [ "live.text[15]", "live.text", 0 ],
+            "obj-10::obj-18::obj-110": [ "live.text[14]", "live.text", 0 ],
+            "obj-10::obj-18::obj-121": [ "live.numbox[4]", "Amount", 0 ],
+            "obj-10::obj-18::obj-20": [ "15159-port[1]", "port", 0 ],
+            "obj-10::obj-18::obj-223": [ "live.numbox[3]", "live.numbox", 0 ],
+            "obj-10::obj-18::obj-59": [ "live.numbox[5]", "live.numbox", 0 ],
+            "obj-10::obj-18::obj-7": [ "live.numbox[2]", "live.numbox", 0 ],
+            "obj-10::obj-18::obj-75": [ "live.numbox[6]", "live.numbox", 0 ],
+            "obj-10::obj-18::obj-83": [ "live.toggle[4]", "live.toggle", 0 ],
+            "obj-10::obj-25": [ "live.text[18]", "live.text", 0 ],
+            "obj-10::obj-31": [ "live.button[3]", "live.button", 0 ],
+            "obj-10::obj-47": [ "live.text[12]", "enable", 0 ],
+            "obj-10::obj-50": [ "15159-frameperiod", "frame period", 0 ],
             "obj-10::obj-56": [ "live.text[1]", "live.text", 0 ],
+            "obj-10::obj-58": [ "live.text[2]", "live.text[3]", 0 ],
+            "obj-10::obj-59": [ "live.numbox[1]", "live.numbox", 0 ],
             "obj-10::obj-60": [ "live.text[11]", "live.text[3]", 0 ],
             "obj-12::obj-166": [ "speed", "speed", 0 ],
             "obj-12::obj-22": [ "live.gain~", "ogain", 0 ],
@@ -716,11 +679,12 @@
             "obj-2::obj-70": [ "live.text[7]", "live.text", 0 ],
             "obj-2::obj-73": [ "live.toggle", "live.toggle", 0 ],
             "obj-31::obj-11": [ "live.text[3]", "live.text", 0 ],
+            "obj-31::obj-5::obj-17": [ "15103-sens-type", "sensor type", 0 ],
+            "obj-31::obj-5::obj-179": [ "15103-sens-type[1]", "sensor type", 0 ],
             "obj-31::obj-5::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-31::obj-5::obj-37": [ "minMonitor", "minMonitor", 0 ],
             "obj-31::obj-5::obj-42": [ "frame-rate", "framerate", 0 ],
             "obj-31::obj-5::obj-48": [ "gyroweight", "maveragewindow", 0 ],
-            "obj-41::obj-9": [ "7054-id-clock", "7054-id-clock", 0 ],
             "obj-5::obj-195::obj-125": [ "Q", "Q", 0 ],
             "obj-5::obj-195::obj-13": [ "minMonitor[3]", "minMonitor", 0 ],
             "obj-5::obj-195::obj-14": [ "maxMonitor[3]", "maxMonitor", 0 ],
@@ -749,12 +713,17 @@
             "obj-7::obj-195::obj-82": [ "fcut", "fcut", 0 ],
             "obj-7::obj-195::obj-86": [ "gain", "gain", 0 ],
             "obj-7::obj-37": [ "live.text[9]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-10::obj-47": {
                     "parameter_longname": "live.text[12]"
-                },
-                "obj-10::obj-55": {
-                    "parameter_longname": "live.text"
                 },
                 "obj-10::obj-56": {
                     "parameter_longname": "live.text[1]"
@@ -767,6 +736,12 @@
                 },
                 "obj-26::obj-2": {
                     "parameter_longname": "live.gain~[5]"
+                },
+                "obj-2::obj-59": {
+                    "parameter_longname": "live.text[6]"
+                },
+                "obj-2::obj-64": {
+                    "parameter_longname": "live.text[5]"
                 },
                 "obj-5::obj-195::obj-13": {
                     "parameter_longname": "minMonitor[3]"

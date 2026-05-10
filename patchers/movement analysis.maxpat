@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 134.0, 165.0, 862.0, 894.0 ],
+        "rect": [ 479.0, 110.0, 785.0, 894.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -29,7 +29,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
+                        "rect": [ 0.0, 26.0, 785.0, 868.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -98,7 +98,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
+                        "rect": [ 0.0, 26.0, 785.0, 868.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -190,7 +190,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
+                        "rect": [ 0.0, 26.0, 785.0, 868.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -433,7 +433,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
+                        "rect": [ 0.0, 26.0, 785.0, 868.0 ],
                         "showontab": 1,
                         "boxes": [],
                         "lines": [],
@@ -460,7 +460,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 862.0, 868.0 ],
+                        "rect": [ 0.0, 26.0, 785.0, 868.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -687,7 +687,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 134.0, 191.0, 862.0, 868.0 ],
+                        "rect": [ 479.0, 136.0, 785.0, 868.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -784,7 +784,7 @@
                                     "numoutlets": 5,
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "", "", "", "", "" ],
-                                    "patching_rect": [ 448.0, 534.0, 130.0, 115.0 ],
+                                    "patching_rect": [ 449.0, 530.5, 130.0, 115.0 ],
                                     "varname": "gst.angles",
                                     "viewvisibility": 1
                                 }
@@ -1033,7 +1033,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-63", 0 ],
-                                    "midpoints": [ 307.5, 656.3826599121094, 439.82106018066406, 656.3826599121094, 439.82106018066406, 524.0323181152344, 457.5, 524.0323181152344 ],
+                                    "midpoints": [ 307.5, 656.3826599121094, 439.82106018066406, 656.3826599121094, 439.82106018066406, 524.0323181152344, 458.5, 524.0323181152344 ],
                                     "source": [ "obj-31", 0 ]
                                 }
                             }
@@ -1134,6 +1134,8 @@
             "obj-12::obj-30::obj-195::obj-14": [ "maxMonitor[6]", "maxMonitor", 0 ],
             "obj-12::obj-30::obj-37": [ "live.text[27]", "live.text", 0 ],
             "obj-12::obj-31::obj-11": [ "live.text[8]", "live.text", 0 ],
+            "obj-12::obj-31::obj-5::obj-17": [ "8603-sens-type", "sensor type", 0 ],
+            "obj-12::obj-31::obj-5::obj-179": [ "8603-sens-type[1]", "sensor type", 0 ],
             "obj-12::obj-31::obj-5::obj-34": [ "maxMonitor[7]", "maxMonitor", 0 ],
             "obj-12::obj-31::obj-5::obj-37": [ "minMonitor[7]", "minMonitor", 0 ],
             "obj-12::obj-31::obj-5::obj-42": [ "frame-rate[4]", "framerate", 0 ],
@@ -1221,6 +1223,8 @@
             "obj-14::obj-30::obj-195::obj-14": [ "maxMonitor[17]", "maxMonitor", 0 ],
             "obj-14::obj-30::obj-37": [ "live.text[16]", "live.text", 0 ],
             "obj-14::obj-31::obj-11": [ "live.text[17]", "live.text", 0 ],
+            "obj-14::obj-31::obj-5::obj-17": [ "8570-sens-type", "sensor type", 0 ],
+            "obj-14::obj-31::obj-5::obj-179": [ "8570-sens-type[1]", "sensor type", 0 ],
             "obj-14::obj-31::obj-5::obj-34": [ "maxMonitor[18]", "maxMonitor", 0 ],
             "obj-14::obj-31::obj-5::obj-37": [ "minMonitor[18]", "minMonitor", 0 ],
             "obj-14::obj-31::obj-5::obj-42": [ "frame-rate[9]", "framerate", 0 ],
@@ -1401,6 +1405,12 @@
                 },
                 "obj-12::obj-31::obj-11": {
                     "parameter_longname": "live.text[8]"
+                },
+                "obj-12::obj-31::obj-5::obj-17": {
+                    "parameter_longname": "8603-sens-type"
+                },
+                "obj-12::obj-31::obj-5::obj-179": {
+                    "parameter_longname": "8603-sens-type[1]"
                 },
                 "obj-12::obj-31::obj-5::obj-34": {
                     "parameter_longname": "maxMonitor[7]"
@@ -1596,6 +1606,12 @@
                 },
                 "obj-14::obj-31::obj-11": {
                     "parameter_longname": "live.text[17]"
+                },
+                "obj-14::obj-31::obj-5::obj-17": {
+                    "parameter_longname": "8570-sens-type"
+                },
+                "obj-14::obj-31::obj-5::obj-179": {
+                    "parameter_longname": "8570-sens-type[1]"
                 },
                 "obj-14::obj-31::obj-5::obj-34": {
                     "parameter_longname": "maxMonitor[18]"

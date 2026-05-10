@@ -9,18 +9,18 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 130.0, 113.0 ],
+        "rect": [ 34.0, 100.0, 148.0, 136.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
                 "box": {
                     "comment": "intensity",
                     "id": "obj-8",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 246.0, 729.0, 25.0, 25.0 ]
+                    "patching_rect": [ 246.0, 835.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -163,7 +163,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 727.0, 688.5, 95.0, 22.0 ],
+                    "patching_rect": [ 727.0, 688.5, 109.0, 22.0 ],
                     "text": "r #0-mubu-scroll"
                 }
             },
@@ -174,7 +174,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 228.0, 391.0, 77.0, 22.0 ],
+                    "patching_rect": [ 228.0, 391.0, 91.0, 22.0 ],
                     "text": "r #0-intensity"
                 }
             },
@@ -290,6 +290,7 @@
                                 "box": {
                                     "fontsize": 11.0,
                                     "id": "obj-24",
+                                    "linecount": 3,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -792,6 +793,7 @@
                             {
                                 "box": {
                                     "id": "obj-157",
+                                    "linecount": 3,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -2250,7 +2252,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "float", "float", "float", "float" ],
-                    "patching_rect": [ 246.0, 691.0, 100.0, 21.0 ],
+                    "patching_rect": [ 246.0, 797.0, 100.0, 21.0 ],
                     "text": "unpack f f f f"
                 }
             },
@@ -2258,12 +2260,13 @@
                 "box": {
                     "fontsize": 12.0,
                     "id": "obj-66",
+                    "linecount": 9,
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 3,
                     "outlettype": [ "", "float", "" ],
-                    "patching_rect": [ 246.0, 659.0, 169.0, 22.0 ],
-                    "text": "pipo intensity @framerate 100"
+                    "patching_rect": [ 246.0, 659.0, 223.0, 129.0 ],
+                    "text": "pipo intensity @framerate 100 @intensity.mode abs @intensity.normmode L2post @intensity.powerexp 0.5 @intensity.cutfrequency 11 @intensity.gain 1. @intensity.offset 1 @intensity.offsetvalue 0.1 @intensity.clipmax 1 @intensity.maxclipvalue 1."
                 }
             },
             {
@@ -2283,7 +2286,7 @@
                 "box": {
                     "comment": "mubu.scroll configuration",
                     "id": "obj-17",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2295,7 +2298,7 @@
                 "box": {
                     "comment": "gain [float]",
                     "id": "obj-60",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2307,7 +2310,7 @@
                 "box": {
                     "comment": "cutoff frequency",
                     "id": "obj-61",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2319,40 +2322,40 @@
                 "box": {
                     "comment": "intensity z axis",
                     "id": "obj-5",
-                    "index": 0,
+                    "index": 5,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 327.0, 729.0, 25.0, 25.0 ]
+                    "patching_rect": [ 327.0, 835.0, 25.0, 25.0 ]
                 }
             },
             {
                 "box": {
                     "comment": "intensity y axis",
                     "id": "obj-4",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 300.0, 729.0, 25.0, 25.0 ]
+                    "patching_rect": [ 300.0, 835.0, 25.0, 25.0 ]
                 }
             },
             {
                 "box": {
                     "comment": "intensity x axis",
                     "id": "obj-43",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 273.0, 729.0, 25.0, 25.0 ]
+                    "patching_rect": [ 273.0, 835.0, 25.0, 25.0 ]
                 }
             },
             {
                 "box": {
                     "comment": "intensity + sync",
                     "id": "obj-1",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2363,7 +2366,7 @@
                 "box": {
                     "comment": "aaccelerometer data [list of 3 floats]",
                     "id": "obj-91",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2388,14 +2391,14 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgcolordefault": 1,
                     "bounds": [ 0.0, 1.0 ],
                     "colormode": "fgcolor",
                     "colorpattern": [ "red", "green", "blue", "" ],
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,
@@ -2410,9 +2413,9 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 711.0, 834.0, 10.0, 10.0 ],
+                    "patching_rect": [ 541.0, 875.0, 224.0, 147.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 23.0, 126.0, 86.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 2846.0, 1629.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -2650,14 +2653,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-113", 0 ],
-                    "midpoints": [ 598.5, 344.0546875, 715.0, 344.0546875 ],
+                    "midpoints": [ 598.5, 344.0546875, 550.5, 344.0546875 ],
                     "source": [ "obj-17", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-113", 0 ],
-                    "midpoints": [ 1961.5, 420.640625, 715.0, 420.640625 ],
+                    "midpoints": [ 1961.5, 420.640625, 550.5, 420.640625 ],
                     "source": [ "obj-197", 1 ]
                 }
             },
@@ -2883,33 +2886,6 @@
                 }
             }
         ],
-        "parameters": {
-            "obj-195::obj-125": [ "compexp", "compexp", 0 ],
-            "obj-195::obj-13": [ "minMonitor", "minMonitor", 0 ],
-            "obj-195::obj-136": [ "live.menu[1]", "live.menu", 0 ],
-            "obj-195::obj-139": [ "live.menu", "live.menu", 0 ],
-            "obj-195::obj-14": [ "maxMonitor", "maxMonitor", 0 ],
-            "obj-195::obj-142": [ "derivativewindow", "maveragewindow", 0 ],
-            "obj-195::obj-146": [ "maveragewindow", "maveragewindow", 0 ],
-            "obj-195::obj-150": [ "gateonoff", "gateonoff", 0 ],
-            "obj-195::obj-151": [ "cliponoff", "cliponoff", 0 ],
-            "obj-195::obj-154": [ "clipmax", "gain", 0 ],
-            "obj-195::obj-31": [ "gatethresh", "gatethresh", 0 ],
-            "obj-195::obj-42": [ "framerate", "framerate", 0 ],
-            "obj-195::obj-82": [ "fcut", "fcut", 0 ],
-            "obj-195::obj-86": [ "gain", "gain", 0 ],
-            "obj-37": [ "live.text[3]", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

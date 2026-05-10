@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 137.0, 121.0 ],
+        "rect": [ 34.0, 100.0, 741.0, 553.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -100,7 +100,7 @@
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[3]",
+                            "parameter_longname": "live.text[69]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -130,7 +130,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 221.0, 150.0, 95.0, 22.0 ],
+                    "patching_rect": [ 221.0, 150.0, 114.0, 22.0 ],
                     "text": "r #0-mubu-scroll"
                 }
             },
@@ -149,7 +149,7 @@
                 "box": {
                     "comment": "mubu.scroll inlet",
                     "id": "obj-4",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -161,13 +161,13 @@
                 "box": {
                     "autobounds": 0,
                     "autoupdate": 120.0,
-                    "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgcolordefault": 1,
-                    "bounds": [ -1.0, 1.0 ],
+                    "bounds": [ -100.0, 100.0 ],
                     "colormode": "rainbow",
                     "domainruler": 0,
                     "domainruler_size": 15,
-                    "fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "fgcolordefault": 1,
                     "first_cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "first_cursor_size": 3,
@@ -182,9 +182,9 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 193.0, 331.0, 158.0, 103.0 ],
+                    "patching_rect": [ 193.0, 331.0, 612.0, 441.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 23.0, 123.0, 95.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 737.0, 526.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -193,14 +193,14 @@
                     "second_cursor_value": 0.0,
                     "second_cursor_visible": 0,
                     "shape": "lines",
-                    "windresize": 0
+                    "windresize": 1
                 }
             },
             {
                 "box": {
                     "comment": "min",
                     "id": "obj-26",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -212,7 +212,7 @@
                 "box": {
                     "comment": "max",
                     "id": "obj-9",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -238,8 +238,9 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 240.0, 93.0, 215.0, 171.0 ],
+                        "rect": [ 134.0, 172.0, 988.0, 798.0 ],
                         "openinpresentation": 1,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -250,8 +251,8 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 288.0, 204.0, 56.0, 22.0 ],
                                     "restore": {
-                                        "maxMonitor": [ 1.0 ],
-                                        "minMonitor": [ -1.0 ]
+                                        "maxMonitor": [ 100.0 ],
+                                        "minMonitor": [ -100.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u933006469"
@@ -276,7 +277,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 180.0, 205.0, 82.0, 20.0 ],
+                                    "patching_rect": [ 180.0, 205.0, 98.0, 20.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -354,9 +355,9 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
-                                            "parameter_longname": "maxMonitor",
-                                            "parameter_mmax": 100.0,
-                                            "parameter_mmin": -100.0,
+                                            "parameter_longname": "maxMonitor[24]",
+                                            "parameter_mmax": 1000.0,
+                                            "parameter_mmin": -1000.0,
                                             "parameter_modmode": 3,
                                             "parameter_shortname": "maxMonitor",
                                             "parameter_type": 0,
@@ -381,9 +382,9 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
-                                            "parameter_longname": "minMonitor",
-                                            "parameter_mmax": 100.0,
-                                            "parameter_mmin": -100.0,
+                                            "parameter_longname": "minMonitor[24]",
+                                            "parameter_mmax": 1000.0,
+                                            "parameter_mmin": -1000.0,
                                             "parameter_modmode": 3,
                                             "parameter_shortname": "minMonitor",
                                             "parameter_type": 0,
@@ -625,7 +626,7 @@
                 "box": {
                     "comment": "filtered data",
                     "id": "obj-2",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -636,7 +637,7 @@
                 "box": {
                     "comment": "input [list]",
                     "id": "obj-1",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -746,21 +747,6 @@
                 }
             }
         ],
-        "parameters": {
-            "obj-37": [ "live.text[3]", "live.text", 0 ],
-            "obj-8::obj-10": [ "minMonitor", "minMonitor", 0 ],
-            "obj-8::obj-6": [ "maxMonitor", "maxMonitor", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

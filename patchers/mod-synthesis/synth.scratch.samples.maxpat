@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 242.0, 162.0 ],
+        "rect": [ 34.0, 100.0, 1088.0, 789.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -23,7 +23,7 @@
                     "restore": {
                         "loop": [ 1.0 ],
                         "ogain": [ 0.0 ],
-                        "sflist": [ "" ],
+                        "sflist": [ "cello-f2.aif" ],
                         "speed": [ 1.0 ]
                     },
                     "text": "autopattr",
@@ -85,7 +85,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 333.0, 328.0, 115.0, 22.0 ],
+                    "patching_rect": [ 218.0, 377.0, 115.0, 22.0 ],
                     "text": "readfolder $1"
                 }
             },
@@ -177,9 +177,9 @@
             {
                 "box": {
                     "autopopulate": 1,
-                    "bgcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgfillcolor_angle": 270.0,
-                    "bgfillcolor_color": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+                    "bgfillcolor_color": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgfillcolor_color1": [ 0.3764705882352941, 0.3843137254901961, 0.4, 1.0 ],
                     "bgfillcolor_color2": [ 0.2901960784313726, 0.30980392156862746, 0.30196078431372547, 1.0 ],
                     "bgfillcolor_proportion": 0.39,
@@ -187,7 +187,7 @@
                     "fontname": "Ableton Sans Bold",
                     "fontsize": 9.0,
                     "id": "obj-35",
-                    "items": "<empty>",
+                    "items": [ "anton.aif", ",", "brushes.aif", ",", "cello-f2.aif", ",", "cherokee.aif", ",", "drumLoop.aif", ",", "duduk.aif", ",", "jongly.aif", ",", "rainstick.aif", ",", "senita-8ch.wav", ",", "sho0630.aif", ",", "vibes-a1.aif" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -195,6 +195,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 139.0, 328.0, 146.0, 19.0 ],
                     "pattrmode": 1,
+                    "prefix": "C74:/media/msp/",
                     "presentation": 1,
                     "presentation_rect": [ 88.0, 83.0, 114.28571605682373, 19.0 ],
                     "saved_attribute_attributes": {
@@ -205,7 +206,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "varname": "sflist"
                 }
             },
@@ -317,7 +318,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 44.0, 609.0, 64.0, 22.0 ],
+                    "patching_rect": [ 44.0, 609.0, 84.0, 22.0 ],
                     "text": "s #0-2poly"
                 }
             },
@@ -329,7 +330,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 44.0, 659.0, 62.0, 22.0 ],
+                    "patching_rect": [ 44.0, 659.0, 82.0, 22.0 ],
                     "text": "r #0-2poly"
                 }
             },
@@ -340,7 +341,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 541.0, 644.0, 64.0, 22.0 ],
+                    "patching_rect": [ 541.0, 644.0, 84.0, 22.0 ],
                     "text": "s #0-2poly"
                 }
             },
@@ -395,7 +396,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 531.0, 519.0, 79.0, 22.0 ],
+                    "patching_rect": [ 531.0, 519.0, 99.0, 22.0 ],
                     "text": "r #0-idPlayed"
                 }
             },
@@ -418,7 +419,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 44.0, 553.0, 63.0, 22.0 ],
+                    "patching_rect": [ 44.0, 571.0, 63.0, 22.0 ],
                     "text": "allnotesoff"
                 }
             },
@@ -470,7 +471,7 @@
                 "box": {
                     "comment": "folder",
                     "id": "obj-2",
-                    "index": 0,
+                    "index": 5,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -515,7 +516,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_linknames": 1,
-                            "parameter_longname": "ogain",
+                            "parameter_longname": "live.gain~[11]",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
                             "parameter_modmode": 3,
@@ -548,7 +549,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
-                    "patching_rect": [ 224.0, 468.0, 196.5, 22.0 ],
+                    "patching_rect": [ 218.0, 409.0, 196.5, 22.0 ],
                     "text": "polybuffer~ #0-groove-pobu"
                 }
             },
@@ -584,7 +585,7 @@
                 "box": {
                     "comment": "Audio 1",
                     "id": "obj-14",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -650,7 +651,7 @@
                 "box": {
                     "comment": "Volume",
                     "id": "obj-23",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -662,7 +663,7 @@
                 "box": {
                     "comment": "Speed for scratching",
                     "id": "obj-16",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -674,7 +675,7 @@
                 "box": {
                     "comment": "Sound index to play (starts from 1)",
                     "id": "obj-7",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -686,7 +687,7 @@
                 "box": {
                     "comment": "Start/Stop sound",
                     "id": "obj-1",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -945,22 +946,6 @@
                 }
             }
         ],
-        "parameters": {
-            "obj-166": [ "speed", "speed", 0 ],
-            "obj-22": [ "ogain", "ogain", 0 ],
-            "obj-88": [ "start", "start", 0 ],
-            "obj-92": [ "loop", "loop", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

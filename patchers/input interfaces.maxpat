@@ -9,8 +9,21 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 102.0, 132.0, 1583.0, 838.0 ],
+        "rect": [ 102.0, 132.0, 1583.0, 906.0 ],
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Helvetica Neue Light",
+                    "fontsize": 23.9,
+                    "id": "obj-31",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 15.0, 483.0, 191.0, 35.0 ],
+                    "presentation_linecount": 2,
+                    "text": "Old objects"
+                }
+            },
             {
                 "box": {
                     "bgcolor": [ 0.6, 0.678431, 0.756863, 0.0 ],
@@ -62,7 +75,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1502.0, 249.0, 39.0, 17.0 ],
+                    "patching_rect": [ 1502.0, 245.0, 39.0, 17.0 ],
                     "text": "deferlow"
                 }
             },
@@ -75,7 +88,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1502.0, 228.0, 121.0, 17.0 ],
+                    "patching_rect": [ 1502.0, 224.0, 121.0, 17.0 ],
                     "text": "loadmess resizetowindowrect 4"
                 }
             },
@@ -88,7 +101,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1485.0, 207.0, 90.0, 17.0 ],
+                    "patching_rect": [ 1485.0, 203.0, 90.0, 17.0 ],
                     "text": "loadmess windresize 1"
                 }
             },
@@ -101,7 +114,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1449.0, 185.0, 126.0, 17.0 ],
+                    "patching_rect": [ 1449.0, 181.0, 126.0, 17.0 ],
                     "text": "loadmess readall overview.mubu"
                 }
             },
@@ -121,7 +134,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "bang" ],
-                    "patching_rect": [ 1024.0, 473.0, 470.0, 298.0 ],
+                    "patching_rect": [ 1024.0, 471.0, 470.0, 298.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -144,7 +157,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 330.0, 684.0, 138.0, 22.0 ],
-                    "text": "0.328721 -0.203614"
+                    "text": "0.078508 0.088171"
                 }
             },
             {
@@ -166,7 +179,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 451.0, 389.0, 116.0, 22.0 ],
-                    "text": "0.264516 0.381818"
+                    "text": "-0.019355 0.418182"
                 }
             },
             {
@@ -215,7 +228,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 742.0, 589.0, 163.0, 40.0 ],
-                    "text": " less precise but possibly less CPU demanding"
+                    "text": "less precise but possibly less CPU demanding"
                 }
             },
             {
@@ -309,7 +322,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1024.0, 444.0, 201.0, 23.0 ],
+                    "patching_rect": [ 1024.0, 442.0, 201.0, 23.0 ],
                     "text": "multiple buffers recording"
                 }
             },
@@ -345,7 +358,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 13.0, 459.0, 152.0, 23.0 ],
+                    "patching_rect": [ 19.0, 520.0, 152.0, 23.0 ],
                     "text": "Smartphones sensors"
                 }
             },
@@ -365,7 +378,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 449.0, 467.0, 236.0, 189.0 ],
+                    "patching_rect": [ 449.0, 467.0, 236.0, 191.0 ],
                     "varname": "drawing",
                     "viewvisibility": 1
                 }
@@ -378,7 +391,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1024.0, 214.0, 201.0, 23.0 ],
+                    "patching_rect": [ 1024.0, 212.0, 201.0, 23.0 ],
                     "text": "single buffer record/play"
                 }
             },
@@ -390,7 +403,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 13.0, 646.0, 130.0, 23.0 ],
+                    "patching_rect": [ 19.0, 707.0, 130.0, 23.0 ],
                     "text": "RIoT sensors"
                 }
             },
@@ -402,7 +415,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1024.0, 171.0, 329.0, 35.0 ],
+                    "patching_rect": [ 1024.0, 169.0, 329.0, 35.0 ],
                     "text": "Data Recording and Playing"
                 }
             },
@@ -588,7 +601,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 13.0, 618.0, 172.0, 22.0 ],
+                    "patching_rect": [ 19.0, 679.0, 172.0, 22.0 ],
                     "text": "p about the comote application"
                 }
             },
@@ -634,7 +647,7 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 737.0, 235.0, 169.0, 134.0 ],
+                    "patching_rect": [ 737.0, 235.0, 138.73121643066406, 122.0 ],
                     "varname": "gst.scrolldisplay",
                     "viewvisibility": 1
                 }
@@ -656,7 +669,7 @@
                     "numoutlets": 6,
                     "offset": [ -7.0, -5.0 ],
                     "outlettype": [ "", "", "", "", "", "" ],
-                    "patching_rect": [ 13.0, 484.0, 163.0, 132.56695556640625 ],
+                    "patching_rect": [ 19.0, 545.0, 163.0, 132.56695556640625 ],
                     "varname": "in.comote",
                     "viewvisibility": 1
                 }
@@ -678,7 +691,7 @@
                     "numoutlets": 3,
                     "offset": [ -2.0, -4.0 ],
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 1024.0, 243.0, 470.0, 180.0 ],
+                    "patching_rect": [ 1024.0, 241.0, 470.0, 180.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -699,7 +712,7 @@
                     "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 13.0, 671.0, 196.0, 139.0 ],
+                    "patching_rect": [ 19.0, 732.0, 196.0, 139.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -809,7 +822,7 @@
             "obj-16::obj-8::obj-6": [ "maxMonitor[1]", "maxMonitor", 0 ],
             "obj-21::obj-16": [ "sample-period[2]", "sample-period", 0 ],
             "obj-21::obj-18": [ "zoom[1]", "zoom", 0 ],
-            "obj-23::obj-9": [ "8359-id-clock", "1162-id-clock", 0 ],
+            "obj-23::obj-9": [ "8359-id-clock", "1172-id-clock", 0 ],
             "obj-29::obj-108": [ "2763-clock-type", "clock type", 0 ],
             "obj-29::obj-16": [ "live.numbox[6]", "port", 0 ],
             "obj-29::obj-179": [ "2763-sens-type", "sensor type", 0 ],
@@ -996,6 +1009,21 @@
                 },
                 "obj-30::obj-59": {
                     "parameter_longname": "live.numbox[14]"
+                },
+                "obj-48::obj-15": {
+                    "parameter_longname": "live.text[4]"
+                },
+                "obj-48::obj-18": {
+                    "parameter_longname": "live.text[7]"
+                },
+                "obj-48::obj-4": {
+                    "parameter_longname": "live.text[5]"
+                },
+                "obj-48::obj-40": {
+                    "parameter_longname": "live.toggle"
+                },
+                "obj-48::obj-6": {
+                    "parameter_longname": "live.text[6]"
                 },
                 "obj-9::obj-37": {
                     "parameter_longname": "live.text[9]"
