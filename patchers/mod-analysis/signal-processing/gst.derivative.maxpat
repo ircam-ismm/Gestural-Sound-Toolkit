@@ -14,13 +14,35 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "int", "int" ],
+                    "patching_rect": [ 57.0, 156.0, 65.0, 22.0 ],
+                    "text": "change -1."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-21",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 57.0, 99.0, 63.0, 22.0 ],
+                    "text": "r gst.clock"
+                }
+            },
+            {
+                "box": {
                     "comment": "First derivative of the input data (along each axis) (list)",
                     "id": "obj-20",
                     "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 277.0, 557.0, 25.0, 25.0 ]
+                    "patching_rect": [ 239.0, 557.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -30,7 +52,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 132.0, 143.0, 91.0, 22.0 ],
+                    "patching_rect": [ 57.0, 129.0, 91.0, 22.0 ],
                     "text": "route framerate"
                 }
             },
@@ -121,28 +143,6 @@
                     "text": "More",
                     "texton": "Norm. Acc.",
                     "varname": "live.text[3]"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-7",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 50.0, 171.0, 29.0, 22.0 ],
-                    "text": "thru"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-8",
-                    "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 50.0, 99.0, 183.0, 22.0 ],
-                    "text": "routepass frameperiod framerate"
                 }
             },
             {
@@ -1265,17 +1265,6 @@
             },
             {
                 "box": {
-                    "comment": "First derivative of the input data (along each axis) (list) + sync",
-                    "id": "obj-2",
-                    "index": 0,
-                    "maxclass": "outlet",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 239.0, 557.0, 25.0, 25.0 ]
-                }
-            },
-            {
-                "box": {
                     "comment": "Input data (list)",
                     "id": "obj-1",
                     "index": 0,
@@ -1283,7 +1272,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 50.0, 60.0, 25.0, 25.0 ]
+                    "patching_rect": [ 239.0, 60.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -1295,14 +1284,14 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 539.0, 172.0, 150.0, 22.0 ]
+                    "patching_rect": [ 57.0, 186.0, 150.0, 22.0 ]
                 }
             }
         ],
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-8", 0 ],
+                    "destination": [ "obj-14", 0 ],
                     "source": [ "obj-1", 0 ]
                 }
             },
@@ -1357,13 +1346,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "order": 2,
-                    "source": [ "obj-16", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-20", 0 ],
                     "order": 1,
                     "source": [ "obj-16", 0 ]
@@ -1383,7 +1365,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-195", 1 ],
+                    "destination": [ "obj-2", 0 ],
                     "source": [ "obj-19", 0 ]
                 }
             },
@@ -1397,6 +1379,18 @@
                 "patchline": {
                     "destination": [ "obj-195", 5 ],
                     "source": [ "obj-197", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-37", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-21", 0 ]
                 }
             },
             {
@@ -1485,12 +1479,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "source": [ "obj-7", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-14", 0 ],
                     "source": [ "obj-76", 1 ]
                 }
@@ -1499,32 +1487,6 @@
                 "patchline": {
                     "destination": [ "obj-195", 2 ],
                     "source": [ "obj-76", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-14", 0 ],
-                    "source": [ "obj-8", 2 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-19", 0 ],
-                    "order": 0,
-                    "source": [ "obj-8", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-7", 0 ],
-                    "order": 1,
-                    "source": [ "obj-8", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-7", 0 ],
-                    "source": [ "obj-8", 0 ]
                 }
             },
             {

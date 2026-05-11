@@ -126,7 +126,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 354.0, 962.0, 50.0, 22.0 ]
+                    "patching_rect": [ 319.6666666666667, 962.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -138,7 +138,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 250.5, 962.0, 50.0, 22.0 ]
+                    "patching_rect": [ 181.33333333333334, 962.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -155,9 +155,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.angles.maxpat",
                     "numinlets": 3,
-                    "numoutlets": 5,
+                    "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "", "", "", "" ],
+                    "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 43.0, 723.0, 434.0, 233.0 ],
                     "varname": "gst.angles",
                     "viewvisibility": 1
@@ -221,9 +221,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.orientation.maxpat",
                     "numinlets": 3,
-                    "numoutlets": 4,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "", "", "" ],
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 43.0, 482.0, 434.0, 233.0 ],
                     "varname": "gst.orientation",
                     "viewvisibility": 1
@@ -294,24 +294,26 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
-                    "source": [ "obj-63", 2 ]
+                    "source": [ "obj-63", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-18", 0 ],
-                    "source": [ "obj-63", 3 ]
+                    "source": [ "obj-63", 2 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
-                    "source": [ "obj-63", 4 ]
+                    "source": [ "obj-63", 3 ]
                 }
             }
         ],
         "parameters": {
             "obj-31::obj-11": [ "live.text[3]", "live.text", 0 ],
+            "obj-31::obj-5::obj-17": [ "3390-sens-type", "sensor type", 0 ],
+            "obj-31::obj-5::obj-179": [ "3390-sens-type[1]", "sensor type", 0 ],
             "obj-31::obj-5::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-31::obj-5::obj-37": [ "minMonitor", "minMonitor", 0 ],
             "obj-31::obj-5::obj-42": [ "frame-rate", "framerate", 0 ],
@@ -338,14 +340,32 @@
                 }
             },
             "parameter_overrides": {
+                "obj-48::obj-15": {
+                    "parameter_longname": "live.text[4]"
+                },
+                "obj-48::obj-18": {
+                    "parameter_longname": "live.text[7]"
+                },
+                "obj-48::obj-4": {
+                    "parameter_longname": "live.text[5]"
+                },
+                "obj-48::obj-40": {
+                    "parameter_longname": "live.toggle"
+                },
                 "obj-48::obj-57": {
                     "parameter_longname": "live.toggle[2]"
+                },
+                "obj-48::obj-6": {
+                    "parameter_longname": "live.text[6]"
                 },
                 "obj-63::obj-5::obj-34": {
                     "parameter_longname": "maxMonitor[1]"
                 },
                 "obj-63::obj-5::obj-37": {
                     "parameter_longname": "minMonitor[1]"
+                },
+                "obj-63::obj-7": {
+                    "parameter_longname": "live.text[27]"
                 }
             },
             "inherited_shortname": 1

@@ -9,40 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 100.0, 1161.0, 793.0 ],
+        "rect": [ 34.0, 93.0, 339.0, 149.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
             {
                 "box": {
-                    "id": "obj-4",
+                    "fontsize": 11.0,
+                    "id": "obj-9",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 837.0, 408.0, 37.0, 20.0 ],
-                    "text": "print fr"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-2",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 780.0, 408.0, 39.0, 20.0 ],
-                    "text": "print fp"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-1",
-                    "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 780.0, 383.0, 133.0, 20.0 ],
-                    "text": "route frameperiod framerate"
+                    "patching_rect": [ 780.0, 344.0, 60.0, 21.0 ],
+                    "text": "s gst.clock"
                 }
             },
             {
@@ -658,18 +638,6 @@
                     },
                     "patching_rect": [ 676.0, 314.0, 123.0, 20.0 ],
                     "text": "p sync-select-managment"
-                }
-            },
-            {
-                "box": {
-                    "fontsize": 11.0,
-                    "id": "obj-159",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 352.0, 354.0, 27.0, 21.0 ],
-                    "text": "thru"
                 }
             },
             {
@@ -2228,7 +2196,7 @@
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "1232-sens-type",
+                            "parameter_longname": "#0-sens-type",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "sensor type",
@@ -2401,7 +2369,6 @@
                     "patching_rect": [ 90.0, 398.0, 150.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 260.0, 50.0, 76.0, 18.0 ],
-                    "text": "v3",
                     "textjustification": 1
                 }
             },
@@ -2421,7 +2388,7 @@
                             "parameter_initial": [ 10.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "1232-frameperiod",
+                            "parameter_longname": "#0-frameperiod",
                             "parameter_mmax": 10000.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "frame period",
@@ -2448,7 +2415,7 @@
                             "parameter_enum": [ "off", "on" ],
                             "parameter_initial": [ 1 ],
                             "parameter_linknames": 1,
-                            "parameter_longname": "1232-enable",
+                            "parameter_longname": "#0-enable",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_order": 1,
@@ -2476,7 +2443,7 @@
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "1232-clock-type",
+                            "parameter_longname": "#0-clock-type",
                             "parameter_mmax": 5,
                             "parameter_modmode": 0,
                             "parameter_shortname": "clock type",
@@ -2514,7 +2481,7 @@
                 "box": {
                     "comment": "gravity ",
                     "id": "obj-35",
-                    "index": 4,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2550,7 +2517,7 @@
             },
             {
                 "box": {
-                    "activebgoncolor": [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+                    "activebgoncolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                     "id": "obj-56",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -2662,9 +2629,8 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 695.0, 144.0, 819.0, 774.0 ],
+                        "rect": [ 447.0, 102.0, 333.0, 532.0 ],
                         "openinpresentation": 1,
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -4024,7 +3990,7 @@
                         "rect": [ 134.0, 172.0, 1408.0, 749.0 ],
                         "openinpresentation": 1,
                         "gridsize": [ 10.0, 10.0 ],
-                        "title": "sensor port 10002 ID 0",
+                        "title": "sensor port 10001 ID 0",
                         "boxes": [
                             {
                                 "box": {
@@ -4340,7 +4306,7 @@
                                             "parameter_initial": [ 10001.0 ],
                                             "parameter_initial_enable": 1,
                                             "parameter_linknames": 1,
-                                            "parameter_longname": "1232-port[1]",
+                                            "parameter_longname": "#0-port[1]",
                                             "parameter_mmax": 100000.0,
                                             "parameter_modmode": 3,
                                             "parameter_shortname": "port",
@@ -29196,7 +29162,7 @@
                             },
                             {
                                 "box": {
-                                    "activebgoncolor": [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+                                    "activebgoncolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                                     "fontsize": 14.0,
                                     "id": "obj-105",
                                     "maxclass": "live.text",
@@ -29673,7 +29639,7 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+                                    "bgcolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
                                     "candycane": 7,
                                     "id": "obj-14",
                                     "maxclass": "multislider",
@@ -29695,7 +29661,7 @@
                                     },
                                     "setminmax": [ 0.0, 100.0 ],
                                     "setstyle": 5,
-                                    "slidercolor": [ 0.9, 0.65, 0.05, 1.0 ]
+                                    "slidercolor": [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ]
                                 }
                             },
                             {
@@ -30781,7 +30747,7 @@
                             "parameter_initial": [ 10001.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "1232-port",
+                            "parameter_longname": "#0-port",
                             "parameter_mmax": 100000.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "port",
@@ -30796,7 +30762,7 @@
                 "box": {
                     "comment": "sampling period [ms]",
                     "id": "obj-3",
-                    "index": 5,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -30807,7 +30773,7 @@
                 "box": {
                     "comment": "magnetometer [m1 m2 m3]",
                     "id": "obj-5",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -30855,7 +30821,7 @@
                 "box": {
                     "comment": "on/off [1/0]",
                     "id": "obj-8",
-                    "index": 4,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -30867,7 +30833,7 @@
                 "box": {
                     "comment": "sampling period (resampling)",
                     "id": "obj-10",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -30879,7 +30845,7 @@
                 "box": {
                     "comment": "port",
                     "id": "obj-11",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -30891,7 +30857,7 @@
                 "box": {
                     "comment": "osc id number",
                     "id": "obj-13",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -30975,7 +30941,7 @@
                 "box": {
                     "comment": "gyroscope [g1 g2 g3]",
                     "id": "obj-26",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -30986,7 +30952,7 @@
                 "box": {
                     "comment": "accelerometer [a1 a2 a3]",
                     "id": "obj-27",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -30995,18 +30961,6 @@
             }
         ],
         "lines": [
-            {
-                "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-4", 0 ],
-                    "source": [ "obj-1", 1 ]
-                }
-            },
             {
                 "patchline": {
                     "destination": [ "obj-50", 0 ],
@@ -31048,34 +31002,6 @@
                 "patchline": {
                     "destination": [ "obj-59", 0 ],
                     "source": [ "obj-13", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-26", 0 ],
-                    "order": 2,
-                    "source": [ "obj-159", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-27", 0 ],
-                    "order": 3,
-                    "source": [ "obj-159", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-35", 0 ],
-                    "order": 0,
-                    "source": [ "obj-159", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-5", 0 ],
-                    "order": 1,
-                    "source": [ "obj-159", 0 ]
                 }
             },
             {
@@ -31358,13 +31284,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1", 0 ],
-                    "disabled": 1,
-                    "source": [ "obj-63", 2 ]
-                }
-            },
-            {
-                "patchline": {
                     "color": [ 0.9984545112, 0.1678378872, 0.0005032533138, 1.0 ],
                     "destination": [ "obj-108", 0 ],
                     "source": [ "obj-63", 0 ]
@@ -31372,16 +31291,16 @@
             },
             {
                 "patchline": {
-                    "color": [ 0.0, 0.10619612783193588, 1.0, 1.0 ],
-                    "destination": [ "obj-159", 0 ],
-                    "source": [ "obj-63", 2 ]
+                    "color": [ 0.7540857791900635, 0.4931304454803467, 0.06467289477586746, 1.0 ],
+                    "destination": [ "obj-50", 0 ],
+                    "source": [ "obj-63", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "color": [ 0.7540857791900635, 0.4931304454803467, 0.06467289477586746, 1.0 ],
-                    "destination": [ "obj-50", 0 ],
-                    "source": [ "obj-63", 1 ]
+                    "color": [ 0.0, 0.10619612783193588, 1.0, 1.0 ],
+                    "destination": [ "obj-9", 0 ],
+                    "source": [ "obj-63", 2 ]
                 }
             },
             {
@@ -31519,6 +31438,38 @@
                 }
             }
         ],
+        "parameters": {
+            "obj-108": [ "#0-clock-type", "clock type", 0 ],
+            "obj-16": [ "#0-port", "port", 0 ],
+            "obj-179": [ "#0-sens-type", "sensor type", 0 ],
+            "obj-18::obj-105": [ "live.text[15]", "live.text", 0 ],
+            "obj-18::obj-110": [ "live.text[14]", "live.text", 0 ],
+            "obj-18::obj-121": [ "live.numbox[4]", "Amount", 0 ],
+            "obj-18::obj-20": [ "#0-port[1]", "port", 0 ],
+            "obj-18::obj-223": [ "live.numbox[3]", "live.numbox", 0 ],
+            "obj-18::obj-59": [ "live.numbox[5]", "live.numbox", 0 ],
+            "obj-18::obj-7": [ "live.numbox[2]", "live.numbox", 0 ],
+            "obj-18::obj-75": [ "live.numbox[6]", "live.numbox", 0 ],
+            "obj-18::obj-83": [ "live.toggle[4]", "live.toggle", 0 ],
+            "obj-25": [ "live.text[18]", "live.text", 0 ],
+            "obj-31": [ "live.button[3]", "live.button", 0 ],
+            "obj-47": [ "#0-enable", "enable", 1 ],
+            "obj-50": [ "#0-frameperiod", "frame period", 0 ],
+            "obj-56": [ "live.text[17]", "live.text", 0 ],
+            "obj-58": [ "live.text[2]", "live.text[3]", 0 ],
+            "obj-59": [ "live.numbox[1]", "live.numbox", 0 ],
+            "obj-60": [ "live.text[16]", "live.text[3]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }
