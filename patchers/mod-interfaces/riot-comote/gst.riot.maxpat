@@ -9,11 +9,31 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 337.0, 148.0 ],
+        "rect": [ 34.0, 93.0, 340.0, 156.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 462.75, 26.0, 50.5, 20.0 ],
+                    "restore": {
+                        "clock-type": [ 0.0 ],
+                        "enable": [ 1.0 ],
+                        "frameperiod": [ 10.0 ],
+                        "osc-id": [ 0.0 ],
+                        "osc-port": [ 10001.0 ],
+                        "sens-type": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u323017096"
+                }
+            },
             {
                 "box": {
                     "fontsize": 11.0,
@@ -2213,14 +2233,14 @@
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "#0-sens-type",
+                            "parameter_longname": "sens-type",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "sensor type",
                             "parameter_type": 2
                         }
                     },
-                    "varname": "#0-sens-type"
+                    "varname": "sens-type"
                 }
             },
             {
@@ -2311,14 +2331,15 @@
                     "presentation_rect": [ 211.0, 5.0, 27.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "live.numbox[1]",
+                            "parameter_linknames": 1,
+                            "parameter_longname": "osc-id",
                             "parameter_modmode": 3,
-                            "parameter_shortname": "live.numbox",
+                            "parameter_shortname": "id",
                             "parameter_type": 0,
                             "parameter_unitstyle": 0
                         }
                     },
-                    "varname": "live.numbox[1]"
+                    "varname": "osc-id"
                 }
             },
             {
@@ -2390,7 +2411,7 @@
                             "parameter_initial": [ 10.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "#0-frameperiod",
+                            "parameter_longname": "frameperiod",
                             "parameter_mmax": 10000.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "frame period",
@@ -2398,7 +2419,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
-                    "varname": "#0-frameperiod"
+                    "varname": "frameperiod"
                 }
             },
             {
@@ -2417,7 +2438,7 @@
                             "parameter_enum": [ "off", "on" ],
                             "parameter_initial": [ 1 ],
                             "parameter_linknames": 1,
-                            "parameter_longname": "#0-enable",
+                            "parameter_longname": "enable",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_order": 1,
@@ -2425,7 +2446,7 @@
                             "parameter_type": 2
                         }
                     },
-                    "varname": "#0-enable"
+                    "varname": "enable"
                 }
             },
             {
@@ -2445,14 +2466,14 @@
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "#0-clock-type",
+                            "parameter_longname": "clock-type",
                             "parameter_mmax": 5,
                             "parameter_modmode": 0,
                             "parameter_shortname": "clock type",
                             "parameter_type": 2
                         }
                     },
-                    "varname": "#0-clock-type"
+                    "varname": "clock-type"
                 }
             },
             {
@@ -29368,7 +29389,7 @@
                             "parameter_initial": [ 10001.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "#0-port",
+                            "parameter_longname": "osc-port",
                             "parameter_mmax": 100000.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "port",
@@ -29376,7 +29397,7 @@
                             "parameter_unitstyle": 0
                         }
                     },
-                    "varname": "#0-port"
+                    "varname": "osc-port"
                 }
             },
             {
@@ -29582,6 +29603,48 @@
             }
         ],
         "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-108", 0 ],
+                    "order": 3,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "order": 4,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-179", 0 ],
+                    "order": 1,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-47", 0 ],
+                    "order": 0,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-50", 0 ],
+                    "order": 2,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-59", 0 ],
+                    "order": 5,
+                    "source": [ "obj-1", 0 ]
+                }
+            },
             {
                 "patchline": {
                     "destination": [ "obj-50", 0 ],
@@ -30028,9 +30091,9 @@
             }
         ],
         "parameters": {
-            "obj-108": [ "#0-clock-type", "clock type", 0 ],
-            "obj-16": [ "#0-port", "port", 0 ],
-            "obj-179": [ "#0-sens-type", "sensor type", 0 ],
+            "obj-108": [ "clock-type", "clock type", 0 ],
+            "obj-16": [ "osc-port", "port", 0 ],
+            "obj-179": [ "sens-type", "sensor type", 0 ],
             "obj-18::obj-105": [ "live.text[12]", "live.text", 0 ],
             "obj-18::obj-110": [ "live.text[13]", "live.text", 0 ],
             "obj-18::obj-121": [ "live.numbox[4]", "Amount", 0 ],
@@ -30042,11 +30105,11 @@
             "obj-18::obj-83": [ "live.toggle", "live.toggle", 0 ],
             "obj-25": [ "live.text[11]", "live.text", 0 ],
             "obj-31": [ "live.button", "live.button", 0 ],
-            "obj-47": [ "#0-enable", "enable", 1 ],
-            "obj-50": [ "#0-frameperiod", "frame period", 0 ],
+            "obj-47": [ "enable", "enable", 1 ],
+            "obj-50": [ "frameperiod", "frame period", 0 ],
             "obj-56": [ "live.text[10]", "live.text", 0 ],
             "obj-58": [ "live.text[2]", "live.text[3]", 0 ],
-            "obj-59": [ "live.numbox[1]", "live.numbox", 0 ],
+            "obj-59": [ "osc-id", "id", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

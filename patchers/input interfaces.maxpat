@@ -9,8 +9,28 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 102.0, 132.0, 1583.0, 906.0 ],
+        "rect": [ 34.0, 93.0, 1583.0, 906.0 ],
         "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-34",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.clock.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 243.0, 46.0, 87.0, 111.0 ],
+                    "varname": "gst.acc.intensity",
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "fontname": "Helvetica Neue Light",
@@ -20,7 +40,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 15.0, 483.0, 191.0, 35.0 ],
-                    "presentation_linecount": 2,
                     "text": "Old objects"
                 }
             },
@@ -42,6 +61,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "", "", "", "" ],
                     "patching_rect": [ 19.0, 310.5, 339.0, 144.0 ],
+                    "varname": "gst.riot",
                     "viewvisibility": 1
                 }
             },
@@ -63,6 +83,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "", "", "", "" ],
                     "patching_rect": [ 19.0, 164.5, 339.0, 144.0 ],
+                    "varname": "gst.riot-comote",
                     "viewvisibility": 1
                 }
             },
@@ -190,7 +211,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 477.0, 21.0, 24.0, 24.0 ]
+                    "patching_rect": [ 679.0, 24.0, 24.0, 24.0 ]
                 }
             },
             {
@@ -203,7 +224,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 477.0, 52.0, 422.0, 31.0 ],
+                    "patching_rect": [ 679.0, 55.0, 422.0, 31.0 ],
                     "text": ";\rmax launchbrowser https://github.com/Cycling74/eyebeam-workshop-2/tree/master/posenet"
                 }
             },
@@ -214,7 +235,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 347.0, 17.0, 124.0, 33.0 ],
+                    "patching_rect": [ 549.0, 20.0, 124.0, 33.0 ],
                     "text": "for using camera see for example posenet"
                 }
             },
@@ -373,7 +394,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "drawing.maxpat",
+                    "name": "gst.drawing.maxpat",
                     "numinlets": 3,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
@@ -727,7 +748,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "drawing.maxpat",
+                    "name": "gst.drawing.maxpat",
                     "numinlets": 3,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
@@ -817,12 +838,12 @@
             "obj-12::obj-55": [ "live.text", "live.text", 0 ],
             "obj-12::obj-56": [ "live.text[1]", "live.text", 0 ],
             "obj-12::obj-60": [ "live.text[3]", "live.text[3]", 0 ],
-            "obj-16::obj-37": [ "live.text[15]", "live.text", 0 ],
-            "obj-16::obj-8::obj-10": [ "minMonitor[1]", "minMonitor", 0 ],
-            "obj-16::obj-8::obj-6": [ "maxMonitor[1]", "maxMonitor", 0 ],
+            "obj-16::obj-37": [ "live.text[69]", "live.text", 0 ],
+            "obj-16::obj-8::obj-10": [ "minMonitor", "minMonitor", 0 ],
+            "obj-16::obj-8::obj-6": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-21::obj-16": [ "sample-period[2]", "sample-period", 0 ],
             "obj-21::obj-18": [ "zoom[1]", "zoom", 0 ],
-            "obj-23::obj-9": [ "8359-id-clock", "1172-id-clock", 0 ],
+            "obj-23::obj-9": [ "8359-id-clock", "3940-id-clock", 0 ],
             "obj-29::obj-108": [ "2763-clock-type", "clock type", 0 ],
             "obj-29::obj-16": [ "live.numbox[6]", "port", 0 ],
             "obj-29::obj-179": [ "2763-sens-type", "sensor type", 0 ],
@@ -841,7 +862,7 @@
             "obj-29::obj-50": [ "live.numbox[8]", "frame period", 0 ],
             "obj-29::obj-56": [ "live.text[14]", "live.text", 0 ],
             "obj-29::obj-58": [ "live.text[2]", "live.text[3]", 0 ],
-            "obj-29::obj-59": [ "live.numbox[7]", "live.numbox", 0 ],
+            "obj-29::obj-59": [ "live.numbox[7]", "id", 0 ],
             "obj-29::obj-60": [ "live.text[10]", "live.text[3]", 0 ],
             "obj-30::obj-108": [ "1221-clock-type", "clock type", 0 ],
             "obj-30::obj-16": [ "1221-port", "port", 0 ],
@@ -861,7 +882,13 @@
             "obj-30::obj-50": [ "1221-frameperiod", "frame period", 0 ],
             "obj-30::obj-56": [ "live.text[18]", "live.text", 0 ],
             "obj-30::obj-58": [ "live.text[19]", "live.text[3]", 0 ],
-            "obj-30::obj-59": [ "live.numbox[14]", "live.numbox", 0 ],
+            "obj-30::obj-59": [ "live.numbox[14]", "id", 0 ],
+            "obj-34::obj-11": [ "FrameRate", "FrameRate", 0 ],
+            "obj-34::obj-17": [ "resync", "resync", 0 ],
+            "obj-34::obj-28": [ "clock-type", "clock-type", 0 ],
+            "obj-34::obj-31": [ "id-clock", "id-clock", 0 ],
+            "obj-34::obj-4": [ "FramePeriod", "FramePeriod", 0 ],
+            "obj-34::obj-8": [ "enable", "enable", 0 ],
             "obj-48::obj-15": [ "live.text[4]", "live.text", 0 ],
             "obj-48::obj-16": [ "loop", "loop", 0 ],
             "obj-48::obj-18": [ "live.text[7]", "live.text", 0 ],
@@ -872,8 +899,8 @@
             "obj-48::obj-6": [ "live.text[6]", "live.text", 0 ],
             "obj-48::obj-71": [ "live.toggle[1]", "live.toggle", 0 ],
             "obj-9::obj-37": [ "live.text[9]", "live.text", 0 ],
-            "obj-9::obj-8::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
-            "obj-9::obj-8::obj-37": [ "minMonitor", "minMonitor", 0 ],
+            "obj-9::obj-8::obj-34": [ "maxMonitor[1]", "maxMonitor", 0 ],
+            "obj-9::obj-8::obj-37": [ "minMonitor[1]", "minMonitor", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -898,15 +925,6 @@
                 "obj-12::obj-60": {
                     "parameter_longname": "live.text[3]"
                 },
-                "obj-16::obj-37": {
-                    "parameter_longname": "live.text[15]"
-                },
-                "obj-16::obj-8::obj-10": {
-                    "parameter_longname": "minMonitor[1]"
-                },
-                "obj-16::obj-8::obj-6": {
-                    "parameter_longname": "maxMonitor[1]"
-                },
                 "obj-21::obj-16": {
                     "parameter_longname": "sample-period[2]"
                 },
@@ -923,17 +941,29 @@
                 "obj-29::obj-179": {
                     "parameter_longname": "2763-sens-type"
                 },
+                "obj-29::obj-18::obj-105": {
+                    "parameter_longname": "live.text[12]"
+                },
+                "obj-29::obj-18::obj-110": {
+                    "parameter_longname": "live.text[13]"
+                },
                 "obj-29::obj-18::obj-20": {
                     "parameter_longname": "2763-port[1]"
                 },
                 "obj-29::obj-18::obj-223": {
                     "parameter_longname": "live.numbox[1]"
                 },
+                "obj-29::obj-18::obj-75": {
+                    "parameter_longname": "live.numbox[3]"
+                },
                 "obj-29::obj-18::obj-83": {
                     "parameter_longname": "live.toggle[2]"
                 },
                 "obj-29::obj-25": {
                     "parameter_longname": "live.text[11]"
+                },
+                "obj-29::obj-31": {
+                    "parameter_longname": "live.button"
                 },
                 "obj-29::obj-47": {
                     "parameter_longname": "2763-enable"
@@ -1027,11 +1057,17 @@
                 },
                 "obj-9::obj-37": {
                     "parameter_longname": "live.text[9]"
+                },
+                "obj-9::obj-8::obj-34": {
+                    "parameter_longname": "maxMonitor[1]"
+                },
+                "obj-9::obj-8::obj-37": {
+                    "parameter_longname": "minMonitor[1]"
                 }
             },
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

@@ -20,7 +20,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 0.0, 669.0, 152.0, 69.0 ],
+                    "patching_rect": [ 0.0, 685.0, 152.0, 69.0 ],
                     "presentation": 1,
                     "presentation_linecount": 2,
                     "presentation_rect": [ 608.0, 782.0, 264.0, 38.0 ],
@@ -34,7 +34,7 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 153.0, 677.0, 23.0, 10.0 ]
+                    "patching_rect": [ 153.0, 693.0, 23.0, 10.0 ]
                 }
             },
             {
@@ -46,7 +46,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 635.0, 673.0, 226.0, 38.0 ],
+                    "patching_rect": [ 635.0, 689.0, 226.0, 38.0 ],
                     "presentation": 1,
                     "presentation_linecount": 2,
                     "presentation_rect": [ 515.0, 676.0, 264.0, 38.0 ],
@@ -60,7 +60,7 @@
                     "maxclass": "live.line",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 345.0, 677.0, 286.0, 10.0 ]
+                    "patching_rect": [ 345.0, 693.0, 286.0, 10.0 ]
                 }
             },
             {
@@ -71,7 +71,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 162.0, 928.0, 473.0, 22.0 ],
+                    "patching_rect": [ 162.0, 944.0, 473.0, 22.0 ],
                     "presentation": 1,
                     "presentation_linecount": 2,
                     "presentation_rect": [ 20.0, 960.0, 264.0, 38.0 ],
@@ -87,7 +87,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 596.0, 314.0, 29.0, 17.0 ],
+                    "patching_rect": [ 596.0, 330.0, 29.0, 17.0 ],
                     "text": "thru"
                 }
             },
@@ -100,7 +100,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 513.0, 314.0, 49.0, 17.0 ],
+                    "patching_rect": [ 513.0, 330.0, 49.0, 17.0 ],
                     "text": "loadmess 1"
                 }
             },
@@ -113,7 +113,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 596.0, 253.0, 126.0, 17.0 ],
+                    "patching_rect": [ 596.0, 269.0, 126.0, 17.0 ],
                     "text": "loadmess readall overview.mubu"
                 }
             },
@@ -126,7 +126,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 631.0, 314.0, 39.0, 17.0 ],
+                    "patching_rect": [ 631.0, 330.0, 39.0, 17.0 ],
                     "text": "deferlow"
                 }
             },
@@ -139,7 +139,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 631.0, 293.0, 121.0, 17.0 ],
+                    "patching_rect": [ 631.0, 309.0, 121.0, 17.0 ],
                     "text": "loadmess resizetowindowrect 4"
                 }
             },
@@ -152,7 +152,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 614.0, 272.0, 90.0, 17.0 ],
+                    "patching_rect": [ 614.0, 288.0, 90.0, 17.0 ],
                     "text": "loadmess windresize 1"
                 }
             },
@@ -164,7 +164,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 354.0, 627.0, 261.0, 22.0 ],
+                    "patching_rect": [ 354.0, 643.0, 261.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 29.0, 231.0, 264.0, 22.0 ],
                     "text": "embeded <bpatcher> saves parameters."
@@ -175,15 +175,15 @@
                     "fontname": "Arial",
                     "fontsize": 14.0,
                     "id": "obj-8",
-                    "linecount": 14,
+                    "linecount": 15,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 25.0, 97.0, 472.0, 225.0 ],
+                    "patching_rect": [ 25.0, 97.0, 472.0, 241.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 16,
-                    "presentation_rect": [ 14.0, 216.0, 264.0, 257.0 ],
-                    "text": "[-1. ; +1.] data normalization\n\nRe-scale incoming data in the [-1. ; +1.] interval\nDO NOT preserves the correlation of the triplet of values\n\ninput:\n     - data values A : triplet of floats [list]\n     - data values B : triplet of floats [list]\n     - active A normalization\n     - active B normalization\n\noutput:\n     - [1]: normalized A data [list]\n     - [2]: normalized B data [list]"
+                    "presentation_linecount": 17,
+                    "presentation_rect": [ 14.0, 216.0, 264.0, 272.0 ],
+                    "text": "[-1. ; +1.] data normalization\n\nRe-scale incoming data in the [-1. ; +1.] interval\nDO NOT preserves the correlation of the triplet of values\nEach value is normalized independently\n\ninput:\n     - data values A : triplet of floats [list]\n     - data values B : triplet of floats [list]\n     - active A normalization\n     - active B normalization\n\noutput:\n     - [1]: normalized A data [list]\n     - [2]: normalized B data [list]"
                 }
             },
             {
@@ -227,7 +227,7 @@
                     "numoutlets": 3,
                     "offset": [ -2.0, -4.0 ],
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 181.0, 339.0, 434.0, 259.0 ],
+                    "patching_rect": [ 181.0, 355.0, 434.0, 259.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 47.0, 257.0, 434.0, 259.0 ],
                     "viewvisibility": 1
@@ -452,7 +452,7 @@
                                     "fontname": "Ableton Sans Bold",
                                     "fontsize": 9.0,
                                     "id": "obj-35",
-                                    "items": [ "default-gravity.json", ",", "default.json", ",", "overview-mubu-example-single.json", ",", "overview-mubu-example.json" ],
+                                    "items": [ "default-gravity.json", ",", "default-multi.json", ",", "default-single.json", ",", "overview-mubu-example-single.json", ",", "overview-mubu-example.json" ],
                                     "maxclass": "umenu",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -6977,7 +6977,7 @@
                         ],
                         "toolbaradditions": [ "s2n", "Modalys" ]
                     },
-                    "patching_rect": [ 181.0, 651.0, 434.0, 255.0 ],
+                    "patching_rect": [ 181.0, 667.0, 434.0, 255.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 47.0, 555.0, 434.0, 229.0 ],
                     "varname": "gst",

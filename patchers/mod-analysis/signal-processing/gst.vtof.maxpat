@@ -337,7 +337,7 @@
                                     "patching_rect": [ 261.0, 28.0, 56.0, 22.0 ],
                                     "restore": {
                                         "maxMonitor": [ 1.0 ],
-                                        "minMonitor": [ -1.0 ]
+                                        "minMonitor": [ 0.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u933006469"
@@ -602,7 +602,7 @@
                     "autoupdate": 120.0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "bgcolordefault": 1,
-                    "bounds": [ -1.0, 1.0 ],
+                    "bounds": [ 0.0, 1.0 ],
                     "colormode": "fgcolor",
                     "colorpattern": [ "black", "steelblue" ],
                     "domainruler": 0,

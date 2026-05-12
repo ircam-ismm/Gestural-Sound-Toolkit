@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 102.0, 523.0, 1082.0 ],
+        "rect": [ 34.0, 100.0, 523.0, 1082.0 ],
         "boxes": [
             {
                 "box": {
@@ -194,9 +194,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.acc.intensity.maxpat",
                     "numinlets": 4,
-                    "numoutlets": 5,
+                    "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "float", "float", "float", "float", "float" ],
+                    "outlettype": [ "float", "float", "float", "float" ],
                     "patching_rect": [ 167.0, 543.0, 293.0, 136.0 ],
                     "varname": "gst.acc.intensity",
                     "viewvisibility": 1
@@ -227,9 +227,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.gate.maxpat",
                     "numinlets": 4,
-                    "numoutlets": 3,
+                    "numoutlets": 2,
                     "offset": [ 1.0, -4.0 ],
-                    "outlettype": [ "", "", "int" ],
+                    "outlettype": [ "", "int" ],
                     "patching_rect": [ 30.0, 719.0, 430.0, 148.0 ],
                     "varname": "gst.gate.float",
                     "viewvisibility": 1
@@ -402,7 +402,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-23", 0 ],
-                    "source": [ "obj-25", 2 ]
+                    "source": [ "obj-25", 1 ]
                 }
             },
             {
@@ -492,9 +492,10 @@
             "obj-22::obj-195::obj-82": [ "fcut", "fcut", 0 ],
             "obj-22::obj-195::obj-86": [ "gain", "gain", 0 ],
             "obj-22::obj-37": [ "live.text[8]", "live.text", 0 ],
-            "obj-25::obj-27": [ "continuous", "continuous", 0 ],
+            "obj-25::obj-27": [ "continuous[1]", "conti", 0 ],
             "obj-25::obj-6": [ "live.text[3]", "live.text", 0 ],
             "obj-25::obj-8::obj-14": [ "threshold", "threshold", 0 ],
+            "obj-25::obj-8::obj-27": [ "continuous", "continuous", 0 ],
             "obj-25::obj-8::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-25::obj-8::obj-37": [ "minMonitor", "minMonitor", 0 ],
             "obj-48::obj-15": [ "live.text[4]", "live.text", 0 ],
@@ -527,8 +528,26 @@
                 "obj-22::obj-37": {
                     "parameter_longname": "live.text[8]"
                 },
+                "obj-25::obj-27": {
+                    "parameter_longname": "continuous[1]"
+                },
                 "obj-25::obj-6": {
                     "parameter_longname": "live.text[3]"
+                },
+                "obj-48::obj-15": {
+                    "parameter_longname": "live.text[4]"
+                },
+                "obj-48::obj-18": {
+                    "parameter_longname": "live.text[7]"
+                },
+                "obj-48::obj-4": {
+                    "parameter_longname": "live.text[5]"
+                },
+                "obj-48::obj-40": {
+                    "parameter_longname": "live.toggle"
+                },
+                "obj-48::obj-6": {
+                    "parameter_longname": "live.text[6]"
                 },
                 "obj-6::obj-37": {
                     "parameter_longname": "live.text[9]"

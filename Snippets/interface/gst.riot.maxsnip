@@ -1,0 +1,70 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 4,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "description": "128 x 111, containing 1 object",
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 4,
+                    "numoutlets": 5,
+                    "outlettype": [ "", "", "", "", "" ],
+                    "patching_rect": [ 19.0, 24.0, 157.0, 22.0 ],
+                    "text": "gst.riot",
+                    "varname": "gst.acc.intensity"
+                }
+            }
+        ],
+        "lines": [],
+        "parameters": {
+            "obj-1::obj-108": [ "clock-type", "clock type", 0 ],
+            "obj-1::obj-16": [ "osc-port", "port", 0 ],
+            "obj-1::obj-179": [ "sens-type", "sensor type", 0 ],
+            "obj-1::obj-18::obj-105": [ "live.text[12]", "live.text", 0 ],
+            "obj-1::obj-18::obj-110": [ "live.text[13]", "live.text", 0 ],
+            "obj-1::obj-18::obj-121": [ "live.numbox[4]", "Amount", 0 ],
+            "obj-1::obj-18::obj-20": [ "1008-port[1]", "port", 0 ],
+            "obj-1::obj-18::obj-223": [ "live.numbox", "live.numbox", 0 ],
+            "obj-1::obj-18::obj-59": [ "live.numbox[5]", "live.numbox", 0 ],
+            "obj-1::obj-18::obj-7": [ "live.numbox[2]", "live.numbox", 0 ],
+            "obj-1::obj-18::obj-75": [ "live.numbox[3]", "live.numbox", 0 ],
+            "obj-1::obj-18::obj-83": [ "live.toggle", "live.toggle", 0 ],
+            "obj-1::obj-25": [ "live.text[11]", "live.text", 0 ],
+            "obj-1::obj-31": [ "live.button", "live.button", 0 ],
+            "obj-1::obj-47": [ "enable", "enable", 1 ],
+            "obj-1::obj-50": [ "frameperiod", "frame period", 0 ],
+            "obj-1::obj-56": [ "live.text[10]", "live.text", 0 ],
+            "obj-1::obj-58": [ "live.text[2]", "live.text[3]", 0 ],
+            "obj-1::obj-59": [ "osc-id", "id", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "tags": "",
+        "snippetinfo": {
+            "name": "gst.acc.intensity",
+            "objects": "jpatcher",
+            "tags": "",
+            "description": "128 x 111, containing 1 object",
+            "image": "iVBORw0KGgoAAAANSUhEUgAAALEAAAAqCAYAAAD8iLpFAAAABHNCSVQICAgIfAhkiAAABTpJREFUeJzt3GtsU2Ucx/Hv6boLh25j6zpgA8ek3ZTLNi5BMs0EHNNINpIhgvGFCmI0eMM3GsFoCC8xaoIEQgIGoyaGQLKFzJBgEMFI5LYpSGGgK3SDXVrcurKtN18UR5oy6Vpadrb/59X69Ox//nn62+nps2dT7HZ7ACE0TPegGxAiVhJioXkSYqF5EmKheRJioXkSYqF5EmKheRJioXkSYqF5+kgP3LVr113Hn6hYhF4fXsbr9XLs6JGoG4s36Tuxoul73bp1EdWO+Urc1dk5rPGRQvpOrHj2HXOImy9ZcblcIWMul4vmS9ZYS8eV9J1Y8ew74tuJoXg8Hk79doIcUy6qquJ299LZ0UEgMLL3FUnfiRXPviMOcX19fcwnE2I4EnZPLMSDltAQZ4xPYcViS0TH7tlURYk5577VE6NXQkO8rLyQZxZOi+jYpuZO3H3e+1ZPjF4xfbBbXjGdZeWFjE9LxmpzUJiXyStbDlFizuHt5+eQlZ6Gs7uPvQ3naXe6WVVZTEpyEp+98yQbvvhpsI5Ogd2bnsZ2vZvigmy+O3SBUouJwydtQDCstYvNZKipXLbfZPv+RtRU/ZD1xNgS9ZV4TpGJ9StKsdqc1B27zNziiUzJTQdg/YoyHN19bP3mJG1dvbz3wjxaO3v55fdWunv72XPwXGgxRSHfZGD+o5M4euYaf7V1k28yYBiXQpnFxLur59LS1s3ehvNMNo5ny2vltHa4hq4nxpSor8Tls/Nw9vTz6benAMjOSKN2UfD+NEmnkK6mkKzXsW3fWYyZabjcA1y90YNlahZNzXdf4P7q4Dm+P3wxZKyiLJ/eWx627DmBPwDOnn4+XruQqRMz7llPjA1RX4nzTAau2P8ZfGxtcQ5+veNAE9kZaXy0ZiG7N1axZN5DEdVs7XCFjRknjOPSVSf+28uJ564EA5szIS3a1sUoE3WIL9qcFExKH3xcmJcZ8vybW39kw+dHONZoZ3nFdGYUGu9Z0+Pzh4313vKQbzIMPp42OXieti53tK2LUSbqEP/6RxumLJVXa2ZRtaCApQuCV1udAm+tLOON2hKuO9yctrYD4PMH6Pf4mGBIpWBSBjoFVlcWM31K5v+dhtPWdkxZKiuXFPFwXiarKou41e+lpa07pJ4Yu6IOsdXm5OuG81QtKOD12hJuuvrx+vz4A7B9f2NwlWHzs2xYPZeDx69wocXBn387UNP07Hz/KVJSklhTPZMZ04wQCODzh/760Xf7qnz4pI36ny+ztmYWOz+oJN9kYOOO4/R7fCH1dDoltpkQmqVE+s9TampqQh5XlOUz25zDl/saAVj/XCnls/J48ZOGwWNys1ScPX14vHduE5L1OpJ0Cn0DvmE1mqzXka6m4OjuCxuPpp4Y+erq6iI6LurVCavNyYcvP8bMQiN9Az5mFhrZtu9syDHtzvD7Vo/XjyeK83m8/rAAx1JPjB5Rh/iGw81Lm39g/iMTGZeqZ+eBJqw2572/UYj7LOIQV1dXD/ncgKLw+NJclo6ArYGqqpJtDO65cHR14nY/mFUMRVFGzHbJ0T4nMe8nTk5OpnTOPAyGO8tgLpeLxjOn8HgS+0afP2UqZksRihL8kBcwW2i+aMVuv5bQPmROwsVzTmLeAGS2FIc0BmAwGDBbimMtPSyqqoa8WBD8yTcXFaOqakJ7kTkJF885iTnExpy7b5ccajxeso05IS/WfxRFGXwrTRSZk3DxnJOIl9iEGKnkLzuE5kmIheZJiIXmSYiF5kmIheZJiIXmSYiF5kmIheZJiIXm/Qub6UaCB/2g3QAAAABJRU5ErkJggg=="
+        },
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+    }
+}

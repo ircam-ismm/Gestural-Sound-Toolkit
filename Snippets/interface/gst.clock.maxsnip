@@ -1,0 +1,56 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 4,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "description": "128 x 111, containing 1 object",
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 0,
+                    "patching_rect": [ 19.0, 24.0, 85.0, 22.0 ],
+                    "text": "gst.clock",
+                    "varname": "gst.acc.intensity"
+                }
+            }
+        ],
+        "lines": [],
+        "parameters": {
+            "obj-1::obj-11": [ "FrameRate", "FrameRate", 0 ],
+            "obj-1::obj-17": [ "resync", "resync", 0 ],
+            "obj-1::obj-28": [ "clock-type", "clock-type", 0 ],
+            "obj-1::obj-31": [ "id-clock", "id-clock", 0 ],
+            "obj-1::obj-4": [ "FramePeriod", "FramePeriod", 0 ],
+            "obj-1::obj-8": [ "enable", "enable", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "tags": "",
+        "snippetinfo": {
+            "name": "gst.acc.intensity",
+            "objects": "jpatcher",
+            "tags": "",
+            "description": "128 x 111, containing 1 object",
+            "image": "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"
+        },
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+    }
+}

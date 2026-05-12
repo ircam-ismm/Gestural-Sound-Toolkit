@@ -1,0 +1,54 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 4,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "description": "128 x 111, containing 1 object",
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 19.0, 24.0, 158.0, 22.0 ],
+                    "text": "gst.display",
+                    "varname": "gst.acc.intensity"
+                }
+            }
+        ],
+        "lines": [],
+        "parameters": {
+            "obj-1::obj-37": [ "live.text[3]", "live.text", 0 ],
+            "obj-1::obj-8::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
+            "obj-1::obj-8::obj-37": [ "minMonitor", "minMonitor", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "tags": "",
+        "snippetinfo": {
+            "name": "gst.acc.intensity",
+            "objects": "jpatcher",
+            "tags": "",
+            "description": "128 x 111, containing 1 object",
+            "image": "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"
+        },
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+    }
+}

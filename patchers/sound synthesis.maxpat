@@ -174,7 +174,7 @@
                 "box": {
                     "bgcolor": [ 0.0, 0.0, 0.0, 0.0 ],
                     "bgmode": 2,
-                    "border": 0,
+                    "border": 1,
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
@@ -320,6 +320,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

@@ -9,8 +9,40 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 35.0, 93.0, 493.0, 890.0 ],
+        "rect": [ 35.0, 93.0, 493.0, 1089.0 ],
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 12.0,
+                    "id": "obj-2",
+                    "linecount": 5,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 44.0, 992.0, 434.0, 74.0 ],
+                    "presentation": 1,
+                    "presentation_linecount": 10,
+                    "presentation_rect": [ 230.0, 26.0, 212.0, 141.0 ],
+                    "text": "\"First beta is set to 0 and fcmin (mincutoff) to a reasonable middle-ground value such as 1 Hz. Then the body part is held steady or moved at a very low speed while fcmin is adjusted to remove jitter and preserve an acceptable lag during these slow movements (decreasing fcmin reduces jitter but increases lag, fcmin must be > 0).\""
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 12.0,
+                    "id": "obj-3",
+                    "linecount": 6,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 44.0, 887.0, 434.0, 87.0 ],
+                    "presentation": 1,
+                    "presentation_linecount": 10,
+                    "presentation_rect": [ 230.0, 225.0, 212.0, 141.0 ],
+                    "text": "Ref : Casiez, G., Roussel, N. and Vogel, D. (2012). 1€ Filter: A Simple Speed-based Low-pass Filter for Noisy Input in Interactive Systems. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI '12). Austin, Texas (May 5-12, 2012). New York: ACM Press, pp. 2527-2530.\nhttps://gery.casiez.net/1euro/"
+                }
+            },
             {
                 "box": {
                     "fontsize": 8.0,
@@ -128,7 +160,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 99.0, 53.0, 195.0, 42.0 ],
-                    "text": "sn.1euro"
+                    "text": "gst.1euro"
                 }
             },
             {
@@ -179,7 +211,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "sn.1euro.maxpat",
+                    "name": "gst.1euro.maxpat",
                     "numinlets": 4,
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
@@ -204,7 +236,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "int", "int" ],
-                                    "patching_rect": [ 632.0, 320.0, 65.0, 22.0 ],
+                                    "patching_rect": [ 631.5, 321.0, 65.0, 22.0 ],
                                     "text": "change -1."
                                 }
                             },
@@ -613,7 +645,8 @@
                                     "id": "obj-5",
                                     "maxclass": "newobj",
                                     "numinlets": 7,
-                                    "numoutlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
                                     "patcher": {
                                         "fileversion": 1,
                                         "appversion": {
@@ -624,18 +657,29 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 236.0, 102.0, 457.0, 364.0 ],
+                                        "rect": [ 236.0, 102.0, 459.0, 364.0 ],
                                         "openinpresentation": 1,
                                         "boxes": [
                                             {
                                                 "box": {
-                                                    "id": "obj-1",
-                                                    "maxclass": "newobj",
+                                                    "id": "obj-6",
+                                                    "maxclass": "message",
+                                                    "numinlets": 2,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "" ],
+                                                    "patching_rect": [ 856.0, 221.0, 41.0, 22.0 ],
+                                                    "text": "set $1"
+                                                }
+                                            },
+                                            {
+                                                "box": {
+                                                    "comment": "",
+                                                    "id": "obj-4",
+                                                    "index": 1,
+                                                    "maxclass": "outlet",
                                                     "numinlets": 1,
-                                                    "numoutlets": 3,
-                                                    "outlettype": [ "", "int", "int" ],
-                                                    "patching_rect": [ 924.0, 151.5, 61.0, 22.0 ],
-                                                    "text": "change 0."
+                                                    "numoutlets": 0,
+                                                    "patching_rect": [ 856.0, 251.0, 30.0, 30.0 ]
                                                 }
                                             },
                                             {
@@ -884,7 +928,7 @@
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 1057.0, 232.5, 101.0, 21.0 ],
+                                                    "patching_rect": [ 1057.0, 232.5, 102.0, 21.0 ],
                                                     "text": "s #0-mubu-scroll"
                                                 }
                                             },
@@ -1287,12 +1331,6 @@
                                         "lines": [
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-13", 0 ],
-                                                    "source": [ "obj-1", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
                                                     "destination": [ "obj-157", 0 ],
                                                     "midpoints": [ 933.5, 203.75, 545.5, 203.75 ],
                                                     "source": [ "obj-13", 0 ]
@@ -1306,7 +1344,15 @@
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-1", 0 ],
+                                                    "destination": [ "obj-13", 0 ],
+                                                    "order": 0,
+                                                    "source": [ "obj-15", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-6", 0 ],
+                                                    "order": 1,
                                                     "source": [ "obj-15", 0 ]
                                                 }
                                             },
@@ -1435,6 +1481,12 @@
                                             },
                                             {
                                                 "patchline": {
+                                                    "destination": [ "obj-4", 0 ],
+                                                    "source": [ "obj-6", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
                                                     "destination": [ "obj-42", 0 ],
                                                     "source": [ "obj-74", 0 ]
                                                 }
@@ -1452,7 +1504,7 @@
                                                 }
                                             }
                                         ],
-                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                     },
                                     "patching_rect": [ 314.0, 177.0, 515.0, 21.0 ],
                                     "text": "p more",
@@ -1892,6 +1944,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-7", 0 ],
+                                    "source": [ "obj-5", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-42", 0 ],
                                     "source": [ "obj-6", 1 ]
                                 }
@@ -1953,7 +2011,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 44.0, 618.0, 434.0, 252.0 ],
                     "presentation": 1,
@@ -2065,6 +2123,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

@@ -1,0 +1,60 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 4,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 37.0, 93.0, 1000.0, 780.0 ],
+        "description": "128 x 111, containing 1 object",
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 8,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 19.0, 24.0, 266.0, 22.0 ],
+                    "text": "gst.classification.gmm",
+                    "varname": "gst.acc.intensity"
+                }
+            }
+        ],
+        "lines": [],
+        "parameters": {
+            "obj-1::obj-11": [ "total", "total", 0 ],
+            "obj-1::obj-59": [ "live.text[6]", "live.text", 0 ],
+            "obj-1::obj-64": [ "live.text[5]", "live.text", 0 ],
+            "obj-1::obj-66": [ "live.text[8]", "live.text", 0 ],
+            "obj-1::obj-69": [ "regularization", "regularization", 0 ],
+            "obj-1::obj-7": [ "auto+", "auto+", 0 ],
+            "obj-1::obj-70": [ "live.text[7]", "live.text", 0 ],
+            "obj-1::obj-73": [ "live.toggle", "live.toggle", 0 ],
+            "obj-1::obj-74": [ "label", "label", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "tags": "",
+        "snippetinfo": {
+            "name": "gst.acc.intensity",
+            "objects": "jpatcher",
+            "tags": "",
+            "description": "128 x 111, containing 1 object",
+            "image": "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"
+        },
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+    }
+}

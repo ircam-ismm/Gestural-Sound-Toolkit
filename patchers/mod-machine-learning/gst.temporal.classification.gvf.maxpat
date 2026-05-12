@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 366.0, 518.0 ],
+        "rect": [ 34.0, 93.0, 352.0, 499.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -594,7 +594,7 @@
                 "box": {
                     "comment": "follow",
                     "id": "obj-112",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -606,7 +606,7 @@
                 "box": {
                     "comment": "Start/Stop recording",
                     "id": "obj-110",
-                    "index": 0,
+                    "index": 5,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -618,7 +618,7 @@
                 "box": {
                     "comment": "follow",
                     "id": "obj-76",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1095,7 +1095,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-13",
-                    "index": 0,
+                    "index": 7,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1118,7 +1118,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-9",
-                    "index": 0,
+                    "index": 5,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1181,7 +1181,7 @@
                 "box": {
                     "comment": "Start/Stop Gesture",
                     "id": "obj-1",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1468,7 +1468,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-107",
-                    "index": 0,
+                    "index": 6,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1479,7 +1479,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-106",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1490,7 +1490,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-104",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1501,7 +1501,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-103",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1512,7 +1512,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-102",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2916,7 +2916,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-39",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -3069,7 +3069,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 247.0, 428.0, 180.0, 24.0 ],
+                    "patching_rect": [ 247.0, 428.0, 195.0, 24.0 ],
                     "saved_object_attributes": {
                         "tolerance": 0.20000000298023224
                     },
@@ -3941,31 +3941,6 @@
                 }
             }
         ],
-        "parameters": {
-            "obj-101": [ "InVecSize", "InVecSize", 0 ],
-            "obj-116": [ "live.text[8]", "live.text", 0 ],
-            "obj-126": [ "live.toggle", "live.toggle", 0 ],
-            "obj-47": [ "translation", "translation", 0 ],
-            "obj-49": [ "segment", "segment", 0 ],
-            "obj-51": [ "nbParticles", "nbParticles", 0 ],
-            "obj-53": [ "scalings", "scalings", 0 ],
-            "obj-56": [ "dynamics", "dynamics", 0 ],
-            "obj-60": [ "rotations", "rotations", 0 ],
-            "obj-74": [ "live.text[7]", "live.text", 0 ],
-            "obj-75": [ "live.text[9]", "live.text", 0 ],
-            "obj-78": [ "follow", "follow", 0 ],
-            "obj-8": [ "tolerance", "tolerance", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

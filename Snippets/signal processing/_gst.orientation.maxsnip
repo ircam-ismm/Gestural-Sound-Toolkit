@@ -1,0 +1,67 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 4,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "description": "128 x 111, containing 1 object",
+        "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-1",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.orientation.maxpat",
+                    "numinlets": 3,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 19.0, 24.0, 131.0, 105.0 ],
+                    "varname": "gst.acc.intensity",
+                    "viewvisibility": 1
+                }
+            }
+        ],
+        "lines": [],
+        "parameters": {
+            "obj-1::obj-11": [ "live.text[3]", "live.text", 0 ],
+            "obj-1::obj-5::obj-17": [ "out-sens-type", "out-sens-type", 0 ],
+            "obj-1::obj-5::obj-179": [ "in-sens-type", "in-sens-type", 0 ],
+            "obj-1::obj-5::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
+            "obj-1::obj-5::obj-37": [ "minMonitor", "minMonitor", 0 ],
+            "obj-1::obj-5::obj-42": [ "frame-rate", "framerate", 0 ],
+            "obj-1::obj-5::obj-48": [ "gyroweight", "maveragewindow", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "tags": "",
+        "snippetinfo": {
+            "name": "gst.acc.intensity",
+            "objects": "jpatcher",
+            "tags": "",
+            "description": "128 x 111, containing 1 object",
+            "image": "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"
+        },
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+    }
+}

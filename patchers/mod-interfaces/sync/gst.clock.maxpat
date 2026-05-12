@@ -9,10 +9,40 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 95.0, 102.0 ],
+        "rect": [ 34.0, 93.0, 104.0, 106.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
+            {
+                "box": {
+                    "comment": "reseync (bang)",
+                    "id": "obj-12",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 426.0, 9.0, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 0.0 ],
+                    "border": 2,
+                    "bordercolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "id": "obj-6",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 93.83333333333337, 172.5, 157.0, 31.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 5.022830903530121, 45.20547813177109, 59.81734985113144, 20.091323614120483 ],
+                    "proportion": 0.5,
+                    "rounded": 0
+                }
+            },
             {
                 "box": {
                     "id": "obj-65",
@@ -124,7 +154,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "int" ],
                                     "patching_rect": [ 13.0, 10.0, 30.0, 30.0 ]
                                 }
                             },
@@ -329,23 +359,37 @@
             },
             {
                 "box": {
-                    "annotation": "clock type",
-                    "hint": "clock type",
+                    "bgcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+                    "bgfillcolor_angle": 270.0,
+                    "bgfillcolor_color": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+                    "bgfillcolor_color1": [ 0.3764705882352941, 0.3843137254901961, 0.4, 1.0 ],
+                    "bgfillcolor_color2": [ 0.2901960784313726, 0.30980392156862746, 0.30196078431372547, 1.0 ],
+                    "bgfillcolor_proportion": 0.39,
+                    "bgfillcolor_type": "color",
+                    "fontname": "Ableton Sans Bold",
+                    "fontsize": 9.0,
                     "id": "obj-28",
-                    "maxclass": "live.menu",
+                    "items": [ "metro", ",", "qmetro" ],
+                    "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
+                    "outlettype": [ "int", "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 99.33333333333337, 210.0, 100.0, 15.0 ],
+                    "patching_rect": [ 99.33333333333337, 210.0, 146.0, 19.0 ],
+                    "pattrmode": 1,
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 43.0, 55.0, 15.0 ],
+                    "presentation_rect": [ 5.022830903530121, 45.0, 59.81734985113144, 19.0 ],
                     "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_control_text_bg"
+                        },
+                        "textcolor": {
+                            "expression": "themecolor.live_control_fg"
+                        },
                         "valueof": {
                             "parameter_enum": [ "metro", "qmetro" ],
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_linknames": 1,
                             "parameter_longname": "clock-type",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
@@ -353,6 +397,7 @@
                             "parameter_type": 2
                         }
                     },
+                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "varname": "clock-type"
                 }
             },
@@ -404,7 +449,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "frameperiod framerate start",
                     "id": "obj-15",
                     "index": 0,
                     "maxclass": "inlet",
@@ -441,14 +486,12 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 517.0, 549.0, 56.0, 22.0 ],
+                    "patching_rect": [ 448.0, 49.0, 56.0, 22.0 ],
                     "restore": {
                         "FramePeriod": [ 10.0 ],
                         "FrameRate": [ 100.0 ],
-                        "Mclock": [ 1.0 ],
-                        "clock-type": [ 0.0 ],
-                        "id-clock": [ 0.0 ],
-                        "resync": [ 0.0 ]
+                        "clock-type": [ "metro" ],
+                        "enable": [ 1.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u682008148"
@@ -477,7 +520,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 320.0, 419.0, 15.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 66.5, 43.0, 15.0, 15.0 ],
+                    "presentation_rect": [ 65.0, 45.0, 19.896911144256592, 20.154641687870026 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -633,8 +676,6 @@
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 389.0, 87.0, 44.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 64.0, 2.0, 20.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -701,6 +742,7 @@
             {
                 "box": {
                     "annotation": "frame rate",
+                    "appearance": 2,
                     "hint": "frame rate",
                     "id": "obj-11",
                     "maxclass": "live.numbox",
@@ -710,12 +752,12 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 651.0, 246.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 77.0, 55.0, 15.0 ],
+                    "presentation_rect": [ 5.0, 90.0, 55.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_linknames": 1,
                             "parameter_longname": "FrameRate",
-                            "parameter_mmax": 20000.0,
+                            "parameter_mmax": 1000.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "FrameRate",
                             "parameter_type": 0,
@@ -756,14 +798,14 @@
                             "parameter_initial": [ 1.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "Mclock",
+                            "parameter_longname": "enable",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Mclock",
+                            "parameter_shortname": "enable",
                             "parameter_type": 2
                         }
                     },
-                    "varname": "Mclock"
+                    "varname": "enable"
                 }
             },
             {
@@ -778,7 +820,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 483.0, 247.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 60.0, 55.0, 15.0 ],
+                    "presentation_rect": [ 5.0, 73.1050233244896, 55.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 10.0 ],
@@ -786,6 +828,7 @@
                             "parameter_linknames": 1,
                             "parameter_longname": "FramePeriod",
                             "parameter_mmax": 1000.0,
+                            "parameter_mmin": 1.0,
                             "parameter_modmode": 3,
                             "parameter_shortname": "FramePeriod",
                             "parameter_type": 0,
@@ -851,6 +894,26 @@
                     "destination": [ "obj-37", 0 ],
                     "order": 1,
                     "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "source": [ "obj-12", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "order": 1,
+                    "source": [ "obj-13", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 0 ],
+                    "order": 0,
+                    "source": [ "obj-13", 1 ]
                 }
             },
             {
@@ -1154,7 +1217,7 @@
             "obj-28": [ "clock-type", "clock-type", 0 ],
             "obj-31": [ "id-clock", "id-clock", 0 ],
             "obj-4": [ "FramePeriod", "FramePeriod", 0 ],
-            "obj-8": [ "Mclock", "Mclock", 0 ],
+            "obj-8": [ "enable", "enable", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -1166,6 +1229,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 1526.0, 923.0 ],
+        "rect": [ 34.0, 93.0, 1508.0, 916.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -31,7 +31,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1526.0, 897.0 ],
+                        "rect": [ 0.0, 26.0, 1508.0, 890.0 ],
                         "showontab": 1,
                         "boxes": [
                             {
@@ -208,7 +208,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 119.0, 1526.0, 897.0 ],
+                        "rect": [ 34.0, 119.0, 1508.0, 890.0 ],
                         "bglocked": 1,
                         "showontab": 1,
                         "boxes": [
@@ -233,7 +233,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1358.0, 637.0, 62.0, 19.0 ],
+                                    "patching_rect": [ 1353.333333333333, 664.0, 62.0, 19.0 ],
                                     "text": "loadmess 0.5"
                                 }
                             },
@@ -392,7 +392,7 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 26.0, 855.0, 312.0, 22.0 ],
                                     "saved_object_attributes": {
-                                        "client_rect": [ 1886, 93, 2447, 1033 ],
+                                        "client_rect": [ 1579, 93, 1985, 1113 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
                                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -452,7 +452,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 259.5, 620.0, 58.0, 24.0 ],
+                                    "patching_rect": [ 257.5, 614.0, 58.0, 24.0 ],
                                     "text": "gst.gate"
                                 }
                             },
@@ -464,8 +464,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 259.5, 587.0, 63.0, 24.0 ],
-                                    "text": "gst.norm"
+                                    "patching_rect": [ 259.5, 585.0, 54.0, 24.0 ],
+                                    "text": "gst.vtof"
                                 }
                             },
                             {
@@ -747,7 +747,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1381.0, 655.0, 57.0, 19.0 ],
+                                    "patching_rect": [ 1419.0, 664.0, 57.0, 19.0 ],
                                     "text": "loadmess 0."
                                 }
                             },
@@ -2532,7 +2532,7 @@
             "obj-3::obj-12::obj-50": [ "1232-frameperiod", "frame period", 0 ],
             "obj-3::obj-12::obj-56": [ "live.text[17]", "live.text", 0 ],
             "obj-3::obj-12::obj-58": [ "live.text[2]", "live.text[3]", 0 ],
-            "obj-3::obj-12::obj-59": [ "live.numbox[1]", "live.numbox", 0 ],
+            "obj-3::obj-12::obj-59": [ "live.numbox[1]", "id", 0 ],
             "obj-3::obj-12::obj-60": [ "live.text[16]", "live.text[3]", 0 ],
             "obj-3::obj-15::obj-166": [ "speed", "speed", 0 ],
             "obj-3::obj-15::obj-22": [ "synthScratch-out", "ogain", 0 ],
@@ -2642,6 +2642,9 @@
                 },
                 "obj-3::obj-12::obj-56": {
                     "parameter_longname": "live.text[17]"
+                },
+                "obj-3::obj-12::obj-59": {
+                    "parameter_longname": "live.numbox[1]"
                 },
                 "obj-3::obj-12::obj-60": {
                     "parameter_longname": "live.text[16]"

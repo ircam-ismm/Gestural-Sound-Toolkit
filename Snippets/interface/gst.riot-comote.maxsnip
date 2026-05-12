@@ -1,0 +1,71 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 4,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "description": "128 x 111, containing 1 object",
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 4,
+                    "numoutlets": 5,
+                    "outlettype": [ "", "", "", "", "" ],
+                    "patching_rect": [ 19.0, 24.0, 88.0, 22.0 ],
+                    "text": "gst.riot-comote",
+                    "varname": "gst.acc.intensity"
+                }
+            }
+        ],
+        "lines": [],
+        "parameters": {
+            "obj-1::obj-108": [ "clock-type", "clock type", 0 ],
+            "obj-1::obj-16": [ "osc-port", "port", 0 ],
+            "obj-1::obj-179": [ "sens-type", "sensor type", 0 ],
+            "obj-1::obj-18::obj-105": [ "live.text[15]", "live.text", 0 ],
+            "obj-1::obj-18::obj-110": [ "live.text[14]", "live.text", 0 ],
+            "obj-1::obj-18::obj-121": [ "live.numbox[4]", "Amount", 0 ],
+            "obj-1::obj-18::obj-20": [ "1086-port[1]", "port", 0 ],
+            "obj-1::obj-18::obj-223": [ "live.numbox[3]", "live.numbox", 0 ],
+            "obj-1::obj-18::obj-59": [ "live.numbox[5]", "live.numbox", 0 ],
+            "obj-1::obj-18::obj-7": [ "live.numbox[2]", "live.numbox", 0 ],
+            "obj-1::obj-18::obj-75": [ "live.numbox[6]", "live.numbox", 0 ],
+            "obj-1::obj-18::obj-83": [ "live.toggle[4]", "live.toggle", 0 ],
+            "obj-1::obj-25": [ "live.text[18]", "live.text", 0 ],
+            "obj-1::obj-31": [ "live.button[3]", "live.button", 0 ],
+            "obj-1::obj-47": [ "enable", "enable", 1 ],
+            "obj-1::obj-50": [ "frameperiod", "frame period", 0 ],
+            "obj-1::obj-56": [ "live.text[17]", "live.text", 0 ],
+            "obj-1::obj-58": [ "live.text[2]", "live.text[3]", 0 ],
+            "obj-1::obj-59": [ "osc-id", "id", 0 ],
+            "obj-1::obj-60": [ "live.text[16]", "live.text[3]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "tags": "",
+        "snippetinfo": {
+            "name": "gst.acc.intensity",
+            "objects": "jpatcher",
+            "tags": "",
+            "description": "128 x 111, containing 1 object",
+            "image": "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"
+        },
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+    }
+}

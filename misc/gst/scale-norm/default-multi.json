@@ -1,0 +1,19 @@
+{
+    "pattrstorage": {
+        "name": "scale.norm",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "more::bypass": [ 0.0 ],
+                    "more::maxMonitor": [ 1.0 ],
+                    "more::minMonitor": [ -1.0 ],
+                    "acc::A-SclMax": [ 13.625401496887207 ],
+                    "acc::A-SclMin": [ -12.107478141784668 ],
+                    "gyro::B-SclMax": [ 32.2902946472168 ],
+                    "gyro::B-SclMin": [ -34.00004577636719 ]
+                }
+            }
+        }
+    }
+}

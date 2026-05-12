@@ -1,0 +1,58 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 4,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "description": "128 x 111, containing 1 object",
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 7,
+                    "numoutlets": 4,
+                    "outlettype": [ "multichannelsignal", "", "", "" ],
+                    "patching_rect": [ 19.0, 24.0, 223.0, 22.0 ],
+                    "text": "synth.FM",
+                    "varname": "gst.acc.intensity"
+                }
+            }
+        ],
+        "lines": [],
+        "parameters": {
+            "obj-1::obj-2": [ "ogain", "ogain", 0 ],
+            "obj-1::obj-20": [ "harmonicity", "harmonicity", 0 ],
+            "obj-1::obj-21": [ "carrier", "carrier", 0 ],
+            "obj-1::obj-24": [ "duration", "duration", 0 ],
+            "obj-1::obj-32": [ "index", "index", 0 ],
+            "obj-1::obj-42": [ "live.button", "live.button", 0 ],
+            "obj-1::obj-88": [ "ConstAmp", "ConstAmp", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "tags": "",
+        "snippetinfo": {
+            "name": "gst.acc.intensity",
+            "objects": "jpatcher",
+            "tags": "",
+            "description": "128 x 111, containing 1 object",
+            "image": "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"
+        },
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+    }
+}

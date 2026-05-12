@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 85.0, 314.0, 1528.0, 937.0 ],
+        "rect": [ 34.0, 93.0, 1398.0, 909.0 ],
         "boxes": [
             {
                 "box": {
@@ -155,7 +155,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 1035.682804107666, 524.0, 50.0, 22.0 ]
+                    "patching_rect": [ 1045.2437388102214, 524.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -194,9 +194,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.bandpass.maxpat",
                     "numinlets": 4,
-                    "numoutlets": 2,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 819.0, 389.49921798706055, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.bandpass",
                     "viewvisibility": 1
@@ -216,9 +216,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.lowpass.maxpat",
                     "numinlets": 4,
-                    "numoutlets": 2,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 514.0, 389.49921798706055, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.lowpass",
                     "viewvisibility": 1
@@ -238,9 +238,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.highpass.maxpat",
                     "numinlets": 4,
-                    "numoutlets": 2,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 662.0, 389.49921798706055, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.highpass",
                     "viewvisibility": 1
@@ -258,11 +258,11 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "gst.norm.maxpat",
+                    "name": "gst.vtof.maxpat",
                     "numinlets": 2,
-                    "numoutlets": 2,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 45.0, 549.0, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.norm",
                     "viewvisibility": 1
@@ -293,9 +293,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.angles.maxpat",
                     "numinlets": 3,
-                    "numoutlets": 5,
+                    "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "", "", "", "" ],
+                    "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 1179.0, 527.4992179870605, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.angles",
                     "viewvisibility": 1
@@ -315,9 +315,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.orientation.maxpat",
                     "numinlets": 3,
-                    "numoutlets": 4,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "", "", "" ],
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 1179.0, 389.49921798706055, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.orientation",
                     "viewvisibility": 1
@@ -390,9 +390,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.derivative.maxpat",
                     "numinlets": 4,
-                    "numoutlets": 2,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 45.0, 370.0, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.derivative",
                     "viewvisibility": 1
@@ -412,9 +412,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.acc.intensity.maxpat",
                     "numinlets": 4,
-                    "numoutlets": 5,
+                    "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "float", "float", "float", "float", "float" ],
+                    "outlettype": [ "float", "float", "float", "float" ],
                     "patching_rect": [ 1007.0, 389.49921798706055, 133.73121643066406, 116.34757995605469 ],
                     "varname": "gst.acc.intensity",
                     "viewvisibility": 1
@@ -496,7 +496,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
-                    "order": 3,
+                    "order": 4,
                     "source": [ "obj-6", 0 ]
                 }
             },
@@ -517,14 +517,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 2,
+                    "order": 3,
                     "source": [ "obj-6", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-9", 0 ],
-                    "order": 4,
+                    "order": 2,
                     "source": [ "obj-6", 0 ]
                 }
             },
@@ -545,19 +545,19 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
-                    "source": [ "obj-63", 2 ]
+                    "source": [ "obj-63", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-18", 0 ],
-                    "source": [ "obj-63", 3 ]
+                    "source": [ "obj-63", 2 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
-                    "source": [ "obj-63", 4 ]
+                    "source": [ "obj-63", 3 ]
                 }
             }
         ],
@@ -588,8 +588,8 @@
             "obj-21::obj-18": [ "zoom", "zoom", 0 ],
             "obj-26::obj-2": [ "live.gain~[5]", "ogain", 0 ],
             "obj-31::obj-11": [ "live.text[1]", "live.text", 0 ],
-            "obj-31::obj-5::obj-17": [ "12139-sens-type", "sensor type", 0 ],
-            "obj-31::obj-5::obj-179": [ "12139-sens-type[1]", "sensor type", 0 ],
+            "obj-31::obj-5::obj-17": [ "12139-sens-type", "out-sens-type", 0 ],
+            "obj-31::obj-5::obj-179": [ "12139-sens-type[1]", "in-sens-type", 0 ],
             "obj-31::obj-5::obj-34": [ "maxMonitor[2]", "maxMonitor", 0 ],
             "obj-31::obj-5::obj-37": [ "minMonitor[2]", "minMonitor", 0 ],
             "obj-31::obj-5::obj-42": [ "frame-rate[1]", "framerate", 0 ],
@@ -626,7 +626,7 @@
             "obj-6::obj-50": [ "12209-frameperiod", "frame period", 0 ],
             "obj-6::obj-56": [ "live.text[17]", "live.text", 0 ],
             "obj-6::obj-58": [ "live.text[2]", "live.text[3]", 0 ],
-            "obj-6::obj-59": [ "live.numbox[1]", "live.numbox", 0 ],
+            "obj-6::obj-59": [ "live.numbox[1]", "id", 0 ],
             "obj-6::obj-60": [ "live.text[16]", "live.text[3]", 0 ],
             "obj-7::obj-195::obj-13": [ "minMonitor[4]", "minMonitor", 0 ],
             "obj-7::obj-195::obj-14": [ "maxMonitor[4]", "maxMonitor", 0 ],
@@ -708,6 +708,27 @@
                 "obj-63::obj-7": {
                     "parameter_longname": "live.text[27]"
                 },
+                "obj-6::obj-108": {
+                    "parameter_longname": "12209-clock-type"
+                },
+                "obj-6::obj-16": {
+                    "parameter_longname": "12209-port"
+                },
+                "obj-6::obj-179": {
+                    "parameter_longname": "12209-sens-type"
+                },
+                "obj-6::obj-18::obj-20": {
+                    "parameter_longname": "12209-port[1]"
+                },
+                "obj-6::obj-47": {
+                    "parameter_longname": "12209-enable"
+                },
+                "obj-6::obj-50": {
+                    "parameter_longname": "12209-frameperiod"
+                },
+                "obj-6::obj-59": {
+                    "parameter_longname": "live.numbox[1]"
+                },
                 "obj-7::obj-195::obj-13": {
                     "parameter_longname": "minMonitor[4]"
                 },
@@ -760,6 +781,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

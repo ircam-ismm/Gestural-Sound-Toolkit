@@ -1,0 +1,27 @@
+{
+    "pattrstorage": {
+        "name": "scale.norm",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "more::bypass": [ 0.0 ],
+                    "more::maxMonitor": [ 1.0 ],
+                    "more::minMonitor": [ -1.0 ],
+                    "acc::AX-SclMax": [ 12.823344230651855 ],
+                    "acc::AX-SclMin": [ -11.793837547302246 ],
+                    "acc::AY-SclMax": [ 11.779472351074219 ],
+                    "acc::AY-SclMin": [ -12.157755851745605 ],
+                    "acc::AZ-SclMax": [ 11.91354751586914 ],
+                    "acc::AZ-SclMin": [ -15.28218936920166 ],
+                    "gyro::BX-SclMax": [ 25.35968589782715 ],
+                    "gyro::BX-SclMin": [ -23.7330265045166 ],
+                    "gyro::BY-SclMax": [ 32.019718170166016 ],
+                    "gyro::BY-SclMin": [ -34.88847732543945 ],
+                    "gyro::BZ-SclMax": [ 15.434616088867188 ],
+                    "gyro::BZ-SclMin": [ -20.777982711791992 ]
+                }
+            }
+        }
+    }
+}
