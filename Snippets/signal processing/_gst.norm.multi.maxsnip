@@ -28,8 +28,8 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 19.0, 24.0, 160.18423628807068, 166.0 ],
-                    "varname": "gst.acc.intensity",
+                    "patching_rect": [ 18.0, 18.0, 160.18423628807068, 166.0 ],
+                    "varname": "_gst.norm.multi",
                     "viewvisibility": 1
                 }
             }

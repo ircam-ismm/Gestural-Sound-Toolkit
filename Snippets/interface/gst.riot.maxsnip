@@ -19,9 +19,9 @@
                     "numinlets": 4,
                     "numoutlets": 5,
                     "outlettype": [ "", "", "", "", "" ],
-                    "patching_rect": [ 19.0, 24.0, 157.0, 22.0 ],
+                    "patching_rect": [ 30.0, 34.0, 257.0, 22.0 ],
                     "text": "gst.riot",
-                    "varname": "gst.acc.intensity"
+                    "varname": "gst.riot"
                 }
             }
         ],
@@ -33,7 +33,7 @@
             "obj-1::obj-18::obj-105": [ "live.text[12]", "live.text", 0 ],
             "obj-1::obj-18::obj-110": [ "live.text[13]", "live.text", 0 ],
             "obj-1::obj-18::obj-121": [ "live.numbox[4]", "Amount", 0 ],
-            "obj-1::obj-18::obj-20": [ "1008-port[1]", "port", 0 ],
+            "obj-1::obj-18::obj-20": [ "2322-port[1]", "port", 0 ],
             "obj-1::obj-18::obj-223": [ "live.numbox", "live.numbox", 0 ],
             "obj-1::obj-18::obj-59": [ "live.numbox[5]", "live.numbox", 0 ],
             "obj-1::obj-18::obj-7": [ "live.numbox[2]", "live.numbox", 0 ],
@@ -54,6 +54,11 @@
                     "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
                 }
             },
+            "parameter_overrides": {
+                "obj-1::obj-18::obj-20": {
+                    "parameter_longname": "2322-port[1]"
+                }
+            },
             "inherited_shortname": 1
         },
         "tags": "",
@@ -62,7 +67,7 @@
             "objects": "jpatcher",
             "tags": "",
             "description": "128 x 111, containing 1 object",
-            "image": "iVBORw0KGgoAAAANSUhEUgAAALEAAAAqCAYAAAD8iLpFAAAABHNCSVQICAgIfAhkiAAABTpJREFUeJzt3GtsU2Ucx/Hv6boLh25j6zpgA8ek3ZTLNi5BMs0EHNNINpIhgvGFCmI0eMM3GsFoCC8xaoIEQgIGoyaGQLKFzJBgEMFI5LYpSGGgK3SDXVrcurKtN18UR5oy6Vpadrb/59X69Ox//nn62+nps2dT7HZ7ACE0TPegGxAiVhJioXkSYqF5EmKheRJioXkSYqF5EmKheRJioXkSYqF5+kgP3LVr113Hn6hYhF4fXsbr9XLs6JGoG4s36Tuxoul73bp1EdWO+Urc1dk5rPGRQvpOrHj2HXOImy9ZcblcIWMul4vmS9ZYS8eV9J1Y8ew74tuJoXg8Hk79doIcUy6qquJ299LZ0UEgMLL3FUnfiRXPviMOcX19fcwnE2I4EnZPLMSDltAQZ4xPYcViS0TH7tlURYk5577VE6NXQkO8rLyQZxZOi+jYpuZO3H3e+1ZPjF4xfbBbXjGdZeWFjE9LxmpzUJiXyStbDlFizuHt5+eQlZ6Gs7uPvQ3naXe6WVVZTEpyEp+98yQbvvhpsI5Ogd2bnsZ2vZvigmy+O3SBUouJwydtQDCstYvNZKipXLbfZPv+RtRU/ZD1xNgS9ZV4TpGJ9StKsdqc1B27zNziiUzJTQdg/YoyHN19bP3mJG1dvbz3wjxaO3v55fdWunv72XPwXGgxRSHfZGD+o5M4euYaf7V1k28yYBiXQpnFxLur59LS1s3ehvNMNo5ny2vltHa4hq4nxpSor8Tls/Nw9vTz6benAMjOSKN2UfD+NEmnkK6mkKzXsW3fWYyZabjcA1y90YNlahZNzXdf4P7q4Dm+P3wxZKyiLJ/eWx627DmBPwDOnn4+XruQqRMz7llPjA1RX4nzTAau2P8ZfGxtcQ5+veNAE9kZaXy0ZiG7N1axZN5DEdVs7XCFjRknjOPSVSf+28uJ564EA5szIS3a1sUoE3WIL9qcFExKH3xcmJcZ8vybW39kw+dHONZoZ3nFdGYUGu9Z0+Pzh4313vKQbzIMPp42OXieti53tK2LUSbqEP/6RxumLJVXa2ZRtaCApQuCV1udAm+tLOON2hKuO9yctrYD4PMH6Pf4mGBIpWBSBjoFVlcWM31K5v+dhtPWdkxZKiuXFPFwXiarKou41e+lpa07pJ4Yu6IOsdXm5OuG81QtKOD12hJuuvrx+vz4A7B9f2NwlWHzs2xYPZeDx69wocXBn387UNP07Hz/KVJSklhTPZMZ04wQCODzh/760Xf7qnz4pI36ny+ztmYWOz+oJN9kYOOO4/R7fCH1dDoltpkQmqVE+s9TampqQh5XlOUz25zDl/saAVj/XCnls/J48ZOGwWNys1ScPX14vHduE5L1OpJ0Cn0DvmE1mqzXka6m4OjuCxuPpp4Y+erq6iI6LurVCavNyYcvP8bMQiN9Az5mFhrZtu9syDHtzvD7Vo/XjyeK83m8/rAAx1JPjB5Rh/iGw81Lm39g/iMTGZeqZ+eBJqw2572/UYj7LOIQV1dXD/ncgKLw+NJclo6ArYGqqpJtDO65cHR14nY/mFUMRVFGzHbJ0T4nMe8nTk5OpnTOPAyGO8tgLpeLxjOn8HgS+0afP2UqZksRihL8kBcwW2i+aMVuv5bQPmROwsVzTmLeAGS2FIc0BmAwGDBbimMtPSyqqoa8WBD8yTcXFaOqakJ7kTkJF885iTnExpy7b5ccajxeso05IS/WfxRFGXwrTRSZk3DxnJOIl9iEGKnkLzuE5kmIheZJiIXmSYiF5kmIheZJiIXmSYiF5kmIheZJiIXm/Qub6UaCB/2g3QAAAABJRU5ErkJggg=="
+            "image": "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"
         },
         "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]

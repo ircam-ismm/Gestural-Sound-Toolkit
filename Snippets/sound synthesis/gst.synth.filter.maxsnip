@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "rect": [ 35.0, 93.0, 1000.0, 780.0 ],
         "description": "128 x 111, containing 1 object",
         "boxes": [
             {
@@ -19,9 +19,9 @@
                     "numinlets": 3,
                     "numoutlets": 2,
                     "outlettype": [ "multichannelsignal", "signal" ],
-                    "patching_rect": [ 19.0, 24.0, 223.0, 22.0 ],
+                    "patching_rect": [ 16.0, 18.0, 203.0, 22.0 ],
                     "text": "synth.filter",
-                    "varname": "gst.acc.intensity"
+                    "varname": "synth.filter"
                 }
             }
         ],
@@ -47,7 +47,7 @@
             "objects": "jpatcher",
             "tags": "",
             "description": "128 x 111, containing 1 object",
-            "image": "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"
+            "image": "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"
         },
         "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]

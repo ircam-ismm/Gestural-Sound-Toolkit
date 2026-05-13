@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "rect": [ 62.0, 109.0, 1000.0, 780.0 ],
         "description": "128 x 111, containing 1 object",
         "boxes": [
             {
@@ -28,8 +28,8 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 19.0, 24.0, 131.0, 116.0 ],
-                    "varname": "gst.acc.intensity",
+                    "patching_rect": [ 21.0, 15.0, 131.0, 116.0 ],
+                    "varname": "_gst.vtof",
                     "viewvisibility": 1
                 }
             }

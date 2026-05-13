@@ -29,7 +29,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "float", "float", "float", "float" ],
                     "patching_rect": [ 10.0, 10.0, 128.0, 111.0 ],
-                    "varname": "gst.acc.intensity",
+                    "varname": "_gst.acc.intensity",
                     "viewvisibility": 1
                 }
             }

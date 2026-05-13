@@ -24,12 +24,12 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "gst.display.maxpat",
-                    "numinlets": 3,
+                    "numinlets": 4,
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
-                    "patching_rect": [ 19.0, 24.0, 123.0, 117.0 ],
-                    "varname": "gst.acc.intensity",
+                    "patching_rect": [ 19.0, 14.0, 123.0, 117.0 ],
+                    "varname": "_gst.display",
                     "viewvisibility": 1
                 }
             }
