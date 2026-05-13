@@ -491,7 +491,7 @@
                         "FramePeriod": [ 10.0 ],
                         "FrameRate": [ 100.0 ],
                         "clock-type": [ "metro" ],
-                        "enable": [ 1.0 ]
+                        "enable": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u682008148"
@@ -795,7 +795,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
-                            "parameter_initial": [ 1.0 ],
+                            "parameter_initial": [ 0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
                             "parameter_longname": "enable",
