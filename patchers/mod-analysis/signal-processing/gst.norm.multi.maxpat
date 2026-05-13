@@ -514,6 +514,7 @@
             },
             {
                 "box": {
+                    "autorestore": "default-multi.json",
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -651,7 +652,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1815.0, 194.0, 1150.0, 1060.0 ],
+                        "rect": [ 1245.0, 129.0, 1150.0, 1060.0 ],
                         "title": "B-scalenorm",
                         "boxes": [
                             {
@@ -1052,7 +1053,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 130.0, 874.0, 293.0, 22.0 ],
+                                    "patching_rect": [ 202.0, 874.0, 221.0, 22.0 ],
                                     "text": "clip"
                                 }
                             },
@@ -1063,7 +1064,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 107.0, 841.0, 293.0, 22.0 ],
+                                    "patching_rect": [ 179.0, 841.0, 221.0, 22.0 ],
                                     "text": "clip"
                                 }
                             },
@@ -1257,7 +1258,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 84.0, 810.0, 293.0, 22.0 ],
+                                    "patching_rect": [ 156.0, 810.0, 221.0, 22.0 ],
                                     "text": "clip"
                                 }
                             },
@@ -2015,7 +2016,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-67", 0 ],
+                                    "destination": [ "obj-75", 0 ],
                                     "source": [ "obj-49", 0 ]
                                 }
                             },
@@ -2033,13 +2034,13 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-73", 0 ],
+                                    "destination": [ "obj-75", 1 ],
                                     "source": [ "obj-52", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-74", 0 ],
+                                    "destination": [ "obj-75", 2 ],
                                     "source": [ "obj-53", 0 ]
                                 }
                             },
@@ -2217,7 +2218,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 369.0, 317.0, 161.0, 22.0 ],
                     "text": "p gst.scalenorme -1 1 0 B",
@@ -2853,7 +2854,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 130.0, 874.0, 293.0, 22.0 ],
+                                    "patching_rect": [ 195.0, 874.0, 228.0, 22.0 ],
                                     "text": "clip"
                                 }
                             },
@@ -2864,7 +2865,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 107.0, 841.0, 293.0, 22.0 ],
+                                    "patching_rect": [ 172.0, 841.0, 228.0, 22.0 ],
                                     "text": "clip"
                                 }
                             },
@@ -3058,7 +3059,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 84.0, 810.0, 293.0, 22.0 ],
+                                    "patching_rect": [ 149.0, 810.0, 228.0, 22.0 ],
                                     "text": "clip"
                                 }
                             },
@@ -3816,7 +3817,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-67", 0 ],
+                                    "destination": [ "obj-75", 0 ],
                                     "source": [ "obj-49", 0 ]
                                 }
                             },
@@ -3834,13 +3835,13 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-73", 0 ],
+                                    "destination": [ "obj-75", 1 ],
                                     "source": [ "obj-52", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-74", 0 ],
+                                    "destination": [ "obj-75", 2 ],
                                     "source": [ "obj-53", 0 ]
                                 }
                             },
@@ -4018,7 +4019,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 68.0, 317.0, 161.0, 22.0 ],
                     "text": "p gst.scalenorme -1 1 0 A",
@@ -5618,6 +5619,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
