@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 340.0, 156.0 ],
+        "rect": [ 34.0, 93.0, 336.0, 152.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "gridsize": [ 5.0, 5.0 ],
@@ -24,7 +24,7 @@
                     "patching_rect": [ 462.75, 26.0, 50.5, 20.0 ],
                     "restore": {
                         "clock-type": [ 0.0 ],
-                        "enable": [ 1.0 ],
+                        "enable": [ 0.0 ],
                         "frameperiod": [ 10.0 ],
                         "osc-id": [ 0.0 ],
                         "osc-port": [ 10001.0 ],
@@ -805,28 +805,6 @@
                     "patching_rect": [ 501.0, 436.0, 5.0, 100.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 190.14779651165009, 30.0, 5.0, 109.90148758888245 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-44",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 270.0, 39.0, 54.0, 20.0 ],
-                    "text": "t 1 10001"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-33",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "patching_rect": [ 270.0, 16.0, 54.0, 20.0 ],
-                    "text": "loadbang"
                 }
             },
             {
@@ -2436,7 +2414,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
-                            "parameter_initial": [ 1 ],
+                            "parameter_initial": [ 0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
                             "parameter_longname": "enable",
                             "parameter_mmax": 1,
@@ -29817,12 +29796,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-44", 0 ],
-                    "source": [ "obj-33", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-53", 0 ],
                     "source": [ "obj-34", 0 ]
                 }
@@ -29855,18 +29828,6 @@
                 "patchline": {
                     "destination": [ "obj-49", 0 ],
                     "source": [ "obj-43", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-16", 0 ],
-                    "source": [ "obj-44", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-47", 0 ],
-                    "source": [ "obj-44", 0 ]
                 }
             },
             {
@@ -30121,6 +30082,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
