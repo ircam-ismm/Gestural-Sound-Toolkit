@@ -14,6 +14,18 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "mubu.scroll configuration",
+                    "id": "obj-3",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 373.0, 43.5, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
                     "fontsize": 11.0,
                     "id": "obj-11",
                     "maxclass": "newobj",
@@ -55,7 +67,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 390.0, 119.5, 35.0, 22.0 ],
+                    "patching_rect": [ 141.0, 119.5, 35.0, 22.0 ],
                     "text": "open"
                 }
             },
@@ -66,7 +78,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 390.0, 149.5, 51.0, 22.0 ],
+                    "patching_rect": [ 141.0, 149.5, 51.0, 22.0 ],
                     "text": "pcontrol"
                 }
             },
@@ -80,7 +92,7 @@
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
                     "parameter_mappable": 0,
-                    "patching_rect": [ 390.0, 98.5, 54.0, 15.0 ],
+                    "patching_rect": [ 141.0, 98.5, 54.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 90.0, 5.0, 33.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -108,7 +120,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 258.0, 37.0, 85.0, 22.0 ],
+                    "patching_rect": [ 254.5, 45.0, 85.0, 22.0 ],
                     "text": "getattr bounds"
                 }
             },
@@ -143,7 +155,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 470.5, 44.0, 25.0, 25.0 ]
+                    "patching_rect": [ 222.0, 43.5, 25.0, 25.0 ]
                 }
             },
             {
@@ -155,7 +167,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 443.5, 44.0, 25.0, 25.0 ]
+                    "patching_rect": [ 195.0, 43.5, 25.0, 25.0 ]
                 }
             },
             {
@@ -452,7 +464,7 @@
                         ],
                         "toolbaradditions": [ "s2n", "Modalys" ]
                     },
-                    "patching_rect": [ 443.0, 149.5, 74.0, 21.0 ],
+                    "patching_rect": [ 194.0, 149.5, 74.0, 21.0 ],
                     "text": "p more",
                     "varname": "more"
                 }
@@ -510,7 +522,7 @@
                         ],
                         "lines": []
                     },
-                    "patching_rect": [ 200.5, 38.5, 44.0, 21.0 ],
+                    "patching_rect": [ 199.0, 20.5, 44.0, 21.0 ],
                     "text": "p help"
                 }
             },
@@ -553,7 +565,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 154.0, 311.0, 10.0, 10.0 ],
+                    "patching_rect": [ 270.0, 351.0, 15.0, 19.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 23.0, 123.0, 95.0 ],
                     "rangeruler": 0,
@@ -644,6 +656,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-101", 0 ],
+                    "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-40", 0 ],
                     "source": [ "obj-37", 0 ]
                 }
@@ -694,6 +712,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
