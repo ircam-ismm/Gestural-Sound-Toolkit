@@ -9,8 +9,18 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 1583.0, 906.0 ],
+        "rect": [ 111.0, 172.0, 1583.0, 906.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-41",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 494.0, 796.0, 404.0, 20.0 ],
+                    "text": "https://cycling74.com/forums/n4m-facemesh-handpose-google-mediapipe"
+                }
+            },
             {
                 "box": {
                     "bgmode": 0,
@@ -39,7 +49,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 15.0, 483.0, 191.0, 35.0 ],
+                    "patching_rect": [ 15.0, 522.0, 191.0, 35.0 ],
                     "text": "Old objects"
                 }
             },
@@ -60,7 +70,7 @@
                     "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "", "", "", "" ],
-                    "patching_rect": [ 19.0, 310.5, 339.0, 144.0 ],
+                    "patching_rect": [ 19.0, 348.0, 339.0, 144.0 ],
                     "varname": "gst.riot",
                     "viewvisibility": 1
                 }
@@ -177,7 +187,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 330.0, 684.0, 138.0, 22.0 ],
+                    "patching_rect": [ 456.0, 683.0, 138.0, 22.0 ],
                     "text": "0.078508 0.088171"
                 }
             },
@@ -211,7 +221,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 679.0, 24.0, 24.0, 24.0 ]
+                    "patching_rect": [ 467.0, 792.0, 24.0, 24.0 ]
                 }
             },
             {
@@ -224,8 +234,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 679.0, 55.0, 422.0, 31.0 ],
-                    "text": ";\rmax launchbrowser https://github.com/Cycling74/eyebeam-workshop-2/tree/master/posenet"
+                    "patching_rect": [ 467.0, 825.0, 431.0, 31.0 ],
+                    "text": ";\rmax launchbrowser https://cycling74.com/forums/n4m-facemesh-handpose-google-mediapipe"
                 }
             },
             {
@@ -235,7 +245,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 549.0, 20.0, 124.0, 33.0 ],
+                    "patching_rect": [ 337.0, 790.0, 124.0, 33.0 ],
                     "text": "for using camera see for example posenet"
                 }
             },
@@ -277,7 +287,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "gst.display.maxpat",
-                    "numinlets": 3,
+                    "numinlets": 4,
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
@@ -379,7 +389,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 19.0, 520.0, 152.0, 23.0 ],
+                    "patching_rect": [ 19.0, 559.0, 152.0, 23.0 ],
                     "text": "Smartphones sensors"
                 }
             },
@@ -424,7 +434,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 19.0, 707.0, 130.0, 23.0 ],
+                    "patching_rect": [ 19.0, 718.0, 130.0, 23.0 ],
                     "text": "RIoT sensors"
                 }
             },
@@ -622,7 +632,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 19.0, 679.0, 172.0, 22.0 ],
+                    "patching_rect": [ 20.0, 312.0, 172.0, 22.0 ],
                     "text": "p about the comote application"
                 }
             },
@@ -690,7 +700,7 @@
                     "numoutlets": 6,
                     "offset": [ -7.0, -5.0 ],
                     "outlettype": [ "", "", "", "", "", "" ],
-                    "patching_rect": [ 19.0, 545.0, 163.0, 132.56695556640625 ],
+                    "patching_rect": [ 19.0, 584.0, 163.0, 132.56695556640625 ],
                     "varname": "in.comote",
                     "viewvisibility": 1
                 }
@@ -733,7 +743,7 @@
                     "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 19.0, 732.0, 196.0, 139.0 ],
+                    "patching_rect": [ 19.0, 743.0, 196.0, 139.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -843,7 +853,7 @@
             "obj-16::obj-8::obj-6": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-21::obj-16": [ "sample-period[2]", "sample-period", 0 ],
             "obj-21::obj-18": [ "zoom[1]", "zoom", 0 ],
-            "obj-23::obj-9": [ "8359-id-clock", "3940-id-clock", 0 ],
+            "obj-23::obj-9": [ "8359-id-clock", "1192-id-clock", 0 ],
             "obj-29::obj-108": [ "2763-clock-type", "clock type", 0 ],
             "obj-29::obj-16": [ "live.numbox[6]", "port", 0 ],
             "obj-29::obj-179": [ "2763-sens-type", "sensor type", 0 ],
