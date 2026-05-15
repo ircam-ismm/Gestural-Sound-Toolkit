@@ -724,7 +724,7 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 377.0, 270.5, 56.0, 22.0 ],
                                     "restore": {
-                                        "beta": [ 1.0000000000000002 ],
+                                        "beta": [ 0.6000000000000003 ],
                                         "bypass": [ 0.0 ],
                                         "fcmin": [ 1.0000000000000004 ],
                                         "framerate": [ 100.0 ],
@@ -1287,7 +1287,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 314.0, 177.0, 515.0, 21.0 ],
                     "text": "p more",

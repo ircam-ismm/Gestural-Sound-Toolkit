@@ -153,7 +153,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 354.0, 336.0, 95.0, 22.0 ],
+                    "patching_rect": [ 354.0, 336.0, 109.0, 22.0 ],
                     "text": "r #0-mubu-scroll"
                 }
             },
@@ -193,7 +193,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 109.0, 312.0, 64.0, 21.0 ],
+                    "patching_rect": [ 109.0, 312.0, 76.0, 21.0 ],
                     "text": "r #0-mvavg"
                 }
             },
@@ -283,7 +283,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 408.0, 216.0, 90.0, 21.0 ],
+                                    "patching_rect": [ 408.0, 216.0, 102.0, 21.0 ],
                                     "text": "s #0-mubu-scroll"
                                 }
                             },
@@ -476,7 +476,7 @@
                                     "presentation": 1,
                                     "presentation_linecount": 8,
                                     "presentation_rect": [ 5.0, 154.0, 221.0, 114.0 ],
-                                    "text": "Lowpass filtering allows for data smoothing.\n\ninput: \n     - data values [list]\n\noutput:\n     - [1]: smoothed data [list]"
+                                    "text": "Average filtering allows for data smoothing.\n\ninput: \n     - data values [list]\n\noutput:\n     - [1]: smoothed data [list]"
                                 }
                             },
                             {
@@ -531,7 +531,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 9.5, 125.0, 65.0, 21.0 ],
+                                    "patching_rect": [ 9.5, 125.0, 78.0, 21.0 ],
                                     "text": "s #0-mvavg"
                                 }
                             },
@@ -638,7 +638,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 326.0, 137.0, 135.0, 21.0 ],
                     "text": "p more",
@@ -944,6 +944,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
