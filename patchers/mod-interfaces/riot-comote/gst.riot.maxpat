@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 336.0, 152.0 ],
+        "rect": [ 34.0, 93.0, 338.0, 149.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "gridsize": [ 5.0, 5.0 ],
@@ -27,7 +27,7 @@
                         "enable": [ 0.0 ],
                         "frameperiod": [ 10.0 ],
                         "osc-id": [ 0.0 ],
-                        "osc-port": [ 10001.0 ],
+                        "osc-port": [ 10000.0 ],
                         "sens-type": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -2597,7 +2597,7 @@
                         "rect": [ 438.0, 93.0, 936.0, 336.0 ],
                         "openinpresentation": 1,
                         "gridsize": [ 10.0, 10.0 ],
-                        "title": "sensor port 10001 ID 0",
+                        "title": "sensor port 10000 ID 0",
                         "boxes": [
                             {
                                 "box": {
@@ -9619,6 +9619,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-62", 0 ],
+                                                    "disabled": 1,
                                                     "source": [ "obj-118", 0 ]
                                                 }
                                             },
@@ -9629,7 +9630,7 @@
                                                 }
                                             }
                                         ],
-                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                     },
                                     "patching_rect": [ 627.0, 85.0, 127.32409700000005, 22.0 ],
                                     "text": "p choose dummy port"
@@ -9703,7 +9704,7 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 34.0, 93.0, 1680.0, 1077.0 ],
+                                        "rect": [ 240.0, 329.0, 1680.0, 1077.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -26859,7 +26860,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 172.0, 199.0, 120.0, 22.0 ],
-                                                    "text": "udpreceive 10001"
+                                                    "text": "udpreceive 10000"
                                                 }
                                             },
                                             {
@@ -27675,7 +27676,7 @@
                                                 }
                                             }
                                         ],
-                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                     },
                                     "patching_rect": [ 68.0, 345.0, 351.0, 22.0 ],
                                     "text": "p comote_riot_osc_receive"
@@ -29109,7 +29110,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-155", 0 ],
-                                    "midpoints": [ 636.5, 81.88671875, 55.5, 81.88671875 ],
+                                    "midpoints": [ 636.5, 72.04296875, 55.5, 72.04296875 ],
                                     "order": 1,
                                     "source": [ "obj-48", 0 ]
                                 }
@@ -29307,7 +29308,7 @@
                                 "boxes": [ "obj-21", "obj-28", "obj-3", "obj-8", "obj-9" ]
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 157.0, 314.0, 480.0, 20.0 ],
                     "text": "p riot-comote"
@@ -29365,7 +29366,7 @@
                     "presentation_rect": [ 99.56521412730217, 4.782608538866043, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_initial": [ 10001.0 ],
+                            "parameter_initial": [ 10000.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
                             "parameter_longname": "osc-port",

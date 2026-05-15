@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 339.0, 149.0 ],
+        "rect": [ 34.0, 93.0, 340.0, 157.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "gridsize": [ 5.0, 5.0 ],
@@ -27,7 +27,7 @@
                         "enable": [ 0.0 ],
                         "frameperiod": [ 10.0 ],
                         "osc-id": [ 0.0 ],
-                        "osc-port": [ 10001.0 ],
+                        "osc-port": [ 10000.0 ],
                         "sens-type": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -3293,8 +3293,6 @@
                                                     "saved_object_attributes": {
                                                         "autostart": 0,
                                                         "defer": 0,
-                                                        "node_bin_path": "",
-                                                        "npm_bin_path": "",
                                                         "watch": 0
                                                     },
                                                     "text": "node.script comote-connect-server.js",
@@ -3987,10 +3985,10 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 134.0, 172.0, 1408.0, 749.0 ],
+                        "rect": [ 443.0, 93.0, 917.0, 324.0 ],
                         "openinpresentation": 1,
                         "gridsize": [ 10.0, 10.0 ],
-                        "title": "sensor port 10001 ID 0",
+                        "title": "sensor port 10000 ID 0",
                         "boxes": [
                             {
                                 "box": {
@@ -10925,7 +10923,7 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 694.0, 211.0, 171.0, 294.0 ],
+                                        "rect": [ 757.0, 371.0, 171.0, 294.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -11000,6 +10998,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-1", 0 ],
+                                                    "disabled": 1,
                                                     "source": [ "obj-118", 0 ]
                                                 }
                                             },
@@ -11010,7 +11009,7 @@
                                                 }
                                             }
                                         ],
-                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                     },
                                     "patching_rect": [ 627.0, 85.0, 127.32409700000005, 22.0 ],
                                     "text": "p choose dummy port"
@@ -30686,7 +30685,7 @@
                                 "boxes": [ "obj-21", "obj-28", "obj-3", "obj-8", "obj-9" ]
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 157.0, 314.0, 480.0, 20.0 ],
                     "text": "p riot-comote"
@@ -30744,7 +30743,7 @@
                     "presentation_rect": [ 99.56521412730217, 4.782608538866043, 46.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_initial": [ 10001.0 ],
+                            "parameter_initial": [ 10000.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
                             "parameter_longname": "osc-port",
