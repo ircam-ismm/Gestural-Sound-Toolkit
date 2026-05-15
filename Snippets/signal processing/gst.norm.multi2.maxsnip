@@ -1,0 +1,63 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 4,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "description": "128 x 111, containing 1 object",
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 10.0, 13.0, 209.0, 22.0 ],
+                    "text": "gst.norm.multi2",
+                    "varname": "gst.norm.multi2"
+                }
+            }
+        ],
+        "lines": [],
+        "parameters": {
+            "obj-1::obj-10::obj-32": [ "0-SclMin[3]", "SclMin-NB", 0 ],
+            "obj-1::obj-10::obj-33": [ "0-SclMax[3]", "SclMax-NB", 0 ],
+            "obj-1::obj-12::obj-32": [ "0-SclMin[2]", "SclMin-NB", 0 ],
+            "obj-1::obj-12::obj-33": [ "0-SclMax[2]", "SclMax-NB", 0 ],
+            "obj-1::obj-195::obj-13": [ "minMonitor", "minMonitor", 0 ],
+            "obj-1::obj-195::obj-14": [ "maxMonitor", "maxMonitor", 0 ],
+            "obj-1::obj-195::obj-39": [ "bypass", "bypass", 0 ],
+            "obj-1::obj-28": [ "live.text[28]", "live.text", 0 ],
+            "obj-1::obj-29": [ "live.text[25]", "live.text", 0 ],
+            "obj-1::obj-31": [ "live.text[26]", "live.text", 0 ],
+            "obj-1::obj-34": [ "live.toggle", "bypass", 0 ],
+            "obj-1::obj-37": [ "live.text[27]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "tags": "",
+        "snippetinfo": {
+            "name": "gst.acc.intensity",
+            "objects": "jpatcher",
+            "tags": "",
+            "description": "128 x 111, containing 1 object",
+            "image": "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"
+        },
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+    }
+}

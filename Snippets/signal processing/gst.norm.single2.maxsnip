@@ -1,0 +1,71 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 4,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 59.0, 112.0, 1000.0, 780.0 ],
+        "description": "128 x 111, containing 1 object",
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 7.0, 13.0, 247.0, 22.0 ],
+                    "text": "gst.norm.single2",
+                    "varname": "gst.norm.single2"
+                }
+            }
+        ],
+        "lines": [],
+        "parameters": {
+            "obj-1::obj-10::obj-32": [ "0-SclMin[8]", "SclMin-NB", 0 ],
+            "obj-1::obj-10::obj-33": [ "0-SclMax[8]", "SclMax-NB", 0 ],
+            "obj-1::obj-10::obj-58": [ "0-SclMax[7]", "SclMax-NB", 0 ],
+            "obj-1::obj-10::obj-61": [ "0-SclMin[7]", "SclMin-NB", 0 ],
+            "obj-1::obj-10::obj-69": [ "0-SclMax[6]", "SclMax-NB", 0 ],
+            "obj-1::obj-10::obj-70": [ "0-SclMin[6]", "SclMin-NB", 0 ],
+            "obj-1::obj-12::obj-32": [ "0-SclMin[2]", "SclMin-NB", 0 ],
+            "obj-1::obj-12::obj-33": [ "0-SclMax[2]", "SclMax-NB", 0 ],
+            "obj-1::obj-12::obj-58": [ "0-SclMax[4]", "SclMax-NB", 0 ],
+            "obj-1::obj-12::obj-61": [ "0-SclMin[4]", "SclMin-NB", 0 ],
+            "obj-1::obj-12::obj-69": [ "0-SclMax[5]", "SclMax-NB", 0 ],
+            "obj-1::obj-12::obj-70": [ "0-SclMin[5]", "SclMin-NB", 0 ],
+            "obj-1::obj-195::obj-13": [ "minMonitor", "minMonitor", 0 ],
+            "obj-1::obj-195::obj-14": [ "maxMonitor", "maxMonitor", 0 ],
+            "obj-1::obj-195::obj-39": [ "bypass", "bypass", 0 ],
+            "obj-1::obj-28": [ "live.text[28]", "live.text", 0 ],
+            "obj-1::obj-29": [ "live.text[25]", "live.text", 0 ],
+            "obj-1::obj-31": [ "live.text[26]", "live.text", 0 ],
+            "obj-1::obj-34": [ "live.toggle", "bypass", 0 ],
+            "obj-1::obj-37": [ "live.text[27]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "tags": "",
+        "snippetinfo": {
+            "name": "gst.acc.intensity",
+            "objects": "jpatcher",
+            "tags": "",
+            "description": "128 x 111, containing 1 object",
+            "image": "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"
+        },
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+    }
+}
