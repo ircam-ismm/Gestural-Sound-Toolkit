@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 1398.0, 909.0 ],
+        "rect": [ 134.0, 172.0, 1398.0, 909.0 ],
         "boxes": [
             {
                 "box": {
@@ -496,35 +496,34 @@
             {
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
-                    "order": 4,
-                    "source": [ "obj-6", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-13", 0 ],
-                    "order": 1,
-                    "source": [ "obj-6", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-14", 0 ],
-                    "order": 0,
-                    "source": [ "obj-6", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-8", 0 ],
                     "order": 3,
                     "source": [ "obj-6", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-9", 0 ],
+                    "destination": [ "obj-13", 0 ],
+                    "order": 0,
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "source": [ "obj-6", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
                     "order": 2,
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 0 ],
+                    "order": 1,
                     "source": [ "obj-6", 0 ]
                 }
             },
@@ -586,7 +585,7 @@
             "obj-1::obj-37": [ "live.text[3]", "live.text", 0 ],
             "obj-21::obj-16": [ "sample-period", "sample-period", 0 ],
             "obj-21::obj-18": [ "zoom", "zoom", 0 ],
-            "obj-26::obj-2": [ "live.gain~[5]", "ogain", 0 ],
+            "obj-26::obj-2": [ "live.gain~[5]", "live.gain~[4]", 0 ],
             "obj-31::obj-11": [ "live.text[1]", "live.text", 0 ],
             "obj-31::obj-5::obj-17": [ "12139-sens-type", "out-sens-type", 0 ],
             "obj-31::obj-5::obj-179": [ "12139-sens-type[1]", "in-sens-type", 0 ],
