@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 111.0, 172.0, 1583.0, 906.0 ],
+        "rect": [ 34.0, 102.0, 1583.0, 906.0 ],
         "boxes": [
             {
                 "box": {
@@ -853,7 +853,7 @@
             "obj-16::obj-8::obj-6": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-21::obj-16": [ "sample-period[2]", "sample-period", 0 ],
             "obj-21::obj-18": [ "zoom[1]", "zoom", 0 ],
-            "obj-23::obj-9": [ "8359-id-clock", "1192-id-clock", 0 ],
+            "obj-23::obj-9": [ "8359-id-clock", "2756-id-clock", 0 ],
             "obj-29::obj-108": [ "2763-clock-type", "clock type", 0 ],
             "obj-29::obj-16": [ "live.numbox[6]", "port", 0 ],
             "obj-29::obj-179": [ "2763-sens-type", "sensor type", 0 ],
