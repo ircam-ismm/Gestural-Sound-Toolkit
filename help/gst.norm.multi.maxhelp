@@ -9,8 +9,67 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 892.0, 1061.0 ],
+        "rect": [ 34.0, 102.0, 892.0, 1050.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-9",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 510.0, 619.0, 219.0, 22.0 ],
+                    "text": "loadmess overview-mubu-example.json"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-15",
+                    "maxclass": "number",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 720.0, 969.0, 50.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 496.0, 969.0, 213.0, 22.0 ],
+                    "text": "overview-mubu-example.json"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 593.0, 915.0, 273.0, 22.0 ],
+                    "text": "route filename fileid"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial Italic",
+                    "fontsize": 14.0,
+                    "id": "obj-7",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 6.5, 1020.0, 473.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_linecount": 2,
+                    "presentation_rect": [ 20.0, 960.0, 264.0, 38.0 ],
+                    "text": "important : create and/or check a folder ~/Documents/Ircam/gst/scale-norm"
+                }
+            },
             {
                 "box": {
                     "fontname": "Arial Italic",
@@ -61,21 +120,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 345.0, 677.0, 286.0, 10.0 ]
-                }
-            },
-            {
-                "box": {
-                    "fontname": "Arial Italic",
-                    "fontsize": 14.0,
-                    "id": "obj-2",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 153.0, 931.0, 473.0, 22.0 ],
-                    "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 20.0, 960.0, 264.0, 38.0 ],
-                    "text": "important : create and/or check a folder ~/Documents/Ircam/gst/scale-norm"
                 }
             },
             {
@@ -158,20 +202,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Italic",
-                    "fontsize": 14.0,
-                    "id": "obj-9",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 351.0, 629.0, 261.0, 22.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 29.0, 231.0, 264.0, 22.0 ],
-                    "text": "embeded <bpatcher> saves parameters."
-                }
-            },
-            {
-                "box": {
                     "fontname": "Arial",
                     "fontsize": 14.0,
                     "id": "obj-8",
@@ -246,10 +276,10 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "gst.norm.multi.maxpat",
-                    "numinlets": 5,
-                    "numoutlets": 2,
+                    "numinlets": 6,
+                    "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "" ],
+                    "outlettype": [ "", "", "" ],
                     "patching_rect": [ 178.0, 653.0, 434.0, 255.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 47.0, 555.0, 434.0, 229.0 ],
@@ -259,6 +289,18 @@
             }
         ],
         "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-13", 1 ],
+                    "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-11", 1 ]
+                }
+            },
             {
                 "patchline": {
                     "destination": [ "obj-48", 4 ],
@@ -271,6 +313,12 @@
                     "destination": [ "obj-48", 5 ],
                     "hidden": 1,
                     "source": [ "obj-19", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "source": [ "obj-31", 2 ]
                 }
             },
             {
@@ -312,6 +360,12 @@
                     "destination": [ "obj-31", 0 ],
                     "source": [ "obj-48", 0 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 4 ],
+                    "source": [ "obj-9", 0 ]
+                }
             }
         ],
         "parameters": {
@@ -326,10 +380,10 @@
             "obj-31::obj-195::obj-59": [ "live.text[9]", "live.text", 0 ],
             "obj-31::obj-195::obj-62": [ "live.text[10]", "live.text", 0 ],
             "obj-31::obj-195::obj-68": [ "live.text[8]", "live.text", 0 ],
+            "obj-31::obj-22": [ "live.text[22]", "live.text", 0 ],
             "obj-31::obj-28": [ "live.text[1]", "live.text", 0 ],
             "obj-31::obj-29": [ "live.text[2]", "live.text", 0 ],
             "obj-31::obj-31": [ "live.text", "live.text", 0 ],
-            "obj-31::obj-33": [ "live.text[15]", "live.text", 0 ],
             "obj-31::obj-34": [ "live.toggle[3]", "bypass", 0 ],
             "obj-31::obj-37": [ "live.text[3]", "live.text", 0 ],
             "obj-31::obj-50": [ "live.text[14]", "live.text", 0 ],
@@ -387,9 +441,6 @@
                 "obj-31::obj-31": {
                     "parameter_longname": "live.text"
                 },
-                "obj-31::obj-33": {
-                    "parameter_longname": "live.text[15]"
-                },
                 "obj-31::obj-34": {
                     "parameter_longname": "live.toggle[3]"
                 },
@@ -430,6 +481,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
