@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 132.0, 131.0 ],
+        "rect": [ 37.0, 93.0, 132.0, 129.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-18",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 61.0, 528.0, 29.0, 22.0 ],
+                    "text": "thru"
+                }
+            },
             {
                 "box": {
                     "fontname": "Arial",
@@ -21,7 +32,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 181.0, 30.0, 84.0, 21.0 ],
+                    "patching_rect": [ 181.0, 30.0, 97.0, 21.0 ],
                     "text": "r #0-continuous"
                 }
             },
@@ -142,7 +153,7 @@
                             "parameter_initial": [ 0.0 ],
                             "parameter_initial_enable": 1,
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[3]",
+                            "parameter_longname": "live.text[18]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -242,7 +253,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 839.0, 231.0, 95.0, 22.0 ],
+                    "patching_rect": [ 839.0, 231.0, 109.0, 22.0 ],
                     "text": "r #0-mubu-scroll"
                 }
             },
@@ -389,7 +400,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 405.0, 139.0, 86.0, 21.0 ],
+                                    "patching_rect": [ 405.0, 139.0, 98.0, 21.0 ],
                                     "text": "s #0-continuous"
                                 }
                             },
@@ -427,11 +438,12 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 405.0, 108.0, 44.0, 15.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 7.0, 59.0, 53.0, 15.0 ],
+                                    "presentation_rect": [ 7.0, 59.0, 53.0, 17.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_enum": [ "val1", "val2" ],
                                             "parameter_initial": [ 1 ],
+                                            "parameter_initial_enable": 1,
                                             "parameter_linknames": 1,
                                             "parameter_longname": "continuous",
                                             "parameter_mmax": 1,
@@ -960,7 +972,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 465.0, 140.0, 173.0, 21.0 ],
                     "text": "p more",
@@ -1213,7 +1225,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 796.0, 370.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 23.0, 128.0, 104.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 128.0, 102.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -1229,7 +1241,7 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-11", 0 ],
+                    "destination": [ "obj-18", 0 ],
                     "source": [ "obj-1", 0 ]
                 }
             },
@@ -1272,6 +1284,20 @@
             {
                 "patchline": {
                     "destination": [ "obj-101", 0 ],
+                    "order": 0,
+                    "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "order": 1,
+                    "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-101", 0 ],
                     "midpoints": [ 395.5, 294.0, 800.0, 294.0 ],
                     "source": [ "obj-19", 0 ]
                 }
@@ -1302,22 +1328,15 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-101", 0 ],
+                    "destination": [ "obj-21", 0 ],
                     "order": 0,
                     "source": [ "obj-22", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-21", 0 ],
-                    "order": 1,
-                    "source": [ "obj-22", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-59", 0 ],
-                    "order": 2,
+                    "order": 1,
                     "source": [ "obj-22", 0 ]
                 }
             },
@@ -1459,7 +1478,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-11", 0 ],
+                    "destination": [ "obj-18", 0 ],
                     "source": [ "obj-61", 0 ]
                 }
             },
@@ -1513,7 +1532,7 @@
         ],
         "parameters": {
             "obj-27": [ "conti", "conti", 0 ],
-            "obj-6": [ "live.text[3]", "live.text", 0 ],
+            "obj-6": [ "live.text[18]", "live.text", 0 ],
             "obj-8::obj-14": [ "threshold", "threshold", 0 ],
             "obj-8::obj-27": [ "continuous", "continuous", 0 ],
             "obj-8::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
@@ -1529,6 +1548,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
