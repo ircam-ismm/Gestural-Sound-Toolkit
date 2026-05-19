@@ -34,7 +34,8 @@
                     "patching_rect": [ 218.0, 86.0, 72.0, 22.0 ],
                     "restore": {
                         "ogain": [ 0.0 ],
-                        "sflist": [ "" ]
+                        "sflist": [ "" ],
+                        "start": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u453008177"
@@ -6464,7 +6465,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 37.5, 415.0, 388.0, 22.0 ],
                     "text": "p synthesis-granualr"
@@ -7026,12 +7027,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-88", 0 ],
-                    "source": [ "obj-43", 1 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-46", 0 ],
                     "source": [ "obj-44", 0 ]
                 }
@@ -7157,6 +7152,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
