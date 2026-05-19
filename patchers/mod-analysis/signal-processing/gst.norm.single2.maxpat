@@ -186,7 +186,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 36.0, 102.0, 1598.0, 1159.0 ],
-                        "title": "A-scalenorm",
+                        "title": "B-scalenorm",
                         "boxes": [
                             {
                                 "box": {
@@ -1903,7 +1903,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "AZ-SclMax"
+                                    "varname": "BZ-SclMax"
                                 }
                             },
                             {
@@ -1926,7 +1926,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "AZ-SclMin"
+                                    "varname": "BZ-SclMin"
                                 }
                             },
                             {
@@ -1969,7 +1969,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "AY-SclMax"
+                                    "varname": "BY-SclMax"
                                 }
                             },
                             {
@@ -1992,7 +1992,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "AY-SclMin"
+                                    "varname": "BY-SclMin"
                                 }
                             },
                             {
@@ -2258,12 +2258,12 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 787.0, 122.94999999999999, 56.0, 22.0 ],
                                     "restore": {
-                                        "AX-SclMax": [ 1.0 ],
-                                        "AX-SclMin": [ -1.0 ],
-                                        "AY-SclMax": [ 1.0 ],
-                                        "AY-SclMin": [ -1.0 ],
-                                        "AZ-SclMax": [ 1.0 ],
-                                        "AZ-SclMin": [ -1.0 ]
+                                        "BX-SclMax": [ 1.0 ],
+                                        "BX-SclMin": [ -1.0 ],
+                                        "BY-SclMax": [ 1.0 ],
+                                        "BY-SclMin": [ -1.0 ],
+                                        "BZ-SclMax": [ 1.0 ],
+                                        "BZ-SclMin": [ -1.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u414003394"
@@ -3038,7 +3038,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "AX-SclMax"
+                                    "varname": "BX-SclMax"
                                 }
                             },
                             {
@@ -3061,7 +3061,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "AX-SclMin"
+                                    "varname": "BX-SclMin"
                                 }
                             },
                             {
@@ -7911,6 +7911,24 @@
                         "rect": [ 267.0, 103.0, 214.0, 523.0 ],
                         "openinpresentation": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-58",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 4,
+                                    "outlettype": [ "", "", "", "" ],
+                                    "patching_rect": [ 225.0, 24.0, 56.0, 22.0 ],
+                                    "restore": {
+                                        "bypass": [ 0.0 ],
+                                        "maxMonitor": [ 1.0 ],
+                                        "minMonitor": [ -1.0 ],
+                                        "mode": [ 1.0 ]
+                                    },
+                                    "text": "autopattr",
+                                    "varname": "u933006469"
+                                }
+                            },
                             {
                                 "box": {
                                     "comment": "",

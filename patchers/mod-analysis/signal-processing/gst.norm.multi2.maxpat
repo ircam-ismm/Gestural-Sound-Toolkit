@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 102.0, 164.0, 144.0 ],
+        "rect": [ 34.0, 93.0, 164.0, 144.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -28,11 +28,11 @@
                 "box": {
                     "id": "obj-6",
                     "maxclass": "newobj",
-                    "numinlets": 1,
+                    "numinlets": 2,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 1035.0, 293.5, 19.0, 22.0 ],
-                    "text": "t i"
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1035.0, 293.5, 58.0, 22.0 ],
+                    "text": "pipe 0 10"
                 }
             },
             {
@@ -186,7 +186,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 867.0, 106.0, 1150.0, 1060.0 ],
-                        "title": "A-scalenorm",
+                        "title": "B-scalenorm",
                         "boxes": [
                             {
                                 "box": {
@@ -196,7 +196,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 526.0, 10.0, 30.0, 30.0 ]
                                 }
                             },
@@ -755,8 +755,8 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 787.0, 122.94999999999999, 56.0, 22.0 ],
                                     "restore": {
-                                        "A-SclMax": [ 1.0 ],
-                                        "A-SclMin": [ -1.0 ]
+                                        "B-SclMax": [ 1.0 ],
+                                        "B-SclMin": [ -1.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u414003394"
@@ -1531,7 +1531,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "A-SclMax"
+                                    "varname": "B-SclMax"
                                 }
                             },
                             {
@@ -1554,7 +1554,7 @@
                                             "parameter_unitstyle": 1
                                         }
                                     },
-                                    "varname": "A-SclMin"
+                                    "varname": "B-SclMin"
                                 }
                             },
                             {
@@ -2367,7 +2367,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 526.0, 10.0, 30.0, 30.0 ]
                                 }
                             },
@@ -4362,7 +4362,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 267.0, 102.0, 218.0, 330.0 ],
+                        "rect": [ 267.0, 93.0, 218.0, 330.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -4436,7 +4436,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 785.0, 31.0, 30.0, 30.0 ]
                                 }
                             },

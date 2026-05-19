@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 102.0, 164.0, 167.0 ],
+        "rect": [ 34.0, 93.0, 165.0, 167.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -28,11 +28,11 @@
                 "box": {
                     "id": "obj-33",
                     "maxclass": "newobj",
-                    "numinlets": 1,
+                    "numinlets": 2,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 1035.0, 278.0, 19.0, 22.0 ],
-                    "text": "t i"
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1035.0, 278.0, 58.0, 22.0 ],
+                    "text": "pipe 0 10"
                 }
             },
             {
@@ -2323,7 +2323,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 532.0, 10.0, 30.0, 30.0 ]
                                 }
                             },
@@ -6267,7 +6267,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 532.0, 10.0, 30.0, 30.0 ]
                                 }
                             },
@@ -8589,7 +8589,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 1571.0, 24.0, 30.0, 30.0 ]
                                 }
                             },
@@ -9370,7 +9370,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 1249.0, 122.0, 92.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 140.0, 6.0, 27.0, 19.0 ],
+                                    "presentation_rect": [ 137.0, 4.0, 27.0, 19.0 ],
                                     "text": "byp"
                                 }
                             },

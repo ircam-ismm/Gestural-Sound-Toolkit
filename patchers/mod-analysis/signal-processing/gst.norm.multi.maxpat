@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 38.0, 102.0, 164.0, 171.0 ],
+        "rect": [ 34.0, 93.0, 162.0, 169.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -28,11 +28,11 @@
                 "box": {
                     "id": "obj-72",
                     "maxclass": "newobj",
-                    "numinlets": 1,
+                    "numinlets": 2,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 1034.5, 240.0, 19.0, 22.0 ],
-                    "text": "t i"
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1034.5, 240.0, 58.0, 22.0 ],
+                    "text": "pipe 0 10"
                 }
             },
             {
@@ -792,7 +792,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 526.0, 10.0, 30.0, 30.0 ]
                                 }
                             },
@@ -2963,7 +2963,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 526.0, 10.0, 30.0, 30.0 ]
                                 }
                             },
@@ -4958,7 +4958,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 271.0, 102.0, 234.0, 356.0 ],
+                        "rect": [ 265.0, 93.0, 234.0, 356.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -5032,7 +5032,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 1053.0, 31.0, 30.0, 30.0 ]
                                 }
                             },
