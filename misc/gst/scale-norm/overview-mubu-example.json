@@ -8,6 +8,7 @@
                     "more::bypass": [ 0.0 ],
                     "more::maxMonitor": [ 1.0 ],
                     "more::minMonitor": [ -1.0 ],
+                    "more::mode": [ 1.0 ],
                     "acc::A-SclMax": [ 3.373450756072998 ],
                     "acc::A-SclMin": [ -1.3229886293411255 ],
                     "gyro::B-SclMax": [ 0.47596630454063416 ],

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 102.0, 892.0, 1050.0 ],
+        "rect": [ 44.0, 104.0, 892.0, 1050.0 ],
         "boxes": [
             {
                 "box": {
@@ -379,6 +379,7 @@
             "obj-31::obj-195::obj-50": [ "live.text[11]", "live.text", 0 ],
             "obj-31::obj-195::obj-59": [ "live.text[9]", "live.text", 0 ],
             "obj-31::obj-195::obj-62": [ "live.text[10]", "live.text", 0 ],
+            "obj-31::obj-195::obj-64": [ "mode", "mode", 0 ],
             "obj-31::obj-195::obj-68": [ "live.text[8]", "live.text", 0 ],
             "obj-31::obj-22": [ "live.text[22]", "live.text", 0 ],
             "obj-31::obj-28": [ "live.text[1]", "live.text", 0 ],
@@ -390,6 +391,7 @@
             "obj-31::obj-59": [ "live.text[16]", "live.text", 0 ],
             "obj-31::obj-62": [ "live.text[13]", "live.text", 0 ],
             "obj-31::obj-68": [ "live.text[12]", "live.text", 0 ],
+            "obj-31::obj-73": [ "live.toggle[1]", "bypass", 0 ],
             "obj-48::obj-15": [ "live.text[4]", "live.text", 0 ],
             "obj-48::obj-16": [ "loop", "loop", 0 ],
             "obj-48::obj-18": [ "live.text[7]", "live.text", 0 ],
@@ -398,7 +400,7 @@
             "obj-48::obj-50": [ "live.numbox", "live.numbox", 0 ],
             "obj-48::obj-57": [ "live.toggle[2]", "autoscale", 0 ],
             "obj-48::obj-6": [ "live.text[6]", "live.text", 0 ],
-            "obj-48::obj-71": [ "live.toggle[1]", "live.toggle", 0 ],
+            "obj-48::obj-71": [ "live.toggle[4]", "live.toggle", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -476,6 +478,9 @@
                 },
                 "obj-48::obj-6": {
                     "parameter_longname": "live.text[6]"
+                },
+                "obj-48::obj-71": {
+                    "parameter_longname": "live.toggle[4]"
                 }
             },
             "inherited_shortname": 1
