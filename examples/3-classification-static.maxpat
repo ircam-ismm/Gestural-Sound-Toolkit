@@ -9,8 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 100.0, 1660.0, 937.0 ],
+        "rect": [ 34.0, 100.0, 1275.0, 937.0 ],
         "boxes": [
+            {
+                "box": {
+                    "fontsize": 10.0,
+                    "id": "obj-30",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 271.0, 286.0, 100.0, 20.0 ],
+                    "text": "scale -1. 1. 0. 1."
+                }
+            },
             {
                 "box": {
                     "bgcolor": [ 0.6, 0.678431, 0.756863, 0.0 ],
@@ -269,9 +281,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.orientation.maxpat",
                     "numinlets": 3,
-                    "numoutlets": 4,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "", "", "" ],
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 271.0, 163.0, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.orientation",
                     "viewvisibility": 1
@@ -528,6 +540,12 @@
             {
                 "patchline": {
                     "destination": [ "obj-14", 0 ],
+                    "source": [ "obj-30", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-30", 0 ],
                     "source": [ "obj-31", 0 ]
                 }
             },
@@ -590,7 +608,7 @@
             "obj-10::obj-50": [ "12998-frameperiod", "frame period", 0 ],
             "obj-10::obj-56": [ "live.text[1]", "live.text", 0 ],
             "obj-10::obj-58": [ "live.text[2]", "live.text[3]", 0 ],
-            "obj-10::obj-59": [ "live.numbox[1]", "live.numbox", 0 ],
+            "obj-10::obj-59": [ "live.numbox[1]", "id", 0 ],
             "obj-10::obj-60": [ "live.text[9]", "live.text[3]", 0 ],
             "obj-12::obj-166": [ "speed", "speed", 0 ],
             "obj-12::obj-22": [ "synthScratch-out", "ogain", 0 ],
@@ -615,8 +633,8 @@
             "obj-2::obj-88": [ "start[1]", "start", 0 ],
             "obj-2::obj-92": [ "loop[1]", "loop", 0 ],
             "obj-31::obj-11": [ "live.text[3]", "live.text", 0 ],
-            "obj-31::obj-5::obj-17": [ "12960-sens-type", "sensor type", 0 ],
-            "obj-31::obj-5::obj-179": [ "12960-sens-type[1]", "sensor type", 0 ],
+            "obj-31::obj-5::obj-17": [ "12960-sens-type", "out-sens-type", 0 ],
+            "obj-31::obj-5::obj-179": [ "12960-sens-type[1]", "in-sens-type", 0 ],
             "obj-31::obj-5::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-31::obj-5::obj-37": [ "minMonitor", "minMonitor", 0 ],
             "obj-31::obj-5::obj-42": [ "frame-rate", "framerate", 0 ],
@@ -654,6 +672,9 @@
                 },
                 "obj-10::obj-56": {
                     "parameter_longname": "live.text[1]"
+                },
+                "obj-10::obj-59": {
+                    "parameter_longname": "live.numbox[1]"
                 },
                 "obj-10::obj-60": {
                     "parameter_longname": "live.text[9]"

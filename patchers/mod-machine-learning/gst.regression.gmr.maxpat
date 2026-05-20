@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 299.0, 185.0 ],
+        "rect": [ 134.0, 172.0, 1317.0, 894.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -178,7 +178,7 @@
                 "box": {
                     "comment": "imubu inlet",
                     "id": "obj-2",
-                    "index": 0,
+                    "index": 9,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -192,17 +192,17 @@
                     "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-72",
-                    "linecount": 12,
+                    "linecount": 13,
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 302.0, 588.0, 109.0, 156.0 ],
+                    "patching_rect": [ 302.0, 588.0, 109.0, 168.0 ],
                     "saved_object_attributes": {
                         "savegui": 0,
-                        "verbose": 0
+                        "verbose": 1
                     },
-                    "text": "mubu.track #0-gmr 1 input @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 1\" @predef yes"
+                    "text": "mubu.track #0-gmr 1 input @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 0, bounds 0. 1.\" @predef yes"
                 }
             },
             {
@@ -659,17 +659,17 @@
                     "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-56",
-                    "linecount": 12,
+                    "linecount": 13,
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 423.0, 588.0, 109.0, 156.0 ],
+                    "patching_rect": [ 423.0, 588.0, 109.0, 168.0 ],
                     "saved_object_attributes": {
                         "savegui": 0,
-                        "verbose": 0
+                        "verbose": 1
                     },
-                    "text": "mubu.track #0-gmr 2 output @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 1\" @predef yes"
+                    "text": "mubu.track #0-gmr 2 output @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 0, bounds 0. 1.\" @predef yes"
                 }
             },
             {
@@ -696,6 +696,7 @@
                     "cursor_circlewidth": 3.0,
                     "cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_crossheight": -1.0,
+                    "cursor_crosssizeunit": 0,
                     "cursor_crosswidth": -1.0,
                     "cursor_followmouse": 0,
                     "cursor_label": "",
@@ -718,6 +719,7 @@
                     "cursor_symbolfillcolor": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_symbolfilled": 1,
                     "cursor_symbolheight": 3.0,
+                    "cursor_symbolsizeunit": 0,
                     "cursor_symbolwidth": 3.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
@@ -772,7 +774,7 @@
                     "rangeruler_fgcolordefault": 1,
                     "rangeruler_grid": 0,
                     "rangeruler_size": 30,
-                    "rangeruler_visible": 0,
+                    "rangeruler_visible": 1,
                     "refreshrate": 120.0,
                     "region_color": [ 1.0, 1.0, 1.0, 1.0 ],
                     "region_visible": 1,
@@ -842,7 +844,7 @@
                 "box": {
                     "comment": "Likeliest label [Int]",
                     "id": "obj-42",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -853,7 +855,7 @@
                 "box": {
                     "comment": "mubu.gmr first inlet",
                     "id": "obj-37",
-                    "index": 0,
+                    "index": 8,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -865,7 +867,7 @@
                 "box": {
                     "comment": "regularization [float] (absolute and relative)",
                     "id": "obj-32",
-                    "index": 0,
+                    "index": 7,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -877,7 +879,7 @@
                 "box": {
                     "comment": "label maximum number [Int]",
                     "id": "obj-30",
-                    "index": 0,
+                    "index": 6,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -889,7 +891,7 @@
                 "box": {
                     "comment": "label [Int]",
                     "id": "obj-27",
-                    "index": 0,
+                    "index": 5,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -901,7 +903,7 @@
                 "box": {
                     "comment": "automatic increment [1/0]",
                     "id": "obj-17",
-                    "index": 0,
+                    "index": 4,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -913,7 +915,7 @@
                 "box": {
                     "comment": "record [1/0]",
                     "id": "obj-16",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -939,7 +941,7 @@
                 "box": {
                     "comment": "Outuput parameters [List]",
                     "id": "obj-78",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -950,7 +952,7 @@
                 "box": {
                     "comment": "ouput [list]",
                     "id": "obj-9",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1001,7 +1003,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[8]",
+                            "parameter_longname": "live.text[11]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1029,7 +1031,7 @@
                 "box": {
                     "comment": "input [list]",
                     "id": "obj-12",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1102,7 +1104,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.toggle",
+                            "parameter_longname": "live.toggle[1]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.toggle",
@@ -1684,7 +1686,7 @@
                             "parameter_initial": [ 1 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "auto+",
+                            "parameter_longname": "auto+[1]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "auto+",
@@ -1724,7 +1726,7 @@
                             "parameter_initial": [ 6 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "total",
+                            "parameter_longname": "total[1]",
                             "parameter_mmin": 1.0,
                             "parameter_modmax": 2048.0,
                             "parameter_modmode": 4,
@@ -1751,7 +1753,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_linknames": 1,
-                            "parameter_longname": "label",
+                            "parameter_longname": "label[1]",
                             "parameter_mmin": 1.0,
                             "parameter_modmode": 4,
                             "parameter_shortname": "label",
@@ -1805,7 +1807,7 @@
                             "parameter_initial": [ 0.1 ],
                             "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
-                            "parameter_longname": "regularization",
+                            "parameter_longname": "regularization[1]",
                             "parameter_mmax": 1.0,
                             "parameter_mmin": 0.001,
                             "parameter_modmode": 3,
@@ -1835,7 +1837,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[7]",
+                            "parameter_longname": "live.text[9]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1864,7 +1866,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[5]",
+                            "parameter_longname": "live.text[10]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1893,7 +1895,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[6]",
+                            "parameter_longname": "live.text[12]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -2041,7 +2043,7 @@
                     "background": 1,
                     "comment": "likelihood [List]",
                     "id": "obj-39",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2578,27 +2580,6 @@
                 }
             }
         ],
-        "parameters": {
-            "obj-11": [ "total", "total", 0 ],
-            "obj-29": [ "regularization", "regularization", 0 ],
-            "obj-59": [ "live.text[6]", "live.text", 0 ],
-            "obj-64": [ "live.text[5]", "live.text", 0 ],
-            "obj-66": [ "live.text[8]", "live.text", 0 ],
-            "obj-7": [ "auto+", "auto+", 0 ],
-            "obj-70": [ "live.text[7]", "live.text", 0 ],
-            "obj-73": [ "live.toggle", "live.toggle", 0 ],
-            "obj-74": [ "label", "label", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys" ]
     }
 }

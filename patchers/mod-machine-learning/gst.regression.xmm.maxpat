@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 301.0, 180.0 ],
+        "rect": [ 34.0, 100.0, 992.0, 918.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -177,17 +177,17 @@
                     "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-72",
-                    "linecount": 12,
+                    "linecount": 13,
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 247.0, 547.0, 109.0, 156.0 ],
+                    "patching_rect": [ 247.0, 547.0, 109.0, 168.0 ],
                     "saved_object_attributes": {
                         "savegui": 0,
                         "verbose": 1
                     },
-                    "text": "mubu.track #0-xmm 1 input @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 1\" @predef yes"
+                    "text": "mubu.track #0-xmm 1 input @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 0, bounds 0. 1.\" @predef yes"
                 }
             },
             {
@@ -644,17 +644,17 @@
                     "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-56",
-                    "linecount": 12,
+                    "linecount": 13,
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 368.0, 547.0, 113.0, 156.0 ],
+                    "patching_rect": [ 368.0, 547.0, 113.0, 168.0 ],
                     "saved_object_attributes": {
                         "savegui": 0,
                         "verbose": 1
                     },
-                    "text": "mubu.track #0-xmm 2 output @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 1\" @predef yes"
+                    "text": "mubu.track #0-xmm 2 output @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 0, bounds 0. 1.\" @predef yes"
                 }
             },
             {
@@ -814,6 +814,7 @@
                     "cursor_circlewidth": 3.0,
                     "cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_crossheight": -1.0,
+                    "cursor_crosssizeunit": 0,
                     "cursor_crosswidth": -1.0,
                     "cursor_followmouse": 0,
                     "cursor_label": "",
@@ -836,6 +837,7 @@
                     "cursor_symbolfillcolor": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_symbolfilled": 1,
                     "cursor_symbolheight": 3.0,
+                    "cursor_symbolsizeunit": 0,
                     "cursor_symbolwidth": 3.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
@@ -890,7 +892,7 @@
                     "rangeruler_fgcolordefault": 1,
                     "rangeruler_grid": 0,
                     "rangeruler_size": 30,
-                    "rangeruler_visible": 0,
+                    "rangeruler_visible": 1,
                     "refreshrate": 120.0,
                     "region_color": [ 1.0, 1.0, 1.0, 1.0 ],
                     "region_visible": 1,
@@ -979,7 +981,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[8]",
+                            "parameter_longname": "live.text[14]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1065,7 +1067,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.toggle",
+                            "parameter_longname": "live.toggle[2]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.toggle",
@@ -1773,7 +1775,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[7]",
+                            "parameter_longname": "live.text[13]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1802,7 +1804,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[5]",
+                            "parameter_longname": "live.text[15]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -1831,7 +1833,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_invisible": 4,
-                            "parameter_longname": "live.text[6]",
+                            "parameter_longname": "live.text[16]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -2520,12 +2522,12 @@
             "obj-11": [ "total", "total", 0 ],
             "obj-29": [ "regularization", "regularization", 0 ],
             "obj-53": [ "label", "label", 0 ],
-            "obj-59": [ "live.text[6]", "live.text", 0 ],
-            "obj-64": [ "live.text[5]", "live.text", 0 ],
-            "obj-66": [ "live.text[8]", "live.text", 0 ],
+            "obj-59": [ "live.text[16]", "live.text", 0 ],
+            "obj-64": [ "live.text[15]", "live.text", 0 ],
+            "obj-66": [ "live.text[14]", "live.text", 0 ],
             "obj-7": [ "auto+", "auto+", 0 ],
-            "obj-70": [ "live.text[7]", "live.text", 0 ],
-            "obj-73": [ "live.toggle", "live.toggle", 0 ],
+            "obj-70": [ "live.text[13]", "live.text", 0 ],
+            "obj-73": [ "live.toggle[2]", "live.toggle", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,

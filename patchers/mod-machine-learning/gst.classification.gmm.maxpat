@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 301.0, 187.0 ],
+        "rect": [ 34.0, 100.0, 1415.0, 956.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -617,7 +617,7 @@
                         "savegui": 0,
                         "verbose": 1
                     },
-                    "text": "mubu.track #0-gmm 1 data @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 1\" @predef yes"
+                    "text": "mubu.track #0-gmm 1 data @timetagged no @sampleperiod 10 @maxsize 10s @matrixcols 3 @info gui \"interface multiwave, colormode rainbow, shape lines, autobounds 0, bounds 0. 1.\" @predef yes"
                 }
             },
             {
@@ -1683,6 +1683,7 @@
                     "cursor_circlewidth": 3.0,
                     "cursor_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_crossheight": -1.0,
+                    "cursor_crosssizeunit": 0,
                     "cursor_crosswidth": -1.0,
                     "cursor_followmouse": 0,
                     "cursor_label": "",
@@ -1705,6 +1706,7 @@
                     "cursor_symbolfillcolor": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_symbolfilled": 1,
                     "cursor_symbolheight": 3.0,
+                    "cursor_symbolsizeunit": 0,
                     "cursor_symbolwidth": 3.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
@@ -1715,13 +1717,13 @@
                     "domainruler_fgcolordefault": 1,
                     "domainruler_grid": 0,
                     "domainruler_position": 1,
-                    "domainruler_size": 3,
-                    "domainruler_unit": 0,
-                    "domainruler_visible": 1,
+                    "domainruler_size": 13,
+                    "domainruler_unit": 1,
+                    "domainruler_visible": 0,
                     "domainscrollbar_color": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainscrollbar_colordefault": 1,
-                    "domainscrollbar_size": 3,
-                    "domainscrollbar_visible": 1,
+                    "domainscrollbar_size": 8,
+                    "domainscrollbar_visible": 0,
                     "embed": 0,
                     "enablemousewheel": 0,
                     "externalfiles": 0,
@@ -1758,8 +1760,8 @@
                     "rangeruler_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
                     "rangeruler_fgcolordefault": 1,
                     "rangeruler_grid": 0,
-                    "rangeruler_size": 30,
-                    "rangeruler_visible": 0,
+                    "rangeruler_size": 31,
+                    "rangeruler_visible": 1,
                     "refreshrate": 120.0,
                     "region_color": [ 1.0, 1.0, 1.0, 1.0 ],
                     "region_visible": 1,
@@ -1779,7 +1781,7 @@
                     "tool": "edit",
                     "toolbar_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "toolbar_position": 1,
-                    "toolbar_size": 30,
+                    "toolbar_size": 21,
                     "toolbar_transposition": 0,
                     "toolbar_visible": 2,
                     "toolbarbgcolordefault": 1,

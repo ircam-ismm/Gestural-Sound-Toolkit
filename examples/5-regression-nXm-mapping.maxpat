@@ -13,6 +13,18 @@
         "boxes": [
             {
                 "box": {
+                    "fontsize": 10.0,
+                    "id": "obj-30",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 200.0, 292.0, 100.0, 20.0 ],
+                    "text": "scale -1. 1. 0. 1."
+                }
+            },
+            {
+                "box": {
                     "id": "obj-25",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -76,7 +88,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1210.0, 528.0, 94.0, 22.0 ],
-                    "text": "scale -1. 1. 1 10"
+                    "text": "scale 0. 1. 1 10"
                 }
             },
             {
@@ -87,7 +99,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1085.7948608398438, 528.0, 97.0, 22.0 ],
-                    "text": "scale -1. 1. 1. 10"
+                    "text": "scale 0. 1. 1. 10"
                 }
             },
             {
@@ -118,7 +130,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 959.0, 528.0, 114.0, 22.0 ],
-                    "text": "scale -1. 1. 40. 500."
+                    "text": "scale 0. 1. 40. 500."
                 }
             },
             {
@@ -162,7 +174,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 469.0, 496.0, 77.0, 22.0 ],
-                    "text": "loadmess 10"
+                    "text": "loadmess 3"
                 }
             },
             {
@@ -188,6 +200,7 @@
                     "outlettype": [ "", "" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 685.0, 373.0, 92.0, 84.0 ],
+                    "setminmax": [ 0.0, 1.0 ],
                     "setstyle": 1,
                     "size": 3
                 }
@@ -296,6 +309,7 @@
                     "outlettype": [ "", "" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 695.0, 763.0, 92.0, 84.0 ],
+                    "setminmax": [ 0.0, 1.0 ],
                     "setstyle": 1,
                     "size": 3
                 }
@@ -344,6 +358,7 @@
                     "outlettype": [ "", "" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 665.0, 179.0, 131.0, 96.0 ],
+                    "setminmax": [ 0.0, 1.0 ],
                     "setstyle": 1,
                     "size": 10
                 }
@@ -442,9 +457,9 @@
                     "maxclass": "bpatcher",
                     "name": "gst.orientation.maxpat",
                     "numinlets": 3,
-                    "numoutlets": 4,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "", "", "", "" ],
+                    "outlettype": [ "", "" ],
                     "patching_rect": [ 201.0, 165.0, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.orientation",
                     "viewvisibility": 1
@@ -624,6 +639,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-28", 1 ],
+                    "source": [ "obj-30", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-25", 0 ],
                     "source": [ "obj-32", 0 ]
                 }
@@ -669,7 +690,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-28", 1 ],
+                    "destination": [ "obj-30", 0 ],
                     "source": [ "obj-6", 0 ]
                 }
             },
@@ -722,7 +743,7 @@
             "obj-2::obj-50": [ "15842-frameperiod", "frame period", 0 ],
             "obj-2::obj-56": [ "live.text[4]", "live.text", 0 ],
             "obj-2::obj-58": [ "live.text[19]", "live.text[3]", 0 ],
-            "obj-2::obj-59": [ "live.numbox[1]", "live.numbox", 0 ],
+            "obj-2::obj-59": [ "live.numbox[1]", "id", 0 ],
             "obj-2::obj-60": [ "live.text[2]", "live.text[3]", 0 ],
             "obj-40::obj-2": [ "live.gain~[1]", "ogain", 0 ],
             "obj-40::obj-20": [ "harmonicity", "harmonicity", 0 ],
@@ -732,8 +753,8 @@
             "obj-40::obj-42": [ "live.button", "live.button", 0 ],
             "obj-40::obj-88": [ "ConstAmp", "ConstAmp", 0 ],
             "obj-6::obj-11": [ "live.text[3]", "live.text", 0 ],
-            "obj-6::obj-5::obj-17": [ "15815-sens-type", "sensor type", 0 ],
-            "obj-6::obj-5::obj-179": [ "15815-sens-type[1]", "sensor type", 0 ],
+            "obj-6::obj-5::obj-17": [ "15815-sens-type", "out-sens-type", 0 ],
+            "obj-6::obj-5::obj-179": [ "15815-sens-type[1]", "in-sens-type", 0 ],
             "obj-6::obj-5::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-6::obj-5::obj-37": [ "minMonitor", "minMonitor", 0 ],
             "obj-6::obj-5::obj-42": [ "frame-rate", "framerate", 0 ],
@@ -759,8 +780,23 @@
                 "obj-15::obj-2": {
                     "parameter_longname": "live.gain~[5]"
                 },
+                "obj-2::obj-108": {
+                    "parameter_longname": "15842-clock-type"
+                },
+                "obj-2::obj-16": {
+                    "parameter_longname": "15842-port"
+                },
+                "obj-2::obj-179": {
+                    "parameter_longname": "15842-sens-type"
+                },
+                "obj-2::obj-18::obj-20": {
+                    "parameter_longname": "15842-port[1]"
+                },
                 "obj-2::obj-47": {
                     "parameter_longname": "live.text[1]"
+                },
+                "obj-2::obj-50": {
+                    "parameter_longname": "15842-frameperiod"
                 },
                 "obj-2::obj-56": {
                     "parameter_longname": "live.text[4]"
@@ -768,11 +804,20 @@
                 "obj-2::obj-58": {
                     "parameter_longname": "live.text[19]"
                 },
+                "obj-2::obj-59": {
+                    "parameter_longname": "live.numbox[1]"
+                },
                 "obj-2::obj-60": {
                     "parameter_longname": "live.text[2]"
                 },
                 "obj-40::obj-2": {
                     "parameter_longname": "live.gain~[1]"
+                },
+                "obj-6::obj-5::obj-17": {
+                    "parameter_longname": "15815-sens-type"
+                },
+                "obj-6::obj-5::obj-179": {
+                    "parameter_longname": "15815-sens-type[1]"
                 },
                 "obj-8::obj-29": {
                     "parameter_longname": "regularization[1]"
