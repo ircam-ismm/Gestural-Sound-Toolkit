@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 100.0, 523.0, 1082.0 ],
+        "rect": [ 34.0, 102.0, 523.0, 1082.0 ],
         "boxes": [
             {
                 "box": {
@@ -43,7 +43,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "gst.display.maxpat",
-                    "numinlets": 3,
+                    "numinlets": 4,
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
@@ -493,8 +493,10 @@
             "obj-22::obj-195::obj-86": [ "gain", "gain", 0 ],
             "obj-22::obj-37": [ "live.text[8]", "live.text", 0 ],
             "obj-25::obj-27": [ "continuous[1]", "conti", 0 ],
+            "obj-25::obj-34": [ "live.toggle[2]", "bypass", 0 ],
             "obj-25::obj-6": [ "live.text[3]", "live.text", 0 ],
             "obj-25::obj-8::obj-14": [ "threshold", "threshold", 0 ],
+            "obj-25::obj-8::obj-16": [ "bypass", "bypass", 0 ],
             "obj-25::obj-8::obj-27": [ "continuous", "continuous", 0 ],
             "obj-25::obj-8::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-25::obj-8::obj-37": [ "minMonitor", "minMonitor", 0 ],
@@ -531,6 +533,9 @@
                 "obj-25::obj-27": {
                     "parameter_longname": "continuous[1]"
                 },
+                "obj-25::obj-34": {
+                    "parameter_longname": "live.toggle[2]"
+                },
                 "obj-25::obj-6": {
                     "parameter_longname": "live.text[3]"
                 },
@@ -562,6 +567,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
