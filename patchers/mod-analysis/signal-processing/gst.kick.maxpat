@@ -16,6 +16,97 @@
                 "box": {
                     "fontname": "Arial",
                     "fontsize": 11.0,
+                    "id": "obj-57",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1273.75, 246.0, 98.0, 21.0 ],
+                    "text": "s #0-gate-duration"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 11.0,
+                    "id": "obj-54",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1208.5, 217.5, 104.0, 21.0 ],
+                    "text": "s #0-threshold-level"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 11.0,
+                    "id": "obj-11",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1010.0, 181.0, 68.0, 21.0 ],
+                    "text": "s #0-bypass"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-31",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 990.0, 137.0, 107.0, 22.0 ],
+                    "text": "route done bypass"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-30",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1078.0, 217.0, 97.0, 22.0 ],
+                    "text": "s #0-mubu-scroll"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 11.0,
+                    "id": "obj-48",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1143.25, 246.0, 92.0, 21.0 ],
+                    "text": "s #0-median.size"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-49",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 5,
+                    "outlettype": [ "", "", "", "", "" ],
+                    "patching_rect": [ 1078.0, 181.0, 280.0, 22.0 ],
+                    "text": "routepass bounds median.size threshold debounce"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-50",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 937.0, 110.0, 72.0, 22.0 ],
+                    "text": "patcherargs"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 11.0,
                     "format": 6,
                     "id": "obj-33",
                     "maxclass": "flonum",
@@ -626,7 +717,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 252.0, 108.0, 231.0, 271.0 ],
+                        "rect": [ 245.0, 93.0, 231.0, 271.0 ],
                         "openinpresentation": 1,
                         "description": "median size [int}",
                         "boxes": [
@@ -771,7 +862,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-34",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -798,7 +892,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-37",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -924,7 +1021,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@median.size",
+                                    "annotation_name": "@median.size",
                                     "fontsize": 12.0,
+                                    "hint": "@median.size",
                                     "id": "obj-27",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -942,7 +1042,7 @@
                                             "parameter_mmin": 1.0,
                                             "parameter_modmax": 2048.0,
                                             "parameter_modmode": 4,
-                                            "parameter_shortname": "maveragewindow",
+                                            "parameter_shortname": "medianSize",
                                             "parameter_type": 0,
                                             "parameter_unitstyle": 0
                                         }
@@ -962,7 +1062,7 @@
                                     "patching_rect": [ 29.0, 216.0, 115.0, 22.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 5.0, 60.0, 225.0, 22.0 ],
-                                    "text": "Gate duration"
+                                    "text": "Debounce"
                                 }
                             },
                             {
@@ -1019,7 +1119,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@debounce",
+                                    "annotation_name": "@debounce",
                                     "fontsize": 12.0,
+                                    "hint": "@debounce",
                                     "id": "obj-17",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -1035,7 +1138,7 @@
                                             "parameter_longname": "minDuration",
                                             "parameter_mmax": 10000.0,
                                             "parameter_modmode": 3,
-                                            "parameter_shortname": "threshold",
+                                            "parameter_shortname": "minDuration",
                                             "parameter_steps": 10000,
                                             "parameter_type": 0,
                                             "parameter_unitstyle": 2
@@ -1084,7 +1187,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@threshold",
+                                    "annotation_name": "@threshold",
                                     "fontsize": 12.0,
+                                    "hint": "@threshold",
                                     "id": "obj-14",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -1312,7 +1418,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 125.0, 136.0, 410.0, 21.0 ],
                     "saved_object_attributes": {
@@ -1750,6 +1856,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "source": [ "obj-31", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-49", 0 ],
+                    "source": [ "obj-31", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-101", 0 ],
                     "midpoints": [ 410.5, 449.0, 733.0, 449.0 ],
                     "source": [ "obj-32", 0 ]
@@ -1862,6 +1980,30 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-30", 0 ],
+                    "source": [ "obj-49", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-48", 0 ],
+                    "source": [ "obj-49", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-54", 0 ],
+                    "source": [ "obj-49", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-57", 0 ],
+                    "source": [ "obj-49", 3 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-32", 0 ],
                     "midpoints": [ 377.5, 410.0, 410.5, 410.0 ],
                     "order": 0,
@@ -1873,6 +2015,12 @@
                     "destination": [ "obj-42", 1 ],
                     "order": 1,
                     "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 0 ],
+                    "source": [ "obj-50", 1 ]
                 }
             },
             {
@@ -1987,8 +2135,8 @@
             "obj-17": [ "live.text[3]", "live.text", 0 ],
             "obj-4": [ "live.button[1]", "live.button[1]", 0 ],
             "obj-8::obj-14": [ "threshold", "threshold", 0 ],
-            "obj-8::obj-17": [ "minDuration", "threshold", 0 ],
-            "obj-8::obj-27": [ "medianSize", "maveragewindow", 0 ],
+            "obj-8::obj-17": [ "minDuration", "minDuration", 0 ],
+            "obj-8::obj-27": [ "medianSize", "medianSize", 0 ],
             "obj-8::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-8::obj-37": [ "minMonitor", "minMonitor", 0 ],
             "parameterbanks": {
@@ -2002,6 +2150,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

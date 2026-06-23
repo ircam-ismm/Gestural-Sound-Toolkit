@@ -14,6 +14,71 @@
         "boxes": [
             {
                 "box": {
+                    "comment": "bypass",
+                    "id": "obj-41",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 461.0, 9.0, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-22",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1058.5, 137.0, 107.0, 22.0 ],
+                    "text": "s #0-oneEuroFilter"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-21",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 911.5, 60.0, 66.0, 22.0 ],
+                    "text": "route done"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-29",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 958.5, 137.0, 97.0, 22.0 ],
+                    "text": "s #0-mubu-scroll"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-32",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 6,
+                    "outlettype": [ "", "", "", "", "", "" ],
+                    "patching_rect": [ 959.0, 88.0, 516.5000000000005, 22.0 ],
+                    "text": "routepass bounds beta fcmin framerate bypass"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-33",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 858.5, 33.0, 72.0, 22.0 ],
+                    "text": "patcherargs"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -192,9 +257,9 @@
             },
             {
                 "box": {
-                    "annotation": "bypass",
-                    "annotation_name": "bypass",
-                    "hint": "bypass",
+                    "annotation": "@bypass",
+                    "annotation_name": "@bypass",
+                    "hint": "@bypass",
                     "id": "obj-34",
                     "maxclass": "live.toggle",
                     "numinlets": 1,
@@ -367,7 +432,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 487.0, 5.0, 148.0, 23.0 ],
+                    "patching_rect": [ 608.0, 10.0, 148.0, 23.0 ],
                     "text": "mubu.scroll configuration"
                 }
             },
@@ -380,7 +445,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 448.0, 9.0, 25.0, 25.0 ]
+                    "patching_rect": [ 569.0, 9.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -399,7 +464,7 @@
             },
             {
                 "box": {
-                    "comment": "gain [float]",
+                    "comment": "fcmin",
                     "id": "obj-60",
                     "index": 0,
                     "maxclass": "inlet",
@@ -411,7 +476,7 @@
             },
             {
                 "box": {
-                    "comment": "integration feedback",
+                    "comment": "beta",
                     "id": "obj-61",
                     "index": 0,
                     "maxclass": "inlet",
@@ -440,7 +505,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 236.0, 102.0, 459.0, 364.0 ],
+                        "rect": [ 234.0, 102.0, 459.0, 364.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -503,7 +568,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@framerate",
+                                    "annotation_name": "@framerate",
                                     "fontsize": 12.0,
+                                    "hint": "@framerate",
                                     "id": "obj-15",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -657,6 +725,9 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bypass",
+                                    "annotation_name": "@bypass",
+                                    "hint": "@bypass",
                                     "id": "obj-39",
                                     "maxclass": "live.toggle",
                                     "numinlets": 1,
@@ -840,7 +911,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-32",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -867,7 +941,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-33",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -956,7 +1033,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@beta",
+                                    "annotation_name": "@beta",
                                     "fontsize": 12.0,
+                                    "hint": "@beta",
                                     "id": "obj-82",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -1005,7 +1085,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@fcmin",
+                                    "annotation_name": "@fcmin",
                                     "fontsize": 12.0,
+                                    "hint": "@fcmin",
                                     "id": "obj-42",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -1607,6 +1690,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-32", 0 ],
+                    "source": [ "obj-21", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-42", 0 ],
                     "source": [ "obj-23", 0 ]
                 }
@@ -1651,6 +1740,46 @@
                 "patchline": {
                     "destination": [ "obj-42", 0 ],
                     "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "midpoints": [ 1366.5000000000005, 123.5, 1068.0, 123.5 ],
+                    "source": [ "obj-32", 4 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "midpoints": [ 1267.0000000000002, 123.5, 1068.0, 123.5 ],
+                    "source": [ "obj-32", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "midpoints": [ 1167.5000000000002, 123.5, 1068.0, 123.5 ],
+                    "source": [ "obj-32", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "midpoints": [ 1068.0, 123.5, 1068.0, 123.5 ],
+                    "source": [ "obj-32", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-29", 0 ],
+                    "source": [ "obj-32", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-21", 0 ],
+                    "source": [ "obj-33", 1 ]
                 }
             },
             {
@@ -1705,6 +1834,12 @@
                 "patchline": {
                     "destination": [ "obj-13", 0 ],
                     "source": [ "obj-40", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-34", 0 ],
+                    "source": [ "obj-41", 0 ]
                 }
             },
             {

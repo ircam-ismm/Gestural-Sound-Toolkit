@@ -14,13 +14,56 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-31",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 619.0, 194.0, 66.0, 22.0 ],
+                    "text": "route done"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 666.0, 268.0, 97.0, 22.0 ],
+                    "text": "s #0-mubu-scroll"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-29",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 666.0, 232.0, 104.0, 22.0 ],
+                    "text": "routepass bounds"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-30",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 566.0, 167.0, 72.0, 22.0 ],
+                    "text": "patcherargs"
+                }
+            },
+            {
+                "box": {
                     "comment": "nom (normalized by the input length)",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 222.0, 505.0, 25.0, 25.0 ]
+                    "patching_rect": [ 58.0, 453.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -31,7 +74,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 632.0, 369.5, 50.0, 21.0 ],
+                    "patching_rect": [ 257.0, 304.0, 50.0, 21.0 ],
                     "text": "deferlow"
                 }
             },
@@ -43,7 +86,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 632.0, 347.5, 161.0, 21.0 ],
+                    "patching_rect": [ 257.0, 282.0, 161.0, 21.0 ],
                     "text": "loadmess resizetowindowrect 4"
                 }
             },
@@ -55,7 +98,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 617.0, 324.5, 120.0, 21.0 ],
+                    "patching_rect": [ 242.0, 259.0, 120.0, 21.0 ],
                     "text": "loadmess windresize 1"
                 }
             },
@@ -66,7 +109,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 348.0, 90.5, 35.0, 22.0 ],
+                    "patching_rect": [ 184.0, 39.0, 35.0, 22.0 ],
                     "text": "open"
                 }
             },
@@ -77,7 +120,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 348.0, 120.5, 51.0, 22.0 ],
+                    "patching_rect": [ 184.0, 69.0, 51.0, 22.0 ],
                     "text": "pcontrol"
                 }
             },
@@ -91,7 +134,7 @@
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
                     "parameter_mappable": 0,
-                    "patching_rect": [ 348.0, 60.5, 54.0, 15.0 ],
+                    "patching_rect": [ 184.0, 9.0, 54.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 91.00000163912773, 4.063291236758232, 34.99999836087227, 14.873417526483536 ],
                     "saved_attribute_attributes": {
@@ -119,7 +162,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 393.0, 347.5, 54.0, 22.0 ],
+                    "patching_rect": [ 224.0, 232.0, 54.0, 22.0 ],
                     "text": "deferlow"
                 }
             },
@@ -130,7 +173,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 393.0, 318.5, 95.0, 22.0 ],
+                    "patching_rect": [ 224.0, 203.0, 95.0, 22.0 ],
                     "text": "r #0-mubu-scroll"
                 }
             },
@@ -141,7 +184,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 445.0, 87.5, 85.0, 22.0 ],
+                    "patching_rect": [ 281.0, 36.0, 85.0, 22.0 ],
                     "text": "getattr bounds"
                 }
             },
@@ -193,7 +236,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-14",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -220,7 +266,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-13",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -500,7 +549,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ],
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ],
                         "saved_attribute_attributes": {
                             "editing_bgcolor": {
                                 "expression": "themecolor.theme_editing_bgcolor"
@@ -510,7 +559,7 @@
                             }
                         }
                     },
-                    "patching_rect": [ 445.0, 120.5, 56.0, 21.0 ],
+                    "patching_rect": [ 281.0, 69.0, 56.0, 21.0 ],
                     "saved_attribute_attributes": {
                         "editing_bgcolor": {
                             "expression": "themecolor.theme_editing_bgcolor"
@@ -530,7 +579,7 @@
                     "numinlets": 2,
                     "numoutlets": 3,
                     "outlettype": [ "", "float", "" ],
-                    "patching_rect": [ 222.0, 191.5, 282.0, 22.0 ],
+                    "patching_rect": [ 58.0, 140.0, 282.0, 22.0 ],
                     "text": "pipo norm @norm.powexp 0.5 @norm.sizescaled 1"
                 }
             },
@@ -542,7 +591,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 577.0, 129.5, 94.0, 37.0 ],
+                    "patching_rect": [ 521.0, 74.0, 94.0, 37.0 ],
                     "text": "mubu.scroll configuration"
                 }
             },
@@ -555,18 +604,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 545.0, 135.5, 25.0, 25.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-14",
-                    "linecount": 2,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 252.0, 421.5, 110.0, 33.0 ],
-                    "text": "hack waiting for autobounds bug fix"
+                    "patching_rect": [ 489.0, 80.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -577,7 +615,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 252.0, 226.5, 58.0, 21.0 ],
+                    "patching_rect": [ 88.0, 175.0, 58.0, 21.0 ],
                     "text": "s #0-norm"
                 }
             },
@@ -622,7 +660,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 393.0, 448.5, 10.0, 10.0 ],
+                    "patching_rect": [ 229.0, 397.0, 10.0, 10.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 23.0, 131.0, 94.0 ],
                     "rangeruler": 0,
@@ -665,7 +703,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-113", 0 ],
-                    "midpoints": [ 554.5, 436.6484375, 397.0, 436.6484375 ],
+                    "midpoints": [ 498.5, 385.1484375, 233.0, 385.1484375 ],
                     "source": [ "obj-17", 0 ]
                 }
             },
@@ -716,6 +754,24 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "source": [ "obj-29", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 0 ],
+                    "source": [ "obj-30", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-29", 0 ],
+                    "source": [ "obj-31", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-40", 0 ],
                     "source": [ "obj-37", 0 ]
                 }
@@ -760,6 +816,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

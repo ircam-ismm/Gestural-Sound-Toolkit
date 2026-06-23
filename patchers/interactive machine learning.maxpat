@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 566.0, 310.0, 1040.0, 729.0 ],
+        "rect": [ 34.0, 93.0, 1040.0, 729.0 ],
         "boxes": [
             {
                 "box": {
@@ -287,6 +287,7 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 102.0, 1508.0, 916.0 ],
+        "rect": [ 34.0, 93.0, 1509.0, 917.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -31,7 +31,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1508.0, 890.0 ],
+                        "rect": [ 0.0, 26.0, 1509.0, 891.0 ],
                         "showontab": 1,
                         "boxes": [
                             {
@@ -208,7 +208,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 128.0, 1508.0, 890.0 ],
+                        "rect": [ 34.0, 119.0, 1509.0, 891.0 ],
                         "bglocked": 1,
                         "showontab": 1,
                         "boxes": [
@@ -392,7 +392,7 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 26.0, 855.0, 312.0, 22.0 ],
                                     "saved_object_attributes": {
-                                        "client_rect": [ 1886, 93, 2275, 924 ],
+                                        "client_rect": [ 1886, 93, 2275, 380 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
                                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -774,11 +774,11 @@
                                     "lockeddragscroll": 0,
                                     "lockedsize": 0,
                                     "maxclass": "bpatcher",
-                                    "name": "synth.FM.maxpat",
+                                    "name": "gst.synth.FM.maxpat",
                                     "numinlets": 7,
-                                    "numoutlets": 4,
+                                    "numoutlets": 5,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "multichannelsignal", "", "", "" ],
+                                    "outlettype": [ "multichannelsignal", "multichannelsignal", "", "", "" ],
                                     "patching_rect": [ 1168.0, 687.0, 270.0, 146.44586944580078 ],
                                     "varname": "synth.FM",
                                     "viewvisibility": 1
@@ -1741,9 +1741,10 @@
                                     "name": "gst.recorddata.maxpat",
                                     "numinlets": 6,
                                     "numoutlets": 3,
-                                    "offset": [ -2.0, -4.0 ],
+                                    "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "", "", "" ],
                                     "patching_rect": [ 1078.0, 68.5, 411.0, 150.0 ],
+                                    "varname": "gst.recorddata",
                                     "viewvisibility": 1
                                 }
                             },
@@ -1826,11 +1827,11 @@
                                     "lockeddragscroll": 0,
                                     "lockedsize": 0,
                                     "maxclass": "bpatcher",
-                                    "name": "synth.scratch.samples.maxpat",
+                                    "name": "gst.synth.scratch.samples.maxpat",
                                     "numinlets": 5,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "multichannelsignal" ],
+                                    "outlettype": [ "multichannelsignal", "multichannelsignal" ],
                                     "patching_rect": [ 802.0, 682.0, 240.79486083984375, 145.89173889160156 ],
                                     "varname": "synth.scratch.samples",
                                     "viewvisibility": 1
@@ -2165,7 +2166,6 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-49", 0 ],
-                                    "disabled": 1,
                                     "source": [ "obj-15", 0 ]
                                 }
                             },
@@ -2518,8 +2518,8 @@
             "obj-3::obj-12::obj-108": [ "1232-clock-type", "clock type", 0 ],
             "obj-3::obj-12::obj-16": [ "1232-port", "port", 0 ],
             "obj-3::obj-12::obj-179": [ "1232-sens-type", "sensor type", 0 ],
-            "obj-3::obj-12::obj-18::obj-105": [ "live.text[15]", "live.text", 0 ],
-            "obj-3::obj-12::obj-18::obj-110": [ "live.text[14]", "live.text", 0 ],
+            "obj-3::obj-12::obj-18::obj-105": [ "live.text[16]", "live.text", 0 ],
+            "obj-3::obj-12::obj-18::obj-110": [ "live.text[15]", "live.text", 0 ],
             "obj-3::obj-12::obj-18::obj-121": [ "live.numbox[4]", "Amount", 0 ],
             "obj-3::obj-12::obj-18::obj-20": [ "1232-port[1]", "port", 0 ],
             "obj-3::obj-12::obj-18::obj-223": [ "live.numbox[3]", "live.numbox", 0 ],
@@ -2531,10 +2531,10 @@
             "obj-3::obj-12::obj-31": [ "live.button[3]", "live.button", 0 ],
             "obj-3::obj-12::obj-47": [ "1232-enable", "enable", 1 ],
             "obj-3::obj-12::obj-50": [ "1232-frameperiod", "frame period", 0 ],
-            "obj-3::obj-12::obj-56": [ "live.text[17]", "live.text", 0 ],
+            "obj-3::obj-12::obj-56": [ "live.text[19]", "live.text", 0 ],
             "obj-3::obj-12::obj-58": [ "live.text[2]", "live.text[3]", 0 ],
             "obj-3::obj-12::obj-59": [ "live.numbox[1]", "id", 0 ],
-            "obj-3::obj-12::obj-60": [ "live.text[16]", "live.text[3]", 0 ],
+            "obj-3::obj-12::obj-60": [ "live.text[17]", "live.text[3]", 0 ],
             "obj-3::obj-15::obj-166": [ "speed", "speed", 0 ],
             "obj-3::obj-15::obj-22": [ "synthScratch-out", "ogain", 0 ],
             "obj-3::obj-15::obj-88": [ "start", "start", 0 ],
@@ -2573,8 +2573,8 @@
             "obj-3::obj-3::obj-17": [ "live.text[4]", "live.text", 0 ],
             "obj-3::obj-3::obj-4": [ "live.button[2]", "live.button[1]", 0 ],
             "obj-3::obj-3::obj-8::obj-14": [ "threshold", "threshold", 0 ],
-            "obj-3::obj-3::obj-8::obj-17": [ "minDuration", "threshold", 0 ],
-            "obj-3::obj-3::obj-8::obj-27": [ "medianSize", "maveragewindow", 0 ],
+            "obj-3::obj-3::obj-8::obj-17": [ "minDuration", "minDuration", 0 ],
+            "obj-3::obj-3::obj-8::obj-27": [ "medianSize", "medianSize", 0 ],
             "obj-3::obj-3::obj-8::obj-34": [ "maxMonitor[1]", "maxMonitor", 0 ],
             "obj-3::obj-3::obj-8::obj-37": [ "minMonitor[1]", "minMonitor", 0 ],
             "obj-3::obj-40::obj-2": [ "live.gain~[19]", "ogain", 0 ],
@@ -2582,17 +2582,20 @@
             "obj-3::obj-40::obj-21": [ "carrier", "carrier", 0 ],
             "obj-3::obj-40::obj-24": [ "duration", "duration", 0 ],
             "obj-3::obj-40::obj-32": [ "index", "index", 0 ],
+            "obj-3::obj-40::obj-33": [ "env", "env", 0 ],
             "obj-3::obj-40::obj-42": [ "live.button", "live.button", 0 ],
             "obj-3::obj-40::obj-88": [ "ConstAmp", "ConstAmp", 0 ],
-            "obj-3::obj-48::obj-15": [ "live.text[12]", "live.text", 0 ],
+            "obj-3::obj-48::obj-15": [ "live.text[14]", "live.text", 0 ],
             "obj-3::obj-48::obj-16": [ "loop[1]", "loop", 0 ],
-            "obj-3::obj-48::obj-18": [ "live.text[10]", "live.text", 0 ],
-            "obj-3::obj-48::obj-4": [ "live.text[11]", "live.text", 0 ],
+            "obj-3::obj-48::obj-18": [ "live.text[11]", "live.text", 0 ],
+            "obj-3::obj-48::obj-4": [ "live.text[12]", "live.text", 0 ],
             "obj-3::obj-48::obj-40": [ "live.toggle[2]", "live.toggle", 0 ],
             "obj-3::obj-48::obj-50": [ "live.numbox", "live.numbox", 0 ],
             "obj-3::obj-48::obj-57": [ "live.toggle[3]", "autoscale", 0 ],
             "obj-3::obj-48::obj-6": [ "live.text[13]", "live.text", 0 ],
+            "obj-3::obj-48::obj-65": [ "live.text[10]", "live.text", 0 ],
             "obj-3::obj-48::obj-71": [ "live.toggle[1]", "live.toggle", 0 ],
+            "obj-3::obj-48::obj-85::obj-25": [ "maxduration", "maxduration", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -2612,10 +2615,10 @@
                     "parameter_longname": "1232-sens-type"
                 },
                 "obj-3::obj-12::obj-18::obj-105": {
-                    "parameter_longname": "live.text[15]"
+                    "parameter_longname": "live.text[16]"
                 },
                 "obj-3::obj-12::obj-18::obj-110": {
-                    "parameter_longname": "live.text[14]"
+                    "parameter_longname": "live.text[15]"
                 },
                 "obj-3::obj-12::obj-18::obj-20": {
                     "parameter_longname": "1232-port[1]"
@@ -2642,13 +2645,13 @@
                     "parameter_longname": "1232-frameperiod"
                 },
                 "obj-3::obj-12::obj-56": {
-                    "parameter_longname": "live.text[17]"
+                    "parameter_longname": "live.text[19]"
                 },
                 "obj-3::obj-12::obj-59": {
                     "parameter_longname": "live.numbox[1]"
                 },
                 "obj-3::obj-12::obj-60": {
-                    "parameter_longname": "live.text[16]"
+                    "parameter_longname": "live.text[17]"
                 },
                 "obj-3::obj-15::obj-22": {
                     "parameter_longname": "synthScratch-out"
@@ -2690,16 +2693,16 @@
                     "parameter_longname": "live.gain~[19]"
                 },
                 "obj-3::obj-48::obj-15": {
-                    "parameter_longname": "live.text[12]"
+                    "parameter_longname": "live.text[14]"
                 },
                 "obj-3::obj-48::obj-16": {
                     "parameter_longname": "loop[1]"
                 },
                 "obj-3::obj-48::obj-18": {
-                    "parameter_longname": "live.text[10]"
+                    "parameter_longname": "live.text[11]"
                 },
                 "obj-3::obj-48::obj-4": {
-                    "parameter_longname": "live.text[11]"
+                    "parameter_longname": "live.text[12]"
                 },
                 "obj-3::obj-48::obj-40": {
                     "parameter_longname": "live.toggle[2]"
@@ -2709,6 +2712,9 @@
                 },
                 "obj-3::obj-48::obj-6": {
                     "parameter_longname": "live.text[13]"
+                },
+                "obj-3::obj-48::obj-65": {
+                    "parameter_longname": "live.text[10]"
                 }
             },
             "inherited_shortname": 1

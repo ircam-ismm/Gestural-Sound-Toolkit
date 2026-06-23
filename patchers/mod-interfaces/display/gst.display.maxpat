@@ -14,6 +14,49 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-31",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 444.0, 140.0, 66.0, 22.0 ],
+                    "text": "route done"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 491.0, 214.0, 97.0, 22.0 ],
+                    "text": "s #0-mubu-scroll"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-29",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 491.0, 178.0, 104.0, 22.0 ],
+                    "text": "routepass bounds"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-30",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 391.0, 113.0, 72.0, 22.0 ],
+                    "text": "patcherargs"
+                }
+            },
+            {
+                "box": {
                     "comment": "mubu.scroll configuration",
                     "id": "obj-3",
                     "index": 0,
@@ -277,7 +320,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-34",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -354,7 +400,7 @@
                                     "patching_rect": [ 196.5, 205.0, 56.0, 22.0 ],
                                     "restore": {
                                         "maxMonitor": [ 1.0 ],
-                                        "minMonitor": [ -1.0 ]
+                                        "minMonitor": [ 0.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u933006469"
@@ -462,7 +508,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 194.0, 149.5, 74.0, 21.0 ],
                     "text": "p more",
@@ -546,7 +592,7 @@
                     "autoupdate": 120.0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "bgcolordefault": 1,
-                    "bounds": [ -1.0, 1.0 ],
+                    "bounds": [ 0.0, 1.0 ],
                     "colormode": "fgcolor",
                     "domainruler": 0,
                     "domainruler_size": 15,
@@ -565,7 +611,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 270.0, 351.0, 15.0, 19.0 ],
+                    "patching_rect": [ 270.0, 351.0, 10.0, 10.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 23.0, 123.0, 95.0 ],
                     "rangeruler": 0,
@@ -656,8 +702,26 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "source": [ "obj-29", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-101", 0 ],
                     "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 0 ],
+                    "source": [ "obj-30", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-29", 0 ],
+                    "source": [ "obj-31", 1 ]
                 }
             },
             {

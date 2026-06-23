@@ -9,9 +9,62 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 134.0, 118.0 ],
+        "rect": [ 34.0, 102.0, 134.0, 118.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1352.0, 114.0, 87.0, 22.0 ],
+                    "text": "s #0-derivative"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-72",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1204.0, 52.0, 66.0, 22.0 ],
+                    "text": "route done"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-73",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1251.0, 108.0, 97.0, 22.0 ],
+                    "text": "s #0-mubu-scroll"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-74",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 5,
+                    "outlettype": [ "", "", "", "", "" ],
+                    "patching_rect": [ 1251.0, 80.0, 287.0, 22.0 ],
+                    "text": "routepass bounds framerate delta.size scalingFactor"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-75",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1151.0, 25.0, 72.0, 22.0 ],
+                    "text": "patcherargs"
+                }
+            },
             {
                 "box": {
                     "fontname": "Arial",
@@ -198,7 +251,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 237.0, 93.0, 235.0, 407.0 ],
+                        "rect": [ 237.0, 102.0, 235.0, 407.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -427,7 +480,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-14",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -454,7 +510,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-13",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -573,7 +632,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@delta.size",
+                                    "annotation_name": "@delta.size",
                                     "fontsize": 12.0,
+                                    "hint": "@delta.size",
                                     "id": "obj-86",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -612,7 +674,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@scalingFactor",
+                                    "annotation_name": "@scalingFactor",
                                     "fontsize": 12.0,
+                                    "hint": "@scalingFactor",
                                     "id": "obj-82",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -661,7 +726,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@framerate",
+                                    "annotation_name": "@framerate",
                                     "fontsize": 12.0,
+                                    "hint": "@framerate",
                                     "id": "obj-42",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -897,7 +965,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ],
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ],
                         "saved_attribute_attributes": {
                             "editing_bgcolor": {
                                 "expression": "themecolor.theme_editing_bgcolor"
@@ -1524,6 +1592,42 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-74", 0 ],
+                    "source": [ "obj-72", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-195", 4 ],
+                    "source": [ "obj-74", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-73", 0 ],
+                    "source": [ "obj-74", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-74", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-74", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-72", 0 ],
+                    "source": [ "obj-75", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-14", 0 ],
                     "source": [ "obj-76", 1 ]
                 }
@@ -1560,6 +1664,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

@@ -15,6 +15,98 @@
         "boxes": [
             {
                 "box": {
+                    "fontname": "Arial",
+                    "fontsize": 11.0,
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 994.0, 126.0, 68.0, 21.0 ],
+                    "text": "s #0-bypass"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 11.0,
+                    "id": "obj-84",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 686.0, 241.0, 66.0, 21.0 ],
+                    "text": "r #0-bypass"
+                }
+            },
+            {
+                "box": {
+                    "comment": "bypass",
+                    "id": "obj-71",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 645.0, 60.0, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 11.0,
+                    "id": "obj-82",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 645.0, 89.0, 68.0, 21.0 ],
+                    "text": "s #0-bypass"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-72",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 982.0, 63.5, 107.0, 22.0 ],
+                    "text": "route done bypass"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-73",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1070.0, 125.5, 97.0, 22.0 ],
+                    "text": "s #0-mubu-scroll"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-74",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 1070.0, 97.5, 179.0, 22.0 ],
+                    "text": "routepass bounds mode"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-75",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 929.0, 36.5, 72.0, 22.0 ],
+                    "text": "patcherargs"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -37,9 +129,9 @@
             },
             {
                 "box": {
-                    "annotation": "\"mode min=-max\"",
-                    "annotation_name": "mode min=-max",
-                    "hint": "\"mode min=-max\"",
+                    "annotation": "\"@mode 1 = sup[abs(min or max)]\"",
+                    "annotation_name": "@mode 1 = sup[abs(min or max)]",
+                    "hint": "\"@mode 1 = sup[abs(min or max)]\"",
                     "id": "obj-2",
                     "maxclass": "live.toggle",
                     "numinlets": 1,
@@ -141,9 +233,9 @@
             },
             {
                 "box": {
-                    "annotation": "bypass",
-                    "annotation_name": "bypass",
-                    "hint": "bypass",
+                    "annotation": "@bypass",
+                    "annotation_name": "@bypass",
+                    "hint": "@bypass",
                     "id": "obj-34",
                     "maxclass": "live.toggle",
                     "numinlets": 1,
@@ -2272,6 +2364,9 @@
             },
             {
                 "box": {
+                    "annotation": "calibrate",
+                    "annotation_name": "calibrate",
+                    "hint": "calibrate",
                     "id": "obj-29",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -2301,6 +2396,9 @@
             },
             {
                 "box": {
+                    "annotation": "calibrate",
+                    "annotation_name": "calibrate",
+                    "hint": "calibrate",
                     "id": "obj-28",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -4362,7 +4460,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 267.0, 93.0, 218.0, 330.0 ],
+                        "rect": [ 267.0, 102.0, 218.0, 330.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -4403,6 +4501,9 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "\"@mode 1 = sup[abs(min or max)]\"",
+                                    "annotation_name": "@mode 1 = sup[abs(min or max)]",
+                                    "hint": "\"@mode 1 = sup[abs(min or max)]\"",
                                     "id": "obj-29",
                                     "maxclass": "live.toggle",
                                     "numinlets": 1,
@@ -4674,6 +4775,9 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bypass",
+                                    "annotation_name": "@bypass",
+                                    "hint": "@bypass",
                                     "id": "obj-39",
                                     "maxclass": "live.toggle",
                                     "numinlets": 1,
@@ -4686,6 +4790,8 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_enum": [ "off", "on" ],
+                                            "parameter_initial": [ 0.0 ],
+                                            "parameter_initial_enable": 1,
                                             "parameter_linknames": 1,
                                             "parameter_longname": "bypass",
                                             "parameter_mmax": 1,
@@ -4809,7 +4915,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-14",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -4836,7 +4945,10 @@
                             },
                             {
                                 "box": {
+                                    "annotation": "@bounds",
+                                    "annotation_name": "@bounds",
                                     "fontsize": 12.0,
+                                    "hint": "@bounds",
                                     "id": "obj-13",
                                     "maxclass": "live.numbox",
                                     "numinlets": 1,
@@ -5085,7 +5197,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 622.0, 56.0, 89.0, 35.0 ],
+                    "patching_rect": [ 833.0, 56.0, 89.0, 35.0 ],
                     "text": "mubu.scroll configuration"
                 }
             },
@@ -5098,7 +5210,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 589.0, 60.0, 25.0, 25.0 ]
+                    "patching_rect": [ 800.0, 60.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -5310,7 +5422,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-113", 0 ],
-                    "midpoints": [ 598.5, 129.28125, 583.0, 129.28125 ],
+                    "midpoints": [ 809.5, 129.28125, 583.0, 129.28125 ],
                     "source": [ "obj-17", 0 ]
                 }
             },
@@ -5499,6 +5611,48 @@
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-82", 0 ],
+                    "source": [ "obj-71", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-74", 0 ],
+                    "source": [ "obj-72", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-72", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-74", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-73", 0 ],
+                    "source": [ "obj-74", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-72", 0 ],
+                    "source": [ "obj-75", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-34", 0 ],
+                    "source": [ "obj-84", 0 ]
                 }
             },
             {

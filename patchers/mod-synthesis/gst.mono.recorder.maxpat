@@ -53,22 +53,8 @@
                     "patching_rect": [ 181.0, 56.0, 160.0, 20.0 ],
                     "presentation": 1,
                     "presentation_linecount": 2,
-                    "presentation_rect": [ 112.0, 128.0, 62.0, 33.0 ],
+                    "presentation_rect": [ 112.0, 128.0, 65.0, 33.0 ],
                     "text": "Start/Stop recording"
-                }
-            },
-            {
-                "box": {
-                    "fontname": "Arial",
-                    "fontsize": 10.0,
-                    "hidden": 1,
-                    "id": "obj-40",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 127.5, 343.0, 109.0, 20.0 ],
-                    "text": "loadmess startwindow"
                 }
             },
             {
@@ -79,7 +65,7 @@
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "patching_rect": [ 67.5, 343.0, 32.0, 20.0 ],
+                    "patching_rect": [ 67.5, 462.0, 32.0, 20.0 ],
                     "text": "dac~"
                 }
             },
@@ -273,14 +259,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-38", 0 ],
-                    "hidden": 1,
-                    "midpoints": [ 137.0, 370.0, 115.0, 370.0, 115.0, 333.0, 77.0, 333.0 ],
-                    "source": [ "obj-40", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "order": 0,
                     "source": [ "obj-6", 0 ]
@@ -308,21 +286,6 @@
                 }
             }
         ],
-        "parameters": {
-            "obj-37": [ "directOut12", "Monitor", 0 ],
-            "obj-4": [ "startStop", "startStop", 0 ],
-            "obj-8": [ "createSf", "createSf", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

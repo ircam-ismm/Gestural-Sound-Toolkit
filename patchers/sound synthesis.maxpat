@@ -13,6 +13,48 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-11",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 55.5, 188.0, 211.0, 20.0 ],
+                    "presentation_linecount": 3,
+                    "text": "<bpatcher gst.synth.scratch.samples>"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 408.0, 188.0, 147.0, 20.0 ],
+                    "presentation_linecount": 2,
+                    "text": "<bpatcher gst.synth.filter>"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-9",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 675.0, 188.0, 141.0, 20.0 ],
+                    "text": "<bpatcher gst.synth.FM>"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 970.0, 188.0, 201.0, 20.0 ],
+                    "text": "<bpatcher gst.synth.scrub.samples>"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-1",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -29,7 +71,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 186.0, 173.0, 151.0, 22.0 ],
+                    "patching_rect": [ 269.0, 98.0, 151.0, 22.0 ],
                     "text": "loadmess C74:/media/msp"
                 }
             },
@@ -41,7 +83,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 348.1025695800781, 173.0, 44.0, 22.0 ],
-                    "text": "noise~"
+                    "text": "pink~"
                 }
             },
             {
@@ -104,7 +146,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "synth.filter.maxpat",
+                    "name": "gst.synth.filter.maxpat",
                     "numinlets": 3,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
@@ -126,11 +168,11 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "synth.FM.maxpat",
+                    "name": "gst.synth.FM.maxpat",
                     "numinlets": 7,
-                    "numoutlets": 4,
+                    "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "multichannelsignal", "", "", "" ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal", "", "", "" ],
                     "patching_rect": [ 644.0, 208.0, 263.0, 146.0 ],
                     "varname": "synth.FM",
                     "viewvisibility": 1
@@ -148,11 +190,11 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "synth.scrub.samples.maxpat",
+                    "name": "gst.synth.scrub.samples.maxpat",
                     "numinlets": 5,
-                    "numoutlets": 1,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "multichannelsignal" ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal" ],
                     "patching_rect": [ 956.0, 208.0, 246.0, 146.0 ],
                     "varname": "synth.scrub.samples",
                     "viewvisibility": 1
@@ -182,7 +224,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "sid.output.maxpat",
+                    "name": "gst.mc.output.maxpat",
                     "numinlets": 2,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
@@ -202,11 +244,11 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "synth.scratch.samples.maxpat",
+                    "name": "gst.synth.scratch.samples.maxpat",
                     "numinlets": 5,
-                    "numoutlets": 1,
+                    "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "multichannelsignal" ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal" ],
                     "patching_rect": [ 47.0, 208.0, 240.79486083984375, 145.89173889160156 ],
                     "varname": "synth.scratch.samples",
                     "viewvisibility": 1
@@ -274,6 +316,7 @@
             "obj-15::obj-22": [ "live.gain~", "live.gain~", 0 ],
             "obj-15::obj-88": [ "start", "start", 0 ],
             "obj-15::obj-92": [ "loop", "loop", 0 ],
+            "obj-20::obj-14": [ "position", "position", 0 ],
             "obj-20::obj-2": [ "live.gain~[3]", "ogain", 0 ],
             "obj-20::obj-88": [ "start[1]", "start", 0 ],
             "obj-26::obj-2": [ "live.gain~[5]", "ogain", 0 ],
@@ -282,6 +325,7 @@
             "obj-40::obj-21": [ "carrier", "carrier", 0 ],
             "obj-40::obj-24": [ "duration", "duration", 0 ],
             "obj-40::obj-32": [ "index", "index", 0 ],
+            "obj-40::obj-33": [ "env", "env", 0 ],
             "obj-40::obj-42": [ "live.button", "live.button", 0 ],
             "obj-40::obj-88": [ "ConstAmp", "ConstAmp", 0 ],
             "obj-60::obj-15": [ "noise", "noise", 0 ],

@@ -15,7 +15,9 @@
         "boxes": [
             {
                 "box": {
+                    "annotation": "level in dB [-70 0] ",
                     "comment": "level in dB [-70 0] ",
+                    "hint": "level in dB [-70 0] ",
                     "id": "obj-7",
                     "index": 0,
                     "maxclass": "inlet",
@@ -78,13 +80,15 @@
                     "numoutlets": 0,
                     "patching_rect": [ 175.5, 147.5, 119.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 69.0, 75.0, 111.0, 18.0 ],
+                    "presentation_rect": [ 69.0, 66.0, 111.0, 18.0 ],
                     "text": "Press to Start the DAC"
                 }
             },
             {
                 "box": {
-                    "comment": "Audio input 1",
+                    "annotation": "mc audio input",
+                    "comment": "mc audio input",
+                    "hint": "mc audio input",
                     "id": "obj-20",
                     "index": 0,
                     "maxclass": "inlet",
