@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 134.0, 109.0 ],
+        "rect": [ 34.0, 102.0, 134.0, 109.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -46,7 +46,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1054.3333333333333, 623.0, 95.0, 21.0 ],
+                    "patching_rect": [ 1054.3333333333333, 520.0, 95.0, 21.0 ],
                     "text": "s #0-outputformat"
                 }
             },
@@ -58,7 +58,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 997.3333333333333, 650.0, 88.0, 21.0 ],
+                    "patching_rect": [ 997.3333333333333, 547.0, 88.0, 21.0 ],
                     "text": "s #0-inputformat"
                 }
             },
@@ -371,7 +371,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1035.0, 100.0, 475.0, 606.0 ],
+                        "rect": [ 34.0, 102.0, 475.0, 606.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -692,7 +692,7 @@
             },
             {
                 "box": {
-                    "comment": "orientation (list of 3 float [-180 180])",
+                    "comment": "orientation (list of 3 floats [-180 180])",
                     "id": "obj-7",
                     "index": 0,
                     "maxclass": "outlet",
@@ -703,7 +703,7 @@
             },
             {
                 "box": {
-                    "comment": "orientation (list of 3 float [-1 1])",
+                    "comment": "orientation (list of 3 floats [-1 1])",
                     "id": "obj-24",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1168,9 +1168,23 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 238.0, 94.0, 226.0, 432.0 ],
+                        "rect": [ 239.0, 102.0, 226.0, 432.0 ],
                         "openinpresentation": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "fontface": 2,
+                                    "fontsize": 11.0,
+                                    "id": "obj-27",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 4.0, 76.0, 175.0, 19.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 55.0, 75.5, 123.0, 19.0 ],
+                                    "text": "v3 [m/s2] and RIoT2 [g]"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-51",
@@ -1597,8 +1611,8 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 676.0, 381.0, 175.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 55.0, 57.0, 169.0, 19.0 ],
-                                    "text": "output units. V3: [m/s2]  RIot2 [g]",
+                                    "presentation_rect": [ 55.0, 54.5, 65.0, 19.0 ],
+                                    "text": "output units",
                                     "textjustification": 1
                                 }
                             },
@@ -1616,11 +1630,11 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 560.0, 381.0, 100.0, 18.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 6.0, 57.5, 47.0, 18.0 ],
+                                    "presentation_rect": [ 3.0, 55.0, 50.0, 18.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
-                                            "parameter_enum": [ "RIoT2", "V3" ],
-                                            "parameter_initial": [ 0.0 ],
+                                            "parameter_enum": [ "V3", "RIoT2" ],
+                                            "parameter_initial": [ 1 ],
                                             "parameter_initial_enable": 1,
                                             "parameter_linknames": 1,
                                             "parameter_longname": "out-sens-type",
@@ -1669,8 +1683,9 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 332.0, 370.0, 70.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 55.0, 30.5, 118.0, 19.0 ],
-                                    "text": "input units"
+                                    "presentation_rect": [ 58.0, 28.5, 59.0, 19.0 ],
+                                    "text": "input units",
+                                    "textjustification": 1
                                 }
                             },
                             {
@@ -1687,7 +1702,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 411.0, 371.0, 100.0, 18.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 6.0, 31.0, 47.0, 18.0 ],
+                                    "presentation_rect": [ 3.0, 29.0, 50.0, 18.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_enum": [ "V3", "RIoT2" ],
@@ -1737,7 +1752,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 332.0, 81.0, 59.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 55.0, 143.0, 59.0, 19.0 ],
+                                    "presentation_rect": [ 55.0, 149.0, 59.0, 19.0 ],
                                     "text": "Fame rate"
                                 }
                             },
@@ -1776,7 +1791,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 280.0, 79.0, 53.0, 18.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 1.0, 144.0, 53.0, 18.0 ],
+                                    "presentation_rect": [ 3.0, 150.0, 53.0, 18.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
@@ -1848,7 +1863,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 805.0, 137.0, 102.0, 31.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 62.0, 202.0, 112.0, 19.0 ],
+                                    "presentation_rect": [ 62.0, 208.0, 112.0, 19.0 ],
                                     "text": "Max value for display"
                                 }
                             },
@@ -1866,7 +1881,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 756.0, 137.0, 53.0, 18.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 203.0, 53.0, 18.0 ],
+                                    "presentation_rect": [ 3.0, 209.0, 53.0, 18.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
@@ -1896,7 +1911,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 595.0, 137.0, 53.0, 18.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 228.0, 53.0, 18.0 ],
+                                    "presentation_rect": [ 3.0, 234.0, 53.0, 18.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
@@ -1923,7 +1938,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 649.0, 138.0, 100.0, 31.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 62.0, 227.0, 109.0, 19.0 ],
+                                    "presentation_rect": [ 62.0, 233.0, 109.0, 19.0 ],
                                     "text": "Min value for display"
                                 }
                             },
@@ -1941,7 +1956,7 @@
                                         "in-sens-type": [ 0.0 ],
                                         "maxMonitor": [ 1.100000023841858 ],
                                         "minMonitor": [ -1.100000023841858 ],
-                                        "out-sens-type": [ 0.0 ]
+                                        "out-sens-type": [ 1.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u933006469"
@@ -1980,7 +1995,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 45.0, 78.5, 143.0, 19.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 55.0, 117.0, 118.0, 19.0 ],
+                                    "presentation_rect": [ 55.0, 123.0, 118.0, 19.0 ],
                                     "text": "Gyroweight (filter size)"
                                 }
                             },
@@ -1995,7 +2010,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 40.0, 14.0, 131.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 93.0, 221.0, 22.0 ],
+                                    "presentation_rect": [ 3.0, 99.0, 221.0, 22.0 ],
                                     "text": "Orientation"
                                 }
                             },
@@ -2025,7 +2040,7 @@
                                     "parameter_enable": 1,
                                     "patching_rect": [ 2.5, 73.0, 50.0, 18.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 117.0, 50.0, 18.0 ],
+                                    "presentation_rect": [ 3.0, 123.0, 50.0, 18.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
@@ -2054,7 +2069,7 @@
                                     "patching_rect": [ 5.0, 210.0, 310.0, 129.0 ],
                                     "presentation": 1,
                                     "presentation_linecount": 11,
-                                    "presentation_rect": [ 3.0, 280.0, 221.0, 142.0 ],
+                                    "presentation_rect": [ 3.0, 286.0, 221.0, 142.0 ],
                                     "text": "It computes the orientation, projection on the gravitation axis, fusing the acceleraometer and gyroscope data, using the complementory fileter\n\ninput: \n     - accelerometer data (list 3 float)\n     - gyroscope data (list 3 float)\n\noutput:\n     - [1]: orentation [list]"
                                 }
                             },
@@ -2069,7 +2084,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 5.0, 180.0, 120.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 256.0, 221.0, 22.0 ],
+                                    "presentation_rect": [ 3.0, 262.0, 221.0, 22.0 ],
                                     "text": "Help [Orientation]"
                                 }
                             },
@@ -2084,7 +2099,7 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 627.0, 17.0, 120.0, 22.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 174.0, 221.0, 22.0 ],
+                                    "presentation_rect": [ 3.0, 180.0, 221.0, 22.0 ],
                                     "text": "Monitoring"
                                 }
                             }
