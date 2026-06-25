@@ -111,7 +111,7 @@
 				frame rate [float] in Hz.
 			</digest>
 			<description>
-				frame rate [float] in Hz for <o>pipo.biquad</o> object.
+				frame rate [float] in Hz for <o>pipo.intensity</o> object.
 			</description>
 		</attribute>
 		<attribute name="intensity.cutfrequency" type="float" optional="1">
