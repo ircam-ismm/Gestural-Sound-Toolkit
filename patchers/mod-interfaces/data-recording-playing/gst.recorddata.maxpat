@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 415.0, 172.0 ],
+        "rect": [ 37.0, 104.0, 415.0, 172.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "gridsnaponopen": 2,
@@ -133,7 +133,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 517.0, 93.0, 215.0, 115.0 ],
+                        "rect": [ 525.0, 103.0, 215.0, 115.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -675,10 +675,10 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 855.0, 447.0, 57.0, 22.0 ],
+                    "patching_rect": [ 855.0, 447.0, 59.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 262.0, 59.0, 57.0, 22.0 ],
-                    "text": "unresize",
+                    "presentation_rect": [ 262.0, 59.0, 59.0, 22.0 ],
+                    "text": "no resize",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
             },
@@ -1952,12 +1952,12 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 712.0, 227.5, 618.0, 33.0 ],
+                    "patching_rect": [ 712.0, 227.5, 525.0, 33.0 ],
                     "saved_object_attributes": {
                         "savegui": 0,
                         "verbose": 1
                     },
-                    "text": "mubu.track #0-data 3 sig3 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui \"interface multiwave, fgcolor green, autobounds 1\" @predef yes"
+                    "text": "mubu.track #0-data 3 sig3 @matrixcols 3 @maxsize 180s @sampleperiod 10ms @timetagged no @info gui \"interface multiwave, fgcolor green, autobounds 1\" @predef yes"
                 }
             },
             {
@@ -1971,12 +1971,12 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 712.0, 187.5, 618.0, 33.0 ],
+                    "patching_rect": [ 712.0, 187.5, 525.0, 33.0 ],
                     "saved_object_attributes": {
                         "savegui": 0,
                         "verbose": 1
                     },
-                    "text": "mubu.track #0-data 2 sig2 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui \"interface multiwave, autobounds 1\" @predef yes"
+                    "text": "mubu.track #0-data 2 sig2 @matrixcols 3 @maxsize 180s @sampleperiod 10ms @timetagged no @info gui \"interface multiwave, autobounds 1\" @predef yes"
                 }
             },
             {
@@ -1990,12 +1990,12 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 712.0, 147.5, 618.0, 33.0 ],
+                    "patching_rect": [ 712.0, 147.5, 538.0, 33.0 ],
                     "saved_object_attributes": {
                         "savegui": 0,
                         "verbose": 1
                     },
-                    "text": "mubu.track #0-data 1 sig1 @matrixcols 3 @maxsize 30s @sampleperiod 10ms @timetagged no @info gui \"interface multiwave, fgcolor red, autobounds 1\" @predef yes"
+                    "text": "mubu.track #0-data 1 sig1 @matrixcols 3 @maxsize 180s @sampleperiod 10ms @timetagged no @info gui \"interface multiwave, fgcolor red, autobounds 1\" @predef yes"
                 }
             },
             {
@@ -2110,7 +2110,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 187.0, 493.0, 640.5, 187.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 33.0, 402.9999999999999, 132.0 ],
+                    "presentation_rect": [ 5.0, 33.0, 403.0, 132.0 ],
                     "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "rangeruler_bgcolordefault": 1,
                     "rangeruler_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
@@ -2145,7 +2145,7 @@
                     "useplaceholders": 1,
                     "verbose": 1,
                     "vieworder": [ "default" ],
-                    "windresize": 1
+                    "windresize": 0
                 }
             },
             {
