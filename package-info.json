@@ -3,7 +3,7 @@
 	"displayname" : "",
 	"version" : "2.1",
 	"author" : "",
-	"authors" : ["Baptiste Caramiaux", "Alessandro Altavilla", "Frederic Bevilacqua"],
+	"authors" : ["Baptiste Caramiaux", "Alessandro Altavilla", "Frederic Bevilacqua", "Sébastien Naves"],
 	"description" : "Toolkit in Max/MSP for gesture-to-sound scenario prototyping",
 	"tags" : [ "machine learning", "gesture recognition", "visualization", "gesture", "filtering", "mapping", "data"],
 	"website" : "https://ircam-ismm.github.io/max-msp/mubu.html",
@@ -26,15 +26,17 @@
 ,
 	"homepatcher" : "overview_gst_v2.maxpat",
 	"filelist" : 	{
-		"examples" : [],
+		"examples" : [
+			"1-motion-descriptors.maxpat","2-triggering.maxpat","3-classification-static.maxpat","3b-classification-static-regularization.maxpat","4-classification-dynamic.maxpat","5-regression-IMU-multislider.maxpat","5-regression-nXm-mapping.maxpat","6-regression-IMU-2D.maxpat","record-examples.maxpat","regression-filter.maxpat","temporal-classification-following-drawing.maxpat","temporal-classification-following-riot.maxpat","temporal-classification-following.maxpat"],
 		"externals" : [],
 		"patchers" : [],
-		"help" : [],
+		"help" : ["gst.1euro.maxhelp","gst.median.maxhelp","gst.acc.intensity.maxhelp","gst.movingaverage.maxhelp","gst.angles.maxhelp","gst.norm.multi.maxhelp","gst.bandpass.maxhelp","gst.norm.multi2.maxhelp","gst.classification.gmm.maxhelp","gst.norm.single.maxhelp","gst.classification.hhmm.maxhelp","gst.norm.single2.maxhelp","gst.clock.maxhelp","gst.derivative.maxhelp","gst.orientation.maxhelp","gst.gate.maxhelp","gst.regression.gmr.maxhelp","gst.hhmm.maxhelp","gst.regression.xmm.maxhelp","gst.highpass.maxhelp","gst.vtof.maxhelp","gst.kick.maxhelp","riotbitalino.maxhelp","gst.lowpass.maxhelp"],
 		"interfaces" : [],
 		"jsextensions" : [],
-		"media" : [],
-		"docs" : [],
-		"extras" : [ "overview_gst_v2.maxpat" ]
+		"media" : ["a_koto.wav","d_bach.wav","gst-intensity-data.mubu","b_aoki.wav","gmm-overview.mubu","overview.mubu","c_bl-cranklp.wav","gst-gyrodata.txt","water.wav"],
+		"docs" : ["_c74_common.css","gst.1euro.maxref.xml","_c74_common.xml","gst.acc.intensity.maxref.xml","_c74_common.xsl","gst.angles.maxref.xml","_c74_compat.html","gst.bandpass.maxref.xml","_c74_platform.xsl","gst.highpass.maxref.xml","_c74_ref_common.xsl","gst.lowpass.maxref.xml","_c74_ref.xsl","gst.orientation.maxref.xml","_c74_vig_common.xsl","gst.vtof.maxref.xml","_c74_vig.xsl"],
+		"extras" : [ "overview_gst_v2.maxpat" ],
+		"misc" : ["gst-folder-read-me.md","default-gravity.json","overview-mubu-example-single.json","default-multi.json","overview-mubu-example.json","default-single.json"]
 	}
 ,
 	"c74install" : 1,
