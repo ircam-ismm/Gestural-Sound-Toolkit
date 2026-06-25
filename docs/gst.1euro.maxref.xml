@@ -95,7 +95,7 @@
 				frame rate [float] in Hz.
 			</digest>
 			<description>
-				frame rate [float] in Hz for <o>pipo.biquad</o> object.
+				frame rate [float] in Hz for <o>gen @title oneEuroFilter</o> object.
 			</description>
 		</attribute>
 		<attribute name="beta" type="float" optional="1">
