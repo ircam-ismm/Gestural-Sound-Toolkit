@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 102.0, 134.0, 118.0 ],
+        "rect": [ 34.0, 93.0, 132.0, 116.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -18,7 +18,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1352.0, 114.0, 87.0, 22.0 ],
+                    "patching_rect": [ 1429.0, 119.0, 87.0, 22.0 ],
                     "text": "s #0-derivative"
                 }
             },
@@ -26,11 +26,11 @@
                 "box": {
                     "id": "obj-72",
                     "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 1204.0, 52.0, 66.0, 22.0 ],
-                    "text": "route done"
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "" ],
+                    "patching_rect": [ 1204.0, 52.0, 141.0, 22.0 ],
+                    "text": "route done scalingFactor"
                 }
             },
             {
@@ -39,7 +39,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1251.0, 108.0, 97.0, 22.0 ],
+                    "patching_rect": [ 1326.0, 119.0, 97.0, 22.0 ],
                     "text": "s #0-mubu-scroll"
                 }
             },
@@ -47,11 +47,11 @@
                 "box": {
                     "id": "obj-74",
                     "maxclass": "newobj",
-                    "numinlets": 5,
-                    "numoutlets": 5,
-                    "outlettype": [ "", "", "", "", "" ],
-                    "patching_rect": [ 1251.0, 80.0, 287.0, 22.0 ],
-                    "text": "routepass bounds framerate delta.size scalingFactor"
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 1326.0, 79.0, 213.0, 22.0 ],
+                    "text": "routepass bounds framerate delta.size"
                 }
             },
             {
@@ -251,7 +251,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 237.0, 102.0, 235.0, 407.0 ],
+                        "rect": [ 237.0, 94.0, 235.0, 407.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -354,8 +354,8 @@
                                     "restore": {
                                         "deltaSize": [ 5.0 ],
                                         "frame-rate": [ 100.0 ],
-                                        "maxMonitor": [ 10.0 ],
-                                        "minMonitor": [ -10.0 ],
+                                        "maxMonitor": [ 1.0 ],
+                                        "minMonitor": [ -1.0 ],
                                         "scalingFactor": [ 0.1 ]
                                     },
                                     "text": "autopattr",
@@ -861,7 +861,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-42", 0 ],
+                                    "destination": [ "obj-82", 0 ],
                                     "source": [ "obj-180", 0 ]
                                 }
                             },
@@ -1049,7 +1049,7 @@
                     "autoupdate": 120.0,
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "bgcolordefault": 1,
-                    "bounds": [ -10.0, 10.0 ],
+                    "bounds": [ -1.0, 1.0 ],
                     "colormode": "fgcolor",
                     "colorpattern": [ "black", "steelblue", "blue" ],
                     "domainruler": 0,
@@ -1071,7 +1071,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 499.0, 591.0, 10.0, 10.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 23.0, 130.0, 91.0 ],
+                    "presentation_rect": [ 0.0, 23.0, 128.0, 89.0 ],
                     "rangeruler": 0,
                     "rangeruler_size": 30,
                     "sampleperiod": 10.0,
@@ -1180,7 +1180,7 @@
             },
             {
                 "box": {
-                    "comment": "Sampling Rate (Hz)",
+                    "comment": "scaling factor",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",
@@ -1205,7 +1205,7 @@
             },
             {
                 "box": {
-                    "comment": "Delta.size",
+                    "comment": "delta.size",
                     "id": "obj-10",
                     "index": 0,
                     "maxclass": "inlet",
@@ -1364,7 +1364,7 @@
             },
             {
                 "box": {
-                    "comment": "Input data (list)",
+                    "comment": "Input data [list]",
                     "id": "obj-1",
                     "index": 0,
                     "maxclass": "inlet",
@@ -1592,14 +1592,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-74", 0 ],
+                    "destination": [ "obj-195", 4 ],
                     "source": [ "obj-72", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-195", 4 ],
-                    "source": [ "obj-74", 3 ]
+                    "destination": [ "obj-74", 0 ],
+                    "source": [ "obj-72", 2 ]
                 }
             },
             {
