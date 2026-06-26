@@ -8,7 +8,7 @@
 		Acceleration intensity from raw data stream from accelerometer [list]
 	</digest>
 	<description>
-		<o> gst.acc.intensity </o> calculates the acceleration intensity from the raw accelerometer data stream. <br/> The derivation and integration processes are applied with a pre or post normalization (mean or root of sum of squares).<br/>Uses <o> pipo.intensity </o>of MuBu package from ISMM team <br/>at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/
+		<o> gst.acc.intensity </o> calculates the acceleration intensity from the raw accelerometer data stream. <br/> The derivation and integration processes are applied with a pre or post normalization (mean or root of sum of squares).<br/>Uses <o> pipo.intensity </o>of MuBu package from ISMM team <br/>at IRCAM Centre Pompidou <a href="http://ismm.ircam.fr/pipo/">http://ismm.ircam.fr/pipo/</a>
 	</description>
 <!--METADATA-->
 	<metadatalist>

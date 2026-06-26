@@ -8,7 +8,7 @@
 		Speed-based cascaded lowpass filters (x4) of incoming data [list]
 	</digest>
 	<description>
-		<o> gst.1euro </o> is a speed-based cascaded lowpass filters (x4) <br/>of incoming data [list of floats].<br/>Uses a gen implementation of 1euro filter proposed by Géry Casiez <br/>https://gery.casiez.net/1euro/
+		<o> gst.1euro </o> is a speed-based cascaded lowpass filters (x4) <br/>of incoming data [list of floats].<br/>Uses a gen implementation of 1euro filter proposed by Géry Casiez <br/><a href="https://gery.casiez.net/1euro/">https://gery.casiez.net/1euro/</a>
 	</description>
 <!--METADATA-->
 	<metadatalist>

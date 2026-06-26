@@ -8,7 +8,7 @@
 		Computes the vector norm (normalized by the list lenght)
 	</digest>
 	<description>
-		<o> gst.vtof </o> means vector to float and computes the vector norm (normalized by the list lenght).<br/> e.g. vector norm of the 3d gyroscope data.<br/>Uses <o> pipo.norm </o>of MuBu package from ISMM team at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/
+		<o> gst.vtof </o> means vector to float and computes the vector norm (normalized by the list lenght).<br/> e.g. vector norm of the 3d gyroscope data.<br/>Uses <o> pipo.norm </o>of MuBu package from ISMM team at IRCAM Centre Pompidou <a href="http://ismm.ircam.fr/pipo/">http://ismm.ircam.fr/pipo/</a>
 	</description>
 <!--METADATA-->
 	<metadatalist>

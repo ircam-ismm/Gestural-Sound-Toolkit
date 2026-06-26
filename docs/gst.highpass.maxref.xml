@@ -8,7 +8,7 @@
 		Highpass filtering of incoming data [list]
 	</digest>
 	<description>
-		<o> gst.highpass </o> is a highpass filter of incoming data [list of floats].<br/>Uses <o> pipo.biquad </o>of MuBu package from ISMM team <br/>at IRCAM Centre Pompidou http://ismm.ircam.fr/pipo/
+		<o> gst.highpass </o> is a highpass filter of incoming data [list of floats].<br/>Uses <o> pipo.biquad </o>of MuBu package from ISMM team <br/>at IRCAM Centre Pompidou <a href="http://ismm.ircam.fr/pipo/">http://ismm.ircam.fr/pipo/</a>
 	</description>
 <!--METADATA-->
 	<metadatalist>
