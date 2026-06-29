@@ -930,7 +930,7 @@
             },
             {
                 "box": {
-                    "comment": "moving average size",
+                    "comment": "median size",
                     "id": "obj-9",
                     "index": 0,
                     "maxclass": "inlet",
@@ -1066,7 +1066,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 300.0, 419.0, 10.0, 10.0 ],
+                    "patching_rect": [ 300.0, 448.0, 69.0, 43.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 23.0, 124.0, 93.0 ],
                     "rangeruler": 0,
