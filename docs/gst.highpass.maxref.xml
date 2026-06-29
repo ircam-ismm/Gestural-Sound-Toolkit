@@ -122,6 +122,14 @@
 				quality factor (band width/cutoff frequency) of the highpass filter [float].
 			</description>
 		</attribute>
+		<attribute name="bypass" type="int" optional="1">
+			<digest>
+				bypass 0/1 [int]
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</attribute>
 	</attributelist>
 <!--ARGUMENTS-->
 

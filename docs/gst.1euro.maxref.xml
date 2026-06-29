@@ -114,6 +114,14 @@
 				minimum cutoff frequency of cascaded lowpass filters.
 			</description>
 		</attribute>
+		<attribute name="bypass" type="int" optional="1">
+			<digest>
+				bypass 0/1 [int]
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</attribute>
 	</attributelist>
 <!--ARGUMENTS-->
 
