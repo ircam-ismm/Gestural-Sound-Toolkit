@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 95.0, 162.0, 169.0 ],
+        "rect": [ 34.0, 94.0, 162.0, 169.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -144,6 +144,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
+                            "parameter_initial": [ 1.0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_invisible": 2,
                             "parameter_linknames": 1,
                             "parameter_longname": "live.toggle[1]",
@@ -213,7 +215,7 @@
             },
             {
                 "box": {
-                    "comment": "normalized B",
+                    "comment": "messages",
                     "id": "obj-36",
                     "index": 0,
                     "maxclass": "outlet",
@@ -5615,7 +5617,7 @@
                                         "bypass": [ 0.0 ],
                                         "maxMonitor": [ 1.0 ],
                                         "minMonitor": [ -1.0 ],
-                                        "mode": [ 0.0 ]
+                                        "mode": [ 1.0 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u933006469"
@@ -6033,7 +6035,7 @@
             },
             {
                 "box": {
-                    "comment": "Gyro. Norm on/off",
+                    "comment": "B Norm on/off",
                     "id": "obj-60",
                     "index": 0,
                     "maxclass": "inlet",
@@ -6045,7 +6047,7 @@
             },
             {
                 "box": {
-                    "comment": "Acc. Norm on/off",
+                    "comment": "A Norm on/off",
                     "id": "obj-61",
                     "index": 0,
                     "maxclass": "inlet",
