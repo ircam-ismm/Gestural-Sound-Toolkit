@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 136.0, 114.0 ],
+        "rect": [ 34.0, 102.0, 136.0, 114.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -384,8 +384,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 130.0, 312.0, 76.0, 21.0 ],
-                    "text": "r #0-mvavg"
+                    "patching_rect": [ 120.0, 281.0, 67.0, 21.0 ],
+                    "text": "r #0-mvavrg"
                 }
             },
             {
@@ -418,7 +418,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 240.0, 93.0, 231.0, 305.0 ],
+                        "rect": [ 134.0, 174.0, 231.0, 305.0 ],
                         "openinpresentation": 1,
                         "boxes": [
                             {
@@ -806,7 +806,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 9.5, 125.0, 78.0, 21.0 ],
-                                    "text": "s #0-mvavg"
+                                    "text": "s #0-mvavrg"
                                 }
                             },
                             {
