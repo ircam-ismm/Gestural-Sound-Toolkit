@@ -138,10 +138,7 @@
 		<seealso name="gst.movingaverage">
 			TEXT_HERE
 		</seealso>
-		<seealso name="gst.median">
-			TEXT_HERE
-		</seealso>
-		<seealso name="pipo.biquad">
+		<seealso name="pipo.median">
 			TEXT_HERE
 		</seealso>
 		<seealso name="mubu.scroll">
