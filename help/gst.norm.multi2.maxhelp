@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 94.0, 768.0, 752.0 ],
+        "rect": [ 34.0, 103.0, 768.0, 752.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -29,29 +29,11 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 768.0, 726.0 ],
+                        "rect": [ 34.0, 129.0, 768.0, 726.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
                         "boxes": [
-                            {
-                                "box": {
-                                    "id": "obj-4",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 73.0, 414.0, 103.0, 23.0 ],
-                                    "saved_object_attributes": {
-                                        "client_rect": [ 1886, 93, 2275, 380 ],
-                                        "parameter_enable": 0,
-                                        "parameter_mappable": 0,
-                                        "storage_rect": [ 583, 69, 1034, 197 ]
-                                    },
-                                    "text": "pattrstorage toto",
-                                    "varname": "toto"
-                                }
-                            },
                             {
                                 "box": {
                                     "bubble": 1,
@@ -551,7 +533,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 120.0, 768.0, 726.0 ],
+                        "rect": [ 0.0, 26.0, 768.0, 726.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
