@@ -29,7 +29,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 885.0, 774.0 ],
+                        "rect": [ 34.0, 120.0, 885.0, 774.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -169,7 +169,7 @@
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "" ],
                                     "patching_rect": [ 183.0, 475.0, 555.0, 23.0 ],
-                                    "text": "gst.norm.multi @bounds -1.1 1.1 @mode 1",
+                                    "text": "gst.norm.multi @bounds -1.1 1.1 @mode 1 @clip 1",
                                     "varname": "gst.movingaverage"
                                 }
                             },
@@ -593,7 +593,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 120.0, 885.0, 774.0 ],
+                        "rect": [ 0.0, 26.0, 885.0, 774.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -857,11 +857,11 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 5.0, 435.0, 152.0, 69.0 ],
+                                    "patching_rect": [ 5.0, 435.0, 158.0, 69.0 ],
                                     "presentation": 1,
-                                    "presentation_linecount": 2,
-                                    "presentation_rect": [ 608.0, 782.0, 264.0, 38.0 ],
-                                    "text": "A & B for min and max detection of the incoming signals and apply normalization"
+                                    "presentation_linecount": 3,
+                                    "presentation_rect": [ 608.0, 782.0, 264.0, 53.0 ],
+                                    "text": "Scan A & B for min and max detection of the incoming signals and apply normalization"
                                 }
                             },
                             {
@@ -1077,6 +1077,7 @@
             "obj-2::obj-31::obj-12::obj-33": [ "0-SclMax[2]", "SclMax-NB", 0 ],
             "obj-2::obj-31::obj-195::obj-13": [ "minMonitor", "minMonitor", 0 ],
             "obj-2::obj-31::obj-195::obj-14": [ "maxMonitor", "maxMonitor", 0 ],
+            "obj-2::obj-31::obj-195::obj-33": [ "clip[1]", "clip", 0 ],
             "obj-2::obj-31::obj-195::obj-39": [ "bypass", "bypass", 0 ],
             "obj-2::obj-31::obj-195::obj-50": [ "live.text[9]", "live.text", 0 ],
             "obj-2::obj-31::obj-195::obj-59": [ "live.text[8]", "live.text", 0 ],
@@ -1094,6 +1095,7 @@
             "obj-2::obj-31::obj-62": [ "live.text[38]", "live.text", 0 ],
             "obj-2::obj-31::obj-68": [ "live.text[33]", "live.text", 0 ],
             "obj-2::obj-31::obj-73": [ "live.toggle[1]", "bypass", 0 ],
+            "obj-2::obj-31::obj-86": [ "_clip[1]", "clip", 0 ],
             "obj-2::obj-48::obj-15": [ "live.text[12]", "live.text", 0 ],
             "obj-2::obj-48::obj-16": [ "loop", "loop", 0 ],
             "obj-2::obj-48::obj-18": [ "live.text[10]", "live.text", 0 ],
@@ -1122,29 +1124,31 @@
             "obj-6::obj-48::obj-71": [ "live.toggle[10]", "live.toggle", 0 ],
             "obj-6::obj-48::obj-80": [ "live.text[47]", "live.text", 0 ],
             "obj-6::obj-48::obj-85::obj-25": [ "maxduration[1]", "maxduration", 0 ],
-            "obj-6::obj-8::obj-10::obj-32": [ "0-SclMin[6]", "SclMin-NB", 0 ],
-            "obj-6::obj-8::obj-10::obj-33": [ "0-SclMax[6]", "SclMax-NB", 0 ],
-            "obj-6::obj-8::obj-12::obj-32": [ "0-SclMin[5]", "SclMin-NB", 0 ],
-            "obj-6::obj-8::obj-12::obj-33": [ "0-SclMax[5]", "SclMax-NB", 0 ],
-            "obj-6::obj-8::obj-195::obj-13": [ "minMonitor[1]", "minMonitor", 0 ],
-            "obj-6::obj-8::obj-195::obj-14": [ "maxMonitor[1]", "maxMonitor", 0 ],
+            "obj-6::obj-8::obj-10::obj-32": [ "0-SclMin[5]", "SclMin-NB", 0 ],
+            "obj-6::obj-8::obj-10::obj-33": [ "0-SclMax[5]", "SclMax-NB", 0 ],
+            "obj-6::obj-8::obj-12::obj-32": [ "0-SclMin[4]", "SclMin-NB", 0 ],
+            "obj-6::obj-8::obj-12::obj-33": [ "0-SclMax[4]", "SclMax-NB", 0 ],
+            "obj-6::obj-8::obj-195::obj-13": [ "minMonitor[4]", "minMonitor", 0 ],
+            "obj-6::obj-8::obj-195::obj-14": [ "maxMonitor[4]", "maxMonitor", 0 ],
+            "obj-6::obj-8::obj-195::obj-33": [ "clip", "clip", 0 ],
             "obj-6::obj-8::obj-195::obj-39": [ "bypass[1]", "bypass", 0 ],
-            "obj-6::obj-8::obj-195::obj-50": [ "live.text[50]", "live.text", 0 ],
-            "obj-6::obj-8::obj-195::obj-59": [ "live.text[34]", "live.text", 0 ],
-            "obj-6::obj-8::obj-195::obj-62": [ "live.text[42]", "live.text", 0 ],
+            "obj-6::obj-8::obj-195::obj-50": [ "live.text[15]", "live.text", 0 ],
+            "obj-6::obj-8::obj-195::obj-59": [ "live.text[14]", "live.text", 0 ],
+            "obj-6::obj-8::obj-195::obj-62": [ "live.text[22]", "live.text", 0 ],
             "obj-6::obj-8::obj-195::obj-64": [ "mode[1]", "mode", 0 ],
-            "obj-6::obj-8::obj-195::obj-68": [ "live.text[43]", "live.text", 0 ],
-            "obj-6::obj-8::obj-22": [ "live.text[22]", "live.text", 0 ],
-            "obj-6::obj-8::obj-28": [ "live.text[55]", "live.text", 0 ],
-            "obj-6::obj-8::obj-29": [ "live.text[54]", "live.text", 0 ],
-            "obj-6::obj-8::obj-31": [ "live.text[53]", "live.text", 0 ],
+            "obj-6::obj-8::obj-195::obj-68": [ "live.text[29]", "live.text", 0 ],
+            "obj-6::obj-8::obj-22": [ "live.text[18]", "live.text", 0 ],
+            "obj-6::obj-8::obj-28": [ "live.text[35]", "live.text", 0 ],
+            "obj-6::obj-8::obj-29": [ "live.text[34]", "live.text", 0 ],
+            "obj-6::obj-8::obj-31": [ "live.text[59]", "live.text", 0 ],
             "obj-6::obj-8::obj-34": [ "live.toggle[12]", "bypass", 0 ],
-            "obj-6::obj-8::obj-37": [ "live.text[51]", "live.text", 0 ],
-            "obj-6::obj-8::obj-50": [ "live.text[52]", "live.text", 0 ],
-            "obj-6::obj-8::obj-59": [ "live.text[40]", "live.text", 0 ],
-            "obj-6::obj-8::obj-62": [ "live.text[36]", "live.text", 0 ],
-            "obj-6::obj-8::obj-68": [ "live.text[35]", "live.text", 0 ],
+            "obj-6::obj-8::obj-37": [ "live.text[60]", "live.text", 0 ],
+            "obj-6::obj-8::obj-50": [ "live.text[30]", "live.text", 0 ],
+            "obj-6::obj-8::obj-59": [ "live.text[17]", "live.text", 0 ],
+            "obj-6::obj-8::obj-62": [ "live.text[31]", "live.text", 0 ],
+            "obj-6::obj-8::obj-68": [ "live.text[58]", "live.text", 0 ],
             "obj-6::obj-8::obj-73": [ "live.toggle[13]", "bypass", 0 ],
+            "obj-6::obj-8::obj-86": [ "_clip", "clip", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -1154,8 +1158,14 @@
                 }
             },
             "parameter_overrides": {
+                "obj-2::obj-31::obj-195::obj-33": {
+                    "parameter_longname": "clip[1]"
+                },
                 "obj-2::obj-31::obj-22": {
                     "parameter_longname": "live.text[19]"
+                },
+                "obj-2::obj-31::obj-86": {
+                    "parameter_longname": "_clip[1]"
                 },
                 "obj-2::obj-48::obj-71": {
                     "parameter_longname": "live.toggle[9]"
@@ -1215,67 +1225,70 @@
                     "parameter_longname": "maxduration[1]"
                 },
                 "obj-6::obj-8::obj-10::obj-32": {
-                    "parameter_longname": "0-SclMin[6]"
-                },
-                "obj-6::obj-8::obj-10::obj-33": {
-                    "parameter_longname": "0-SclMax[6]"
-                },
-                "obj-6::obj-8::obj-12::obj-32": {
                     "parameter_longname": "0-SclMin[5]"
                 },
-                "obj-6::obj-8::obj-12::obj-33": {
+                "obj-6::obj-8::obj-10::obj-33": {
                     "parameter_longname": "0-SclMax[5]"
                 },
+                "obj-6::obj-8::obj-12::obj-32": {
+                    "parameter_longname": "0-SclMin[4]"
+                },
+                "obj-6::obj-8::obj-12::obj-33": {
+                    "parameter_longname": "0-SclMax[4]"
+                },
                 "obj-6::obj-8::obj-195::obj-13": {
-                    "parameter_longname": "minMonitor[1]"
+                    "parameter_longname": "minMonitor[4]"
                 },
                 "obj-6::obj-8::obj-195::obj-14": {
-                    "parameter_longname": "maxMonitor[1]"
+                    "parameter_longname": "maxMonitor[4]"
                 },
                 "obj-6::obj-8::obj-195::obj-39": {
                     "parameter_longname": "bypass[1]"
                 },
                 "obj-6::obj-8::obj-195::obj-50": {
-                    "parameter_longname": "live.text[50]"
+                    "parameter_longname": "live.text[15]"
                 },
                 "obj-6::obj-8::obj-195::obj-59": {
-                    "parameter_longname": "live.text[34]"
+                    "parameter_longname": "live.text[14]"
                 },
                 "obj-6::obj-8::obj-195::obj-62": {
-                    "parameter_longname": "live.text[42]"
+                    "parameter_longname": "live.text[22]"
                 },
                 "obj-6::obj-8::obj-195::obj-64": {
                     "parameter_longname": "mode[1]"
                 },
                 "obj-6::obj-8::obj-195::obj-68": {
-                    "parameter_longname": "live.text[43]"
+                    "parameter_longname": "live.text[29]"
+                },
+                "obj-6::obj-8::obj-22": {
+                    "parameter_longname": "live.text[18]"
                 },
                 "obj-6::obj-8::obj-28": {
-                    "parameter_longname": "live.text[55]"
+                    "parameter_longname": "live.text[35]"
                 },
                 "obj-6::obj-8::obj-29": {
-                    "parameter_longname": "live.text[54]"
+                    "parameter_longname": "live.text[34]"
                 },
                 "obj-6::obj-8::obj-31": {
-                    "parameter_longname": "live.text[53]"
+                    "parameter_longname": "live.text[59]"
                 },
                 "obj-6::obj-8::obj-34": {
                     "parameter_longname": "live.toggle[12]"
                 },
                 "obj-6::obj-8::obj-37": {
-                    "parameter_longname": "live.text[51]"
+                    "parameter_longname": "live.text[60]"
                 },
                 "obj-6::obj-8::obj-50": {
-                    "parameter_longname": "live.text[52]"
+                    "parameter_longname": "live.text[30]"
                 },
                 "obj-6::obj-8::obj-59": {
-                    "parameter_longname": "live.text[40]"
+                    "parameter_longname": "live.text[17]"
                 },
                 "obj-6::obj-8::obj-62": {
-                    "parameter_longname": "live.text[36]"
+                    "parameter_longname": "live.text[31]"
                 },
                 "obj-6::obj-8::obj-68": {
-                    "parameter_longname": "live.text[35]"
+                    "parameter_longname": "live.text[58]"
                 },
                 "obj-6::obj-8::obj-73": {
                     "parameter_longname": "live.toggle[13]"

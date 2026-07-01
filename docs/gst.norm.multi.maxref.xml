@@ -129,6 +129,14 @@
 				1 (default) takes the biggest absolute value to set maximum and minimum used for normalization.
 			</description>
 		</attribute>
+		<attribute name="clip" type="int" optional="1">
+			<digest>
+				clip 0/1 [int]
+			</digest>
+			<description>
+				0 (default) limit number to the range [-1 +1].
+			</description>
+		</attribute>
 		<attribute name="bypass" type="int" optional="1">
 			<digest>
 				bypass 0/1 [int]
