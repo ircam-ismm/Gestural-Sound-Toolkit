@@ -15,6 +15,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-88",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1162.4, 68.5, 54.0, 22.0 ],
+                    "text": "deferlow"
+                }
+            },
+            {
+                "box": {
                     "fontname": "Arial",
                     "fontsize": 11.0,
                     "id": "obj-85",
@@ -296,7 +307,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1162.4, 65.5, 25.0, 25.0 ]
+                    "patching_rect": [ 1162.4, 37.5, 25.0, 25.0 ]
                 }
             },
             {
@@ -3082,12 +3093,12 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 787.0, 122.94999999999999, 56.0, 22.0 ],
                                     "restore": {
-                                        "BX-SclMax": [ 0.0 ],
-                                        "BX-SclMin": [ 0.0 ],
-                                        "BY-SclMax": [ 0.0 ],
-                                        "BY-SclMin": [ 0.0 ],
-                                        "BZ-SclMax": [ 0.0 ],
-                                        "BZ-SclMin": [ 0.0 ]
+                                        "BX-SclMax": [ 25.35968589782715 ],
+                                        "BX-SclMin": [ -23.7330265045166 ],
+                                        "BY-SclMax": [ 32.019718170166016 ],
+                                        "BY-SclMin": [ -34.88847732543945 ],
+                                        "BZ-SclMax": [ 15.434616088867188 ],
+                                        "BZ-SclMin": [ -20.777982711791992 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u414003394"
@@ -11069,7 +11080,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-70", 0 ],
+                    "destination": [ "obj-88", 0 ],
                     "source": [ "obj-6", 0 ]
                 }
             },
@@ -11294,6 +11305,12 @@
                     "destination": [ "obj-195", 14 ],
                     "order": 0,
                     "source": [ "obj-87", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-70", 0 ],
+                    "source": [ "obj-88", 0 ]
                 }
             },
             {
