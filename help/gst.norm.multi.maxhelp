@@ -29,7 +29,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 120.0, 885.0, 774.0 ],
+                        "rect": [ 0.0, 26.0, 885.0, 774.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -593,11 +593,41 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 885.0, 774.0 ],
+                        "rect": [ 34.0, 120.0, 885.0, 774.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "fontname": "Arial Italic",
+                                    "fontsize": 14.0,
+                                    "id": "obj-10",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 10.0, 735.5, 451.0, 22.0 ],
+                                    "presentation": 1,
+                                    "presentation_linecount": 3,
+                                    "presentation_rect": [ 11.0, 762.0, 264.0, 53.0 ],
+                                    "text": "copy /Packages/Gestural-Sound-Toolkit/misc/gst -> ~/Documents/Ircam"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "fontname": "Arial Italic",
+                                    "fontsize": 14.0,
+                                    "id": "obj-7",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 10.0, 710.5, 378.0, 22.0 ],
+                                    "presentation": 1,
+                                    "presentation_linecount": 2,
+                                    "presentation_rect": [ 20.0, 960.0, 264.0, 38.0 ],
+                                    "text": "important : create and/or check a folder ~/Documents/Ircam"
+                                }
+                            },
                             {
                                 "box": {
                                     "fontsize": 8.0,
@@ -831,21 +861,6 @@
                                     "outlettype": [ "", "", "" ],
                                     "patching_rect": [ 598.0, 681.0, 273.0, 23.0 ],
                                     "text": "route filename fileid"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "fontname": "Arial Italic",
-                                    "fontsize": 14.0,
-                                    "id": "obj-7",
-                                    "maxclass": "comment",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 10.0, 735.5, 473.0, 22.0 ],
-                                    "presentation": 1,
-                                    "presentation_linecount": 2,
-                                    "presentation_rect": [ 20.0, 960.0, 264.0, 38.0 ],
-                                    "text": "important : create and/or check a folder ~/Documents/Ircam/gst/scale-norm"
                                 }
                             },
                             {
