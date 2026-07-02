@@ -2642,6 +2642,7 @@
                 "box": {
                     "activebgoncolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                     "id": "obj-56",
+                    "ignoreclick": 1,
                     "maxclass": "live.text",
                     "numinlets": 1,
                     "numoutlets": 2,
@@ -2670,6 +2671,7 @@
             {
                 "box": {
                     "id": "obj-25",
+                    "ignoreclick": 1,
                     "maxclass": "live.text",
                     "numinlets": 1,
                     "numoutlets": 2,
@@ -3416,6 +3418,8 @@
                                                     "saved_object_attributes": {
                                                         "autostart": 0,
                                                         "defer": 0,
+                                                        "node_bin_path": "",
+                                                        "npm_bin_path": "",
                                                         "watch": 0
                                                     },
                                                     "text": "node.script comote-connect-server.js",

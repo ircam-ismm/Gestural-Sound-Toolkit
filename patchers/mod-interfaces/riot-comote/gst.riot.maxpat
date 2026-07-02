@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 102.0, 338.0, 149.0 ],
+        "rect": [ 34.0, 93.0, 338.0, 149.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "gridsize": [ 5.0, 5.0 ],
@@ -2617,6 +2617,7 @@
                 "box": {
                     "activebgoncolor": [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
                     "id": "obj-56",
+                    "ignoreclick": 1,
                     "maxclass": "live.text",
                     "numinlets": 1,
                     "numoutlets": 2,
@@ -2645,6 +2646,7 @@
             {
                 "box": {
                     "id": "obj-25",
+                    "ignoreclick": 1,
                     "maxclass": "live.text",
                     "numinlets": 1,
                     "numoutlets": 2,
