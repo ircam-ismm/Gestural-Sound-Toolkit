@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 35.0, 102.0, 771.0, 822.0 ],
+        "rect": [ 34.0, 96.0, 771.0, 822.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -29,7 +29,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 35.0, 128.0, 771.0, 796.0 ],
+                        "rect": [ 0.0, 26.0, 771.0, 796.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -64531,7 +64531,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 771.0, 796.0 ],
+                        "rect": [ 34.0, 122.0, 771.0, 796.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -64558,16 +64558,10 @@
                                     "border": 2.0,
                                     "id": "obj-74",
                                     "justification": 4,
-                                    "linecolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
                                     "maxclass": "live.line",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 128.0, 299.0, 267.0, 25.0 ],
-                                    "saved_attribute_attributes": {
-                                        "linecolor": {
-                                            "expression": "themecolor.live_meter_bg"
-                                        }
-                                    }
+                                    "patching_rect": [ 128.0, 299.0, 267.0, 25.0 ]
                                 }
                             },
                             {
@@ -64590,16 +64584,10 @@
                                     "border": 2.0,
                                     "id": "obj-71",
                                     "justification": 4,
-                                    "linecolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
                                     "maxclass": "live.line",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 76.0, 348.0, 103.0, 25.0 ],
-                                    "saved_attribute_attributes": {
-                                        "linecolor": {
-                                            "expression": "themecolor.live_meter_bg"
-                                        }
-                                    }
+                                    "patching_rect": [ 76.0, 348.0, 103.0, 25.0 ]
                                 }
                             },
                             {
@@ -64627,7 +64615,7 @@
                                     "angle": 270.0,
                                     "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 0.0 ],
                                     "border": 2,
-                                    "bordercolor": [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
+                                    "bordercolor": [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
                                     "id": "obj-67",
                                     "maxclass": "panel",
                                     "mode": 0,
@@ -64637,7 +64625,7 @@
                                     "proportion": 0.5,
                                     "saved_attribute_attributes": {
                                         "bordercolor": {
-                                            "expression": "themecolor.live_meter_bg"
+                                            "expression": "themecolor.live_surface_frame"
                                         }
                                     }
                                 }
