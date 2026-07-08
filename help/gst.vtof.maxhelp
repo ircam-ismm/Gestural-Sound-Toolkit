@@ -36,6 +36,35 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "fontsize": 12.0,
+                                    "id": "obj-6",
+                                    "maxclass": "live.text",
+                                    "mode": 0,
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "parameter_enable": 1,
+                                    "parameter_mappable": 0,
+                                    "patching_rect": [ 292.0, 187.0, 163.0, 18.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 186.0, 157.0, 124.0, 17.0 ],
+                                    "saved_attribute_attributes": {
+                                        "valueof": {
+                                            "parameter_enum": [ "val1", "val2" ],
+                                            "parameter_invisible": 4,
+                                            "parameter_longname": "live.text[16]",
+                                            "parameter_mmax": 1,
+                                            "parameter_modmode": 0,
+                                            "parameter_shortname": "live.text",
+                                            "parameter_type": 2
+                                        }
+                                    },
+                                    "text": "movement analysis.maxpat",
+                                    "varname": "live.text[2]"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-5",
                                     "maxclass": "message",
                                     "numinlets": 2,
@@ -128,7 +157,7 @@
                                         ],
                                         "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                     },
-                                    "patching_rect": [ 240.0, 190.0, 58.0, 17.0 ],
+                                    "patching_rect": [ 436.0, 217.0, 58.0, 17.0 ],
                                     "text": "p load-helpfile"
                                 }
                             },
@@ -143,7 +172,7 @@
                                     "outlettype": [ "", "" ],
                                     "parameter_enable": 1,
                                     "parameter_mappable": 0,
-                                    "patching_rect": [ 26.0, 157.0, 119.0, 18.666664958000183 ],
+                                    "patching_rect": [ 292.0, 210.0, 119.0, 18.666664958000183 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 172.25, 3.0, 124.0, 17.0 ],
                                     "saved_attribute_attributes": {
@@ -203,7 +232,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 10.0, 10.0, 620.0, 125.0 ]
+                                    "patching_rect": [ 10.0, 10.0, 513.0, 122.0 ]
                                 }
                             }
                         ],
@@ -212,6 +241,13 @@
                                 "patchline": {
                                     "destination": [ "obj-1", 1 ],
                                     "source": [ "obj-5", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-58", 0 ],
+                                    "hidden": 1,
+                                    "source": [ "obj-6", 1 ]
                                 }
                             },
                             {
@@ -281,6 +317,110 @@
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "fontsize": 12.0,
+                                    "id": "obj-6",
+                                    "maxclass": "live.text",
+                                    "mode": 0,
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "parameter_enable": 1,
+                                    "parameter_mappable": 0,
+                                    "patching_rect": [ 10.0, 144.0, 163.0, 18.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 186.0, 157.0, 124.0, 17.0 ],
+                                    "saved_attribute_attributes": {
+                                        "valueof": {
+                                            "parameter_enum": [ "val1", "val2" ],
+                                            "parameter_invisible": 4,
+                                            "parameter_longname": "live.text[17]",
+                                            "parameter_mmax": 1,
+                                            "parameter_modmode": 0,
+                                            "parameter_shortname": "live.text",
+                                            "parameter_type": 2
+                                        }
+                                    },
+                                    "text": "movement analysis.maxpat",
+                                    "varname": "live.text[2]"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "fontsize": 8.0,
+                                    "hidden": 1,
+                                    "id": "obj-58",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patcher": {
+                                        "fileversion": 1,
+                                        "appversion": {
+                                            "major": 9,
+                                            "minor": 1,
+                                            "revision": 4,
+                                            "architecture": "x64",
+                                            "modernui": 1
+                                        },
+                                        "classnamespace": "box",
+                                        "rect": [ 977.0, 472.0, 290.0, 244.0 ],
+                                        "boxes": [
+                                            {
+                                                "box": {
+                                                    "id": "obj-14",
+                                                    "maxclass": "newobj",
+                                                    "numinlets": 1,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "" ],
+                                                    "patching_rect": [ 86.0, 141.0, 53.0, 22.0 ],
+                                                    "text": "pcontrol"
+                                                }
+                                            },
+                                            {
+                                                "box": {
+                                                    "id": "obj-13",
+                                                    "maxclass": "newobj",
+                                                    "numinlets": 1,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "" ],
+                                                    "patching_rect": [ 86.0, 111.0, 117.0, 22.0 ],
+                                                    "text": "prepend loadunique"
+                                                }
+                                            },
+                                            {
+                                                "box": {
+                                                    "comment": "",
+                                                    "id": "obj-1",
+                                                    "index": 1,
+                                                    "maxclass": "inlet",
+                                                    "numinlets": 0,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "" ],
+                                                    "patching_rect": [ 86.0, 70.0, 30.0, 30.0 ]
+                                                }
+                                            }
+                                        ],
+                                        "lines": [
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-13", 0 ],
+                                                    "source": [ "obj-1", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-14", 0 ],
+                                                    "source": [ "obj-13", 0 ]
+                                                }
+                                            }
+                                        ],
+                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+                                    },
+                                    "patching_rect": [ 178.0, 144.5, 58.0, 17.0 ],
+                                    "text": "p load-helpfile"
+                                }
+                            },
                             {
                                 "box": {
                                     "bubble": 1,
@@ -1326,6 +1466,13 @@
                                     "hidden": 1,
                                     "source": [ "obj-5", 0 ]
                                 }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-58", 0 ],
+                                    "hidden": 1,
+                                    "source": [ "obj-6", 1 ]
+                                }
                             }
                         ],
                         "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
@@ -1394,12 +1541,14 @@
             "obj-1::obj-48::obj-71": [ "live.toggle[1]", "live.toggle", 0 ],
             "obj-1::obj-48::obj-80": [ "live.text[9]", "live.text", 0 ],
             "obj-1::obj-48::obj-85::obj-25": [ "maxduration", "maxduration", 0 ],
+            "obj-1::obj-6": [ "live.text[17]", "live.text", 0 ],
             "obj-1::obj-9::obj-195::obj-13": [ "minMonitor", "minMonitor", 0 ],
             "obj-1::obj-9::obj-195::obj-14": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-1::obj-9::obj-37": [ "live.text[27]", "live.text", 0 ],
             "obj-3::obj-1::obj-195::obj-13": [ "minMonitor[1]", "minMonitor", 0 ],
             "obj-3::obj-1::obj-195::obj-14": [ "maxMonitor[1]", "maxMonitor", 0 ],
             "obj-3::obj-1::obj-37": [ "live.text[15]", "live.text", 0 ],
+            "obj-3::obj-6": [ "live.text[16]", "live.text", 0 ],
             "obj-3::obj-66": [ "live.text[14]", "live.text", 0 ],
             "parameterbanks": {
                 "0": {
