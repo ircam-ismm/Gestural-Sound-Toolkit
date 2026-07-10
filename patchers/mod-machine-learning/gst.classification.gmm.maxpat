@@ -9,9 +9,22 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 319.0, 203.0 ],
+        "rect": [ 34.0, 102.0, 319.0, 203.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 11.0,
+                    "id": "obj-86",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 739.0, 186.0, 52.0, 21.0 ],
+                    "text": "r #0-total"
+                }
+            },
             {
                 "box": {
                     "id": "obj-85",
@@ -2126,7 +2139,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 409.0, 667.0, 231.40524075978527, 99.6651175345512 ],
                     "presentation": 1,
-                    "presentation_rect": [ 65.0, 81.0, 231.10714322328568, 100.0 ],
+                    "presentation_rect": [ 65.0, 81.0, 232.0, 100.0 ],
                     "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "rangeruler_bgcolordefault": 1,
                     "rangeruler_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
@@ -2850,6 +2863,12 @@
                     "destination": [ "obj-45", 0 ],
                     "midpoints": [ 699.5, 936.0, 830.703125, 936.0, 830.703125, 213.0, 785.5, 213.0 ],
                     "source": [ "obj-85", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "source": [ "obj-86", 0 ]
                 }
             },
             {
