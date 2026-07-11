@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 249.0, 147.0 ],
+        "rect": [ 134.0, 174.0, 249.0, 147.0 ],
         "openinpresentation": 1,
         "gridsize": [ 2.0, 2.0 ],
         "boxes": [
@@ -210,9 +210,9 @@
                     "annotation": "indexed list of soundfiles (from 1)",
                     "annotation_name": "indexed list of soundfiles (from 1)",
                     "autopopulate": 1,
-                    "bgcolor": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+                    "bgcolor": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgfillcolor_angle": 270.0,
-                    "bgfillcolor_color": [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+                    "bgfillcolor_color": [ 0.235, 0.235, 0.235, 1.0 ],
                     "bgfillcolor_color1": [ 0.3764705882352941, 0.3843137254901961, 0.4, 1.0 ],
                     "bgfillcolor_color2": [ 0.2901960784313726, 0.30980392156862746, 0.30196078431372547, 1.0 ],
                     "bgfillcolor_proportion": 0.39,
@@ -239,7 +239,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "textcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "varname": "sflist"
                 }
             },
@@ -729,7 +729,7 @@
                     "patching_rect": [ 406.0, 504.0, 360.0, 137.0 ],
                     "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "rangeruler_bgcolordefault": 0,
-                    "rangeruler_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "rangeruler_fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "rangeruler_fgcolordefault": 1,
                     "rangeruler_grid": 0,
                     "rangeruler_size": 35,
@@ -866,8 +866,14 @@
                     "patching_rect": [ 406.0, 159.0, 75.0, 94.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 5.747126787900925, 124.13793861865997, 236.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "slidercolor": {
+                            "expression": "themecolor.live_gain_reduction_line_color"
+                        }
+                    },
                     "setminmax": [ 0.0, 1.0 ],
-                    "setstyle": 1
+                    "setstyle": 1,
+                    "slidercolor": [ 1.0, 0.725490196078431, 0.003921568627451, 1.0 ]
                 }
             },
             {
