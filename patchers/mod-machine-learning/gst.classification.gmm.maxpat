@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 102.0, 319.0, 203.0 ],
+        "rect": [ 34.0, 102.0, 958.0, 1131.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -114,7 +114,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1110.0, 100.0, 87.0, 21.0 ],
+                    "patching_rect": [ 1110.0, 121.0, 87.0, 21.0 ],
                     "text": "s #0-mubu.track"
                 }
             },
@@ -126,7 +126,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1053.0, 66.0, 54.0, 21.0 ],
+                    "patching_rect": [ 1053.0, 87.0, 54.0, 21.0 ],
                     "text": "s #0-total"
                 }
             },
@@ -151,7 +151,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 996.0, 66.0, 54.0, 21.0 ],
+                    "patching_rect": [ 996.0, 87.0, 54.0, 21.0 ],
                     "text": "s #0-auto"
                 }
             },
@@ -296,7 +296,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 940.0, 94.0, 66.0, 21.0 ],
+                    "patching_rect": [ 940.0, 115.0, 66.0, 21.0 ],
                     "text": "s #0-enable"
                 }
             },
@@ -307,7 +307,7 @@
                     "numinlets": 5,
                     "numoutlets": 5,
                     "outlettype": [ "", "", "", "", "" ],
-                    "patching_rect": [ 883.0, 23.0, 246.0, 22.0 ],
+                    "patching_rect": [ 883.0, 44.0, 246.0, 22.0 ],
                     "text": "route done enable auto+ total"
                 }
             },
@@ -319,7 +319,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1203.0, 100.0, 88.0, 21.0 ],
+                    "patching_rect": [ 1203.0, 121.0, 88.0, 21.0 ],
                     "text": "s #0-mubu.gmm"
                 }
             },
@@ -330,7 +330,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 1110.0, 66.0, 204.0, 22.0 ],
+                    "patching_rect": [ 1110.0, 87.0, 204.0, 22.0 ],
                     "text": "routepass frameperiod regularization"
                 }
             },
@@ -341,7 +341,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 830.0, -4.0, 72.0, 22.0 ],
+                    "patching_rect": [ 830.0, 17.0, 72.0, 22.0 ],
                     "text": "patcherargs"
                 }
             },
@@ -473,7 +473,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 538.0, 93.0, 134.0, 22.0 ],
+                    "patching_rect": [ 532.5, 73.0, 134.0, 22.0 ],
                     "restore": {
                         "auto+": [ 1.0 ],
                         "enable": [ 1.0 ],
@@ -587,7 +587,7 @@
                         ],
                         "toolbaradditions": [ "s2n", "Modalys" ]
                     },
-                    "patching_rect": [ 739.0, 133.0, 58.0, 17.0 ],
+                    "patching_rect": [ 736.0, 132.8333324790001, 58.0, 17.0 ],
                     "text": "p load-helpfile"
                 }
             },
@@ -1152,7 +1152,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 459.0, 368.0, 66.0, 17.0 ],
+                    "patching_rect": [ 458.75, 369.0, 30.0, 17.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 36.642856776714325, 54.57142838835716, 33.0, 17.0 ],
                     "text": "label "
@@ -1272,7 +1272,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 760.0, 262.0, 30.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 213.10714322328568, 55.07142838835716, 32.0, 17.0 ],
+                    "presentation_rect": [ 209.5, 55.07142838835716, 26.0, 17.0 ],
                     "text": "total"
                 }
             },
@@ -1751,7 +1751,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 704.0, 262.0, 47.0, 17.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 180.10714322328568, 55.07142838835716, 34.0, 17.0 ],
+                    "presentation_rect": [ 176.5, 55.07142838835716, 34.0, 17.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 6 ],
@@ -2137,7 +2137,7 @@
                     "outputvalues": 0,
                     "outputviewname": 0,
                     "parameter_enable": 0,
-                    "patching_rect": [ 409.0, 667.0, 231.40524075978527, 99.6651175345512 ],
+                    "patching_rect": [ 409.0, 667.0, 229.0, 137.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 65.0, 81.0, 232.0, 100.0 ],
                     "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2174,7 +2174,7 @@
                     "useplaceholders": 1,
                     "verbose": 1,
                     "vieworder": [ "default" ],
-                    "windresize": 1
+                    "windresize": 0
                 }
             },
             {
@@ -2221,7 +2221,8 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 939.0, 140.0, 150.0, 22.0 ]
+                    "patching_rect": [ 950.0, 313.5, 79.0, 22.0 ],
+                    "text_width": 52.125
                 }
             }
         ],
