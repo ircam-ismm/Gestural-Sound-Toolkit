@@ -8,7 +8,8 @@
 		Speed-based cascaded lowpass filters (x4) of incoming data [list]
 	</digest>
 	<description>
-		<o> gst.1euro </o> is a speed-based cascaded lowpass filters (x4) <br/>of incoming data [list of floats].<br/>Uses a gen implementation of 1euro filter proposed by Géry Casiez <br/><a href="https://gery.casiez.net/1euro/">https://gery.casiez.net/1euro/</a>
+		<o> gst.1euro </o> is a speed-based cascaded lowpass filters (x4) of incoming data [list of 3 floats] proposed by Géry Casiez <a href="https://gery.casiez.net/1euro/">https://gery.casiez.net/1euro/</a>
+		<br/>Uses <o> pipo.1euro </o>of MuBu package from ISMM team <br/>at IRCAM Centre Pompidou <a href="http://ismm.ircam.fr/pipo/">http://ismm.ircam.fr/pipo/</a>
 	</description>
 <!--METADATA-->
 	<metadatalist>
@@ -53,13 +54,21 @@
 		</inlet>
 		<inlet id="3" type="int">
 			<digest>
+				order [int]
+			</digest>
+			<description>
+				number of cascaded filters [1 to 4]
+			</description>
+		</inlet>
+		<inlet id="4" type="int">
+			<digest>
 				bypass 0/1 [int]
 			</digest>
 			<description>
 				TEXT_HERE
 			</description>
 		</inlet>
-		<inlet id="4" type="anything">
+		<inlet id="5" type="anything">
 			<digest>
 			mubu.scroll configuration message	
 			</digest>
@@ -80,7 +89,6 @@
 		</outlet>
 	</outletlist>
 <!--ATTRIBUTES-->
-<!--bounds framerate biquad.frequency biquad.gain biquad.Q-->
 	<attributelist>
 		<attribute name="bounds" type="list" optional="1">
 			<digest>
@@ -98,7 +106,7 @@
 				frame rate [float] in Hz for <o>gen @title oneEuroFilter</o> object.
 			</description>
 		</attribute>
-		<attribute name="beta" type="float" optional="1">
+		<attribute name="1euro.beta" type="float" optional="1">
 			<digest>
 				beta factor [float] or speed factor.
 			</digest>
@@ -106,7 +114,7 @@
 				speed factor to reach fcmin : minimum cutoff frequency.
 			</description>
 		</attribute>
-		<attribute name="fcmin" type="float" optional="1">
+		<attribute name="1euro.fcmin" type="float" optional="1">
 			<digest>
 				fcmin [float] in Hz.
 			</digest>
@@ -114,12 +122,20 @@
 				minimum cutoff frequency of cascaded lowpass filters.
 			</description>
 		</attribute>
-		<attribute name="bypass" type="int" optional="1">
+		<attribute name="1euro.bypass" type="int" optional="1">
 			<digest>
 				bypass 0/1 [int]
 			</digest>
 			<description>
 				TEXT_HERE
+			</description>
+		</attribute>
+		<attribute name="1euro.order" type="int" optional="1">
+			<digest>
+				order [int]
+			</digest>
+			<description>
+				number of cascaded filters [1 to 4]
 			</description>
 		</attribute>
 	</attributelist>
