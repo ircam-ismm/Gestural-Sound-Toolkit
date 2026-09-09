@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 37.0, 104.0, 412.0, 169.0 ],
+        "rect": [ 34.0, 93.0, 412.0, 169.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "gridsnaponopen": 2,
@@ -42,7 +42,7 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 468.5, -415.0, 56.0, 22.0 ],
+                    "patching_rect": [ 474.0, -85.0, 56.0, 22.0 ],
                     "restore": {
                         "autoscale": [ 1.0 ],
                         "loop": [ 1.0 ]
@@ -68,11 +68,11 @@
                 "box": {
                     "id": "obj-88",
                     "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 1450.0, 97.0, 135.0, 22.0 ],
-                    "text": "route done maxduration"
+                    "numinlets": 7,
+                    "numoutlets": 7,
+                    "outlettype": [ "", "", "", "", "", "", "" ],
+                    "patching_rect": [ 1450.0, 97.0, 326.0, 22.0 ],
+                    "text": "route done maxduration bounds frameperiod autoscale loop"
                 }
             },
             {
@@ -120,7 +120,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -485,15 +485,15 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-11", 1 ],
-                                    "order": 0,
+                                    "destination": [ "obj-10", 0 ],
+                                    "order": 1,
                                     "source": [ "obj-16", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-8", 1 ],
-                                    "order": 1,
+                                    "destination": [ "obj-11", 1 ],
+                                    "order": 0,
                                     "source": [ "obj-16", 0 ]
                                 }
                             },
@@ -686,7 +686,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1063,7 +1063,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2022,7 +2022,7 @@
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "bgcolordefault": 1,
                     "bufferchooser_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "bufferchooser_bgcolordefault": 1,
+                    "bufferchooser_bgcolordefault": 0,
                     "bufferchooser_fgcolor": [ 0.85, 0.85, 0.85, 1.0 ],
                     "bufferchooser_fgcolordefault": 0,
                     "bufferchooser_position": 1,
@@ -2106,7 +2106,7 @@
                     "outputvalues": 0,
                     "outputviewname": 0,
                     "parameter_enable": 0,
-                    "patching_rect": [ 187.0, 493.0, 640.5, 187.0 ],
+                    "patching_rect": [ 187.0, 493.0, 273.0, 118.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 5.0, 33.0, 403.0, 132.0 ],
                     "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2143,7 +2143,7 @@
                     "useplaceholders": 1,
                     "verbose": 1,
                     "vieworder": [ "default" ],
-                    "windresize": 0
+                    "windresize": 1
                 }
             },
             {
@@ -2796,6 +2796,30 @@
                     "destination": [ "obj-36", 0 ],
                     "order": 0,
                     "source": [ "obj-86", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-88", 5 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 0 ],
+                    "source": [ "obj-88", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-57", 0 ],
+                    "source": [ "obj-88", 4 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-68", 0 ],
+                    "source": [ "obj-88", 3 ]
                 }
             },
             {
