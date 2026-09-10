@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -12,6 +12,42 @@
         "rect": [ 34.0, 102.0, 125.0, 128.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "fontsize": 10.0,
+                    "id": "obj-64",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 904.0, 415.0, 41.0, 20.0 ],
+                    "text": "del 100"
+                }
+            },
+            {
+                "box": {
+                    "fontsize": 10.0,
+                    "id": "obj-65",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 904.0, 391.0, 50.0, 20.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
+                    "fontsize": 10.0,
+                    "id": "obj-67",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 904.0, 439.0, 102.0, 20.0 ],
+                    "text": "resizetowindowrect 4"
+                }
+            },
             {
                 "box": {
                     "fontname": "Arial",
@@ -179,7 +215,7 @@
                 "box": {
                     "comment": "peak intensity (after kick)",
                     "id": "obj-21",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -237,30 +273,6 @@
                     "text": "More",
                     "texton": "Norm. Acc.",
                     "varname": "live.text[3]"
-                }
-            },
-            {
-                "box": {
-                    "fontsize": 11.0,
-                    "id": "obj-19",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 901.0, 411.0, 50.0, 21.0 ],
-                    "text": "deferlow"
-                }
-            },
-            {
-                "box": {
-                    "fontsize": 11.0,
-                    "id": "obj-24",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 901.0, 389.0, 161.0, 21.0 ],
-                    "text": "loadmess resizetowindowrect 4"
                 }
             },
             {
@@ -381,7 +393,7 @@
                 "box": {
                     "comment": "mubu.scroll configuration",
                     "id": "obj-12",
-                    "index": 5,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -413,7 +425,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -658,7 +670,7 @@
                 "box": {
                     "comment": "median size",
                     "id": "obj-47",
-                    "index": 4,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -670,7 +682,7 @@
                 "box": {
                     "comment": "debounce = min time interval between two triggers [ms]",
                     "id": "obj-45",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -720,7 +732,7 @@
                 "box": {
                     "comment": "threshold [float]",
                     "id": "obj-28",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -770,7 +782,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -959,7 +971,7 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
-                                            "parameter_longname": "maxMonitor[2]",
+                                            "parameter_longname": "maxMonitor",
                                             "parameter_mmax": 100.0,
                                             "parameter_mmin": -100.0,
                                             "parameter_modmode": 3,
@@ -989,7 +1001,7 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
-                                            "parameter_longname": "minMonitor[2]",
+                                            "parameter_longname": "minMonitor",
                                             "parameter_mmax": 100.0,
                                             "parameter_mmin": -100.0,
                                             "parameter_modmode": 3,
@@ -1105,7 +1117,7 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
-                                            "parameter_longname": "medianSize[1]",
+                                            "parameter_longname": "medianSize",
                                             "parameter_mmax": 2048.0,
                                             "parameter_mmin": 1.0,
                                             "parameter_modmax": 2048.0,
@@ -1190,7 +1202,7 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
-                                            "parameter_longname": "minDuration[1]",
+                                            "parameter_longname": "minDuration",
                                             "parameter_mmax": 10000.0,
                                             "parameter_modmode": 3,
                                             "parameter_shortname": "minDuration",
@@ -1258,7 +1270,7 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_linknames": 1,
-                                            "parameter_longname": "threshold[1]",
+                                            "parameter_longname": "threshold",
                                             "parameter_mmax": 100.0,
                                             "parameter_modmode": 3,
                                             "parameter_shortname": "threshold",
@@ -1512,7 +1524,7 @@
                 "box": {
                     "comment": "bang when peak is reached",
                     "id": "obj-1",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1713,7 +1725,7 @@
                 "box": {
                     "comment": "kick (bang)",
                     "id": "obj-25",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1724,11 +1736,11 @@
                 "box": {
                     "comment": "input float",
                     "id": "obj-10",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "float" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 38.0, 134.0, 25.0, 25.0 ]
                 }
             },
@@ -1856,12 +1868,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-101", 0 ],
-                    "source": [ "obj-19", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-101", 0 ],
                     "source": [ "obj-197", 1 ]
                 }
             },
@@ -1901,12 +1907,6 @@
                 "patchline": {
                     "destination": [ "obj-22", 0 ],
                     "source": [ "obj-23", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-19", 0 ],
-                    "source": [ "obj-24", 0 ]
                 }
             },
             {
@@ -2167,6 +2167,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-67", 0 ],
+                    "source": [ "obj-64", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-64", 0 ],
+                    "source": [ "obj-65", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-63", 0 ],
                     "source": [ "obj-66", 1 ]
                 }
@@ -2175,6 +2187,12 @@
                 "patchline": {
                     "destination": [ "obj-8", 3 ],
                     "source": [ "obj-66", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-101", 0 ],
+                    "source": [ "obj-67", 0 ]
                 }
             },
             {
@@ -2231,6 +2249,25 @@
                 }
             }
         ],
+        "parameters": {
+            "obj-17": [ "live.text[21]", "live.text", 0 ],
+            "obj-4": [ "live.button[2]", "live.button[1]", 0 ],
+            "obj-8::obj-14": [ "threshold", "threshold", 0 ],
+            "obj-8::obj-17": [ "minDuration", "minDuration", 0 ],
+            "obj-8::obj-27": [ "medianSize", "medianSize", 0 ],
+            "obj-8::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
+            "obj-8::obj-37": [ "minMonitor", "minMonitor", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
