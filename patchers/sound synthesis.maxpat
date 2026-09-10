@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -13,12 +13,32 @@
         "boxes": [
             {
                 "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-7",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.synth.scrub.samples.maxpat",
+                    "numinlets": 5,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal" ],
+                    "patching_rect": [ 970.0, 208.0, 251.0, 151.0 ],
+                    "varname": "_gst.synth.scrub.samples",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
                     "id": "obj-11",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 55.5, 188.0, 211.0, 20.0 ],
-                    "presentation_linecount": 3,
                     "text": "<bpatcher gst.synth.scratch.samples>"
                 }
             },
@@ -29,7 +49,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 408.0, 188.0, 147.0, 20.0 ],
-                    "presentation_linecount": 2,
                     "text": "<bpatcher gst.synth.filter>"
                 }
             },
@@ -180,28 +199,6 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.823529, 0.823529, 0.823529, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-20",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "gst.synth.scrub.samples.maxpat",
-                    "numinlets": 5,
-                    "numoutlets": 2,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "multichannelsignal", "multichannelsignal" ],
-                    "patching_rect": [ 956.0, 208.0, 246.0, 146.0 ],
-                    "varname": "synth.scrub.samples",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "fontname": "Helvetica Neue Light",
                     "fontsize": 23.865383,
                     "id": "obj-28",
@@ -270,7 +267,7 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-20", 4 ],
+                    "destination": [ "obj-7", 4 ],
                     "source": [ "obj-1", 0 ]
                 }
             },
@@ -284,12 +281,6 @@
                 "patchline": {
                     "destination": [ "obj-26", 0 ],
                     "source": [ "obj-15", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-26", 0 ],
-                    "source": [ "obj-20", 0 ]
                 }
             },
             {
@@ -309,6 +300,12 @@
                     "destination": [ "obj-26", 0 ],
                     "source": [ "obj-60", 0 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-7", 0 ]
+                }
             }
         ],
         "parameters": {
@@ -316,9 +313,6 @@
             "obj-15::obj-22": [ "live.gain~", "live.gain~", 0 ],
             "obj-15::obj-88": [ "start", "start", 0 ],
             "obj-15::obj-92": [ "loop", "loop", 0 ],
-            "obj-20::obj-14": [ "position", "position", 0 ],
-            "obj-20::obj-2": [ "live.gain~[3]", "ogain", 0 ],
-            "obj-20::obj-88": [ "start[1]", "start", 0 ],
             "obj-26::obj-2": [ "live.gain~[5]", "ogain", 0 ],
             "obj-40::obj-2": [ "live.gain~[1]", "ogain", 0 ],
             "obj-40::obj-20": [ "harmonicity", "harmonicity", 0 ],
@@ -332,6 +326,9 @@
             "obj-60::obj-18": [ "minF", "minF", 0 ],
             "obj-60::obj-19": [ "maxF", "maxF", 0 ],
             "obj-60::obj-2": [ "live.gain~[2]", "ogain", 0 ],
+            "obj-7::obj-14": [ "position", "position", 0 ],
+            "obj-7::obj-2": [ "ogain", "ogain", 0 ],
+            "obj-7::obj-88": [ "start[1]", "start", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -345,12 +342,6 @@
                     "parameter_longname": "live.gain~",
                     "parameter_shortname": "live.gain~"
                 },
-                "obj-20::obj-2": {
-                    "parameter_longname": "live.gain~[3]"
-                },
-                "obj-20::obj-88": {
-                    "parameter_longname": "start[1]"
-                },
                 "obj-26::obj-2": {
                     "parameter_longname": "live.gain~[5]"
                 },
@@ -359,6 +350,9 @@
                 },
                 "obj-60::obj-2": {
                     "parameter_longname": "live.gain~[2]"
+                },
+                "obj-7::obj-88": {
+                    "parameter_longname": "start[1]"
                 }
             },
             "inherited_shortname": 1
