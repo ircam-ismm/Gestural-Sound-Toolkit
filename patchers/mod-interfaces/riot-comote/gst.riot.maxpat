@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -23,7 +23,7 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 462.75, 26.0, 50.5, 20.0 ],
                     "restore": {
-                        "clock-type": [ 0.0 ],
+                        "clock-type": [ 1.0 ],
                         "enable": [ 0.0 ],
                         "frameperiod": [ 10.0 ],
                         "osc-id": [ 0.0 ],
@@ -74,7 +74,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -942,7 +942,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1338,7 +1338,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1679,7 +1679,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1975,7 +1975,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2460,7 +2460,7 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_initial": [ 0 ],
-                            "parameter_longname": "live.text[2]",
+                            "parameter_longname": "live.text[18]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text[3]",
@@ -2632,7 +2632,7 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[10]",
+                            "parameter_longname": "live.text[20]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -2658,7 +2658,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
-                            "parameter_longname": "live.text[11]",
+                            "parameter_longname": "live.text[24]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -2714,12 +2714,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 443.0, 93.0, 913.0, 324.0 ],
+                        "rect": [ 441.0, 94.0, 913.0, 324.0 ],
                         "openinpresentation": 1,
                         "gridsize": [ 10.0, 10.0 ],
                         "title": "sensor port 10000 ID 0",
@@ -2759,7 +2759,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2778,7 +2778,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -3157,7 +3157,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3176,7 +3176,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -3681,7 +3681,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3792,7 +3792,7 @@
                                             }
                                         ]
                                     },
-                                    "patching_rect": [ 1006.0, 1040.0, 93.0, 22.0 ],
+                                    "patching_rect": [ 1006.0, 1044.0, 93.0, 22.0 ],
                                     "text": "p scale-heading"
                                 }
                             },
@@ -3847,7 +3847,7 @@
                                     "presentation_rect": [ 414.0, 8.5, 36.0, 23.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
-                                            "parameter_longname": "live.numbox[5]",
+                                            "parameter_longname": "live.numbox[13]",
                                             "parameter_modmode": 3,
                                             "parameter_shortname": "live.numbox",
                                             "parameter_type": 0,
@@ -4106,7 +4106,7 @@
                                     "presentation_rect": [ 730.0, 200.0, 50.0, 17.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
-                                            "parameter_longname": "live.numbox",
+                                            "parameter_longname": "live.numbox[14]",
                                             "parameter_modmode": 3,
                                             "parameter_shortname": "live.numbox",
                                             "parameter_type": 0,
@@ -4357,7 +4357,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4755,7 +4755,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -5096,7 +5096,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -5392,7 +5392,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -5913,7 +5913,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -6756,7 +6756,7 @@
                                                 }
                                             }
                                         ],
-                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                     },
                                     "patching_rect": [ 235.0, 255.0, 209.0, 22.0 ],
                                     "text": "p comote_reschedule-v2"
@@ -6809,7 +6809,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -6933,7 +6933,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -7100,7 +7100,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -7525,7 +7525,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -7649,7 +7649,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -7806,7 +7806,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -8231,7 +8231,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -8292,7 +8292,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -8637,7 +8637,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -9021,7 +9021,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -9202,7 +9202,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -10303,7 +10303,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -10411,7 +10411,7 @@
                                     "patching_rect": [ 4.0, 650.0, 150.0, 18.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 389.0, 41.5, 76.0, 18.0 ],
-                                    "text": "v3",
+                                    "text": "riot-v2-ircam",
                                     "textjustification": 1
                                 }
                             },
@@ -10452,12 +10452,12 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 240.0, 329.0, 1680.0, 1077.0 ],
+                                        "rect": [ 443.0, 93.0, 1680.0, 1077.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -10592,7 +10592,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -10668,7 +10668,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -10709,7 +10709,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 4,
+                                                                                            "revision": 5,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -11307,7 +11307,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -11898,7 +11898,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -12208,7 +12208,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -12508,7 +12508,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -12851,7 +12851,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -13050,7 +13050,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -14234,7 +14234,7 @@
                                                     "outlettype": [ "", "int", "", "" ],
                                                     "parameter_enable": 0,
                                                     "patching_rect": [ 1548.0, 908.0, 105.78571428571422, 101.0 ],
-                                                    "text": "key 0. 0."
+                                                    "text": "analog 0. 0."
                                                 }
                                             },
                                             {
@@ -14406,13 +14406,607 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
                                                         "classnamespace": "box",
-                                                        "rect": [ 1315.0, 343.0, 1652.0, 903.0 ],
+                                                        "rect": [ 355.0, 529.0, 1652.0, 903.0 ],
                                                         "boxes": [
+                                                            {
+                                                                "box": {
+                                                                    "id": "obj-56",
+                                                                    "maxclass": "newobj",
+                                                                    "numinlets": 1,
+                                                                    "numoutlets": 1,
+                                                                    "outlettype": [ "" ],
+                                                                    "patching_rect": [ 549.0, 448.0, 29.0, 22.0 ],
+                                                                    "text": "thru"
+                                                                }
+                                                            },
+                                                            {
+                                                                "box": {
+                                                                    "color": [ 0.011765, 0.396078, 0.752941, 1.0 ],
+                                                                    "id": "obj-49",
+                                                                    "maxclass": "newobj",
+                                                                    "numinlets": 2,
+                                                                    "numoutlets": 1,
+                                                                    "outlettype": [ "" ],
+                                                                    "patcher": {
+                                                                        "fileversion": 1,
+                                                                        "appversion": {
+                                                                            "major": 9,
+                                                                            "minor": 1,
+                                                                            "revision": 5,
+                                                                            "architecture": "x64",
+                                                                            "modernui": 1
+                                                                        },
+                                                                        "classnamespace": "box",
+                                                                        "rect": [ 116.0, 529.0, 306.0, 303.0 ],
+                                                                        "boxes": [
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-17",
+                                                                                    "maxclass": "comment",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 0,
+                                                                                    "patching_rect": [ 61.5, 105.0, 21.0, 20.0 ],
+                                                                                    "text": "v2"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-16",
+                                                                                    "maxclass": "comment",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 0,
+                                                                                    "patching_rect": [ 152.5, 105.0, 21.0, 20.0 ],
+                                                                                    "text": "v2"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-15",
+                                                                                    "maxclass": "comment",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 0,
+                                                                                    "patching_rect": [ 243.0, 105.0, 21.0, 20.0 ],
+                                                                                    "text": "v1"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-14",
+                                                                                    "maxclass": "comment",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 0,
+                                                                                    "patching_rect": [ 223.0, 83.0, 70.0, 20.0 ],
+                                                                                    "text": "riot-ircam"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-13",
+                                                                                    "maxclass": "comment",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 0,
+                                                                                    "patching_rect": [ 128.0, 83.0, 70.0, 20.0 ],
+                                                                                    "text": "riot-ircam"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-12",
+                                                                                    "maxclass": "comment",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 0,
+                                                                                    "patching_rect": [ 37.0, 83.0, 70.0, 20.0 ],
+                                                                                    "text": "riot-bitallino"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-10",
+                                                                                    "maxclass": "newobj",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 1,
+                                                                                    "outlettype": [ "" ],
+                                                                                    "patcher": {
+                                                                                        "fileversion": 1,
+                                                                                        "appversion": {
+                                                                                            "major": 9,
+                                                                                            "minor": 1,
+                                                                                            "revision": 5,
+                                                                                            "architecture": "x64",
+                                                                                            "modernui": 1
+                                                                                        },
+                                                                                        "classnamespace": "box",
+                                                                                        "rect": [ 0.0, 0.0, 1000.0, 780.0 ],
+                                                                                        "boxes": [
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-5",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 2,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "float" ],
+                                                                                                    "patching_rect": [ 87.0, 136.0, 31.0, 22.0 ],
+                                                                                                    "text": "* -1."
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-33",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 2,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "float" ],
+                                                                                                    "patching_rect": [ 50.0, 249.0, 39.0, 22.0 ],
+                                                                                                    "text": "- 180."
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-34",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 2,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "float" ],
+                                                                                                    "patching_rect": [ 50.0, 160.0, 31.0, 22.0 ],
+                                                                                                    "text": "* -1."
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-35",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 2,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "int" ],
+                                                                                                    "patching_rect": [ 50.0, 220.0, 43.0, 22.0 ],
+                                                                                                    "text": "% 360"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-36",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 2,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "int" ],
+                                                                                                    "patching_rect": [ 50.0, 188.0, 39.0, 22.0 ],
+                                                                                                    "text": "+ 270"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-37",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 3,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "" ],
+                                                                                                    "patching_rect": [ 50.0, 277.0, 93.0, 22.0 ],
+                                                                                                    "text": "pack f f f"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-38",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 1,
+                                                                                                    "numoutlets": 3,
+                                                                                                    "outlettype": [ "float", "float", "float" ],
+                                                                                                    "patching_rect": [ 50.0, 100.0, 93.0, 22.0 ],
+                                                                                                    "text": "unpack f f f"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "comment": "",
+                                                                                                    "id": "obj-7",
+                                                                                                    "index": 1,
+                                                                                                    "maxclass": "inlet",
+                                                                                                    "numinlets": 0,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "" ],
+                                                                                                    "patching_rect": [ 50.0, 40.0, 30.0, 30.0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "comment": "",
+                                                                                                    "id": "obj-8",
+                                                                                                    "index": 1,
+                                                                                                    "maxclass": "outlet",
+                                                                                                    "numinlets": 1,
+                                                                                                    "numoutlets": 0,
+                                                                                                    "patching_rect": [ 50.0, 359.0, 30.0, 30.0 ]
+                                                                                                }
+                                                                                            }
+                                                                                        ],
+                                                                                        "lines": [
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-37", 0 ],
+                                                                                                    "source": [ "obj-33", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-36", 0 ],
+                                                                                                    "source": [ "obj-34", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-33", 0 ],
+                                                                                                    "source": [ "obj-35", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-35", 0 ],
+                                                                                                    "source": [ "obj-36", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-8", 0 ],
+                                                                                                    "source": [ "obj-37", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-34", 0 ],
+                                                                                                    "source": [ "obj-38", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-37", 2 ],
+                                                                                                    "source": [ "obj-38", 2 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-5", 0 ],
+                                                                                                    "source": [ "obj-38", 1 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-37", 1 ],
+                                                                                                    "source": [ "obj-5", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-38", 0 ],
+                                                                                                    "source": [ "obj-7", 0 ]
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "patching_rect": [ 116.5, 163.0, 85.0, 22.0 ],
+                                                                                    "text": "p riot-ircam-v2"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-4",
+                                                                                    "maxclass": "newobj",
+                                                                                    "numinlets": 2,
+                                                                                    "numoutlets": 3,
+                                                                                    "outlettype": [ "", "", "" ],
+                                                                                    "patching_rect": [ 23.0, 59.0, 206.0, 22.0 ],
+                                                                                    "text": "gate 3 1"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "comment": "",
+                                                                                    "id": "obj-1",
+                                                                                    "index": 2,
+                                                                                    "maxclass": "inlet",
+                                                                                    "numinlets": 0,
+                                                                                    "numoutlets": 1,
+                                                                                    "outlettype": [ "" ],
+                                                                                    "patching_rect": [ 243.0, 12.0, 30.0, 30.0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-28",
+                                                                                    "maxclass": "newobj",
+                                                                                    "numinlets": 3,
+                                                                                    "numoutlets": 1,
+                                                                                    "outlettype": [ "" ],
+                                                                                    "patching_rect": [ 23.0, 204.0, 67.0, 22.0 ],
+                                                                                    "text": "pack f f f"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-27",
+                                                                                    "maxclass": "newobj",
+                                                                                    "numinlets": 3,
+                                                                                    "numoutlets": 3,
+                                                                                    "outlettype": [ "float", "float", "float" ],
+                                                                                    "patcher": {
+                                                                                        "fileversion": 1,
+                                                                                        "appversion": {
+                                                                                            "major": 9,
+                                                                                            "minor": 1,
+                                                                                            "revision": 5,
+                                                                                            "architecture": "x64",
+                                                                                            "modernui": 1
+                                                                                        },
+                                                                                        "classnamespace": "dsp.gen",
+                                                                                        "rect": [ 59.0, 112.0, 551.0, 312.0 ],
+                                                                                        "boxes": [
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-10",
+                                                                                                    "maxclass": "comment",
+                                                                                                    "numinlets": 1,
+                                                                                                    "numoutlets": 0,
+                                                                                                    "patching_rect": [ 433.0, 116.0, 105.0, 20.0 ],
+                                                                                                    "text": "(a+180)%360-180"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "code": "out3 = (in3*-1.+180)%360 - 180.;\r\nout2 = in2;\r\nout1 = (in1*-1.+360)%360 - 180.;",
+                                                                                                    "fontface": 0,
+                                                                                                    "fontname": "<Monospaced>",
+                                                                                                    "fontsize": 12.0,
+                                                                                                    "id": "obj-8",
+                                                                                                    "maxclass": "codebox",
+                                                                                                    "numinlets": 3,
+                                                                                                    "numoutlets": 3,
+                                                                                                    "outlettype": [ "", "", "" ],
+                                                                                                    "patching_rect": [ 42.0, 49.0, 340.0, 200.0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-7",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 1,
+                                                                                                    "numoutlets": 0,
+                                                                                                    "patching_rect": [ 363.0, 269.0, 35.0, 22.0 ],
+                                                                                                    "text": "out 3"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-6",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 1,
+                                                                                                    "numoutlets": 0,
+                                                                                                    "patching_rect": [ 202.5, 269.0, 35.0, 22.0 ],
+                                                                                                    "text": "out 2"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-5",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 0,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "" ],
+                                                                                                    "patching_rect": [ 363.0, 13.0, 28.0, 22.0 ],
+                                                                                                    "text": "in 3"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-1",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 0,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "" ],
+                                                                                                    "patching_rect": [ 42.0, 13.0, 28.0, 22.0 ],
+                                                                                                    "text": "in 1"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-2",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 0,
+                                                                                                    "numoutlets": 1,
+                                                                                                    "outlettype": [ "" ],
+                                                                                                    "patching_rect": [ 202.5, 13.0, 28.0, 22.0 ],
+                                                                                                    "text": "in 2"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "box": {
+                                                                                                    "id": "obj-4",
+                                                                                                    "maxclass": "newobj",
+                                                                                                    "numinlets": 1,
+                                                                                                    "numoutlets": 0,
+                                                                                                    "patching_rect": [ 42.0, 269.0, 35.0, 22.0 ],
+                                                                                                    "text": "out 1"
+                                                                                                }
+                                                                                            }
+                                                                                        ],
+                                                                                        "lines": [
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-8", 0 ],
+                                                                                                    "source": [ "obj-1", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-8", 1 ],
+                                                                                                    "source": [ "obj-2", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-8", 2 ],
+                                                                                                    "source": [ "obj-5", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-4", 0 ],
+                                                                                                    "source": [ "obj-8", 0 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-6", 0 ],
+                                                                                                    "source": [ "obj-8", 1 ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "patchline": {
+                                                                                                    "destination": [ "obj-7", 0 ],
+                                                                                                    "source": [ "obj-8", 2 ]
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "patching_rect": [ 23.0, 163.0, 67.0, 22.0 ],
+                                                                                    "text": "gen"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-3",
+                                                                                    "maxclass": "newobj",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 3,
+                                                                                    "outlettype": [ "float", "float", "float" ],
+                                                                                    "patching_rect": [ 23.0, 133.0, 67.0, 22.0 ],
+                                                                                    "text": "unpack f f f"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "comment": "",
+                                                                                    "id": "obj-2",
+                                                                                    "index": 1,
+                                                                                    "maxclass": "outlet",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 0,
+                                                                                    "patching_rect": [ 23.0, 258.0, 30.0, 30.0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "comment": "",
+                                                                                    "id": "obj-9",
+                                                                                    "index": 1,
+                                                                                    "maxclass": "inlet",
+                                                                                    "numinlets": 0,
+                                                                                    "numoutlets": 1,
+                                                                                    "outlettype": [ "" ],
+                                                                                    "patching_rect": [ 23.0, 7.0, 30.0, 30.0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-56",
+                                                                                    "maxclass": "comment",
+                                                                                    "numinlets": 1,
+                                                                                    "numoutlets": 0,
+                                                                                    "patching_rect": [ 136.0, 17.0, 105.0, 20.0 ],
+                                                                                    "text": "(a+180)%360-180"
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        "lines": [
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-4", 0 ],
+                                                                                    "source": [ "obj-1", 0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-2", 0 ],
+                                                                                    "source": [ "obj-10", 0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-28", 2 ],
+                                                                                    "source": [ "obj-27", 2 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-28", 1 ],
+                                                                                    "source": [ "obj-27", 1 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-28", 0 ],
+                                                                                    "source": [ "obj-27", 0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-2", 0 ],
+                                                                                    "source": [ "obj-28", 0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-27", 2 ],
+                                                                                    "source": [ "obj-3", 2 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-27", 1 ],
+                                                                                    "source": [ "obj-3", 1 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-27", 0 ],
+                                                                                    "source": [ "obj-3", 0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-10", 0 ],
+                                                                                    "source": [ "obj-4", 1 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-2", 0 ],
+                                                                                    "midpoints": [ 219.5, 238.78125, 32.5, 238.78125 ],
+                                                                                    "source": [ "obj-4", 2 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-3", 0 ],
+                                                                                    "source": [ "obj-4", 0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-4", 1 ],
+                                                                                    "source": [ "obj-9", 0 ]
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+                                                                    },
+                                                                    "patching_rect": [ 990.0, 630.0, 59.0, 22.0 ],
+                                                                    "text": "p rotation"
+                                                                }
+                                                            },
                                                             {
                                                                 "box": {
                                                                     "id": "obj-12",
@@ -14650,7 +15244,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -14932,12 +15526,12 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
                                                                         "classnamespace": "box",
-                                                                        "rect": [ 34.0, 119.0, 392.0, 344.0 ],
+                                                                        "rect": [ 931.0, 562.0, 185.0, 311.0 ],
                                                                         "boxes": [
                                                                             {
                                                                                 "box": {
@@ -14946,7 +15540,7 @@
                                                                                     "numinlets": 2,
                                                                                     "numoutlets": 2,
                                                                                     "outlettype": [ "", "" ],
-                                                                                    "patching_rect": [ 23.0, 158.0, 49.0, 22.0 ],
+                                                                                    "patching_rect": [ 42.0, 147.0, 49.0, 22.0 ],
                                                                                     "text": "zl rot -1"
                                                                                 }
                                                                             },
@@ -14990,17 +15584,11 @@
                                                                             {
                                                                                 "patchline": {
                                                                                     "destination": [ "obj-2", 0 ],
-                                                                                    "source": [ "obj-1", 0 ]
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "patchline": {
-                                                                                    "destination": [ "obj-1", 0 ],
                                                                                     "source": [ "obj-9", 0 ]
                                                                                 }
                                                                             }
                                                                         ],
-                                                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                                     },
                                                                     "patching_rect": [ 861.0, 630.0, 89.0, 22.0 ],
                                                                     "text": "p wxyz to xyzw"
@@ -15018,7 +15606,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -15371,13 +15959,35 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
                                                                         "classnamespace": "box",
-                                                                        "rect": [ 134.0, 172.0, 410.0, 291.0 ],
+                                                                        "rect": [ 296.0, 707.0, 410.0, 291.0 ],
                                                                         "boxes": [
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-5",
+                                                                                    "maxclass": "newobj",
+                                                                                    "numinlets": 2,
+                                                                                    "numoutlets": 1,
+                                                                                    "outlettype": [ "float" ],
+                                                                                    "patching_rect": [ 28.0, 85.0, 31.0, 22.0 ],
+                                                                                    "text": "* -1."
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "box": {
+                                                                                    "id": "obj-4",
+                                                                                    "maxclass": "newobj",
+                                                                                    "numinlets": 2,
+                                                                                    "numoutlets": 1,
+                                                                                    "outlettype": [ "float" ],
+                                                                                    "patching_rect": [ 28.0, 61.0, 39.0, 22.0 ],
+                                                                                    "text": "- 180."
+                                                                                }
+                                                                            },
                                                                             {
                                                                                 "box": {
                                                                                     "id": "obj-3",
@@ -15416,7 +16026,7 @@
                                                                                     "numinlets": 2,
                                                                                     "numoutlets": 1,
                                                                                     "outlettype": [ "float" ],
-                                                                                    "patching_rect": [ 28.0, 108.0, 42.0, 22.0 ],
+                                                                                    "patching_rect": [ 52.0, 114.0, 42.0, 22.0 ],
                                                                                     "text": "+ 360."
                                                                                 }
                                                                             },
@@ -15458,12 +16068,6 @@
                                                                         "lines": [
                                                                             {
                                                                                 "patchline": {
-                                                                                    "destination": [ "obj-12", 0 ],
-                                                                                    "source": [ "obj-11", 0 ]
-                                                                                }
-                                                                            },
-                                                                            {
-                                                                                "patchline": {
                                                                                     "destination": [ "obj-3", 0 ],
                                                                                     "source": [ "obj-12", 0 ]
                                                                                 }
@@ -15476,12 +16080,24 @@
                                                                             },
                                                                             {
                                                                                 "patchline": {
-                                                                                    "destination": [ "obj-11", 0 ],
+                                                                                    "destination": [ "obj-5", 0 ],
+                                                                                    "source": [ "obj-4", 0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-12", 0 ],
+                                                                                    "source": [ "obj-5", 0 ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "patchline": {
+                                                                                    "destination": [ "obj-4", 0 ],
                                                                                     "source": [ "obj-9", 0 ]
                                                                                 }
                                                                             }
                                                                         ],
-                                                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                                     },
                                                                     "patching_rect": [ 1102.0, 630.0, 99.99999904632568, 22.0 ],
                                                                     "text": "p heading unit"
@@ -15501,7 +16117,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -15693,7 +16309,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -15868,7 +16484,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -16138,7 +16754,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -16181,7 +16797,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 4,
+                                                                                            "revision": 5,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -16860,7 +17476,7 @@
                                                                                                 }
                                                                                             }
                                                                                         ],
-                                                                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                                                     },
                                                                                     "patching_rect": [ 353.0, 134.0, 817.0, 22.0 ],
                                                                                     "text": "p riot_ircam old firmware"
@@ -17022,7 +17638,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 4,
+                                                                                            "revision": 5,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -17139,7 +17755,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 4,
+                                                                                            "revision": 5,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -17720,7 +18336,8 @@
                                                                                                     "source": [ "obj-78", 0 ]
                                                                                                 }
                                                                                             }
-                                                                                        ]
+                                                                                        ],
+                                                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                                                     },
                                                                                     "patching_rect": [ 213.0, 216.0, 658.0, 22.0 ],
                                                                                     "text": "p riot bitalino"
@@ -17818,7 +18435,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 4,
+                                                                                            "revision": 5,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -18463,7 +19080,8 @@
                                                                                                     "source": [ "obj-3", 0 ]
                                                                                                 }
                                                                                             }
-                                                                                        ]
+                                                                                        ],
+                                                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                                                     },
                                                                                     "patching_rect": [ 283.0, 175.0, 817.0, 22.0 ],
                                                                                     "text": "p riot_ircam"
@@ -18541,7 +19159,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 4,
+                                                                                            "revision": 5,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -18617,7 +19235,8 @@
                                                                                                     "source": [ "obj-90", 0 ]
                                                                                                 }
                                                                                             }
-                                                                                        ]
+                                                                                        ],
+                                                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                                                     },
                                                                                     "patching_rect": [ 535.0, 307.0, 118.0, 22.0 ],
                                                                                     "text": "p temperature unit"
@@ -19008,7 +19627,7 @@
                                                                                 }
                                                                             }
                                                                         ],
-                                                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                                     },
                                                                     "patching_rect": [ 461.0, 483.0, 552.0, 22.0 ],
                                                                     "text": "p riots parsing"
@@ -19081,7 +19700,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -19470,7 +20089,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -19942,7 +20561,7 @@
                                                             },
                                                             {
                                                                 "patchline": {
-                                                                    "destination": [ "obj-32", 1 ],
+                                                                    "destination": [ "obj-56", 0 ],
                                                                     "source": [ "obj-15", 0 ]
                                                                 }
                                                             },
@@ -20070,7 +20689,7 @@
                                                             },
                                                             {
                                                                 "patchline": {
-                                                                    "destination": [ "obj-32", 1 ],
+                                                                    "destination": [ "obj-56", 0 ],
                                                                     "source": [ "obj-23", 0 ]
                                                                 }
                                                             },
@@ -20082,7 +20701,7 @@
                                                             },
                                                             {
                                                                 "patchline": {
-                                                                    "destination": [ "obj-32", 1 ],
+                                                                    "destination": [ "obj-56", 0 ],
                                                                     "source": [ "obj-25", 0 ]
                                                                 }
                                                             },
@@ -20163,13 +20782,6 @@
                                                             },
                                                             {
                                                                 "patchline": {
-                                                                    "destination": [ "obj-41", 0 ],
-                                                                    "midpoints": [ 683.7, 594.5366876721382, 999.5, 594.5366876721382 ],
-                                                                    "source": [ "obj-32", 4 ]
-                                                                }
-                                                            },
-                                                            {
-                                                                "patchline": {
                                                                     "destination": [ "obj-42", 0 ],
                                                                     "midpoints": [ 790.3, 561.46484375, 1228.5, 561.46484375 ],
                                                                     "source": [ "obj-32", 6 ]
@@ -20194,6 +20806,13 @@
                                                                     "destination": [ "obj-45", 0 ],
                                                                     "midpoints": [ 1003.5, 510.41015625, 1514.5, 510.41015625 ],
                                                                     "source": [ "obj-32", 10 ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "patchline": {
+                                                                    "destination": [ "obj-49", 0 ],
+                                                                    "midpoints": [ 683.7, 594.5366876721382, 999.5, 594.5366876721382 ],
+                                                                    "source": [ "obj-32", 4 ]
                                                                 }
                                                             },
                                                             {
@@ -20302,6 +20921,12 @@
                                                             },
                                                             {
                                                                 "patchline": {
+                                                                    "destination": [ "obj-41", 0 ],
+                                                                    "source": [ "obj-49", 0 ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "patchline": {
                                                                     "destination": [ "obj-29", 0 ],
                                                                     "source": [ "obj-5", 0 ]
                                                                 }
@@ -20348,6 +20973,20 @@
                                                                 "patchline": {
                                                                     "destination": [ "obj-30", 2 ],
                                                                     "source": [ "obj-55", 0 ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "patchline": {
+                                                                    "destination": [ "obj-32", 1 ],
+                                                                    "order": 1,
+                                                                    "source": [ "obj-56", 0 ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "patchline": {
+                                                                    "destination": [ "obj-49", 1 ],
+                                                                    "order": 0,
+                                                                    "source": [ "obj-56", 0 ]
                                                                 }
                                                             },
                                                             {
@@ -20469,7 +21108,7 @@
                                                                 }
                                                             }
                                                         ],
-                                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                     },
                                                     "patching_rect": [ 604.0, 560.0, 186.0, 22.0 ],
                                                     "text": "p comote_format_from_riot-v2-v2"
@@ -21342,7 +21981,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -21371,7 +22010,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -21412,7 +22051,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 4,
+                                                                                            "revision": 5,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -21594,7 +22233,7 @@
                                                                                         "appversion": {
                                                                                             "major": 9,
                                                                                             "minor": 1,
-                                                                                            "revision": 4,
+                                                                                            "revision": 5,
                                                                                             "architecture": "x64",
                                                                                             "modernui": 1
                                                                                         },
@@ -23018,7 +23657,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -23514,7 +24153,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -23814,7 +24453,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -24114,7 +24753,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -24414,7 +25053,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -24696,7 +25335,7 @@
                                                                                 }
                                                                             }
                                                                         ],
-                                                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                                     },
                                                                     "patching_rect": [ 845.0, 559.0, 92.0, 22.0 ],
                                                                     "text": "p data_manage"
@@ -24714,7 +25353,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -25014,7 +25653,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -25314,7 +25953,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -25614,7 +26253,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -25914,7 +26553,7 @@
                                                                         "appversion": {
                                                                             "major": 9,
                                                                             "minor": 1,
-                                                                            "revision": 4,
+                                                                            "revision": 5,
                                                                             "architecture": "x64",
                                                                             "modernui": 1
                                                                         },
@@ -27168,7 +27807,7 @@
                                                                 }
                                                             }
                                                         ],
-                                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                                     },
                                                     "patching_rect": [ 172.0, 560.0, 165.0, 22.0 ],
                                                     "text": "p comote_format_from_v3-v2"
@@ -27209,7 +27848,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 4,
+                                                            "revision": 5,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -28551,7 +29190,7 @@
                                         },
                                         "valueof": {
                                             "parameter_enum": [ "val1", "val2" ],
-                                            "parameter_longname": "live.text[12]",
+                                            "parameter_longname": "live.text[17]",
                                             "parameter_mmax": 1,
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "live.text",
@@ -28652,7 +29291,7 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_enum": [ "val1", "val2" ],
-                                            "parameter_longname": "live.text[13]",
+                                            "parameter_longname": "live.text[16]",
                                             "parameter_mmax": 1,
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "live.text",
@@ -28736,7 +29375,7 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_enum": [ "off", "on" ],
-                                            "parameter_longname": "live.toggle",
+                                            "parameter_longname": "live.toggle[5]",
                                             "parameter_mmax": 1,
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "live.toggle",
@@ -28784,7 +29423,7 @@
                                     "presentation_rect": [ 220.0, 111.0, 50.0, 17.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
-                                            "parameter_longname": "live.numbox[3]",
+                                            "parameter_longname": "live.numbox[16]",
                                             "parameter_modmode": 3,
                                             "parameter_shortname": "live.numbox",
                                             "parameter_type": 0,
@@ -28999,7 +29638,7 @@
                                     "presentation_rect": [ 10.0, 68.5, 44.0, 15.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
-                                            "parameter_longname": "live.numbox[2]",
+                                            "parameter_longname": "live.numbox[11]",
                                             "parameter_modmode": 3,
                                             "parameter_shortname": "live.numbox",
                                             "parameter_type": 0,
@@ -30148,7 +30787,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
-                            "parameter_longname": "live.button",
+                            "parameter_longname": "live.button[1]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.button",
@@ -30876,21 +31515,21 @@
             "obj-108": [ "clock-type", "clock type", 0 ],
             "obj-16": [ "osc-port", "port", 0 ],
             "obj-179": [ "sens-type", "sensor type", 0 ],
-            "obj-18::obj-105": [ "live.text[12]", "live.text", 0 ],
-            "obj-18::obj-110": [ "live.text[13]", "live.text", 0 ],
+            "obj-18::obj-105": [ "live.text[17]", "live.text", 0 ],
+            "obj-18::obj-110": [ "live.text[16]", "live.text", 0 ],
             "obj-18::obj-121": [ "live.numbox[4]", "Amount", 0 ],
             "obj-18::obj-20": [ "#0-port[1]", "port", 0 ],
-            "obj-18::obj-223": [ "live.numbox", "live.numbox", 0 ],
-            "obj-18::obj-59": [ "live.numbox[5]", "live.numbox", 0 ],
-            "obj-18::obj-7": [ "live.numbox[2]", "live.numbox", 0 ],
-            "obj-18::obj-75": [ "live.numbox[3]", "live.numbox", 0 ],
-            "obj-18::obj-83": [ "live.toggle", "live.toggle", 0 ],
-            "obj-25": [ "live.text[11]", "live.text", 0 ],
-            "obj-31": [ "live.button", "live.button", 0 ],
+            "obj-18::obj-223": [ "live.numbox[14]", "live.numbox", 0 ],
+            "obj-18::obj-59": [ "live.numbox[13]", "live.numbox", 0 ],
+            "obj-18::obj-7": [ "live.numbox[11]", "live.numbox", 0 ],
+            "obj-18::obj-75": [ "live.numbox[16]", "live.numbox", 0 ],
+            "obj-18::obj-83": [ "live.toggle[5]", "live.toggle", 0 ],
+            "obj-25": [ "live.text[24]", "live.text", 0 ],
+            "obj-31": [ "live.button[1]", "live.button", 0 ],
             "obj-47": [ "enable", "enable", 1 ],
             "obj-50": [ "frameperiod", "frame period", 0 ],
-            "obj-56": [ "live.text[10]", "live.text", 0 ],
-            "obj-58": [ "live.text[2]", "live.text[3]", 0 ],
+            "obj-56": [ "live.text[20]", "live.text", 0 ],
+            "obj-58": [ "live.text[18]", "live.text[3]", 0 ],
             "obj-59": [ "osc-id", "id", 0 ],
             "parameterbanks": {
                 "0": {
