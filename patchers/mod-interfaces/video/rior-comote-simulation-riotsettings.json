@@ -1,0 +1,18 @@
+{
+    "pattrstorage": {
+        "name": "rior-comote-simulation-riotsettings",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "_gst.riot-comote::clock-type": [ 0.0 ],
+                    "_gst.riot-comote::enable": [ 0.0 ],
+                    "_gst.riot-comote::frameperiod": [ 10.0 ],
+                    "_gst.riot-comote::osc-id": [ 17.0 ],
+                    "_gst.riot-comote::osc-port": [ 18017.0 ],
+                    "_gst.riot-comote::sens-type": [ 0.0 ]
+                }
+            }
+        }
+    }
+}
