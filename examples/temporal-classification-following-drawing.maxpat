@@ -72,7 +72,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 276.0, 302.0, 57.0, 20.0 ],
+                    "patching_rect": [ 281.0, 301.0, 57.0, 20.0 ],
                     "text": "loadbang"
                 }
             },
@@ -106,7 +106,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 276.0, 328.0, 80.0, 20.0 ],
+                    "patching_rect": [ 281.0, 327.0, 80.0, 20.0 ],
                     "text": "states 20, train"
                 }
             },
@@ -272,7 +272,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 6 ],
+                    "destination": [ "obj-2", 7 ],
                     "source": [ "obj-7", 0 ]
                 }
             }

@@ -60,7 +60,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 272.8523297991071, 194.65658569335938, 65.0, 35.0 ],
+                    "patching_rect": [ 277.9325866699219, 198.0, 65.0, 35.0 ],
                     "text": "states 20, train"
                 }
             },
@@ -252,7 +252,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 6 ],
+                    "destination": [ "obj-2", 7 ],
                     "source": [ "obj-7", 0 ]
                 }
             }
