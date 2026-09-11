@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -19,9 +19,9 @@
                     "numinlets": 3,
                     "numoutlets": 2,
                     "outlettype": [ "multichannelsignal", "signal" ],
-                    "patching_rect": [ 16.0, 18.0, 203.0, 22.0 ],
-                    "text": "synth.filter",
-                    "varname": "synth.filter"
+                    "patching_rect": [ 14.0, 18.0, 220.0, 22.0 ],
+                    "text": "gst.synth.filter",
+                    "varname": "gst.synth.filter"
                 }
             }
         ],
@@ -47,7 +47,7 @@
             "objects": "jpatcher",
             "tags": "",
             "description": "128 x 111, containing 1 object",
-            "image": "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"
+            "image": "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"
         },
         "autosave": 0,
         "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]

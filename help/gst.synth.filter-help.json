@@ -1,0 +1,37 @@
+{
+    "pattrstorage": {
+        "name": "gst.synth.synthfilter-help",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "_gst.synth.filter::Ftype": [ "bandpass" ],
+                    "_gst.synth.filter::maxF": [ 2000.0000000000007 ],
+                    "_gst.synth.filter::minF": [ 100.00000000000006 ],
+                    "_gst.synth.filter::noise": [ 1.0 ],
+                    "_gst.synth.filter::ogain": [ -7.643044619422529 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "_gst.synth.filter::Ftype": [ "lowpass" ],
+                    "_gst.synth.filter::maxF": [ 4987.2363075152725 ],
+                    "_gst.synth.filter::minF": [ 444.30773356282134 ],
+                    "_gst.synth.filter::noise": [ 1.0 ],
+                    "_gst.synth.filter::ogain": [ -16.01482167670216 ]
+                }
+            },
+            "3": {
+                "id": 3,
+                "data": {
+                    "_gst.synth.filter::Ftype": [ "highpass" ],
+                    "_gst.synth.filter::maxF": [ 1000.0 ],
+                    "_gst.synth.filter::minF": [ 89.92781867825047 ],
+                    "_gst.synth.filter::noise": [ 1.0 ],
+                    "_gst.synth.filter::ogain": [ -19.462714219546086 ]
+                }
+            }
+        }
+    }
+}

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 1360.0, 590.0 ],
+        "rect": [ 34.0, 93.0, 1361.0, 591.0 ],
         "boxes": [
             {
                 "box": {
@@ -79,7 +79,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1183.0, 181.0, 151.0, 22.0 ],
+                    "patching_rect": [ 1202.0, 178.0, 151.0, 22.0 ],
                     "text": "loadmess C74:/media/msp"
                 }
             },
@@ -205,7 +205,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 326.0, 508.0, 98.0, 35.0 ],
+                    "patching_rect": [ 321.0, 458.0, 98.0, 35.0 ],
                     "text": "Output"
                 }
             },
@@ -225,7 +225,7 @@
                     "numinlets": 2,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 426.0, 488.0, 182.97576904296875, 86.09903717041016 ],
+                    "patching_rect": [ 421.0, 438.0, 182.97576904296875, 86.09903717041016 ],
                     "viewvisibility": 1
                 }
             },

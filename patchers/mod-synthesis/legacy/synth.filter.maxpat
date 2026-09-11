@@ -4,15 +4,26 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 255.0, 157.0 ],
+        "rect": [ 34.0, 93.0, 255.0, 153.0 ],
         "openinpresentation": 1,
         "gridsize": [ 2.0, 2.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 28.0, 458.0, 54.0, 22.0 ],
+                    "text": "*~ 0.707"
+                }
+            },
             {
                 "box": {
                     "comment": "Audio output",
@@ -321,7 +332,7 @@
             },
             {
                 "box": {
-                    "comment": "volume [float]",
+                    "comment": "Loudness (linear) [float]",
                     "id": "obj-16",
                     "index": 0,
                     "maxclass": "inlet",
@@ -390,7 +401,7 @@
                     "numoutlets": 4,
                     "outlettype": [ "signal", "", "float", "list" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 28.0, 384.0, 48.0, 91.0 ],
+                    "patching_rect": [ 28.0, 364.0, 48.0, 91.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 204.0, 0.0, 38.0, 124.0 ],
                     "saved_attribute_attributes": {
@@ -632,16 +643,22 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-13", 0 ],
+                    "destination": [ "obj-24", 0 ],
+                    "order": 0,
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-25", 0 ],
                     "order": 1,
                     "source": [ "obj-2", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-24", 0 ],
-                    "order": 0,
-                    "source": [ "obj-2", 0 ]
+                    "destination": [ "obj-13", 0 ],
+                    "source": [ "obj-25", 0 ]
                 }
             },
             {
@@ -722,6 +739,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }
