@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 51.0, 102.0, 520.0, 995.0 ],
+        "rect": [ 51.0, 100.0, 520.0, 995.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -24,12 +24,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 520.0, 969.0 ],
+                        "rect": [ 51.0, 126.0, 520.0, 969.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -103,7 +103,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 52.0, 551.0, 355.0, 23.0 ],
-                                    "text": "0.000002 0.997842 0.001713 0.000009 0.000434"
+                                    "text": "0.000002 0.9946 0.004965 0.00001 0.000424"
                                 }
                             },
                             {
@@ -117,19 +117,6 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 512.0, 509.0, 39.0, 17.0 ],
                                     "text": "deferlow"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "fontsize": 8.0,
-                                    "hidden": 1,
-                                    "id": "obj-16",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 553.0, 486.0, 121.0, 17.0 ],
-                                    "text": "loadmess resizetowindowrect 4"
                                 }
                             },
                             {
@@ -212,7 +199,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -379,7 +366,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -623,13 +610,6 @@
                                 "patchline": {
                                     "destination": [ "obj-15", 0 ],
                                     "hidden": 1,
-                                    "source": [ "obj-16", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-15", 0 ],
-                                    "hidden": 1,
                                     "source": [ "obj-21", 0 ]
                                 }
                             },
@@ -756,12 +736,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 51.0, 128.0, 520.0, 969.0 ],
+                        "rect": [ 0.0, 26.0, 520.0, 969.0 ],
                         "default_fontsize": 13.0,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
@@ -798,7 +778,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 9.0, 708.0, 355.0, 23.0 ],
-                                    "text": "0.000002 0.997829 0.001723 0.000009 0.000437"
+                                    "text": "0.000002 0.994241 0.005327 0.00001 0.00042"
                                 }
                             },
                             {
@@ -816,19 +796,6 @@
                             },
                             {
                                 "box": {
-                                    "fontsize": 8.0,
-                                    "hidden": 1,
-                                    "id": "obj-16",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 553.0, 486.0, 121.0, 17.0 ],
-                                    "text": "loadmess resizetowindowrect 4"
-                                }
-                            },
-                            {
-                                "box": {
                                     "fontsize": 9.0,
                                     "hidden": 1,
                                     "id": "obj-21",
@@ -836,7 +803,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 512.0, 462.0, 162.0, 19.0 ],
+                                    "patching_rect": [ 512.0, 481.0, 162.0, 19.0 ],
                                     "text": "loadmess readall gmm-overview.mubu"
                                 }
                             },
@@ -916,7 +883,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1083,7 +1050,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1327,13 +1294,6 @@
                                 "patchline": {
                                     "destination": [ "obj-15", 0 ],
                                     "hidden": 1,
-                                    "source": [ "obj-16", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-15", 0 ],
-                                    "hidden": 1,
                                     "source": [ "obj-21", 0 ]
                                 }
                             },
@@ -1452,7 +1412,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1529,10 +1489,10 @@
             "obj-3::obj-9::obj-29": [ "regularization[1]", "regularization", 0 ],
             "obj-3::obj-9::obj-39": [ "label[1]", "label", 0 ],
             "obj-3::obj-9::obj-59": [ "live.text[23]", "live.text", 0 ],
-            "obj-3::obj-9::obj-64": [ "live.text[34]", "live.text", 0 ],
+            "obj-3::obj-9::obj-64": [ "live.text[21]", "live.text", 0 ],
             "obj-3::obj-9::obj-66": [ "live.text[22]", "live.text", 0 ],
             "obj-3::obj-9::obj-7": [ "auto+[1]", "auto+", 0 ],
-            "obj-3::obj-9::obj-70": [ "live.text[21]", "live.text", 0 ],
+            "obj-3::obj-9::obj-70": [ "live.text[34]", "live.text", 0 ],
             "obj-3::obj-9::obj-73": [ "live.toggle[5]", "live.toggle", 0 ],
             "obj-3::obj-9::obj-90": [ "enable[1]", "enable", 0 ],
             "parameterbanks": {
@@ -1623,7 +1583,7 @@
                     "parameter_longname": "live.text[23]"
                 },
                 "obj-3::obj-9::obj-64": {
-                    "parameter_longname": "live.text[34]"
+                    "parameter_longname": "live.text[21]"
                 },
                 "obj-3::obj-9::obj-66": {
                     "parameter_longname": "live.text[22]"
@@ -1632,7 +1592,7 @@
                     "parameter_longname": "auto+[1]"
                 },
                 "obj-3::obj-9::obj-70": {
-                    "parameter_longname": "live.text[21]"
+                    "parameter_longname": "live.text[34]"
                 },
                 "obj-3::obj-9::obj-73": {
                     "parameter_longname": "live.toggle[5]"

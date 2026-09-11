@@ -31,7 +31,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 119.0, 1509.0, 891.0 ],
+                        "rect": [ 0.0, 26.0, 1509.0, 891.0 ],
                         "openinpresentation": 1,
                         "showontab": 1,
                         "boxes": [
@@ -435,14 +435,12 @@
                             {
                                 "box": {
                                     "id": "obj-42",
-                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 351.0, 904.0, 150.0, 33.0 ],
+                                    "patching_rect": [ 351.0, 904.0, 150.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 14.0, 475.0, 917.0, 20.0 ],
-                                    "text": "\"VIDEO-recorder-OSC.app\" is signed open app"
+                                    "presentation_rect": [ 14.0, 475.0, 917.0, 20.0 ]
                                 }
                             },
                             {
@@ -1944,7 +1942,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1509.0, 891.0 ],
+                        "rect": [ 34.0, 119.0, 1509.0, 891.0 ],
                         "bglocked": 1,
                         "showontab": 1,
                         "boxes": [
@@ -2128,7 +2126,7 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 26.0, 855.0, 312.0, 22.0 ],
                                     "saved_object_attributes": {
-                                        "client_rect": [ 4, 44, 358, 172 ],
+                                        "client_rect": [ 1886, 93, 2275, 380 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
                                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -3920,7 +3918,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 7 ],
+                                    "destination": [ "obj-2", 8 ],
                                     "hidden": 1,
                                     "source": [ "obj-21", 0 ]
                                 }
