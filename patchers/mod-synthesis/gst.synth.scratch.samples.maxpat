@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 249.0, 164.0 ],
+        "rect": [ 34.0, 93.0, 249.0, 113.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -183,7 +183,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 519.0, 197.0, 15.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 88.0, 46.0, 15.0, 15.0 ],
+                    "presentation_rect": [ 87.0, 43.0, 15.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgoncolor": {
                             "expression": ""
@@ -286,7 +286,7 @@
                     "pattrmode": 1,
                     "prefix": "C74:/media/msp/",
                     "presentation": 1,
-                    "presentation_rect": [ 88.0, 83.0, 114.28571605682373, 19.0 ],
+                    "presentation_rect": [ 88.0, 83.0, 106.0, 19.0 ],
                     "saved_attribute_attributes": {
                         "bgfillcolor": {
                             "expression": "themecolor.live_control_text_bg"
@@ -309,7 +309,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 539.0, 197.0, 62.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 108.0, 46.0, 62.0, 16.0 ],
+                    "presentation_rect": [ 107.0, 43.0, 62.0, 16.0 ],
                     "text": "Loop"
                 }
             },
@@ -375,7 +375,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 612.0, 194.0, 128.0, 128.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 86.0, 81.0, 118.6046530008316, 23.920266151428223 ],
+                    "presentation_rect": [ 86.0, 81.0, 110.0, 24.0 ],
                     "proportion": 0.5,
                     "rounded": 0
                 }
@@ -608,7 +608,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 44.0, 754.0, 51.0, 91.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 194.0, 1.0, 48.0, 154.0 ],
+                    "presentation_rect": [ 194.0, 1.0, 48.0, 105.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_linknames": 1,
@@ -700,7 +700,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 400.0, 138.0, 85.0, 16.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 126.0, 40.0, 16.0 ],
+                    "presentation_rect": [ 136.0, 63.0, 40.0, 16.0 ],
                     "text": "Speed"
                 }
             },
@@ -717,7 +717,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 347.0, 138.5, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 47.0, 127.0, 44.0, 15.0 ],
+                    "presentation_rect": [ 88.0, 64.0, 44.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 1 ],

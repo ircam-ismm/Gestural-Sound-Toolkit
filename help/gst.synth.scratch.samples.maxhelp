@@ -41,7 +41,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 18.0, 420.0, 145.0, 21.0 ],
-                                    "presentation_linecount": 5,
                                     "text": "turns off active samples"
                                 }
                             },
@@ -110,7 +109,8 @@
                                     "saved_object_attributes": {
                                         "client_rect": [ 784, 266, 1575, 479 ],
                                         "parameter_enable": 0,
-                                        "parameter_mappable": 0
+                                        "parameter_mappable": 0,
+                                        "storage_rect": [ 583, 69, 1034, 197 ]
                                     },
                                     "text": "pattrstorage gst.synth.scratch.samples-help @outputmode 1",
                                     "varname": "gst.synth.scratch.samples-help"
@@ -845,7 +845,7 @@
                                     "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "multichannelsignal", "multichannelsignal" ],
-                                    "patching_rect": [ 44.5, 450.0, 241.0, 154.0 ],
+                                    "patching_rect": [ 45.0, 450.0, 240.33333333333331, 113.0 ],
                                     "varname": "_gst.synth.scratch.samples",
                                     "viewvisibility": 1
                                 }
