@@ -4,13 +4,54 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 34.0, 93.0, 1340.0, 974.0 ],
         "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-27",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.mc.output.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 952.0, 842.0, 184.0, 85.0 ],
+                    "varname": "_gstmcoutput",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-5",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.synth.FM.maxpat",
+                    "numinlets": 7,
+                    "numoutlets": 5,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal", "", "", "" ],
+                    "patching_rect": [ 952.0, 639.0, 262.0, 149.0 ],
+                    "varname": "_gst.synth.FM",
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "fontsize": 8.0,
@@ -26,7 +67,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -313,26 +354,6 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 0.0 ],
-                    "bgmode": 2,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-15",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "sid.output.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 952.0, 831.0, 182.97576904296875, 86.09903717041016 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "id": "obj-14",
                     "maxclass": "newobj",
                     "numinlets": 6,
@@ -351,27 +372,6 @@
                     "outlettype": [ "float", "float", "float" ],
                     "patching_rect": [ 952.0, 505.0, 272.5897216796875, 22.0 ],
                     "text": "unpack f f f"
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-40",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "synth.FM.maxpat",
-                    "numinlets": 7,
-                    "numoutlets": 4,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "multichannelsignal", "", "", "" ],
-                    "patching_rect": [ 952.0, 637.0, 260.0, 147.0 ],
-                    "varname": "synth.FM",
-                    "viewvisibility": 1
                 }
             },
             {
@@ -771,7 +771,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-40", 2 ],
+                    "destination": [ "obj-5", 2 ],
                     "source": [ "obj-14", 0 ]
                 }
             },
@@ -791,7 +791,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-40", 4 ],
+                    "destination": [ "obj-5", 4 ],
                     "source": [ "obj-17", 0 ]
                 }
             },
@@ -907,22 +907,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-40", 3 ],
+                    "destination": [ "obj-5", 3 ],
                     "source": [ "obj-4", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-15", 1 ],
-                    "order": 0,
-                    "source": [ "obj-40", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-15", 0 ],
-                    "order": 1,
-                    "source": [ "obj-40", 0 ]
                 }
             },
             {
@@ -964,6 +950,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-27", 0 ],
+                    "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-23", 0 ],
                     "source": [ "obj-6", 0 ]
                 }
@@ -992,7 +984,6 @@
             }
         ],
         "parameters": {
-            "obj-15::obj-2": [ "live.gain~[5]", "ogain", 0 ],
             "obj-19": [ "regularization[1]", "regularization", 0 ],
             "obj-22::obj-11": [ "live.text[3]", "live.text", 0 ],
             "obj-22::obj-5::obj-17": [ "out-sens-type", "out-sens-type", 0 ],
@@ -1001,13 +992,7 @@
             "obj-22::obj-5::obj-37": [ "minMonitor", "minMonitor", 0 ],
             "obj-22::obj-5::obj-42": [ "frame-rate", "framerate", 0 ],
             "obj-22::obj-5::obj-48": [ "gyroweight", "maveragewindow", 0 ],
-            "obj-40::obj-2": [ "ogain", "ogain", 0 ],
-            "obj-40::obj-20": [ "harmonicity", "harmonicity", 0 ],
-            "obj-40::obj-21": [ "carrier", "carrier", 0 ],
-            "obj-40::obj-24": [ "duration", "duration", 0 ],
-            "obj-40::obj-32": [ "index", "index", 0 ],
-            "obj-40::obj-42": [ "live.button", "live.button", 0 ],
-            "obj-40::obj-88": [ "ConstAmp", "ConstAmp", 0 ],
+            "obj-27::obj-2": [ "ogain", "ogain", 0 ],
             "obj-48::obj-15": [ "live.text[12]", "live.text", 0 ],
             "obj-48::obj-16": [ "loop", "loop", 0 ],
             "obj-48::obj-18": [ "live.text[10]", "live.text", 0 ],
@@ -1028,6 +1013,14 @@
             "obj-49::obj-70": [ "live.text[16]", "live.text", 0 ],
             "obj-49::obj-73": [ "live.toggle[3]", "live.toggle", 0 ],
             "obj-49::obj-74": [ "label", "label", 0 ],
+            "obj-5::obj-2": [ "ogain[1]", "ogain", 0 ],
+            "obj-5::obj-20": [ "harmonicity[1]", "harmonicity", 0 ],
+            "obj-5::obj-21": [ "carrier[1]", "carrier", 0 ],
+            "obj-5::obj-24": [ "duration[1]", "duration", 1 ],
+            "obj-5::obj-32": [ "index[1]", "index", 0 ],
+            "obj-5::obj-33": [ "env", "env", 0 ],
+            "obj-5::obj-42": [ "live.button[1]", "live.button", 0 ],
+            "obj-5::obj-88": [ "ConstAmp[1]", "ConstAmp", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -1037,9 +1030,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-15::obj-2": {
-                    "parameter_longname": "live.gain~[5]"
-                },
                 "obj-49::obj-59": {
                     "parameter_longname": "live.text[17]"
                 },
@@ -1054,6 +1044,27 @@
                 },
                 "obj-49::obj-73": {
                     "parameter_longname": "live.toggle[3]"
+                },
+                "obj-5::obj-2": {
+                    "parameter_longname": "ogain[1]"
+                },
+                "obj-5::obj-20": {
+                    "parameter_longname": "harmonicity[1]"
+                },
+                "obj-5::obj-21": {
+                    "parameter_longname": "carrier[1]"
+                },
+                "obj-5::obj-24": {
+                    "parameter_longname": "duration[1]"
+                },
+                "obj-5::obj-32": {
+                    "parameter_longname": "index[1]"
+                },
+                "obj-5::obj-42": {
+                    "parameter_longname": "live.button[1]"
+                },
+                "obj-5::obj-88": {
+                    "parameter_longname": "ConstAmp[1]"
                 }
             },
             "inherited_shortname": 1

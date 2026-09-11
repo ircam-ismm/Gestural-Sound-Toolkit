@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
@@ -13,23 +13,84 @@
         "boxes": [
             {
                 "box": {
-                    "bgcolor": [ 0.823529, 0.823529, 0.823529, 0.0 ],
-                    "bgmode": 2,
+                    "bgmode": 0,
                     "border": 1,
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
-                    "id": "obj-12",
+                    "id": "obj-34",
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "synth.FM.maxpat",
+                    "name": "gst.synth.FM.maxpat",
                     "numinlets": 7,
-                    "numoutlets": 4,
-                    "offset": [ -6.0, -7.0 ],
-                    "outlettype": [ "multichannelsignal", "", "", "" ],
-                    "patching_rect": [ 966.0, 680.0, 261.0, 152.0 ],
-                    "varname": "synth.FM[1]",
+                    "numoutlets": 5,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal", "", "", "" ],
+                    "patching_rect": [ 941.0, 681.5, 262.0, 149.0 ],
+                    "varname": "_gst.synth.FM[1]",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-33",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.synth.FM.maxpat",
+                    "numinlets": 7,
+                    "numoutlets": 5,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal", "", "", "" ],
+                    "patching_rect": [ 662.0, 681.5, 262.0, 149.0 ],
+                    "varname": "_gst.synth.FM",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-31",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.mc.output.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 496.73121643066406, 870.0, 184.0, 85.0 ],
+                    "varname": "_gstmcoutput",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-23",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.synth.scratch.samples.maxpat",
+                    "numinlets": 5,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal" ],
+                    "patching_rect": [ 306.0, 704.0, 245.0, 114.0 ],
+                    "varname": "_gst.synth.scratch.samples",
                     "viewvisibility": 1
                 }
             },
@@ -75,28 +136,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 400.0, 659.0, 151.0, 22.0 ],
                     "text": "loadmess C74:/media/msp"
-                }
-            },
-            {
-                "box": {
-                    "bgcolor": [ 0.823529, 0.823529, 0.823529, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-31",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "synth.scratch.samples.maxpat",
-                    "numinlets": 5,
-                    "numoutlets": 1,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 306.0, 694.0, 240.79486083984375, 145.89173889160156 ],
-                    "varname": "synth.scratch.samples",
-                    "viewvisibility": 1
                 }
             },
             {
@@ -404,28 +443,6 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.823529, 0.823529, 0.823529, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-40",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "synth.FM.maxpat",
-                    "numinlets": 7,
-                    "numoutlets": 4,
-                    "offset": [ -6.0, -7.0 ],
-                    "outlettype": [ "multichannelsignal", "", "", "" ],
-                    "patching_rect": [ 662.0, 680.0, 261.0, 152.0 ],
-                    "varname": "synth.FM",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "bgcolor": [ 0.819608, 0.819608, 0.819608, 0.0 ],
                     "bgmode": 2,
                     "border": 1,
@@ -437,9 +454,9 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "gst.gate.maxpat",
-                    "numinlets": 4,
+                    "numinlets": 5,
                     "numoutlets": 2,
-                    "offset": [ 1.0, -4.0 ],
+                    "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "int" ],
                     "patching_rect": [ 547.0, 460.0, 133.73121643066406, 116.34757995605469 ],
                     "varname": "gst.gate.float",
@@ -460,26 +477,6 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.913725490196078, 0.913725490196078, 0.913725490196078, 0.0 ],
-                    "bgmode": 2,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-26",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "sid.output.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 497.7554473876953, 873.0, 182.97576904296875, 86.09903717041016 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "bgcolor": [ 0.819608, 0.819608, 0.819608, 0.0 ],
                     "bgmode": 2,
                     "border": 1,
@@ -493,8 +490,8 @@
                     "name": "gst.kick.maxpat",
                     "numinlets": 5,
                     "numoutlets": 3,
-                    "offset": [ 0.0, -5.0 ],
-                    "outlettype": [ "float", "int", "" ],
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "float", "bang", "" ],
                     "patching_rect": [ 805.634391784668, 460.0, 133.73121643066406, 116.319091796875 ],
                     "varname": "gst.kick",
                     "viewvisibility": 1
@@ -502,12 +499,6 @@
             }
         ],
         "lines": [
-            {
-                "patchline": {
-                    "destination": [ "obj-26", 0 ],
-                    "source": [ "obj-12", 0 ]
-                }
-            },
             {
                 "patchline": {
                     "destination": [ "obj-16", 0 ],
@@ -532,7 +523,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-25", 1 ],
-                    "midpoints": [ 994.365608215332, 428.6580810546875, 594.7437388102213, 428.6580810546875 ],
+                    "midpoints": [ 994.365608215332, 428.6580810546875, 585.182804107666, 428.6580810546875 ],
                     "order": 1,
                     "source": [ "obj-14", 0 ]
                 }
@@ -579,7 +570,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-40", 0 ],
+                    "destination": [ "obj-33", 0 ],
                     "source": [ "obj-18", 0 ]
                 }
             },
@@ -591,8 +582,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-12", 0 ],
+                    "destination": [ "obj-34", 0 ],
                     "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 0 ],
+                    "source": [ "obj-23", 0 ]
                 }
             },
             {
@@ -629,26 +626,26 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-31", 4 ],
+                    "destination": [ "obj-23", 4 ],
                     "source": [ "obj-30", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-26", 0 ],
-                    "source": [ "obj-31", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-31", 0 ],
+                    "destination": [ "obj-23", 0 ],
                     "source": [ "obj-32", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-26", 0 ],
-                    "source": [ "obj-40", 0 ]
+                    "destination": [ "obj-31", 0 ],
+                    "source": [ "obj-33", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 0 ],
+                    "source": [ "obj-34", 0 ]
                 }
             },
             {
@@ -674,7 +671,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-25", 1 ],
-                    "midpoints": [ 258.0, 439.546630859375, 594.7437388102213, 439.546630859375 ],
+                    "midpoints": [ 258.0, 439.546630859375, 585.182804107666, 439.546630859375 ],
                     "order": 0,
                     "source": [ "obj-7", 0 ]
                 }
@@ -703,13 +700,6 @@
             }
         ],
         "parameters": {
-            "obj-12::obj-2": [ "ogain", "ogain", 0 ],
-            "obj-12::obj-20": [ "harmonicity[1]", "harmonicity", 0 ],
-            "obj-12::obj-21": [ "carrier[1]", "carrier", 0 ],
-            "obj-12::obj-24": [ "duration[1]", "duration", 0 ],
-            "obj-12::obj-32": [ "index[1]", "index", 0 ],
-            "obj-12::obj-42": [ "live.button[4]", "live.button", 0 ],
-            "obj-12::obj-88": [ "ConstAmp[1]", "ConstAmp", 0 ],
             "obj-14::obj-195::obj-125": [ "compexp", "compexp", 0 ],
             "obj-14::obj-195::obj-13": [ "minMonitor[2]", "minMonitor", 0 ],
             "obj-14::obj-195::obj-136": [ "live.menu[1]", "live.menu", 0 ],
@@ -727,31 +717,42 @@
             "obj-14::obj-37": [ "live.text[4]", "live.text", 0 ],
             "obj-21::obj-16": [ "sample-period", "sample-period", 0 ],
             "obj-21::obj-18": [ "zoom", "zoom", 0 ],
+            "obj-23::obj-166": [ "speed[1]", "speed", 0 ],
+            "obj-23::obj-22": [ "ogain[1]", "ogain", 0 ],
+            "obj-23::obj-88": [ "start[1]", "start", 0 ],
+            "obj-23::obj-92": [ "loop[1]", "loop", 0 ],
             "obj-25::obj-27": [ "conti", "conti", 0 ],
+            "obj-25::obj-34": [ "live.toggle", "bypass", 0 ],
             "obj-25::obj-6": [ "live.text[1]", "live.text", 0 ],
             "obj-25::obj-8::obj-14": [ "threshold[1]", "threshold", 0 ],
+            "obj-25::obj-8::obj-16": [ "bypass", "bypass", 0 ],
             "obj-25::obj-8::obj-27": [ "continuous", "continuous", 0 ],
             "obj-25::obj-8::obj-34": [ "maxMonitor[1]", "maxMonitor", 0 ],
             "obj-25::obj-8::obj-37": [ "minMonitor[1]", "minMonitor", 0 ],
-            "obj-26::obj-2": [ "live.gain~[5]", "ogain", 0 ],
-            "obj-31::obj-166": [ "speed", "speed", 0 ],
-            "obj-31::obj-22": [ "live.gain~[11]", "ogain", 0 ],
-            "obj-31::obj-88": [ "start", "start", 0 ],
-            "obj-31::obj-92": [ "loop", "loop", 0 ],
+            "obj-31::obj-2": [ "ogain[2]", "ogain", 0 ],
+            "obj-33::obj-2": [ "ogain[3]", "ogain", 0 ],
+            "obj-33::obj-20": [ "harmonicity[2]", "harmonicity", 0 ],
+            "obj-33::obj-21": [ "carrier[2]", "carrier", 0 ],
+            "obj-33::obj-24": [ "duration[2]", "duration", 1 ],
+            "obj-33::obj-32": [ "index[2]", "index", 0 ],
+            "obj-33::obj-33": [ "env", "env", 0 ],
+            "obj-33::obj-42": [ "live.button[5]", "live.button", 0 ],
+            "obj-33::obj-88": [ "ConstAmp[2]", "ConstAmp", 0 ],
+            "obj-34::obj-2": [ "ogain[4]", "ogain", 0 ],
+            "obj-34::obj-20": [ "harmonicity", "harmonicity", 0 ],
+            "obj-34::obj-21": [ "carrier", "carrier", 0 ],
+            "obj-34::obj-24": [ "duration", "duration", 1 ],
+            "obj-34::obj-32": [ "index", "index", 0 ],
+            "obj-34::obj-33": [ "env[1]", "env", 0 ],
+            "obj-34::obj-42": [ "live.button[6]", "live.button", 0 ],
+            "obj-34::obj-88": [ "ConstAmp", "ConstAmp", 0 ],
             "obj-3::obj-17": [ "live.text[3]", "live.text", 0 ],
             "obj-3::obj-4": [ "live.button", "live.button[1]", 0 ],
             "obj-3::obj-8::obj-14": [ "threshold", "threshold", 0 ],
-            "obj-3::obj-8::obj-17": [ "minDuration", "threshold", 0 ],
-            "obj-3::obj-8::obj-27": [ "medianSize", "maveragewindow", 0 ],
+            "obj-3::obj-8::obj-17": [ "minDuration", "minDuration", 0 ],
+            "obj-3::obj-8::obj-27": [ "medianSize", "medianSize", 0 ],
             "obj-3::obj-8::obj-34": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-3::obj-8::obj-37": [ "minMonitor", "minMonitor", 0 ],
-            "obj-40::obj-2": [ "live.gain~[1]", "ogain", 0 ],
-            "obj-40::obj-20": [ "harmonicity", "harmonicity", 0 ],
-            "obj-40::obj-21": [ "carrier", "carrier", 0 ],
-            "obj-40::obj-24": [ "duration", "duration", 0 ],
-            "obj-40::obj-32": [ "index", "index", 0 ],
-            "obj-40::obj-42": [ "live.button[1]", "live.button", 0 ],
-            "obj-40::obj-88": [ "ConstAmp", "ConstAmp", 0 ],
             "obj-6::obj-195::obj-13": [ "minMonitor[3]", "minMonitor", 0 ],
             "obj-6::obj-195::obj-14": [ "maxMonitor[3]", "maxMonitor", 0 ],
             "obj-6::obj-195::obj-42": [ "frame-rate", "framerate", 0 ],
@@ -790,24 +791,6 @@
                 }
             },
             "parameter_overrides": {
-                "obj-12::obj-20": {
-                    "parameter_longname": "harmonicity[1]"
-                },
-                "obj-12::obj-21": {
-                    "parameter_longname": "carrier[1]"
-                },
-                "obj-12::obj-24": {
-                    "parameter_longname": "duration[1]"
-                },
-                "obj-12::obj-32": {
-                    "parameter_longname": "index[1]"
-                },
-                "obj-12::obj-42": {
-                    "parameter_longname": "live.button[4]"
-                },
-                "obj-12::obj-88": {
-                    "parameter_longname": "ConstAmp[1]"
-                },
                 "obj-14::obj-195::obj-13": {
                     "parameter_longname": "minMonitor[2]"
                 },
@@ -816,6 +799,18 @@
                 },
                 "obj-14::obj-37": {
                     "parameter_longname": "live.text[4]"
+                },
+                "obj-23::obj-166": {
+                    "parameter_longname": "speed[1]"
+                },
+                "obj-23::obj-22": {
+                    "parameter_longname": "ogain[1]"
+                },
+                "obj-23::obj-88": {
+                    "parameter_longname": "start[1]"
+                },
+                "obj-23::obj-92": {
+                    "parameter_longname": "loop[1]"
                 },
                 "obj-25::obj-6": {
                     "parameter_longname": "live.text[1]"
@@ -829,20 +824,41 @@
                 "obj-25::obj-8::obj-37": {
                     "parameter_longname": "minMonitor[1]"
                 },
-                "obj-26::obj-2": {
-                    "parameter_longname": "live.gain~[5]"
+                "obj-31::obj-2": {
+                    "parameter_longname": "ogain[2]"
                 },
-                "obj-31::obj-22": {
-                    "parameter_longname": "live.gain~[11]"
+                "obj-33::obj-2": {
+                    "parameter_longname": "ogain[3]"
+                },
+                "obj-33::obj-20": {
+                    "parameter_longname": "harmonicity[2]"
+                },
+                "obj-33::obj-21": {
+                    "parameter_longname": "carrier[2]"
+                },
+                "obj-33::obj-24": {
+                    "parameter_longname": "duration[2]"
+                },
+                "obj-33::obj-32": {
+                    "parameter_longname": "index[2]"
+                },
+                "obj-33::obj-42": {
+                    "parameter_longname": "live.button[5]"
+                },
+                "obj-33::obj-88": {
+                    "parameter_longname": "ConstAmp[2]"
+                },
+                "obj-34::obj-2": {
+                    "parameter_longname": "ogain[4]"
+                },
+                "obj-34::obj-42": {
+                    "parameter_longname": "live.button[6]"
+                },
+                "obj-3::obj-17": {
+                    "parameter_longname": "live.text[3]"
                 },
                 "obj-3::obj-4": {
                     "parameter_longname": "live.button"
-                },
-                "obj-40::obj-2": {
-                    "parameter_longname": "live.gain~[1]"
-                },
-                "obj-40::obj-42": {
-                    "parameter_longname": "live.button[1]"
                 },
                 "obj-6::obj-195::obj-13": {
                     "parameter_longname": "minMonitor[3]"

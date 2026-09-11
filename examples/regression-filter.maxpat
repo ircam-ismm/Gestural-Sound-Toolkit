@@ -4,13 +4,54 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 34.0, 93.0, 828.0, 911.0 ],
         "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-4",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.mc.output.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 144.5, 798.0, 184.0, 85.0 ],
+                    "varname": "_gstmcoutput",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-3",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.synth.filter.maxpat",
+                    "numinlets": 3,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "multichannelsignal", "signal" ],
+                    "patching_rect": [ 144.5, 637.0, 242.0, 146.0 ],
+                    "varname": "_gst.synth.filter",
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "id": "obj-9",
@@ -70,7 +111,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -184,26 +225,6 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-26",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "sid.output.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 145.0, 807.0, 191.0, 90.0 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "floatoutput": 1,
                     "id": "obj-1",
                     "maxclass": "slider",
@@ -233,28 +254,7 @@
                     "offset": [ -2.0, -4.0 ],
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 413.0, 107.0, 411.0, 176.0 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "bgcolor": [ 0.65045, 0.65045, 0.65045, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-60",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "synth.filter.maxpat",
-                    "numinlets": 3,
-                    "numoutlets": 2,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "multichannelsignal", "signal" ],
-                    "patching_rect": [ 145.0, 645.0, 241.79486083984375, 145.89173889160156 ],
-                    "varname": "synth.filter",
+                    "varname": "gst.recorddata",
                     "viewvisibility": 1
                 }
             },
@@ -344,8 +344,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-60", 1 ],
+                    "destination": [ "obj-3", 1 ],
                     "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-3", 0 ]
                 }
             },
             {
@@ -382,12 +388,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-26", 0 ],
-                    "source": [ "obj-60", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-7", 0 ]
                 }
@@ -406,7 +406,10 @@
             }
         ],
         "parameters": {
-            "obj-26::obj-2": [ "live.gain~[5]", "ogain", 0 ],
+            "obj-3::obj-15": [ "noise[1]", "noise", 0 ],
+            "obj-3::obj-18": [ "minF[1]", "minF", 0 ],
+            "obj-3::obj-19": [ "maxF[1]", "maxF", 0 ],
+            "obj-3::obj-2": [ "ogain", "ogain", 0 ],
             "obj-41::obj-108": [ "clock-type", "clock type", 0 ],
             "obj-41::obj-16": [ "osc-port", "port", 0 ],
             "obj-41::obj-179": [ "sens-type", "sensor type", 0 ],
@@ -436,10 +439,9 @@
             "obj-48::obj-57": [ "autoscale", "autoscale", 0 ],
             "obj-48::obj-6": [ "live.text[13]", "live.text", 0 ],
             "obj-48::obj-71": [ "live.toggle[1]", "live.toggle", 0 ],
-            "obj-60::obj-15": [ "noise", "noise", 0 ],
-            "obj-60::obj-18": [ "minF", "minF", 0 ],
-            "obj-60::obj-19": [ "maxF", "maxF", 0 ],
-            "obj-60::obj-2": [ "live.gain~[2]", "ogain", 0 ],
+            "obj-48::obj-80": [ "live.text[9]", "live.text", 0 ],
+            "obj-48::obj-85::obj-25": [ "maxduration", "maxduration", 0 ],
+            "obj-4::obj-2": [ "ogain[1]", "ogain", 0 ],
             "obj-6::obj-11": [ "live.text[3]", "live.text", 0 ],
             "obj-6::obj-5::obj-17": [ "out-sens-type", "out-sens-type", 0 ],
             "obj-6::obj-5::obj-179": [ "in-sens-type", "in-sens-type", 0 ],
@@ -465,11 +467,35 @@
                 }
             },
             "parameter_overrides": {
-                "obj-26::obj-2": {
-                    "parameter_longname": "live.gain~[5]"
+                "obj-3::obj-15": {
+                    "parameter_longname": "noise[1]"
                 },
-                "obj-60::obj-2": {
-                    "parameter_longname": "live.gain~[2]"
+                "obj-3::obj-18": {
+                    "parameter_longname": "minF[1]"
+                },
+                "obj-3::obj-19": {
+                    "parameter_longname": "maxF[1]"
+                },
+                "obj-41::obj-18::obj-20": {
+                    "parameter_longname": "2579-port[1]"
+                },
+                "obj-4::obj-2": {
+                    "parameter_longname": "ogain[1]"
+                },
+                "obj-8::obj-59": {
+                    "parameter_longname": "live.text[6]"
+                },
+                "obj-8::obj-64": {
+                    "parameter_longname": "live.text[5]"
+                },
+                "obj-8::obj-66": {
+                    "parameter_longname": "live.text[8]"
+                },
+                "obj-8::obj-70": {
+                    "parameter_longname": "live.text[7]"
+                },
+                "obj-8::obj-73": {
+                    "parameter_longname": "live.toggle"
                 }
             },
             "inherited_shortname": 1

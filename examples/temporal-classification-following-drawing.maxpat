@@ -4,13 +4,54 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 34.0, 93.0, 668.0, 902.0 ],
         "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-8",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.mc.output.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 32.0, 814.0, 184.0, 85.0 ],
+                    "varname": "_gstmcoutput",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-6",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.synth.scrub.samples.maxpat",
+                    "numinlets": 5,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal" ],
+                    "patching_rect": [ 32.0, 649.0, 251.0, 151.0 ],
+                    "varname": "_gst.synth.scrub.samples",
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "fontsize": 10.0,
@@ -103,7 +144,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "gst.classification.hhmm.maxpat",
-                    "numinlets": 8,
+                    "numinlets": 9,
                     "numoutlets": 3,
                     "offset": [ 0.0, -3.0 ],
                     "outlettype": [ "", "", "" ],
@@ -141,7 +182,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 32.0, 620.0, 29.5, 22.0 ],
+                    "patching_rect": [ 32.0, 614.0, 29.5, 22.0 ],
                     "text": "t 1 i"
                 }
             },
@@ -158,48 +199,6 @@
                     "patching_rect": [ 316.0, 586.0, 151.0, 23.0 ],
                     "setminmax": [ 0.0, 1.0 ],
                     "setstyle": 1
-                }
-            },
-            {
-                "box": {
-                    "bgcolor": [ 1.0, 1.0, 1.0, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-26",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "sid.output.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 32.0, 812.0, 182.97576904296875, 80.09903717041016 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "bgcolor": [ 0.65045, 0.65045, 0.65045, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-12",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "synth.scrub.samples.maxpat",
-                    "numinlets": 5,
-                    "numoutlets": 1,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 32.0, 659.0, 246.0, 146.0 ],
-                    "varname": "synth.scrub.samples",
-                    "viewvisibility": 1
                 }
             }
         ],
@@ -218,19 +217,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-26", 0 ],
-                    "source": [ "obj-12", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-12", 1 ],
+                    "destination": [ "obj-6", 1 ],
                     "source": [ "obj-15", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-12", 0 ],
+                    "destination": [ "obj-6", 0 ],
                     "source": [ "obj-15", 0 ]
                 }
             },
@@ -260,8 +253,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-12", 2 ],
-                    "midpoints": [ 325.5, 635.9878540039062, 155.0, 635.9878540039062 ],
+                    "destination": [ "obj-6", 2 ],
+                    "midpoints": [ 325.5, 635.9878540039062, 157.5, 635.9878540039062 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -273,17 +266,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-2", 6 ],
                     "source": [ "obj-7", 0 ]
                 }
             }
         ],
         "parameters": {
-            "obj-12::obj-2": [ "live.gain~[3]", "ogain", 0 ],
-            "obj-12::obj-88": [ "start", "start", 0 ],
             "obj-1::obj-16": [ "sample-period", "sample-period", 0 ],
             "obj-1::obj-18": [ "zoom", "zoom", 0 ],
-            "obj-26::obj-2": [ "live.gain~[5]", "ogain", 0 ],
             "obj-2::obj-11": [ "total", "total", 0 ],
             "obj-2::obj-29": [ "regularization", "regularization", 0 ],
             "obj-2::obj-39": [ "label", "label", 0 ],
@@ -293,12 +289,28 @@
             "obj-2::obj-7": [ "auto+", "auto+", 0 ],
             "obj-2::obj-70": [ "live.text[7]", "live.text", 0 ],
             "obj-2::obj-73": [ "live.toggle", "live.toggle", 0 ],
+            "obj-2::obj-90": [ "enable", "enable", 0 ],
+            "obj-6::obj-14": [ "position[1]", "position", 0 ],
+            "obj-6::obj-2": [ "ogain", "ogain", 0 ],
+            "obj-6::obj-88": [ "start[1]", "start", 0 ],
+            "obj-8::obj-2": [ "ogain[1]", "ogain", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
-                "obj-12::obj-2": {
-                    "parameter_longname": "live.gain~[3]"
+                "obj-6::obj-14": {
+                    "parameter_longname": "position[1]"
                 },
-                "obj-26::obj-2": {
-                    "parameter_longname": "live.gain~[5]"
+                "obj-6::obj-88": {
+                    "parameter_longname": "start[1]"
+                },
+                "obj-8::obj-2": {
+                    "parameter_longname": "ogain[1]"
                 }
             },
             "inherited_shortname": 1

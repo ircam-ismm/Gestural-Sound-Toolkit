@@ -4,13 +4,54 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 34.0, 93.0, 502.0, 892.0 ],
         "boxes": [
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-1",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.mc.output.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 29.0, 766.0, 184.0, 85.0 ],
+                    "varname": "_gstmcoutput",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 1,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-6",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "gst.synth.scrub.samples.maxpat",
+                    "numinlets": 5,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "multichannelsignal", "multichannelsignal" ],
+                    "patching_rect": [ 29.0, 601.0, 251.0, 151.0 ],
+                    "varname": "_gst.synth.scrub.samples",
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "id": "obj-8",
@@ -41,7 +82,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 28.0, 532.0, 50.0, 22.0 ]
+                    "patching_rect": [ 29.0, 513.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -67,7 +108,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "gst.classification.hhmm.maxpat",
-                    "numinlets": 8,
+                    "numinlets": 9,
                     "numoutlets": 3,
                     "offset": [ 0.0, -3.0 ],
                     "outlettype": [ "", "", "" ],
@@ -138,7 +179,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 28.0, 567.0, 29.5, 22.0 ],
+                    "patching_rect": [ 29.0, 542.0, 29.5, 22.0 ],
                     "text": "t 1 i"
                 }
             },
@@ -156,66 +197,18 @@
                     "setminmax": [ 0.0, 1.0 ],
                     "setstyle": 1
                 }
-            },
-            {
-                "box": {
-                    "bgcolor": [ 0.913725490196078, 0.913725490196078, 0.913725490196078, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-26",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "sid.output.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 28.0, 786.0, 188.0, 93.0 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "bgcolor": [ 0.65045, 0.65045, 0.65045, 0.0 ],
-                    "bgmode": 2,
-                    "border": 1,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-12",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "synth.scrub.samples.maxpat",
-                    "numinlets": 5,
-                    "numoutlets": 1,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 28.0, 600.0, 246.0, 149.0 ],
-                    "varname": "synth.scrub.samples",
-                    "viewvisibility": 1
-                }
             }
         ],
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-26", 0 ],
-                    "source": [ "obj-12", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-12", 1 ],
+                    "destination": [ "obj-6", 1 ],
                     "source": [ "obj-15", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-12", 0 ],
+                    "destination": [ "obj-6", 0 ],
                     "source": [ "obj-15", 0 ]
                 }
             },
@@ -251,8 +244,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-12", 2 ],
-                    "midpoints": [ 323.5, 584.3312683105469, 151.0, 584.3312683105469 ],
+                    "destination": [ "obj-6", 2 ],
+                    "midpoints": [ 323.5, 584.3312683105469, 154.5, 584.3312683105469 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -260,6 +253,12 @@
                 "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-41", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-6", 0 ]
                 }
             },
             {
@@ -276,9 +275,7 @@
             }
         ],
         "parameters": {
-            "obj-12::obj-2": [ "live.gain~[3]", "ogain", 0 ],
-            "obj-12::obj-88": [ "start", "start", 0 ],
-            "obj-26::obj-2": [ "live.gain~[5]", "ogain", 0 ],
+            "obj-1::obj-2": [ "ogain[1]", "ogain", 0 ],
             "obj-2::obj-11": [ "total", "total", 0 ],
             "obj-2::obj-29": [ "regularization", "regularization", 0 ],
             "obj-2::obj-39": [ "label", "label", 0 ],
@@ -288,6 +285,7 @@
             "obj-2::obj-7": [ "auto+", "auto+", 0 ],
             "obj-2::obj-70": [ "live.text[7]", "live.text", 0 ],
             "obj-2::obj-73": [ "live.toggle", "live.toggle", 0 ],
+            "obj-2::obj-90": [ "enable[1]", "enable", 0 ],
             "obj-41::obj-108": [ "clock-type", "clock type", 0 ],
             "obj-41::obj-16": [ "osc-port", "port", 0 ],
             "obj-41::obj-179": [ "sens-type", "sensor type", 0 ],
@@ -308,6 +306,9 @@
             "obj-41::obj-58": [ "live.text[2]", "live.text[3]", 0 ],
             "obj-41::obj-59": [ "osc-id", "id", 0 ],
             "obj-41::obj-60": [ "live.text[16]", "live.text[3]", 0 ],
+            "obj-6::obj-14": [ "position[1]", "position", 0 ],
+            "obj-6::obj-2": [ "ogain", "ogain", 0 ],
+            "obj-6::obj-88": [ "start[1]", "start", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -317,14 +318,20 @@
                 }
             },
             "parameter_overrides": {
-                "obj-12::obj-2": {
-                    "parameter_longname": "live.gain~[3]"
+                "obj-1::obj-2": {
+                    "parameter_longname": "ogain[1]"
                 },
-                "obj-26::obj-2": {
-                    "parameter_longname": "live.gain~[5]"
+                "obj-2::obj-90": {
+                    "parameter_longname": "enable[1]"
                 },
                 "obj-41::obj-18::obj-20": {
                     "parameter_longname": "2394-port[1]"
+                },
+                "obj-6::obj-14": {
+                    "parameter_longname": "position[1]"
+                },
+                "obj-6::obj-88": {
+                    "parameter_longname": "start[1]"
                 }
             },
             "inherited_shortname": 1
