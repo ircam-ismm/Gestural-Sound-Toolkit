@@ -1,0 +1,55 @@
+{
+    "pattrstorage": {
+        "name": "gst.synth.scratch.samples-help",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "gst.synth.scratch.samples::loop": [ 1.0 ],
+                    "gst.synth.scratch.samples::ogain": [ -12.041199826559248 ],
+                    "gst.synth.scratch.samples::sflist": [ "brushes.aif" ],
+                    "gst.synth.scratch.samples::speed": [ 1.0 ],
+                    "gst.synth.scratch.samples::start": [ 1.0 ],
+                    "gst.classification.gmm::auto+": [ 1.0 ],
+                    "gst.classification.gmm::enable": [ 1.0 ],
+                    "gst.classification.gmm::regularization": [ 0.1 ],
+                    "gst.classification.gmm::total": [ 4.0 ],
+                    "gst.recorddata::autoscale": [ 1.0 ],
+                    "gst.recorddata::loop": [ 1.0 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "gst.synth.scratch.samples::loop": [ 0.0 ],
+                    "gst.synth.scratch.samples::ogain": [ -12.041199826559248 ],
+                    "gst.synth.scratch.samples::sflist": [ "anton.aif" ],
+                    "gst.synth.scratch.samples::speed": [ 1.2362204724409451 ],
+                    "gst.synth.scratch.samples::start": [ 1.0 ],
+                    "gst.classification.gmm::auto+": [ 1.0 ],
+                    "gst.classification.gmm::enable": [ 1.0 ],
+                    "gst.classification.gmm::regularization": [ 0.1 ],
+                    "gst.classification.gmm::total": [ 4.0 ],
+                    "gst.recorddata::autoscale": [ 1.0 ],
+                    "gst.recorddata::loop": [ 1.0 ]
+                }
+            },
+            "3": {
+                "id": 3,
+                "data": {
+                    "gst.synth.scratch.samples::loop": [ 1.0 ],
+                    "gst.synth.scratch.samples::ogain": [ -12.041199826559248 ],
+                    "gst.synth.scratch.samples::sflist": [ "anton.aif" ],
+                    "gst.synth.scratch.samples::speed": [ 0.6850393700787406 ],
+                    "gst.synth.scratch.samples::start": [ 1.0 ],
+                    "gst.classification.gmm::auto+": [ 1.0 ],
+                    "gst.classification.gmm::enable": [ 1.0 ],
+                    "gst.classification.gmm::regularization": [ 0.1 ],
+                    "gst.classification.gmm::total": [ 4.0 ],
+                    "gst.recorddata::autoscale": [ 1.0 ],
+                    "gst.recorddata::loop": [ 1.0 ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "pattrstorage": {
+        "name": "gst.synth.scrub.samples-help",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "gst.synth.scrub.samples::ogain": [ -6.020599913279624 ],
+                    "gst.synth.scrub.samples::position": [ 0.22143063826296783 ],
+                    "gst.synth.scrub.samples::sflist": [ "sho0630.aif" ],
+                    "gst.synth.scrub.samples::start": [ 1.0 ],
+                    "gst.recorddata::autoscale": [ 1.0 ],
+                    "gst.recorddata::loop": [ 1.0 ],
+                    "gst.orientation::more::frame-rate": [ 100.0 ],
+                    "gst.orientation::more::gyroweight": [ 15.0 ],
+                    "gst.orientation::more::in-sens-type": [ 0.0 ],
+                    "gst.orientation::more::maxMonitor": [ 1.100000023841858 ],
+                    "gst.orientation::more::minMonitor": [ -1.100000023841858 ],
+                    "gst.orientation::more::out-sens-type": [ 1.0 ],
+                    "gst.classification.hhmm::auto+": [ 1.0 ],
+                    "gst.classification.hhmm::enable": [ 1.0 ],
+                    "gst.classification.hhmm::regularization": [ 0.2 ],
+                    "gst.classification.hhmm::total": [ 6.0 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "gst.synth.scrub.samples::ogain": [ 0.0 ],
+                    "gst.synth.scrub.samples::position": [ 0.0008363318589135282 ],
+                    "gst.synth.scrub.samples::sflist": [ "anton.aif" ],
+                    "gst.synth.scrub.samples::start": [ 1.0 ],
+                    "gst.recorddata::autoscale": [ 1.0 ],
+                    "gst.recorddata::loop": [ 1.0 ],
+                    "gst.orientation::more::frame-rate": [ 100.0 ],
+                    "gst.orientation::more::gyroweight": [ 15.0 ],
+                    "gst.orientation::more::in-sens-type": [ 0.0 ],
+                    "gst.orientation::more::maxMonitor": [ 1.100000023841858 ],
+                    "gst.orientation::more::minMonitor": [ -1.100000023841858 ],
+                    "gst.orientation::more::out-sens-type": [ 1.0 ],
+                    "gst.classification.hhmm::auto+": [ 1.0 ],
+                    "gst.classification.hhmm::enable": [ 1.0 ],
+                    "gst.classification.hhmm::regularization": [ 0.2 ],
+                    "gst.classification.hhmm::total": [ 6.0 ]
+                }
+            },
+            "3": {
+                "id": 3,
+                "data": {
+                    "gst.synth.scrub.samples::ogain": [ 0.0 ],
+                    "gst.synth.scrub.samples::position": [ 0.35403232452423544 ],
+                    "gst.synth.scrub.samples::sflist": [ "jongly.aif" ],
+                    "gst.synth.scrub.samples::start": [ 1.0 ],
+                    "gst.recorddata::autoscale": [ 1.0 ],
+                    "gst.recorddata::loop": [ 1.0 ],
+                    "gst.orientation::more::frame-rate": [ 100.0 ],
+                    "gst.orientation::more::gyroweight": [ 15.0 ],
+                    "gst.orientation::more::in-sens-type": [ 0.0 ],
+                    "gst.orientation::more::maxMonitor": [ 1.100000023841858 ],
+                    "gst.orientation::more::minMonitor": [ -1.100000023841858 ],
+                    "gst.orientation::more::out-sens-type": [ 1.0 ],
+                    "gst.classification.hhmm::auto+": [ 1.0 ],
+                    "gst.classification.hhmm::enable": [ 1.0 ],
+                    "gst.classification.hhmm::regularization": [ 0.2 ],
+                    "gst.classification.hhmm::total": [ 6.0 ]
+                }
+            }
+        }
+    }
+}
