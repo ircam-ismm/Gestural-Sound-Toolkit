@@ -2069,7 +2069,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 47.5, 824.0, 34.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 824.0, 34.0, 22.0 ],
                                     "text": "write"
                                 }
                             },
@@ -2126,7 +2126,7 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 26.0, 855.0, 312.0, 22.0 ],
                                     "saved_object_attributes": {
-                                        "client_rect": [ 1886, 93, 2275, 380 ],
+                                        "client_rect": [ 1886, 93, 2559, 1211 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
                                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -2498,8 +2498,7 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.823529, 0.823529, 0.823529, 0.0 ],
-                                    "bgmode": 2,
+                                    "bgmode": 0,
                                     "border": 1,
                                     "clickthrough": 0,
                                     "enablehscroll": 0,
@@ -2513,7 +2512,7 @@
                                     "numoutlets": 5,
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "", "", "" ],
-                                    "patching_rect": [ 1168.0, 687.0, 270.0, 146.44586944580078 ],
+                                    "patching_rect": [ 1168.0, 687.0, 269.9999999999998, 151.0 ],
                                     "varname": "synth.FM",
                                     "viewvisibility": 1
                                 }
@@ -3551,8 +3550,7 @@
                             },
                             {
                                 "box": {
-                                    "bgcolor": [ 0.823529, 0.823529, 0.823529, 0.0 ],
-                                    "bgmode": 2,
+                                    "bgmode": 0,
                                     "border": 1,
                                     "clickthrough": 0,
                                     "enablehscroll": 0,
@@ -3566,7 +3564,7 @@
                                     "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "multichannelsignal", "multichannelsignal" ],
-                                    "patching_rect": [ 802.0, 682.0, 240.79486083984375, 145.89173889160156 ],
+                                    "patching_rect": [ 802.0, 682.0, 240.79486083984375, 120.0 ],
                                     "varname": "synth.scratch.samples",
                                     "viewvisibility": 1
                                 }
@@ -4275,7 +4273,7 @@
             "obj-3::obj-12::obj-59": [ "live.numbox[1]", "id", 0 ],
             "obj-3::obj-12::obj-60": [ "live.text[17]", "live.text[3]", 0 ],
             "obj-3::obj-15::obj-166": [ "speed", "speed", 0 ],
-            "obj-3::obj-15::obj-22": [ "synthScratch-out", "ogain", 0 ],
+            "obj-3::obj-15::obj-22": [ "ogain", "ogain", 0 ],
             "obj-3::obj-15::obj-88": [ "start", "start", 0 ],
             "obj-3::obj-15::obj-92": [ "loop", "loop", 0 ],
             "obj-3::obj-1::obj-195::obj-125": [ "compexp", "compexp", 0 ],
@@ -4317,10 +4315,10 @@
             "obj-3::obj-3::obj-8::obj-27": [ "medianSize", "medianSize", 0 ],
             "obj-3::obj-3::obj-8::obj-34": [ "maxMonitor[1]", "maxMonitor", 0 ],
             "obj-3::obj-3::obj-8::obj-37": [ "minMonitor[1]", "minMonitor", 0 ],
-            "obj-3::obj-40::obj-2": [ "live.gain~[19]", "ogain", 0 ],
+            "obj-3::obj-40::obj-2": [ "ogain[1]", "ogain", 0 ],
             "obj-3::obj-40::obj-20": [ "harmonicity", "harmonicity", 0 ],
             "obj-3::obj-40::obj-21": [ "carrier", "carrier", 0 ],
-            "obj-3::obj-40::obj-24": [ "duration", "duration", 0 ],
+            "obj-3::obj-40::obj-24": [ "duration", "duration", 1 ],
             "obj-3::obj-40::obj-32": [ "index", "index", 0 ],
             "obj-3::obj-40::obj-33": [ "env", "env", 0 ],
             "obj-3::obj-40::obj-42": [ "live.button", "live.button", 0 ],
@@ -4393,9 +4391,6 @@
                 "obj-3::obj-12::obj-60": {
                     "parameter_longname": "live.text[17]"
                 },
-                "obj-3::obj-15::obj-22": {
-                    "parameter_longname": "synthScratch-out"
-                },
                 "obj-3::obj-2::obj-59": {
                     "parameter_longname": "live.text[9]"
                 },
@@ -4430,7 +4425,7 @@
                     "parameter_longname": "minMonitor[1]"
                 },
                 "obj-3::obj-40::obj-2": {
-                    "parameter_longname": "live.gain~[19]"
+                    "parameter_longname": "ogain[1]"
                 },
                 "obj-3::obj-48::obj-15": {
                     "parameter_longname": "live.text[14]"
