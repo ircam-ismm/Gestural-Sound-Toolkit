@@ -1711,7 +1711,7 @@
             },
             {
                 "box": {
-                    "comment": "signal 3 [float float float] + sync",
+                    "comment": "signal 3 [float float float]",
                     "id": "obj-39",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1722,7 +1722,7 @@
             },
             {
                 "box": {
-                    "comment": "signal 2 [float float float] + sync",
+                    "comment": "signal 2 [float float float]",
                     "id": "obj-38",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1813,7 +1813,7 @@
             },
             {
                 "box": {
-                    "comment": "signal 1 [float float float] + sync",
+                    "comment": "signal 1 [float float float]",
                     "id": "obj-12",
                     "index": 0,
                     "maxclass": "outlet",
@@ -2142,7 +2142,7 @@
                     "outputvalues": 0,
                     "outputviewname": 0,
                     "parameter_enable": 0,
-                    "patching_rect": [ 187.0, 493.0, 273.0, 118.0 ],
+                    "patching_rect": [ 187.0, 493.0, 221.0, 10.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 5.0, 33.0, 403.0, 132.0 ],
                     "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
