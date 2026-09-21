@@ -4,14 +4,25 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 4,
+            "revision": 5,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 157.0, 150.0 ],
+        "rect": [ 37.0, 93.0, 162.0, 152.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 211.3499755859375, 93.0, 91.0, 22.0 ],
+                    "text": "routepass clear"
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -30,17 +41,6 @@
             },
             {
                 "box": {
-                    "id": "obj-5",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 435.5, 28.0, 78.0, 22.0 ],
-                    "text": "loadmess 1"
-                }
-            },
-            {
-                "box": {
                     "fontsize": 10.0,
                     "id": "obj-20",
                     "maxclass": "newobj",
@@ -52,7 +52,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -267,7 +267,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 422.0, 186.0, 73.0, 20.0 ],
                     "text": "p scale"
@@ -326,7 +326,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -334,6 +334,19 @@
                         "rect": [ 762.0, 390.0, 194.0, 250.0 ],
                         "default_fontsize": 10.0,
                         "boxes": [
+                            {
+                                "box": {
+                                    "fontname": "Arial",
+                                    "fontsize": 10.0,
+                                    "id": "obj-1",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 10.0, 154.0, 169.0, 20.0 ],
+                                    "text": "clear, paintoval $1 $2 $3 $4 255 0 0"
+                                }
+                            },
                             {
                                 "box": {
                                     "comment": "Liste X, Y",
@@ -368,8 +381,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 10.0, 178.0, 169.0, 20.0 ],
-                                    "text": "clear, paintoval $1 $2 $3 $4 255 0 0"
+                                    "patching_rect": [ 25.0, 178.0, 169.0, 20.0 ],
+                                    "text": "paintoval $1 $2 $3 $4 255 0 0"
                                 }
                             },
                             {
@@ -452,6 +465,12 @@
                         "lines": [
                             {
                                 "patchline": {
+                                    "destination": [ "obj-11", 0 ],
+                                    "source": [ "obj-1", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-6", 3 ],
                                     "source": [ "obj-10", 0 ]
                                 }
@@ -498,13 +517,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-11", 0 ],
-                                    "source": [ "obj-5", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-5", 0 ],
+                                    "destination": [ "obj-1", 0 ],
                                     "source": [ "obj-6", 0 ]
                                 }
                             },
@@ -527,7 +540,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 422.0, 214.0, 73.0, 19.0 ],
                     "saved_object_attributes": {
@@ -549,7 +562,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -668,7 +681,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 557.0, 214.0, 69.0, 20.0 ],
                     "text": "p zooming"
@@ -730,25 +743,13 @@
             },
             {
                 "box": {
-                    "fontsize": 10.0,
-                    "id": "obj-3",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 323.8499755859375, 28.0, 65.0, 20.0 ],
-                    "text": "loadmess 50"
-                }
-            },
-            {
-                "box": {
                     "enablesprites": 1,
                     "id": "obj-56",
                     "maxclass": "lcd",
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "list", "list", "int", "" ],
-                    "patching_rect": [ 4.0, 19.5, 155.0, 110.0 ],
+                    "patching_rect": [ 4.0, 20.0, 154.8499755859375, 122.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 23.0, 155.0, 110.0 ]
                 }
@@ -778,7 +779,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 4,
+                            "revision": 5,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -823,7 +824,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1305,7 +1306,7 @@
                                                 }
                                             }
                                         ],
-                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                     },
                                     "patching_rect": [ 50.0, 100.0, 77.0, 20.0 ],
                                     "text": "p capture_data"
@@ -1325,7 +1326,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 4,
+                                            "revision": 5,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1440,7 +1441,7 @@
                                                 }
                                             }
                                         ],
-                                        "toolbaradditions": [ "s2n", "Modalys" ]
+                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                     },
                                     "patching_rect": [ 50.0, 144.5, 135.0, 20.0 ],
                                     "saved_object_attributes": {
@@ -1546,7 +1547,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                     },
                     "patching_rect": [ 4.0, 169.5, 99.0, 20.0 ],
                     "text": "p capture_resample"
@@ -1691,7 +1692,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-16", 0 ],
+                    "destination": [ "obj-20", 0 ],
+                    "midpoints": [ 292.8499755859375, 179.75, 431.5, 179.75 ],
+                    "source": [ "obj-3", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-56", 0 ],
                     "source": [ "obj-3", 0 ]
                 }
             },
@@ -1710,15 +1718,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 0 ],
-                    "midpoints": [ 220.8499755859375, 179.75, 431.5, 179.75 ],
+                    "destination": [ "obj-3", 0 ],
                     "source": [ "obj-4", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-18", 0 ],
-                    "source": [ "obj-5", 0 ]
                 }
             },
             {
@@ -1731,7 +1732,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-35", 1 ],
-                    "midpoints": [ 104.16666666666667, 143.0, 40.16666666666667, 143.0 ],
+                    "midpoints": [ 104.066650390625, 143.0, 40.16666666666667, 143.0 ],
                     "order": 1,
                     "source": [ "obj-56", 2 ]
                 }
@@ -1757,6 +1758,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
     }
 }

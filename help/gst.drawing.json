@@ -1,0 +1,16 @@
+{
+    "pattrstorage": {
+        "name": "gst.drawing",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "gst.recorddata::autoscale": [ 1.0 ],
+                    "gst.recorddata::loop": [ 0.0 ],
+                    "_gst.drawing::sample-period": [ 10.0 ],
+                    "_gst.drawing::zoom": [ 2.09009009009009 ]
+                }
+            }
+        }
+    }
+}
