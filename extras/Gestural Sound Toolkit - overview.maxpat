@@ -43,8 +43,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 1040.6666687726974, 687.3333538174629, 433.0, 22.0 ],
-                                    "presentation_linecount": 3,
-                                    "text": "start  %USERPROFILE%\\\\Documents\\\\gst-video\\\\VIDEO-recorder-OSC.maxpat"
+                                    "text": "start %USERPROFILE%\\\\Documents\\\\gst-video\\\\VIDEO-recorder-OSC.maxpat"
                                 }
                             },
                             {
@@ -121,21 +120,19 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 1009.000001847744, 463.83333444595337, 638.6666857004166, 35.0 ],
-                                    "presentation_linecount": 3,
-                                    "text": "mkdir %USERPROFILE%\\\\Documents\\\\gst-video & xcopy -r \"%USERPROFILE%\\\\Documents\\\\Max 9\\\\Packages\\\\Gestural-Sound-Toolkit\\\\patchers\\\\mod-interfaces\\\\video\" %USERPROFILE%\\\\Documents\\\\gst-video /E"
+                                    "text": "mkdir %USERPROFILE%\\\\Documents\\\\gst-video & xcopy \"%USERPROFILE%\\\\Documents\\\\Max 9\\\\Packages\\\\Gestural-Sound-Toolkit\\\\patchers\\\\mod-interfaces\\\\video\" %USERPROFILE%\\\\Documents\\\\gst-video /E"
                                 }
                             },
                             {
                                 "box": {
                                     "id": "obj-19",
-                                    "linecount": 3,
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 91.0, 465.0, 568.666683614254, 49.0 ],
-                                    "presentation_linecount": 2,
-                                    "text": "mkdir %USERPROFILE%\\\\Documents\\\\Ircam & %USERPROFILE%\\\\Documents\\\\Ircam\\\\gst & xcopy -r \"%USERPROFILE%\\\\Documents\\\\Max 9\\\\Packages\\\\Gestural-Sound-Toolkit\\\\misc\\\\gst\" %USERPROFILE%\\\\Documents\\\\Ircam\\\\gst /E"
+                                    "patching_rect": [ 91.0, 465.0, 727.0, 35.0 ],
+                                    "text": "mkdir %USERPROFILE%\\\\Documents\\\\Ircam & mkdir %USERPROFILE%\\\\Documents\\\\Ircam\\\\gst & xcopy \"%USERPROFILE%\\\\Documents\\\\Max 9\\\\Packages\\\\Gestural-Sound-Toolkit\\\\misc\\\\gst\" %USERPROFILE%\\\\Documents\\\\Ircam\\\\gst /E"
                                 }
                             },
                             {
