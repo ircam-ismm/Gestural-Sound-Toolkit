@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 1509.0, 917.0 ],
+        "rect": [ 34.0, 93.0, 1523.0, 933.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -31,17 +31,120 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1509.0, 891.0 ],
+                        "rect": [ 34.0, 119.0, 1523.0, 907.0 ],
                         "openinpresentation": 1,
                         "showontab": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-92",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 1040.6666687726974, 687.3333538174629, 433.0, 22.0 ],
+                                    "presentation_linecount": 3,
+                                    "text": "start  %USERPROFILE%\\\\Documents\\\\gst-video\\\\VIDEO-recorder-OSC.maxpat"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-91",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "bang", "int" ],
+                                    "patching_rect": [ 1009.0, 386.5, 32.0, 22.0 ],
+                                    "text": "t b 2"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-90",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "bang", "int" ],
+                                    "patching_rect": [ 947.0, 386.5, 32.0, 22.0 ],
+                                    "text": "t b 1"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-88",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "" ],
+                                    "patching_rect": [ 1017.6666687726974, 652.6666861176491, 42.0, 22.0 ],
+                                    "text": "gate 2"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-77",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 977.6666675806046, 473.1666680574417, 29.5, 22.0 ],
+                                    "text": "2"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-72",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 910.3333322405815, 473.1666680574417, 29.5, 22.0 ],
+                                    "text": "1"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-70",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 1399.0000134706497, 659.1666736006737, 416.0000123977661, 20.0 ],
+                                    "text": "start \"\" \"chemin\\vers\\application.exe\" \"chemin\\vers\\fichier\""
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-66",
+                                    "linecount": 2,
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 1009.000001847744, 463.83333444595337, 638.6666857004166, 35.0 ],
+                                    "presentation_linecount": 3,
+                                    "text": "mkdir %USERPROFILE%\\\\Documents\\\\gst-video & xcopy -r \"%USERPROFILE%\\\\Documents\\\\Max 9\\\\Packages\\\\Gestural-Sound-Toolkit\\\\patchers\\\\mod-interfaces\\\\video\" %USERPROFILE%\\\\Documents\\\\gst-video /E"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-19",
+                                    "linecount": 3,
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 91.0, 465.0, 568.666683614254, 49.0 ],
+                                    "presentation_linecount": 2,
+                                    "text": "mkdir %USERPROFILE%\\\\Documents\\\\Ircam & %USERPROFILE%\\\\Documents\\\\Ircam\\\\gst & xcopy -r \"%USERPROFILE%\\\\Documents\\\\Max 9\\\\Packages\\\\Gestural-Sound-Toolkit\\\\misc\\\\gst\" %USERPROFILE%\\\\Documents\\\\Ircam\\\\gst /E"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-17",
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 46.0, 532.0, 533.0, 20.0 ],
+                                    "patching_rect": [ 45.66666716337204, 608.000018119812, 533.0, 20.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 45.0, 532.5, 88.0, 20.0 ],
                                     "text": "open the patch"
@@ -58,7 +161,7 @@
                                     "outlettype": [ "", "" ],
                                     "parameter_enable": 1,
                                     "parameter_mappable": 0,
-                                    "patching_rect": [ 259.0, 550.0, 255.0, 24.0 ],
+                                    "patching_rect": [ 259.00000685453415, 626.0000186562538, 255.0, 24.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 9.0, 557.0, 262.0, 35.0 ],
                                     "saved_attribute_attributes": {
@@ -147,7 +250,7 @@
                                         ],
                                         "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
                                     },
-                                    "patching_rect": [ 495.0, 591.0, 58.0, 17.0 ],
+                                    "patching_rect": [ 495.00001388788223, 666.6666865348816, 58.0, 17.0 ],
                                     "text": "p load-helpfile"
                                 }
                             },
@@ -387,7 +490,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 508.0, 904.0, 65.0, 20.0 ],
+                                    "patching_rect": [ 507.666680932045, 980.0000292062759, 65.0, 20.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 882.0, 442.0, 63.0, 20.0 ],
                                     "text": "messages"
@@ -417,7 +520,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 248.0, 881.0, 79.0, 22.0 ],
+                                    "patching_rect": [ 247.66667318344116, 956.6666951775551, 79.0, 22.0 ],
                                     "text": "loadmess set"
                                 }
                             },
@@ -428,7 +531,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 351.0, 857.0, 72.0, 22.0 ],
+                                    "patching_rect": [ 351.0000095963478, 932.6666944622993, 72.0, 22.0 ],
                                     "text": "prepend set"
                                 }
                             },
@@ -438,7 +541,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 351.0, 904.0, 150.0, 20.0 ],
+                                    "patching_rect": [ 351.0000095963478, 980.0000292062759, 150.0, 20.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 14.0, 475.0, 917.0, 20.0 ]
                                 }
@@ -735,7 +838,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "bang", "done", "int" ],
-                                    "patching_rect": [ 1089.0, 599.0, 62.0, 22.0 ],
+                                    "patching_rect": [ 1089.0000042319298, 771.1666769385338, 62.0, 22.0 ],
                                     "text": "t b done 1"
                                 }
                             },
@@ -747,7 +850,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1089.0, 668.0, 499.0, 35.0 ],
+                                    "patching_rect": [ 1089.0000042319298, 839.8333456516266, 499.0, 35.0 ],
                                     "text": "Build the application \\\"VIDEO-recorder-OSC.app\\\" in the same folder (~/Documents/gst-video/) from the file menu and codesign the app."
                                 }
                             },
@@ -759,7 +862,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1089.0, 713.0, 51.0, 20.0 ],
+                                    "patching_rect": [ 1089.0000042319298, 885.1666803359985, 51.0, 20.0 ],
                                     "text": "print gst::"
                                 }
                             },
@@ -770,7 +873,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1039.0, 471.0, 279.0, 22.0 ],
+                                    "patching_rect": [ 1058.3333354393642, 585.0000174641609, 279.0, 22.0 ],
                                     "text": "opening of the VIDEO-recorder-OSC.maxpat patch"
                                 }
                             },
@@ -782,7 +885,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1039.0, 507.0, 51.0, 20.0 ],
+                                    "patching_rect": [ 1058.3333354393642, 621.0000185370445, 51.0, 20.0 ],
                                     "text": "print gst::"
                                 }
                             },
@@ -793,7 +896,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 4,
                                     "outlettype": [ "bang", "bang", "done", "int" ],
-                                    "patching_rect": [ 1018.0, 440.0, 72.0, 22.0 ],
+                                    "patching_rect": [ 1040.6666687726974, 556.0000165700912, 72.0, 22.0 ],
                                     "text": "t b b done 1"
                                 }
                             },
@@ -806,7 +909,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
-                                    "patching_rect": [ 1018.0, 574.0, 90.0, 20.0 ],
+                                    "patching_rect": [ 1017.6666687726974, 745.8333428502083, 90.0, 20.0 ],
                                     "saved_object_attributes": {
                                         "shell": "(default)"
                                     },
@@ -820,7 +923,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1018.0, 535.0, 324.0, 22.0 ],
+                                    "patching_rect": [ 1017.6666687726974, 716.0000213384628, 324.0, 22.0 ],
                                     "text": "open ~/Documents/gst-video/VIDEO-recorder-OSC.maxpat"
                                 }
                             },
@@ -932,7 +1035,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 947.0, 372.0, 508.0, 35.0 ],
+                                    "patching_rect": [ 947.0, 426.5, 508.0, 35.0 ],
                                     "text": "mkdir -p ~/Documents/gst-video && cp -r ~/Documents/Max\\\\ 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/video/* ~/Documents/gst-video"
                                 }
                             },
@@ -945,7 +1048,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
-                                    "patching_rect": [ 947.0, 414.0, 90.0, 20.0 ],
+                                    "patching_rect": [ 947.3333615660667, 523.0, 112.3333072066307, 20.0 ],
                                     "saved_object_attributes": {
                                         "shell": "(default)"
                                     },
@@ -1005,7 +1108,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "done", "int", "int" ],
-                                    "patching_rect": [ 100.0, 480.0, 127.0, 22.0 ],
+                                    "patching_rect": [ 99.66666877269745, 556.0000165700912, 127.0, 22.0 ],
                                     "text": "t done 1 1"
                                 }
                             },
@@ -1136,18 +1239,19 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 100.0, 510.0, 51.0, 20.0 ],
+                                    "patching_rect": [ 99.66666877269745, 586.0000174641609, 51.0, 20.0 ],
                                     "text": "print gst::"
                                 }
                             },
                             {
                                 "box": {
                                     "id": "obj-3",
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 29.0, 412.0, 880.0, 22.0 ],
+                                    "patching_rect": [ 29.33333420753479, 412.0, 630.3333494067192, 35.0 ],
                                     "text": "mkdir -p ~/Documents/Ircam && mkdir -p ~/Documents/Ircam/gst && cp -r ~/Documents/Max\\\\ 9/Packages/Gestural-Sound-Toolkit/misc/gst/* ~/Documents/Ircam/gst"
                                 }
                             },
@@ -1160,7 +1264,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
-                                    "patching_rect": [ 29.0, 454.0, 90.0, 20.0 ],
+                                    "patching_rect": [ 29.0, 530.0000157952309, 90.0, 20.0 ],
                                     "saved_object_attributes": {
                                         "shell": "(default)"
                                     },
@@ -1329,6 +1433,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-2", 0 ],
+                                    "source": [ "obj-19", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-27", 0 ],
                                     "source": [ "obj-2", 1 ]
                                 }
@@ -1457,14 +1567,26 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-19", 0 ],
+                                    "source": [ "obj-37", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-3", 0 ],
                                     "source": [ "obj-37", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-50", 0 ],
+                                    "destination": [ "obj-90", 0 ],
                                     "source": [ "obj-38", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-91", 0 ],
+                                    "source": [ "obj-38", 1 ]
                                 }
                             },
                             {
@@ -1574,14 +1696,14 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-53", 0 ],
-                                    "source": [ "obj-54", 0 ]
+                                    "destination": [ "obj-55", 0 ],
+                                    "source": [ "obj-54", 2 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-55", 0 ],
-                                    "source": [ "obj-54", 2 ]
+                                    "destination": [ "obj-88", 1 ],
+                                    "source": [ "obj-54", 0 ]
                                 }
                             },
                             {
@@ -1626,6 +1748,12 @@
                                 "patchline": {
                                     "destination": [ "obj-87", 0 ],
                                     "source": [ "obj-62", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-51", 0 ],
+                                    "source": [ "obj-66", 0 ]
                                 }
                             },
                             {
@@ -1739,6 +1867,48 @@
                                     "destination": [ "obj-84", 0 ],
                                     "source": [ "obj-87", 1 ]
                                 }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-53", 0 ],
+                                    "source": [ "obj-88", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-92", 0 ],
+                                    "source": [ "obj-88", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-50", 0 ],
+                                    "source": [ "obj-90", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-88", 0 ],
+                                    "source": [ "obj-90", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-66", 0 ],
+                                    "source": [ "obj-91", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-88", 0 ],
+                                    "source": [ "obj-91", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-52", 0 ],
+                                    "source": [ "obj-92", 0 ]
+                                }
                             }
                         ],
                         "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
@@ -1765,7 +1935,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1509.0, 891.0 ],
+                        "rect": [ 0.0, 26.0, 1523.0, 907.0 ],
                         "showontab": 1,
                         "boxes": [
                             {
@@ -1942,7 +2112,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 119.0, 1509.0, 891.0 ],
+                        "rect": [ 0.0, 26.0, 1523.0, 907.0 ],
                         "bglocked": 1,
                         "showontab": 1,
                         "boxes": [
