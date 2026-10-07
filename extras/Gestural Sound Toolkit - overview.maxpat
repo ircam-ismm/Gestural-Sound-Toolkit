@@ -3,13 +3,13 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 5,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 1523.0, 933.0 ],
+        "rect": [ 34.0, 93.0, 1510.0, 923.0 ],
         "showrootpatcherontab": 0,
         "showontab": 0,
         "boxes": [
@@ -25,16 +25,145 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 119.0, 1523.0, 907.0 ],
+                        "rect": [ 34.0, 119.0, 1510.0, 897.0 ],
                         "openinpresentation": 1,
                         "showontab": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-9",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 36.5, 687.0, 75.0, 20.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 16.0, 535.0, 75.0, 20.0 ],
+                                    "text": "Mac and PC"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "fontname": "Geneva",
+                                    "fontsize": 9.0,
+                                    "id": "obj-122",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "", "bang" ],
+                                    "patching_rect": [ 2082.0, 1118.0, 90.0, 20.0 ],
+                                    "saved_object_attributes": {
+                                        "shell": "(default)"
+                                    },
+                                    "text": "shell"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-121",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 2144.0, 1067.0, 497.0, 22.0 ],
+                                    "text": "start %USERPROFILE%\\\\Documents\\\\gst-video\\\\riot-comote-audio-video-simulation.maxpat"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-120",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 2082.0, 1035.0, 392.0, 22.0 ],
+                                    "text": "open ~/Documents/gst-video/riot-comote-audio-video-simulation.maxpat"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-118",
+                                    "maxclass": "newobj",
+                                    "numinlets": 3,
+                                    "numoutlets": 3,
+                                    "outlettype": [ "", "", "" ],
+                                    "patching_rect": [ 2082.0, 1000.0, 143.0, 22.0 ],
+                                    "text": "route macintosh windows"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-119",
+                                    "maxclass": "newobj",
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 2082.0, 966.0, 101.0, 22.0 ],
+                                    "text": "r systemVersion3"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-110",
+                                    "linecount": 2,
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 2203.5, 952.0, 177.0, 35.0 ],
+                                    "text": ";\rmax getsystem systemVersion3"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-111",
+                                    "linecount": 2,
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 2228.5, 871.0, 97.0, 35.0 ],
+                                    "text": ";\rmax maxwindow"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-112",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "bang", "bang" ],
+                                    "patching_rect": [ 2129.5, 920.0, 93.0, 22.0 ],
+                                    "text": "t b b"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-113",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 2129.5, 878.0, 52.0, 22.0 ],
+                                    "text": "gate 1 1"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-114",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 4,
+                                    "outlettype": [ "int", "bang", "int", "bang" ],
+                                    "patching_rect": [ 2129.5, 839.0, 118.0, 22.0 ],
+                                    "text": "t 0 b 0 b"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-92",
@@ -42,7 +171,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1040.6666687726974, 687.3333538174629, 433.0, 22.0 ],
+                                    "patching_rect": [ 1040.5064935064934, 736.3636363636364, 433.0, 22.0 ],
                                     "text": "start %USERPROFILE%\\\\Documents\\\\gst-video\\\\VIDEO-recorder-OSC.maxpat"
                                 }
                             },
@@ -75,30 +204,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 1017.6666687726974, 652.6666861176491, 42.0, 22.0 ],
+                                    "patching_rect": [ 1017.1298701298701, 701.9480519480519, 42.0, 22.0 ],
                                     "text": "gate 2"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-77",
-                                    "maxclass": "message",
-                                    "numinlets": 2,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 977.6666675806046, 473.1666680574417, 29.5, 22.0 ],
-                                    "text": "2"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-72",
-                                    "maxclass": "message",
-                                    "numinlets": 2,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 910.3333322405815, 473.1666680574417, 29.5, 22.0 ],
-                                    "text": "1"
                                 }
                             },
                             {
@@ -107,20 +214,20 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1399.0000134706497, 659.1666736006737, 416.0000123977661, 20.0 ],
+                                    "patching_rect": [ 1476.6233766233765, 737.3636363636365, 316.0, 20.0 ],
                                     "text": "start \"\" \"chemin\\vers\\application.exe\" \"chemin\\vers\\fichier\""
                                 }
                             },
                             {
                                 "box": {
                                     "id": "obj-66",
-                                    "linecount": 2,
+                                    "linecount": 4,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1009.000001847744, 463.83333444595337, 638.6666857004166, 35.0 ],
-                                    "text": "mkdir %USERPROFILE%\\\\Documents\\\\gst-video & xcopy \"%USERPROFILE%\\\\Documents\\\\Max 9\\\\Packages\\\\Gestural-Sound-Toolkit\\\\patchers\\\\mod-interfaces\\\\video\" %USERPROFILE%\\\\Documents\\\\gst-video /E"
+                                    "patching_rect": [ 1009.0, 480.0, 740.8071748878924, 62.0 ],
+                                    "text": "mkdir %USERPROFILE%\\\\Documents\\\\gst-video & xcopy \"%USERPROFILE%\\\\Documents\\\\Max 9\\\\Packages\\\\Gestural-Sound-Toolkit\\\\patchers\\\\mod-interfaces\\\\video\" %USERPROFILE%\\\\Documents\\\\gst-video /E & mkdir %USERPROFILE%\\\\Documents\\\\gst-video\\\\VIDEO-recorder-OSC & xcopy %USERPROFILE%\\\\Documents\\\\gst-video\\\\vrosc-config.txt %USERPROFILE%\\\\Documents\\\\gst-video\\\\VIDEO-recorder-OSC"
                                 }
                             },
                             {
@@ -141,9 +248,9 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 45.66666716337204, 608.000018119812, 533.0, 20.0 ],
+                                    "patching_rect": [ 2032.5, 790.0, 88.0, 20.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 45.0, 532.5, 88.0, 20.0 ],
+                                    "presentation_rect": [ 45.0, 564.0, 88.0, 20.0 ],
                                     "text": "open the patch"
                                 }
                             },
@@ -158,9 +265,9 @@
                                     "outlettype": [ "", "" ],
                                     "parameter_enable": 1,
                                     "parameter_mappable": 0,
-                                    "patching_rect": [ 259.00000685453415, 626.0000186562538, 255.0, 24.0 ],
+                                    "patching_rect": [ 2129.5, 788.0, 255.0, 24.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 9.0, 557.0, 262.0, 35.0 ],
+                                    "presentation_rect": [ 9.0, 589.0, 262.0, 35.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_enum": [ "val1", "val2" ],
@@ -178,81 +285,6 @@
                             },
                             {
                                 "box": {
-                                    "fontsize": 8.0,
-                                    "hidden": 1,
-                                    "id": "obj-9",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patcher": {
-                                        "fileversion": 1,
-                                        "appversion": {
-                                            "major": 9,
-                                            "minor": 1,
-                                            "revision": 5,
-                                            "architecture": "x64",
-                                            "modernui": 1
-                                        },
-                                        "classnamespace": "box",
-                                        "rect": [ 977.0, 472.0, 290.0, 244.0 ],
-                                        "boxes": [
-                                            {
-                                                "box": {
-                                                    "id": "obj-14",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "" ],
-                                                    "patching_rect": [ 86.0, 141.0, 53.0, 22.0 ],
-                                                    "text": "pcontrol"
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-13",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "" ],
-                                                    "patching_rect": [ 86.0, 111.0, 117.0, 22.0 ],
-                                                    "text": "prepend loadunique"
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "comment": "",
-                                                    "id": "obj-1",
-                                                    "index": 1,
-                                                    "maxclass": "inlet",
-                                                    "numinlets": 0,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "" ],
-                                                    "patching_rect": [ 86.0, 70.0, 30.0, 30.0 ]
-                                                }
-                                            }
-                                        ],
-                                        "lines": [
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-13", 0 ],
-                                                    "source": [ "obj-1", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-14", 0 ],
-                                                    "source": [ "obj-13", 0 ]
-                                                }
-                                            }
-                                        ],
-                                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
-                                    },
-                                    "patching_rect": [ 495.00001388788223, 666.6666865348816, 58.0, 17.0 ],
-                                    "text": "p load-helpfile"
-                                }
-                            },
-                            {
-                                "box": {
                                     "id": "obj-8",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -261,13 +293,13 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 5,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 34.0, 93.0, 946.0, 1001.0 ],
+                                        "rect": [ 34.0, 93.0, 944.0, 1118.0 ],
                                         "openinpresentation": 1,
                                         "boxes": [
                                             {
@@ -321,17 +353,18 @@
                                             },
                                             {
                                                 "box": {
+                                                    "fontname": "Arial",
                                                     "fontsize": 16.0,
                                                     "id": "obj-2",
-                                                    "linecount": 53,
+                                                    "linecount": 59,
                                                     "maxclass": "comment",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 3.0, 5.0, 940.0, 954.0 ],
+                                                    "patching_rect": [ 3.0, 5.0, 940.0, 1061.0 ],
                                                     "presentation": 1,
-                                                    "presentation_linecount": 53,
-                                                    "presentation_rect": [ 3.0, 45.0, 940.0, 954.0 ],
-                                                    "text": "This patch offer a workflow to work with the sonification of gestures. ex. dance\n\nBased on MuBu ecosystem through Max (Cycling74) it allows to record on the same computer a stream of data (ex. IMU providing accelerometers, gyroscope, magnetometer and gravity computation) combined with audio and video (more or less synchronized).\n\nThe core is a max patch riot-comote-audio-video-simulation.maxpat.\nThis patch records/playback data and audio encapsulated in a mubu file.\nThis patch will drive an external video app build with Max using jitter ecosystem for recording (ONLY) the video : VIDEO-recorder-OSC.app\nNOTE : the playback of the video is made by the patch itself.\ndata, audio and video are saved in a sub-folder /recordings that contains :\n/recordings/mubu\n/recordings/video\n/recordings/audio\n\nBecause operating system protections, the video recorder app (\"VIDEO-recorder-OSC.app\") needs first to be built from its original patch VIDEO-recorder-OSC.maxpat via Max.\n\nSee \"complete installation\" tab in GST-overview (from Max extras menu) for easy installation.\n\nManually :\n1- Copy the content of the \"video\" folder (~/Documents/Max\\ 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/video) in your Documents folder in a \"gst-video\" folder ~/Documents/gst-video or use the following command line in the terminal app (from Applications/Utilities folder) :\n\nmkdir -p ~/Documents/gst-video && cp -r ~/Documents/Max\\ 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/video/*\n\n2- launch Max\n\n3- open the patch \"VIDEO-recorder-OSC.maxpat\" from the new created folder : ~/Documents/gst-video/VIDEO-recorder-OSC.maxpat\n\n4- from File menu \"Build Collective / Application ...\" build the application \"VIDEO-recorder-OSC.app\" in the same folder (~/Documents/gst-video).\n\n5- For Mac only : authorize permanently this access to audio and camera.\n\n    5a- start terminal (from Applications/Utilities folder)\n    5b- in the terminal \"codesign\" your new Max application to permanently access the camera and audio (after the 1st launch) : \n\n    codesign -s - --deep -f ~/Documents/gst-video/VIDEO-recorder-OSC.app\n\n    5c- (option) check the code signing running the following command line :\n\n    codesign --verify PATH/VIDEO-recorder-OSC.app\n\n    no feedback in the terminal means success !!!!\n\n\n6- VIDEO-recorder-OSC.app is ready and you will have to authorize once the use of audio and camera.\n\nVIDEO-recorder-OSC.app is launched and internally controled by the Max patch :\n\"riot-comote-audio-video-simulation.maxpat\""
+                                                    "presentation_linecount": 59,
+                                                    "presentation_rect": [ 3.0, 45.0, 940.0, 1061.0 ],
+                                                    "text": "This patch offer a workflow to work with the sonification of gestures. ex. dance\n\nBased on MuBu ecosystem through Max (Cycling74) it allows to record on the same computer a stream of data (ex. IMU providing accelerometers, gyroscope, magnetometer and gravity computation) combined with audio and video (more or less synchronized).\n\nThe core is a max patch riot-comote-audio-video-simulation.maxpat.\nThis patch records/playback data and audio encapsulated in a mubu file.\nThis patch will drive an external video app build with Max using jitter ecosystem for recording (ONLY) the video : VIDEO-recorder-OSC.app or VIDEO-recorder-OSC.exe\nNOTE : the playback of the video is made by the patch itself.\ndata, audio and video are saved in a sub-folder /recordings that contains :\n/recordings/mubu\n/recordings/video\n/recordings/audio\n\nBecause operating system protections, the video recorder app (\"VIDEO-recorder-OSC.app\" and \"*.exe\") needs first to be built from its original patch VIDEO-recorder-OSC.maxpat via Max and saved in the same folder.\n\nSee \"complete installation\" tab in GST-overview (from Max extras menu) for easy installation.\n\nManually :\n1- Copy the content of the \"video\" folder (~/Documents/Max\\ 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/video) in your Documents folder in a \"gst-video\" folder ~/Documents/gst-video or use the following command line : \n\nMAC : in the terminal app (from Applications/Utilities folder) :\n> mkdir -p ~/Documents/gst-video && cp -r ~/Documents/Max\\ 9/Packages/Gestural-Sound-Toolkit/patchers/mod-interfaces/video/*\n\nPC : in the Command Prompt it will also create a subfolder \"VIDEO-recorder-OSC\" and copy in the file vrosc-config.txt\n> mkdir %USERPROFILE%\\\\Documents\\\\gst-video & xcopy \"%USERPROFILE%\\\\Documents\\\\Max 9\\\\Packages\\\\Gestural-Sound-Toolkit\\\\patchers\\\\mod-interfaces\\\\video\" %USERPROFILE%\\\\Documents\\\\gst-video /E & mkdir %USERPROFILE%\\\\Documents\\\\gst-video\\\\VIDEO-recorder-OSC & xcopy %USERPROFILE%\\\\Documents\\\\gst-video\\\\vrosc-config.txt %USERPROFILE%\\\\Documents\\\\gst-video\\\\VIDEO-recorder-OSC\n\n2- launch Max\n\n3- open the patch \"VIDEO-recorder-OSC.maxpat\" from the new created folder : ~/Documents/gst-video/VIDEO-recorder-OSC.maxpat\n\n4- from File menu \"Build Collective / Application ...\" build the application \"VIDEO-recorder-OSC.app\" (\"VIDEO-recorder-OSC.exe\") in the same folder (~/Documents/gst-video).\n\n5- For Mac only : authorize permanently this access to audio and camera.\n\n    5a- start terminal (from Applications/Utilities folder)\n    5b- in the terminal \"codesign\" your new Max application to permanently access the camera and audio (after the 1st launch) : \n\n    codesign -s - --deep -f ~/Documents/gst-video/VIDEO-recorder-OSC.app\n\n    5c- (option) check the code signing running the following command line :\n\n    codesign --verify PATH/VIDEO-recorder-OSC.app\n\n    no feedback in the terminal means success !!!!\n\n\n6- VIDEO-recorder-OSC.app is ready and you will have, for MAC, to authorize once the use of audio and camera.\n\nVIDEO-recorder-OSC.app is launched and internally controled by the Max patch :\n\"riot-comote-audio-video-simulation.maxpat\""
                                                 }
                                             }
                                         ],
@@ -390,7 +423,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 15.0, 57.0, 556.0, 20.0 ],
+                                    "patching_rect": [ 15.0, 57.0, 103.0, 20.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 15.0, 57.0, 103.0, 20.0 ],
                                     "text": "What to do once !"
@@ -435,11 +468,10 @@
                             {
                                 "box": {
                                     "id": "obj-33",
-                                    "linecount": 6,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 20.0, 160.0, 68.0, 87.0 ],
+                                    "patching_rect": [ 171.0, 156.0, 250.0, 20.0 ],
                                     "presentation": 1,
                                     "presentation_rect": [ 15.0, 205.0, 250.0, 20.0 ],
                                     "text": "Data, audio and video workflow for simulation"
@@ -535,12 +567,14 @@
                             {
                                 "box": {
                                     "id": "obj-42",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 351.0000095963478, 980.0000292062759, 150.0, 20.0 ],
+                                    "patching_rect": [ 351.0000095963478, 980.0000292062759, 150.0, 33.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 14.0, 475.0, 917.0, 20.0 ]
+                                    "presentation_rect": [ 14.0, 475.0, 917.0, 20.0 ],
+                                    "text": "\"VIDEO-recorder-OSC.app\" is signed open app"
                                 }
                             },
                             {
@@ -562,7 +596,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2254.0, 738.0, 51.0, 20.0 ],
+                                    "patching_rect": [ 2254.0, 738.0, 55.0, 20.0 ],
                                     "text": "print gst::"
                                 }
                             },
@@ -612,19 +646,8 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2079.0, 465.0, 51.0, 20.0 ],
+                                    "patching_rect": [ 2079.0, 465.0, 55.0, 20.0 ],
                                     "text": "print gst::"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-12",
-                                    "maxclass": "message",
-                                    "numinlets": 2,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 104.0, 187.0, 29.5, 22.0 ],
-                                    "text": "1"
                                 }
                             },
                             {
@@ -669,7 +692,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 2167.0, 554.0, 51.0, 20.0 ],
+                                    "patching_rect": [ 2167.0, 554.0, 55.0, 20.0 ],
                                     "text": "print gst::"
                                 }
                             },
@@ -731,7 +754,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 2204.0, 160.0, 97.0, 35.0 ],
+                                    "patching_rect": [ 2171.0, 153.0, 97.0, 35.0 ],
                                     "text": ";\rmax maxwindow"
                                 }
                             },
@@ -835,7 +858,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "bang", "done", "int" ],
-                                    "patching_rect": [ 1089.0000042319298, 771.1666769385338, 62.0, 22.0 ],
+                                    "patching_rect": [ 1088.5584415584417, 820.7792207792207, 62.0, 22.0 ],
                                     "text": "t b done 1"
                                 }
                             },
@@ -847,7 +870,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1089.0000042319298, 839.8333456516266, 499.0, 35.0 ],
+                                    "patching_rect": [ 1088.5584415584417, 888.961038961039, 499.0, 35.0 ],
                                     "text": "Build the application \\\"VIDEO-recorder-OSC.app\\\" in the same folder (~/Documents/gst-video/) from the file menu and codesign the app."
                                 }
                             },
@@ -859,7 +882,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1089.0000042319298, 885.1666803359985, 51.0, 20.0 ],
+                                    "patching_rect": [ 1088.5584415584417, 934.4155844155844, 55.0, 20.0 ],
                                     "text": "print gst::"
                                 }
                             },
@@ -870,7 +893,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1058.3333354393642, 585.0000174641609, 279.0, 22.0 ],
+                                    "patching_rect": [ 1058.0389610389611, 634.4155844155844, 279.0, 22.0 ],
                                     "text": "opening of the VIDEO-recorder-OSC.maxpat patch"
                                 }
                             },
@@ -882,7 +905,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1058.3333354393642, 621.0000185370445, 51.0, 20.0 ],
+                                    "patching_rect": [ 1058.0389610389611, 670.1298701298701, 55.0, 20.0 ],
                                     "text": "print gst::"
                                 }
                             },
@@ -893,7 +916,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 4,
                                     "outlettype": [ "bang", "bang", "done", "int" ],
-                                    "patching_rect": [ 1040.6666687726974, 556.0000165700912, 72.0, 22.0 ],
+                                    "patching_rect": [ 1040.5064935064934, 605.1948051948052, 72.0, 22.0 ],
                                     "text": "t b b done 1"
                                 }
                             },
@@ -906,7 +929,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
-                                    "patching_rect": [ 1017.6666687726974, 745.8333428502083, 90.0, 20.0 ],
+                                    "patching_rect": [ 1017.1298701298701, 795.4545454545454, 90.0, 20.0 ],
                                     "saved_object_attributes": {
                                         "shell": "(default)"
                                     },
@@ -920,7 +943,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1017.6666687726974, 716.0000213384628, 324.0, 22.0 ],
+                                    "patching_rect": [ 1017.1298701298701, 765.5844155844155, 324.0, 22.0 ],
                                     "text": "open ~/Documents/gst-video/VIDEO-recorder-OSC.maxpat"
                                 }
                             },
@@ -954,7 +977,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1022.0, 240.0, 184.0, 35.0 ],
+                                    "patching_rect": [ 1022.5, 235.0, 184.0, 35.0 ],
                                     "text": ";\rmax getsystem systemVersion2a"
                                 }
                             },
@@ -966,7 +989,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 1072.0, 160.0, 97.0, 35.0 ],
+                                    "patching_rect": [ 1039.0, 160.0, 97.0, 35.0 ],
                                     "text": ";\rmax maxwindow"
                                 }
                             },
@@ -1045,7 +1068,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "bang" ],
-                                    "patching_rect": [ 947.3333615660667, 523.0, 112.3333072066307, 20.0 ],
+                                    "patching_rect": [ 947.0, 572.077922077922, 112.3333072066307, 20.0 ],
                                     "saved_object_attributes": {
                                         "shell": "(default)"
                                     },
@@ -1107,17 +1130,6 @@
                                     "outlettype": [ "done", "int", "int" ],
                                     "patching_rect": [ 99.66666877269745, 556.0000165700912, 127.0, 22.0 ],
                                     "text": "t done 1 1"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-26",
-                                    "maxclass": "message",
-                                    "numinlets": 2,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 91.0, 213.0, 57.0, 22.0 ],
-                                    "text": "active $1"
                                 }
                             },
                             {
@@ -1236,7 +1248,7 @@
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 99.66666877269745, 586.0000174641609, 51.0, 20.0 ],
+                                    "patching_rect": [ 99.66666877269745, 586.0000174641609, 55.0, 20.0 ],
                                     "text": "print gst::"
                                 }
                             },
@@ -1276,9 +1288,9 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 15.0, 10.0, 326.0, 37.0 ],
+                                    "patching_rect": [ 15.0, 10.0, 348.0, 37.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 15.0, 10.0, 326.0, 37.0 ],
+                                    "presentation_rect": [ 15.0, 10.0, 348.0, 37.0 ],
                                     "text": "Gestural Sound Toolkit V2 "
                                 }
                             },
@@ -1297,9 +1309,9 @@
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "int" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 2064.0, 99.0, 25.0, 25.0 ],
+                                    "patching_rect": [ 2398.5, 787.5, 25.0, 25.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 16.0, 530.0, 25.0, 25.0 ],
+                                    "presentation_rect": [ 16.0, 562.0, 25.0, 25.0 ],
                                     "rounded": 60.0,
                                     "saved_attribute_attributes": {
                                         "bgcolor": {
@@ -1424,8 +1436,62 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-26", 0 ],
-                                    "source": [ "obj-12", 0 ]
+                                    "destination": [ "obj-110", 0 ],
+                                    "source": [ "obj-112", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-112", 0 ],
+                                    "source": [ "obj-113", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-111", 0 ],
+                                    "source": [ "obj-114", 3 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-113", 1 ],
+                                    "source": [ "obj-114", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-113", 0 ],
+                                    "source": [ "obj-114", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-120", 0 ],
+                                    "source": [ "obj-118", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-121", 0 ],
+                                    "source": [ "obj-118", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-118", 0 ],
+                                    "source": [ "obj-119", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-122", 0 ],
+                                    "source": [ "obj-120", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-122", 0 ],
+                                    "source": [ "obj-121", 0 ]
                                 }
                             },
                             {
@@ -1486,12 +1552,6 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-26", 0 ],
-                                    "source": [ "obj-23", 2 ]
-                                }
-                            },
-                            {
-                                "patchline": {
                                     "destination": [ "obj-28", 0 ],
                                     "source": [ "obj-23", 3 ]
                                 }
@@ -1504,12 +1564,6 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-10", 0 ],
-                                    "source": [ "obj-26", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
                                     "destination": [ "obj-16", 0 ],
                                     "source": [ "obj-27", 0 ]
                                 }
@@ -1518,12 +1572,6 @@
                                 "patchline": {
                                     "destination": [ "obj-22", 0 ],
                                     "source": [ "obj-27", 2 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-26", 0 ],
-                                    "source": [ "obj-27", 1 ]
                                 }
                             },
                             {
@@ -1650,9 +1698,8 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-9", 0 ],
-                                    "hidden": 1,
-                                    "source": [ "obj-5", 1 ]
+                                    "destination": [ "obj-114", 0 ],
+                                    "source": [ "obj-5", 0 ]
                                 }
                             },
                             {
@@ -1926,13 +1973,13 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1523.0, 907.0 ],
+                        "rect": [ 0.0, 26.0, 1510.0, 897.0 ],
                         "showontab": 1,
                         "boxes": [
                             {
@@ -2053,7 +2100,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 15.0, 10.0, 326.0, 37.0 ],
+                                    "patching_rect": [ 15.0, 10.0, 348.0, 37.0 ],
                                     "text": "Gestural Sound Toolkit V2 "
                                 }
                             },
@@ -2103,13 +2150,13 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 5,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1523.0, 907.0 ],
+                        "rect": [ 0.0, 26.0, 1510.0, 897.0 ],
                         "bglocked": 1,
                         "showontab": 1,
                         "boxes": [
@@ -2293,7 +2340,7 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 26.0, 855.0, 312.0, 22.0 ],
                                     "saved_object_attributes": {
-                                        "client_rect": [ 1886, 93, 2559, 1211 ],
+                                        "client_rect": [ 4, 44, 358, 172 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
                                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -2464,8 +2511,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 5,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2811,8 +2858,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 5,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2928,8 +2975,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 5,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3071,8 +3118,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 5,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3213,8 +3260,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 5,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3355,8 +3402,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 5,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3517,7 +3564,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 981.0, 4.0, 226.0, 35.0 ],
+                                    "patching_rect": [ 981.0, 4.0, 235.0, 35.0 ],
                                     "text": "Prototype Example"
                                 }
                             },
@@ -3529,7 +3576,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 5.0, 204.0, 129.0, 23.0 ],
+                                    "patching_rect": [ 5.0, 204.0, 153.0, 23.0 ],
                                     "text": "More information at "
                                 }
                             },
@@ -3553,7 +3600,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 130.0, 205.0, 287.0, 23.0 ],
+                                    "patching_rect": [ 130.0, 205.0, 331.0, 23.0 ],
                                     "text": " https://forum.ircam.fr/projects/detail/mubu/"
                                 }
                             },
@@ -3561,7 +3608,7 @@
                                 "box": {
                                     "annotation": " https://forum.ircam.fr/projemcts/detail/mubu/",
                                     "handoff": "",
-                                    "hltcolor": [ 0.657821949875413, 0.657821776867812, 0.657821821776255, 1.0 ],
+                                    "hltcolor": [ 1.0, 1.0, 1.0, 0.4 ],
                                     "id": "obj-43",
                                     "maxclass": "ubutton",
                                     "numinlets": 1,
@@ -3711,7 +3758,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 3.0, 3.0, 326.0, 37.0 ],
+                                    "patching_rect": [ 3.0, 3.0, 348.0, 37.0 ],
                                     "text": "Gestural Sound Toolkit V2 "
                                 }
                             },
