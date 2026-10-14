@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 93.0, 1396.0, 659.0 ],
+        "rect": [ 36.0, 102.0, 1396.0, 659.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -6153,8 +6153,8 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "jit_matrix", "bang", "" ],
-                    "patching_rect": [ 3640.5, 959.0, 631.0, 22.0 ],
-                    "text": "jit.world @enable 1 @floating 1 @rect 1159 809 1799 1169 @size 640. 360. @visible 0 @erase_color 0 0 0 0 @fps 1"
+                    "patching_rect": [ 3640.5, 959.0, 589.0, 22.0 ],
+                    "text": "jit.world @enable 1 @floating 1 @rect 1159 809 1799 1169 @size 640. 360. @visible 0 @erase_color 0 0 0 0"
                 }
             },
             {
@@ -6373,7 +6373,7 @@
                 "box": {
                     "autopopulate": 1,
                     "id": "obj-417",
-                    "items": "<empty>",
+                    "items": "mubu-README.txt",
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -6838,8 +6838,8 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 429.0, 343.0, 117.0, 22.0 ],
-                                    "text": "sprintf %s%s_%s.aif"
+                                    "patching_rect": [ 429.0, 343.0, 159.0, 22.0 ],
+                                    "text": "sprintf symout %s%s_%s.aif"
                                 }
                             },
                             {
@@ -8329,8 +8329,8 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 13.0, 343.0, 135.0, 22.0 ],
-                                    "text": "sprintf %s%s_%s.mubu"
+                                    "patching_rect": [ 13.0, 343.0, 177.0, 22.0 ],
+                                    "text": "sprintf symout %s%s_%s.mubu"
                                 }
                             },
                             {
@@ -8351,8 +8351,8 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 225.0, 343.0, 127.0, 22.0 ],
-                                    "text": "sprintf %s%s_%s.mov"
+                                    "patching_rect": [ 225.0, 343.0, 169.0, 22.0 ],
+                                    "text": "sprintf symout %s%s_%s.mov"
                                 }
                             },
                             {
@@ -8530,7 +8530,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-113", 1 ],
-                                    "midpoints": [ 641.5, 274.5, 288.5, 274.5 ],
+                                    "midpoints": [ 641.5, 274.5, 309.5, 274.5 ],
                                     "order": 2,
                                     "source": [ "obj-4", 0 ]
                                 }
@@ -8538,7 +8538,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-187", 1 ],
-                                    "midpoints": [ 641.5, 274.5, 80.5, 274.5 ],
+                                    "midpoints": [ 641.5, 274.5, 101.5, 274.5 ],
                                     "order": 3,
                                     "source": [ "obj-4", 0 ]
                                 }
@@ -8554,7 +8554,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-5", 1 ],
-                                    "midpoints": [ 641.5, 274.5, 487.5, 274.5 ],
+                                    "midpoints": [ 641.5, 274.5, 508.5, 274.5 ],
                                     "order": 1,
                                     "source": [ "obj-4", 0 ]
                                 }
@@ -8601,7 +8601,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-113", 2 ],
-                                    "midpoints": [ 136.5, 258.5, 342.5, 258.5 ],
+                                    "midpoints": [ 136.5, 258.5, 384.5, 258.5 ],
                                     "order": 2,
                                     "source": [ "obj-7", 0 ]
                                 }
@@ -8609,7 +8609,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-187", 2 ],
-                                    "midpoints": [ 136.5, 258.5, 138.5, 258.5 ],
+                                    "midpoints": [ 136.5, 258.5, 180.5, 258.5 ],
                                     "order": 3,
                                     "source": [ "obj-7", 0 ]
                                 }
@@ -8625,7 +8625,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-5", 2 ],
-                                    "midpoints": [ 136.5, 258.5, 536.5, 258.5 ],
+                                    "midpoints": [ 136.5, 258.5, 578.5, 258.5 ],
                                     "order": 1,
                                     "source": [ "obj-7", 0 ]
                                 }
@@ -8644,7 +8644,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
                     },
                     "patching_rect": [ 3780.0, 334.0, 153.0, 22.0 ],
                     "text": "p file-names"
@@ -13995,7 +13995,7 @@
                     "outputvalues": 0,
                     "outputviewname": 0,
                     "parameter_enable": 0,
-                    "patching_rect": [ 283.0, 386.0, 1109.0, 269.0 ],
+                    "patching_rect": [ 283.0, 386.0, 433.0, 268.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 86.0, 62.0, 1306.0, 593.0 ],
                     "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
@@ -14037,7 +14037,7 @@
                     "useplaceholders": 1,
                     "verbose": 1,
                     "vieworder": [ "default" ],
-                    "windresize": 1
+                    "windresize": 0
                 }
             },
             {
@@ -18722,6 +18722,6 @@
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
     }
 }
