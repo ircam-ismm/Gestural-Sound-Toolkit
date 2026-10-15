@@ -60,7 +60,56 @@
 		</inlet>
 	</inletlist>
 <!--OUTLETS-->
-
+<outletlist>
+		<outlet id="0" type="list">
+			<digest>
+				accelerometer [a1 a2 a3]
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</outlet>
+		<outlet id="1" type="list">
+			<digest>
+				gyroscope [g1 g2 g3]
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</outlet>
+		<outlet id="2" type="list">
+			<digest>
+				magnetometer [m1 m2 m3]
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</outlet>
+		<outlet id="3" type="list">
+			<digest>
+				gravity
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</outlet>
+		<outlet id="4" type="list">
+			<digest>
+				(re)sampling info
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</outlet>
+		<outlet id="5" type="list">
+			<digest>
+				All in One
+			</digest>
+			<description>
+				Gathers all the data (accelerometer, magnetometer, gyroscope...)
+			</description>
+		</outlet>
+	</outletlist>
 <!--ATTRIBUTES-->
 	
 <!--ARGUMENTS-->
