@@ -3,13 +3,13 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 3,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 637.0, 96.0, 1548.0, 489.0 ],
+        "rect": [ 34.0, 105.0, 782.0, 410.0 ],
         "openinpresentation": 1,
         "gridsize": [ 5.0, 5.0 ],
         "boxes": [
@@ -29,7 +29,7 @@
                 "box": {
                     "comment": "int. or ext. clock mess.",
                     "id": "obj-99",
-                    "index": 12,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -52,7 +52,7 @@
                 "box": {
                     "comment": "int. or ext. clock mess.",
                     "id": "obj-136",
-                    "index": 11,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -73,11 +73,11 @@
                 "box": {
                     "comment": "on/off",
                     "id": "obj-128",
-                    "index": 6,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 1264.0, 18.5, 30.0, 30.0 ]
                 }
             },
@@ -85,11 +85,11 @@
                 "box": {
                     "comment": "\"riot type\"",
                     "id": "obj-143",
-                    "index": 4,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 787.657471, 15.0, 30.0, 30.0 ]
                 }
             },
@@ -165,8 +165,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 3,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -661,7 +661,7 @@
                 "box": {
                     "comment": "OSC period (ms)",
                     "id": "obj-71",
-                    "index": 10,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -770,7 +770,7 @@
                 "box": {
                     "comment": "Button external",
                     "id": "obj-107",
-                    "index": 7,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1397,7 +1397,7 @@
                 "box": {
                     "comment": "on/off",
                     "id": "obj-48",
-                    "index": 5,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -1416,8 +1416,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 3,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1681,7 +1681,7 @@
                 "box": {
                     "comment": "Gyroscope data (3 dim)",
                     "id": "obj-43",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -1714,8 +1714,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 3,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1959,7 +1959,7 @@
                                     "maxclass": "inlet",
                                     "numinlets": 0,
                                     "numoutlets": 1,
-                                    "outlettype": [ "int" ],
+                                    "outlettype": [ "" ],
                                     "patching_rect": [ 265.0, 10.0, 25.0, 25.0 ]
                                 }
                             },
@@ -2365,7 +2365,7 @@
                 "box": {
                     "comment": "resampling [ms]",
                     "id": "obj-23",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2462,7 +2462,7 @@
                 "box": {
                     "comment": "Anlog outputs (dim 2)",
                     "id": "obj-2",
-                    "index": 8,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2486,7 +2486,7 @@
                 "box": {
                     "comment": "Port",
                     "id": "obj-45",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2498,7 +2498,7 @@
                 "box": {
                     "comment": "Device ID",
                     "id": "obj-44",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2576,7 +2576,7 @@
                 "box": {
                     "comment": "Sampling period",
                     "id": "obj-33",
-                    "index": 9,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2600,7 +2600,7 @@
                 "box": {
                     "comment": "Accelerometer data (3 dim)",
                     "id": "obj-31",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2611,7 +2611,7 @@
                 "box": {
                     "comment": "Magnetometer data (3 dim)",
                     "id": "obj-29",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2622,7 +2622,7 @@
                 "box": {
                     "comment": "Quaternions",
                     "id": "obj-28",
-                    "index": 4,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2633,7 +2633,7 @@
                 "box": {
                     "comment": "Euler angles",
                     "id": "obj-27",
-                    "index": 5,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2644,7 +2644,7 @@
                 "box": {
                     "comment": "Button onboard",
                     "id": "obj-26",
-                    "index": 6,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2869,6 +2869,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 390.393463, 233.0, 99.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "port": 8888
+                    },
                     "text": "udpreceive 8888"
                 }
             },
@@ -3537,6 +3540,7 @@
                 }
             }
         ],
-        "toolbaradditions": [ "s2n", "Modalys" ]
+        "autosave": 0,
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
     }
 }
