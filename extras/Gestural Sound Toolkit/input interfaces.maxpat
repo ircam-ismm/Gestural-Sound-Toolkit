@@ -152,7 +152,7 @@
             {
                 "box": {
                     "bgmode": 0,
-                    "border": 0,
+                    "border": 1,
                     "clickthrough": 0,
                     "enablehscroll": 0,
                     "enablevscroll": 0,
@@ -813,7 +813,7 @@
                 "patchline": {
                     "destination": [ "obj-24", 5 ],
                     "hidden": 1,
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-27", 0 ]
                 }
             },
@@ -821,7 +821,7 @@
                 "patchline": {
                     "destination": [ "obj-48", 5 ],
                     "hidden": 1,
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-27", 0 ]
                 }
             },
@@ -843,7 +843,7 @@
                 "patchline": {
                     "destination": [ "obj-24", 5 ],
                     "hidden": 1,
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-5", 0 ]
                 }
             },
@@ -851,7 +851,7 @@
                 "patchline": {
                     "destination": [ "obj-48", 5 ],
                     "hidden": 1,
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-5", 0 ]
                 }
             }
@@ -873,7 +873,7 @@
             "obj-16::obj-8::obj-6": [ "maxMonitor", "maxMonitor", 0 ],
             "obj-21::obj-16": [ "sample-period[2]", "sample-period", 0 ],
             "obj-21::obj-18": [ "zoom[1]", "zoom", 0 ],
-            "obj-23::obj-9": [ "8359-id-clock", "1104-id-clock", 0 ],
+            "obj-23::obj-9": [ "8359-id-clock", "1208-id-clock", 0 ],
             "obj-24::obj-111": [ "live.text[12]", "live.text", 0 ],
             "obj-24::obj-24": [ "trackNum", "trackNum", 0 ],
             "obj-24::obj-26": [ "autoIncr", "autoIncr", 0 ],

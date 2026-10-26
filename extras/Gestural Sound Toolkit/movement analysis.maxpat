@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 4,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -23,8 +23,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 4,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -268,7 +268,7 @@
                             }
                         ],
                         "lines": [],
-                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
                     },
                     "patching_rect": [ 16.0, 107.0, 92.0, 22.0 ],
                     "saved_object_attributes": {
@@ -288,8 +288,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 4,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -367,7 +367,7 @@
                                     "numinlets": 5,
                                     "numoutlets": 3,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "float", "int", "" ],
+                                    "outlettype": [ "float", "bang", "" ],
                                     "patching_rect": [ 167.0, 74.0, 130.0, 115.0 ],
                                     "varname": "gst.kick",
                                     "viewvisibility": 1
@@ -390,7 +390,7 @@
                             }
                         ],
                         "lines": [],
-                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
                     },
                     "patching_rect": [ 16.0, 184.0, 117.0, 22.0 ],
                     "saved_object_attributes": {
@@ -410,8 +410,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 4,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -499,7 +499,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 492.5, 240.0, 165.0, 94.0 ],
-                                    "presentation_linecount": 6,
                                     "text": "It computes the orienation, projection on the gravitation axis, combining the accelerometer and gyroscope data, suing the complementory filter"
                                 }
                             },
@@ -571,7 +570,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 4,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "", "", "" ],
+                                    "outlettype": [ "", "float", "float", "float" ],
                                     "patching_rect": [ 710.0, 110.0, 130.0, 115.0 ],
                                     "varname": "gst.angles",
                                     "viewvisibility": 1
@@ -668,7 +667,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
                     },
                     "patching_rect": [ 16.0, 158.0, 191.0, 22.0 ],
                     "saved_object_attributes": {
@@ -714,8 +713,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 4,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -724,7 +723,7 @@
                         "showontab": 1,
                         "boxes": [],
                         "lines": [],
-                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
                     },
                     "patching_rect": [ 16.0, 211.0, 50.0, 22.0 ],
                     "text": "p ?",
@@ -741,8 +740,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 4,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -816,7 +815,7 @@
                                     "numoutlets": 1,
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 712.0, 120.0, 159.0, 113.0 ],
+                                    "patching_rect": [ 712.0, 120.0, 160.0, 113.0 ],
                                     "varname": "_gst.movingaverage",
                                     "viewvisibility": 1
                                 }
@@ -833,7 +832,7 @@
                                     "lockedsize": 0,
                                     "maxclass": "bpatcher",
                                     "name": "gst.1euro.maxpat",
-                                    "numinlets": 5,
+                                    "numinlets": 6,
                                     "numoutlets": 1,
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "" ],
@@ -1131,7 +1130,7 @@
                             }
                         ],
                         "lines": [],
-                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
                     },
                     "patching_rect": [ 16.0, 132.0, 61.0, 22.0 ],
                     "saved_object_attributes": {
@@ -1151,8 +1150,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 4,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1609,7 +1608,7 @@
                                     "lockedsize": 0,
                                     "maxclass": "bpatcher",
                                     "name": "gst.1euro.maxpat",
-                                    "numinlets": 5,
+                                    "numinlets": 6,
                                     "numoutlets": 1,
                                     "offset": [ 0.0, 0.0 ],
                                     "outlettype": [ "" ],
@@ -1634,7 +1633,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 4,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "", "", "", "" ],
+                                    "outlettype": [ "", "float", "float", "float" ],
                                     "patching_rect": [ 488.0, 544.0, 130.0, 115.0 ],
                                     "varname": "gst.angles",
                                     "viewvisibility": 1
@@ -1814,7 +1813,7 @@
                                     "numinlets": 5,
                                     "numoutlets": 3,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "float", "int", "" ],
+                                    "outlettype": [ "float", "bang", "" ],
                                     "patching_rect": [ 157.0, 739.0, 129.5, 125.0 ],
                                     "varname": "gst.kick",
                                     "viewvisibility": 1
@@ -1867,7 +1866,7 @@
                                 }
                             }
                         ],
-                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+                        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
                     },
                     "patching_rect": [ 16.0, 82.0, 130.0, 22.0 ],
                     "saved_object_attributes": {
@@ -1904,24 +1903,25 @@
         "parameters": {
             "obj-10::obj-18::obj-34": [ "live.toggle[18]", "bypass", 0 ],
             "obj-10::obj-18::obj-37": [ "live.text[66]", "live.text", 0 ],
+            "obj-10::obj-18::obj-5::obj-12": [ "framerate[3]", "window size", 0 ],
             "obj-10::obj-18::obj-5::obj-15": [ "framerate[4]", "framerate", 0 ],
             "obj-10::obj-18::obj-5::obj-32": [ "maxMonitor[36]", "maxMonitor", 0 ],
             "obj-10::obj-18::obj-5::obj-33": [ "minMonitor[37]", "minMonitor", 0 ],
             "obj-10::obj-18::obj-5::obj-39": [ "bypass[14]", "bypass", 0 ],
             "obj-10::obj-18::obj-5::obj-42": [ "fcmin[2]", "fcmin", 0 ],
             "obj-10::obj-18::obj-5::obj-82": [ "beta[2]", "beta", 0 ],
-            "obj-10::obj-20::obj-3": [ "live.text[67]", "live.text", 0 ],
-            "obj-10::obj-20::obj-34": [ "live.toggle[19]", "bypass", 0 ],
-            "obj-10::obj-20::obj-8::obj-34": [ "maxMonitor[37]", "maxMonitor", 0 ],
-            "obj-10::obj-20::obj-8::obj-37": [ "minMonitor[38]", "minMonitor", 0 ],
-            "obj-10::obj-20::obj-8::obj-48": [ "size[3]", "maveragewindow", 0 ],
-            "obj-10::obj-20::obj-8::obj-7": [ "bypass[15]", "bypass", 0 ],
-            "obj-10::obj-21::obj-3": [ "live.text[60]", "live.text", 0 ],
-            "obj-10::obj-21::obj-34": [ "live.toggle[20]", "bypass", 0 ],
-            "obj-10::obj-21::obj-8::obj-34": [ "maxMonitor[38]", "maxMonitor", 0 ],
-            "obj-10::obj-21::obj-8::obj-37": [ "minMonitor[39]", "minMonitor", 0 ],
-            "obj-10::obj-21::obj-8::obj-48": [ "size[4]", "window size", 0 ],
-            "obj-10::obj-21::obj-8::obj-7": [ "bypass[16]", "bypass", 0 ],
+            "obj-10::obj-20::obj-3": [ "live.text[122]", "live.text", 0 ],
+            "obj-10::obj-20::obj-34": [ "live.toggle[30]", "bypass", 0 ],
+            "obj-10::obj-20::obj-8::obj-34": [ "maxMonitor[25]", "maxMonitor", 0 ],
+            "obj-10::obj-20::obj-8::obj-37": [ "minMonitor[25]", "minMonitor", 0 ],
+            "obj-10::obj-20::obj-8::obj-48": [ "size[5]", "maveragewindow", 0 ],
+            "obj-10::obj-20::obj-8::obj-7": [ "bypass[22]", "bypass", 0 ],
+            "obj-10::obj-21::obj-3": [ "live.text[123]", "live.text", 0 ],
+            "obj-10::obj-21::obj-34": [ "live.toggle[31]", "bypass", 0 ],
+            "obj-10::obj-21::obj-8::obj-34": [ "maxMonitor[30]", "maxMonitor", 0 ],
+            "obj-10::obj-21::obj-8::obj-37": [ "minMonitor[30]", "minMonitor", 0 ],
+            "obj-10::obj-21::obj-8::obj-48": [ "size[3]", "window size", 0 ],
+            "obj-10::obj-21::obj-8::obj-7": [ "bypass[23]", "bypass", 0 ],
             "obj-10::obj-27::obj-195::obj-125": [ "Q[1]", "Q", 0 ],
             "obj-10::obj-27::obj-195::obj-13": [ "minMonitor[14]", "minMonitor", 0 ],
             "obj-10::obj-27::obj-195::obj-14": [ "maxMonitor[14]", "maxMonitor", 0 ],
@@ -1986,12 +1986,14 @@
             "obj-12::obj-25::obj-195::obj-14": [ "maxMonitor[40]", "maxMonitor", 0 ],
             "obj-12::obj-25::obj-195::obj-26": [ "mode[3]", "mode", 0 ],
             "obj-12::obj-25::obj-195::obj-39": [ "bypass[6]", "bypass", 0 ],
+            "obj-12::obj-25::obj-195::obj-70": [ "clip[3]", "clip", 0 ],
             "obj-12::obj-25::obj-2": [ "live.toggle[14]", "bypass", 0 ],
             "obj-12::obj-25::obj-28": [ "live.text[111]", "live.text", 0 ],
             "obj-12::obj-25::obj-29": [ "live.text[110]", "live.text", 0 ],
             "obj-12::obj-25::obj-31": [ "live.text[113]", "live.text", 0 ],
             "obj-12::obj-25::obj-34": [ "live.toggle[13]", "bypass", 0 ],
             "obj-12::obj-25::obj-37": [ "live.text[112]", "live.text", 0 ],
+            "obj-12::obj-25::obj-87": [ "_clip[3]", "clip", 0 ],
             "obj-12::obj-26::obj-10::obj-32": [ "0-SclMin[22]", "SclMin-NB", 0 ],
             "obj-12::obj-26::obj-10::obj-33": [ "0-SclMax[21]", "SclMax-NB", 0 ],
             "obj-12::obj-26::obj-10::obj-58": [ "0-SclMax[22]", "SclMax-NB", 0 ],
@@ -2012,6 +2014,7 @@
             "obj-12::obj-26::obj-195::obj-62": [ "live.text[100]", "live.text", 0 ],
             "obj-12::obj-26::obj-195::obj-64": [ "mode[1]", "mode", 0 ],
             "obj-12::obj-26::obj-195::obj-68": [ "live.text[99]", "live.text", 0 ],
+            "obj-12::obj-26::obj-195::obj-70": [ "clip[1]", "clip", 0 ],
             "obj-12::obj-26::obj-24": [ "live.text[101]", "live.text", 0 ],
             "obj-12::obj-26::obj-28": [ "live.text[107]", "live.text", 0 ],
             "obj-12::obj-26::obj-29": [ "live.text[71]", "live.text", 0 ],
@@ -2023,6 +2026,7 @@
             "obj-12::obj-26::obj-62": [ "live.text[36]", "live.text", 0 ],
             "obj-12::obj-26::obj-68": [ "live.text[103]", "live.text", 0 ],
             "obj-12::obj-26::obj-80": [ "live.text[106]", "live.text", 0 ],
+            "obj-12::obj-26::obj-87": [ "_clip[1]", "clip", 0 ],
             "obj-12::obj-27::obj-195::obj-125": [ "Q", "Q", 0 ],
             "obj-12::obj-27::obj-195::obj-13": [ "minMonitor[5]", "minMonitor", 0 ],
             "obj-12::obj-27::obj-195::obj-14": [ "maxMonitor[5]", "maxMonitor", 0 ],
@@ -2104,16 +2108,19 @@
             "obj-12::obj-7::obj-195::obj-13": [ "minMonitor[40]", "minMonitor", 0 ],
             "obj-12::obj-7::obj-195::obj-14": [ "maxMonitor[39]", "maxMonitor", 0 ],
             "obj-12::obj-7::obj-195::obj-29": [ "mode[2]", "mode", 0 ],
+            "obj-12::obj-7::obj-195::obj-33": [ "clip[2]", "clip", 0 ],
             "obj-12::obj-7::obj-195::obj-39": [ "bypass[10]", "bypass", 0 ],
-            "obj-12::obj-7::obj-2": [ "live.toggle[11]", "bypass", 0 ],
+            "obj-12::obj-7::obj-2": [ "live.toggle[11]", "mode", 0 ],
             "obj-12::obj-7::obj-28": [ "live.text[109]", "live.text", 0 ],
             "obj-12::obj-7::obj-29": [ "live.text[68]", "live.text", 0 ],
             "obj-12::obj-7::obj-31": [ "live.text[108]", "live.text", 0 ],
             "obj-12::obj-7::obj-34": [ "live.toggle[12]", "bypass", 0 ],
             "obj-12::obj-7::obj-37": [ "live.text[27]", "live.text", 0 ],
+            "obj-12::obj-7::obj-9": [ "_clip[2]", "clip", 0 ],
             "obj-12::obj-85::obj-34": [ "live.toggle[3]", "bypass", 0 ],
             "obj-12::obj-85::obj-37": [ "live.text[59]", "live.text", 0 ],
-            "obj-12::obj-85::obj-5::obj-15": [ "framerate[1]", "framerate", 0 ],
+            "obj-12::obj-85::obj-5::obj-12": [ "framerate[1]", "window size", 0 ],
+            "obj-12::obj-85::obj-5::obj-15": [ "framerate[2]", "framerate", 0 ],
             "obj-12::obj-85::obj-5::obj-32": [ "maxMonitor[9]", "maxMonitor", 0 ],
             "obj-12::obj-85::obj-5::obj-33": [ "minMonitor[9]", "minMonitor", 0 ],
             "obj-12::obj-85::obj-5::obj-39": [ "bypass[3]", "bypass", 0 ],
@@ -2125,6 +2132,7 @@
             "obj-12::obj-8::obj-12::obj-33": [ "0-SclMax[2]", "SclMax-NB", 0 ],
             "obj-12::obj-8::obj-195::obj-13": [ "minMonitor[22]", "minMonitor", 0 ],
             "obj-12::obj-8::obj-195::obj-14": [ "maxMonitor[22]", "maxMonitor", 0 ],
+            "obj-12::obj-8::obj-195::obj-33": [ "clip", "clip", 0 ],
             "obj-12::obj-8::obj-195::obj-39": [ "bypass[4]", "bypass", 0 ],
             "obj-12::obj-8::obj-195::obj-50": [ "live.text[33]", "live.text", 0 ],
             "obj-12::obj-8::obj-195::obj-59": [ "live.text[31]", "live.text", 0 ],
@@ -2142,6 +2150,7 @@
             "obj-12::obj-8::obj-62": [ "live.text[34]", "live.text", 0 ],
             "obj-12::obj-8::obj-68": [ "live.text[35]", "live.text", 0 ],
             "obj-12::obj-8::obj-73": [ "live.toggle[4]", "bypass", 0 ],
+            "obj-12::obj-8::obj-86": [ "_clip", "clip", 0 ],
             "obj-14::obj-1::obj-195::obj-125": [ "compexp[1]", "compexp", 0 ],
             "obj-14::obj-1::obj-195::obj-13": [ "minMonitor[16]", "minMonitor", 0 ],
             "obj-14::obj-1::obj-195::obj-136": [ "live.menu[3]", "live.menu", 0 ],
@@ -2153,7 +2162,7 @@
             "obj-14::obj-1::obj-195::obj-151": [ "cliponoff[1]", "cliponoff", 0 ],
             "obj-14::obj-1::obj-195::obj-154": [ "clipmax[1]", "gain", 0 ],
             "obj-14::obj-1::obj-195::obj-31": [ "gatethresh[1]", "gatethresh", 0 ],
-            "obj-14::obj-1::obj-195::obj-42": [ "framerate[3]", "framerate", 0 ],
+            "obj-14::obj-1::obj-195::obj-42": [ "framerate[5]", "framerate", 0 ],
             "obj-14::obj-1::obj-195::obj-82": [ "fcut[1]", "fcut", 0 ],
             "obj-14::obj-1::obj-195::obj-86": [ "gain[7]", "gain", 0 ],
             "obj-14::obj-1::obj-37": [ "live.text[15]", "live.text", 0 ],
@@ -2206,6 +2215,7 @@
             "obj-1::obj-10::obj-195::obj-62": [ "live.text[78]", "live.text", 0 ],
             "obj-1::obj-10::obj-195::obj-64": [ "mode[5]", "mode", 0 ],
             "obj-1::obj-10::obj-195::obj-68": [ "live.text[76]", "live.text", 0 ],
+            "obj-1::obj-10::obj-195::obj-70": [ "clip[5]", "clip", 0 ],
             "obj-1::obj-10::obj-24": [ "live.text[80]", "live.text", 0 ],
             "obj-1::obj-10::obj-28": [ "live.text[91]", "live.text", 0 ],
             "obj-1::obj-10::obj-29": [ "live.text[92]", "live.text", 0 ],
@@ -2217,6 +2227,7 @@
             "obj-1::obj-10::obj-62": [ "live.text[82]", "live.text", 0 ],
             "obj-1::obj-10::obj-68": [ "live.text[81]", "live.text", 0 ],
             "obj-1::obj-10::obj-80": [ "live.text[88]", "live.text", 0 ],
+            "obj-1::obj-10::obj-87": [ "_clip[5]", "clip", 0 ],
             "obj-1::obj-25::obj-10::obj-32": [ "0-SclMin[35]", "SclMin-NB", 0 ],
             "obj-1::obj-25::obj-10::obj-33": [ "0-SclMax[34]", "SclMax-NB", 0 ],
             "obj-1::obj-25::obj-10::obj-58": [ "0-SclMax[35]", "SclMax-NB", 0 ],
@@ -2233,12 +2244,14 @@
             "obj-1::obj-25::obj-195::obj-14": [ "maxMonitor[42]", "maxMonitor", 0 ],
             "obj-1::obj-25::obj-195::obj-26": [ "mode[7]", "mode", 0 ],
             "obj-1::obj-25::obj-195::obj-39": [ "bypass[21]", "bypass", 0 ],
+            "obj-1::obj-25::obj-195::obj-70": [ "clip[7]", "clip", 0 ],
             "obj-1::obj-25::obj-2": [ "live.toggle[28]", "bypass", 0 ],
             "obj-1::obj-25::obj-28": [ "live.text[119]", "live.text", 0 ],
             "obj-1::obj-25::obj-29": [ "live.text[121]", "live.text", 0 ],
             "obj-1::obj-25::obj-31": [ "live.text[118]", "live.text", 0 ],
             "obj-1::obj-25::obj-34": [ "live.toggle[29]", "bypass", 0 ],
             "obj-1::obj-25::obj-37": [ "live.text[120]", "live.text", 0 ],
+            "obj-1::obj-25::obj-87": [ "_clip[7]", "clip", 0 ],
             "obj-1::obj-7::obj-10::obj-32": [ "0-SclMin[30]", "SclMin-NB", 0 ],
             "obj-1::obj-7::obj-10::obj-33": [ "0-SclMax[30]", "SclMax-NB", 0 ],
             "obj-1::obj-7::obj-12::obj-32": [ "0-SclMin[29]", "SclMin-NB", 0 ],
@@ -2246,19 +2259,22 @@
             "obj-1::obj-7::obj-195::obj-13": [ "minMonitor[42]", "minMonitor", 0 ],
             "obj-1::obj-7::obj-195::obj-14": [ "maxMonitor[41]", "maxMonitor", 0 ],
             "obj-1::obj-7::obj-195::obj-29": [ "mode[6]", "mode", 0 ],
+            "obj-1::obj-7::obj-195::obj-33": [ "clip[6]", "clip", 0 ],
             "obj-1::obj-7::obj-195::obj-39": [ "bypass[20]", "bypass", 0 ],
-            "obj-1::obj-7::obj-2": [ "live.toggle[26]", "bypass", 0 ],
+            "obj-1::obj-7::obj-2": [ "live.toggle[26]", "mode", 0 ],
             "obj-1::obj-7::obj-28": [ "live.text[117]", "live.text", 0 ],
             "obj-1::obj-7::obj-29": [ "live.text[116]", "live.text", 0 ],
             "obj-1::obj-7::obj-31": [ "live.text[114]", "live.text", 0 ],
             "obj-1::obj-7::obj-34": [ "live.toggle[27]", "bypass", 0 ],
             "obj-1::obj-7::obj-37": [ "live.text[115]", "live.text", 0 ],
+            "obj-1::obj-7::obj-9": [ "_clip[6]", "clip", 0 ],
             "obj-1::obj-8::obj-10::obj-32": [ "0-SclMin[5]", "SclMin-NB", 0 ],
             "obj-1::obj-8::obj-10::obj-33": [ "0-SclMax[5]", "SclMax-NB", 0 ],
             "obj-1::obj-8::obj-12::obj-32": [ "0-SclMin[4]", "SclMin-NB", 0 ],
             "obj-1::obj-8::obj-12::obj-33": [ "0-SclMax[4]", "SclMax-NB", 0 ],
             "obj-1::obj-8::obj-195::obj-13": [ "minMonitor[34]", "minMonitor", 0 ],
             "obj-1::obj-8::obj-195::obj-14": [ "maxMonitor[34]", "maxMonitor", 0 ],
+            "obj-1::obj-8::obj-195::obj-33": [ "clip[4]", "clip", 0 ],
             "obj-1::obj-8::obj-195::obj-39": [ "bypass[18]", "bypass", 0 ],
             "obj-1::obj-8::obj-195::obj-50": [ "live.text[49]", "live.text", 0 ],
             "obj-1::obj-8::obj-195::obj-59": [ "live.text[52]", "live.text", 0 ],
@@ -2276,6 +2292,7 @@
             "obj-1::obj-8::obj-62": [ "live.text[53]", "live.text", 0 ],
             "obj-1::obj-8::obj-68": [ "live.text[56]", "live.text", 0 ],
             "obj-1::obj-8::obj-73": [ "live.toggle[23]", "bypass", 0 ],
+            "obj-1::obj-8::obj-86": [ "_clip[4]", "clip", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -2290,6 +2307,9 @@
                 },
                 "obj-10::obj-18::obj-37": {
                     "parameter_longname": "live.text[66]"
+                },
+                "obj-10::obj-18::obj-5::obj-12": {
+                    "parameter_longname": "framerate[3]"
                 },
                 "obj-10::obj-18::obj-5::obj-15": {
                     "parameter_longname": "framerate[4]"
@@ -2310,40 +2330,40 @@
                     "parameter_longname": "beta[2]"
                 },
                 "obj-10::obj-20::obj-3": {
-                    "parameter_longname": "live.text[67]"
+                    "parameter_longname": "live.text[122]"
                 },
                 "obj-10::obj-20::obj-34": {
-                    "parameter_longname": "live.toggle[19]"
+                    "parameter_longname": "live.toggle[30]"
                 },
                 "obj-10::obj-20::obj-8::obj-34": {
-                    "parameter_longname": "maxMonitor[37]"
+                    "parameter_longname": "maxMonitor[25]"
                 },
                 "obj-10::obj-20::obj-8::obj-37": {
-                    "parameter_longname": "minMonitor[38]"
+                    "parameter_longname": "minMonitor[25]"
                 },
                 "obj-10::obj-20::obj-8::obj-48": {
-                    "parameter_longname": "size[3]"
+                    "parameter_longname": "size[5]"
                 },
                 "obj-10::obj-20::obj-8::obj-7": {
-                    "parameter_longname": "bypass[15]"
+                    "parameter_longname": "bypass[22]"
                 },
                 "obj-10::obj-21::obj-3": {
-                    "parameter_longname": "live.text[60]"
+                    "parameter_longname": "live.text[123]"
                 },
                 "obj-10::obj-21::obj-34": {
-                    "parameter_longname": "live.toggle[20]"
+                    "parameter_longname": "live.toggle[31]"
                 },
                 "obj-10::obj-21::obj-8::obj-34": {
-                    "parameter_longname": "maxMonitor[38]"
+                    "parameter_longname": "maxMonitor[30]"
                 },
                 "obj-10::obj-21::obj-8::obj-37": {
-                    "parameter_longname": "minMonitor[39]"
+                    "parameter_longname": "minMonitor[30]"
                 },
                 "obj-10::obj-21::obj-8::obj-48": {
-                    "parameter_longname": "size[4]"
+                    "parameter_longname": "size[3]"
                 },
                 "obj-10::obj-21::obj-8::obj-7": {
-                    "parameter_longname": "bypass[16]"
+                    "parameter_longname": "bypass[23]"
                 },
                 "obj-10::obj-27::obj-195::obj-125": {
                     "parameter_longname": "Q[1]"
@@ -2492,6 +2512,9 @@
                 "obj-12::obj-25::obj-195::obj-39": {
                     "parameter_longname": "bypass[6]"
                 },
+                "obj-12::obj-25::obj-195::obj-70": {
+                    "parameter_longname": "clip[3]"
+                },
                 "obj-12::obj-25::obj-2": {
                     "parameter_longname": "live.toggle[14]"
                 },
@@ -2509,6 +2532,9 @@
                 },
                 "obj-12::obj-25::obj-37": {
                     "parameter_longname": "live.text[112]"
+                },
+                "obj-12::obj-25::obj-87": {
+                    "parameter_longname": "_clip[3]"
                 },
                 "obj-12::obj-26::obj-10::obj-32": {
                     "parameter_longname": "0-SclMin[22]"
@@ -2570,6 +2596,9 @@
                 "obj-12::obj-26::obj-195::obj-68": {
                     "parameter_longname": "live.text[99]"
                 },
+                "obj-12::obj-26::obj-195::obj-70": {
+                    "parameter_longname": "clip[1]"
+                },
                 "obj-12::obj-26::obj-24": {
                     "parameter_longname": "live.text[101]"
                 },
@@ -2602,6 +2631,9 @@
                 },
                 "obj-12::obj-26::obj-80": {
                     "parameter_longname": "live.text[106]"
+                },
+                "obj-12::obj-26::obj-87": {
+                    "parameter_longname": "_clip[1]"
                 },
                 "obj-12::obj-27::obj-195::obj-13": {
                     "parameter_longname": "minMonitor[5]"
@@ -2801,6 +2833,9 @@
                 "obj-12::obj-7::obj-195::obj-29": {
                     "parameter_longname": "mode[2]"
                 },
+                "obj-12::obj-7::obj-195::obj-33": {
+                    "parameter_longname": "clip[2]"
+                },
                 "obj-12::obj-7::obj-195::obj-39": {
                     "parameter_longname": "bypass[10]"
                 },
@@ -2819,11 +2854,14 @@
                 "obj-12::obj-7::obj-34": {
                     "parameter_longname": "live.toggle[12]"
                 },
+                "obj-12::obj-7::obj-9": {
+                    "parameter_longname": "_clip[2]"
+                },
                 "obj-12::obj-85::obj-34": {
                     "parameter_longname": "live.toggle[3]"
                 },
                 "obj-12::obj-85::obj-5::obj-15": {
-                    "parameter_longname": "framerate[1]"
+                    "parameter_longname": "framerate[2]"
                 },
                 "obj-12::obj-85::obj-5::obj-32": {
                     "parameter_longname": "maxMonitor[9]"
@@ -2916,7 +2954,7 @@
                     "parameter_longname": "gatethresh[1]"
                 },
                 "obj-14::obj-1::obj-195::obj-42": {
-                    "parameter_longname": "framerate[3]"
+                    "parameter_longname": "framerate[5]"
                 },
                 "obj-14::obj-1::obj-195::obj-82": {
                     "parameter_longname": "fcut[1]"
@@ -3074,6 +3112,9 @@
                 "obj-1::obj-10::obj-195::obj-68": {
                     "parameter_longname": "live.text[76]"
                 },
+                "obj-1::obj-10::obj-195::obj-70": {
+                    "parameter_longname": "clip[5]"
+                },
                 "obj-1::obj-10::obj-24": {
                     "parameter_longname": "live.text[80]"
                 },
@@ -3106,6 +3147,9 @@
                 },
                 "obj-1::obj-10::obj-80": {
                     "parameter_longname": "live.text[88]"
+                },
+                "obj-1::obj-10::obj-87": {
+                    "parameter_longname": "_clip[5]"
                 },
                 "obj-1::obj-25::obj-10::obj-32": {
                     "parameter_longname": "0-SclMin[35]"
@@ -3155,6 +3199,9 @@
                 "obj-1::obj-25::obj-195::obj-39": {
                     "parameter_longname": "bypass[21]"
                 },
+                "obj-1::obj-25::obj-195::obj-70": {
+                    "parameter_longname": "clip[7]"
+                },
                 "obj-1::obj-25::obj-2": {
                     "parameter_longname": "live.toggle[28]"
                 },
@@ -3172,6 +3219,9 @@
                 },
                 "obj-1::obj-25::obj-37": {
                     "parameter_longname": "live.text[120]"
+                },
+                "obj-1::obj-25::obj-87": {
+                    "parameter_longname": "_clip[7]"
                 },
                 "obj-1::obj-7::obj-10::obj-32": {
                     "parameter_longname": "0-SclMin[30]"
@@ -3194,6 +3244,9 @@
                 "obj-1::obj-7::obj-195::obj-29": {
                     "parameter_longname": "mode[6]"
                 },
+                "obj-1::obj-7::obj-195::obj-33": {
+                    "parameter_longname": "clip[6]"
+                },
                 "obj-1::obj-7::obj-195::obj-39": {
                     "parameter_longname": "bypass[20]"
                 },
@@ -3215,6 +3268,9 @@
                 "obj-1::obj-7::obj-37": {
                     "parameter_longname": "live.text[115]"
                 },
+                "obj-1::obj-7::obj-9": {
+                    "parameter_longname": "_clip[6]"
+                },
                 "obj-1::obj-8::obj-10::obj-32": {
                     "parameter_longname": "0-SclMin[5]"
                 },
@@ -3232,6 +3288,9 @@
                 },
                 "obj-1::obj-8::obj-195::obj-14": {
                     "parameter_longname": "maxMonitor[34]"
+                },
+                "obj-1::obj-8::obj-195::obj-33": {
+                    "parameter_longname": "clip[4]"
                 },
                 "obj-1::obj-8::obj-195::obj-39": {
                     "parameter_longname": "bypass[18]"
@@ -3283,11 +3342,14 @@
                 },
                 "obj-1::obj-8::obj-73": {
                     "parameter_longname": "live.toggle[23]"
+                },
+                "obj-1::obj-8::obj-86": {
+                    "parameter_longname": "_clip[4]"
                 }
             },
             "inherited_shortname": 1
         },
         "autosave": 0,
-        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit" ]
+        "toolbaradditions": [ "s2n", "Modalys", "Gestural-Sound-Toolkit", "cursus" ]
     }
 }
